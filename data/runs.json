@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T16:19:17-05:00",
+ "generated_at": "2026-11-18T16:27:34-05:00",
  "runs": [
   {
    "id": "20261118-161736",
@@ -70,6 +70,53 @@
    },
    "git_sha": "f560c05",
    "run_url": "https://github.com/Daniel01010101010101/opportunities/actions/runs/44399899744"
+  },
+  {
+   "id": "20261118-162728",
+   "started_at": "2026-11-18T16:27:28-05:00",
+   "finished_at": "2026-11-18T16:27:34-05:00",
+   "duration_s": 6.4,
+   "trigger": "manual",
+   "category": "concursos",
+   "query": null,
+   "status": "sin_novedades",
+   "sources_checked": 7,
+   "sources_ok": 6,
+   "sources_failed": [],
+   "sources_skipped": [
+    {
+     "id": "brave-sorteos",
+     "reason": "requiere el secreto BRAVE_API_KEY"
+    }
+   ],
+   "new": 0,
+   "updated": 0,
+   "unchanged": 0,
+   "discarded": 2,
+   "discard_reasons": {
+    "noticia antigua (más de 30 días)": 2
+   },
+   "expired": 0,
+   "reverified": 0,
+   "archived": 0,
+   "http_requests": 6,
+   "robots_blocked": 0,
+   "errors": [],
+   "llm": {
+    "enabled": false,
+    "model": null,
+    "calls": 0,
+    "errors": 0,
+    "input_tokens": 0,
+    "output_tokens": 0
+   },
+   "alerts": {
+    "telegram": "no_configurado",
+    "email": "no_configurado",
+    "sent": 0
+   },
+   "git_sha": "470da95",
+   "run_url": "https://github.com/Daniel01010101010101/opportunities/actions/runs/44401605675"
   }
  ]
 }

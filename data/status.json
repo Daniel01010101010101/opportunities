@@ -1,6 +1,6 @@
 {
  "engine_version": "1.0.0",
- "generated_at": "2026-11-18T16:19:17-05:00",
+ "generated_at": "2026-11-18T16:27:34-05:00",
  "timezone": "America/Bogota",
  "schedule": {
   "cron_utc": "17 */2 * * *",
@@ -8,25 +8,25 @@
   "next_run_at": "2026-11-18T17:17:00-05:00"
  },
  "last_run": {
-  "id": "20261118-161736",
-  "started_at": "2026-11-18T16:17:36-05:00",
-  "finished_at": "2026-11-18T16:19:17-05:00",
-  "duration_s": 100.4,
-  "status": "ok",
-  "trigger": "push",
-  "new": 62,
+  "id": "20261118-162728",
+  "started_at": "2026-11-18T16:27:28-05:00",
+  "finished_at": "2026-11-18T16:27:34-05:00",
+  "duration_s": 6.4,
+  "status": "sin_novedades",
+  "trigger": "manual",
+  "new": 0,
   "updated": 0,
-  "discarded": 137,
-  "sources_checked": 51,
-  "sources_ok": 46,
-  "run_url": "https://github.com/Daniel01010101010101/opportunities/actions/runs/44399899744"
+  "discarded": 2,
+  "sources_checked": 7,
+  "sources_ok": 6,
+  "run_url": "https://github.com/Daniel01010101010101/opportunities/actions/runs/44401605675"
  },
- "last_success_at": "2026-11-18T16:19:17-05:00",
+ "last_success_at": "2026-11-18T16:27:34-05:00",
  "last_new_opportunity_at": "2026-11-18T16:19:15-05:00",
  "sources": {
   "configured": 51,
-  "checked_last_run": 51,
-  "ok_last_run": 46,
+  "checked_last_run": 7,
+  "ok_last_run": 6,
   "failed_last_run": 0,
   "discovered": 3,
   "with_errors": 0
@@ -67,5 +67,5 @@
   "telegram": false,
   "email": false
  },
- "message": "Búsqueda completada: 62 nuevas y 0 actualizadas."
+ "message": "La búsqueda terminó sin novedades: no se encontraron oportunidades nuevas en esta ejecución."
 }

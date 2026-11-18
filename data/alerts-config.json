@@ -1,0 +1,13 @@
+{
+  "enabled": true,
+  "channels": {"telegram": true, "email": true},
+  "min_priority": 70,
+  "sections": ["concursos", "bonos", "ofertas", "estado"],
+  "categories": [],
+  "only_free": false,
+  "notify_new_high_priority": true,
+  "notify_expiring_hours": 24,
+  "notify_gasoline": true,
+  "notify_opening_calls": true,
+  "max_per_run": 10
+}
