@@ -105,6 +105,7 @@ export interface RunRecord {
   expired: number
   reverified: number
   archived: number
+  purged?: number
   http_requests: number
   robots_blocked: number
   errors: string[]

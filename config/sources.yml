@@ -22,7 +22,7 @@ defaults:
 # Máximo de fuentes de cada tipo por ejecución (las que llevan más tiempo sin consultarse van primero).
 limits:
   bing_news: 40
-  gdelt: 4
+  gdelt: 2   # GDELT limita mucho las consultas (429 / cierres de conexión)
   news_feed: 40
   wp_search: 24
   google_cse: 6
@@ -117,10 +117,10 @@ sources:
   - {id: bn-app-registro, type: bing_news, name: "Noticias · premios por registrarse", query: "regístrate y gana premio app Colombia", every_hours: 12, hints: {section: bonos, category: registro}}
 
   # ------------------------------------------------------------------ GDELT (solo medios colombianos)
-  - {id: gd-sorteos, type: gdelt, name: "GDELT · sorteos en medios colombianos", query: "sorteo sourcecountry:colombia", every_hours: 4, hints: {section: concursos}}
-  - {id: gd-concursos, type: gdelt, name: "GDELT · concursos en medios colombianos", query: "concurso participa sourcecountry:colombia", every_hours: 4, hints: {section: concursos}}
-  - {id: gd-gana, type: gdelt, name: "GDELT · «gana» en medios colombianos", query: "\"podrá ganar\" sourcecountry:colombia", every_hours: 6, hints: {section: concursos}}
-  - {id: gd-convocatorias, type: gdelt, name: "GDELT · convocatorias en medios colombianos", query: "convocatoria inscripciones sourcecountry:colombia", every_hours: 6, hints: {section: estado}}
+  - {id: gd-sorteos, type: gdelt, name: "GDELT · sorteos en medios colombianos", query: "sorteo sourcecountry:colombia", every_hours: 12, hints: {section: concursos}}
+  - {id: gd-concursos, type: gdelt, name: "GDELT · concursos en medios colombianos", query: "concurso participa sourcecountry:colombia", every_hours: 12, hints: {section: concursos}}
+  - {id: gd-gana, type: gdelt, name: "GDELT · «gana» en medios colombianos", query: "\"podrá ganar\" sourcecountry:colombia", every_hours: 24, hints: {section: concursos}}
+  - {id: gd-convocatorias, type: gdelt, name: "GDELT · convocatorias en medios colombianos", query: "convocatoria inscripciones sourcecountry:colombia", every_hours: 24, hints: {section: estado}}
 
   # ------------------------------------------------------------------ Feeds generales de medios colombianos
   # Se revisan las últimas ~100 notas de cada medio y solo pasan los títulos de convocatorias abiertas

@@ -265,3 +265,8 @@ def test_headline_brand_organizer():
     from radar.pipeline import HEADLINE_BRAND
     assert HEADLINE_BRAND.match("OPPO lanza convocatoria de fotografía móvil").group(1) == "OPPO"
     assert HEADLINE_BRAND.match("GIGABYTE y NVIDIA habilitan convocatoria").group(1) == "GIGABYTE y NVIDIA"
+
+
+def test_award_news_is_not_open_call():
+    assert not is_open_call_title("Consultora colombiana Clave gana premio Reed Latino 2026 como agencia del año")
+    assert is_open_call_title("Gana un premio de $5 millones con tu mejor foto")

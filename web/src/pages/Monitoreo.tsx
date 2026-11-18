@@ -45,7 +45,7 @@ function RunRow({ r }: { r: RunRecord }) {
               <div>
                 <div className="label mb-1">Resumen</div>
                 <div>Peticiones HTTP: {r.http_requests} · bloqueadas por robots.txt: {r.robots_blocked}</div>
-                <div>Re-verificadas: {r.reverified} · vencidas: {r.expired} · archivadas: {r.archived}</div>
+                <div>Re-verificadas: {r.reverified} · vencidas: {r.expired} · archivadas: {r.archived} · depuradas: {r.purged ?? 0}</div>
                 <div>IA: {r.llm?.enabled ? `${r.llm.calls} llamadas (${r.llm.model})` : 'no configurada'}</div>
                 {r.run_url && <a href={r.run_url} target="_blank" rel="noopener noreferrer" className="text-brand hover:underline">Ver en GitHub Actions</a>}
               </div>

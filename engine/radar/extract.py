@@ -454,7 +454,8 @@ WINNERS_TITLE = re.compile(
     r"recibir[aá] por ganar|\bfue premiad|\bpremiaron\b|\bse impuso\b|campe[oó]n(a|es)? (de|del)|resultados? (del|de la) (concurso|sorteo)|"
     r"se(ñ|n)orita colombia|reinado|concurso (nacional )?de belleza|miss (universo|colombia|world)|corona de|finalistas|"
     r"\b\w+ gana (el|la|por|su|primer|segundo|tercer|medalla|oro|plata|bronce)\b|lleg[oó] a la final|llegan a la final|obtuvo|conquist[oó]|"
-    r"premiados|galardonad|homenaje|as[ií] naci[oó]|megamillions|powerball|euromillones)",
+    r"premiados|galardonad|homenaje|as[ií] naci[oó]|megamillions|powerball|euromillones|"
+    r"\w \w+ gana (el |un |la )?(premio|reconocimiento|galard[oó]n|distinci[oó]n|concurso|certamen))",
     re.I,
 )
 

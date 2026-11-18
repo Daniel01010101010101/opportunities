@@ -294,8 +294,12 @@ class Radar:
                 if WINNERS_TITLE.search(c.title or ""):
                     self._discard(cu, "nota sobre ganadores o resultados, no es una convocatoria abierta")
                     continue
+                open_call = is_open_call_title(c.title)
+                if (c.hints or {}).get("section") == "concursos" and not open_call and c.source_type in ("bing_news", "gdelt"):
+                    self._discard(cu, "búsqueda de concursos: el título no anuncia una convocatoria abierta")
+                    continue
                 pub = parse_iso(c.published)
-                window = 90 if is_open_call_title(c.title) else 30
+                window = 90 if open_call else 30
                 if pub and now() - pub > timedelta(days=window):
                     self._discard(cu, f"noticia antigua (más de {window} días)")
                     continue
@@ -606,6 +610,25 @@ class Radar:
         return "sin_cambios"
 
     # ------------------------------------------------------------------ fase 5: mantenimiento de existentes
+    def revalidate(self) -> int:
+        """Aplica las reglas vigentes a lo ya guardado: si una nota de prensa ya no pasa los filtros
+        (ganadores/premiaciones, o «concurso» sin convocatoria abierta), sale de la base."""
+        keep, removed = [], 0
+        for it in self.store.items:
+            title = it.get("title", "")
+            news_only = not (it.get("verification") or {}).get("official_domain") and \
+                all(src.get("type") != "official" for src in it.get("sources") or [])
+            bad = news_only and (WINNERS_TITLE.search(title) or (it.get("section") == "concursos" and not is_open_call_title(title)
+                                                                 and not it.get("steps")))
+            if bad:
+                removed += 1
+                for src in it.get("sources") or []:
+                    self.store.reject(canonical_url(src.get("url", "")), "depurada al aplicar los filtros vigentes")
+            else:
+                keep.append(it)
+        self.store.items = keep
+        return removed
+
     def maintain(self) -> dict:
         stats = {"reverified": 0, "expired": 0, "withdrawn": 0}
         stale = sorted(
@@ -700,7 +723,9 @@ class Radar:
                     if res == "nueva":
                         per_source_new[c.source_id] = per_source_new.get(c.source_id, 0) + 1
         self.store.items = index.items
+        purged = self.revalidate()
         maint = self.maintain()
+        maint["purged"] = purged
         archived = self.store.archive_old()
         alerts = {"sent": 0}
         try:
@@ -756,6 +781,7 @@ class Radar:
             "expired": maint["expired"],
             "reverified": maint["reverified"],
             "archived": archived,
+            "purged": maint.get("purged", 0),
             "http_requests": self.http.count,
             "robots_blocked": self.http.robots_blocked,
             "errors": self.errors[:30],
