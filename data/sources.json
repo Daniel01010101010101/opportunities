@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T17:22:56-05:00",
+ "generated_at": "2026-11-18T17:29:14-05:00",
  "sources": [
   {
    "last_run_at": "2026-11-18T16:19:17-05:00",
@@ -122,14 +122,14 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T16:27:34-05:00",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
    "last_status": "ok",
    "last_error": null,
-   "last_items": 5,
-   "last_ms": 348,
-   "last_ok_at": "2026-11-18T16:27:34-05:00",
+   "last_items": 4,
+   "last_ms": 3872,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
    "consecutive_failures": 0,
-   "total_items": 9,
+   "total_items": 13,
    "new_last_run": 0,
    "total_new": 0,
    "id": "bn-sorteo-carro",
@@ -147,14 +147,14 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T16:27:34-05:00",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
    "last_status": "ok",
    "last_error": null,
    "last_items": 2,
-   "last_ms": 1434,
-   "last_ok_at": "2026-11-18T16:27:34-05:00",
+   "last_ms": 343,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
    "consecutive_failures": 0,
-   "total_items": 4,
+   "total_items": 6,
    "new_last_run": 0,
    "total_new": 0,
    "id": "bn-sorteo-moto",
@@ -172,14 +172,14 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T16:27:34-05:00",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
    "last_status": "ok",
    "last_error": null,
    "last_items": 3,
-   "last_ms": 2700,
-   "last_ok_at": "2026-11-18T16:27:34-05:00",
+   "last_ms": 6326,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
    "consecutive_failures": 0,
-   "total_items": 6,
+   "total_items": 9,
    "new_last_run": 0,
    "total_new": 0,
    "id": "bn-concurso-dinero",
@@ -197,14 +197,14 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T16:27:34-05:00",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
    "last_status": "ok",
    "last_error": null,
    "last_items": 3,
-   "last_ms": 3838,
-   "last_ok_at": "2026-11-18T16:27:34-05:00",
+   "last_ms": 2693,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
    "consecutive_failures": 0,
-   "total_items": 6,
+   "total_items": 9,
    "new_last_run": 0,
    "total_new": 0,
    "id": "bn-sorteo-viaje",
@@ -222,14 +222,14 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T16:27:34-05:00",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
    "last_status": "ok",
    "last_error": null,
    "last_items": 1,
-   "last_ms": 5004,
-   "last_ok_at": "2026-11-18T16:27:34-05:00",
+   "last_ms": 1571,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
    "consecutive_failures": 0,
-   "total_items": 2,
+   "total_items": 3,
    "new_last_run": 0,
    "total_new": 0,
    "id": "bn-concurso-gratis",
@@ -246,14 +246,14 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T16:27:34-05:00",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
    "last_status": "ok",
    "last_error": null,
-   "last_items": 1,
-   "last_ms": 6276,
-   "last_ok_at": "2026-11-18T16:27:34-05:00",
+   "last_items": 3,
+   "last_ms": 5218,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
    "consecutive_failures": 0,
-   "total_items": 1,
+   "total_items": 4,
    "new_last_run": 0,
    "total_new": 0,
    "id": "bn-sorteo-tecnologia",
@@ -762,13 +762,13 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T17:22:56-05:00",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
    "last_status": "error",
-   "last_error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+   "last_error": "GDELT limitó la consulta (429); se reintentará en la próxima ejecución",
    "last_items": 0,
-   "last_ms": 27640,
+   "last_ms": 29235,
    "last_ok_at": "2026-11-18T16:19:17-05:00",
-   "consecutive_failures": 1,
+   "consecutive_failures": 2,
    "total_items": 0,
    "new_last_run": 0,
    "total_new": 0,
@@ -778,7 +778,7 @@
    "url": null,
    "query": "sorteo sourcecountry:colombia",
    "trust": "news",
-   "every_hours": 4,
+   "every_hours": 12,
    "organizer": null,
    "hints": {
     "section": "concursos"
@@ -786,12 +786,12 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T17:22:56-05:00",
-   "last_status": "error",
-   "last_error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
    "last_items": 0,
-   "last_ms": 38035,
-   "consecutive_failures": 1,
+   "last_ms": 18521,
+   "consecutive_failures": 0,
    "new_last_run": 0,
    "total_new": 0,
    "id": "gd-concursos",
@@ -800,21 +800,23 @@
    "url": null,
    "query": "concurso participa sourcecountry:colombia",
    "trust": "news",
-   "every_hours": 4,
+   "every_hours": 12,
    "organizer": null,
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "total_items": 0
   },
   {
-   "last_run_at": "2026-11-18T17:22:56-05:00",
-   "last_status": "ok",
-   "last_error": null,
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "error",
+   "last_error": "GDELT limitó la consulta (429); se reintentará en la próxima ejecución",
    "last_items": 0,
-   "last_ms": 37983,
+   "last_ms": 31679,
    "last_ok_at": "2026-11-18T17:22:56-05:00",
-   "consecutive_failures": 0,
+   "consecutive_failures": 1,
    "total_items": 0,
    "new_last_run": 0,
    "total_new": 0,
@@ -824,7 +826,7 @@
    "url": null,
    "query": "\"podrá ganar\" sourcecountry:colombia",
    "trust": "news",
-   "every_hours": 6,
+   "every_hours": 24,
    "organizer": null,
    "hints": {
     "section": "concursos"
@@ -848,7 +850,7 @@
    "url": null,
    "query": "convocatoria inscripciones sourcecountry:colombia",
    "trust": "news",
-   "every_hours": 6,
+   "every_hours": 24,
    "organizer": null,
    "hints": {
     "section": "estado"
@@ -856,12 +858,12 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T17:22:56-05:00",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
    "last_status": "ok",
    "last_error": null,
    "last_items": 0,
-   "last_ms": 2398,
-   "last_ok_at": "2026-11-18T17:22:56-05:00",
+   "last_ms": 409,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
    "consecutive_failures": 0,
    "total_items": 0,
    "new_last_run": 0,
@@ -878,12 +880,12 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T17:22:56-05:00",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
    "last_status": "ok",
    "last_error": null,
    "last_items": 0,
-   "last_ms": 1392,
-   "last_ok_at": "2026-11-18T17:22:56-05:00",
+   "last_ms": 542,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
    "consecutive_failures": 0,
    "total_items": 0,
    "new_last_run": 0,
@@ -900,12 +902,12 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T17:22:56-05:00",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
    "last_status": "ok",
    "last_error": null,
    "last_items": 0,
-   "last_ms": 162,
-   "last_ok_at": "2026-11-18T17:22:56-05:00",
+   "last_ms": 86,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
    "consecutive_failures": 0,
    "total_items": 0,
    "new_last_run": 0,
@@ -922,12 +924,12 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T17:22:56-05:00",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
    "last_status": "ok",
    "last_error": null,
    "last_items": 0,
-   "last_ms": 1280,
-   "last_ok_at": "2026-11-18T17:22:56-05:00",
+   "last_ms": 1128,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
    "consecutive_failures": 0,
    "total_items": 0,
    "new_last_run": 0,
@@ -944,15 +946,15 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T17:22:56-05:00",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
    "last_status": "ok",
    "last_error": null,
    "last_items": 1,
-   "last_ms": 2936,
-   "last_ok_at": "2026-11-18T17:22:56-05:00",
+   "last_ms": 1308,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
    "consecutive_failures": 0,
-   "total_items": 1,
-   "new_last_run": 1,
+   "total_items": 2,
+   "new_last_run": 0,
    "total_new": 1,
    "id": "nf-elheraldo",
    "name": "El Heraldo (feed)",
@@ -966,14 +968,14 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T17:22:56-05:00",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
    "last_status": "ok",
    "last_error": null,
    "last_items": 2,
-   "last_ms": 1875,
-   "last_ok_at": "2026-11-18T17:22:56-05:00",
+   "last_ms": 798,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
    "consecutive_failures": 0,
-   "total_items": 2,
+   "total_items": 4,
    "new_last_run": 0,
    "total_new": 0,
    "id": "nf-elpais",
@@ -988,13 +990,13 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T17:22:56-05:00",
-   "last_status": "ok",
-   "last_error": null,
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "error",
+   "last_error": "HTTP 500",
    "last_items": 0,
-   "last_ms": 2198,
+   "last_ms": 10314,
    "last_ok_at": "2026-11-18T17:22:56-05:00",
-   "consecutive_failures": 0,
+   "consecutive_failures": 1,
    "total_items": 0,
    "new_last_run": 0,
    "total_new": 0,
@@ -1010,14 +1012,14 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T17:22:56-05:00",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
    "last_status": "ok",
    "last_error": null,
    "last_items": 1,
-   "last_ms": 4144,
-   "last_ok_at": "2026-11-18T17:22:56-05:00",
+   "last_ms": 1504,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
    "consecutive_failures": 0,
-   "total_items": 1,
+   "total_items": 2,
    "new_last_run": 0,
    "total_new": 0,
    "id": "nf-vanguardia",
@@ -1032,12 +1034,12 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T17:22:56-05:00",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
    "last_status": "ok",
    "last_error": null,
    "last_items": 0,
-   "last_ms": 3844,
-   "last_ok_at": "2026-11-18T17:22:56-05:00",
+   "last_ms": 1128,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
    "consecutive_failures": 0,
    "total_items": 0,
    "new_last_run": 0,
@@ -1054,15 +1056,15 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T17:22:56-05:00",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
    "last_status": "ok",
    "last_error": null,
    "last_items": 1,
-   "last_ms": 3110,
-   "last_ok_at": "2026-11-18T17:22:56-05:00",
+   "last_ms": 2105,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
    "consecutive_failures": 0,
-   "total_items": 1,
-   "new_last_run": 1,
+   "total_items": 2,
+   "new_last_run": 0,
    "total_new": 1,
    "id": "nf-infobae",
    "name": "Infobae Colombia (feed)",
@@ -1076,12 +1078,12 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T17:22:56-05:00",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
    "last_status": "ok",
    "last_error": null,
    "last_items": 0,
-   "last_ms": 225,
-   "last_ok_at": "2026-11-18T17:22:56-05:00",
+   "last_ms": 256,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
    "consecutive_failures": 0,
    "total_items": 0,
    "new_last_run": 0,
@@ -1098,12 +1100,12 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T17:22:56-05:00",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
    "last_status": "ok",
    "last_error": null,
    "last_items": 0,
-   "last_ms": 275,
-   "last_ok_at": "2026-11-18T17:22:56-05:00",
+   "last_ms": 338,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
    "consecutive_failures": 0,
    "total_items": 0,
    "new_last_run": 0,
@@ -1120,12 +1122,12 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T17:22:56-05:00",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
    "last_status": "ok",
    "last_error": null,
    "last_items": 0,
-   "last_ms": 3207,
-   "last_ok_at": "2026-11-18T17:22:56-05:00",
+   "last_ms": 6844,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
    "consecutive_failures": 0,
    "total_items": 0,
    "new_last_run": 0,
@@ -1142,12 +1144,12 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T17:22:56-05:00",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
    "last_status": "ok",
    "last_error": null,
    "last_items": 0,
-   "last_ms": 2003,
-   "last_ok_at": "2026-11-18T17:22:56-05:00",
+   "last_ms": 865,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
    "consecutive_failures": 0,
    "total_items": 0,
    "new_last_run": 0,
@@ -1164,12 +1166,12 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T17:22:56-05:00",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
    "last_status": "ok",
    "last_error": null,
    "last_items": 0,
-   "last_ms": 1249,
-   "last_ok_at": "2026-11-18T17:22:56-05:00",
+   "last_ms": 274,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
    "consecutive_failures": 0,
    "total_items": 0,
    "new_last_run": 0,
@@ -1186,14 +1188,14 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T17:22:56-05:00",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
    "last_status": "ok",
    "last_error": null,
    "last_items": 1,
-   "last_ms": 2589,
-   "last_ok_at": "2026-11-18T17:22:56-05:00",
+   "last_ms": 1577,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
    "consecutive_failures": 0,
-   "total_items": 1,
+   "total_items": 2,
    "new_last_run": 0,
    "total_new": 0,
    "id": "nf-vibra",
@@ -1208,12 +1210,12 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T17:22:56-05:00",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
    "last_status": "ok",
    "last_error": null,
    "last_items": 0,
-   "last_ms": 3015,
-   "last_ok_at": "2026-11-18T17:22:56-05:00",
+   "last_ms": 1290,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
    "consecutive_failures": 0,
    "total_items": 0,
    "new_last_run": 0,
@@ -1232,12 +1234,12 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T17:22:56-05:00",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
    "last_status": "ok",
    "last_error": null,
    "last_items": 0,
-   "last_ms": 2296,
-   "last_ok_at": "2026-11-18T17:22:56-05:00",
+   "last_ms": 356,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
    "consecutive_failures": 0,
    "total_items": 0,
    "new_last_run": 0,
@@ -1254,12 +1256,12 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T17:22:56-05:00",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
    "last_status": "ok",
    "last_error": null,
    "last_items": 0,
-   "last_ms": 1251,
-   "last_ok_at": "2026-11-18T17:22:56-05:00",
+   "last_ms": 873,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
    "consecutive_failures": 0,
    "total_items": 0,
    "new_last_run": 0,
@@ -1276,12 +1278,12 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T17:22:56-05:00",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
    "last_status": "ok",
    "last_error": null,
    "last_items": 0,
-   "last_ms": 1790,
-   "last_ok_at": "2026-11-18T17:22:56-05:00",
+   "last_ms": 1674,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
    "consecutive_failures": 0,
    "total_items": 0,
    "new_last_run": 0,
@@ -1298,14 +1300,14 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T17:22:56-05:00",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
    "last_status": "ok",
    "last_error": null,
    "last_items": 1,
-   "last_ms": 1937,
-   "last_ok_at": "2026-11-18T17:22:56-05:00",
+   "last_ms": 756,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
    "consecutive_failures": 0,
-   "total_items": 1,
+   "total_items": 2,
    "new_last_run": 0,
    "total_new": 0,
    "id": "nf-colombiacom",
@@ -1320,12 +1322,12 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T17:22:56-05:00",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
    "last_status": "ok",
    "last_error": null,
    "last_items": 0,
-   "last_ms": 756,
-   "last_ok_at": "2026-11-18T17:22:56-05:00",
+   "last_ms": 454,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
    "consecutive_failures": 0,
    "total_items": 0,
    "new_last_run": 0,
@@ -1344,15 +1346,15 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T17:22:56-05:00",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
    "last_status": "ok",
    "last_error": null,
    "last_items": 1,
-   "last_ms": 3320,
-   "last_ok_at": "2026-11-18T17:22:56-05:00",
+   "last_ms": 3044,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
    "consecutive_failures": 0,
-   "total_items": 1,
-   "new_last_run": 1,
+   "total_items": 2,
+   "new_last_run": 0,
    "total_new": 1,
    "id": "wp-demotos",
    "name": "La Revista De Motos",
@@ -1368,12 +1370,12 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T17:22:56-05:00",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
    "last_status": "ok",
    "last_error": null,
    "last_items": 0,
-   "last_ms": 4070,
-   "last_ok_at": "2026-11-18T17:22:56-05:00",
+   "last_ms": 3080,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
    "consecutive_failures": 0,
    "total_items": 0,
    "new_last_run": 0,
@@ -1392,15 +1394,15 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T17:22:56-05:00",
-   "last_status": "ok",
-   "last_error": null,
-   "last_items": 2,
-   "last_ms": 4017,
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "error",
+   "last_error": "respuesta no válida de la API de WordPress; respuesta no válida de la API de WordPress",
+   "last_items": 0,
+   "last_ms": 3465,
    "last_ok_at": "2026-11-18T17:22:56-05:00",
-   "consecutive_failures": 0,
+   "consecutive_failures": 1,
    "total_items": 2,
-   "new_last_run": 1,
+   "new_last_run": 0,
    "total_new": 1,
    "id": "wp-tecnogus",
    "name": "Tecnogus",
@@ -1416,12 +1418,12 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T17:22:56-05:00",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
    "last_status": "ok",
    "last_error": null,
    "last_items": 0,
-   "last_ms": 3174,
-   "last_ok_at": "2026-11-18T17:22:56-05:00",
+   "last_ms": 3214,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
    "consecutive_failures": 0,
    "total_items": 0,
    "new_last_run": 0,
@@ -1438,14 +1440,14 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T17:22:56-05:00",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
    "last_status": "ok",
    "last_error": null,
    "last_items": 1,
-   "last_ms": 3176,
-   "last_ok_at": "2026-11-18T17:22:56-05:00",
+   "last_ms": 3309,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
    "consecutive_failures": 0,
-   "total_items": 1,
+   "total_items": 2,
    "new_last_run": 0,
    "total_new": 0,
    "id": "wp-enter",
@@ -1462,12 +1464,12 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T17:22:56-05:00",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
    "last_status": "ok",
    "last_error": null,
    "last_items": 0,
-   "last_ms": 3024,
-   "last_ok_at": "2026-11-18T17:22:56-05:00",
+   "last_ms": 3055,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
    "consecutive_failures": 0,
    "total_items": 0,
    "new_last_run": 0,
@@ -1486,15 +1488,15 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T17:22:56-05:00",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
    "last_status": "ok",
    "last_error": null,
    "last_items": 4,
-   "last_ms": 2889,
-   "last_ok_at": "2026-11-18T17:22:56-05:00",
+   "last_ms": 3067,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
    "consecutive_failures": 0,
-   "total_items": 4,
-   "new_last_run": 2,
+   "total_items": 8,
+   "new_last_run": 0,
    "total_new": 2,
    "id": "wp-colombinews",
    "name": "Colombinews",
@@ -1508,13 +1510,13 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T17:22:56-05:00",
-   "last_status": "ok",
-   "last_error": null,
-   "last_items": 1,
-   "last_ms": 2469,
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "error",
+   "last_error": "respuesta no válida de la API de WordPress; respuesta no válida de la API de WordPress",
+   "last_items": 0,
+   "last_ms": 1697,
    "last_ok_at": "2026-11-18T17:22:56-05:00",
-   "consecutive_failures": 0,
+   "consecutive_failures": 1,
    "total_items": 1,
    "new_last_run": 0,
    "total_new": 0,
@@ -1530,12 +1532,12 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T17:22:56-05:00",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
    "last_status": "ok",
    "last_error": null,
    "last_items": 0,
-   "last_ms": 18274,
-   "last_ok_at": "2026-11-18T17:22:56-05:00",
+   "last_ms": 3304,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
    "consecutive_failures": 0,
    "total_items": 0,
    "new_last_run": 0,
@@ -1552,12 +1554,12 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T17:22:56-05:00",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
    "last_status": "ok",
    "last_error": null,
    "last_items": 0,
-   "last_ms": 2149,
-   "last_ok_at": "2026-11-18T17:22:56-05:00",
+   "last_ms": 2233,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
    "consecutive_failures": 0,
    "total_items": 0,
    "new_last_run": 0,
@@ -1574,12 +1576,12 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T17:22:56-05:00",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
    "last_status": "ok",
    "last_error": null,
    "last_items": 0,
-   "last_ms": 3035,
-   "last_ok_at": "2026-11-18T17:22:56-05:00",
+   "last_ms": 3192,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
    "consecutive_failures": 0,
    "total_items": 0,
    "new_last_run": 0,
@@ -1596,12 +1598,12 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T17:22:56-05:00",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
    "last_status": "ok",
    "last_error": null,
    "last_items": 0,
-   "last_ms": 1936,
-   "last_ok_at": "2026-11-18T17:22:56-05:00",
+   "last_ms": 1719,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
    "consecutive_failures": 0,
    "total_items": 0,
    "new_last_run": 0,
@@ -1618,14 +1620,14 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T17:22:56-05:00",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
    "last_status": "ok",
    "last_error": null,
    "last_items": 2,
-   "last_ms": 1858,
-   "last_ok_at": "2026-11-18T17:22:56-05:00",
+   "last_ms": 1995,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
    "consecutive_failures": 0,
-   "total_items": 2,
+   "total_items": 4,
    "new_last_run": 0,
    "total_new": 0,
    "id": "wp-vivirenelpoblado",
@@ -1640,13 +1642,13 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T17:22:56-05:00",
-   "last_status": "ok",
-   "last_error": null,
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "error",
+   "last_error": "respuesta no válida de la API de WordPress; respuesta no válida de la API de WordPress",
    "last_items": 0,
-   "last_ms": 1849,
+   "last_ms": 1694,
    "last_ok_at": "2026-11-18T17:22:56-05:00",
-   "consecutive_failures": 0,
+   "consecutive_failures": 1,
    "total_items": 0,
    "new_last_run": 0,
    "total_new": 0,
@@ -1662,12 +1664,12 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T17:22:56-05:00",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
    "last_status": "ok",
    "last_error": null,
    "last_items": 0,
-   "last_ms": 229860,
-   "last_ok_at": "2026-11-18T17:22:56-05:00",
+   "last_ms": 149670,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
    "consecutive_failures": 0,
    "total_items": 0,
    "new_last_run": 0,
@@ -2099,14 +2101,14 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T17:22:56-05:00",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
    "last_status": "ok",
    "last_error": null,
    "last_items": 11,
-   "last_ms": 167,
-   "last_ok_at": "2026-11-18T17:22:56-05:00",
+   "last_ms": 599,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
    "consecutive_failures": 0,
-   "total_items": 11,
+   "total_items": 22,
    "new_last_run": 0,
    "total_new": 0,
    "id": "gen-concursos-frases-sorteo-colombia-participa",
@@ -2123,14 +2125,14 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T17:22:56-05:00",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
    "last_status": "ok",
    "last_error": null,
    "last_items": 11,
-   "last_ms": 1381,
-   "last_ok_at": "2026-11-18T17:22:56-05:00",
+   "last_ms": 1522,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
    "consecutive_failures": 0,
-   "total_items": 11,
+   "total_items": 22,
    "new_last_run": 0,
    "total_new": 0,
    "id": "gen-concursos-frases-concurso-colombia-participa",
@@ -2147,14 +2149,14 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T17:22:56-05:00",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
    "last_status": "ok",
    "last_error": null,
    "last_items": 8,
-   "last_ms": 2504,
-   "last_ok_at": "2026-11-18T17:22:56-05:00",
+   "last_ms": 2434,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
    "consecutive_failures": 0,
-   "total_items": 8,
+   "total_items": 16,
    "new_last_run": 0,
    "total_new": 0,
    "id": "gen-concursos-frases-concurso-para-ganar",
@@ -2171,15 +2173,15 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T17:22:56-05:00",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
    "last_status": "ok",
    "last_error": null,
-   "last_items": 4,
-   "last_ms": 3631,
-   "last_ok_at": "2026-11-18T17:22:56-05:00",
+   "last_items": 6,
+   "last_ms": 2903,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
    "consecutive_failures": 0,
-   "total_items": 4,
-   "new_last_run": 1,
+   "total_items": 10,
+   "new_last_run": 0,
    "total_new": 1,
    "id": "gen-concursos-frases-asi-puede-participar-sorteo",
    "name": "Noticias · así puede participar sorteo",
@@ -2195,14 +2197,14 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T17:22:56-05:00",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
    "last_status": "ok",
    "last_error": null,
-   "last_items": 3,
-   "last_ms": 4784,
-   "last_ok_at": "2026-11-18T17:22:56-05:00",
+   "last_items": 4,
+   "last_ms": 4004,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
    "consecutive_failures": 0,
-   "total_items": 3,
+   "total_items": 7,
    "new_last_run": 0,
    "total_new": 0,
    "id": "gen-concursos-frases-como-participar-concurso",
@@ -2219,14 +2221,14 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T17:22:56-05:00",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
    "last_status": "ok",
    "last_error": null,
    "last_items": 8,
-   "last_ms": 5962,
-   "last_ok_at": "2026-11-18T17:22:56-05:00",
+   "last_ms": 5157,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
    "consecutive_failures": 0,
-   "total_items": 8,
+   "total_items": 16,
    "new_last_run": 0,
    "total_new": 0,
    "id": "gen-concursos-frases-lanza-concurso-colombia",
@@ -2243,15 +2245,15 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T17:22:56-05:00",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
    "last_status": "ok",
    "last_error": null,
    "last_items": 10,
-   "last_ms": 6896,
-   "last_ok_at": "2026-11-18T17:22:56-05:00",
+   "last_ms": 6266,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
    "consecutive_failures": 0,
-   "total_items": 10,
-   "new_last_run": 1,
+   "total_items": 20,
+   "new_last_run": 0,
    "total_new": 1,
    "id": "gen-concursos-frases-abre-concurso-premios",
    "name": "Noticias · abre concurso premios",
@@ -2267,14 +2269,14 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T17:22:56-05:00",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
    "last_status": "ok",
    "last_error": null,
-   "last_items": 7,
-   "last_ms": 7978,
-   "last_ok_at": "2026-11-18T17:22:56-05:00",
+   "last_items": 8,
+   "last_ms": 7306,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
    "consecutive_failures": 0,
-   "total_items": 7,
+   "total_items": 15,
    "new_last_run": 0,
    "total_new": 0,
    "id": "gen-concursos-frases-reto-con-premios-colombia",
@@ -2291,14 +2293,14 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T17:22:56-05:00",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
    "last_status": "ok",
    "last_error": null,
-   "last_items": 1,
-   "last_ms": 9050,
-   "last_ok_at": "2026-11-18T17:22:56-05:00",
+   "last_items": 7,
+   "last_ms": 8517,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
    "consecutive_failures": 0,
-   "total_items": 1,
+   "total_items": 8,
    "new_last_run": 0,
    "total_new": 0,
    "id": "gen-concursos-frases-concurso-gamer",
@@ -2315,14 +2317,14 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T17:22:56-05:00",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
    "last_status": "ok",
    "last_error": null,
-   "last_items": 8,
-   "last_ms": 9732,
-   "last_ok_at": "2026-11-18T17:22:56-05:00",
+   "last_items": 9,
+   "last_ms": 8897,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
    "consecutive_failures": 0,
-   "total_items": 8,
+   "total_items": 17,
    "new_last_run": 0,
    "total_new": 0,
    "id": "gen-concursos-frases-torneo-videojuegos-premios",
@@ -2339,14 +2341,14 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T17:22:56-05:00",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
    "last_status": "ok",
    "last_error": null,
    "last_items": 4,
-   "last_ms": 10867,
-   "last_ok_at": "2026-11-18T17:22:56-05:00",
+   "last_ms": 10064,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
    "consecutive_failures": 0,
-   "total_items": 4,
+   "total_items": 8,
    "new_last_run": 0,
    "total_new": 0,
    "id": "gen-concursos-frases-torneo-esports-colombia",
@@ -2363,14 +2365,14 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T17:22:56-05:00",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
    "last_status": "ok",
    "last_error": null,
    "last_items": 11,
-   "last_ms": 12012,
-   "last_ok_at": "2026-11-18T17:22:56-05:00",
+   "last_ms": 10820,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
    "consecutive_failures": 0,
-   "total_items": 11,
+   "total_items": 22,
    "new_last_run": 0,
    "total_new": 0,
    "id": "gen-concursos-frases-concurso-de-fotografia-premio",
@@ -2387,14 +2389,14 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T17:22:56-05:00",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
    "last_status": "ok",
    "last_error": null,
    "last_items": 2,
-   "last_ms": 12104,
-   "last_ok_at": "2026-11-18T17:22:56-05:00",
+   "last_ms": 11433,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
    "consecutive_failures": 0,
-   "total_items": 2,
+   "total_items": 4,
    "new_last_run": 0,
    "total_new": 0,
    "id": "gen-concursos-frases-concurso-de-video-premio",
@@ -2411,14 +2413,14 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T17:22:56-05:00",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
    "last_status": "ok",
    "last_error": null,
    "last_items": 9,
-   "last_ms": 12181,
-   "last_ok_at": "2026-11-18T17:22:56-05:00",
+   "last_ms": 12099,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
    "consecutive_failures": 0,
-   "total_items": 9,
+   "total_items": 18,
    "new_last_run": 0,
    "total_new": 0,
    "id": "gen-concursos-frases-concurso-de-cuento-premio",
@@ -2435,14 +2437,14 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T17:22:56-05:00",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
    "last_status": "ok",
    "last_error": null,
-   "last_items": 11,
-   "last_ms": 12203,
-   "last_ok_at": "2026-11-18T17:22:56-05:00",
+   "last_items": 12,
+   "last_ms": 12050,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
    "consecutive_failures": 0,
-   "total_items": 11,
+   "total_items": 23,
    "new_last_run": 0,
    "total_new": 0,
    "id": "gen-concursos-frases-concurso-de-dibujo-premio",
@@ -2459,14 +2461,14 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T17:22:56-05:00",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
    "last_status": "ok",
    "last_error": null,
    "last_items": 1,
-   "last_ms": 12184,
-   "last_ok_at": "2026-11-18T17:22:56-05:00",
+   "last_ms": 11991,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
    "consecutive_failures": 0,
-   "total_items": 1,
+   "total_items": 2,
    "new_last_run": 0,
    "total_new": 0,
    "id": "gen-concursos-frases-sorteara-un-carro",
@@ -2483,14 +2485,14 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T17:22:56-05:00",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
    "last_status": "ok",
    "last_error": null,
-   "last_items": 4,
-   "last_ms": 12105,
-   "last_ok_at": "2026-11-18T17:22:56-05:00",
+   "last_items": 3,
+   "last_ms": 12031,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
    "consecutive_failures": 0,
-   "total_items": 4,
+   "total_items": 7,
    "new_last_run": 0,
    "total_new": 0,
    "id": "gen-concursos-frases-sorteara-una-moto",
@@ -2507,14 +2509,14 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T17:22:56-05:00",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
    "last_status": "ok",
    "last_error": null,
-   "last_items": 4,
-   "last_ms": 12131,
-   "last_ok_at": "2026-11-18T17:22:56-05:00",
+   "last_items": 3,
+   "last_ms": 12045,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
    "consecutive_failures": 0,
-   "total_items": 4,
+   "total_items": 7,
    "new_last_run": 0,
    "total_new": 0,
    "id": "gen-concursos-frases-sorteara-motos",
@@ -2531,14 +2533,14 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T17:22:56-05:00",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
    "last_status": "ok",
    "last_error": null,
    "last_items": 1,
-   "last_ms": 12162,
-   "last_ok_at": "2026-11-18T17:22:56-05:00",
+   "last_ms": 12043,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
    "consecutive_failures": 0,
-   "total_items": 1,
+   "total_items": 2,
    "new_last_run": 0,
    "total_new": 0,
    "id": "gen-concursos-frases-regala-boletas",
@@ -2555,14 +2557,14 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T17:22:56-05:00",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
    "last_status": "ok",
    "last_error": null,
-   "last_items": 4,
-   "last_ms": 12025,
-   "last_ok_at": "2026-11-18T17:22:56-05:00",
+   "last_items": 5,
+   "last_ms": 12091,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
    "consecutive_failures": 0,
-   "total_items": 4,
+   "total_items": 9,
    "new_last_run": 0,
    "total_new": 0,
    "id": "gen-concursos-frases-gana-entradas",
@@ -2579,14 +2581,14 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T17:22:56-05:00",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
    "last_status": "ok",
    "last_error": null,
-   "last_items": 8,
-   "last_ms": 12056,
-   "last_ok_at": "2026-11-18T17:22:56-05:00",
+   "last_items": 9,
+   "last_ms": 13162,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
    "consecutive_failures": 0,
-   "total_items": 8,
+   "total_items": 17,
    "new_last_run": 0,
    "total_new": 0,
    "id": "gen-concursos-frases-gana-boletas-concierto",
@@ -2603,14 +2605,14 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T17:22:56-05:00",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
    "last_status": "ok",
    "last_error": null,
    "last_items": 2,
-   "last_ms": 12045,
-   "last_ok_at": "2026-11-18T17:22:56-05:00",
+   "last_ms": 13306,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
    "consecutive_failures": 0,
-   "total_items": 2,
+   "total_items": 4,
    "new_last_run": 0,
    "total_new": 0,
    "id": "gen-concursos-frases-gana-un-viaje",
@@ -2627,14 +2629,14 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T17:22:56-05:00",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
    "last_status": "ok",
    "last_error": null,
    "last_items": 1,
-   "last_ms": 12082,
-   "last_ok_at": "2026-11-18T17:22:56-05:00",
+   "last_ms": 13323,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
    "consecutive_failures": 0,
-   "total_items": 1,
+   "total_items": 2,
    "new_last_run": 0,
    "total_new": 0,
    "id": "gen-concursos-frases-gana-un-iphone",
@@ -2651,14 +2653,14 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T17:22:56-05:00",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
    "last_status": "ok",
    "last_error": null,
    "last_items": 3,
-   "last_ms": 12218,
-   "last_ok_at": "2026-11-18T17:22:56-05:00",
+   "last_ms": 13256,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
    "consecutive_failures": 0,
-   "total_items": 3,
+   "total_items": 6,
    "new_last_run": 0,
    "total_new": 0,
    "id": "gen-concursos-frases-gana-un-bono",
@@ -2675,15 +2677,15 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T17:22:56-05:00",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
    "last_status": "ok",
    "last_error": null,
    "last_items": 5,
-   "last_ms": 13233,
-   "last_ok_at": "2026-11-18T17:22:56-05:00",
+   "last_ms": 13338,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
    "consecutive_failures": 0,
-   "total_items": 5,
-   "new_last_run": 1,
+   "total_items": 10,
+   "new_last_run": 0,
    "total_new": 1,
    "id": "gen-concursos-frases-gana-mercado",
    "name": "Noticias · gana mercado",
@@ -2699,14 +2701,14 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T17:22:56-05:00",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
    "last_status": "ok",
    "last_error": null,
    "last_items": 4,
-   "last_ms": 13206,
-   "last_ok_at": "2026-11-18T17:22:56-05:00",
+   "last_ms": 13270,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
    "consecutive_failures": 0,
-   "total_items": 4,
+   "total_items": 8,
    "new_last_run": 0,
    "total_new": 0,
    "id": "gen-concursos-frases-premios-para-usuarios-colombia",
@@ -2723,14 +2725,14 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T17:22:56-05:00",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
    "last_status": "ok",
    "last_error": null,
-   "last_items": 7,
-   "last_ms": 13253,
-   "last_ok_at": "2026-11-18T17:22:56-05:00",
+   "last_items": 8,
+   "last_ms": 13372,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
    "consecutive_failures": 0,
-   "total_items": 7,
+   "total_items": 15,
    "new_last_run": 0,
    "total_new": 0,
    "id": "gen-concursos-frases-sorteo-para-clientes-colombia",
@@ -2747,15 +2749,15 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T17:22:56-05:00",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
    "last_status": "ok",
    "last_error": null,
    "last_items": 3,
-   "last_ms": 13242,
-   "last_ok_at": "2026-11-18T17:22:56-05:00",
+   "last_ms": 13270,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
    "consecutive_failures": 0,
-   "total_items": 3,
-   "new_last_run": 1,
+   "total_items": 6,
+   "new_last_run": 0,
    "total_new": 1,
    "id": "gen-concursos-frases-concurso-emisora-premios",
    "name": "Noticias · concurso emisora premios",
@@ -2771,12 +2773,12 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T17:22:56-05:00",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
    "last_status": "ok",
    "last_error": null,
-   "last_items": 1,
-   "last_ms": 13292,
-   "last_ok_at": "2026-11-18T17:22:56-05:00",
+   "last_items": 0,
+   "last_ms": 13335,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
    "consecutive_failures": 0,
    "total_items": 1,
    "new_last_run": 0,
@@ -2795,14 +2797,14 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T17:22:56-05:00",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
    "last_status": "ok",
    "last_error": null,
    "last_items": 5,
-   "last_ms": 13192,
-   "last_ok_at": "2026-11-18T17:22:56-05:00",
+   "last_ms": 13327,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
    "consecutive_failures": 0,
-   "total_items": 5,
+   "total_items": 10,
    "new_last_run": 0,
    "total_new": 0,
    "id": "gen-concursos-frases-gana-un-carro",
@@ -2819,14 +2821,14 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T17:22:56-05:00",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
    "last_status": "ok",
    "last_error": null,
    "last_items": 1,
-   "last_ms": 13350,
-   "last_ok_at": "2026-11-18T17:22:56-05:00",
+   "last_ms": 14517,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
    "consecutive_failures": 0,
-   "total_items": 1,
+   "total_items": 2,
    "new_last_run": 0,
    "total_new": 0,
    "id": "gen-marcas-kia",
@@ -2843,14 +2845,14 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T17:22:56-05:00",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
    "last_status": "ok",
    "last_error": null,
-   "last_items": 1,
-   "last_ms": 13279,
-   "last_ok_at": "2026-11-18T17:22:56-05:00",
+   "last_items": 2,
+   "last_ms": 14447,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
    "consecutive_failures": 0,
-   "total_items": 1,
+   "total_items": 3,
    "new_last_run": 0,
    "total_new": 0,
    "id": "gen-marcas-renault",
@@ -2867,12 +2869,12 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T17:22:56-05:00",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
    "last_status": "ok",
    "last_error": null,
    "last_items": 0,
-   "last_ms": 13239,
-   "last_ok_at": "2026-11-18T17:22:56-05:00",
+   "last_ms": 14486,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
    "consecutive_failures": 0,
    "total_items": 0,
    "new_last_run": 0,
@@ -2891,14 +2893,14 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T17:22:56-05:00",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
    "last_status": "ok",
    "last_error": null,
    "last_items": 2,
-   "last_ms": 13320,
-   "last_ok_at": "2026-11-18T17:22:56-05:00",
+   "last_ms": 15704,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
    "consecutive_failures": 0,
-   "total_items": 2,
+   "total_items": 4,
    "new_last_run": 0,
    "total_new": 0,
    "id": "gen-marcas-mazda",
@@ -2915,14 +2917,14 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T17:22:56-05:00",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
    "last_status": "ok",
    "last_error": null,
    "last_items": 7,
-   "last_ms": 13280,
-   "last_ok_at": "2026-11-18T17:22:56-05:00",
+   "last_ms": 15687,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
    "consecutive_failures": 0,
-   "total_items": 7,
+   "total_items": 14,
    "new_last_run": 0,
    "total_new": 0,
    "id": "gen-marcas-toyota",
@@ -2939,14 +2941,14 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T17:22:56-05:00",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
    "last_status": "ok",
    "last_error": null,
    "last_items": 4,
-   "last_ms": 13256,
-   "last_ok_at": "2026-11-18T17:22:56-05:00",
+   "last_ms": 15610,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
    "consecutive_failures": 0,
-   "total_items": 4,
+   "total_items": 8,
    "new_last_run": 0,
    "total_new": 0,
    "id": "gen-marcas-hyundai",
@@ -2963,14 +2965,14 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T17:22:56-05:00",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
    "last_status": "ok",
    "last_error": null,
    "last_items": 3,
-   "last_ms": 13230,
-   "last_ok_at": "2026-11-18T17:22:56-05:00",
+   "last_ms": 15634,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
    "consecutive_failures": 0,
-   "total_items": 3,
+   "total_items": 6,
    "new_last_run": 0,
    "total_new": 0,
    "id": "gen-marcas-byd",
@@ -2987,15 +2989,15 @@
    "origin": "configurada"
   },
   {
-   "last_run_at": "2026-11-18T17:22:56-05:00",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
    "last_status": "ok",
    "last_error": null,
    "last_items": 2,
-   "last_ms": 13555,
-   "last_ok_at": "2026-11-18T17:22:56-05:00",
+   "last_ms": 15665,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
    "consecutive_failures": 0,
-   "total_items": 2,
-   "new_last_run": 1,
+   "total_items": 4,
+   "new_last_run": 0,
    "total_new": 1,
    "id": "gen-marcas-nissan",
    "name": "Noticias · Nissan concursos",
@@ -3022,7 +3024,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 1,
+   "last_ms": 15707,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 1,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-yamaha",
@@ -3036,7 +3048,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 1,
+   "last_ms": 15611,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 1,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-akt",
@@ -3050,7 +3072,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 2,
+   "last_ms": 15675,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 2,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-bajaj",
@@ -3064,7 +3096,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 5,
+   "last_ms": 15631,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 5,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-auteco",
@@ -3078,7 +3120,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 4,
+   "last_ms": 15568,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 4,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-honda-motos",
@@ -3092,7 +3144,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 4,
+   "last_ms": 15626,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 4,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-suzuki-motos",
@@ -3106,7 +3168,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 2,
+   "last_ms": 15627,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 2,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-tvs",
@@ -3120,7 +3192,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 4,
+   "last_ms": 15788,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 4,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-terpel",
@@ -3134,7 +3216,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 4,
+   "last_ms": 15568,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 4,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-primax",
@@ -3148,7 +3240,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 3,
+   "last_ms": 15651,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 3,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-exito",
@@ -3162,7 +3264,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 1,
+   "last_ms": 15699,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 1,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-olimpica",
@@ -3176,7 +3288,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 2,
+   "last_ms": 15703,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 2,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-alkosto",
@@ -3190,7 +3312,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 6,
+   "last_ms": 15530,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 6,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-ktronix",
@@ -3204,7 +3336,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 2,
+   "last_ms": 15680,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 2,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-falabella",
@@ -3218,7 +3360,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 2,
+   "last_ms": 15739,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 2,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-homecenter",
@@ -3232,7 +3384,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 1,
+   "last_ms": 15701,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 1,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-jumbo",
@@ -3246,7 +3408,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 1,
+   "last_ms": 15723,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 1,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-tiendas-d1",
@@ -3260,7 +3432,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 2,
+   "last_ms": 15799,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 2,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-tiendas-ara",
@@ -3274,7 +3456,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 2,
+   "last_ms": 15731,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 2,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-carulla",
@@ -3288,7 +3480,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 0,
+   "last_ms": 15764,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 0,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-rappi",
@@ -3302,7 +3504,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 3,
+   "last_ms": 15550,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 3,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-mercado-libre",
@@ -3316,7 +3528,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 0,
+   "last_ms": 15701,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 0,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-didi",
@@ -3330,7 +3552,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 0,
+   "last_ms": 15648,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 0,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-bancolombia",
@@ -3344,7 +3576,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 2,
+   "last_ms": 15758,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 2,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-davivienda",
@@ -3358,7 +3600,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 6,
+   "last_ms": 15605,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 6,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-bbva",
@@ -3372,7 +3624,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 2,
+   "last_ms": 15749,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 2,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-nequi",
@@ -3386,7 +3648,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 7,
+   "last_ms": 15632,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 7,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-daviplata",
@@ -3400,7 +3672,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 3,
+   "last_ms": 15563,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 3,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-nu-colombia",
@@ -3414,7 +3696,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 10,
+   "last_ms": 15678,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 10,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-movii",
@@ -3428,7 +3720,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 0,
+   "last_ms": 15589,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 0,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-lulo-bank",
@@ -3442,7 +3744,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 1,
+   "last_ms": 15653,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 1,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-puntos-colombia",
@@ -3456,7 +3768,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 10,
+   "last_ms": 15623,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 10,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-claro",
@@ -3470,7 +3792,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 6,
+   "last_ms": 15646,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 6,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-movistar",
@@ -3484,7 +3816,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 8,
+   "last_ms": 15640,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 8,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-tigo",
@@ -3498,7 +3840,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 2,
+   "last_ms": 15660,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 2,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-wom",
@@ -3512,7 +3864,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 3,
+   "last_ms": 15654,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 3,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-etb",
@@ -3526,7 +3888,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 8,
+   "last_ms": 15624,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 8,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-postobon",
@@ -3540,7 +3912,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 0,
+   "last_ms": 15655,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 0,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-coca-cola",
@@ -3554,7 +3936,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 5,
+   "last_ms": 15741,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 5,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-pepsi",
@@ -3568,7 +3960,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 0,
+   "last_ms": 15621,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 0,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-aguila",
@@ -3582,7 +3984,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 2,
+   "last_ms": 15688,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 2,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-club-colombia",
@@ -3596,7 +4008,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 7,
+   "last_ms": 15700,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 7,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-poker",
@@ -3610,7 +4032,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 0,
+   "last_ms": 15591,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 0,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-alpina",
@@ -3624,7 +4056,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 0,
+   "last_ms": 15654,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 0,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-colombina",
@@ -3638,7 +4080,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 5,
+   "last_ms": 15615,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 5,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-jet",
@@ -3652,7 +4104,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 3,
+   "last_ms": 15670,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 3,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-zenu",
@@ -3666,7 +4128,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 4,
+   "last_ms": 15647,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 4,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-nestle",
@@ -3680,7 +4152,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 0,
+   "last_ms": 15699,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 0,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-juan-valdez",
@@ -3694,7 +4176,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 3,
+   "last_ms": 15683,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 3,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-mcdonald-s",
@@ -3708,7 +4200,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 2,
+   "last_ms": 15672,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 2,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-kfc",
@@ -3722,7 +4224,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 1,
+   "last_ms": 15681,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 1,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-frisby",
@@ -3736,7 +4248,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 10,
+   "last_ms": 15567,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 10,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-el-corral",
@@ -3750,7 +4272,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 5,
+   "last_ms": 15746,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 5,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-domino-s",
@@ -3764,7 +4296,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 1,
+   "last_ms": 15657,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 1,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-totto",
@@ -3778,7 +4320,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 5,
+   "last_ms": 15570,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 5,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-arturo-calle",
@@ -3792,7 +4344,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 5,
+   "last_ms": 15763,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 5,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-adidas",
@@ -3806,7 +4368,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 1,
+   "last_ms": 15630,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 1,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-nike",
@@ -3820,7 +4392,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 3,
+   "last_ms": 15771,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 3,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-avianca",
@@ -3834,7 +4416,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 0,
+   "last_ms": 15588,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 0,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-latam",
@@ -3848,7 +4440,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 0,
+   "last_ms": 15713,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 0,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-cine-colombia",
@@ -3862,7 +4464,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 7,
+   "last_ms": 15646,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 7,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-cinemark",
@@ -3876,7 +4488,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 0,
+   "last_ms": 15792,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 0,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-samsung",
@@ -3890,7 +4512,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 4,
+   "last_ms": 15648,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 4,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-xiaomi",
@@ -3904,7 +4536,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 4,
+   "last_ms": 15712,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 4,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-motorola",
@@ -3918,7 +4560,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 1,
+   "last_ms": 15689,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 1,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-huawei",
@@ -3932,7 +4584,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 11,
+   "last_ms": 15602,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 11,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-playstation",
@@ -3946,7 +4608,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 2,
+   "last_ms": 15729,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 2,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-xbox",
@@ -3960,7 +4632,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 5,
+   "last_ms": 15666,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 5,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-riot-games",
@@ -3974,7 +4656,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 0,
+   "last_ms": 15720,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 0,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-red-bull",
@@ -3988,7 +4680,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 10,
+   "last_ms": 15674,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 10,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-gatorade",
@@ -4002,7 +4704,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 6,
+   "last_ms": 15623,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 6,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-colsubsidio",
@@ -4016,7 +4728,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 4,
+   "last_ms": 15709,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 4,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-compensar",
@@ -4030,7 +4752,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 2,
+   "last_ms": 15678,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 2,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-cafam",
@@ -4044,7 +4776,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 6,
+   "last_ms": 15691,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 6,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-caracol-television",
@@ -4058,7 +4800,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 8,
+   "last_ms": 15597,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 8,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-canal-rcn",
@@ -4072,7 +4824,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 5,
+   "last_ms": 15616,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 5,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-los-40",
@@ -4086,7 +4848,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 5,
+   "last_ms": 15664,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 5,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-tropicana",
@@ -4100,7 +4872,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 2,
+   "last_ms": 15656,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 2,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-la-mega",
@@ -4114,7 +4896,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 0,
+   "last_ms": 15750,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 0,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-olimpica-stereo",
@@ -4128,7 +4920,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 1,
+   "last_ms": 15627,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 1,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-pilsen",
@@ -4142,7 +4944,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 1,
+   "last_ms": 15700,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 1,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-hit",
@@ -4156,7 +4968,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 0,
+   "last_ms": 15661,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 0,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-quala",
@@ -4170,7 +4992,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 0,
+   "last_ms": 15679,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 0,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-bon-bril",
@@ -4184,7 +5016,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 0,
+   "last_ms": 15737,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 0,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-familia",
@@ -4198,7 +5040,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 7,
+   "last_ms": 15689,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 7,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-colgate",
@@ -4212,7 +5064,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 0,
+   "last_ms": 15718,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 0,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-unilever",
@@ -4226,7 +5088,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 2,
+   "last_ms": 15651,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 2,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-natura",
@@ -4240,7 +5112,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 2,
+   "last_ms": 15599,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 2,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-yanbal",
@@ -4254,7 +5136,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 0,
+   "last_ms": 15651,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 0,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "gen-marcas-esika",
@@ -4268,7 +5160,17 @@
    "hints": {
     "section": "concursos"
    },
-   "origin": "configurada"
+   "origin": "configurada",
+   "last_run_at": "2026-11-18T17:29:14-05:00",
+   "last_status": "ok",
+   "last_error": null,
+   "last_items": 1,
+   "last_ms": 15565,
+   "last_ok_at": "2026-11-18T17:29:14-05:00",
+   "consecutive_failures": 0,
+   "total_items": 1,
+   "new_last_run": 0,
+   "total_new": 0
   },
   {
    "id": "disc-suav.habitatbogota.gov.co",

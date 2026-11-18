@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-18T17:22:56-05:00",
- "count": 74,
+ "generated_at": "2026-11-18T17:29:14-05:00",
+ "count": 72,
  "items": [
   {
    "id": "op_72402b2d44f8",
@@ -738,7 +738,7 @@
    "discovered_at": "2026-11-18T17:21:44-05:00",
    "updated_at": "2026-11-18T17:21:44-05:00",
    "last_verified": "2026-11-18T17:21:47-05:00",
-   "last_seen": "2026-11-18T17:21:47-05:00",
+   "last_seen": "2026-11-18T17:29:12-05:00",
    "history": [],
    "priority": {
     "score": 77,
@@ -1371,7 +1371,7 @@
    "discovered_at": "2026-11-18T17:21:54-05:00",
    "updated_at": "2026-11-18T17:21:56-05:00",
    "last_verified": "2026-11-18T17:21:56-05:00",
-   "last_seen": "2026-11-18T17:21:56-05:00",
+   "last_seen": "2026-11-18T17:29:12-05:00",
    "history": [
     {
      "at": "2026-11-18T17:21:56-05:00",
@@ -3720,7 +3720,7 @@
    "discovered_at": "2026-11-18T16:19:12-05:00",
    "updated_at": "2026-11-18T16:19:12-05:00",
    "last_verified": "2026-11-18T16:19:12-05:00",
-   "last_seen": "2026-11-18T17:21:33-05:00",
+   "last_seen": "2026-11-18T17:29:12-05:00",
    "history": [],
    "priority": {
     "score": 72,
@@ -4971,7 +4971,7 @@
    "discovered_at": "2026-11-18T17:21:34-05:00",
    "updated_at": "2026-11-18T17:21:34-05:00",
    "last_verified": "2026-11-18T17:21:34-05:00",
-   "last_seen": "2026-11-18T17:21:34-05:00",
+   "last_seen": "2026-11-18T17:29:12-05:00",
    "history": [],
    "priority": {
     "score": 69,
@@ -5465,7 +5465,7 @@
    "discovered_at": "2026-11-18T16:19:10-05:00",
    "updated_at": "2026-11-18T16:19:10-05:00",
    "last_verified": "2026-11-18T17:21:33-05:00",
-   "last_seen": "2026-11-18T17:21:33-05:00",
+   "last_seen": "2026-11-18T17:29:12-05:00",
    "history": [],
    "priority": {
     "score": 68,
@@ -5767,7 +5767,7 @@
    "discovered_at": "2026-11-18T17:21:45-05:00",
    "updated_at": "2026-11-18T17:21:45-05:00",
    "last_verified": "2026-11-18T17:21:45-05:00",
-   "last_seen": "2026-11-18T17:21:45-05:00",
+   "last_seen": "2026-11-18T17:29:12-05:00",
    "history": [],
    "priority": {
     "score": 68,
@@ -6402,7 +6402,7 @@
    "discovered_at": "2026-11-18T17:21:34-05:00",
    "updated_at": "2026-11-18T17:21:34-05:00",
    "last_verified": "2026-11-18T17:21:34-05:00",
-   "last_seen": "2026-11-18T17:21:34-05:00",
+   "last_seen": "2026-11-18T17:29:12-05:00",
    "history": [],
    "priority": {
     "score": 67,
@@ -6745,152 +6745,6 @@
       "points": 10,
       "max": 10,
       "note": "nacional"
-     },
-     "credibilidad": {
-      "points": 6,
-      "max": 10,
-      "note": "pendiente"
-     },
-     "claridad": {
-      "points": 1,
-      "max": 5,
-      "note": "sin términos enlazados"
-     }
-    }
-   }
-  },
-  {
-   "id": "op_6c49063b6e99",
-   "title": "Nissan Colombia amplía su oferta híbrida con el Kicks e-Power y la Frontier Pro y prevé un 2027 liderado por las SUV",
-   "summary": "Carlos Vargas, gerente de mercadeo de Nissan Colombia, explica los hitos de 2026, el Kicks e-Power, la Frontier Pro híbrida y por qué las SUV liderarán 202...",
-   "section": "concursos",
-   "category": "carros",
-   "tags": [
-    "Carros"
-   ],
-   "mechanics": [],
-   "kind": "Concurso",
-   "organizer": {
-    "name": "Organizador no identificado",
-    "type": "desconocido",
-    "domain": null,
-    "known": false
-   },
-   "prize": {
-    "description": null,
-    "value_cop": null,
-    "value_text": null,
-    "value_source": null,
-    "winners": null,
-    "odds_text": null
-   },
-   "cost": {
-    "type": "desconocido",
-    "label": "Costo sin confirmar",
-    "free": false,
-    "certainty": "desconocido",
-    "requires_purchase": null,
-    "requires_registration": false,
-    "requires_social": false,
-    "requires_activity": true,
-    "requires_subscription": false,
-    "requires_deposit": false,
-    "purchase_threshold_text": null,
-    "notes": []
-   },
-   "eligibility": {
-    "who": null,
-    "min_age": null,
-    "age_text": null,
-    "coverage": "bogota",
-    "cities": [
-     "Bogotá"
-    ]
-   },
-   "requirements": [],
-   "documents": [],
-   "steps": [],
-   "steps_source": null,
-   "dates": {
-    "published": "2026-11-17T04:10:00-05:00",
-    "start": "2026-11-03",
-    "end": null,
-    "draw": null
-   },
-   "status": "sin_confirmar",
-   "gov": null,
-   "offer": null,
-   "verification": {
-    "status": "pendiente",
-    "reasons": [
-     "Organizador no identificado con certeza."
-    ],
-    "checked_at": "2026-11-18T17:21:38-05:00",
-    "link_ok": null,
-    "official_domain": false,
-    "terms_found": false,
-    "link_failures": 0
-   },
-   "risk": {
-    "level": "bajo",
-    "flags": [],
-    "sensitive_data_warning": false
-   },
-   "urls": {
-    "source": "https://www.revistapym.com.co/articulos/digital/103625/nissan-colombia-amplia-su-oferta-hibrida-con-el-kicks-e-power-y-la-frontier-pro-y-preve-un-2027-liderado-por-las-suv",
-    "participate": null,
-    "terms": null,
-    "official": null,
-    "image": "https://i.revistapym.com.co/cms/2026/11/17171016/kicks-e-power-y-frontier-de-nissan.jpg?w=1280"
-   },
-   "sources": [
-    {
-     "url": "https://www.revistapym.com.co/articulos/digital/103625/nissan-colombia-amplia-su-oferta-hibrida-con-el-kicks-e-power-y-la-frontier-pro-y-preve-un-2027-liderado-por-las-suv",
-     "name": "Noticias · Nissan concursos",
-     "type": "news",
-     "seen_at": "2026-11-18T17:21:38-05:00"
-    }
-   ],
-   "language": "es",
-   "translated": false,
-   "extraction": {
-    "method": "heuristica",
-    "relevance": 0.37,
-    "model": null
-   },
-   "discovered_at": "2026-11-18T17:21:38-05:00",
-   "updated_at": "2026-11-18T17:21:38-05:00",
-   "last_verified": "2026-11-18T17:21:38-05:00",
-   "last_seen": "2026-11-18T17:21:38-05:00",
-   "history": [],
-   "priority": {
-    "score": 65,
-    "level": "media",
-    "breakdown": {
-     "valor": {
-      "points": 22,
-      "max": 25,
-      "note": "valor no publicado (estimado por tipo de premio)"
-     },
-     "gratuidad": {
-      "points": 9,
-      "max": 25,
-      "note": "desconocido"
-     },
-     "facilidad": {
-      "points": 12,
-      "max": 15,
-      "note": "actividad"
-     },
-     "vigencia": {
-      "points": 5,
-      "max": 10,
-      "note": "sin fecha límite publicada"
-     },
-     "cobertura": {
-      "points": 10,
-      "max": 10,
-      "note": "bogota"
      },
      "credibilidad": {
       "points": 6,
@@ -8109,7 +7963,7 @@
    "discovered_at": "2026-11-18T17:21:34-05:00",
    "updated_at": "2026-11-18T17:21:34-05:00",
    "last_verified": "2026-11-18T17:21:34-05:00",
-   "last_seen": "2026-11-18T17:21:34-05:00",
+   "last_seen": "2026-11-18T17:29:12-05:00",
    "history": [],
    "priority": {
     "score": 61,
@@ -8567,7 +8421,7 @@
    "discovered_at": "2026-11-18T17:21:46-05:00",
    "updated_at": "2026-11-18T17:21:46-05:00",
    "last_verified": "2026-11-18T17:21:46-05:00",
-   "last_seen": "2026-11-18T17:21:46-05:00",
+   "last_seen": "2026-11-18T17:29:12-05:00",
    "history": [],
    "priority": {
     "score": 58,
@@ -9546,7 +9400,7 @@
    "discovered_at": "2026-11-18T17:21:43-05:00",
    "updated_at": "2026-11-18T17:21:43-05:00",
    "last_verified": "2026-11-18T17:21:43-05:00",
-   "last_seen": "2026-11-18T17:21:43-05:00",
+   "last_seen": "2026-11-18T17:29:12-05:00",
    "history": [],
    "priority": {
     "score": 55,
@@ -11028,150 +10882,6 @@
       "points": 6,
       "max": 10,
       "note": "pendiente"
-     },
-     "claridad": {
-      "points": 1,
-      "max": 5,
-      "note": "sin términos enlazados"
-     }
-    }
-   }
-  },
-  {
-   "id": "op_8be94365fb07",
-   "title": "Consultora colombiana Clave gana premio Reed Latino 2026 como agencia revelación en comunicación gubernamental",
-   "summary": "La firma colombiana Clave Consultores obtuvo el reconocimiento a consultora revelación de gobierno en los Premios Reed Latino 2026.",
-   "section": "concursos",
-   "category": "experiencias",
-   "tags": [],
-   "mechanics": [
-    "trivia"
-   ],
-   "kind": "Concurso",
-   "organizer": {
-    "name": "Organizador no identificado",
-    "type": "desconocido",
-    "domain": null,
-    "known": false
-   },
-   "prize": {
-    "description": null,
-    "value_cop": null,
-    "value_text": null,
-    "value_source": null,
-    "winners": null,
-    "odds_text": null
-   },
-   "cost": {
-    "type": "desconocido",
-    "label": "Costo sin confirmar",
-    "free": false,
-    "certainty": "desconocido",
-    "requires_purchase": null,
-    "requires_registration": false,
-    "requires_social": false,
-    "requires_activity": false,
-    "requires_subscription": false,
-    "requires_deposit": false,
-    "purchase_threshold_text": null,
-    "notes": []
-   },
-   "eligibility": {
-    "who": null,
-    "min_age": null,
-    "age_text": null,
-    "coverage": "desconocida",
-    "cities": []
-   },
-   "requirements": [],
-   "documents": [],
-   "steps": [],
-   "steps_source": null,
-   "dates": {
-    "published": "2026-11-07T17:30:00-05:00",
-    "start": null,
-    "end": null,
-    "draw": null
-   },
-   "status": "sin_confirmar",
-   "gov": null,
-   "offer": null,
-   "verification": {
-    "status": "no_verificable",
-    "reasons": [
-     "Información insuficiente: sin organizador identificado, fechas ni enlace oficial."
-    ],
-    "checked_at": "2026-11-18T17:21:41-05:00",
-    "link_ok": null,
-    "official_domain": false,
-    "terms_found": false,
-    "link_failures": 0
-   },
-   "risk": {
-    "level": "bajo",
-    "flags": [],
-    "sensitive_data_warning": false
-   },
-   "urls": {
-    "source": "https://www.lafm.com.co/entretenimiento/consultora-colombiana-clave-gana-premio-reed-latino-2026-como-agencia-revelacion-en-comunicacion-gubernamental-416671",
-    "participate": null,
-    "terms": null,
-    "official": null,
-    "image": "https://files.lafm.com.co/media/news-images/2026/11/10/003742/premios-reed-latino-2026-1200x675.jpg?w=1280"
-   },
-   "sources": [
-    {
-     "url": "https://www.lafm.com.co/entretenimiento/consultora-colombiana-clave-gana-premio-reed-latino-2026-como-agencia-revelacion-en-comunicacion-gubernamental-416671",
-     "name": "Noticias · gana mercado",
-     "type": "news",
-     "seen_at": "2026-11-18T17:21:41-05:00"
-    }
-   ],
-   "language": "es",
-   "translated": false,
-   "extraction": {
-    "method": "heuristica",
-    "relevance": 0.7,
-    "model": null
-   },
-   "discovered_at": "2026-11-18T17:21:41-05:00",
-   "updated_at": "2026-11-18T17:21:41-05:00",
-   "last_verified": "2026-11-18T17:21:41-05:00",
-   "last_seen": "2026-11-18T17:21:41-05:00",
-   "history": [],
-   "priority": {
-    "score": 47,
-    "level": "media",
-    "breakdown": {
-     "valor": {
-      "points": 9,
-      "max": 25,
-      "note": "valor no publicado"
-     },
-     "gratuidad": {
-      "points": 9,
-      "max": 25,
-      "note": "desconocido"
-     },
-     "facilidad": {
-      "points": 15,
-      "max": 15,
-      "note": "pocos requisitos"
-     },
-     "vigencia": {
-      "points": 5,
-      "max": 10,
-      "note": "sin fecha límite publicada"
-     },
-     "cobertura": {
-      "points": 6,
-      "max": 10,
-      "note": "desconocida"
-     },
-     "credibilidad": {
-      "points": 2,
-      "max": 10,
-      "note": "no_verificable"
      },
      "claridad": {
       "points": 1,
