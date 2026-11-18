@@ -1,0 +1,71 @@
+{
+ "engine_version": "1.0.0",
+ "generated_at": "2026-11-18T16:19:17-05:00",
+ "timezone": "America/Bogota",
+ "schedule": {
+  "cron_utc": "17 */2 * * *",
+  "description": "Cada 2 horas, minuto 17 (horas impares en Bogotá)",
+  "next_run_at": "2026-11-18T17:17:00-05:00"
+ },
+ "last_run": {
+  "id": "20261118-161736",
+  "started_at": "2026-11-18T16:17:36-05:00",
+  "finished_at": "2026-11-18T16:19:17-05:00",
+  "duration_s": 100.4,
+  "status": "ok",
+  "trigger": "push",
+  "new": 62,
+  "updated": 0,
+  "discarded": 137,
+  "sources_checked": 51,
+  "sources_ok": 46,
+  "run_url": "https://github.com/Daniel01010101010101/opportunities/actions/runs/44399899744"
+ },
+ "last_success_at": "2026-11-18T16:19:17-05:00",
+ "last_new_opportunity_at": "2026-11-18T16:19:15-05:00",
+ "sources": {
+  "configured": 51,
+  "checked_last_run": 51,
+  "ok_last_run": 46,
+  "failed_last_run": 0,
+  "discovered": 3,
+  "with_errors": 0
+ },
+ "counts": {
+  "total": 62,
+  "active": 62,
+  "new_24h": 62,
+  "verified": 24,
+  "pending": 30,
+  "unverifiable": 8,
+  "expired": 0,
+  "withdrawn": 0,
+  "archived": 0,
+  "by_section": {
+   "concursos": 3,
+   "bonos": 6,
+   "ofertas": 11,
+   "estado": 42
+  },
+  "by_priority": {
+   "alta": 26,
+   "media": 33,
+   "baja": 3
+  },
+  "free": 46,
+  "expiring_7d": 6
+ },
+ "llm": {
+  "enabled": false,
+  "model": null,
+  "calls": 0,
+  "errors": 0,
+  "input_tokens": 0,
+  "output_tokens": 0
+ },
+ "alerts_configured": {
+  "telegram": false,
+  "email": false
+ },
+ "message": "Búsqueda completada: 62 nuevas y 0 actualizadas."
+}

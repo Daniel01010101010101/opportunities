@@ -1,0 +1,75 @@
+{
+ "generated_at": "2026-11-18T16:19:17-05:00",
+ "runs": [
+  {
+   "id": "20261118-161736",
+   "started_at": "2026-11-18T16:17:36-05:00",
+   "finished_at": "2026-11-18T16:19:17-05:00",
+   "duration_s": 100.4,
+   "trigger": "push",
+   "category": null,
+   "query": null,
+   "status": "ok",
+   "sources_checked": 51,
+   "sources_ok": 46,
+   "sources_failed": [],
+   "sources_skipped": [
+    {
+     "id": "cse-sorteos",
+     "reason": "requiere los secretos GOOGLE_CSE_KEY y GOOGLE_CSE_CX"
+    },
+    {
+     "id": "cse-bonos-gasolina",
+     "reason": "requiere los secretos GOOGLE_CSE_KEY y GOOGLE_CSE_CX"
+    },
+    {
+     "id": "cse-convocatorias",
+     "reason": "requiere los secretos GOOGLE_CSE_KEY y GOOGLE_CSE_CX"
+    },
+    {
+     "id": "brave-sorteos",
+     "reason": "requiere el secreto BRAVE_API_KEY"
+    },
+    {
+     "id": "brave-gratis",
+     "reason": "requiere el secreto BRAVE_API_KEY"
+    }
+   ],
+   "new": 62,
+   "updated": 0,
+   "unchanged": 6,
+   "discarded": 137,
+   "discard_reasons": {
+    "noticia antigua (más de 30 días)": 80,
+    "título sin señales de oportunidad o con señales negativas": 16,
+    "no describe una oportunidad aprovechable (el título no describe una oportunidad (posible comunicado de prensa))": 12,
+    "ya está vencida": 10,
+    "no describe una oportunidad aprovechable": 9,
+    "bloqueado por robots.txt / fuente no permitida": 5,
+    "noticia sin fecha de cierre y con más de 3 semanas": 3,
+    "no describe una oportunidad aprovechable (señales negativas: Cómo reconocer)": 1
+   },
+   "expired": 0,
+   "reverified": 0,
+   "archived": 0,
+   "http_requests": 158,
+   "robots_blocked": 5,
+   "errors": [],
+   "llm": {
+    "enabled": false,
+    "model": null,
+    "calls": 0,
+    "errors": 0,
+    "input_tokens": 0,
+    "output_tokens": 0
+   },
+   "alerts": {
+    "telegram": "no_configurado",
+    "email": "no_configurado",
+    "sent": 0
+   },
+   "git_sha": "f560c05",
+   "run_url": "https://github.com/Daniel01010101010101/opportunities/actions/runs/44399899744"
+  }
+ ]
+}
