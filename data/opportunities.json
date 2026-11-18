@@ -1,7 +1,163 @@
 {
- "generated_at": "2026-11-18T16:27:34-05:00",
- "count": 62,
+ "generated_at": "2026-11-18T17:22:56-05:00",
+ "count": 74,
  "items": [
+  {
+   "id": "op_72402b2d44f8",
+   "title": "Becas Mozilla 2027: hasta USD 125.000 para proyectos tecnológicos",
+   "summary": "¿Tienes una idea tecnológica que podría mejorar la vida de las personas, pero necesitas apoyo para convertirla en realidad? Una innovación desarrollada desde Bogotá puede encontrar el respaldo internacional que necesita para crecer.",
+   "section": "estado",
+   "category": "becas",
+   "tags": [
+    "Becas y educación",
+    "Emprendimiento"
+   ],
+   "mechanics": [],
+   "kind": "Programa público",
+   "organizer": {
+    "name": "Alcaldía de Bogotá",
+    "type": "gobierno",
+    "domain": "bogota.gov.co",
+    "known": true
+   },
+   "prize": {
+    "description": null,
+    "value_cop": null,
+    "value_text": null,
+    "value_source": null,
+    "winners": null,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "gratis_registro",
+    "label": "Gratis con registro",
+    "free": true,
+    "certainty": "inferido",
+    "requires_purchase": null,
+    "requires_registration": false,
+    "requires_social": false,
+    "requires_activity": false,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": null,
+    "notes": [
+     "No se encontró ninguna condición de compra en la fuente oficial (inferido, confírmalo en los términos)."
+    ]
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": null,
+    "age_text": null,
+    "coverage": "bogota",
+    "cities": [
+     "Bogotá"
+    ]
+   },
+   "requirements": [],
+   "documents": [
+    "Carta de motivación"
+   ],
+   "steps": [],
+   "steps_source": null,
+   "dates": {
+    "published": "2026-11-18T16:20:54-05:00",
+    "start": null,
+    "end": "2026-12-18",
+    "draw": null
+   },
+   "status": "activa",
+   "gov": {
+    "program_status": "abierta",
+    "entity": "Alcaldía de Bogotá"
+   },
+   "offer": null,
+   "verification": {
+    "status": "verificada",
+    "reasons": [
+     "El enlace pertenece a un dominio oficial del organizador.",
+     "Proviene de una fuente oficial configurada.",
+     "El enlace respondió correctamente en la última verificación."
+    ],
+    "checked_at": "2026-11-18T17:21:34-05:00",
+    "link_ok": true,
+    "official_domain": true,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://bogota.gov.co/boletin-oferta-internacional/becas-mozilla-2027-hasta-usd-125000-para-innovar",
+    "participate": "https://bogota.gov.co/boletin-oferta-internacional/becas-mozilla-2027-hasta-usd-125000-para-innovar",
+    "terms": null,
+    "official": null,
+    "image": "https://bogota.gov.co/sites/default/files/2026-11/2026-02-074_home.png"
+   },
+   "sources": [
+    {
+     "url": "https://bogota.gov.co/boletin-oferta-internacional/becas-mozilla-2027-hasta-usd-125000-para-innovar",
+     "name": "Bogotá.gov.co (oficial)",
+     "type": "official",
+     "seen_at": "2026-11-18T17:21:34-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 1.0,
+    "model": null
+   },
+   "discovered_at": "2026-11-18T17:21:34-05:00",
+   "updated_at": "2026-11-18T17:21:34-05:00",
+   "last_verified": "2026-11-18T17:21:34-05:00",
+   "last_seen": "2026-11-18T17:21:34-05:00",
+   "history": [],
+   "priority": {
+    "score": 84,
+    "level": "alta",
+    "breakdown": {
+     "valor": {
+      "points": 16,
+      "max": 25,
+      "note": "valor no publicado (estimado por tipo de premio)"
+     },
+     "gratuidad": {
+      "points": 22,
+      "max": 25,
+      "note": "gratis_registro"
+     },
+     "facilidad": {
+      "points": 15,
+      "max": 15,
+      "note": "pocos requisitos"
+     },
+     "vigencia": {
+      "points": 10,
+      "max": 10,
+      "note": "vigente (30 días restantes)"
+     },
+     "cobertura": {
+      "points": 10,
+      "max": 10,
+      "note": "bogota"
+     },
+     "credibilidad": {
+      "points": 10,
+      "max": 10,
+      "note": "verificada"
+     },
+     "claridad": {
+      "points": 1,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
   {
    "id": "op_228f9e99c8e1",
    "title": "MassChallenge 2027: conecta tu startup de alimentos con empresas globales",
@@ -111,7 +267,7 @@
    "discovered_at": "2026-11-18T16:18:57-05:00",
    "updated_at": "2026-11-18T16:18:57-05:00",
    "last_verified": "2026-11-18T16:18:57-05:00",
-   "last_seen": "2026-11-18T16:18:57-05:00",
+   "last_seen": "2026-11-18T17:21:33-05:00",
    "history": [],
    "priority": {
     "score": 82,
@@ -264,7 +420,7 @@
    "discovered_at": "2026-11-18T16:18:44-05:00",
    "updated_at": "2026-11-18T16:18:44-05:00",
    "last_verified": "2026-11-18T16:18:44-05:00",
-   "last_seen": "2026-11-18T16:18:44-05:00",
+   "last_seen": "2026-11-18T17:21:33-05:00",
    "history": [],
    "priority": {
     "score": 79,
@@ -421,7 +577,7 @@
    "discovered_at": "2026-11-18T16:19:00-05:00",
    "updated_at": "2026-11-18T16:19:00-05:00",
    "last_verified": "2026-11-18T16:19:00-05:00",
-   "last_seen": "2026-11-18T16:19:00-05:00",
+   "last_seen": "2026-11-18T17:21:33-05:00",
    "history": [],
    "priority": {
     "score": 79,
@@ -456,6 +612,167 @@
       "points": 10,
       "max": 10,
       "note": "verificada"
+     },
+     "claridad": {
+      "points": 1,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
+   "id": "op_879fc092792c",
+   "title": "Colpensiones sorteará bonos de 217 millones para vivienda en el programa Ahorrar es Ganar 2026",
+   "summary": "COLOMBIA, Octubre 22 de 2026. Colpensiones anunció la entrega de dos bonos de 217 millones de pesos cada uno para la adquisición, equipamiento o remodelación de vivienda, en el marco de su programa promocional ‘Ahorrar es Ganar 2026’. Este sorteo, que está vinculado al programa…",
+   "section": "estado",
+   "category": "vivienda",
+   "tags": [
+    "Vivienda"
+   ],
+   "mechanics": [],
+   "kind": "Programa público",
+   "organizer": {
+    "name": "Colpensiones",
+    "type": "gobierno",
+    "domain": "colpensiones.gov.co",
+    "known": true
+   },
+   "prize": {
+    "description": null,
+    "value_cop": null,
+    "value_text": null,
+    "value_source": null,
+    "winners": null,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "gratis_registro",
+    "label": "Gratis con registro",
+    "free": true,
+    "certainty": "inferido",
+    "requires_purchase": null,
+    "requires_registration": false,
+    "requires_social": false,
+    "requires_activity": false,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": null,
+    "notes": [
+     "No se encontró ninguna condición de compra en la fuente oficial (inferido, confírmalo en los términos)."
+    ]
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": null,
+    "age_text": null,
+    "coverage": "nacional",
+    "cities": []
+   },
+   "requirements": [],
+   "documents": [],
+   "steps": [],
+   "steps_source": null,
+   "dates": {
+    "published": "2026-10-22T16:27:15-05:00",
+    "start": null,
+    "end": null,
+    "draw": null
+   },
+   "status": "sin_confirmar",
+   "gov": {
+    "program_status": "sin_confirmar",
+    "entity": "Colpensiones"
+   },
+   "offer": null,
+   "verification": {
+    "status": "pendiente",
+    "reasons": [
+     "Falta confirmar condiciones en la página oficial."
+    ],
+    "checked_at": "2026-11-18T17:21:47-05:00",
+    "link_ok": null,
+    "official_domain": false,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://colombinews.com.co/colpensiones-sorteara-bonos-de-217-millones-para-vivienda-en-el-programa-ahorrar-es-ganar-2026/",
+    "participate": null,
+    "terms": null,
+    "official": null,
+    "image": "https://secure.gravatar.com/avatar/c1b3f49a98b201a2905db898beb4a26174564e0deaf013dfee324b8345fa3c1a?s=96&d=mm&r=g"
+   },
+   "sources": [
+    {
+     "url": "https://colombinews.com.co/colpensiones-sorteara-bonos-de-hasta-217-millones-para-compra-de-vivienda-en-enero-de-2027/",
+     "name": "Colombinews",
+     "type": "news",
+     "seen_at": "2026-11-18T17:21:44-05:00"
+    },
+    {
+     "url": "https://colombinews.com.co/colpensiones-sorteara-bonos-de-hasta-217-millones-para-vivienda-en-2027/",
+     "name": "Colombinews",
+     "type": "news",
+     "seen_at": "2026-11-18T17:21:46-05:00"
+    },
+    {
+     "url": "https://colombinews.com.co/colpensiones-sorteara-bonos-de-217-millones-para-vivienda-en-el-programa-ahorrar-es-ganar-2026/",
+     "name": "Colombinews",
+     "type": "news",
+     "seen_at": "2026-11-18T17:21:47-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 0.87,
+    "model": null
+   },
+   "discovered_at": "2026-11-18T17:21:44-05:00",
+   "updated_at": "2026-11-18T17:21:44-05:00",
+   "last_verified": "2026-11-18T17:21:47-05:00",
+   "last_seen": "2026-11-18T17:21:47-05:00",
+   "history": [],
+   "priority": {
+    "score": 77,
+    "level": "alta",
+    "breakdown": {
+     "valor": {
+      "points": 18,
+      "max": 25,
+      "note": "valor no publicado (estimado por tipo de premio)"
+     },
+     "gratuidad": {
+      "points": 22,
+      "max": 25,
+      "note": "gratis_registro"
+     },
+     "facilidad": {
+      "points": 15,
+      "max": 15,
+      "note": "pocos requisitos"
+     },
+     "vigencia": {
+      "points": 5,
+      "max": 10,
+      "note": "sin fecha límite publicada"
+     },
+     "cobertura": {
+      "points": 10,
+      "max": 10,
+      "note": "nacional"
+     },
+     "credibilidad": {
+      "points": 6,
+      "max": 10,
+      "note": "pendiente"
      },
      "claridad": {
       "points": 1,
@@ -576,7 +893,7 @@
    "discovered_at": "2026-11-18T16:19:02-05:00",
    "updated_at": "2026-11-18T16:19:02-05:00",
    "last_verified": "2026-11-18T16:19:02-05:00",
-   "last_seen": "2026-11-18T16:19:02-05:00",
+   "last_seen": "2026-11-18T17:21:33-05:00",
    "history": [],
    "priority": {
     "score": 77,
@@ -731,7 +1048,7 @@
    "discovered_at": "2026-11-18T16:18:56-05:00",
    "updated_at": "2026-11-18T16:18:56-05:00",
    "last_verified": "2026-11-18T16:18:56-05:00",
-   "last_seen": "2026-11-18T16:18:56-05:00",
+   "last_seen": "2026-11-18T17:21:33-05:00",
    "history": [],
    "priority": {
     "score": 77,
@@ -936,6 +1253,177 @@
    }
   },
   {
+   "id": "op_69958052fdc3",
+   "title": "Colpensiones sorteará 1.002 bonos de hasta $217 millones: así puede participar y estos son los requisitos",
+   "summary": "Los ahorradores de BEPS deberán cumplir los requisitos y registrar aportes durante 2026 para participar.",
+   "section": "estado",
+   "category": "vivienda",
+   "tags": [
+    "Dinero en efectivo"
+   ],
+   "mechanics": [],
+   "kind": "Programa público",
+   "organizer": {
+    "name": "Portafolio.co",
+    "type": "gobierno",
+    "domain": null,
+    "known": false
+   },
+   "prize": {
+    "description": null,
+    "value_cop": 217000000,
+    "value_text": "$217 millones",
+    "value_source": "noticia",
+    "winners": 2,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "gratis_registro",
+    "label": "Gratis con registro",
+    "free": true,
+    "certainty": "explicito",
+    "requires_purchase": false,
+    "requires_registration": false,
+    "requires_social": true,
+    "requires_activity": true,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": "$120.000",
+    "notes": [
+     "La fuente lo indica: «no tiene costo».",
+     "Pide interactuar en redes sociales (seguir, comentar o etiquetar)."
+    ]
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": null,
+    "age_text": null,
+    "coverage": "nacional",
+    "cities": []
+   },
+   "requirements": [
+    "Los ganadores deberán destinar los recursos exclusivamente a los fines establecidos en el reglamento de la convocatoria, por lo que no podrán disponer libremente del dinero ni recibirlo como una transferencia en…",
+    "¿Cuáles son los requisitos para participar en el sorteo de Colpensiones? Colpensiones Foto:",
+    "Este mecanismo está dirigido a personas que tienen dificultades para cotizar regularmente al sistema pensional y les permite realizar aportes voluntarios y flexibles mediante las redes de recaudo habilitadas por…",
+    "Los ganadores deberán cumplir los procedimientos de verificación y legalización establecidos para hacer efectivo el beneficio.",
+    "Estos incentivos tampoco se entregarán en efectivo, sino que deberán utilizarse conforme a las condiciones establecidas.",
+    "Colpensiones también contempla un seguro de vida y un auxilio funerario para los participantes que cumplan los requisitos correspondientes."
+   ],
+   "documents": [],
+   "steps": [],
+   "steps_source": null,
+   "dates": {
+    "published": "2026-10-20T14:47:10-05:00",
+    "start": "2026-01-01",
+    "end": "2026-12-31",
+    "draw": null
+   },
+   "status": "activa",
+   "gov": {
+    "program_status": "abierta",
+    "entity": "Portafolio.co"
+   },
+   "offer": null,
+   "verification": {
+    "status": "verificada",
+    "reasons": [
+     "El enlace pertenece a un dominio oficial del organizador."
+    ],
+    "checked_at": "2026-11-18T17:21:56-05:00",
+    "link_ok": null,
+    "official_domain": true,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://www.portafolio.co/tendencias/sociales/colpensiones-sorteara-1-002-bonos-de-hasta-217-millones-asi-puede-participar-y-estos-son-los-requisitos-504795",
+    "participate": "http://www.colpensiones.gov.co/beps",
+    "terms": null,
+    "official": "http://www.colpensiones.gov.co/beps",
+    "image": "https://imagenes.portafolio.co/files/og_thumbnail/uploads/2025/06/16/685056ef0a7a5.jpeg"
+   },
+   "sources": [
+    {
+     "url": "https://www.portafolio.co/tendencias/sociales/colpensiones-entregara-bonos-de-217-millones-en-enero-de-2027-para-comprar-apartamento-asi-puede-participar-505008",
+     "name": "Noticias · así puede participar sorteo",
+     "type": "news",
+     "seen_at": "2026-11-18T17:21:54-05:00"
+    },
+    {
+     "url": "https://www.portafolio.co/tendencias/sociales/colpensiones-sorteara-1-002-bonos-de-hasta-217-millones-asi-puede-participar-y-estos-son-los-requisitos-504795",
+     "name": "Noticias · así puede participar sorteo",
+     "type": "news",
+     "seen_at": "2026-11-18T17:21:56-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 0.85,
+    "model": null
+   },
+   "discovered_at": "2026-11-18T17:21:54-05:00",
+   "updated_at": "2026-11-18T17:21:56-05:00",
+   "last_verified": "2026-11-18T17:21:56-05:00",
+   "last_seen": "2026-11-18T17:21:56-05:00",
+   "history": [
+    {
+     "at": "2026-11-18T17:21:56-05:00",
+     "field": "dates.start",
+     "label": "Fecha de inicio",
+     "from": "2026-09-17",
+     "to": "2026-01-01"
+    }
+   ],
+   "priority": {
+    "score": 75,
+    "level": "alta",
+    "breakdown": {
+     "valor": {
+      "points": 17,
+      "max": 25,
+      "note": "valor publicado 217.000.000 COP"
+     },
+     "gratuidad": {
+      "points": 22,
+      "max": 25,
+      "note": "gratis_registro"
+     },
+     "facilidad": {
+      "points": 7,
+      "max": 15,
+      "note": "actividad, redes sociales"
+     },
+     "vigencia": {
+      "points": 8,
+      "max": 10,
+      "note": "vigente (43 días restantes)"
+     },
+     "cobertura": {
+      "points": 10,
+      "max": 10,
+      "note": "nacional"
+     },
+     "credibilidad": {
+      "points": 10,
+      "max": 10,
+      "note": "verificada"
+     },
+     "claridad": {
+      "points": 1,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
    "id": "op_2fdb286d2959",
    "title": "Jornadas informativas - PDE 2026",
    "summary": "Para dar a conocer la oferta del Programa Distrital de Estímulos del Idartes en sus áreas artísticas, programas y líneas estratégicas, se realizan jornadas informativas, a través del Instagram, Facebook y Youtube de Idartes.Este es un espacio para que los interesados puedan…",
@@ -1041,7 +1529,7 @@
    "discovered_at": "2026-11-18T16:18:58-05:00",
    "updated_at": "2026-11-18T16:18:58-05:00",
    "last_verified": "2026-11-18T16:18:58-05:00",
-   "last_seen": "2026-11-18T16:18:58-05:00",
+   "last_seen": "2026-11-18T17:21:33-05:00",
    "history": [],
    "priority": {
     "score": 75,
@@ -1208,7 +1696,7 @@
    "discovered_at": "2026-11-18T16:18:57-05:00",
    "updated_at": "2026-11-18T16:18:57-05:00",
    "last_verified": "2026-11-18T16:18:57-05:00",
-   "last_seen": "2026-11-18T16:18:57-05:00",
+   "last_seen": "2026-11-18T17:21:33-05:00",
    "history": [],
    "priority": {
     "score": 75,
@@ -1659,7 +2147,7 @@
    "discovered_at": "2026-11-18T16:18:54-05:00",
    "updated_at": "2026-11-18T16:18:54-05:00",
    "last_verified": "2026-11-18T16:18:54-05:00",
-   "last_seen": "2026-11-18T16:18:54-05:00",
+   "last_seen": "2026-11-18T17:21:33-05:00",
    "history": [],
    "priority": {
     "score": 74,
@@ -1809,7 +2297,7 @@
    "discovered_at": "2026-11-18T16:18:53-05:00",
    "updated_at": "2026-11-18T16:18:53-05:00",
    "last_verified": "2026-11-18T16:18:53-05:00",
-   "last_seen": "2026-11-18T16:18:53-05:00",
+   "last_seen": "2026-11-18T17:21:33-05:00",
    "history": [],
    "priority": {
     "score": 74,
@@ -2274,7 +2762,7 @@
    "discovered_at": "2026-11-18T16:18:46-05:00",
    "updated_at": "2026-11-18T16:18:46-05:00",
    "last_verified": "2026-11-18T16:18:52-05:00",
-   "last_seen": "2026-11-18T16:18:52-05:00",
+   "last_seen": "2026-11-18T17:21:33-05:00",
    "history": [],
    "priority": {
     "score": 73,
@@ -2919,7 +3407,7 @@
    "discovered_at": "2026-11-18T16:18:49-05:00",
    "updated_at": "2026-11-18T16:18:49-05:00",
    "last_verified": "2026-11-18T16:18:56-05:00",
-   "last_seen": "2026-11-18T16:18:56-05:00",
+   "last_seen": "2026-11-18T17:21:33-05:00",
    "history": [],
    "priority": {
     "score": 72,
@@ -3077,7 +3565,7 @@
    "discovered_at": "2026-11-18T16:18:45-05:00",
    "updated_at": "2026-11-18T16:18:45-05:00",
    "last_verified": "2026-11-18T16:18:51-05:00",
-   "last_seen": "2026-11-18T16:18:51-05:00",
+   "last_seen": "2026-11-18T17:21:33-05:00",
    "history": [],
    "priority": {
     "score": 72,
@@ -3214,6 +3702,12 @@
      "name": "Noticias · Prosperidad Social pagos",
      "type": "news",
      "seen_at": "2026-11-18T16:19:12-05:00"
+    },
+    {
+     "url": "https://www.elpais.com.co/economia/trasnochon-navideno-subastaran-cerca-de-50-vehiculos-usados-de-unico-dueno-y-sin-dano-estructural-asi-puede-participar-1720.html",
+     "name": "El País Cali (feed)",
+     "type": "news",
+     "seen_at": "2026-11-18T17:21:33-05:00"
     }
    ],
    "language": "es",
@@ -3226,7 +3720,7 @@
    "discovered_at": "2026-11-18T16:19:12-05:00",
    "updated_at": "2026-11-18T16:19:12-05:00",
    "last_verified": "2026-11-18T16:19:12-05:00",
-   "last_seen": "2026-11-18T16:19:12-05:00",
+   "last_seen": "2026-11-18T17:21:33-05:00",
    "history": [],
    "priority": {
     "score": 72,
@@ -3848,7 +4342,7 @@
    "discovered_at": "2026-11-18T16:18:58-05:00",
    "updated_at": "2026-11-18T16:18:58-05:00",
    "last_verified": "2026-11-18T16:18:58-05:00",
-   "last_seen": "2026-11-18T16:18:58-05:00",
+   "last_seen": "2026-11-18T17:21:33-05:00",
    "history": [],
    "priority": {
     "score": 70,
@@ -4002,7 +4496,7 @@
    "discovered_at": "2026-11-18T16:19:04-05:00",
    "updated_at": "2026-11-18T16:19:04-05:00",
    "last_verified": "2026-11-18T16:19:04-05:00",
-   "last_seen": "2026-11-18T16:19:04-05:00",
+   "last_seen": "2026-11-18T17:21:33-05:00",
    "history": [],
    "priority": {
     "score": 70,
@@ -4164,7 +4658,7 @@
    "discovered_at": "2026-11-18T16:18:47-05:00",
    "updated_at": "2026-11-18T16:18:47-05:00",
    "last_verified": "2026-11-18T16:18:53-05:00",
-   "last_seen": "2026-11-18T16:18:53-05:00",
+   "last_seen": "2026-11-18T17:21:33-05:00",
    "history": [],
    "priority": {
     "score": 69,
@@ -4346,6 +4840,162 @@
       "points": 5,
       "max": 10,
       "note": "sin fecha límite publicada"
+     },
+     "cobertura": {
+      "points": 10,
+      "max": 10,
+      "note": "bogota"
+     },
+     "credibilidad": {
+      "points": 6,
+      "max": 10,
+      "note": "pendiente"
+     },
+     "claridad": {
+      "points": 1,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
+   "id": "op_65ae5d5ec9d2",
+   "title": "Embajada de Estados Unidos abrió convocatoria para un prgrama que beneficiará a líderes comunitarios y profesionales colombianos: así…",
+   "summary": "Las postulaciones permanecerán habilitadas hasta el 24 de noviembre de 2026, para profesionales y referentes comunitarios interesados en impulsar el desarrollo económico local y regional",
+   "section": "estado",
+   "category": "convocatorias",
+   "tags": [
+    "Convocatorias públicas"
+   ],
+   "mechanics": [],
+   "kind": "Programa público",
+   "organizer": {
+    "name": "Organizador no identificado",
+    "type": "desconocido",
+    "domain": null,
+    "known": false
+   },
+   "prize": {
+    "description": null,
+    "value_cop": null,
+    "value_text": null,
+    "value_source": null,
+    "winners": null,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "gratis_registro",
+    "label": "Gratis con registro",
+    "free": true,
+    "certainty": "inferido",
+    "requires_purchase": null,
+    "requires_registration": true,
+    "requires_social": false,
+    "requires_activity": false,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": null,
+    "notes": [
+     "No se encontró ninguna condición de compra en la fuente oficial (inferido, confírmalo en los términos)."
+    ]
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": 27,
+    "age_text": "entre 27 y 39 años",
+    "coverage": "bogota",
+    "cities": [
+     "Bogotá"
+    ]
+   },
+   "requirements": [
+    "Los postulantes deberán demostrar que sus conocimientos pueden traducirse en acciones de largo plazo, iniciativas entre sectores y resultados medibles para sus territorios.",
+    "Los candidatos también deberán demostrar capacidad para generar beneficios concretos en sus comunidades y articular proyectos con actores de distintos sectores.",
+    "La información sobre requisitos y proceso de inscripción está disponible en la página del Community Solutions Program de IREX:",
+    "Convocatoria laboral Embajada de Estados Unidos Líderes colombianos Requisitos Colombia-Noticias Más Noticias De la Espriella anunció medidas para comerciantes afectados por incendio en El Gran San y pidió el apoyo de…"
+   ],
+   "documents": [],
+   "steps": [],
+   "steps_source": null,
+   "dates": {
+    "published": "2026-11-18T11:00:36-05:00",
+    "start": null,
+    "end": "2026-11-24",
+    "draw": null
+   },
+   "status": "activa",
+   "gov": {
+    "program_status": "abierta",
+    "entity": "Organizador no identificado"
+   },
+   "offer": null,
+   "verification": {
+    "status": "pendiente",
+    "reasons": [
+     "Organizador no identificado con certeza."
+    ],
+    "checked_at": "2026-11-18T17:21:34-05:00",
+    "link_ok": null,
+    "official_domain": false,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://www.infobae.com/colombia/2026/11/18/embajada-de-estados-unidos-abrio-convocatoria-para-un-prgrama-que-beneficiara-a-lideres-comunitarios-y-profesionales-colombianos-asi-puede-aplicar/",
+    "participate": null,
+    "terms": null,
+    "official": null,
+    "image": "https://www.infobae.com/resizer/v2/OTTFQX7HR5FGTJFHQVWBG6GP5Q.jpg?auth=f2cfbd433186de2f89760b5ee5eb773aa29e94576074fb42ff9b45a30c98a28d&smart=true&width=1200&height=630&quality=85"
+   },
+   "sources": [
+    {
+     "url": "https://www.infobae.com/colombia/2026/11/18/embajada-de-estados-unidos-abrio-convocatoria-para-un-prgrama-que-beneficiara-a-lideres-comunitarios-y-profesionales-colombianos-asi-puede-aplicar/",
+     "name": "Infobae Colombia (feed)",
+     "type": "news",
+     "seen_at": "2026-11-18T17:21:34-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 0.93,
+    "model": null
+   },
+   "discovered_at": "2026-11-18T17:21:34-05:00",
+   "updated_at": "2026-11-18T17:21:34-05:00",
+   "last_verified": "2026-11-18T17:21:34-05:00",
+   "last_seen": "2026-11-18T17:21:34-05:00",
+   "history": [],
+   "priority": {
+    "score": 69,
+    "level": "media",
+    "breakdown": {
+     "valor": {
+      "points": 9,
+      "max": 25,
+      "note": "valor no publicado"
+     },
+     "gratuidad": {
+      "points": 22,
+      "max": 25,
+      "note": "gratis_registro"
+     },
+     "facilidad": {
+      "points": 11,
+      "max": 15,
+      "note": "registro"
+     },
+     "vigencia": {
+      "points": 10,
+      "max": 10,
+      "note": "vigente (6 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -4630,7 +5280,7 @@
    "discovered_at": "2026-11-18T16:18:55-05:00",
    "updated_at": "2026-11-18T16:18:55-05:00",
    "last_verified": "2026-11-18T16:18:55-05:00",
-   "last_seen": "2026-11-18T16:18:55-05:00",
+   "last_seen": "2026-11-18T17:21:33-05:00",
    "history": [],
    "priority": {
     "score": 69,
@@ -4797,6 +5447,12 @@
      "name": "Noticias · becas Bogotá",
      "type": "news",
      "seen_at": "2026-11-18T16:19:11-05:00"
+    },
+    {
+     "url": "https://www.colombia.com/actualidad/nacionales/jovenes-a-la-e-ofrece-3000-becas-en-bogota-hoy-vence-el-plazo-para-postularse-613175",
+     "name": "Colombia.com (feed)",
+     "type": "news",
+     "seen_at": "2026-11-18T17:21:33-05:00"
     }
    ],
    "language": "es",
@@ -4808,8 +5464,8 @@
    },
    "discovered_at": "2026-11-18T16:19:10-05:00",
    "updated_at": "2026-11-18T16:19:10-05:00",
-   "last_verified": "2026-11-18T16:19:11-05:00",
-   "last_seen": "2026-11-18T16:19:11-05:00",
+   "last_verified": "2026-11-18T17:21:33-05:00",
+   "last_seen": "2026-11-18T17:21:33-05:00",
    "history": [],
    "priority": {
     "score": 68,
@@ -5007,6 +5663,155 @@
    }
   },
   {
+   "id": "op_98042c84e5e2",
+   "title": "Colpensiones sorteará 800 bonos de consumo de más de 1,5 millones de pesos cada uno",
+   "summary": "COLOMBIA, October 27 de 2026. Colpensiones anunció que realizará un sorteo para entregar 800 bonos de consumo, cada uno por un valor de 1.580.000 pesos colombianos. Esta actividad hace parte del programa “Ahorrar es Ganar” que busca incentivar el ahorro de las personas…",
+   "section": "estado",
+   "category": "convocatorias",
+   "tags": [
+    "Dinero en efectivo"
+   ],
+   "mechanics": [],
+   "kind": "Programa público",
+   "organizer": {
+    "name": "Colpensiones",
+    "type": "gobierno",
+    "domain": "colpensiones.gov.co",
+    "known": true
+   },
+   "prize": {
+    "description": null,
+    "value_cop": null,
+    "value_text": null,
+    "value_source": null,
+    "winners": null,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "gratis_registro",
+    "label": "Gratis con registro",
+    "free": true,
+    "certainty": "inferido",
+    "requires_purchase": null,
+    "requires_registration": false,
+    "requires_social": false,
+    "requires_activity": false,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": null,
+    "notes": [
+     "No se encontró ninguna condición de compra en la fuente oficial (inferido, confírmalo en los términos)."
+    ]
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": null,
+    "age_text": null,
+    "coverage": "nacional",
+    "cities": []
+   },
+   "requirements": [],
+   "documents": [],
+   "steps": [],
+   "steps_source": null,
+   "dates": {
+    "published": "2026-10-27T09:24:26-05:00",
+    "start": null,
+    "end": null,
+    "draw": null
+   },
+   "status": "sin_confirmar",
+   "gov": {
+    "program_status": "sin_confirmar",
+    "entity": "Colpensiones"
+   },
+   "offer": null,
+   "verification": {
+    "status": "pendiente",
+    "reasons": [
+     "Falta confirmar condiciones en la página oficial."
+    ],
+    "checked_at": "2026-11-18T17:21:45-05:00",
+    "link_ok": null,
+    "official_domain": false,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://colombinews.com.co/colpensiones-sorteara-800-bonos-de-consumo-de-mas-de-15-millones-de-pesos-cada-uno/",
+    "participate": null,
+    "terms": null,
+    "official": null,
+    "image": "https://secure.gravatar.com/avatar/c1b3f49a98b201a2905db898beb4a26174564e0deaf013dfee324b8345fa3c1a?s=96&d=mm&r=g"
+   },
+   "sources": [
+    {
+     "url": "https://colombinews.com.co/colpensiones-sorteara-800-bonos-de-consumo-de-mas-de-15-millones-de-pesos-cada-uno/",
+     "name": "Colombinews",
+     "type": "news",
+     "seen_at": "2026-11-18T17:21:45-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 0.58,
+    "model": null
+   },
+   "discovered_at": "2026-11-18T17:21:45-05:00",
+   "updated_at": "2026-11-18T17:21:45-05:00",
+   "last_verified": "2026-11-18T17:21:45-05:00",
+   "last_seen": "2026-11-18T17:21:45-05:00",
+   "history": [],
+   "priority": {
+    "score": 68,
+    "level": "media",
+    "breakdown": {
+     "valor": {
+      "points": 9,
+      "max": 25,
+      "note": "valor no publicado"
+     },
+     "gratuidad": {
+      "points": 22,
+      "max": 25,
+      "note": "gratis_registro"
+     },
+     "facilidad": {
+      "points": 15,
+      "max": 15,
+      "note": "pocos requisitos"
+     },
+     "vigencia": {
+      "points": 5,
+      "max": 10,
+      "note": "sin fecha límite publicada"
+     },
+     "cobertura": {
+      "points": 10,
+      "max": 10,
+      "note": "nacional"
+     },
+     "credibilidad": {
+      "points": 6,
+      "max": 10,
+      "note": "pendiente"
+     },
+     "claridad": {
+      "points": 1,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
    "id": "op_5bbec8c88b4c",
    "title": "Latam Health Champions 2027: impulsa tu innovación en salud desde Bogotá",
    "summary": "¿Tu organización está desarrollando una solución que podría transformar la atención en salud? Esta oportunidad internacional puede ayudarte a llevar tu innovación más lejos.",
@@ -5120,7 +5925,7 @@
    "discovered_at": "2026-11-18T16:19:03-05:00",
    "updated_at": "2026-11-18T16:19:03-05:00",
    "last_verified": "2026-11-18T16:19:03-05:00",
-   "last_seen": "2026-11-18T16:19:03-05:00",
+   "last_seen": "2026-11-18T17:21:33-05:00",
    "history": [],
    "priority": {
     "score": 68,
@@ -5436,7 +6241,7 @@
    "discovered_at": "2026-11-18T16:18:52-05:00",
    "updated_at": "2026-11-18T16:18:52-05:00",
    "last_verified": "2026-11-18T16:18:52-05:00",
-   "last_seen": "2026-11-18T16:18:52-05:00",
+   "last_seen": "2026-11-18T17:21:33-05:00",
    "history": [],
    "priority": {
     "score": 67,
@@ -5474,6 +6279,167 @@
      },
      "claridad": {
       "points": 1,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
+   "id": "op_b1ca72ef2dc4",
+   "title": "¿Eres un fan 100% Yamaha? Gana una visita exclusiva a la planta de Incolmotos Yamaha",
+   "summary": "Haz un video contándonos por qué mereces ser el ganador del Concurso Yamaha, para los fans 100% de la marca de los diapasones. Detalles aquí.",
+   "section": "concursos",
+   "category": "motos",
+   "tags": [
+    "Experiencias y visitas",
+    "Motos"
+   ],
+   "mechanics": [
+    "creativo"
+   ],
+   "kind": "Concurso",
+   "organizer": {
+    "name": "La Revista De Motos · con Yamaha Colombia",
+    "type": "marca",
+    "domain": "incolmotos-yamaha.com.co",
+    "known": true
+   },
+   "prize": {
+    "description": null,
+    "value_cop": null,
+    "value_text": null,
+    "value_source": null,
+    "winners": 4,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "gratis_actividad",
+    "label": "Gratis con actividad",
+    "free": true,
+    "certainty": "inferido",
+    "requires_purchase": null,
+    "requires_registration": false,
+    "requires_social": true,
+    "requires_activity": true,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": null,
+    "notes": [
+     "Pide interactuar en redes sociales (seguir, comentar o etiquetar).",
+     "No se encontró ninguna condición de compra en la fuente oficial (inferido, confírmalo en los términos)."
+    ]
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": 18,
+    "age_text": "mayor de edad",
+    "coverage": "regional",
+    "cities": []
+   },
+   "requirements": [
+    "Ser mayor de edad.",
+    "La invitación es individual y está destinada a una sola persona por ganador. No incluye acompañante.",
+    "El premio comprende exclusivamente la visita a la Plaza de la Comunicación y a la planta de Incolmotos Yamaha.",
+    "No incluye transporte, desplazamientos desde otras ciudades, alimentación ni viáticos. Estos gastos deberán ser asumidos por cada ganador.",
+    "Cada ganador debe garantizar su llegada puntual a las instalaciones de Incolmotos Yamaha el sábado 28 de noviembre, a las 9:00 a. m.",
+    "Si alguno de los ganadores no puede viajar o asistir a la visita, se seleccionará otro participante entre los concursantes para ocupar su lugar."
+   ],
+   "documents": [],
+   "steps": [
+    "Graba un video y publícalo en tu perfil de Facebook o Instagram.",
+    "Etiqueta a La Revista De Motos en la publicación para que podamos encontrarlo.",
+    "Cuéntanos por qué eres un fan 100% Yamaha y por qué mereces ser uno de los cuatro elegidos para vivir esta experiencia."
+   ],
+   "steps_source": "fuente_secundaria",
+   "dates": {
+    "published": "2026-11-18T14:29:06-05:00",
+    "start": null,
+    "end": "2026-11-25",
+    "draw": null
+   },
+   "status": "activa",
+   "gov": null,
+   "offer": null,
+   "verification": {
+    "status": "pendiente",
+    "reasons": [
+     "Falta confirmar condiciones en la página oficial."
+    ],
+    "checked_at": "2026-11-18T17:21:34-05:00",
+    "link_ok": null,
+    "official_domain": false,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://demotos.com.co/eventos/concurso-yamaha-fan-fiel/",
+    "participate": null,
+    "terms": null,
+    "official": null,
+    "image": "https://demotos.com.co/wp-content/uploads/2026/11/concurso-yamaha.webp"
+   },
+   "sources": [
+    {
+     "url": "https://demotos.com.co/eventos/concurso-yamaha-fan-fiel/",
+     "name": "La Revista De Motos",
+     "type": "news",
+     "seen_at": "2026-11-18T17:21:34-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 1.0,
+    "model": null
+   },
+   "discovered_at": "2026-11-18T17:21:34-05:00",
+   "updated_at": "2026-11-18T17:21:34-05:00",
+   "last_verified": "2026-11-18T17:21:34-05:00",
+   "last_seen": "2026-11-18T17:21:34-05:00",
+   "history": [],
+   "priority": {
+    "score": 67,
+    "level": "media",
+    "breakdown": {
+     "valor": {
+      "points": 18,
+      "max": 25,
+      "note": "valor no publicado (estimado por tipo de premio)"
+     },
+     "gratuidad": {
+      "points": 18,
+      "max": 25,
+      "note": "gratis_actividad"
+     },
+     "facilidad": {
+      "points": 7,
+      "max": 15,
+      "note": "actividad, redes sociales"
+     },
+     "vigencia": {
+      "points": 10,
+      "max": 10,
+      "note": "vigente (7 días restantes)"
+     },
+     "cobertura": {
+      "points": 5,
+      "max": 10,
+      "note": "regional"
+     },
+     "credibilidad": {
+      "points": 6,
+      "max": 10,
+      "note": "pendiente"
+     },
+     "claridad": {
+      "points": 3,
       "max": 5,
       "note": "sin términos enlazados"
      }
@@ -5779,6 +6745,152 @@
       "points": 10,
       "max": 10,
       "note": "nacional"
+     },
+     "credibilidad": {
+      "points": 6,
+      "max": 10,
+      "note": "pendiente"
+     },
+     "claridad": {
+      "points": 1,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
+   "id": "op_6c49063b6e99",
+   "title": "Nissan Colombia amplía su oferta híbrida con el Kicks e-Power y la Frontier Pro y prevé un 2027 liderado por las SUV",
+   "summary": "Carlos Vargas, gerente de mercadeo de Nissan Colombia, explica los hitos de 2026, el Kicks e-Power, la Frontier Pro híbrida y por qué las SUV liderarán 202...",
+   "section": "concursos",
+   "category": "carros",
+   "tags": [
+    "Carros"
+   ],
+   "mechanics": [],
+   "kind": "Concurso",
+   "organizer": {
+    "name": "Organizador no identificado",
+    "type": "desconocido",
+    "domain": null,
+    "known": false
+   },
+   "prize": {
+    "description": null,
+    "value_cop": null,
+    "value_text": null,
+    "value_source": null,
+    "winners": null,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "desconocido",
+    "label": "Costo sin confirmar",
+    "free": false,
+    "certainty": "desconocido",
+    "requires_purchase": null,
+    "requires_registration": false,
+    "requires_social": false,
+    "requires_activity": true,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": null,
+    "notes": []
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": null,
+    "age_text": null,
+    "coverage": "bogota",
+    "cities": [
+     "Bogotá"
+    ]
+   },
+   "requirements": [],
+   "documents": [],
+   "steps": [],
+   "steps_source": null,
+   "dates": {
+    "published": "2026-11-17T04:10:00-05:00",
+    "start": "2026-11-03",
+    "end": null,
+    "draw": null
+   },
+   "status": "sin_confirmar",
+   "gov": null,
+   "offer": null,
+   "verification": {
+    "status": "pendiente",
+    "reasons": [
+     "Organizador no identificado con certeza."
+    ],
+    "checked_at": "2026-11-18T17:21:38-05:00",
+    "link_ok": null,
+    "official_domain": false,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://www.revistapym.com.co/articulos/digital/103625/nissan-colombia-amplia-su-oferta-hibrida-con-el-kicks-e-power-y-la-frontier-pro-y-preve-un-2027-liderado-por-las-suv",
+    "participate": null,
+    "terms": null,
+    "official": null,
+    "image": "https://i.revistapym.com.co/cms/2026/11/17171016/kicks-e-power-y-frontier-de-nissan.jpg?w=1280"
+   },
+   "sources": [
+    {
+     "url": "https://www.revistapym.com.co/articulos/digital/103625/nissan-colombia-amplia-su-oferta-hibrida-con-el-kicks-e-power-y-la-frontier-pro-y-preve-un-2027-liderado-por-las-suv",
+     "name": "Noticias · Nissan concursos",
+     "type": "news",
+     "seen_at": "2026-11-18T17:21:38-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 0.37,
+    "model": null
+   },
+   "discovered_at": "2026-11-18T17:21:38-05:00",
+   "updated_at": "2026-11-18T17:21:38-05:00",
+   "last_verified": "2026-11-18T17:21:38-05:00",
+   "last_seen": "2026-11-18T17:21:38-05:00",
+   "history": [],
+   "priority": {
+    "score": 65,
+    "level": "media",
+    "breakdown": {
+     "valor": {
+      "points": 22,
+      "max": 25,
+      "note": "valor no publicado (estimado por tipo de premio)"
+     },
+     "gratuidad": {
+      "points": 9,
+      "max": 25,
+      "note": "desconocido"
+     },
+     "facilidad": {
+      "points": 12,
+      "max": 15,
+      "note": "actividad"
+     },
+     "vigencia": {
+      "points": 5,
+      "max": 10,
+      "note": "sin fecha límite publicada"
+     },
+     "cobertura": {
+      "points": 10,
+      "max": 10,
+      "note": "bogota"
      },
      "credibilidad": {
       "points": 6,
@@ -6893,6 +8005,155 @@
    }
   },
   {
+   "id": "op_917377fcf6c7",
+   "title": "En el III Congreso de Turismo de Experiencias y Expo-Experiencias de Córdoba participarán 30 conferencistas nacionales e internacionales",
+   "summary": "El encuentro reunirá en el departamento a destinos, instituciones, empresarios y expertos para compartir conocimientos y fortalecer iniciativas de turismo sostenible e inclusivo.",
+   "section": "estado",
+   "category": "formacion",
+   "tags": [],
+   "mechanics": [],
+   "kind": "Programa público",
+   "organizer": {
+    "name": "Organizador no identificado",
+    "type": "desconocido",
+    "domain": null,
+    "known": false
+   },
+   "prize": {
+    "description": null,
+    "value_cop": null,
+    "value_text": null,
+    "value_source": null,
+    "winners": null,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "gratis_registro",
+    "label": "Gratis con registro",
+    "free": true,
+    "certainty": "inferido",
+    "requires_purchase": null,
+    "requires_registration": false,
+    "requires_social": false,
+    "requires_activity": false,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": null,
+    "notes": [
+     "No se encontró ninguna condición de compra en la fuente oficial (inferido, confírmalo en los términos)."
+    ]
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": null,
+    "age_text": null,
+    "coverage": "regional",
+    "cities": [
+     "Barranquilla"
+    ]
+   },
+   "requirements": [],
+   "documents": [],
+   "steps": [],
+   "steps_source": null,
+   "dates": {
+    "published": "2026-11-18T14:57:55-05:00",
+    "start": null,
+    "end": null,
+    "draw": null
+   },
+   "status": "sin_confirmar",
+   "gov": {
+    "program_status": "sin_confirmar",
+    "entity": "Organizador no identificado"
+   },
+   "offer": null,
+   "verification": {
+    "status": "no_verificable",
+    "reasons": [
+     "Información insuficiente: sin organizador identificado, fechas ni enlace oficial."
+    ],
+    "checked_at": "2026-11-18T17:21:34-05:00",
+    "link_ok": null,
+    "official_domain": false,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://www.elheraldo.co/colombia/2026/11/18/en-el-iii-congreso-de-turismo-de-experiencias-y-expo-experiencias-de-cordoba-participaran-30-conferencistas-nacionales-e-internacionales/",
+    "participate": null,
+    "terms": null,
+    "official": null,
+    "image": "https://www.elheraldo.co/resizer/v2/3KAYVAALIVE4HNUHB4YDZKN7EU.png?smart=true&auth=461ae0ca8088e93fa63aaf4cb519ab66f7d011dc33629d8022f865572c778ea5&width=1200&height=675"
+   },
+   "sources": [
+    {
+     "url": "https://www.elheraldo.co/colombia/2026/11/18/en-el-iii-congreso-de-turismo-de-experiencias-y-expo-experiencias-de-cordoba-participaran-30-conferencistas-nacionales-e-internacionales/",
+     "name": "El Heraldo (feed)",
+     "type": "news",
+     "seen_at": "2026-11-18T17:21:34-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 0.69,
+    "model": null
+   },
+   "discovered_at": "2026-11-18T17:21:34-05:00",
+   "updated_at": "2026-11-18T17:21:34-05:00",
+   "last_verified": "2026-11-18T17:21:34-05:00",
+   "last_seen": "2026-11-18T17:21:34-05:00",
+   "history": [],
+   "priority": {
+    "score": 61,
+    "level": "media",
+    "breakdown": {
+     "valor": {
+      "points": 11,
+      "max": 25,
+      "note": "valor no publicado (estimado por tipo de premio)"
+     },
+     "gratuidad": {
+      "points": 22,
+      "max": 25,
+      "note": "gratis_registro"
+     },
+     "facilidad": {
+      "points": 15,
+      "max": 15,
+      "note": "pocos requisitos"
+     },
+     "vigencia": {
+      "points": 5,
+      "max": 10,
+      "note": "sin fecha límite publicada"
+     },
+     "cobertura": {
+      "points": 5,
+      "max": 10,
+      "note": "regional"
+     },
+     "credibilidad": {
+      "points": 2,
+      "max": 10,
+      "note": "no_verificable"
+     },
+     "claridad": {
+      "points": 1,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
    "id": "op_ffba126da5a4",
    "title": "Cashback Adicional Mi Bolsillo Terpel",
    "summary": "Combustibles líquidos, aceites lubricantes, gas natural vehicular, etc. Ofrecemos variadas opciones para el consumo de combustible.",
@@ -7007,7 +8268,7 @@
    "discovered_at": "2026-11-18T16:18:58-05:00",
    "updated_at": "2026-11-18T16:18:58-05:00",
    "last_verified": "2026-11-18T16:18:58-05:00",
-   "last_seen": "2026-11-18T16:18:58-05:00",
+   "last_seen": "2026-11-18T17:21:33-05:00",
    "history": [],
    "priority": {
     "score": 60,
@@ -7201,6 +8462,156 @@
    }
   },
   {
+   "id": "op_56de05d024b2",
+   "title": "Aqualia abre convocatoria de su Premio de Periodismo 2026: entregará premios de hasta $11 millones",
+   "summary": "Los periodistas colombianos tendrán una nueva oportunidad de obtener reconocimiento internacional por sus trabajos sobre el medioambiente y la gestión de los",
+   "section": "concursos",
+   "category": "viajes",
+   "tags": [
+    "Convocatorias públicas"
+   ],
+   "mechanics": [],
+   "kind": "Concurso",
+   "organizer": {
+    "name": "Aqualia",
+    "type": "desconocido",
+    "domain": null,
+    "known": false
+   },
+   "prize": {
+    "description": null,
+    "value_cop": 11000000,
+    "value_text": "$11 millones",
+    "value_source": "noticia",
+    "winners": null,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "desconocido",
+    "label": "Costo sin confirmar",
+    "free": false,
+    "certainty": "desconocido",
+    "requires_purchase": null,
+    "requires_registration": false,
+    "requires_social": false,
+    "requires_activity": false,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": null,
+    "notes": []
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": null,
+    "age_text": null,
+    "coverage": "regional",
+    "cities": [
+     "Barranquilla",
+     "Cartagena",
+     "Santa Marta"
+    ]
+   },
+   "requirements": [
+    "entregará premios de hasta $11 millones El concurso internacional está dirigido a periodistas de Colombia, México y España que publiquen trabajos sobre el agua, la sostenibilidad y los desafíos ambientales."
+   ],
+   "documents": [],
+   "steps": [],
+   "steps_source": null,
+   "dates": {
+    "published": "2026-11-05T10:56:54-05:00",
+    "start": null,
+    "end": "2027-02-28",
+    "draw": null
+   },
+   "status": "activa",
+   "gov": null,
+   "offer": null,
+   "verification": {
+    "status": "pendiente",
+    "reasons": [
+     "Organizador no identificado con certeza."
+    ],
+    "checked_at": "2026-11-18T17:21:46-05:00",
+    "link_ok": null,
+    "official_domain": false,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://emisoraatlantico.com.co/local/aqualia-abre-convocatoria-de-su-premio-de-periodismo-2026-entregara-premios-de-hasta-11-millones/",
+    "participate": null,
+    "terms": null,
+    "official": null,
+    "image": "https://media.emisoraatlantico.com.co/2026/11/IMG-20261105-WA0073.jpg"
+   },
+   "sources": [
+    {
+     "url": "https://emisoraatlantico.com.co/local/aqualia-abre-convocatoria-de-su-premio-de-periodismo-2026-entregara-premios-de-hasta-11-millones/",
+     "name": "Noticias · abre concurso premios",
+     "type": "news",
+     "seen_at": "2026-11-18T17:21:46-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 1.0,
+    "model": null
+   },
+   "discovered_at": "2026-11-18T17:21:46-05:00",
+   "updated_at": "2026-11-18T17:21:46-05:00",
+   "last_verified": "2026-11-18T17:21:46-05:00",
+   "last_seen": "2026-11-18T17:21:46-05:00",
+   "history": [],
+   "priority": {
+    "score": 58,
+    "level": "media",
+    "breakdown": {
+     "valor": {
+      "points": 14,
+      "max": 25,
+      "note": "valor publicado 11.000.000 COP"
+     },
+     "gratuidad": {
+      "points": 9,
+      "max": 25,
+      "note": "desconocido"
+     },
+     "facilidad": {
+      "points": 15,
+      "max": 15,
+      "note": "pocos requisitos"
+     },
+     "vigencia": {
+      "points": 8,
+      "max": 10,
+      "note": "vigente (102 días restantes)"
+     },
+     "cobertura": {
+      "points": 5,
+      "max": 10,
+      "note": "regional"
+     },
+     "credibilidad": {
+      "points": 6,
+      "max": 10,
+      "note": "pendiente"
+     },
+     "claridad": {
+      "points": 1,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
    "id": "op_9bc664462026",
    "title": "Nequi pone la diferencia",
    "summary": "¡Recibe hasta $20.000 por transferir desde PayPal a Nequi! Si recibiste una invitación para participar, haz una transferencia exitosa de mínimo USD 150 en una sola operación y Nequi te abonará la diferencia.",
@@ -7318,7 +8729,7 @@
    "discovered_at": "2026-11-18T16:18:44-05:00",
    "updated_at": "2026-11-18T16:18:44-05:00",
    "last_verified": "2026-11-18T16:18:44-05:00",
-   "last_seen": "2026-11-18T16:18:44-05:00",
+   "last_seen": "2026-11-18T17:21:33-05:00",
    "history": [],
    "priority": {
     "score": 57,
@@ -7654,7 +9065,7 @@
    "discovered_at": "2026-11-18T16:18:40-05:00",
    "updated_at": "2026-11-18T16:18:40-05:00",
    "last_verified": "2026-11-18T16:18:40-05:00",
-   "last_seen": "2026-11-18T16:18:40-05:00",
+   "last_seen": "2026-11-18T17:21:33-05:00",
    "history": [],
    "priority": {
     "score": 55,
@@ -7831,7 +9242,7 @@
    "discovered_at": "2026-11-18T16:18:36-05:00",
    "updated_at": "2026-11-18T16:18:36-05:00",
    "last_verified": "2026-11-18T16:18:36-05:00",
-   "last_seen": "2026-11-18T16:18:36-05:00",
+   "last_seen": "2026-11-18T17:21:33-05:00",
    "history": [],
    "priority": {
     "score": 55,
@@ -7869,6 +9280,310 @@
      },
      "claridad": {
       "points": 3,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
+   "id": "op_ef7398db56bc",
+   "title": "OPPO lanza convocatoria de fotografía móvil en Colombia para premiar imágenes tomadas con cualquier celular",
+   "summary": "Captura tus viajes en la semana de receso con tu celular y participa en el concurso de fotografía de OPPO Colombia. Conoce los premios e inscripciones.",
+   "section": "concursos",
+   "category": "viajes",
+   "tags": [
+    "Celulares",
+    "Convocatorias públicas",
+    "Tecnología",
+    "Viajes"
+   ],
+   "mechanics": [
+    "creativo"
+   ],
+   "kind": "Concurso",
+   "organizer": {
+    "name": "OPPO Colombia",
+    "type": "marca",
+    "domain": "oppo.com",
+    "known": true
+   },
+   "prize": {
+    "description": null,
+    "value_cop": null,
+    "value_text": null,
+    "value_source": null,
+    "winners": null,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "desconocido",
+    "label": "Costo sin confirmar",
+    "free": false,
+    "certainty": "desconocido",
+    "requires_purchase": null,
+    "requires_registration": true,
+    "requires_social": false,
+    "requires_activity": false,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": null,
+    "notes": []
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": null,
+    "age_text": null,
+    "coverage": "desconocida",
+    "cities": []
+   },
+   "requirements": [
+    "En medio de este flujo de usuarios capturando contenidos en destinos nacionales, OPPO abrió una convocatoria fotográfica dirigida al público colombiano.",
+    "El proceso de participación no exige contar con un teléfono de la marca ni utilizar equipos profesionales de captura, lo que abre el acceso a cualquier persona con un dispositivo móvil."
+   ],
+   "documents": [],
+   "steps": [],
+   "steps_source": null,
+   "dates": {
+    "published": "2026-10-09T11:56:33-05:00",
+    "start": null,
+    "end": null,
+    "draw": "2026-11-20"
+   },
+   "status": "sin_confirmar",
+   "gov": null,
+   "offer": null,
+   "verification": {
+    "status": "pendiente",
+    "reasons": [
+     "Falta confirmar condiciones en la página oficial."
+    ],
+    "checked_at": "2026-11-18T17:21:48-05:00",
+    "link_ok": null,
+    "official_domain": false,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://www.tecnogus.com.co/oppo-concurso-fotografia-movil-colombia/",
+    "participate": null,
+    "terms": null,
+    "official": null,
+    "image": "https://www.tecnogus.com.co/wp-content/uploads/2026/10/OPPO-lanza-convocatoria-de-fotografia-movil-en-Colombia-para-premiar-imagenes-tomadas-con-cualquier-celular.webp"
+   },
+   "sources": [
+    {
+     "url": "https://www.tecnogus.com.co/oppo-concurso-fotografia-movil-colombia/",
+     "name": "Tecnogus",
+     "type": "news",
+     "seen_at": "2026-11-18T17:21:48-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 0.3,
+    "model": null
+   },
+   "discovered_at": "2026-11-18T17:21:48-05:00",
+   "updated_at": "2026-11-18T17:21:48-05:00",
+   "last_verified": "2026-11-18T17:21:48-05:00",
+   "last_seen": "2026-11-18T17:21:48-05:00",
+   "history": [],
+   "priority": {
+    "score": 55,
+    "level": "media",
+    "breakdown": {
+     "valor": {
+      "points": 16,
+      "max": 25,
+      "note": "valor no publicado (estimado por tipo de premio)"
+     },
+     "gratuidad": {
+      "points": 9,
+      "max": 25,
+      "note": "desconocido"
+     },
+     "facilidad": {
+      "points": 12,
+      "max": 15,
+      "note": "registro"
+     },
+     "vigencia": {
+      "points": 5,
+      "max": 10,
+      "note": "sin fecha límite publicada"
+     },
+     "cobertura": {
+      "points": 6,
+      "max": 10,
+      "note": "desconocida"
+     },
+     "credibilidad": {
+      "points": 6,
+      "max": 10,
+      "note": "pendiente"
+     },
+     "claridad": {
+      "points": 1,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
+   "id": "op_bd2ce9393e3d",
+   "title": "Premios de Periodismo Alfonso Bonilla Aragón 2026: fechas, categorías y cómo participar",
+   "summary": "La Alcaldía de Cali abrió la convocatoria para la edición 44 de los premios ABA. Los periodistas podrán postular sus trabajos hasta el 20 de noviembre y competir por un premio de $7 millones en cada una de las 14 categorías.",
+   "section": "concursos",
+   "category": "otros_premios",
+   "tags": [],
+   "mechanics": [
+    "creativo"
+   ],
+   "kind": "Concurso",
+   "organizer": {
+    "name": "Organizador no identificado",
+    "type": "desconocido",
+    "domain": null,
+    "known": false
+   },
+   "prize": {
+    "description": null,
+    "value_cop": 7000000,
+    "value_text": "$7 millones",
+    "value_source": "noticia",
+    "winners": null,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "desconocido",
+    "label": "Costo sin confirmar",
+    "free": false,
+    "certainty": "desconocido",
+    "requires_purchase": null,
+    "requires_registration": true,
+    "requires_social": false,
+    "requires_activity": false,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": null,
+    "notes": []
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": null,
+    "age_text": null,
+    "coverage": "regional",
+    "cities": [
+     "Cali"
+    ]
+   },
+   "requirements": [
+    "El País ¿Quiénes pueden participar en los premios ABA 2026? Podrán participar periodistas locales, nacionales y extranjeros que cumplan con los requisitos establecidos en la convocatoria.",
+    "Los participantes pueden consultar los requisitos completos en el decreto que reglamenta el concurso."
+   ],
+   "documents": [
+    "Documento de identidad (cédula)",
+    "RUT"
+   ],
+   "steps": [],
+   "steps_source": null,
+   "dates": {
+    "published": "2026-11-03T19:59:51-05:00",
+    "start": "2026-11-03",
+    "end": "2026-11-20",
+    "draw": null
+   },
+   "status": "activa",
+   "gov": null,
+   "offer": null,
+   "verification": {
+    "status": "pendiente",
+    "reasons": [
+     "Organizador no identificado con certeza."
+    ],
+    "checked_at": "2026-11-18T17:21:43-05:00",
+    "link_ok": null,
+    "official_domain": false,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://www.elpais.com.co/cali/premios-de-periodismo-alfonso-bonilla-aragon-2026-fechas-categorias-y-como-participar-0351.html",
+    "participate": null,
+    "terms": null,
+    "official": null,
+    "image": "https://www.elpais.com.co/resizer/v2/BIP4URBW6FBNVB7FOH75HAUVB4.jpeg?auth=50b857e210264ca5472ed3506d42ee34774f02bd760d72f7f74bce908dfadb1c&smart=true&quality=75&width=1280&height=720"
+   },
+   "sources": [
+    {
+     "url": "https://www.elpais.com.co/cali/premios-de-periodismo-alfonso-bonilla-aragon-2026-fechas-categorias-y-como-participar-0351.html",
+     "name": "Noticias · concurso emisora premios",
+     "type": "news",
+     "seen_at": "2026-11-18T17:21:43-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 1.0,
+    "model": null
+   },
+   "discovered_at": "2026-11-18T17:21:43-05:00",
+   "updated_at": "2026-11-18T17:21:43-05:00",
+   "last_verified": "2026-11-18T17:21:43-05:00",
+   "last_seen": "2026-11-18T17:21:43-05:00",
+   "history": [],
+   "priority": {
+    "score": 55,
+    "level": "media",
+    "breakdown": {
+     "valor": {
+      "points": 14,
+      "max": 25,
+      "note": "valor publicado 7.000.000 COP"
+     },
+     "gratuidad": {
+      "points": 9,
+      "max": 25,
+      "note": "desconocido"
+     },
+     "facilidad": {
+      "points": 11,
+      "max": 15,
+      "note": "registro"
+     },
+     "vigencia": {
+      "points": 9,
+      "max": 10,
+      "note": "vence en 2 día(s): revisar ya"
+     },
+     "cobertura": {
+      "points": 5,
+      "max": 10,
+      "note": "regional"
+     },
+     "credibilidad": {
+      "points": 6,
+      "max": 10,
+      "note": "pendiente"
+     },
+     "claridad": {
+      "points": 1,
       "max": 5,
       "note": "sin términos enlazados"
      }
@@ -8002,7 +9717,7 @@
    "discovered_at": "2026-11-18T16:18:39-05:00",
    "updated_at": "2026-11-18T16:18:39-05:00",
    "last_verified": "2026-11-18T16:18:39-05:00",
-   "last_seen": "2026-11-18T16:18:39-05:00",
+   "last_seen": "2026-11-18T17:21:33-05:00",
    "history": [],
    "priority": {
     "score": 55,
@@ -8319,7 +10034,7 @@
    "discovered_at": "2026-11-18T16:18:44-05:00",
    "updated_at": "2026-11-18T16:18:44-05:00",
    "last_verified": "2026-11-18T16:18:44-05:00",
-   "last_seen": "2026-11-18T16:18:44-05:00",
+   "last_seen": "2026-11-18T17:21:33-05:00",
    "history": [],
    "priority": {
     "score": 54,
@@ -8484,7 +10199,7 @@
    "discovered_at": "2026-11-18T16:18:37-05:00",
    "updated_at": "2026-11-18T16:18:37-05:00",
    "last_verified": "2026-11-18T16:18:37-05:00",
-   "last_seen": "2026-11-18T16:18:37-05:00",
+   "last_seen": "2026-11-18T17:21:33-05:00",
    "history": [],
    "priority": {
     "score": 53,
@@ -8650,7 +10365,7 @@
    "discovered_at": "2026-11-18T16:18:38-05:00",
    "updated_at": "2026-11-18T16:18:38-05:00",
    "last_verified": "2026-11-18T16:18:38-05:00",
-   "last_seen": "2026-11-18T16:18:38-05:00",
+   "last_seen": "2026-11-18T17:21:33-05:00",
    "history": [],
    "priority": {
     "score": 53,
@@ -8964,7 +10679,7 @@
    "discovered_at": "2026-11-18T16:18:42-05:00",
    "updated_at": "2026-11-18T16:18:42-05:00",
    "last_verified": "2026-11-18T16:18:42-05:00",
-   "last_seen": "2026-11-18T16:18:42-05:00",
+   "last_seen": "2026-11-18T17:21:33-05:00",
    "history": [],
    "priority": {
     "score": 51,
@@ -9124,7 +10839,7 @@
    "discovered_at": "2026-11-18T16:18:43-05:00",
    "updated_at": "2026-11-18T16:18:43-05:00",
    "last_verified": "2026-11-18T16:18:43-05:00",
-   "last_seen": "2026-11-18T16:18:43-05:00",
+   "last_seen": "2026-11-18T17:21:33-05:00",
    "history": [],
    "priority": {
     "score": 50,
@@ -9313,6 +11028,150 @@
       "points": 6,
       "max": 10,
       "note": "pendiente"
+     },
+     "claridad": {
+      "points": 1,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
+   "id": "op_8be94365fb07",
+   "title": "Consultora colombiana Clave gana premio Reed Latino 2026 como agencia revelación en comunicación gubernamental",
+   "summary": "La firma colombiana Clave Consultores obtuvo el reconocimiento a consultora revelación de gobierno en los Premios Reed Latino 2026.",
+   "section": "concursos",
+   "category": "experiencias",
+   "tags": [],
+   "mechanics": [
+    "trivia"
+   ],
+   "kind": "Concurso",
+   "organizer": {
+    "name": "Organizador no identificado",
+    "type": "desconocido",
+    "domain": null,
+    "known": false
+   },
+   "prize": {
+    "description": null,
+    "value_cop": null,
+    "value_text": null,
+    "value_source": null,
+    "winners": null,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "desconocido",
+    "label": "Costo sin confirmar",
+    "free": false,
+    "certainty": "desconocido",
+    "requires_purchase": null,
+    "requires_registration": false,
+    "requires_social": false,
+    "requires_activity": false,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": null,
+    "notes": []
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": null,
+    "age_text": null,
+    "coverage": "desconocida",
+    "cities": []
+   },
+   "requirements": [],
+   "documents": [],
+   "steps": [],
+   "steps_source": null,
+   "dates": {
+    "published": "2026-11-07T17:30:00-05:00",
+    "start": null,
+    "end": null,
+    "draw": null
+   },
+   "status": "sin_confirmar",
+   "gov": null,
+   "offer": null,
+   "verification": {
+    "status": "no_verificable",
+    "reasons": [
+     "Información insuficiente: sin organizador identificado, fechas ni enlace oficial."
+    ],
+    "checked_at": "2026-11-18T17:21:41-05:00",
+    "link_ok": null,
+    "official_domain": false,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://www.lafm.com.co/entretenimiento/consultora-colombiana-clave-gana-premio-reed-latino-2026-como-agencia-revelacion-en-comunicacion-gubernamental-416671",
+    "participate": null,
+    "terms": null,
+    "official": null,
+    "image": "https://files.lafm.com.co/media/news-images/2026/11/10/003742/premios-reed-latino-2026-1200x675.jpg?w=1280"
+   },
+   "sources": [
+    {
+     "url": "https://www.lafm.com.co/entretenimiento/consultora-colombiana-clave-gana-premio-reed-latino-2026-como-agencia-revelacion-en-comunicacion-gubernamental-416671",
+     "name": "Noticias · gana mercado",
+     "type": "news",
+     "seen_at": "2026-11-18T17:21:41-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 0.7,
+    "model": null
+   },
+   "discovered_at": "2026-11-18T17:21:41-05:00",
+   "updated_at": "2026-11-18T17:21:41-05:00",
+   "last_verified": "2026-11-18T17:21:41-05:00",
+   "last_seen": "2026-11-18T17:21:41-05:00",
+   "history": [],
+   "priority": {
+    "score": 47,
+    "level": "media",
+    "breakdown": {
+     "valor": {
+      "points": 9,
+      "max": 25,
+      "note": "valor no publicado"
+     },
+     "gratuidad": {
+      "points": 9,
+      "max": 25,
+      "note": "desconocido"
+     },
+     "facilidad": {
+      "points": 15,
+      "max": 15,
+      "note": "pocos requisitos"
+     },
+     "vigencia": {
+      "points": 5,
+      "max": 10,
+      "note": "sin fecha límite publicada"
+     },
+     "cobertura": {
+      "points": 6,
+      "max": 10,
+      "note": "desconocida"
+     },
+     "credibilidad": {
+      "points": 2,
+      "max": 10,
+      "note": "no_verificable"
      },
      "claridad": {
       "points": 1,
