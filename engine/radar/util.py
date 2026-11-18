@@ -34,6 +34,37 @@ def parse_iso(value: str | None) -> datetime | None:
     return dt
 
 
+def parse_any_date(value: str | None) -> datetime | None:
+    """ISO 8601, RFC 2822 (feeds) o dd/mm/aaaa · mm/dd/aaaa (si es ambiguo se toma la fecha pasada más reciente)."""
+    if not value:
+        return None
+    v = str(value).strip()
+    dt = parse_iso(v)
+    if dt:
+        return dt
+    try:
+        from email.utils import parsedate_to_datetime
+
+        return parsedate_to_datetime(v)
+    except (TypeError, ValueError, IndexError):
+        pass
+    m = re.match(r"^(\d{1,2})/(\d{1,2})/(\d{4})", v)
+    if m:
+        a, b, y = int(m.group(1)), int(m.group(2)), int(m.group(3))
+        options = []
+        for d_, m_ in ((a, b), (b, a)):
+            try:
+                options.append(datetime(y, m_, d_, tzinfo=TZ))
+            except ValueError:
+                continue
+        past = [o for o in options if o <= now() + timedelta(days=1)]
+        if past:
+            return max(past)
+        if options:
+            return min(options)
+    return None
+
+
 def parse_day(value: str | None) -> date | None:
     if not value:
         return None

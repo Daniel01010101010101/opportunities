@@ -59,6 +59,24 @@ organizers:
   - {name: Tigo, type: telecom, domains: [tigo.com.co], aliases: [tigo]}
   - {name: WOM Colombia, type: telecom, domains: [wom.co], aliases: [wom]}
   - {name: ETB, type: telecom, domains: [etb.com, etb.com.co], aliases: [etb]}
+  # --- Tecnología y gaming
+  - {name: OPPO Colombia, type: marca, domains: [oppo.com], aliases: [oppo]}
+  - {name: Samsung Colombia, type: marca, domains: [samsung.com], aliases: [samsung]}
+  - {name: Xiaomi Colombia, type: marca, domains: [mi.com, xiaomi.com], aliases: [xiaomi]}
+  - {name: Huawei Colombia, type: marca, domains: [huawei.com, consumer.huawei.com], aliases: [huawei]}
+  - {name: Motorola Colombia, type: marca, domains: [motorola.com, motorola.com.co], aliases: [motorola]}
+  - {name: Honor Colombia, type: marca, domains: [honor.com], aliases: [honor]}
+  - {name: Lenovo, type: marca, domains: [lenovo.com], aliases: [lenovo]}
+  - {name: HP Colombia, type: marca, domains: [hp.com], aliases: [hewlett packard]}
+  - {name: LG Colombia, type: marca, domains: [lg.com], aliases: [lg electronics]}
+  - {name: PlayStation, type: marca, domains: [playstation.com], aliases: [playstation, sony interactive]}
+  - {name: Xbox, type: marca, domains: [xbox.com], aliases: [xbox]}
+  - {name: Nintendo, type: marca, domains: [nintendo.com], aliases: [nintendo]}
+  - {name: Riot Games, type: marca, domains: [riotgames.com, leagueoflegends.com], aliases: [riot games, league of legends]}
+  - {name: GIGABYTE, type: marca, domains: [gigabyte.com], aliases: [gigabyte, aorus]}
+  - {name: NVIDIA, type: marca, domains: [nvidia.com], aliases: [nvidia, geforce]}
+  - {name: Red Bull, type: marca, domains: [redbull.com], aliases: [red bull]}
+  - {name: Kia Colombia, type: marca, domains: [kia.com], aliases: [kia]}
   # --- Entretenimiento
   - {name: Cine Colombia, type: entretenimiento, domains: [cinecolombia.com], aliases: [cine colombia, cineco]}
   - {name: Cinemark Colombia, type: entretenimiento, domains: [cinemark.com.co], aliases: [cinemark]}
@@ -93,7 +111,6 @@ organizers:
   - {name: Renault Colombia, type: marca, domains: [renault.com.co], aliases: [renault]}
   - {name: Chevrolet Colombia, type: marca, domains: [chevrolet.com.co], aliases: [chevrolet]}
   - {name: Mazda Colombia, type: marca, domains: [mazda.com.co], aliases: [mazda]}
-  - {name: Kia Colombia, type: marca, domains: [kia.com], aliases: [kia]}
   - {name: Toyota Colombia, type: marca, domains: [toyota.com.co], aliases: [toyota]}
   - {name: BYD Colombia, type: marca, domains: [byd.com.co, byd.com], aliases: [byd]}
   - {name: AKT Motos, type: marca, domains: [aktmotos.com], aliases: [akt]}
@@ -125,6 +142,7 @@ organizers:
   - {name: Ministerio TIC, type: gobierno, domains: [mintic.gov.co], aliases: [mintic, talento tech]}
   - {name: iNNpulsa, type: gobierno, domains: [innpulsacolombia.com], aliases: [innpulsa]}
   - {name: Fondo Nacional del Ahorro, type: gobierno, domains: [fna.gov.co], aliases: [fna, fondo nacional del ahorro]}
+  - {name: Colpensiones, type: gobierno, domains: [colpensiones.gov.co], aliases: [colpensiones, beps]}
   - {name: Coljuegos, type: gobierno, domains: [coljuegos.gov.co], aliases: [coljuegos]}
   - {name: Superintendencia de Industria y Comercio, type: gobierno, domains: [sic.gov.co], aliases: [sic, superindustria]}
 

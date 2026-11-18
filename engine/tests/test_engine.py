@@ -225,3 +225,43 @@ def test_news_feed_title_filter():
     assert _title_filter(src, ok)
     assert not _title_filter(src, lottery)
     assert not _title_filter(src, politics)
+
+
+def test_foreign_filter_and_stricter_open_calls():
+    from radar.extract import foreign_reason
+    assert foreign_reason("https://www.pauta.cl/x", "Santiago abre concurso de vitrinas", "Chile") is not None
+    assert foreign_reason("https://dsalicante.com/x", "Alicante publica un concurso de fotografía", "premio de 3.500 € en España") is not None
+    assert foreign_reason("https://www.msn.com/es-mx/noticias/x", "El Buen Fin 2026 sorteo", "México") is not None
+    assert foreign_reason("https://demotos.com.co/eventos/x", "Concurso Yamaha", "Incolmotos Yamaha en Colombia") is None
+    assert foreign_reason("https://www.example.com/x", "Concurso en Bogotá", "Participa desde Bogotá, Colombia") is None
+    assert not is_open_call_title("La banda de la IE Neira gana por quinto año consecutivo el Concurso departamental")
+    assert not is_open_call_title("12 bandas estudiantiles son finalistas del concurso departamental")
+    assert not is_open_call_title("Así nació en Yopal el primer concurso de ortografía")
+    assert is_open_call_title("CONCURSO: Participa por entradas para el concierto")
+    assert is_open_call_title("Gana un carro 0 km con tus compras navideñas")
+
+
+def test_purchase_threshold_phrasing_and_residency():
+    from radar.extract import foreign_reason
+    t = "Los clientes deben realizar transacciones por un monto superior a los $180.000 pesos colombianos para participar por un Tesla."
+    ex = extract(t)
+    assert ex.requires_purchase is True
+    assert ex.money["value_cop"] is None and ex.money["purchase_threshold_cop"] == 180_000
+    us = "Esta dinámica se encuentra abierta para residentes legales de Estados Unidos y Canadá mayores de 18 años."
+    assert foreign_reason("https://www.tecnogus.com.co/x", "GIGABYTE y NVIDIA sortean tarjetas", us) == "solo para residentes de otro país"
+    co = "Pueden participar residentes en Colombia mayores de 18 años."
+    assert foreign_reason("https://www.tecnogus.com.co/x", "Sorteo", co) is None
+
+
+def test_parse_any_date_formats():
+    from radar.util import parse_any_date
+    assert parse_any_date("2026-11-18T10:00:00-05:00").day == 18
+    assert parse_any_date("Wed, 18 Nov 2026 15:00:00 GMT").month == 11
+    d = parse_any_date("18/11/2026 15:26:39 -05:00")
+    assert (d.day, d.month) == (18, 11)
+
+
+def test_headline_brand_organizer():
+    from radar.pipeline import HEADLINE_BRAND
+    assert HEADLINE_BRAND.match("OPPO lanza convocatoria de fotografía móvil").group(1) == "OPPO"
+    assert HEADLINE_BRAND.match("GIGABYTE y NVIDIA habilitan convocatoria").group(1) == "GIGABYTE y NVIDIA"

@@ -64,6 +64,9 @@ class PoliteSession:
     def __init__(self, cache: dict | None = None, max_fetches: int = 300, deadline: float | None = None,
                  min_interval: float = 1.2, timeout: float = 20.0, max_bytes: int = 6_000_000):
         self.session = requests.Session()
+        adapter = requests.adapters.HTTPAdapter(pool_connections=32, pool_maxsize=32)
+        self.session.mount("https://", adapter)
+        self.session.mount("http://", adapter)
         self.session.headers.update({
             "User-Agent": USER_AGENT,
             "Accept-Language": "es-CO,es;q=0.9,en;q=0.5",

@@ -33,7 +33,7 @@ MONEY = re.compile(
     re.I,
 )
 PRIZE_CONTEXT = re.compile(r"(premio|gana|ganar|ganador|bono|bonos|valor|sorte|recibe|obt[eé]n|regalo|subsidio|apoyo|beca|hasta por|monto|cashback|devoluci[oó]n|incentivo)", re.I)
-THRESHOLD_CONTEXT = re.compile(r"(compras?|superiores?|mayores?|m[ií]nim[oa]|desde|por cada|a partir de|consumo|tanqueos?|iguales? o superiores?)\s*(de|a)?\s*$", re.I)
+THRESHOLD_CONTEXT = re.compile(r"(compras?|superior(es)?|superen|mayor(es)?|m[ií]nim[oa]|desde|por cada|a partir de|consumo|tanqueos?|igual(es)? o superior(es)?|monto)\s*(de|a|por)?\s*(los|las|el|un)?\s*$", re.I)
 
 PURCHASE_YES = [
     r"\b(por|con) (tus|sus|cada|la|tu) (compras?|tanqueos?|consumos?|pedidos?)\b",
@@ -47,6 +47,8 @@ PURCHASE_YES = [
     r"\bcashback\b", r"\bdevoluci[oó]n del? \d+ ?%", r"\bte devolvemos\b",
     r"\b\d{1,2} ?% (de descuento|dcto|off)\b", r"\b2x1\b", r"\b3x2\b", r"\bpor la compra de\b",
     r"\bcompra (y|e) (gana|participa|recibe)\b", r"\bpor cada \d+ (mil|millones)\b",
+    r"\bmonto (superior|m[ií]nimo|igual o superior)\b", r"\b(efectuar|realizar|hacer|haga|efect[uú]e) compras\b",
+    r"\btransacciones por (un )?monto\b", r"\bcompras que superen\b", r"\bpor compras\b",
 ]
 PURCHASE_NO = [
     r"\bsin (necesidad de )?(realizar )?(ninguna )?compra", r"\bno (se )?(requiere|necesita|exige) (realizar )?(ninguna )?compra",
@@ -190,7 +192,7 @@ def extract_dates(text: str, ref: date | None = None) -> dict:
             if result["draw"] is None:
                 result["draw"] = m.value
             continue
-        tail = ctx[-30:]
+        tail = ctx[-45:]
         if END_CUES.search(tail) and not START_CUES.search(tail[-12:]):
             if result["end"] is None or (m.value > result["end"] and (m.value - ref).days < 500):
                 result["end"] = m.value
@@ -438,23 +440,28 @@ def relevance(title: str, text: str, require_title_signal: bool = False) -> tupl
 
 # ------------------------------------------------------------------ concursos: convocatoria abierta vs. noticia de ganadores
 OPEN_CALL = re.compile(
-    r"(participa|participar|inscr[ií]b|post[uú]la|as[ií] (puede|podr[aá]|puedes) (participar|ganar|inscribirse)|c[oó]mo participar|"
-    r"lanza(n)? (un |una |el |la )?(concurso|reto|sorteo|campa[nñ]a|convocatoria|torneo|challenge)|abre(n)? (convocatoria|inscripciones|concurso)|"
-    r"(podr[aá]s?|puede[ns]?|quiere[ns]?) ganar|gana(r)? (un|una|uno|dos|tres|boletas|entradas|bonos?|premios?|dinero|viajes?|\$)|g[aá]nate|"
-    r"sortea(r[aá]n?)?|sorteo|regala(r[aá]n?)?|premiar[aá]n?|reto con premios|activa(n)? retos|concurso|torneo|challenge|"
-    r"desaf[ií]o|convocatoria|premios? (para|de hasta)|gratis|regalo)",
+    r"(participa\b|participar|inscr[ií]b|post[uú]la|as[ií] (puede|podr[aá]|puedes|podr[aá]s) (participar|ganar|inscribirse|concursar)|c[oó]mo participar|"
+    r"lanza(n)? (un |una |el |la |su |nuevo |nueva )?(concurso|reto|sorteo|campa[nñ]a|convocatoria|torneo|challenge|din[aá]mica)|"
+    r"abre(n)? (la |el |su )?(convocatoria|inscripciones|concurso|torneo)|(podr[aá]s?|puede[ns]?|quiere[ns]?) ganar|"
+    r"(^|[¡¿:·|]\s*)gana(r)? |\bgana(r)? (un|una|dos|tres|cuatro|cinco|diez|boletas|entradas|bonos?|premios?|dinero|viajes?|\$|hasta)\b|g[aá]nate|"
+    r"sortea(r[aá]n?)?\b|regala(r[aá]n?)?\b|premiar[aá]n?|reto con premios|activa(n)? retos|concurso para|convocatoria (para|abierta)|"
+    r"est[aá] abiert[oa]|inscripciones abiertas|premios? de hasta|hasta el \d{1,2} de)",
     re.I,
 )
+TITLE_STARTS_CONTEST = re.compile(r"^\W*(concurso|sorteo|reto|challenge|torneo|convocatoria|din[aá]mica)\b", re.I)
 WINNERS_TITLE = re.compile(
     r"(\bgan[oó]\b|\bganaron\b|ganador(a|es)? (de|del|en)\b|\bse llev[oó]\b|\bse coron[oó]\b|ya tenemos ganador|ganadores del|"
     r"recibir[aá] por ganar|\bfue premiad|\bpremiaron\b|\bse impuso\b|campe[oó]n(a|es)? (de|del)|resultados? (del|de la) (concurso|sorteo)|"
-    r"se(ñ|n)orita colombia|reinado|concurso (nacional )?de belleza|miss (universo|colombia|world)|corona de)",
+    r"se(ñ|n)orita colombia|reinado|concurso (nacional )?de belleza|miss (universo|colombia|world)|corona de|finalistas|"
+    r"\b\w+ gana (el|la|por|su|primer|segundo|tercer|medalla|oro|plata|bronce)\b|lleg[oó] a la final|llegan a la final|obtuvo|conquist[oó]|"
+    r"premiados|galardonad|homenaje|as[ií] naci[oó]|megamillions|powerball|euromillones)",
     re.I,
 )
 
 MECHANICS = [
-    ("gaming", r"(videojuego|video juego|gamer|gaming|e-?sports|league of legends|\blol\b|free ?fire|fortnite|valorant|ea ?fc|fifa \d|minecraft|roblox|"
-               r"call of duty|clash royale|counter[- ]strike|dota|playstation|xbox|nintendo|twitch|\bkick\b|streamer|torneo (de|del) (video|ea|fifa|lol)|partida)"),
+    ("gaming", r"\b(videojuegos?|video juegos?|gamers?|gaming|e-?sports|league of legends|free ?fire|fortnite|valorant|ea ?fc|fifa \d+|minecraft|roblox|"
+               r"call of duty|clash royale|counter[- ]strike|dota ?2?|playstation|xbox|nintendo|twitch|streamers?|riot id|"
+               r"partida ganada|captura de (tu|una) partida)\b"),
     ("creativo", r"(sube (un|una|tu) (video|foto|clip|historia)|graba (un|tu) video|haz un video|env[ií]a (tu|un) (video|foto|dibujo|cuento|dise[nñ]o)|"
                  r"concurso de (fotograf[ií]a|foto|video|dibujo|cuento|escritura|poes[ií]a|canci[oó]n|dise[nñ]o|cortometraje)|clips?\b|reel|cover|"
                  r"cuenta (tu|una) historia|cu[eé]ntanos)"),
@@ -473,4 +480,49 @@ def mechanics(text: str) -> list[str]:
 
 
 def is_open_call_title(title: str) -> bool:
-    return bool(OPEN_CALL.search(title or "")) and not WINNERS_TITLE.search(title or "")
+    t = title or ""
+    return bool(OPEN_CALL.search(t) or TITLE_STARTS_CONTEST.search(t)) and not WINNERS_TITLE.search(t)
+
+
+# ------------------------------------------------------------------ ¿aplica en Colombia?
+FOREIGN_TLDS = {"cl", "es", "mx", "ar", "pe", "ec", "py", "uy", "bo", "ve", "pa", "cr", "do", "gt", "hn", "sv", "ni", "cu", "pr", "br", "us",
+                "uk", "fr", "it", "de", "pt"}
+COLOMBIA_RE = re.compile(r"(colombia|colombian|bogot[aá]|medell[ií]n|\bcali\b|barranquilla|cartagena|bucaramanga|pereira|manizales|"
+                         r"c[uú]cuta|ibagu[eé]|villavicencio|antioquia|cundinamarca|pesos colombianos|\bcop\b)", re.I)
+FOREIGN_RE = re.compile(r"(espa[nñ]a|espa[nñ]ol(es|a)? residentes|m[eé]xico|mexican|chile\b|chilen|argentin|per[uú]\b|peruan|ecuador|panam[aá]|"
+                        r"paraguay|uruguay|venezuela|rep[uú]blica dominicana|estados unidos|costa rica|guatemala|honduras|el salvador|bolivia|"
+                        r"puerto rico|€|euros|\bmadrid\b|barcelona|santiago de chile|buenos aires|lima\b|quito|ciudad de m[eé]xico)", re.I)
+
+
+RESIDENCY = re.compile(r"(?:residentes?|ciudadanos?|domiciliad[oa]s?)\s+(?:legales\s+|permanentes\s+)?(?:de|en)\s+(?:los\s+|la\s+)?([^.;:\n]{3,70})", re.I)
+
+
+def foreign_reason(url: str, title: str, text: str) -> str | None:
+    """Devuelve el motivo si la oportunidad parece ser de otro país (no aplica en Colombia); None si aplica o es dudoso a favor."""
+    from urllib.parse import urlparse
+
+    p = urlparse(url or "")
+    host = (p.hostname or "").lower()
+    tld = host.rsplit(".", 1)[-1] if "." in host else ""
+    head = f"{title}\n{(text or '')[:3500]}"
+    col = len(COLOMBIA_RE.findall(head))
+    foreign = len(FOREIGN_RE.findall(head))
+    for clause in RESIDENCY.findall(head):
+        clause_text = clause if isinstance(clause, str) else " ".join(clause)
+        if COLOMBIA_RE.search(clause_text):
+            break
+        if FOREIGN_RE.search(clause_text) or re.search(r"canad[aá]|reino unido|alemania|francia|italia|portugal|jap[oó]n|china\b|corea", clause_text, re.I):
+            return "solo para residentes de otro país"
+    if host.endswith("msn.com"):
+        if "/es-co/" in (p.path or ""):
+            return None
+        return None if col >= 2 and col > foreign else "nota de MSN de otro país"
+    if tld == "co":
+        return None if not (foreign >= 3 and col == 0) else "nota sobre otro país"
+    if tld in FOREIGN_TLDS:
+        return None if COLOMBIA_RE.search(title or "") else f"medio de otro país (.{tld})"
+    if col == 0:
+        return "no menciona Colombia"
+    if foreign > 2 * col:
+        return "se refiere principalmente a otro país"
+    return None

@@ -16,7 +16,7 @@ from . import __version__
 from .classify import Registry, Taxonomy, cost_type
 from .config import SCHEDULE_CRON_UTC, Settings, load_yaml
 from .dedupe import DedupIndex
-from .extract import WINNERS_TITLE, extract, is_open_call_title, mechanics, relevance
+from .extract import WINNERS_TITLE, extract, foreign_reason, is_open_call_title, mechanics, relevance
 from .http import BudgetExceeded, PoliteSession
 from .llm import Enricher
 from .notify import send as send_alerts
@@ -24,7 +24,7 @@ from .parse import Document, parse_any
 from .score import score
 from .sources import Candidate, SourceError, SourceSkipped, fetch_source
 from .store import Store
-from .util import (canonical_url, clean_space, domain_of, iso, next_scheduled_run, norm, now, parse_day, parse_iso,
+from .util import (canonical_url, clean_space, domain_of, iso, next_scheduled_run, norm, now, parse_any_date, parse_day, parse_iso,
                    sha1, today, truncate)
 from .verify import risk_assessment, verification_status
 
@@ -37,6 +37,10 @@ OFFICIAL_HINT = re.compile(r"(t[eé]rminos|condiciones|reglamento|participa|insc
 SKIP_LINK_HOSTS = ("google.com", "goo.gl", "apple.com", "play.google.com", "apps.apple.com", "bing.com", "microsoft.com",
                    "doubleclick.net", "addtoany.com", "whatsapp.com", "wa.me", "t.me", "linkedin.com", "pinterest.com",
                    "news.google.com", "flipboard.com", "feedburner.com", "gravatar.com", "wordpress.org", "archive.org")
+HEADLINE_BRAND = re.compile(r"^([A-ZÁÉÍÓÚÑ0-9][\w&'.\-]+(?: [A-ZÁÉÍÓÚÑ0-9][\w&'.\-]+){0,2}(?: y [A-ZÁÉÍÓÚÑ][\w&'.\-]+)?) "
+                            r"(lanza|lanzan|abre|abren|habilita|habilitan|sortea|sortear[aá]n?|regala|regalar[aá]n?|premia|premiar[aá]n?|invita|presenta|anuncia|activa|activan)\b")
+SELF_HOSTED = re.compile(r"(te invita(mos)? a participar|participa en nuestro|nuestro (concurso|sorteo|reto)|queremos (que|encontrar|premiar)|"
+                         r"nuestros (lectores|seguidores|oyentes|suscriptores)|nuestra comunidad de (lectores|seguidores|oyentes))", re.I)
 TITLE_PREFIX = re.compile(r"^\s*(t[eé]rminos\s*(y|&)\s*condiciones|reglamento|bases)\s*(de\s+la\s+|del\s+|para\s+la\s+|de\s+|para\s+)?(actividad|promoci[oó]n|campa[nñ]a|concurso|sorteo|din[aá]mica)?\s*[:\-–]?\s*", re.I)
 SECTION_LABEL = {"concursos": "Concurso", "bonos": "Beneficio", "ofertas": "Oferta", "estado": "Programa público"}
 
@@ -328,7 +332,9 @@ class Radar:
         page_url = res.final_url
         on_official_site = bool(self.registry.by_domain(page_url)) or self.registry.is_gov(page_url) or self.registry.is_edu(page_url)
         is_news = self.registry.is_news(page_url) or (c.trust == "news" and not on_official_site)
-        mentioned = self.registry.mentioned(f"{c.title} {doc.title}") or self.registry.mentioned(doc.text[:600])
+        # Los medios de comunicación no son organizadores de las promociones que reseñan
+        mentioned = [o for o in (self.registry.mentioned(f"{c.title} {doc.title}") or self.registry.mentioned(doc.text[:600]))
+                     if o.type != "medio"]
 
         organizer = None
         if c.organizer:
@@ -367,6 +373,10 @@ class Radar:
             rel = max(rel, 0.35 if rel > 0 else 0.15)
         if rel < 0.3:
             return None, "no describe una oportunidad aprovechable" + (f" ({rel_reasons[0]})" if rel_reasons else "")
+        if c.trust != "official" and not self.registry.is_gov(official_url or page_url):
+            why = foreign_reason(official_url or page_url, title_src, text)
+            if why:
+                return None, f"no aplica en Colombia ({why})"
 
         ex = extract(text, step_items=main.step_items or doc.step_items, requirement_items=main.requirement_items or doc.requirement_items,
                      document_items=main.document_items or doc.document_items)
@@ -401,7 +411,9 @@ class Radar:
                 if ai.get(k_ai) and parse_day(ai[k_ai]):
                     dates[k] = ai[k_ai][:10]
         published = doc.published or c.published
-        pub_dt = parse_iso(published) if published and "T" in str(published) else None
+        pub_dt = parse_any_date(published)
+        if pub_dt:
+            published = iso(pub_dt)
         stale_days = 45 if is_open_call_title(title_src) else 21
         if is_news and not dates.get("end") and pub_dt and now() - pub_dt > timedelta(days=stale_days):
             return None, f"noticia sin fecha de cierre y con más de {stale_days} días"
@@ -419,6 +431,10 @@ class Radar:
             organizer_name = doc.site_name or domain_of(page_url)
         else:
             organizer_name = "Organizador no identificado"
+        if organizer_name == "Organizador no identificado":
+            hm = HEADLINE_BRAND.match(clean_space(title_src))
+            if hm:
+                organizer_name = hm.group(1)
         if ai and ai.get("organizer") and not organizer:
             organizer_name = ai["organizer"]
 
@@ -432,8 +448,13 @@ class Radar:
             for k in ("requires_registration", "requires_social", "requires_activity"):
                 if ai.get(k) is not None:
                     setattr(ex, k, bool(ai[k]))
-        ctype, certainty, cost_notes = cost_type(ex, section, is_official_text=(official_domain and not is_news) or bool(official_doc))
+        # El medio organiza el concurso (lo anuncia en primera persona y publica los pasos): su página es la oficial
+        self_hosted = section == "concursos" and not official_doc and bool(ex.steps) and bool(SELF_HOSTED.search(text[:8000]))
+        ctype, certainty, cost_notes = cost_type(ex, section, is_official_text=(official_domain and not is_news) or bool(official_doc) or self_hosted)
         ct_info = self.taxonomy.cost_types.get(ctype, {})
+        if self_hosted:
+            site = doc.site_name or domain_of(page_url)
+            organizer_name = f"{site} · con {organizer.name}" if organizer and organizer.name.lower() not in site.lower() else site
 
         official_title = ""
         if official_doc and len(official_doc.title) > 12:
