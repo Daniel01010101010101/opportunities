@@ -124,13 +124,14 @@ dice «No informado por la fuente».
 
 ## 6. GitHub Pages
 
-1. Settings → **Pages** → *Build and deployment* → Source: **GitHub Actions** (ya configurado).
-2. El workflow publica automáticamente en `https://<usuario>.github.io/<repositorio>/`.
-3. Si el despliegue falla con *“Branch … is not allowed to deploy to github-pages due to environment protection rules”*:
-   Settings → **Environments** → `github-pages` → *Deployment branches and tags* → agrega la rama principal del repositorio.
-4. Para publicar de inmediato: Actions → *Radar de oportunidades* → **Run workflow**.
-
----
+- Settings → **Pages** → Source: **GitHub Actions** (ya configurado). El sitio queda en `https://<usuario>.github.io/<repositorio>/`.
+- El entorno `github-pages` solo permite publicar desde **`main`** (regla creada por GitHub al activar Pages). Por eso:
+  - el trabajo `deploy` solo corre en `main`;
+  - si una búsqueda corre en otra rama (por ejemplo, la rama por defecto actual), al terminar guarda los datos en `radar-data`
+    y **lanza automáticamente** una ejecución `mode=publicar` en `main`, que compila el sitio con esos datos y lo publica.
+- Recomendado (opcional): Settings → General → **Default branch** → `main`. Así las búsquedas programadas corren directamente
+  en `main` y no hace falta el paso intermedio. Todo sigue funcionando igual si no lo cambias.
+- Publicación manual: Actions → *Radar de oportunidades* → **Run workflow** → rama `main` → `mode: publicar` (o `buscar`).
 
 ## 7. Variables y secretos (todos opcionales)
 

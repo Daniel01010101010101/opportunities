@@ -7,6 +7,7 @@ name: Radar de oportunidades
 
 run-name: >-
   ${{ github.event_name == 'schedule' && 'Búsqueda programada (cada 2 h)' ||
+      github.event_name == 'workflow_dispatch' && inputs.mode == 'publicar' && 'Publicación del sitio con los datos más recientes' ||
       github.event_name == 'workflow_dispatch' && format('Búsqueda manual · {0} {1}', inputs.category, inputs.query) ||
       'Despliegue del sitio' }}
 
@@ -32,6 +33,11 @@ on:
         description: 'Consultar todas las fuentes (ignora la rotación)'
         type: boolean
         default: false
+      mode:
+        description: 'buscar = ejecutar el motor y publicar · publicar = solo publicar los datos guardados'
+        type: choice
+        default: buscar
+        options: [buscar, publicar]
   push:
     paths:
       - 'web/**'
@@ -52,6 +58,10 @@ concurrency:
 env:
   TZ: America/Bogota
   DATA_BRANCH: radar-data
+  # Rama desde la que GitHub Pages permite publicar (regla del entorno "github-pages").
+  # Si una búsqueda corre en otra rama (p. ej. la rama por defecto del repositorio), al terminar
+  # lanza automáticamente una publicación en esta rama con los datos recién guardados.
+  PAGES_BRANCH: main
   PYTHONUNBUFFERED: '1'
 
 jobs:
@@ -59,11 +69,12 @@ jobs:
   #    No depende de GitHub Pages: aunque la publicación falle, los datos y el historial se guardan.
   research:
     # Los despliegues por push solo desde la rama principal del repositorio
-    if: github.event_name != 'push' || github.ref_name == github.event.repository.default_branch
+    if: github.event_name != 'push' || github.ref_name == github.event.repository.default_branch || github.ref_name == 'main'
     runs-on: ubuntu-latest
     timeout-minutes: 45
     permissions:
       contents: write
+      actions: write   # para lanzar la publicación en la rama de Pages
     outputs:
       exit_code: ${{ steps.engine.outputs.exit_code }}
     steps:
@@ -108,6 +119,7 @@ jobs:
         working-directory: engine
         env:
           EVENT: ${{ github.event_name }}
+          MODE: ${{ inputs.mode }}
           CATEGORY: ${{ inputs.category }}
           QUERY: ${{ inputs.query }}
           FULL: ${{ inputs.full }}
@@ -127,11 +139,14 @@ jobs:
           ALERT_EMAIL_TO: ${{ secrets.ALERT_EMAIL_TO }}
         run: |
           set +e
-          if [ "$EVENT" = "push" ] && [ -f ../store/data/status.json ]; then
-            echo "Despliegue de código: se publican los datos existentes sin ejecutar el motor."
+          if { [ "$EVENT" = "push" ] || [ "$MODE" = "publicar" ]; } && [ -f ../store/data/status.json ]; then
+            echo "Publicación: se usan los datos ya guardados sin ejecutar el motor."
             echo "exit_code=0" >> "$GITHUB_OUTPUT"
+            echo "ran=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
+          echo "ran=true" >> "$GITHUB_OUTPUT"
+          cp ../config/alerts.json ../store/data/alerts-config.json 2>/dev/null || { mkdir -p ../store/data && cp ../config/alerts.json ../store/data/alerts-config.json; }
           case "$EVENT" in
             schedule) TRIGGER=schedule ;;
             workflow_dispatch) TRIGGER=manual ;;
@@ -190,17 +205,37 @@ jobs:
           npm ci --no-audit --no-fund
           mkdir -p public/data
           cp ../store/data/*.json public/data/ 2>/dev/null || true
-          cp ../config/alerts.json public/data/alerts-config.json
+          [ -f public/data/alerts-config.json ] || cp ../config/alerts.json public/data/alerts-config.json
           npm run build
 
       - name: Subir sitio
+        if: github.ref_name == env.PAGES_BRANCH
         uses: actions/upload-pages-artifact@v3
         with:
           path: web/dist
 
+      - name: Lanzar la publicación en la rama ${{ env.PAGES_BRANCH }}
+        if: github.ref_name != env.PAGES_BRANCH && steps.engine.outputs.ran == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if git ls-remote --exit-code --heads origin "$PAGES_BRANCH" >/dev/null; then
+            gh workflow run radar.yml --repo "$GITHUB_REPOSITORY" --ref "$PAGES_BRANCH" -f mode=publicar
+            echo "Publicación solicitada en $PAGES_BRANCH."
+          else
+            echo "::warning::No existe la rama $PAGES_BRANCH; los datos quedaron guardados en $DATA_BRANCH pero no se publicaron."
+          fi
+
+      - name: Marcar la ejecución como fallida si ninguna fuente respondió
+        if: github.ref_name != env.PAGES_BRANCH && steps.engine.outputs.exit_code == '2'
+        run: |
+          echo "::error::Ninguna fuente respondió en esta ejecución; el workflow de reintento volverá a lanzarla."
+          exit 1
+
   # 2) Publicación en GitHub Pages
   deploy:
     needs: research
+    if: github.ref_name == 'main'
     runs-on: ubuntu-latest
     timeout-minutes: 15
     permissions:
