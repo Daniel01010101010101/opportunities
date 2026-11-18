@@ -1,0 +1,64 @@
+@import '@fontsource-variable/inter';
+@import '@fontsource-variable/space-grotesk';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Identidad OPORTUNIA RADAR (modo oscuro por defecto) */
+  --bg: 8 13 11;          /* #080D0B */
+  --surface: 17 26 21;    /* #111A15 */
+  --surface-2: 22 34 28;  /* #16221C */
+  --line: 36 52 44;       /* #24342C */
+  --ink: 245 247 245;     /* #F5F7F5 */
+  --muted: 137 149 141;   /* #89958D */
+  color-scheme: dark;
+}
+
+html, body, #root { height: 100%; }
+body {
+  @apply bg-bg text-ink font-sans antialiased;
+  background-image:
+    radial-gradient(1200px 600px at 85% -10%, rgb(0 214 143 / 0.07), transparent 60%),
+    radial-gradient(900px 500px at -10% 110%, rgb(0 168 107 / 0.05), transparent 60%);
+  background-attachment: fixed;
+}
+
+* { scrollbar-width: thin; scrollbar-color: rgb(var(--line)) transparent; }
+::selection { background: rgb(0 214 143 / 0.3); }
+
+@layer components {
+  .card {
+    @apply rounded-2xl border border-line/70 bg-surface/90 shadow-card backdrop-blur-sm;
+  }
+  .card-hover {
+    @apply transition duration-200 hover:-translate-y-0.5 hover:border-brand/40 hover:shadow-glow;
+  }
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl px-3.5 py-2 text-sm font-medium transition
+      focus:outline-none focus-visible:ring-2 focus-visible:ring-brand/60 disabled:cursor-not-allowed disabled:opacity-50;
+  }
+  .btn-primary { @apply btn bg-brand text-[#04110B] hover:bg-brand-glow; }
+  .btn-ghost { @apply btn border border-line bg-surface2/60 text-ink hover:border-brand/40 hover:bg-surface2; }
+  .btn-quiet { @apply btn text-muted hover:bg-surface2 hover:text-ink; }
+  .chip {
+    @apply inline-flex items-center gap-1.5 rounded-full border border-line bg-surface2/70 px-3 py-1 text-xs font-medium text-muted
+      transition hover:border-brand/40 hover:text-ink;
+  }
+  .chip-on { @apply border-brand/60 bg-brand/10 text-brand; }
+  .input {
+    @apply w-full rounded-xl border border-line bg-surface2/70 px-3 py-2 text-sm text-ink placeholder:text-muted/70
+      focus:border-brand/60 focus:outline-none focus:ring-2 focus:ring-brand/20;
+  }
+  .label { @apply text-[11px] font-semibold uppercase tracking-[0.12em] text-muted; }
+  .h-display { @apply font-display font-semibold tracking-tight; }
+}
+
+.radar-sweep {
+  background: conic-gradient(from 0deg, rgb(0 214 143 / 0.0) 0deg, rgb(0 214 143 / 0.35) 40deg, rgb(0 214 143 / 0) 70deg);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.001ms !important; transition-duration: 0.001ms !important; }
+}

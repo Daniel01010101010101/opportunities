@@ -1,0 +1,180 @@
+# Fuentes iniciales del radar. El motor además DESCUBRE fuentes nuevas: cada dominio oficial que aparece
+# enlazado desde una noticia o búsqueda se registra en data/sources.json como "descubierta" y se vuelve a
+# consultar en ejecuciones siguientes.
+#
+# Tipos:
+#   bing_news  -> Bing Noticias RSS (gratis, sin clave). Uso personal no comercial según sus condiciones.
+#   gdelt      -> GDELT DOC 2.0 API (gratis, sin clave, límite ~1 consulta cada 5 s).
+#   rss        -> Feed RSS/Atom oficial.
+#   page_links -> Página oficial de listado (promociones, términos, convocatorias): se extraen los enlaces
+#                 que cumplan "include" y se analizan uno por uno.
+#   google_cse -> Google Programmable Search JSON API (opcional: GOOGLE_CSE_KEY + GOOGLE_CSE_CX).
+#   brave      -> Brave Search API (opcional: BRAVE_API_KEY).
+#
+# every_hours: cada cuántas horas se consulta (controla el consumo). Las fuentes que fallaron se reintentan
+# en la siguiente ejecución aunque no les toque.
+# hints: pistas de clasificación (section / category) que se aplican si el análisis del texto no es concluyente.
+
+defaults:
+  every_hours: 6
+  max_items: 12
+
+sources:
+  # ------------------------------------------------------------------ Búsquedas en noticias (descubrimiento)
+  - {id: bn-bono-gasolina, type: bing_news, name: "Noticias · bonos de gasolina", query: "bono de gasolina gratis Colombia", every_hours: 2, hints: {category: gasolina}}
+  - {id: bn-terpel, type: bing_news, name: "Noticias · Terpel promociones", query: "Terpel promoción sorteo", every_hours: 4, hints: {category: gasolina}}
+  - {id: bn-primax, type: bing_news, name: "Noticias · Primax promociones", query: "Primax Colombia promoción", every_hours: 6, hints: {category: gasolina}}
+  - {id: bn-biomax-texaco, type: bing_news, name: "Noticias · Biomax / Texaco", query: "Biomax OR Texaco Colombia promoción gana", every_hours: 8, hints: {category: gasolina}}
+  - {id: bn-sorteo-carro, type: bing_news, name: "Noticias · sorteos de carros", query: "gana un carro sorteo Colombia", every_hours: 2, hints: {section: concursos, category: carros}}
+  - {id: bn-sorteo-moto, type: bing_news, name: "Noticias · sorteos de motos", query: "sorteo moto gana Colombia", every_hours: 4, hints: {section: concursos, category: motos}}
+  - {id: bn-concurso-dinero, type: bing_news, name: "Noticias · concursos de dinero", query: "concurso gana millones de pesos participa", every_hours: 4, hints: {section: concursos, category: dinero}}
+  - {id: bn-sorteo-viaje, type: bing_news, name: "Noticias · sorteos de viajes", query: "gana un viaje sorteo Colombia", every_hours: 6, hints: {section: concursos, category: viajes}}
+  - {id: bn-concurso-gratis, type: bing_news, name: "Noticias · concursos gratuitos", query: "concurso gratis participa y gana Colombia", every_hours: 4, hints: {section: concursos}}
+  - {id: bn-sorteo-tecnologia, type: bing_news, name: "Noticias · sorteos de tecnología", query: "sorteo iPhone celular gana Colombia", every_hours: 8, hints: {section: concursos, category: celulares}}
+  - {id: bn-promocion-supermercado, type: bing_news, name: "Noticias · supermercados", query: "Éxito Olímpica Ara D1 promoción gana", every_hours: 6, hints: {category: supermercado}}
+  - {id: bn-black-friday, type: bing_news, name: "Noticias · Black Friday Colombia", query: "Black Friday Colombia descuentos", every_hours: 4, hints: {section: ofertas, category: of_eventos_comerciales}}
+  - {id: bn-dia-sin-iva, type: bing_news, name: "Noticias · día sin IVA", query: "día sin IVA Colombia fechas", every_hours: 12, hints: {section: ofertas, category: of_eventos_comerciales}}
+  - {id: bn-descuentos, type: bing_news, name: "Noticias · grandes descuentos", query: "descuentos hasta 70% Colombia promoción", every_hours: 8, hints: {section: ofertas}}
+  - {id: bn-bancos, type: bing_news, name: "Noticias · promociones bancarias", query: "Bancolombia Davivienda Nequi Daviplata promoción premio", every_hours: 6, hints: {category: of_bancarias}}
+  - {id: bn-nu, type: bing_news, name: "Noticias · Nu y billeteras", query: "Nu Colombia Dale Movii beneficio nuevos clientes", every_hours: 12}
+  - {id: bn-cashback, type: bing_news, name: "Noticias · cashback", query: "cashback Colombia promoción", every_hours: 12, hints: {section: bonos, category: cashback}}
+  - {id: bn-muestras, type: bing_news, name: "Noticias · muestras y regalos", query: "muestras gratis regalo gratis Colombia", every_hours: 12, hints: {section: bonos}}
+  - {id: bn-entradas-gratis, type: bing_news, name: "Noticias · eventos gratis Bogotá", query: "concierto gratis Bogotá entrada libre", every_hours: 6, hints: {section: bonos, category: eventos_gratis}}
+  - {id: bn-cine-gratis, type: bing_news, name: "Noticias · cine y entradas", query: "entradas gratis cine Colombia", every_hours: 12, hints: {category: entradas}}
+  - {id: bn-sena, type: bing_news, name: "Noticias · convocatorias SENA", query: "SENA convocatoria inscripciones abiertas", every_hours: 6, hints: {section: estado, category: formacion}}
+  - {id: bn-icetex, type: bing_news, name: "Noticias · ICETEX y becas", query: "ICETEX becas convocatoria abierta", every_hours: 6, hints: {section: estado, category: becas}}
+  - {id: bn-becas-bogota, type: bing_news, name: "Noticias · becas Bogotá", query: "becas Bogotá inscripciones jóvenes", every_hours: 6, hints: {section: estado, category: becas}}
+  - {id: bn-subsidio-vivienda, type: bing_news, name: "Noticias · subsidios de vivienda", query: "subsidio de vivienda Colombia postulación", every_hours: 8, hints: {section: estado, category: vivienda}}
+  - {id: bn-prosperidad, type: bing_news, name: "Noticias · Prosperidad Social pagos", query: "Prosperidad Social pago Renta Ciudadana Colombia Mayor", every_hours: 6, hints: {section: estado, category: ayudas}}
+  - {id: bn-alcaldia-bogota, type: bing_news, name: "Noticias · Alcaldía de Bogotá beneficios", query: "Alcaldía de Bogotá convocatoria beneficio inscripciones", every_hours: 6, hints: {section: estado}}
+  - {id: bn-cajas, type: bing_news, name: "Noticias · cajas de compensación", query: "Colsubsidio Compensar Cafam subsidio beneficio", every_hours: 12, hints: {section: estado, category: cajas}}
+  - {id: bn-emprendimiento, type: bing_news, name: "Noticias · emprendimiento", query: "convocatoria emprendedores capital semilla Colombia", every_hours: 12, hints: {section: estado, category: emprendimiento}}
+  - {id: bn-cursos-gratis, type: bing_news, name: "Noticias · cursos gratis", query: "cursos gratis Colombia inscripciones certificado", every_hours: 12, hints: {section: estado, category: formacion}}
+  - {id: bn-app-registro, type: bing_news, name: "Noticias · premios por registrarse", query: "regístrate y gana premio app Colombia", every_hours: 12, hints: {section: bonos, category: registro}}
+
+  # ------------------------------------------------------------------ GDELT (noticias globales filtradas por Colombia)
+  - {id: gd-sorteos, type: gdelt, name: "GDELT · sorteos y concursos Colombia", query: "(sorteo OR concurso) (gana OR premio) sourcecountry:CO sourcelang:spanish", every_hours: 6}
+  - {id: gd-convocatorias, type: gdelt, name: "GDELT · convocatorias y subsidios", query: "(convocatoria OR subsidio OR becas) inscripciones sourcecountry:CO sourcelang:spanish", every_hours: 6, hints: {section: estado}}
+
+  # ------------------------------------------------------------------ Feeds oficiales
+  - {id: rss-prosperidad, type: rss, name: "Prosperidad Social (oficial)", url: "https://prosperidadsocial.gov.co/feed/", trust: official, organizer: "Prosperidad Social", every_hours: 4, hints: {section: estado, category: ayudas}}
+  - {id: rss-bogota, type: rss, name: "Bogotá.gov.co (oficial)", url: "https://bogota.gov.co/rss.xml", trust: official, organizer: "Alcaldía de Bogotá", every_hours: 2, hints: {section: estado}}
+
+  # ------------------------------------------------------------------ Páginas oficiales (listados)
+  - id: pg-terpel-terminos
+    type: page_links
+    name: "Terpel · términos de campañas (oficial)"
+    url: "https://www.terpel.com/terminos-legales-folder"
+    organizer: Terpel
+    trust: official
+    include: "^/terminos-legales-folder/.+"
+    every_hours: 4
+    hints: {category: gasolina}
+  - id: pg-primax-terminos
+    type: page_links
+    name: "Primax · términos de participación (oficial)"
+    url: "https://www.primax.com.co/terminos-y-condiciones-de-participacion/"
+    organizer: Primax Colombia
+    trust: official
+    include: "\\.pdf"
+    every_hours: 4
+    hints: {category: gasolina}
+  - id: pg-nequi-promos
+    type: page_links
+    name: "Nequi · promociones (oficial)"
+    url: "https://www.nequi.com.co/promociones"
+    organizer: Nequi
+    trust: official
+    include: "(promociones/|informacion-legal/.*(promo|sorteo|concurso|campana|gana))"
+    every_hours: 6
+  - id: pg-bancolombia-ofertas
+    type: page_links
+    name: "Bancolombia · ofertas y beneficios (oficial)"
+    url: "https://www.bancolombia.com/personas/beneficios/ofertas"
+    organizer: Bancolombia
+    trust: official
+    include: "(beneficios/|promocion|sorteo|descuento)"
+    every_hours: 8
+    hints: {category: of_bancarias}
+  - id: pg-ktronix-ofertas
+    type: page_links
+    name: "Ktronix · campañas y promociones (oficial)"
+    url: "https://www.ktronix.com/"
+    organizer: Ktronix
+    trust: official
+    include: "(gana-|temporadas/|promocion|sorteo|concurso|terminos-condiciones/(?!sitio-web))"
+    every_hours: 8
+  - id: pg-idartes-agenda
+    type: page_links
+    name: "Idartes · agenda cultural gratuita Bogotá (oficial)"
+    url: "https://www.idartes.gov.co/es/agenda"
+    organizer: "Alcaldía de Bogotá"
+    trust: official
+    include: "/es/agenda/(?!infantil|filbo)[a-z0-9-]{12,}$"
+    max_items: 10
+    every_hours: 6
+    hints: {section: bonos, category: eventos_gratis}
+  - id: pg-idartes-convocatorias
+    type: page_links
+    name: "Idartes · convocatorias (oficial)"
+    url: "https://www.idartes.gov.co/es/convocatorias"
+    organizer: "Alcaldía de Bogotá"
+    trust: official
+    include: "/convocatorias/[a-z0-9-]{6,}"
+    every_hours: 12
+    hints: {section: estado, category: cultura}
+  - id: pg-icetex-becas
+    type: page_links
+    name: "ICETEX · becas (oficial)"
+    url: "https://web.icetex.gov.co/es/becas"
+    organizer: ICETEX
+    trust: official
+    include: "/becas/[a-z0-9-]+"
+    every_hours: 12
+    hints: {section: estado, category: becas}
+  - id: pg-minciencias-convocatorias
+    type: page_links
+    name: "Minciencias · convocatorias (oficial)"
+    url: "https://minciencias.gov.co/convocatorias/todas"
+    organizer: "Ministerio de Ciencia (Minciencias)"
+    trust: official
+    include: "/convocatorias/[a-z0-9-]+/[a-z0-9-]{10,}"
+    max_items: 10
+    every_hours: 12
+    hints: {section: estado, category: ciencia}
+  - id: pg-cinecolombia
+    type: page_links
+    name: "Cine Colombia · beneficios (oficial)"
+    url: "https://www.cinecolombia.com/"
+    organizer: Cine Colombia
+    trust: official
+    include: "(promocion|beneficio|ruta-90|gratis|terminos-y-condiciones-(?!portal))"
+    every_hours: 12
+  - id: pg-colsubsidio
+    type: page_links
+    name: "Colsubsidio · subsidios y beneficios (oficial)"
+    url: "https://www.colsubsidio.com/"
+    organizer: Colsubsidio
+    trust: official
+    include: "/(subsidios?|beneficios?|promociones?|bonos?)(-|/)[a-z0-9-]+"
+    every_hours: 12
+    hints: {section: estado, category: cajas}
+  - id: pg-betowa-sena
+    type: page_links
+    name: "SENA Betowa · formación (oficial)"
+    url: "https://betowa.sena.edu.co/"
+    organizer: SENA
+    trust: official
+    include: "/oferta\\?(modality=V$|offertype=company)"
+    titles:
+      "modality=V": "Formación virtual gratuita del SENA (cursos y programas titulados)"
+      "offertype=company": "Formación SENA para empresas y trabajadores"
+    every_hours: 12
+    hints: {section: estado, category: formacion}
+
+  # ------------------------------------------------------------------ Buscadores con API (opcionales)
+  - {id: cse-sorteos, type: google_cse, name: "Google CSE · sorteos Colombia", query: "sorteo términos y condiciones Colombia 2026 gana", every_hours: 12}
+  - {id: cse-bonos-gasolina, type: google_cse, name: "Google CSE · bonos de gasolina", query: "bono gasolina gratis términos y condiciones Colombia", every_hours: 12, hints: {category: gasolina}}
+  - {id: cse-convocatorias, type: google_cse, name: "Google CSE · convocatorias abiertas", query: "convocatoria abierta inscripciones site:gov.co", every_hours: 12, hints: {section: estado}}
+  - {id: brave-sorteos, type: brave, name: "Brave Search · sorteos Colombia", query: "sorteo gana carro Colombia términos y condiciones", every_hours: 12, hints: {section: concursos}}
+  - {id: brave-gratis, type: brave, name: "Brave Search · beneficios gratis", query: "gratis sin compra Colombia promoción términos", every_hours: 12, hints: {section: bonos}}

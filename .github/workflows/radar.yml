@@ -1,0 +1,209 @@
+# OPORTUNIA RADAR — motor de investigación automática + publicación en GitHub Pages
+#
+# Flujo: disparador -> consulta de fuentes -> extracción -> análisis -> verificación de enlaces ->
+# deduplicación -> actualización/vencimientos -> prioridades -> guardado de JSON en la rama de datos ->
+# build del frontend -> publicación en GitHub Pages.
+name: Radar de oportunidades
+
+run-name: >-
+  ${{ github.event_name == 'schedule' && 'Búsqueda programada (cada 2 h)' ||
+      github.event_name == 'workflow_dispatch' && format('Búsqueda manual · {0} {1}', inputs.category, inputs.query) ||
+      'Despliegue del sitio' }}
+
+on:
+  schedule:
+    # Cada 2 horas en el minuto 17 (UTC), evitando el inicio de la hora para reducir retrasos por carga.
+    # Colombia (America/Bogota) es UTC-5 todo el año: corre a las :17 de cada hora impar en Bogotá
+    # (1:17, 3:17, 5:17 … 23:17), los 7 días de la semana.
+    - cron: '17 */2 * * *'
+  workflow_dispatch:
+    inputs:
+      category:
+        description: 'Categoría a investigar'
+        type: choice
+        default: todas
+        options: [todas, concursos, bonos, ofertas, estado, gasolina, carros, motos, becas, formacion, vivienda, eventos_gratis]
+      query:
+        description: 'Búsqueda libre (opcional), p. ej. "sorteo moto Yamaha"'
+        type: string
+        required: false
+        default: ''
+      full:
+        description: 'Consultar todas las fuentes (ignora la rotación)'
+        type: boolean
+        default: false
+  push:
+    paths:
+      - 'web/**'
+      - 'engine/**'
+      - 'config/**'
+      - '.github/workflows/radar.yml'
+
+permissions:
+  contents: write   # guardar los datos en la rama radar-data
+  pages: write      # publicar en GitHub Pages
+  id-token: write   # requerido por actions/deploy-pages
+  actions: read
+
+concurrency:
+  group: radar
+  cancel-in-progress: false
+
+env:
+  TZ: America/Bogota
+  DATA_BRANCH: radar-data
+  PYTHONUNBUFFERED: '1'
+
+jobs:
+  radar:
+    # Los despliegues por push solo desde la rama principal del repositorio
+    if: github.event_name != 'push' || github.ref_name == github.event.repository.default_branch
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Descargar código
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Preparar la rama de datos (${{ env.DATA_BRANCH }})
+        run: |
+          git config --global user.name "oportunia-radar[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git fetch --depth=50 origin "$DATA_BRANCH" 2>/dev/null; then
+            git worktree add --detach store FETCH_HEAD
+            echo "Rama de datos existente."
+          else
+            git worktree add --detach store
+            cd store
+            git checkout --orphan "$DATA_BRANCH"
+            git rm -rf --quiet . || true
+            git clean -fdxq
+            printf '# Datos de OPORTUNIA RADAR\n\nRama generada automáticamente por GitHub Actions.\n`data/` se publica en la web; `state/` es estado interno (caché, rotación, alertas enviadas).\nEl historial de commits de esta rama es el historial de cambios de los datos.\n' > README.md
+            echo "Rama de datos nueva."
+          fi
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: engine/requirements*.txt
+
+      - name: Instalar dependencias del motor
+        run: pip install -r engine/requirements-dev.txt
+
+      - name: Pruebas del motor
+        working-directory: engine
+        run: python -m pytest -q tests
+
+      - name: Ejecutar búsqueda
+        id: engine
+        working-directory: engine
+        env:
+          EVENT: ${{ github.event_name }}
+          CATEGORY: ${{ inputs.category }}
+          QUERY: ${{ inputs.query }}
+          FULL: ${{ inputs.full }}
+          # Opcionales (si no existen, esas funciones quedan desactivadas sin error)
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ANTHROPIC_MODEL: ${{ vars.ANTHROPIC_MODEL }}
+          LLM_MAX_ITEMS_PER_RUN: ${{ vars.LLM_MAX_ITEMS_PER_RUN }}
+          GOOGLE_CSE_KEY: ${{ secrets.GOOGLE_CSE_KEY }}
+          GOOGLE_CSE_CX: ${{ secrets.GOOGLE_CSE_CX }}
+          BRAVE_API_KEY: ${{ secrets.BRAVE_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          ALERT_EMAIL_TO: ${{ secrets.ALERT_EMAIL_TO }}
+        run: |
+          set +e
+          if [ "$EVENT" = "push" ] && [ -f ../store/data/status.json ]; then
+            echo "Despliegue de código: se publican los datos existentes sin ejecutar el motor."
+            echo "exit_code=0" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          case "$EVENT" in
+            schedule) TRIGGER=schedule ;;
+            workflow_dispatch) TRIGGER=manual ;;
+            push) TRIGGER=push ;;
+            *) TRIGGER=manual ;;
+          esac
+          if [ "${{ github.run_attempt }}" != "1" ]; then TRIGGER=retry; fi
+          ARGS=(run --config ../config --data ../store/data --state ../store/state --trigger "$TRIGGER")
+          if [ -n "$CATEGORY" ] && [ "$CATEGORY" != "todas" ]; then ARGS+=(--category "$CATEGORY"); fi
+          if [ -n "$QUERY" ]; then ARGS+=(--query "$QUERY"); fi
+          if [ "$FULL" = "true" ] || [ "$EVENT" = "push" ]; then ARGS+=(--full); fi
+          python -m radar "${ARGS[@]}" > ../run-summary.json
+          code=$?
+          echo "exit_code=$code" >> "$GITHUB_OUTPUT"
+          python - <<'PY' >> "$GITHUB_STEP_SUMMARY" || true
+          import json
+          r = json.load(open("../run-summary.json"))
+          print(f"### Resultado: {r['status']}")
+          print(f"- Fuentes: {r['sources_ok']}/{r['sources_checked']} OK")
+          print(f"- Nuevas: {r['new']} · Actualizadas: {r['updated']} · Descartadas: {r['discarded']} · Vencidas: {r['expired']}")
+          print(f"- Duración: {r['duration_s']} s · Peticiones HTTP: {r['http_requests']}")
+          for e in r.get("errors", [])[:10]:
+              print(f"- ⚠️ {e}")
+          PY
+          exit 0
+
+      - name: Guardar datos en la rama ${{ env.DATA_BRANCH }}
+        working-directory: store
+        run: |
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Sin cambios en los datos."
+            exit 0
+          fi
+          git commit -q -m "Radar: datos actualizados $(date '+%Y-%m-%d %H:%M') (hora Bogotá)"
+          for i in 1 2 3 4; do
+            if git push origin "HEAD:refs/heads/$DATA_BRANCH"; then exit 0; fi
+            echo "Push falló (intento $i); reintentando..."
+            sleep $((i * 5))
+            git fetch origin "$DATA_BRANCH" && git rebase FETCH_HEAD || true
+          done
+          echo "No se pudo guardar la rama de datos" && exit 1
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+
+      - name: Compilar el sitio
+        working-directory: web
+        env:
+          BASE_PATH: /${{ github.event.repository.name }}/
+        run: |
+          npm ci --no-audit --no-fund
+          mkdir -p public/data
+          cp ../store/data/*.json public/data/ 2>/dev/null || true
+          cp ../config/alerts.json public/data/alerts-config.json
+          npm run build
+
+      - name: Configurar GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Subir sitio
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: web/dist
+
+      - name: Publicar en GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+      - name: Marcar la ejecución como fallida si ninguna fuente respondió
+        if: steps.engine.outputs.exit_code == '2'
+        run: |
+          echo "::error::Ninguna fuente respondió en esta ejecución. Se publicó el estado con la advertencia; el workflow de reintento volverá a lanzarla."
+          exit 1

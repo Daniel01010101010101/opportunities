@@ -1,0 +1,242 @@
+# Registro de organizadores conocidos y sus dominios OFICIALES.
+# Se usa para: identificar al organizador, verificar que el enlace de participación sea oficial
+# y detectar posibles suplantaciones (marca conocida + dominio que no es suyo).
+# Cualquier dominio .gov.co se considera oficial del Estado; .edu.co, institución educativa.
+# type: marca | combustible | comercio | banco | billetera | gobierno | caja | entretenimiento | telecom | transporte | medio
+organizers:
+  # --- Combustibles
+  - {name: Terpel, type: combustible, domains: [terpel.com], aliases: [terpel, viveplus, mi bolsillo terpel]}
+  - {name: Primax Colombia, type: combustible, domains: [primax.com.co, dk9a0k2zamqce.cloudfront.net], aliases: [primax]}
+  - {name: Biomax, type: combustible, domains: [biomax.co], aliases: [biomax]}
+  - {name: Texaco Colombia, type: combustible, domains: [texaco.com.co, texaco.com], aliases: [texaco]}
+  - {name: Shell Colombia, type: combustible, domains: [shell.com.co, shell.com], aliases: [shell]}
+  - {name: Mobil Colombia, type: combustible, domains: [mobil.com.co], aliases: [mobil]}
+  - {name: Zeuss, type: combustible, domains: [zeuss.com.co], aliases: [zeuss]}
+  - {name: Puntos Colombia, type: marca, domains: [puntoscolombia.com], aliases: [puntos colombia]}
+  # --- Comercio
+  - {name: Grupo Éxito, type: comercio, domains: [exito.com, grupoexito.com.co, carulla.com, surtimax.com.co, tuya.com.co], aliases: [exito, éxito, carulla, surtimax, super inter]}
+  - {name: Olímpica, type: comercio, domains: [olimpica.com, olimpica.com.co], aliases: [olimpica, olímpica, sao]}
+  - {name: Alkosto, type: comercio, domains: [alkosto.com], aliases: [alkosto]}
+  - {name: Ktronix, type: comercio, domains: [ktronix.com], aliases: [ktronix]}
+  - {name: Falabella, type: comercio, domains: [falabella.com.co, bancofalabella.com.co], aliases: [falabella, banco falabella, cmr]}
+  - {name: Homecenter, type: comercio, domains: [homecenter.com.co], aliases: [homecenter]}
+  - {name: Tiendas Ara, type: comercio, domains: [aratiendas.com], aliases: [tiendas ara, ara]}
+  - {name: Tiendas D1, type: comercio, domains: [tiendasd1.com, d1.com.co], aliases: [tiendas d1, d1]}
+  - {name: Jumbo y Metro (Cencosud), type: comercio, domains: [tiendasjumbo.co, tiendasmetro.co, cencosud.com.co], aliases: [jumbo, metro, cencosud]}
+  - {name: Makro, type: comercio, domains: [makro.com.co], aliases: [makro]}
+  - {name: PriceSmart, type: comercio, domains: [pricesmart.com], aliases: [pricesmart]}
+  - {name: Rappi, type: comercio, domains: [rappi.com.co, rappi.com, rappipay.co], aliases: [rappi, rappipay]}
+  - {name: Mercado Libre, type: comercio, domains: [mercadolibre.com.co, mercadopago.com.co], aliases: [mercado libre, mercadolibre, mercado pago]}
+  - {name: Amazon, type: comercio, domains: [amazon.com], aliases: [amazon]}
+  - {name: Panamericana, type: comercio, domains: [panamericana.com.co], aliases: [panamericana]}
+  - {name: Flamingo, type: comercio, domains: [flamingo.com.co], aliases: [flamingo]}
+  # --- Bancos y billeteras
+  - {name: Bancolombia, type: banco, domains: [bancolombia.com, grupobancolombia.com, bancolombia.com.co, blog.bancolombia.com], aliases: [bancolombia]}
+  - {name: Davivienda, type: banco, domains: [davivienda.com], aliases: [davivienda]}
+  - {name: BBVA Colombia, type: banco, domains: [bbva.com.co], aliases: [bbva]}
+  - {name: Banco de Bogotá, type: banco, domains: [bancodebogota.com, bancodebogota.com.co], aliases: [banco de bogota, banco de bogotá]}
+  - {name: Banco de Occidente, type: banco, domains: [bancodeoccidente.com.co], aliases: [banco de occidente]}
+  - {name: Banco Popular, type: banco, domains: [bancopopular.com.co], aliases: [banco popular]}
+  - {name: Banco AV Villas, type: banco, domains: [avvillas.com.co], aliases: [av villas]}
+  - {name: Banco Caja Social, type: banco, domains: [bancocajasocial.com], aliases: [banco caja social]}
+  - {name: Scotiabank Colpatria, type: banco, domains: [scotiabankcolpatria.com], aliases: [colpatria, scotiabank]}
+  - {name: Itaú, type: banco, domains: [itau.co], aliases: [itau, itaú]}
+  - {name: Banco Agrario, type: banco, domains: [bancoagrario.gov.co], aliases: [banco agrario]}
+  - {name: Nu Colombia, type: banco, domains: [nu.com.co], aliases: [nu colombia, nubank, cajita nu]}
+  - {name: Lulo Bank, type: banco, domains: [lulobank.com], aliases: [lulo bank]}
+  - {name: Nequi, type: billetera, domains: [nequi.com.co], aliases: [nequi]}
+  - {name: Daviplata, type: billetera, domains: [daviplata.com], aliases: [daviplata]}
+  - {name: Dale!, type: billetera, domains: [dale.com.co], aliases: [dale!, billetera dale]}
+  - {name: Movii, type: billetera, domains: [movii.com.co], aliases: [movii]}
+  - {name: Powwi, type: billetera, domains: [powwi.co], aliases: [powwi]}
+  - {name: Bre-B (Banco de la República), type: gobierno, domains: [banrep.gov.co], aliases: [bre-b, banco de la republica]}
+  - {name: Tuya, type: banco, domains: [tuya.com.co], aliases: [tarjeta exito, tuya]}
+  - {name: Visa, type: marca, domains: [visa.com.co, visa.com], aliases: [visa]}
+  - {name: Mastercard, type: marca, domains: [mastercard.com.co, mastercard.com], aliases: [mastercard]}
+  # --- Telecomunicaciones
+  - {name: Claro Colombia, type: telecom, domains: [claro.com.co], aliases: [claro]}
+  - {name: Movistar Colombia, type: telecom, domains: [movistar.co], aliases: [movistar]}
+  - {name: Tigo, type: telecom, domains: [tigo.com.co], aliases: [tigo]}
+  - {name: WOM Colombia, type: telecom, domains: [wom.co], aliases: [wom]}
+  - {name: ETB, type: telecom, domains: [etb.com, etb.com.co], aliases: [etb]}
+  # --- Entretenimiento
+  - {name: Cine Colombia, type: entretenimiento, domains: [cinecolombia.com], aliases: [cine colombia, cineco]}
+  - {name: Cinemark Colombia, type: entretenimiento, domains: [cinemark.com.co], aliases: [cinemark]}
+  - {name: Procinal, type: entretenimiento, domains: [procinal.com], aliases: [procinal]}
+  - {name: Cinépolis, type: entretenimiento, domains: [cinepolis.com.co], aliases: [cinepolis, cinépolis]}
+  - {name: Tuboleta, type: entretenimiento, domains: [tuboleta.com], aliases: [tuboleta]}
+  - {name: TaquillaLive, type: entretenimiento, domains: [taquillalive.com], aliases: [taquillalive]}
+  - {name: Eticket, type: entretenimiento, domains: [eticket.co], aliases: [eticket]}
+  - {name: Caracol Televisión, type: medio, domains: [caracoltv.com, caracol.com.co, noticiascaracol.com], aliases: [caracol]}
+  - {name: RCN, type: medio, domains: [canalrcn.com, noticiasrcn.com, rcnradio.com], aliases: [canal rcn]}
+  # --- Marcas de consumo
+  - {name: Postobón, type: marca, domains: [postobon.com], aliases: [postobon, postobón]}
+  - {name: Coca-Cola FEMSA, type: marca, domains: [coca-cola.com, coca-colafemsa.com, cocacola.com.co], aliases: [coca-cola, coca cola]}
+  - {name: Bavaria, type: marca, domains: [bavaria.co, tadaa.co], aliases: [bavaria, aguila, águila, poker, club colombia, tada]}
+  - {name: Alpina, type: marca, domains: [alpina.com], aliases: [alpina]}
+  - {name: Colombina, type: marca, domains: [colombina.com], aliases: [colombina]}
+  - {name: Grupo Nutresa, type: marca, domains: [gruponutresa.com, zenu.com.co, noel.com.co, colcafe.com.co], aliases: [nutresa, zenu, zenú, noel, colcafe, jet]}
+  - {name: Nestlé Colombia, type: marca, domains: [nestle.com.co], aliases: [nestle, nestlé]}
+  - {name: Juan Valdez, type: marca, domains: [juanvaldez.com], aliases: [juan valdez]}
+  - {name: Crepes & Waffles, type: marca, domains: [crepesywaffles.com], aliases: [crepes & waffles, crepes y waffles]}
+  - {name: McDonald's Colombia, type: marca, domains: [mcdonalds.com.co], aliases: [mcdonalds, mcdonald's]}
+  - {name: Frisby, type: marca, domains: [frisby.com.co], aliases: [frisby]}
+  - {name: El Corral, type: marca, domains: [elcorral.com], aliases: [el corral]}
+  - {name: Unilever, type: marca, domains: [unilever.com.co], aliases: [unilever]}
+  - {name: P&G, type: marca, domains: [pg.com], aliases: [procter]}
+  # --- Transporte y movilidad
+  - {name: Avianca, type: transporte, domains: [avianca.com, lifemiles.com], aliases: [avianca, lifemiles]}
+  - {name: LATAM, type: transporte, domains: [latamairlines.com], aliases: [latam]}
+  - {name: Wingo, type: transporte, domains: [wingo.com], aliases: [wingo]}
+  - {name: Uber, type: transporte, domains: [uber.com], aliases: [uber]}
+  - {name: DiDi, type: transporte, domains: [didiglobal.com], aliases: [didi]}
+  - {name: Renault Colombia, type: marca, domains: [renault.com.co], aliases: [renault]}
+  - {name: Chevrolet Colombia, type: marca, domains: [chevrolet.com.co], aliases: [chevrolet]}
+  - {name: Mazda Colombia, type: marca, domains: [mazda.com.co], aliases: [mazda]}
+  - {name: Kia Colombia, type: marca, domains: [kia.com], aliases: [kia]}
+  - {name: Toyota Colombia, type: marca, domains: [toyota.com.co], aliases: [toyota]}
+  - {name: BYD Colombia, type: marca, domains: [byd.com.co, byd.com], aliases: [byd]}
+  - {name: AKT Motos, type: marca, domains: [aktmotos.com], aliases: [akt]}
+  - {name: Yamaha Colombia, type: marca, domains: [incolmotos-yamaha.com.co], aliases: [yamaha, incolmotos]}
+  - {name: Auteco (Bajaj, KTM, Victory), type: marca, domains: [auteco.com.co, autecomobility.com], aliases: [auteco, bajaj, victory]}
+  - {name: Honda Motos Colombia, type: marca, domains: [motos.honda.com.co, honda.com.co], aliases: [honda]}
+  - {name: Suzuki Motos Colombia, type: marca, domains: [suzuki.com.co], aliases: [suzuki]}
+  # --- Cajas de compensación
+  - {name: Colsubsidio, type: caja, domains: [colsubsidio.com], aliases: [colsubsidio]}
+  - {name: Compensar, type: caja, domains: [compensar.com], aliases: [compensar]}
+  - {name: Cafam, type: caja, domains: [cafam.com.co], aliases: [cafam]}
+  - {name: Comfama, type: caja, domains: [comfama.com], aliases: [comfama]}
+  - {name: Comfenalco, type: caja, domains: [comfenalcoantioquia.com.co, comfenalcovalle.com.co, comfenalco.com], aliases: [comfenalco]}
+  - {name: Comfandi, type: caja, domains: [comfandi.com.co], aliases: [comfandi]}
+  - {name: Comfacundi, type: caja, domains: [comfacundi.com.co], aliases: [comfacundi]}
+  # --- Entidades públicas (además de cualquier .gov.co)
+  - {name: SENA, type: gobierno, domains: [sena.edu.co, betowa.sena.edu.co, senasofiaplus.edu.co], aliases: [sena]}
+  - {name: ICETEX, type: gobierno, domains: [icetex.gov.co], aliases: [icetex]}
+  - {name: Prosperidad Social, type: gobierno, domains: [prosperidadsocial.gov.co], aliases: [prosperidad social, dps]}
+  - {name: Departamento Nacional de Planeación, type: gobierno, domains: [dnp.gov.co, sisben.gov.co], aliases: [dnp, planeacion nacional, sisben]}
+  - {name: Alcaldía de Bogotá, type: gobierno, domains: [bogota.gov.co, idartes.gov.co, scrd.gov.co, culturarecreacionydeporte.gov.co, educacionbogota.edu.co, idrd.gov.co, habitatbogota.gov.co, sdis.gov.co, desarrolloeconomico.gov.co, atenea.edu.co, transmilenio.gov.co], aliases: [alcaldia de bogota, alcaldía de bogotá, idartes, idrd, secretaria de integracion social]}
+  - {name: Gobernación de Cundinamarca, type: gobierno, domains: [cundinamarca.gov.co], aliases: [gobernacion de cundinamarca, gobernación de cundinamarca]}
+  - {name: Ministerio de Educación, type: gobierno, domains: [mineducacion.gov.co], aliases: [ministerio de educacion, mineducación]}
+  - {name: Ministerio de Vivienda, type: gobierno, domains: [minvivienda.gov.co], aliases: [ministerio de vivienda, minvivienda]}
+  - {name: Ministerio de Transporte, type: gobierno, domains: [mintransporte.gov.co], aliases: [ministerio de transporte, mintransporte]}
+  - {name: Ministerio de Ciencia (Minciencias), type: gobierno, domains: [minciencias.gov.co], aliases: [minciencias]}
+  - {name: Ministerio de las Culturas, type: gobierno, domains: [mincultura.gov.co], aliases: [mincultura, ministerio de cultura]}
+  - {name: Ministerio del Trabajo, type: gobierno, domains: [mintrabajo.gov.co, serviciodeempleo.gov.co], aliases: [mintrabajo, servicio publico de empleo]}
+  - {name: Ministerio TIC, type: gobierno, domains: [mintic.gov.co], aliases: [mintic, talento tech]}
+  - {name: iNNpulsa, type: gobierno, domains: [innpulsacolombia.com], aliases: [innpulsa]}
+  - {name: Fondo Nacional del Ahorro, type: gobierno, domains: [fna.gov.co], aliases: [fna, fondo nacional del ahorro]}
+  - {name: Coljuegos, type: gobierno, domains: [coljuegos.gov.co], aliases: [coljuegos]}
+  - {name: Superintendencia de Industria y Comercio, type: gobierno, domains: [sic.gov.co], aliases: [sic, superindustria]}
+
+# Medios de comunicación: sirven para DESCUBRIR oportunidades, pero no son la fuente oficial.
+news_domains:
+  - eltiempo.com
+  - semana.com
+  - elespectador.com
+  - infobae.com
+  - pulzo.com
+  - portafolio.co
+  - larepublica.co
+  - bluradio.com
+  - caracol.com.co
+  - noticiascaracol.com
+  - noticiasrcn.com
+  - rcnradio.com
+  - lafm.com.co
+  - wradio.com.co
+  - valoraanalitik.com
+  - kienyke.com
+  - publimetro.co
+  - eluniversal.com.co
+  - elcolombiano.com
+  - elheraldo.co
+  - vanguardia.com
+  - elpais.com.co
+  - lanacion.com.co
+  - eje21.com.co
+  - minuto30.com
+  - canal1.com.co
+  - citytv.com.co
+  - colombia.com
+  - finanzaspersonales.co
+  - dinero.com
+  - forbes.co
+  - elnuevosiglo.com.co
+  - las2orillas.co
+  - marca.com
+  - elpais.com
+  - cnnespanol.cnn.com
+  - bloomberglinea.com
+  - lasillavacia.com
+  - alertabogota.com
+  - impactotic.co
+  - enter.co
+  - tecnosfera.com
+  - motor.com.co
+  - revistamotor.com.co
+  - autofact.com.co
+  - eltiempo.com.co
+  - gerencie.com
+  - actualicese.com
+  - ambitojuridico.com
+  - extra.com.co
+  - q-hubo.com
+  - hsbnoticias.com
+  - laopinion.com
+  - diariodelhuila.com
+  - elolfato.com
+  - mientrastantoenmexico.mx
+  - ensegundos.com.co
+  - tropicanafm.com
+  - losandes.com.co
+  - semanarural.com
+  - pulzo.com.co
+  - msn.com
+  - periodismopublico.com
+  - diariodelsur.com.co
+  - technocio.com
+  - estrelladigital.com.co
+  - canaltrece.com.co
+  - alerta.com.co
+  - congresodiario.com
+  - semana.com.co
+  - lakalle.com.co
+  - zonacero.com
+  - noticiasrcn.com.co
+  - elpilon.com.co
+  - lasillavacia.com.co
+  - 360radio.com.co
+  - cambiocolombia.com
+  - razonpublica.com
+  - tiempo.com.co
+
+# Lugares donde nunca se considera oficial una promoción (hosting gratuito / acortadores).
+suspicious_hosts:
+  - blogspot.com
+  - wixsite.com
+  - weebly.com
+  - sites.google.com
+  - netlify.app
+  - vercel.app
+  - web.app
+  - firebaseapp.com
+  - glitch.me
+  - 000webhostapp.com
+  - wordpress.com
+  - godaddysites.com
+  - carrd.co
+  - linktr.ee
+  - forms.gle
+  - typeform.com
+shorteners:
+  - bit.ly
+  - tinyurl.com
+  - cutt.ly
+  - shorturl.at
+  - is.gd
+  - t.co
+  - ow.ly
+  - rb.gy
+  - acortar.link
+  - goo.gl
+suspicious_tlds: [xyz, top, click, buzz, icu, cyou, rest, monster, quest, sbs, cfd, lat, live, online, site, website, store, fun, space]

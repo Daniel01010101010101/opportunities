@@ -1,0 +1,113 @@
+{
+  "_comentario": "Taxonomía compartida por el motor (Python) y la web (React). Las palabras clave se comparan sin tildes y en minúsculas.",
+  "sections": [
+    {
+      "id": "concursos",
+      "label": "Concursos y sorteos",
+      "short": "Concursos",
+      "icon": "Trophy",
+      "description": "Oportunidades para ganar premios: carros, motos, dinero, viajes, tecnología y más.",
+      "keywords": ["sorteo", "sortea", "sorteamos", "concurso", "participa y gana", "gana un", "gana una", "ganate", "gánate", "premio", "premiamos", "ganadores", "trivia", "rifa promocional", "reto", "desafio", "promocional"]
+    },
+    {
+      "id": "bonos",
+      "label": "Bonos y beneficios gratuitos",
+      "short": "Bonos gratis",
+      "icon": "Gift",
+      "description": "Bonos, regalos, muestras, cashback y beneficios sin costo.",
+      "keywords": ["bono", "gratis", "gratuito", "gratuita", "regalo", "obsequio", "muestra gratis", "cashback", "reembolso", "recarga gratis", "sin costo", "cupon gratis", "entrada libre", "entrada gratuita", "beneficio", "cumpleanos", "membresia gratis", "prueba gratis"]
+    },
+    {
+      "id": "ofertas",
+      "label": "Ofertas y descuentos",
+      "short": "Ofertas",
+      "icon": "Percent",
+      "description": "Promociones comerciales verificables: descuentos, 2x1, cupones y envíos gratis.",
+      "keywords": ["descuento", "dcto", "% off", "2x1", "3x2", "oferta", "ofertas", "promocion", "liquidacion", "rebaja", "black friday", "cyber", "hot sale", "precio especial", "cupon", "codigo de descuento", "envio gratis", "dia sin iva", "black days"]
+    },
+    {
+      "id": "estado",
+      "label": "Beneficios del Estado y subsidios",
+      "short": "Estado",
+      "icon": "Landmark",
+      "description": "Subsidios, becas, convocatorias y programas públicos en Colombia.",
+      "keywords": ["subsidio", "beca", "becas", "convocatoria", "inscripciones abiertas", "postulate", "postulacion", "programa social", "ayuda economica", "transferencia monetaria", "renta ciudadana", "jovenes en accion", "colombia mayor", "mi casa ya", "sena", "icetex", "alcaldia", "gobernacion", "ministerio", "prosperidad social", "caja de compensacion", "estimulos", "credito condonable", "formacion gratuita", "curso gratis", "cursos gratis", "cursos gratuitos", "curso gratuito", "empleo"]
+    }
+  ],
+  "categories": [
+    {"id": "carros", "section": "concursos", "label": "Carros", "icon": "Car", "keywords": ["carro", "carros", "vehiculo", "automovil", "camioneta", "suv", "0 km", "0km", "renault", "chevrolet", "mazda", "kia", "toyota", "hyundai", "byd", "nissan", "volkswagen", "jeep", "suzuki swift"]},
+    {"id": "motos", "section": "concursos", "label": "Motos", "icon": "Bike", "keywords": ["moto", "motos", "motocicleta", "scooter", "akt", "yamaha", "bajaj", "pulsar", "honda cb", "suzuki gn", "tvs", "victory", "auteco"]},
+    {"id": "dinero", "section": "concursos", "label": "Dinero en efectivo", "icon": "Banknote", "keywords": ["efectivo", "dinero", "en plata", "millones de pesos", "premio en dinero", "transferencia de", "abono en cuenta", "plata para"]},
+    {"id": "gasolina", "section": "concursos", "label": "Bonos de gasolina", "icon": "Fuel", "keywords": ["gasolina", "combustible", "tanqueo", "tanqueada", "galones", "terpel", "primax", "biomax", "texaco", "mobil", "shell", "zeuss", "petromil", "eds", "estacion de servicio", "acpm"]},
+    {"id": "viajes", "section": "concursos", "label": "Viajes", "icon": "Plane", "keywords": ["viaje", "viajes", "tiquetes", "vuelo", "vuelos", "crucero", "hotel", "vacaciones", "todo incluido", "san andres", "cartagena", "europa", "miami", "disney", "avianca", "latam", "wingo"]},
+    {"id": "celulares", "section": "concursos", "label": "Celulares", "icon": "Smartphone", "keywords": ["celular", "celulares", "iphone", "smartphone", "galaxy", "xiaomi", "motorola", "telefono movil"]},
+    {"id": "computadores", "section": "concursos", "label": "Computadores", "icon": "Laptop", "keywords": ["computador", "computadores", "portatil", "laptop", "macbook", "pc gamer", "tablet", "ipad"]},
+    {"id": "televisores", "section": "concursos", "label": "Televisores", "icon": "Tv", "keywords": ["televisor", "televisores", "smart tv", "pantalla de", "tv de"]},
+    {"id": "electrodomesticos", "section": "concursos", "label": "Electrodomésticos", "icon": "Refrigerator", "keywords": ["nevera", "lavadora", "freidora", "licuadora", "electrodomestico", "electrodomesticos", "estufa", "horno", "aspiradora", "cafetera", "air fryer"]},
+    {"id": "tecnologia", "section": "concursos", "label": "Tecnología", "icon": "Cpu", "keywords": ["tecnologia", "consola", "playstation", "ps5", "xbox", "nintendo", "audifonos", "smartwatch", "reloj inteligente", "parlante", "camara", "gopro", "drone"]},
+    {"id": "bicicletas", "section": "concursos", "label": "Bicicletas", "icon": "Bike", "keywords": ["bicicleta", "bicicletas", "bici", "patineta electrica", "scooter electrico", "patineta"]},
+    {"id": "entradas", "section": "concursos", "label": "Entradas a eventos", "icon": "Ticket", "keywords": ["entradas", "boletas", "boleteria", "concierto", "partido", "festival", "palco", "estadio", "meet and greet", "cine", "funcion"]},
+    {"id": "tarjetas_regalo", "section": "concursos", "label": "Tarjetas de regalo", "icon": "CreditCard", "keywords": ["tarjeta de regalo", "gift card", "giftcard", "bono de compra", "bono regalo", "bono de regalo", "bono redimible", "bonos de compra"]},
+    {"id": "sorpresa", "section": "concursos", "label": "Premios sorpresa", "icon": "Sparkles", "keywords": ["premio sorpresa", "sorpresa", "kit", "ancheta", "combo de productos", "merch"]},
+    {"id": "otros_premios", "section": "concursos", "label": "Otros premios", "icon": "Trophy", "keywords": []},
+
+    {"id": "bono_gasolina", "section": "bonos", "label": "Bonos de gasolina", "icon": "Fuel", "keywords": ["bono de gasolina", "bono de combustible", "bonos de gasolina", "tanqueo gratis", "galones gratis", "gasolina gratis", "cashback terpel", "mi bolsillo terpel"]},
+    {"id": "supermercado", "section": "bonos", "label": "Supermercados", "icon": "ShoppingCart", "keywords": ["supermercado", "exito", "olimpica", "carulla", "jumbo", "d1", "ara", "makro", "pricesmart", "mercado gratis", "bono de mercado"]},
+    {"id": "alimentacion", "section": "bonos", "label": "Alimentación", "icon": "Utensils", "keywords": ["alimentacion", "almuerzo gratis", "comida gratis", "bono alimentario", "canasta"]},
+    {"id": "restaurantes", "section": "bonos", "label": "Restaurantes", "icon": "UtensilsCrossed", "keywords": ["restaurante", "hamburguesa gratis", "helado gratis", "cafe gratis", "mcdonalds", "kfc", "frisby", "el corral", "crepes", "juan valdez", "dominos", "starbucks"]},
+    {"id": "transporte", "section": "bonos", "label": "Transporte", "icon": "Bus", "keywords": ["transporte", "transmilenio", "pasaje", "viaje gratis", "uber", "didi", "cabify", "indrive", "sitp", "tarjeta tullave", "peaje"]},
+    {"id": "cashback", "section": "bonos", "label": "Cashback y reembolsos", "icon": "RotateCcw", "keywords": ["cashback", "reembolso", "devolucion del", "te devolvemos", "100% de vuelta"]},
+    {"id": "registro", "section": "bonos", "label": "Premios por registrarse", "icon": "UserPlus", "keywords": ["registrate y recibe", "por registrarte", "al registrarte", "nuevo usuario", "nuevos usuarios", "cliente nuevo", "clientes nuevos", "abre tu cuenta y", "primer pedido", "primera compra gratis", "codigo de referido", "referidos"]},
+    {"id": "muestras", "section": "bonos", "label": "Muestras gratis", "icon": "Package", "keywords": ["muestra gratis", "muestras gratis", "muestra gratuita", "producto gratis", "prueba gratis el producto", "degustacion"]},
+    {"id": "cumpleanos", "section": "bonos", "label": "Regalos de cumpleaños", "icon": "Cake", "keywords": ["cumpleanos", "en tu cumple", "mes de tu cumpleanos"]},
+    {"id": "recargas", "section": "bonos", "label": "Recargas y datos", "icon": "Wifi", "keywords": ["recarga gratis", "gigas gratis", "datos gratis", "minutos gratis", "megas gratis"]},
+    {"id": "membresias", "section": "bonos", "label": "Membresías y suscripciones de prueba", "icon": "BadgeCheck", "keywords": ["membresia gratis", "prueba gratis", "suscripcion gratis", "meses gratis", "free trial", "gratis por 30 dias", "gratis por un mes"]},
+    {"id": "puntos", "section": "bonos", "label": "Programas de puntos", "icon": "Star", "keywords": ["puntos colombia", "acumula puntos", "redime puntos", "millas", "lifemiles", "programa de lealtad", "fidelizacion", "viveplus"]},
+    {"id": "eventos_gratis", "section": "bonos", "label": "Eventos y entradas gratis", "icon": "Ticket", "keywords": ["entrada libre", "entrada gratuita", "evento gratuito", "concierto gratis", "gratis para el publico", "cine gratis", "funcion gratuita", "taller gratuito", "actividad gratuita", "agenda cultural"]},
+    {"id": "cupones", "section": "bonos", "label": "Cupones gratuitos", "icon": "TicketPercent", "keywords": ["cupon gratis", "cupones gratis", "codigo gratis", "codigo promocional"]},
+    {"id": "otros_beneficios", "section": "bonos", "label": "Otros beneficios", "icon": "Gift", "keywords": []},
+
+    {"id": "of_supermercados", "section": "ofertas", "label": "Supermercados", "icon": "ShoppingCart", "keywords": ["supermercado", "mercado", "exito", "olimpica", "carulla", "jumbo", "d1", "ara", "makro"]},
+    {"id": "of_tecnologia", "section": "ofertas", "label": "Tecnología", "icon": "Laptop", "keywords": ["tecnologia", "celular", "computador", "portatil", "televisor", "ktronix", "alkosto", "falabella", "iphone", "samsung"]},
+    {"id": "of_ropa", "section": "ofertas", "label": "Ropa y calzado", "icon": "Shirt", "keywords": ["ropa", "moda", "calzado", "zapatos", "tenis", "adidas", "nike", "arturo calle", "studio f", "koaj"]},
+    {"id": "of_hogar", "section": "ofertas", "label": "Hogar", "icon": "Sofa", "keywords": ["hogar", "muebles", "homecenter", "decoracion", "colchon", "electrodomesticos"]},
+    {"id": "of_viajes", "section": "ofertas", "label": "Viajes", "icon": "Plane", "keywords": ["vuelos", "tiquetes", "hotel", "viaje", "avianca", "latam", "wingo", "despegar"]},
+    {"id": "of_restaurantes", "section": "ofertas", "label": "Restaurantes", "icon": "UtensilsCrossed", "keywords": ["restaurante", "domicilio", "rappi", "comida", "hamburguesa", "pizza"]},
+    {"id": "of_transporte", "section": "ofertas", "label": "Transporte y gasolina", "icon": "Fuel", "keywords": ["gasolina", "combustible", "transporte", "peaje", "parqueadero", "terpel", "primax"]},
+    {"id": "of_entretenimiento", "section": "ofertas", "label": "Entretenimiento", "icon": "Clapperboard", "keywords": ["cine", "concierto", "streaming", "netflix", "spotify", "disney+", "boletas", "entretenimiento"]},
+    {"id": "of_bancarias", "section": "ofertas", "label": "Descuentos bancarios", "icon": "Wallet", "keywords": ["bancolombia", "davivienda", "bbva", "banco de bogota", "nequi", "daviplata", "nu ", "tarjeta de credito", "pagando con", "paga con"]},
+    {"id": "of_envios", "section": "ofertas", "label": "Envíos gratis", "icon": "Truck", "keywords": ["envio gratis", "envios gratis", "domicilio gratis"]},
+    {"id": "otras_ofertas", "section": "ofertas", "label": "Otras ofertas", "icon": "Percent", "keywords": []},
+    {"id": "of_eventos_comerciales", "section": "ofertas", "label": "Temporadas (Black Friday, Día sin IVA…)", "icon": "CalendarClock", "keywords": ["black friday", "cyber monday", "cyberlunes", "dia sin iva", "hot sale", "black days", "hiperofertas", "temporada"]},
+
+    {"id": "vivienda", "section": "estado", "label": "Vivienda", "icon": "Home", "keywords": ["vivienda", "mi casa ya", "subsidio de vivienda", "arriendo", "mejoramiento de vivienda", "cuota inicial", "techo propio"]},
+    {"id": "becas", "section": "estado", "label": "Becas y educación", "icon": "GraduationCap", "keywords": ["beca", "becas", "icetex", "credito condonable", "matricula cero", "educacion superior", "universidad", "posgrado", "maestria", "doctorado", "estudiar en el exterior", "generacion e"]},
+    {"id": "formacion", "section": "estado", "label": "Formación gratuita (SENA y otros)", "icon": "BookOpen", "keywords": ["sena", "curso gratis", "cursos gratis", "formacion gratuita", "formacion virtual", "tecnologo", "tecnico laboral", "bootcamp", "talento tech", "betowa", "sofia plus"]},
+    {"id": "ayudas", "section": "estado", "label": "Ayudas económicas", "icon": "HandCoins", "keywords": ["renta ciudadana", "colombia mayor", "ingreso solidario", "devolucion del iva", "transferencia monetaria", "ayuda economica", "giro", "pago de", "bono", "renta joven", "jovenes en accion"]},
+    {"id": "empleo", "section": "estado", "label": "Empleo", "icon": "Briefcase", "keywords": ["empleo", "vacantes", "trabajo", "servicio publico de empleo", "feria de empleo", "primer empleo"]},
+    {"id": "emprendimiento", "section": "estado", "label": "Emprendimiento", "icon": "Rocket", "keywords": ["emprendimiento", "emprendedores", "fondo emprender", "capital semilla", "startup", "innpulsa", "mipymes", "credito para emprender"]},
+    {"id": "jovenes", "section": "estado", "label": "Jóvenes", "icon": "Users", "keywords": ["jovenes", "juventud", "joven", "estudiantes"]},
+    {"id": "transporte_publico", "section": "estado", "label": "Transporte", "icon": "Bus", "keywords": ["subsidio de transporte", "tarifa diferencial", "transmilenio", "incentivo sisben", "movilidad"]},
+    {"id": "cajas", "section": "estado", "label": "Cajas de compensación", "icon": "Building2", "keywords": ["colsubsidio", "compensar", "cafam", "comfama", "comfenalco", "comfandi", "caja de compensacion", "subsidio familiar", "cuota monetaria"]},
+    {"id": "servicios_publicos", "section": "estado", "label": "Servicios públicos", "icon": "Lightbulb", "keywords": ["servicios publicos", "energia", "agua", "gas natural", "minimo vital", "subsidio de energia"]},
+    {"id": "cultura", "section": "estado", "label": "Cultura y estímulos", "icon": "Palette", "keywords": ["estimulos", "idartes", "cultura", "artistas", "programa distrital de estimulos", "beca de creacion", "mincultura", "concertacion"]},
+    {"id": "ciencia", "section": "estado", "label": "Ciencia e innovación", "icon": "FlaskConical", "keywords": ["minciencias", "investigacion", "innovacion", "ciencia"]},
+    {"id": "convocatorias", "section": "estado", "label": "Convocatorias públicas", "icon": "Megaphone", "keywords": ["convocatoria", "convocatorias", "inscripciones", "postulaciones"]}
+  ],
+  "cost_types": {
+    "gratis": {"label": "100% gratis", "free": true, "description": "No exige compras, pagos, depósitos ni suscripciones."},
+    "gratis_registro": {"label": "Gratis con registro", "free": true, "description": "Gratis, pero debes registrarte o inscribirte."},
+    "gratis_actividad": {"label": "Gratis con actividad", "free": true, "description": "Gratis, pero debes completar una actividad (trivia, reto, redes sociales…)."},
+    "requiere_compra": {"label": "Requiere compra", "free": false, "description": "Debes comprar o consumir para participar u obtener el beneficio."},
+    "requiere_suscripcion": {"label": "Requiere suscripción", "free": false, "description": "Exige una suscripción o membresía (puede tener cobro)."},
+    "requiere_condiciones": {"label": "Condiciones económicas", "free": false, "description": "Exige depósitos, ser cliente con productos pagos, inscripción con costo u otras condiciones."},
+    "desconocido": {"label": "Costo sin confirmar", "free": false, "description": "La fuente no permite confirmar si hay que pagar."}
+  },
+  "verification_statuses": {
+    "verificada": {"label": "Verificada", "description": "Respaldada por una fuente oficial con condiciones consultables."},
+    "pendiente": {"label": "Pendiente", "description": "Encontrada, pero requiere confirmación en la fuente oficial."},
+    "no_verificable": {"label": "No verificable", "description": "Información insuficiente para confirmarla."},
+    "vencida": {"label": "Vencida", "description": "Ya terminó."},
+    "retirada": {"label": "Retirada", "description": "La entidad la canceló o la página ya no existe."}
+  }
+}
