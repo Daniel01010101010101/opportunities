@@ -19,12 +19,76 @@ defaults:
   every_hours: 6
   max_items: 12
 
+# Máximo de fuentes de cada tipo por ejecución (las que llevan más tiempo sin consultarse van primero).
+limits:
+  bing_news: 40
+  gdelt: 4
+  news_feed: 40
+  wp_search: 24
+  google_cse: 6
+  brave: 6
+
+# Plantillas que generan muchas consultas. {term} se reemplaza por cada término y {year} por el año actual.
+# Bing Noticias NO acepta el operador OR: cada consulta debe ser una frase simple.
+generators:
+  - id: concursos-frases
+    type: bing_news
+    name: "Noticias · {term}"
+    template: "{term} {year}"
+    every_hours: 6
+    hints: {section: concursos}
+    terms:
+      - sorteo Colombia participa
+      - concurso Colombia participa
+      - concurso para ganar
+      - así puede participar sorteo
+      - cómo participar concurso
+      - lanza concurso Colombia
+      - abre concurso premios
+      - reto con premios Colombia
+      - concurso gamer
+      - torneo videojuegos premios
+      - torneo esports Colombia
+      - concurso de fotografía premio
+      - concurso de video premio
+      - concurso de cuento premio
+      - concurso de dibujo premio
+      - sorteará un carro
+      - sorteará una moto
+      - sorteará motos
+      - regala boletas
+      - gana entradas
+      - gana boletas concierto
+      - gana un viaje
+      - gana un iPhone
+      - gana un bono
+      - gana mercado
+      - premios para usuarios Colombia
+      - sorteo para clientes Colombia
+      - concurso emisora premios
+      - gana una moto
+      - gana un carro
+  - id: marcas
+    type: bing_news
+    name: "Noticias · {term} concursos"
+    template: "{term} concurso {year}"
+    every_hours: 24
+    hints: {section: concursos}
+    terms: [Kia, Renault, Chevrolet, Mazda, Toyota, Hyundai, BYD, Nissan, Volkswagen, Yamaha, AKT, Bajaj, Auteco, Honda motos, Suzuki motos, TVS,
+            Terpel, Primax, Éxito, Olímpica, Alkosto, Ktronix, Falabella, Homecenter, Jumbo, Tiendas D1, Tiendas Ara, Carulla, Rappi, Mercado Libre, DiDi,
+            Bancolombia, Davivienda, BBVA, Nequi, Daviplata, Nu Colombia, Movii, Lulo Bank, Puntos Colombia, Claro, Movistar, Tigo, WOM, ETB,
+            Postobón, Coca-Cola, Pepsi, Águila, Club Colombia, Poker, Alpina, Colombina, Jet, Zenú, Nestlé, Juan Valdez, McDonald's, KFC, Frisby,
+            El Corral, Domino's, Totto, Arturo Calle, Adidas, Nike, Avianca, LATAM, Cine Colombia, Cinemark, Samsung, Xiaomi, Motorola, Huawei,
+            PlayStation, Xbox, Riot Games, Red Bull, Gatorade, Colsubsidio, Compensar, Cafam, Caracol Televisión, Canal RCN, Los 40, Tropicana,
+            La Mega, Olímpica Stereo, Pilsen, Hit, Quala, Zenú, Bon Bril, Familia, Colgate, Unilever, Natura, Yanbal, Ésika]
+
 sources:
   # ------------------------------------------------------------------ Búsquedas en noticias (descubrimiento)
   - {id: bn-bono-gasolina, type: bing_news, name: "Noticias · bonos de gasolina", query: "bono de gasolina gratis Colombia", every_hours: 2, hints: {category: gasolina}}
   - {id: bn-terpel, type: bing_news, name: "Noticias · Terpel promociones", query: "Terpel promoción sorteo", every_hours: 4, hints: {category: gasolina}}
   - {id: bn-primax, type: bing_news, name: "Noticias · Primax promociones", query: "Primax Colombia promoción", every_hours: 6, hints: {category: gasolina}}
-  - {id: bn-biomax-texaco, type: bing_news, name: "Noticias · Biomax / Texaco", query: "Biomax OR Texaco Colombia promoción gana", every_hours: 8, hints: {category: gasolina}}
+  - {id: bn-biomax, type: bing_news, name: "Noticias · Biomax", query: "Biomax promoción gana", every_hours: 8, hints: {category: gasolina}}
+  - {id: bn-texaco, type: bing_news, name: "Noticias · Texaco Colombia", query: "Texaco Colombia promoción", every_hours: 8, hints: {category: gasolina}}
   - {id: bn-sorteo-carro, type: bing_news, name: "Noticias · sorteos de carros", query: "gana un carro sorteo Colombia", every_hours: 2, hints: {section: concursos, category: carros}}
   - {id: bn-sorteo-moto, type: bing_news, name: "Noticias · sorteos de motos", query: "sorteo moto gana Colombia", every_hours: 4, hints: {section: concursos, category: motos}}
   - {id: bn-concurso-dinero, type: bing_news, name: "Noticias · concursos de dinero", query: "concurso gana millones de pesos participa", every_hours: 4, hints: {section: concursos, category: dinero}}
@@ -52,9 +116,54 @@ sources:
   - {id: bn-cursos-gratis, type: bing_news, name: "Noticias · cursos gratis", query: "cursos gratis Colombia inscripciones certificado", every_hours: 12, hints: {section: estado, category: formacion}}
   - {id: bn-app-registro, type: bing_news, name: "Noticias · premios por registrarse", query: "regístrate y gana premio app Colombia", every_hours: 12, hints: {section: bonos, category: registro}}
 
-  # ------------------------------------------------------------------ GDELT (noticias globales filtradas por Colombia)
-  - {id: gd-sorteos, type: gdelt, name: "GDELT · sorteos y concursos Colombia", query: "(sorteo OR concurso) (gana OR premio) sourcecountry:CO sourcelang:spanish", every_hours: 6}
-  - {id: gd-convocatorias, type: gdelt, name: "GDELT · convocatorias y subsidios", query: "(convocatoria OR subsidio OR becas) inscripciones sourcecountry:CO sourcelang:spanish", every_hours: 6, hints: {section: estado}}
+  # ------------------------------------------------------------------ GDELT (solo medios colombianos)
+  - {id: gd-sorteos, type: gdelt, name: "GDELT · sorteos en medios colombianos", query: "sorteo sourcecountry:colombia", every_hours: 4, hints: {section: concursos}}
+  - {id: gd-concursos, type: gdelt, name: "GDELT · concursos en medios colombianos", query: "concurso participa sourcecountry:colombia", every_hours: 4, hints: {section: concursos}}
+  - {id: gd-gana, type: gdelt, name: "GDELT · «gana» en medios colombianos", query: "\"podrá ganar\" sourcecountry:colombia", every_hours: 6, hints: {section: concursos}}
+  - {id: gd-convocatorias, type: gdelt, name: "GDELT · convocatorias en medios colombianos", query: "convocatoria inscripciones sourcecountry:colombia", every_hours: 6, hints: {section: estado}}
+
+  # ------------------------------------------------------------------ Feeds generales de medios colombianos
+  # Se revisan las últimas ~100 notas de cada medio y solo pasan los títulos de convocatorias abiertas
+  # (concursos, sorteos, retos, «gana…», «participa…»), descartando notas de ganadores, loterías y belleza.
+  - {id: nf-semana, type: news_feed, name: "Semana (feed)", url: "https://www.semana.com/arc/outboundfeeds/rss/?outputType=xml", every_hours: 2}
+  - {id: nf-caracol, type: news_feed, name: "Caracol Radio (feed)", url: "https://caracol.com.co/arc/outboundfeeds/rss/?outputType=xml", every_hours: 2}
+  - {id: nf-eltiempo, type: news_feed, name: "El Tiempo (feed)", url: "https://www.eltiempo.com/rss/colombia.xml", every_hours: 2}
+  - {id: nf-elcolombiano, type: news_feed, name: "El Colombiano (feed)", url: "https://www.elcolombiano.com/rss/colombia.xml", every_hours: 2}
+  - {id: nf-elheraldo, type: news_feed, name: "El Heraldo (feed)", url: "https://www.elheraldo.co/arc/outboundfeeds/rss/?outputType=xml", every_hours: 2}
+  - {id: nf-elpais, type: news_feed, name: "El País Cali (feed)", url: "https://www.elpais.com.co/arc/outboundfeeds/rss/?outputType=xml", every_hours: 2}
+  - {id: nf-eluniversal, type: news_feed, name: "El Universal (feed)", url: "https://www.eluniversal.com.co/arc/outboundfeeds/rss/?outputType=xml", every_hours: 2}
+  - {id: nf-vanguardia, type: news_feed, name: "Vanguardia (feed)", url: "https://www.vanguardia.com/arc/outboundfeeds/rss/?outputType=xml", every_hours: 2}
+  - {id: nf-publimetro, type: news_feed, name: "Publimetro (feed)", url: "https://www.publimetro.co/arc/outboundfeeds/rss/?outputType=xml", every_hours: 2}
+  - {id: nf-infobae, type: news_feed, name: "Infobae Colombia (feed)", url: "https://www.infobae.com/arc/outboundfeeds/rss/category/colombia/", every_hours: 2}
+  - {id: nf-portafolio, type: news_feed, name: "Portafolio (feed)", url: "https://www.portafolio.co/rss.xml", every_hours: 4}
+  - {id: nf-larepublica, type: news_feed, name: "La República (feed)", url: "https://www.larepublica.co/rss", every_hours: 4}
+  - {id: nf-las2orillas, type: news_feed, name: "Las2orillas (feed)", url: "https://www.las2orillas.co/feed/", every_hours: 4}
+  - {id: nf-kienyke, type: news_feed, name: "KienyKe (feed)", url: "https://www.kienyke.com/feed/", every_hours: 2}
+  - {id: nf-tropicana, type: news_feed, name: "Tropicana (feed)", url: "https://www.tropicanafm.com/rss", every_hours: 2}
+  - {id: nf-vibra, type: news_feed, name: "Vibra (feed)", url: "https://vibra.co/feed/", every_hours: 2}
+  - {id: nf-autocosmos, type: news_feed, name: "Autocosmos Colombia (feed)", url: "https://noticias.autocosmos.com.co/rss", every_hours: 4, hints: {category: carros}}
+  - {id: nf-cambio, type: news_feed, name: "Cambio (feed)", url: "https://cambiocolombia.com/feeds/articulos/", every_hours: 4}
+  - {id: nf-elnuevosiglo, type: news_feed, name: "El Nuevo Siglo (feed)", url: "https://www.elnuevosiglo.com.co/rss.xml", every_hours: 4}
+  - {id: nf-laopinion, type: news_feed, name: "La Opinión Cúcuta (feed)", url: "https://www.laopinion.co/rss.xml", every_hours: 4}
+  - {id: nf-colombiacom, type: news_feed, name: "Colombia.com (feed)", url: "https://www.colombia.com/rss", every_hours: 4}
+  - {id: nf-impactotic, type: news_feed, name: "ImpactoTIC (feed)", url: "https://impactotic.co/feed/", every_hours: 6, hints: {category: tecnologia}}
+
+  # ------------------------------------------------------------------ Búsquedas dentro de medios de nicho (WordPress / Blogger)
+  - {id: wp-demotos, type: wp_search, name: "La Revista De Motos", site: demotos.com.co, queries: [concurso, sorteo, gana], every_hours: 4, hints: {category: motos}}
+  - {id: wp-altotorque, type: wp_search, name: "Revista Alto Torque", site: revistaaltotorque.com, queries: [concurso, sorteo, gana], every_hours: 6, hints: {category: carros}}
+  - {id: wp-tecnogus, type: wp_search, name: "Tecnogus", site: www.tecnogus.com.co, queries: [concurso, sorteo, gana], every_hours: 4, hints: {category: tecnologia}}
+  - {id: wp-folou, type: wp_search, name: "Folou", site: folou.co, queries: [concurso, sorteo, gana], every_hours: 4}
+  - {id: wp-enter, type: wp_search, name: "Enter.co", site: www.enter.co, queries: [concurso, sorteo, gana], every_hours: 6, hints: {category: tecnologia}}
+  - {id: wp-techcetera, type: wp_search, name: "Techcetera", site: www.techcetera.co, queries: [concurso, sorteo, gana], every_hours: 6, hints: {category: tecnologia}}
+  - {id: wp-colombinews, type: wp_search, name: "Colombinews", site: colombinews.com.co, queries: [concurso, sorteo, gana], every_hours: 6}
+  - {id: wp-eje21, type: wp_search, name: "Eje21", site: www.eje21.com.co, queries: [concurso, sorteo], every_hours: 8}
+  - {id: wp-minuto30, type: wp_search, name: "Minuto30", site: www.minuto30.com, queries: [concurso, sorteo, gana], every_hours: 6}
+  - {id: wp-lanacion, type: wp_search, name: "La Nación Huila", site: www.lanacion.com.co, queries: [concurso, sorteo], every_hours: 8}
+  - {id: wp-360radio, type: wp_search, name: "360 Radio", site: 360radio.com.co, queries: [concurso, sorteo, gana], every_hours: 6}
+  - {id: wp-periodicodelmeta, type: wp_search, name: "Periódico del Meta", site: www.periodicodelmeta.com, queries: [concurso, sorteo], every_hours: 8}
+  - {id: wp-vivirenelpoblado, type: wp_search, name: "Vivir en El Poblado", site: www.vivirenelpoblado.com, queries: [concurso, sorteo], every_hours: 8}
+  - {id: wp-bcnoticias, type: wp_search, name: "BC Noticias", site: www.bcnoticias.com.co, queries: [concurso, sorteo], every_hours: 8}
+  - {id: wp-mixnews, type: wp_search, name: "Mix News Colombia", site: www.mixnewscolombia.com, api: blogger, queries: [concurso, sorteo, gana], every_hours: 6}
 
   # ------------------------------------------------------------------ Feeds oficiales
   - {id: rss-prosperidad, type: rss, name: "Prosperidad Social (oficial)", url: "https://prosperidadsocial.gov.co/feed/", trust: official, organizer: "Prosperidad Social", every_hours: 4, hints: {section: estado, category: ayudas}}

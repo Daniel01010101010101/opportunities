@@ -23,6 +23,7 @@ export interface Opportunity {
   section: SectionId
   category: string
   tags: string[]
+  mechanics?: string[]
   kind: string
   organizer: { name: string; type: string; domain: string | null; known: boolean }
   prize: {

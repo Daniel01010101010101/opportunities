@@ -43,9 +43,9 @@ class Settings:
     full: bool = False
     dry_run: bool = False
     offline: bool = False  # no consulta Internet (solo mantenimiento)
-    max_fetches: int = field(default_factory=lambda: _env_int("RADAR_MAX_FETCHES", 320))
-    max_runtime_s: int = field(default_factory=lambda: _env_int("RADAR_MAX_RUNTIME_S", 1500))
-    max_candidates: int = field(default_factory=lambda: _env_int("RADAR_MAX_CANDIDATES", 160))
+    max_fetches: int = field(default_factory=lambda: _env_int("RADAR_MAX_FETCHES", 520))
+    max_runtime_s: int = field(default_factory=lambda: _env_int("RADAR_MAX_RUNTIME_S", 1800))
+    max_candidates: int = field(default_factory=lambda: _env_int("RADAR_MAX_CANDIDATES", 200))
     reverify_per_run: int = field(default_factory=lambda: _env_int("RADAR_REVERIFY_PER_RUN", 40))
     workers: int = field(default_factory=lambda: _env_int("RADAR_WORKERS", 6))
     git_sha: str = field(default_factory=lambda: os.environ.get("GITHUB_SHA", "")[:7])

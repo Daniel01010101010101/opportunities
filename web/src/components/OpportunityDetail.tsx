@@ -9,7 +9,7 @@ import { OppImage } from './OpportunityCard'
 import { Badge, Sheet } from './ui'
 import { useData } from '@/lib/data'
 import { TRACK_LABELS, usePersonal, type TrackStatus } from '@/lib/personal'
-import { categoryById, costTypes } from '@/lib/taxonomy'
+import { categoryById, costTypes, mechanicsMeta } from '@/lib/taxonomy'
 import { ago, cn, cop, coverageLabel, fmtDateTime, fmtDay, hostOf, programStatusLabel, statusLabel } from '@/lib/format'
 import type { Opportunity } from '@/lib/types'
 
@@ -191,6 +191,7 @@ function Detail({ op }: { op: Opportunity }) {
               {op.cost?.requires_purchase && <Badge tone="warn">Compra</Badge>}
               {op.cost?.requires_subscription && <Badge tone="warn">Suscripción</Badge>}
               {op.cost?.requires_deposit && <Badge tone="warn">Depósito / saldo</Badge>}
+              {(op.mechanics ?? []).map((m) => <Badge key={m} tone="info">{mechanicsMeta[m]?.label ?? m}</Badge>)}
             </div>
             {op.documents?.length > 0 && (
               <p className="mt-2 text-[13px]"><b>Documentos mencionados:</b> {op.documents.join(', ')}</p>

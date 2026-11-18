@@ -188,3 +188,40 @@ def test_next_scheduled_run_is_minute_17_on_even_utc_hour():
     from datetime import timezone
 
     assert nxt.astimezone(timezone.utc).hour % 2 == 0
+
+
+# ------------------------------------------------------------------ descubrimiento de concursos
+from radar.extract import WINNERS_TITLE, is_open_call_title, mechanics
+from radar.pipeline import expand_generators
+from radar.sources import Candidate, _title_filter
+
+
+def test_open_call_vs_winners_titles():
+    assert is_open_call_title("Concurso Yamaha para los fans 100% de la marca")
+    assert is_open_call_title("Kia lanza concurso de League of Legends en Colombia")
+    assert is_open_call_title("Así puede participar en el sorteo de 6 motos de Nequi")
+    assert not is_open_call_title("¡Ya tenemos ganador de la Yamaha Transacoustic!")
+    assert not is_open_call_title("Antioquia gana su octava corona de Señorita Colombia")
+    assert WINNERS_TITLE.search("Estos son los ganadores del concurso de fotografía")
+
+
+def test_mechanics_detection():
+    m = mechanics("Ingresa tu Riot ID de League of Legends, graba un video de tu mejor jugada y publícalo en Instagram etiquetando a la marca")
+    assert {"gaming", "creativo", "redes"} <= set(m)
+    assert "compra" in mechanics("Por tus compras superiores a $50.000 participa en el sorteo")
+
+
+def test_generators_expand_with_year_and_dedupe():
+    srcs = expand_generators([{"id": "marcas", "type": "bing_news", "template": "{term} concurso {year}", "terms": ["Kia", "Kia", "Zenú"]}])
+    assert [s["id"] for s in srcs] == ["gen-marcas-kia", "gen-marcas-zenu"]
+    assert srcs[0]["query"].startswith("Kia concurso 20")
+
+
+def test_news_feed_title_filter():
+    src = {"filter": "concursos"}
+    ok = Candidate(url="https://x.co/a", title="Marca lanza concurso: así puede ganar una moto", published=None)
+    lottery = Candidate(url="https://x.co/b", title="Resultados del sorteo de la Lotería de Bogotá hoy", published=None)
+    politics = Candidate(url="https://x.co/c", title="El Congreso aprobó la reforma tributaria", published=None)
+    assert _title_filter(src, ok)
+    assert not _title_filter(src, lottery)
+    assert not _title_filter(src, politics)

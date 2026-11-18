@@ -434,3 +434,43 @@ def relevance(title: str, text: str, require_title_signal: bool = False) -> tupl
         score = min(score, 0.25)
         reasons.append("el título no describe una oportunidad (posible comunicado de prensa)")
     return max(0.0, min(1.0, score)), reasons
+
+
+# ------------------------------------------------------------------ concursos: convocatoria abierta vs. noticia de ganadores
+OPEN_CALL = re.compile(
+    r"(participa|participar|inscr[ií]b|post[uú]la|as[ií] (puede|podr[aá]|puedes) (participar|ganar|inscribirse)|c[oó]mo participar|"
+    r"lanza(n)? (un |una |el |la )?(concurso|reto|sorteo|campa[nñ]a|convocatoria|torneo|challenge)|abre(n)? (convocatoria|inscripciones|concurso)|"
+    r"(podr[aá]s?|puede[ns]?|quiere[ns]?) ganar|gana(r)? (un|una|uno|dos|tres|boletas|entradas|bonos?|premios?|dinero|viajes?|\$)|g[aá]nate|"
+    r"sortea(r[aá]n?)?|sorteo|regala(r[aá]n?)?|premiar[aá]n?|reto con premios|activa(n)? retos|concurso|torneo|challenge|"
+    r"desaf[ií]o|convocatoria|premios? (para|de hasta)|gratis|regalo)",
+    re.I,
+)
+WINNERS_TITLE = re.compile(
+    r"(\bgan[oó]\b|\bganaron\b|ganador(a|es)? (de|del|en)\b|\bse llev[oó]\b|\bse coron[oó]\b|ya tenemos ganador|ganadores del|"
+    r"recibir[aá] por ganar|\bfue premiad|\bpremiaron\b|\bse impuso\b|campe[oó]n(a|es)? (de|del)|resultados? (del|de la) (concurso|sorteo)|"
+    r"se(ñ|n)orita colombia|reinado|concurso (nacional )?de belleza|miss (universo|colombia|world)|corona de)",
+    re.I,
+)
+
+MECHANICS = [
+    ("gaming", r"(videojuego|video juego|gamer|gaming|e-?sports|league of legends|\blol\b|free ?fire|fortnite|valorant|ea ?fc|fifa \d|minecraft|roblox|"
+               r"call of duty|clash royale|counter[- ]strike|dota|playstation|xbox|nintendo|twitch|\bkick\b|streamer|torneo (de|del) (video|ea|fifa|lol)|partida)"),
+    ("creativo", r"(sube (un|una|tu) (video|foto|clip|historia)|graba (un|tu) video|haz un video|env[ií]a (tu|un) (video|foto|dibujo|cuento|dise[nñ]o)|"
+                 r"concurso de (fotograf[ií]a|foto|video|dibujo|cuento|escritura|poes[ií]a|canci[oó]n|dise[nñ]o|cortometraje)|clips?\b|reel|cover|"
+                 r"cuenta (tu|una) historia|cu[eé]ntanos)"),
+    ("redes", r"(instagram|tiktok|facebook|\bx\.com|twitter|youtube).{0,80}(comenta|sigue|etiqueta|comparte|publica|sube)|"
+              r"(comenta|sigue|etiqueta|comparte|publica)\b.{0,80}(instagram|tiktok|facebook|redes sociales)"),
+    ("trivia", r"(trivia|responde (las|la|correctamente)|preguntas|quiz|adivina)"),
+    ("sorteo", r"(sorteo|sortear|sortea|al azar|aleatori)"),
+    ("compra", r"(por (tus|cada) compras?|compras? (superiores|desde)|al comprar|con tu compra|factura de compra|tanqueos? (desde|superiores))"),
+]
+
+
+def mechanics(text: str) -> list[str]:
+    """Mecánicas de participación detectadas en el texto (gaming, creativo, redes, trivia, sorteo, compra)."""
+    t = (text or "")[:12000]
+    return [name for name, pat in MECHANICS if re.search(pat, t, re.I)]
+
+
+def is_open_call_title(title: str) -> bool:
+    return bool(OPEN_CALL.search(title or "")) and not WINNERS_TITLE.search(title or "")

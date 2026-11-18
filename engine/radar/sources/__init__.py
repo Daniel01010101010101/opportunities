@@ -8,6 +8,8 @@ import re
 from dataclasses import dataclass, field
 from urllib.parse import parse_qs, quote_plus, urlparse
 
+from datetime import timedelta
+
 import feedparser
 
 from ..http import PoliteSession
@@ -56,7 +58,7 @@ def _entry_date(entry) -> str | None:
 
 def bing_news(src: dict, http: PoliteSession) -> list[Candidate]:
     url = f"https://www.bing.com/news/search?q={quote_plus(src['query'])}&format=rss&mkt=es-CO"
-    res = http.get(url, check_robots=False)  # endpoint RSS público pensado para lectores de feeds
+    res = http.get(url)  # /news/search está permitido en el robots.txt de Bing
     if not res.ok:
         raise SourceError(res.error or f"HTTP {res.status}")
     feed = feedparser.parse(res.content)
@@ -87,7 +89,9 @@ def gdelt(src: dict, http: PoliteSession) -> list[Candidate]:
 
         data = json.loads(res.text or "{}")
     except ValueError as exc:
-        raise SourceError(f"respuesta no válida de GDELT: {exc}") from exc
+        raise SourceError(f"respuesta no válida de GDELT: {res.text[:120]!r}") from exc
+    if "articles" not in data and data:
+        raise SourceError(f"GDELT respondió sin artículos: {str(data)[:120]}")
     out = []
     for a in data.get("articles", []) or []:
         seen = a.get("seendate", "")
@@ -219,7 +223,99 @@ def brave(src: dict, http: PoliteSession) -> list[Candidate]:
             for r in (data.get("web", {}) or {}).get("results", [])]
 
 
+def _title_filter(src: dict, c: Candidate, max_age_days: int = 90) -> bool:
+    """Para feeds generales: deja pasar solo títulos que parecen convocatorias/concursos/beneficios abiertos."""
+    from ..extract import WINNERS_TITLE, is_open_call_title, relevance
+    from ..util import parse_iso
+
+    pub = parse_iso(c.published) if c.published else None
+    if pub and now() - pub > timedelta(days=max_age_days):
+        return False
+    if WINNERS_TITLE.search(c.title or ""):
+        return False
+    mode = src.get("filter", "concursos")
+    rel, _ = relevance(c.title, c.snippet, require_title_signal=True)
+    if mode == "concursos":
+        return is_open_call_title(c.title) and rel >= 0.2
+    return rel >= 0.25
+
+
+def news_feed(src: dict, http: PoliteSession) -> list[Candidate]:
+    """Feed RSS general de un medio (últimas ~100 notas). Solo pasan títulos de convocatorias abiertas."""
+    res = http.get(src["url"], conditional=True)
+    if res.not_modified:
+        return []
+    if not res.ok:
+        raise SourceError(res.error or f"HTTP {res.status}")
+    feed = feedparser.parse(res.content)
+    if not feed.entries:
+        raise SourceError("feed sin entradas o ilegible")
+    out = []
+    for e in feed.entries[: src.get("scan_items", 150)]:
+        summary = e.get("summary", "") or ""
+        img = ""
+        for m in (e.get("media_content") or []) + (e.get("media_thumbnail") or []):
+            if isinstance(m, dict) and m.get("url"):
+                img = m["url"]
+                break
+        c = Candidate(url=e.get("link", ""), title=_strip_html(e.get("title", "")), snippet=_strip_html(summary)[:600],
+                      published=_entry_date(e), image=img)
+        if _title_filter(src, c, src.get("max_age_days", 60)):
+            out.append(c)
+    return out[: src.get("max_items", 15)]
+
+
+def wp_search(src: dict, http: PoliteSession) -> list[Candidate]:
+    """Búsqueda dentro de un medio con WordPress (API REST o feed de búsqueda) o Blogger."""
+    import json
+    from datetime import datetime, timezone
+
+    site = src["site"].rstrip("/")
+    api = src.get("api", "rest")
+    after = (datetime.now(timezone.utc) - timedelta(days=src.get("max_age_days", 75))).strftime("%Y-%m-%dT%H:%M:%S")
+    out: list[Candidate] = []
+    seen: set[str] = set()
+    errors = []
+    for q in src.get("queries") or ["concurso", "sorteo", "participa gana"]:
+        if api == "blogger":
+            url = f"https://{site}/feeds/posts/default?q={quote_plus(q)}&alt=rss&max-results=25"
+        elif api == "feed":
+            url = f"https://{site}/?s={quote_plus(q)}&feed=rss2"
+        else:
+            url = (f"https://{site}/wp-json/wp/v2/posts?search={quote_plus(q)}&per_page=20&orderby=date&order=desc"
+                   f"&after={after}&_fields=link,title,date,excerpt")
+        res = http.get(url, retries=1)
+        if res.from_robots_block:
+            raise SourceSkipped(f"robots.txt de {site} no permite esta búsqueda")
+        if not res.ok:
+            errors.append(res.error or f"HTTP {res.status}")
+            continue
+        items = []
+        if api == "rest":
+            try:
+                for p in json.loads(res.text or "[]"):
+                    items.append(Candidate(url=p.get("link", ""), title=_strip_html((p.get("title") or {}).get("rendered", "")),
+                                           snippet=_strip_html((p.get("excerpt") or {}).get("rendered", ""))[:600],
+                                           published=(p.get("date") or "")[:19] + "-05:00" if p.get("date") else None))
+            except (ValueError, AttributeError):
+                errors.append("respuesta no válida de la API de WordPress")
+                continue
+        else:
+            for e in feedparser.parse(res.content).entries:
+                items.append(Candidate(url=e.get("link", ""), title=_strip_html(e.get("title", "")),
+                                       snippet=_strip_html(e.get("summary", ""))[:600], published=_entry_date(e)))
+        for c in items:
+            if c.url and c.url not in seen and _title_filter(src, c, src.get("max_age_days", 75)):
+                seen.add(c.url)
+                out.append(c)
+    if errors and not out and len(errors) == len(src.get("queries") or [1, 2, 3]):
+        raise SourceError("; ".join(errors[:2]))
+    return out[: src.get("max_items", 12)]
+
+
 CONNECTORS = {
+    "news_feed": news_feed,
+    "wp_search": wp_search,
     "bing_news": bing_news,
     "gdelt": gdelt,
     "rss": rss,
@@ -234,7 +330,8 @@ def fetch_source(src: dict, http: PoliteSession) -> list[Candidate]:
     if fn is None:
         raise SourceSkipped(f"tipo de fuente desconocido: {src['type']}")
     cands = fn(src, http)
-    trust = src.get("trust") or ("search" if src["type"] in ("google_cse", "brave") else "news" if src["type"] in ("bing_news", "gdelt") else "official")
+    trust = src.get("trust") or ("search" if src["type"] in ("google_cse", "brave") else
+                                 "news" if src["type"] in ("bing_news", "gdelt", "news_feed", "wp_search") else "official")
     for c in cands:
         c.source_id = src["id"]
         c.source_name = src.get("name", src["id"])

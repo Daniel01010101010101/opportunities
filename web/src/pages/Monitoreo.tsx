@@ -17,7 +17,7 @@ const RUN_STATUS: Record<string, { label: string; tone: 'brand' | 'warn' | 'dang
   sin_fuentes_pendientes: { label: 'Solo mantenimiento', tone: 'muted' },
 }
 const TRIGGER: Record<string, string> = { schedule: 'Programada', manual: 'Manual', push: 'Despliegue', retry: 'Reintento', local: 'Local' }
-const TYPE: Record<string, string> = { bing_news: 'Noticias (Bing)', gdelt: 'GDELT', rss: 'RSS oficial', page_links: 'Página oficial', google_cse: 'Google CSE', brave: 'Brave Search', descubierta: 'Descubierta' }
+const TYPE: Record<string, string> = { bing_news: 'Noticias (Bing)', gdelt: 'GDELT', rss: 'RSS oficial', page_links: 'Página oficial', news_feed: 'Feed de medio', wp_search: 'Búsqueda en medio', google_cse: 'Google CSE', brave: 'Brave Search', descubierta: 'Descubierta' }
 
 function RunRow({ r }: { r: RunRecord }) {
   const [open, setOpen] = useState(false)
@@ -93,11 +93,13 @@ export default function MonitoreoPage() {
   const { status, runs, sources, changes, items } = useData()
   const health = useEngineHealth()
   const { runs: ghRuns, error: ghError } = useWorkflowRuns(true)
-  const [srcFilter, setSrcFilter] = useState<'todas' | 'error' | 'descubiertas'>('todas')
+  const [srcFilter, setSrcFilter] = useState<'todas' | 'error' | 'descubiertas' | 'productivas'>('todas')
   const running = ghRuns?.find((r) => r.status !== 'completed')
   const lastFound = useMemo(() => [...items].sort((a, b) => b.discovered_at.localeCompare(a.discovered_at))[0], [items])
   const failedSources = sources.filter((s) => s.last_status === 'error')
-  const shownSources = sources.filter((s) => srcFilter === 'todas' || (srcFilter === 'error' ? s.last_status === 'error' : s.origin === 'descubierta'))
+  const shownSources = sources
+    .filter((s) => srcFilter === 'todas' || (srcFilter === 'error' ? s.last_status === 'error' : srcFilter === 'productivas' ? (s.total_new ?? 0) > 0 : s.origin === 'descubierta'))
+    .sort((a, b) => (b.total_new ?? 0) - (a.total_new ?? 0))
 
   return (
     <div className="space-y-8">
@@ -171,7 +173,7 @@ export default function MonitoreoPage() {
           icon={Globe}
           action={
             <div className="flex gap-2">
-              {(['todas', 'error', 'descubiertas'] as const).map((f) => <button key={f} onClick={() => setSrcFilter(f)} className={cn('chip', srcFilter === f && 'chip-on')}>{f === 'todas' ? 'Todas' : f === 'error' ? 'Con error' : 'Descubiertas'}</button>)}
+              {(['todas', 'error', 'descubiertas', 'productivas'] as const).map((f) => <button key={f} onClick={() => setSrcFilter(f)} className={cn('chip', srcFilter === f && 'chip-on')}>{f === 'todas' ? 'Todas' : f === 'error' ? 'Con error' : f === 'descubiertas' ? 'Descubiertas' : 'Con hallazgos'}</button>)}
             </div>
           }
         />

@@ -72,14 +72,20 @@ web/src/                           frontend (React + TS)
 
 ## 3. Fuentes conectadas
 
+Más de **200 fuentes** en rotación (≈100 por ejecución, primero las que llevan más tiempo sin consultarse; topes por tipo en `limits` de `config/sources.yml`).
+
 | Tipo | Fuentes | Clave |
 |---|---|---|
-| Noticias (descubrimiento) | Bing Noticias RSS con ~30 búsquedas: bonos de gasolina, Terpel, Primax, Biomax/Texaco, sorteos de carros/motos/viajes/tecnología, concursos gratis, supermercados, Black Friday, día sin IVA, bancos y billeteras (Bancolombia, Davivienda, Nequi, Daviplata, Nu, Dale, Movii), cashback, muestras, eventos y cine gratis, SENA, ICETEX, becas Bogotá, subsidios de vivienda, Prosperidad Social, Alcaldía de Bogotá, cajas de compensación, emprendimiento, cursos gratis, premios por registrarse | No |
-| Noticias globales | GDELT DOC 2.0 (filtrado a Colombia y español) | No |
+| **Feeds de medios colombianos** (`news_feed`) | Últimas ~100 notas de Semana, Caracol Radio, El Tiempo, El Colombiano, El Heraldo, El País Cali, El Universal, Vanguardia, Publimetro, Infobae Colombia, Portafolio, La República, Las2orillas, KienyKe, Tropicana, Vibra, Autocosmos, Cambio, El Nuevo Siglo, La Opinión, Colombia.com, ImpactoTIC. Solo pasan títulos de **convocatorias abiertas** (concursos, sorteos, retos, «gana…», «participa…»); se descartan notas de ganadores, loterías y reinados | No |
+| **Búsqueda en medios de nicho** (`wp_search`) | Motos, autos, tecnología, gaming y regionales: La Revista De Motos, Alto Torque, Tecnogus, Folou, Enter.co, Techcetera, Colombinews, Eje21, Minuto30, La Nación, 360 Radio, Periódico del Meta, Vivir en El Poblado, BC Noticias, Mix News (búsquedas «concurso», «sorteo», «gana») | No |
+| Noticias (Bing) | ~30 búsquedas temáticas (gasolina, carros, motos, viajes, bancos, Estado…), **30 frases de concursos** con el año en curso (gamer, esports, foto, video, «sorteará una moto», «gana entradas»…) y **~100 marcas** (autos, motos, combustibles, comercio, bancos, telecomunicaciones, bebidas, alimentos, cines, gaming, emisoras) | No |
+| Noticias GDELT | Solo medios colombianos (`sourcecountry:colombia`) | No |
 | RSS oficiales | Prosperidad Social, Bogotá.gov.co | No |
-| Páginas oficiales | Terpel (términos de campañas), Primax (términos y PDF de promociones), Nequi (promociones), Bancolombia (ofertas), Ktronix, Idartes (agenda gratuita y convocatorias), ICETEX (becas), Minciencias (convocatorias), Cine Colombia, Colsubsidio, SENA Betowa | No |
+| Páginas oficiales | Terpel, Primax (PDF de términos), Nequi, Bancolombia, Ktronix, Idartes, ICETEX, Minciencias, Cine Colombia, Colsubsidio, SENA Betowa | No |
 | Buscadores con API | Google Programmable Search, Brave Search | Opcional |
-| **Fuentes descubiertas** | Cada dominio oficial enlazado desde una noticia se registra automáticamente y aparece en *Monitoreo → Fuentes → Descubiertas* | — |
+| **Fuentes descubiertas** | Cada dominio oficial enlazado desde una noticia se registra y aparece en *Monitoreo → Fuentes → Descubiertas* | — |
+
+Cada concurso guarda además su **mecánica** (gaming y esports, video/foto/clip, redes sociales, trivia, sorteo, compra y participa), que se puede filtrar en *Concursos y sorteos*.
 
 Organizadores reconocidos (para verificar dominios oficiales): combustibles (Terpel, Primax, Biomax, Texaco, Shell, Mobil…),
 comercio (Éxito, Olímpica, Alkosto, Ktronix, Falabella, Homecenter, Ara, D1, Rappi, Mercado Libre…), bancos y billeteras,
@@ -117,7 +123,7 @@ dice «No informado por la fuente».
 - **Ejecución manual**: Actions → *Radar de oportunidades* → **Run workflow** (categoría, búsqueda libre, «todas las fuentes»), o desde la web con el botón **Investigar ahora** (requiere token, ver Ajustes).
 - **Por categoría**: `concursos`, `bonos`, `ofertas`, `estado`, `gasolina`, `carros`, `motos`, `becas`, `formacion`, `vivienda`, `eventos_gratis`.
 - **Reintentos**: 2 reintentos con backoff por petición; las fuentes fallidas se reintentan en la siguiente ejecución; `radar-retry.yml` relanza una vez una ejecución programada que falle.
-- **Límites y consumo**: máx. 320 peticiones y 25 min por ejecución (`RADAR_MAX_FETCHES`, `RADAR_MAX_RUNTIME_S`), 1,2 s mínimo entre peticiones al mismo dominio, `Crawl-delay` respetado, caché condicional (ETag/Last-Modified) y caché negativa de 10 días para enlaces descartados.
+- **Límites y consumo**: máx. 520 peticiones y 30 min por ejecución (`RADAR_MAX_FETCHES`, `RADAR_MAX_RUNTIME_S`), 1,2 s mínimo entre peticiones al mismo dominio, `Crawl-delay` respetado, caché condicional (ETag/Last-Modified) y caché negativa de 10 días para enlaces descartados.
 - **Historial**: cada ejecución queda en `data/runs.json` (fecha, hora, disparador, fuentes, nuevas, actualizadas, descartadas con motivos, errores, duración, estado) y en el historial de commits de la rama `radar-data`.
 
 ---
@@ -181,7 +187,9 @@ npm run dev
 
 - **Redes sociales** (Instagram, Facebook, TikTok, X, YouTube): no se consultan directamente porque exigen inicio de sesión o APIs de pago y sus condiciones prohíben la extracción automática. Los concursos de redes llegan al radar cuando aparecen en noticias o en páginas oficiales.
 - **Sitios con JavaScript o bloqueo de bots** (p. ej. Éxito, Davivienda, BBVA, Tigo, Biomax devuelven 403 o contenido vacío; Banco de Bogotá prohíbe el acceso en `robots.txt`): se respetan; esas marcas se cubren vía noticias y búsquedas. No se evaden CAPTCHAs ni protecciones.
-- **Google Noticias RSS** no se usa porque sus enlaces no exponen la URL real del artículo; **Bing Noticias RSS** devuelve pocos resultados recientes por consulta, por eso hay muchas búsquedas en rotación. Sus condiciones permiten uso personal no comercial en lectores de feeds.
+- **Google Noticias** no se usa: su `robots.txt` prohíbe el acceso automatizado a los feeds de búsqueda.
+- **Bing Noticias RSS** (permitido por su robots.txt) no acepta el operador `OR` y devuelve muchas notas viejas o de otros países; por eso el radar depende sobre todo de los feeds de medios colombianos y de las búsquedas dentro de medios de nicho, y filtra por fecha y por título.
+- Algunos medios bloquean su API o búsqueda en `robots.txt` (p. ej. ImpactoTIC, Vibra): para ellos se usa solo su feed general.
 - **GDELT** limita fuertemente las consultas (HTTP 429); cuando ocurre, se registra y se reintenta en la siguiente ejecución.
 - **Extracción sin IA**: las reglas encuentran fechas, valores, condiciones y listas de pasos cuando están en el HTML/PDF; si la página no los publica de forma estructurada, la ficha lo dice. Con `ANTHROPIC_API_KEY` la extracción mejora.
 - **Traducción**: sin IA, el contenido en otro idioma se muestra en su idioma original con el aviso correspondiente (casi todas las fuentes son en español).

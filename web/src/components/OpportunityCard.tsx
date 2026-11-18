@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { useSearchParams } from 'react-router-dom'
 import { ArrowUpRight, Heart, MapPin, Building2 } from 'lucide-react'
 import { CostBadge, DeadlineBadge, RiskBadge, ScoreRing, VerificationBadge } from './badges'
-import { categoryById, icon, sectionById } from '@/lib/taxonomy'
+import { categoryById, icon, mechanicsMeta, sectionById } from '@/lib/taxonomy'
 import { coverageLabel, cn, copShort } from '@/lib/format'
 import { usePersonal, TRACK_LABELS } from '@/lib/personal'
 import type { Opportunity } from '@/lib/types'
@@ -100,6 +100,14 @@ export function OpportunityCard({ op, index = 0 }: { op: Opportunity; index?: nu
           <CostBadge op={op} />
           <VerificationBadge op={op} />
           <RiskBadge op={op} />
+          {(op.mechanics ?? []).filter((m) => m !== 'compra' && m !== 'sorteo').slice(0, 2).map((m) => {
+            const Icon = icon(mechanicsMeta[m]?.icon)
+            return (
+              <span key={m} className="inline-flex items-center gap-1 rounded-full border border-info/40 bg-info/10 px-2 py-0.5 text-[11px] font-medium text-info">
+                <Icon className="h-3 w-3" aria-hidden /> {mechanicsMeta[m]?.label ?? m}
+              </span>
+            )
+          })}
         </div>
         <div className="mt-auto flex items-center justify-between gap-2 border-t border-line/60 pt-3 text-xs text-muted">
           <div className="flex min-w-0 flex-col gap-1">

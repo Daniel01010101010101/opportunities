@@ -16,7 +16,7 @@ from . import __version__
 from .classify import Registry, Taxonomy, cost_type
 from .config import SCHEDULE_CRON_UTC, Settings, load_yaml
 from .dedupe import DedupIndex
-from .extract import extract, relevance
+from .extract import WINNERS_TITLE, extract, is_open_call_title, mechanics, relevance
 from .http import BudgetExceeded, PoliteSession
 from .llm import Enricher
 from .notify import send as send_alerts
@@ -39,6 +39,29 @@ SKIP_LINK_HOSTS = ("google.com", "goo.gl", "apple.com", "play.google.com", "apps
                    "news.google.com", "flipboard.com", "feedburner.com", "gravatar.com", "wordpress.org", "archive.org")
 TITLE_PREFIX = re.compile(r"^\s*(t[eé]rminos\s*(y|&)\s*condiciones|reglamento|bases)\s*(de\s+la\s+|del\s+|para\s+la\s+|de\s+|para\s+)?(actividad|promoci[oó]n|campa[nñ]a|concurso|sorteo|din[aá]mica)?\s*[:\-–]?\s*", re.I)
 SECTION_LABEL = {"concursos": "Concurso", "bonos": "Beneficio", "ofertas": "Oferta", "estado": "Programa público"}
+
+
+# ====================================================================== generadores de consultas
+def expand_generators(generators: list[dict]) -> list[dict]:
+    """Convierte plantillas de consultas en fuentes concretas.
+
+    Ejemplo: {id: marcas, type: bing_news, template: "{term} sorteo {year}", terms: [Kia, Yamaha]}
+    -> fuentes gen-marcas-kia, gen-marcas-yamaha. {year} se reemplaza por el año actual (hora de Bogotá)."""
+    year = str(now().year)
+    out = []
+    seen: set[str] = set()
+    for g in generators or []:
+        for term in dict.fromkeys(g.get("terms") or [""]):
+            q = g["template"].replace("{term}", str(term)).replace("{year}", year).strip()
+            slug = re.sub(r"[^a-z0-9]+", "-", norm(str(term) or q)).strip("-")[:40]
+            src = {k: v for k, v in g.items() if k not in ("template", "terms", "id", "name")}
+            if f"gen-{g['id']}-{slug}" in seen:
+                continue
+            seen.add(f"gen-{g['id']}-{slug}")
+            src.update({"id": f"gen-{g['id']}-{slug}", "query": q,
+                        "name": (g.get("name") or g["id"]).replace("{term}", str(term)), "origin_generator": g["id"]})
+            out.append(src)
+    return out
 
 
 # ====================================================================== utilidades de construcción
@@ -161,7 +184,9 @@ class Radar:
         self.taxonomy = Taxonomy(settings.config_dir)
         cfg = load_yaml(settings.config_dir / "sources.yml") or {}
         self.defaults = cfg.get("defaults", {})
-        self.sources = [{**self.defaults, **s} for s in cfg.get("sources", [])]
+        self.limits = cfg.get("limits", {})
+        raw = list(cfg.get("sources", [])) + expand_generators(cfg.get("generators", []))
+        self.sources = [{**self.defaults, **s} for s in raw]
         self.http = PoliteSession(cache=self.store.http_cache, max_fetches=settings.max_fetches,
                                   deadline=time.monotonic() + settings.max_runtime_s)
         self.enricher = Enricher(self.store.llm_cache)
@@ -184,24 +209,36 @@ class Radar:
                        "query": f"{s.query} Colombia", "hints": {}},
                       {"id": f"q-{sha1(q)[:8]}-brave", "type": "brave", "name": f"Brave: {s.query}",
                        "query": f"{s.query} Colombia", "hints": {}}]
+            niche = [{"id": f"q-{sha1(q)[:8]}-wp-{src['site']}", "type": "wp_search", "name": f"{src.get('name', src['site'])}: {s.query}",
+                      "site": src["site"], "api": src.get("api", "rest"), "queries": [s.query], "filter": "oportunidades",
+                      "max_age_days": 120, "hints": {}} for src in self.sources if src["type"] == "wp_search"]
             related = [src for src in self.sources if any(w in norm(src.get("query", "") + " " + src.get("name", ""))
                                                           for w in q.split() if len(w) > 3)]
-            return ad_hoc + related[:8]
+            return ad_hoc + niche[:12] + related[:8]
         if s.category and s.category not in ("todas", "all"):
             cat = s.category
             return [src for src in self.sources if (src.get("hints") or {}).get("section") == cat
-                    or (src.get("hints") or {}).get("category") == cat or cat in src["id"]]
-        if s.full:
-            return list(self.sources)
+                    or (src.get("hints") or {}).get("category") == cat or cat in src["id"]
+                    or (cat == "concursos" and src["type"] in ("news_feed", "wp_search"))]
         due = []
         for src in self.sources:
             st = self.store.sources_state.get(src["id"], {})
             last = parse_iso(st.get("last_run_at"))
             every = float(src.get("every_hours", 6))
             failed = st.get("consecutive_failures", 0) > 0 and st.get("last_status") == "error"
-            if last is None or failed or now() - last >= timedelta(hours=every) - timedelta(minutes=20):
-                due.append(src)
-        return due
+            if s.full or last is None or failed or now() - last >= timedelta(hours=every) - timedelta(minutes=20):
+                due.append((last.timestamp() if last else 0.0, src))
+        # Tope por tipo de fuente y ejecución: primero las que llevan más tiempo sin consultarse
+        due.sort(key=lambda x: x[0])
+        per_type: dict[str, int] = {}
+        out = []
+        for _, src in due:
+            cap = int(self.limits.get(src["type"], 10_000))
+            if per_type.get(src["type"], 0) >= cap:
+                continue
+            per_type[src["type"]] = per_type.get(src["type"], 0) + 1
+            out.append(src)
+        return out
 
     # ------------------------------------------------------------------ fase 1: fuentes
     def collect(self, sources: list[dict]) -> list[Candidate]:
@@ -221,7 +258,9 @@ class Radar:
             except Exception as exc:  # noqa: BLE001 - una fuente nunca detiene el proceso
                 return src, [], "error", f"{type(exc).__name__}: {str(exc)[:160]}", int((time.monotonic() - t) * 1000)
 
-        with ThreadPoolExecutor(max_workers=self.s.workers) as pool:
+        # Más hilos en esta fase: muchas fuentes comparten dominio (bing.com) y esperan su turno de cortesía,
+        # así que hilos extra permiten avanzar con los demás dominios mientras tanto.
+        with ThreadPoolExecutor(max_workers=max(self.s.workers, 14)) as pool:
             futures = [pool.submit(work, src) for src in sources]
             for fut in as_completed(futures):
                 src, items, status, error, ms = fut.result()
@@ -248,9 +287,13 @@ class Radar:
             if self.store.is_rejected(cu):
                 continue
             if c.trust != "official":
+                if WINNERS_TITLE.search(c.title or ""):
+                    self._discard(cu, "nota sobre ganadores o resultados, no es una convocatoria abierta")
+                    continue
                 pub = parse_iso(c.published)
-                if pub and now() - pub > timedelta(days=30):
-                    self._discard(cu, "noticia antigua (más de 30 días)")
+                window = 90 if is_open_call_title(c.title) else 30
+                if pub and now() - pub > timedelta(days=window):
+                    self._discard(cu, f"noticia antigua (más de {window} días)")
                     continue
                 rel, _ = relevance(c.title, c.snippet)
                 if rel < 0.2:
@@ -359,8 +402,9 @@ class Radar:
                     dates[k] = ai[k_ai][:10]
         published = doc.published or c.published
         pub_dt = parse_iso(published) if published and "T" in str(published) else None
-        if is_news and not dates.get("end") and pub_dt and now() - pub_dt > timedelta(days=21):
-            return None, "noticia sin fecha de cierre y con más de 3 semanas"
+        stale_days = 45 if is_open_call_title(title_src) else 21
+        if is_news and not dates.get("end") and pub_dt and now() - pub_dt > timedelta(days=stale_days):
+            return None, f"noticia sin fecha de cierre y con más de {stale_days} días"
 
         withdrawn = bool(ex.withdrawn_signal)
         status = compute_status(ex, dates, withdrawn)
@@ -454,6 +498,7 @@ class Radar:
             "section": section,
             "category": category,
             "tags": tags,
+            "mechanics": mechanics(f"{title_src}\n{text}") if section in ("concursos", "bonos") else [],
             "kind": SECTION_LABEL.get(section, "Oportunidad"),
             "organizer": {"name": organizer_name, "type": organizer.type if organizer else ("gobierno" if is_gov else "desconocido"),
                           "domain": domain_of(official_url or page_url) if not is_news else (organizer.domains[0] if organizer else None),
@@ -510,7 +555,7 @@ class Radar:
                 existing.setdefault("sources", []).append(s)
         prefer_new = op["verification"]["official_domain"] or not existing["verification"].get("official_domain")
         if prefer_new:
-            for key in ("title", "summary", "section", "category", "tags", "kind", "organizer", "cost", "eligibility",
+            for key in ("title", "summary", "section", "category", "tags", "mechanics", "kind", "organizer", "cost", "eligibility",
                         "gov", "offer", "risk", "language", "translated", "extraction"):
                 if op.get(key):
                     existing[key] = op[key]

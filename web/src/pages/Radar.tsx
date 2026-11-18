@@ -42,6 +42,10 @@ export default function RadarPage() {
     () => active.filter((o) => { const d = daysUntil(o.dates?.end); return d != null && d >= 0 && d <= 10 }).sort((a, b) => (daysUntil(a.dates.end) ?? 0) - (daysUntil(b.dates.end) ?? 0)).slice(0, 6),
     [active],
   )
+  const contests = useMemo(
+    () => active.filter((o) => o.section === 'concursos' && o.risk?.level !== 'alto').sort((a, b) => b.priority.score - a.priority.score).slice(0, 6),
+    [active],
+  )
   const freeOnes = useMemo(() => active.filter((o) => o.cost?.free && o.risk?.level !== 'alto').sort((a, b) => b.priority.score - a.priority.score).slice(0, 6), [active])
   const valuable = useMemo(() => active.filter((o) => o.prize?.value_cop).sort((a, b) => (b.prize.value_cop ?? 0) - (a.prize.value_cop ?? 0)).slice(0, 6), [active])
   const sinceLast = useMemo(
@@ -125,6 +129,20 @@ export default function RadarPage() {
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-3">{top.map((o, i) => <OpportunityCard key={o.id} op={o} index={i} />)}</div>
         ) : (
           <EmptyState icon={Flame} title="Aún no hay oportunidades destacadas">Cuando el motor encuentre oportunidades gratuitas y verificadas aparecerán aquí.</EmptyState>
+        )}
+      </section>
+
+      <section>
+        <SectionTitle
+          title="Concursos y sorteos activos"
+          subtitle="Premios, retos, concursos gamer y creativos encontrados en medios y páginas oficiales"
+          icon={Trophy}
+          action={<Link to="/concursos" className="btn-quiet">Ver todos <ArrowRight className="h-4 w-4" /></Link>}
+        />
+        {contests.length ? (
+          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-3">{contests.map((o, i) => <OpportunityCard key={o.id} op={o} index={i} />)}</div>
+        ) : (
+          <EmptyState icon={Trophy} title="No hay concursos activos en este momento">El radar revisa más de 200 fuentes en rotación cada 2 horas.</EmptyState>
         )}
       </section>
 

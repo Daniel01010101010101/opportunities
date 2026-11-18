@@ -42,9 +42,17 @@ const SECTION_SYNONYMS: [RegExp, SectionId][] = [
   [/\b(gobierno|estado|subsidio|subsidios|convocatoria|convocatorias|alcaldia|ayuda|ayudas|publico|publicos)\b/, 'estado'],
 ]
 
+const MECHANIC_SYNONYMS: [RegExp, string][] = [
+  [/\b(gamer|gaming|videojuegos?|esports|e-sports|lol|league of legends|free fire|fortnite|valorant|torneo|consola|twitch|clips?)\b/, 'gaming'],
+  [/\b(video|videos|foto|fotos|fotografia|dibujo|cuento|reel|creativ[oa]s?)\b/, 'creativo'],
+  [/\b(instagram|tiktok|facebook|redes sociales|redes)\b/, 'redes'],
+  [/\b(trivia|preguntas|quiz)\b/, 'trivia'],
+]
+
 export interface ParsedQuery {
   raw: string
   terms: string[]
+  mechanics: string[]
   categories: string[]
   section: SectionId | null
   onlyFree: boolean
@@ -61,6 +69,8 @@ export function parseQuery(q: string): ParsedQuery {
   CATEGORY_SYNONYMS.forEach(([re, ids]) => { if (re.test(s)) ids.forEach((i) => cats.add(i)) })
   let section: SectionId | null = null
   for (const [re, id] of SECTION_SYNONYMS) if (re.test(s)) { section = id; break }
+  const mechs = MECHANIC_SYNONYMS.filter(([re]) => re.test(s)).map(([, m]) => m)
+  if (mechs.length && !section) section = 'concursos'
   const onlyFree = /\b(gratis|gratuit[oa]s?|sin comprar|sin compra|sin pagar|free|regalo|regalos)\b/.test(s)
   const bogota = /\bbogota\b/.test(s)
   const national = /\b(toda colombia|nacional|todo el pais)\b/.test(s)
@@ -72,13 +82,14 @@ export function parseQuery(q: string): ParsedQuery {
     .filter((w) => w.length > 2 && !STOP.has(w))
   const explanation: string[] = []
   if (section) explanation.push(`Sección: ${section}`)
+  if (mechs.length) explanation.push(`Mecánica: ${mechs.join(', ')}`)
   if (cats.size) explanation.push(`Categorías: ${[...cats].map((c) => categoryById[c]?.label ?? c).join(', ')}`)
   if (onlyFree) explanation.push('Solo gratis')
   if (bogota) explanation.push('Disponible en Bogotá')
   if (national) explanation.push('Toda Colombia')
   if (openOnly) explanation.push('Vigentes / abiertas')
   if (expiringSoon) explanation.push('Vencen pronto')
-  return { raw: q, terms, categories: [...cats], section, onlyFree, bogota, national, openOnly, expiringSoon, explanation }
+  return { raw: q, terms, mechanics: mechs, categories: [...cats], section, onlyFree, bogota, national, openOnly, expiringSoon, explanation }
 }
 
 const haystack = (o: Opportunity) =>
@@ -99,11 +110,12 @@ export function searchOpportunities(items: Opportunity[], pq: ParsedQuery): Oppo
     const h = haystack(o)
     let s = 0
     if (pq.categories.length) s += pq.categories.includes(o.category) ? 6 : 0
+    if (pq.mechanics.length) s += pq.mechanics.some((m) => (o.mechanics ?? []).includes(m)) ? 6 : 0
     if (pq.section) s += o.section === pq.section ? 3 : 0
     let termHits = 0
     for (const t of pq.terms) if (h.includes(t)) termHits++
     s += termHits * 2
-    const structured = pq.categories.length > 0 || pq.section !== null
+    const structured = pq.categories.length > 0 || pq.section !== null || pq.mechanics.length > 0
     if (structured ? s < 3 : termHits === 0 && pq.terms.length > 0) continue
     s += (o.priority?.score ?? 0) / 25
     scored.push({ o, s })
@@ -121,4 +133,6 @@ export const EXAMPLE_QUERIES = [
   'Becas abiertas en Bogotá',
   'Beneficios del Gobierno',
   'Sorteos de motos',
+  'Concursos gamer',
+  'Concursos de video o fotos',
 ]
