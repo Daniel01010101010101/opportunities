@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-18T21:47:00-05:00",
- "count": 73,
+ "generated_at": "2026-11-18T22:36:49-05:00",
+ "count": 76,
  "items": [
   {
    "id": "op_72402b2d44f8",
@@ -1093,6 +1093,173 @@
    }
   },
   {
+   "id": "op_2a09eaa2aa8f",
+   "title": "Atenea | Agencia distrital para la educación superior, la ciencia y la tecnología",
+   "summary": "Consulta las convocatorias de la Agencia Atenea según su etapa: próximas, con inscripciones abiertas, en curso o cerradas.",
+   "section": "estado",
+   "category": "becas",
+   "tags": [
+    "Becas y educación",
+    "Cajas de compensación",
+    "Ciencia e innovación",
+    "Convocatorias públicas",
+    "Jóvenes"
+   ],
+   "mechanics": [],
+   "kind": "Programa público",
+   "organizer": {
+    "name": "Agencia distrital para la educación superior, la ciencia y la tecnología",
+    "type": "gobierno",
+    "domain": null,
+    "known": false
+   },
+   "prize": {
+    "description": null,
+    "value_cop": null,
+    "value_text": null,
+    "value_source": null,
+    "winners": 0,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "gratis_registro",
+    "label": "Gratis con registro",
+    "free": true,
+    "certainty": "inferido",
+    "requires_purchase": null,
+    "requires_registration": true,
+    "requires_social": true,
+    "requires_activity": true,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": null,
+    "notes": [
+     "Pide interactuar en redes sociales (seguir, comentar o etiquetar).",
+     "No se encontró ninguna condición de compra en la fuente oficial (inferido, confírmalo en los términos)."
+    ]
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": null,
+    "age_text": null,
+    "coverage": "bogota",
+    "cities": [
+     "Bogotá"
+    ]
+   },
+   "requirements": [
+    "Graduarse de un colegio de Bogotá.",
+    "Tener hasta 28 años.",
+    "Contar con admisión en alguna de las instituciones participantes: Universidad Nacional de Colombia, Universidad Distrital Francisco José de Caldas, Universidad Pedagógica Nacional, Escuela Tecnológica Instituto Técnico…"
+   ],
+   "documents": [],
+   "steps": [
+    "Ingresa al enlace oficial de la convocatoria y selecciona la opción Jóvenes a la E6 – Instituciones públicas.",
+    "Regístrate en la plataforma SICORE o inicia sesión si ya tienes una cuenta activa.",
+    "Completa y valida tu información personal. También debes cargar los documentos solicitados.",
+    "Selecciona la institución educativa y el programa académico al que te postulaste.",
+    "Finaliza el proceso de inscripción y verifica que recibas el correo electrónico de confirmación."
+   ],
+   "steps_source": "pagina_oficial",
+   "dates": {
+    "published": "Lun, 09/11/2026 - 10:28",
+    "start": "2026-11-12",
+    "end": "2027-02-17",
+    "draw": null
+   },
+   "status": "activa",
+   "gov": {
+    "program_status": "abierta",
+    "entity": "Agencia distrital para la educación superior, la ciencia y la tecnología"
+   },
+   "offer": null,
+   "verification": {
+    "status": "verificada",
+    "reasons": [
+     "El enlace pertenece a un dominio oficial del organizador.",
+     "El enlace respondió correctamente en la última verificación."
+    ],
+    "checked_at": "2026-11-18T22:36:49-05:00",
+    "link_ok": true,
+    "official_domain": true,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://www.radionacional.co/noticias/jovenes-la-e-bogota-fechas-requisitos",
+    "participate": "https://sicore.agenciaatenea.gov.co/",
+    "terms": null,
+    "official": "https://www.agenciaatenea.gov.co/convocatorias",
+    "image": "https://radionacional-v3.s3.amazonaws.com/s3fs-public/node/article/field_image/J%C3%B3venes%20a%20la%20E.jpg"
+   },
+   "sources": [
+    {
+     "url": "https://www.radionacional.co/noticias/jovenes-la-e-bogota-fechas-requisitos",
+     "name": "Noticias · becas Bogotá",
+     "type": "news",
+     "seen_at": "2026-11-18T22:36:49-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 1.0,
+    "model": null
+   },
+   "discovered_at": "2026-11-18T22:36:49-05:00",
+   "updated_at": "2026-11-18T22:36:49-05:00",
+   "last_verified": "2026-11-18T22:36:49-05:00",
+   "last_seen": "2026-11-18T22:36:49-05:00",
+   "history": [],
+   "priority": {
+    "score": 76,
+    "level": "alta",
+    "breakdown": {
+     "valor": {
+      "points": 16,
+      "max": 25,
+      "note": "valor no publicado (estimado por tipo de premio)"
+     },
+     "gratuidad": {
+      "points": 22,
+      "max": 25,
+      "note": "gratis_registro"
+     },
+     "facilidad": {
+      "points": 7,
+      "max": 15,
+      "note": "registro, actividad, redes sociales"
+     },
+     "vigencia": {
+      "points": 8,
+      "max": 10,
+      "note": "vigente (91 días restantes)"
+     },
+     "cobertura": {
+      "points": 10,
+      "max": 10,
+      "note": "bogota"
+     },
+     "credibilidad": {
+      "points": 10,
+      "max": 10,
+      "note": "verificada"
+     },
+     "claridad": {
+      "points": 3,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
    "id": "op_1c2420506fa0",
    "title": "La Alcaldía de Medellín amplía su oferta de vivienda con más de 500 subsidios para familias y jóvenes",
    "summary": "La Alcaldía de Medellín y el Isvimed abren más de 500 subsidios de vivienda y mejoramientos para familias y jóvenes. ¡Aplica ya!",
@@ -1961,7 +2128,7 @@
     "reasons": [
      "Falta confirmar condiciones en la página oficial."
     ],
-    "checked_at": "2026-11-18T16:19:04-05:00",
+    "checked_at": "2026-11-18T22:36:47-05:00",
     "link_ok": null,
     "official_domain": false,
     "terms_found": false,
@@ -1973,11 +2140,11 @@
     "sensitive_data_warning": false
    },
    "urls": {
-    "source": "https://www.msn.com/es-co/dinero/general/quiere-estudiar-una-maestr%C3%ADa-o-doctorado-en-china-el-icetex-abre-convocatoria-de-becas/ar-AA2hIxuC",
+    "source": "https://www.msn.com/es-co/noticias/nacional/quiere-estudiar-una-maestr%C3%ADa-o-doctorado-en-china-el-icetex-abre-convocatoria-de-becas/ar-AA2hIxuC",
     "participate": null,
     "terms": null,
     "official": null,
-    "image": "http://www.bing.com/th?id=ONUT.zIW3HaAlzolLTMwg0H9Otg&pid=News&w=640"
+    "image": "http://www.bing.com/th?id=ONUT.72d2TPF8FIRRsoVkWN8cPA&pid=News&w=640"
    },
    "sources": [
     {
@@ -1985,6 +2152,12 @@
      "name": "Noticias · ICETEX y becas",
      "type": "news",
      "seen_at": "2026-11-18T16:19:04-05:00"
+    },
+    {
+     "url": "https://www.msn.com/es-co/noticias/nacional/quiere-estudiar-una-maestr%C3%ADa-o-doctorado-en-china-el-icetex-abre-convocatoria-de-becas/ar-AA2hIxuC",
+     "name": "Noticias · ICETEX y becas",
+     "type": "news",
+     "seen_at": "2026-11-18T22:36:47-05:00"
     }
    ],
    "language": "es",
@@ -1996,8 +2169,8 @@
    },
    "discovered_at": "2026-11-18T16:19:04-05:00",
    "updated_at": "2026-11-18T16:19:04-05:00",
-   "last_verified": "2026-11-18T16:19:04-05:00",
-   "last_seen": "2026-11-18T16:19:04-05:00",
+   "last_verified": "2026-11-18T22:36:47-05:00",
+   "last_seen": "2026-11-18T22:36:47-05:00",
    "history": [],
    "priority": {
     "score": 75,
@@ -3720,7 +3893,7 @@
    "discovered_at": "2026-11-18T16:19:12-05:00",
    "updated_at": "2026-11-18T16:19:12-05:00",
    "last_verified": "2026-11-18T16:19:12-05:00",
-   "last_seen": "2026-11-18T17:29:12-05:00",
+   "last_seen": "2026-11-18T22:36:47-05:00",
    "history": [],
    "priority": {
     "score": 72,
@@ -3876,7 +4049,7 @@
    "discovered_at": "2026-11-18T16:19:08-05:00",
    "updated_at": "2026-11-18T16:19:08-05:00",
    "last_verified": "2026-11-18T16:19:08-05:00",
-   "last_seen": "2026-11-18T16:19:08-05:00",
+   "last_seen": "2026-11-18T22:36:47-05:00",
    "history": [],
    "priority": {
     "score": 71,
@@ -4026,7 +4199,7 @@
    "discovered_at": "2026-11-18T16:19:13-05:00",
    "updated_at": "2026-11-18T16:19:13-05:00",
    "last_verified": "2026-11-18T16:19:13-05:00",
-   "last_seen": "2026-11-18T16:19:13-05:00",
+   "last_seen": "2026-11-18T22:36:47-05:00",
    "history": [],
    "priority": {
     "score": 71,
@@ -5012,6 +5185,161 @@
    }
   },
   {
+   "id": "op_d127a6559f16",
+   "title": "Celebran 780.000 familias por nuevas fechas de pago de subsidios: así puede verificar beneficio",
+   "summary": "¿Cómo saber si recibe Renta Ciudadana en noviembre? Prosperidad Social confirmó las fechas de pago y habilitó la consulta con documento de identidad.",
+   "section": "estado",
+   "category": "ayudas",
+   "tags": [
+    "Ayudas económicas",
+    "Dinero en efectivo"
+   ],
+   "mechanics": [],
+   "kind": "Programa público",
+   "organizer": {
+    "name": "Prosperidad Social",
+    "type": "gobierno",
+    "domain": "prosperidadsocial.gov.co",
+    "known": true
+   },
+   "prize": {
+    "description": null,
+    "value_cop": null,
+    "value_text": null,
+    "value_source": null,
+    "winners": null,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "gratis_registro",
+    "label": "Gratis con registro",
+    "free": true,
+    "certainty": "inferido",
+    "requires_purchase": null,
+    "requires_registration": false,
+    "requires_social": true,
+    "requires_activity": true,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": null,
+    "notes": [
+     "Pide interactuar en redes sociales (seguir, comentar o etiquetar).",
+     "No se encontró ninguna condición de compra en la fuente oficial (inferido, confírmalo en los términos)."
+    ]
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": null,
+    "age_text": null,
+    "coverage": "nacional",
+    "cities": []
+   },
+   "requirements": [
+    "Prosperidad Social destacó avance en requisito de vacunación Además de anunciar el nuevo ciclo de transferencias, la entidad se refirió al cumplimiento de las corresponsabilidades que deben atender los hogares…"
+   ],
+   "documents": [
+    "Documento de identidad (cédula)"
+   ],
+   "steps": [],
+   "steps_source": null,
+   "dates": {
+    "published": "2026-11-12T21:18:24-05:00",
+    "start": "2026-11-28",
+    "end": null,
+    "draw": null
+   },
+   "status": "proxima",
+   "gov": {
+    "program_status": "proxima",
+    "entity": "Prosperidad Social"
+   },
+   "offer": null,
+   "verification": {
+    "status": "pendiente",
+    "reasons": [
+     "Falta confirmar condiciones en la página oficial."
+    ],
+    "checked_at": "2026-11-18T22:36:49-05:00",
+    "link_ok": null,
+    "official_domain": false,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://www.pulzo.com/economia/inician-pagos-renta-ciudadana-devolucion-iva-para-780000-familias-PP5355384",
+    "participate": null,
+    "terms": null,
+    "official": null,
+    "image": "https://d2yoo3qu6vrk5d.cloudfront.net/pulzo-lite/images-resized/PP5355384-h-o.jpg"
+   },
+   "sources": [
+    {
+     "url": "https://www.pulzo.com/economia/inician-pagos-renta-ciudadana-devolucion-iva-para-780000-familias-PP5355384",
+     "name": "Noticias · Prosperidad Social pagos",
+     "type": "news",
+     "seen_at": "2026-11-18T22:36:49-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 1.0,
+    "model": null
+   },
+   "discovered_at": "2026-11-18T22:36:49-05:00",
+   "updated_at": "2026-11-18T22:36:49-05:00",
+   "last_verified": "2026-11-18T22:36:49-05:00",
+   "last_seen": "2026-11-18T22:36:49-05:00",
+   "history": [],
+   "priority": {
+    "score": 69,
+    "level": "media",
+    "breakdown": {
+     "valor": {
+      "points": 14,
+      "max": 25,
+      "note": "valor no publicado (estimado por tipo de premio)"
+     },
+     "gratuidad": {
+      "points": 22,
+      "max": 25,
+      "note": "gratis_registro"
+     },
+     "facilidad": {
+      "points": 10,
+      "max": 15,
+      "note": "actividad, redes sociales"
+     },
+     "vigencia": {
+      "points": 6,
+      "max": 10,
+      "note": "abre próximamente"
+     },
+     "cobertura": {
+      "points": 10,
+      "max": 10,
+      "note": "nacional"
+     },
+     "credibilidad": {
+      "points": 6,
+      "max": 10,
+      "note": "pendiente"
+     },
+     "claridad": {
+      "points": 1,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
    "id": "op_65ae5d5ec9d2",
    "title": "Embajada de Estados Unidos abrió convocatoria para un prgrama que beneficiará a líderes comunitarios y profesionales colombianos: así…",
    "summary": "Las postulaciones permanecerán habilitadas hasta el 24 de noviembre de 2026, para profesionales y referentes comunitarios interesados en impulsar el desarrollo económico local y regional",
@@ -5617,7 +5945,7 @@
    "discovered_at": "2026-11-18T16:19:10-05:00",
    "updated_at": "2026-11-18T16:19:10-05:00",
    "last_verified": "2026-11-18T17:21:33-05:00",
-   "last_seen": "2026-11-18T21:46:59-05:00",
+   "last_seen": "2026-11-18T22:36:47-05:00",
    "history": [],
    "priority": {
     "score": 68,
@@ -5770,7 +6098,7 @@
    "discovered_at": "2026-11-18T16:19:06-05:00",
    "updated_at": "2026-11-18T16:19:06-05:00",
    "last_verified": "2026-11-18T16:19:06-05:00",
-   "last_seen": "2026-11-18T16:19:06-05:00",
+   "last_seen": "2026-11-18T22:36:47-05:00",
    "history": [],
    "priority": {
     "score": 68,
@@ -6243,7 +6571,7 @@
    "discovered_at": "2026-11-18T16:19:09-05:00",
    "updated_at": "2026-11-18T16:19:09-05:00",
    "last_verified": "2026-11-18T16:19:09-05:00",
-   "last_seen": "2026-11-18T16:19:09-05:00",
+   "last_seen": "2026-11-18T22:36:47-05:00",
    "history": [],
    "priority": {
     "score": 67,
@@ -6713,7 +7041,7 @@
    "discovered_at": "2026-11-18T16:19:15-05:00",
    "updated_at": "2026-11-18T16:19:15-05:00",
    "last_verified": "2026-11-18T16:19:15-05:00",
-   "last_seen": "2026-11-18T16:19:15-05:00",
+   "last_seen": "2026-11-18T22:36:47-05:00",
    "history": [],
    "priority": {
     "score": 66,
@@ -6867,7 +7195,7 @@
    "discovered_at": "2026-11-18T16:19:09-05:00",
    "updated_at": "2026-11-18T16:19:09-05:00",
    "last_verified": "2026-11-18T16:19:09-05:00",
-   "last_seen": "2026-11-18T16:19:09-05:00",
+   "last_seen": "2026-11-18T22:36:47-05:00",
    "history": [],
    "priority": {
     "score": 66,
@@ -7070,6 +7398,162 @@
      },
      "claridad": {
       "points": 3,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
+   "id": "op_7ae7ad5d2974",
+   "title": "Abren convocatoria de Jóvenes a la E en Bogotá: apoyos para ingreso a educación superior en 2027",
+   "summary": "Nueva convocatoria Jóvenes a la E en Bogotá: postúlate del 7 al 13 de noviembre y accede a apoyos económicos para tu educación superior.",
+   "section": "estado",
+   "category": "jovenes",
+   "tags": [
+    "Becas y educación",
+    "Convocatorias públicas",
+    "Jóvenes"
+   ],
+   "mechanics": [],
+   "kind": "Programa público",
+   "organizer": {
+    "name": "Organizador no identificado",
+    "type": "desconocido",
+    "domain": null,
+    "known": false
+   },
+   "prize": {
+    "description": null,
+    "value_cop": null,
+    "value_text": null,
+    "value_source": null,
+    "winners": null,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "gratis_registro",
+    "label": "Gratis con registro",
+    "free": true,
+    "certainty": "inferido",
+    "requires_purchase": null,
+    "requires_registration": true,
+    "requires_social": true,
+    "requires_activity": true,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": null,
+    "notes": [
+     "Pide interactuar en redes sociales (seguir, comentar o etiquetar).",
+     "No se encontró ninguna condición de compra en la fuente oficial (inferido, confírmalo en los términos)."
+    ]
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": null,
+    "age_text": null,
+    "coverage": "bogota",
+    "cities": [
+     "Bogotá"
+    ]
+   },
+   "requirements": [
+    "Los requisitos para postularse son claros:"
+   ],
+   "documents": [],
+   "steps": [],
+   "steps_source": null,
+   "dates": {
+    "published": "2026-11-08T15:15:48-05:00",
+    "start": "2026-11-13",
+    "end": "2027-01-15",
+    "draw": null
+   },
+   "status": "activa",
+   "gov": {
+    "program_status": "abierta",
+    "entity": "Organizador no identificado"
+   },
+   "offer": null,
+   "verification": {
+    "status": "pendiente",
+    "reasons": [
+     "Organizador no identificado con certeza."
+    ],
+    "checked_at": "2026-11-18T22:36:48-05:00",
+    "link_ok": null,
+    "official_domain": false,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://www.pulzo.com/nacion/bogota/convocatoria-jovenes-a-la-e-2026-en-bogota-requisitos-fechas-y-universidades-participantes-PP5351837A",
+    "participate": null,
+    "terms": null,
+    "official": null,
+    "image": "https://d2yoo3qu6vrk5d.cloudfront.net/pulzo-lite/images-resized/PP5351837A-h-o.jpg"
+   },
+   "sources": [
+    {
+     "url": "https://www.pulzo.com/nacion/bogota/convocatoria-jovenes-a-la-e-2026-en-bogota-requisitos-fechas-y-universidades-participantes-PP5351837A",
+     "name": "Noticias · Alcaldía de Bogotá beneficios",
+     "type": "news",
+     "seen_at": "2026-11-18T22:36:48-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 1.0,
+    "model": null
+   },
+   "discovered_at": "2026-11-18T22:36:48-05:00",
+   "updated_at": "2026-11-18T22:36:48-05:00",
+   "last_verified": "2026-11-18T22:36:48-05:00",
+   "last_seen": "2026-11-18T22:36:48-05:00",
+   "history": [],
+   "priority": {
+    "score": 64,
+    "level": "media",
+    "breakdown": {
+     "valor": {
+      "points": 9,
+      "max": 25,
+      "note": "valor no publicado"
+     },
+     "gratuidad": {
+      "points": 22,
+      "max": 25,
+      "note": "gratis_registro"
+     },
+     "facilidad": {
+      "points": 8,
+      "max": 15,
+      "note": "registro, actividad, redes sociales"
+     },
+     "vigencia": {
+      "points": 8,
+      "max": 10,
+      "note": "vigente (58 días restantes)"
+     },
+     "cobertura": {
+      "points": 10,
+      "max": 10,
+      "note": "bogota"
+     },
+     "credibilidad": {
+      "points": 6,
+      "max": 10,
+      "note": "pendiente"
+     },
+     "claridad": {
+      "points": 1,
       "max": 5,
       "note": "sin términos enlazados"
      }
@@ -7352,7 +7836,7 @@
    "discovered_at": "2026-11-18T16:19:08-05:00",
    "updated_at": "2026-11-18T16:19:08-05:00",
    "last_verified": "2026-11-18T16:19:08-05:00",
-   "last_seen": "2026-11-18T16:19:08-05:00",
+   "last_seen": "2026-11-18T22:36:47-05:00",
    "history": [],
    "priority": {
     "score": 64,
@@ -7810,7 +8294,7 @@
    "discovered_at": "2026-11-18T16:19:10-05:00",
    "updated_at": "2026-11-18T16:19:10-05:00",
    "last_verified": "2026-11-18T16:19:10-05:00",
-   "last_seen": "2026-11-18T16:19:10-05:00",
+   "last_seen": "2026-11-18T22:36:47-05:00",
    "history": [],
    "priority": {
     "score": 62,
@@ -7966,7 +8450,7 @@
    "discovered_at": "2026-11-18T16:19:11-05:00",
    "updated_at": "2026-11-18T16:19:11-05:00",
    "last_verified": "2026-11-18T16:19:11-05:00",
-   "last_seen": "2026-11-18T16:19:11-05:00",
+   "last_seen": "2026-11-18T22:36:47-05:00",
    "history": [],
    "priority": {
     "score": 62,
@@ -8423,7 +8907,7 @@
    "discovered_at": "2026-11-18T16:19:12-05:00",
    "updated_at": "2026-11-18T16:19:12-05:00",
    "last_verified": "2026-11-18T16:19:12-05:00",
-   "last_seen": "2026-11-18T16:19:12-05:00",
+   "last_seen": "2026-11-18T22:36:47-05:00",
    "history": [],
    "priority": {
     "score": 60,
@@ -9872,7 +10356,7 @@
    "discovered_at": "2026-11-18T16:19:09-05:00",
    "updated_at": "2026-11-18T16:19:09-05:00",
    "last_verified": "2026-11-18T16:19:09-05:00",
-   "last_seen": "2026-11-18T16:19:09-05:00",
+   "last_seen": "2026-11-18T22:36:47-05:00",
    "history": [],
    "priority": {
     "score": 54,
@@ -10518,7 +11002,7 @@
    "discovered_at": "2026-11-18T16:19:12-05:00",
    "updated_at": "2026-11-18T16:19:12-05:00",
    "last_verified": "2026-11-18T16:19:12-05:00",
-   "last_seen": "2026-11-18T16:19:12-05:00",
+   "last_seen": "2026-11-18T22:36:47-05:00",
    "history": [],
    "priority": {
     "score": 51,
