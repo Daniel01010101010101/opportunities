@@ -16,6 +16,8 @@ on:
     # Cada 2 horas en el minuto 17 (UTC), evitando el inicio de la hora para reducir retrasos por carga.
     # Colombia (America/Bogota) es UTC-5 todo el año: corre a las :17 de cada hora impar en Bogotá
     # (1:17, 3:17, 5:17 … 23:17), los 7 días de la semana.
+    # GitHub registra la programación desde la rama por defecto del repositorio; si se cambia la rama por defecto,
+    # basta con un commit que modifique este archivo en la nueva rama para volver a registrarla.
     - cron: '17 */2 * * *'
   workflow_dispatch:
     inputs:
