@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-19T08:25:51-05:00",
- "count": 77,
+ "generated_at": "2026-11-19T17:17:50-05:00",
+ "count": 85,
  "items": [
   {
    "id": "op_72402b2d44f8",
@@ -114,7 +114,7 @@
    "discovered_at": "2026-11-18T17:21:34-05:00",
    "updated_at": "2026-11-18T17:21:34-05:00",
    "last_verified": "2026-11-18T17:21:34-05:00",
-   "last_seen": "2026-11-19T08:25:49-05:00",
+   "last_seen": "2026-11-19T17:17:08-05:00",
    "history": [],
    "priority": {
     "score": 84,
@@ -144,6 +144,163 @@
       "points": 10,
       "max": 10,
       "note": "bogota"
+     },
+     "credibilidad": {
+      "points": 10,
+      "max": 10,
+      "note": "verificada"
+     },
+     "claridad": {
+      "points": 1,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
+   "id": "op_0dd55fd3bdde",
+   "title": "Becas JICA 2027: oportunidad de capacitación en Japón para Bogotá",
+   "summary": "¿Te imaginas viajar a Japón para fortalecer tus conocimientos, descubrir nuevas experiencias y compartir lo aprendido con tu comunidad? Esta oportunidad puede abrirte las puertas a una experiencia de formación internacional.",
+   "section": "estado",
+   "category": "becas",
+   "tags": [
+    "Becas y educación"
+   ],
+   "mechanics": [],
+   "kind": "Programa público",
+   "organizer": {
+    "name": "Alcaldía de Bogotá",
+    "type": "gobierno",
+    "domain": "bogota.gov.co",
+    "known": true
+   },
+   "prize": {
+    "description": null,
+    "value_cop": null,
+    "value_text": null,
+    "value_source": null,
+    "winners": null,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "gratis_registro",
+    "label": "Gratis con registro",
+    "free": true,
+    "certainty": "inferido",
+    "requires_purchase": null,
+    "requires_registration": false,
+    "requires_social": false,
+    "requires_activity": false,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": null,
+    "notes": [
+     "No se encontró ninguna condición de compra en la fuente oficial (inferido, confírmalo en los términos)."
+    ]
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": 21,
+    "age_text": "mayores de 21 años",
+    "coverage": "nacional",
+    "cities": [
+     "Bogotá"
+    ]
+   },
+   "requirements": [
+    "Personas mayores de 21 años, según el curso, con nacionalidad colombiana o japonesa, residentes en Colombia y vinculadas a asociaciones colombo-japonesas.",
+    "También pueden participar personas no Nikkei que desempeñen roles de liderazgo en la cooperación con Japón.",
+    "Contar con carta de recomendación de una organización Nikkei, formación académica según el curso, dominio suficiente de inglés o japonés y participación activa en asociaciones colombo-japonesas."
+   ],
+   "documents": [],
+   "steps": [],
+   "steps_source": null,
+   "dates": {
+    "published": "2026-11-19T14:54:21-05:00",
+    "start": null,
+    "end": "2026-12-04",
+    "draw": null
+   },
+   "status": "activa",
+   "gov": {
+    "program_status": "abierta",
+    "entity": "Alcaldía de Bogotá"
+   },
+   "offer": null,
+   "verification": {
+    "status": "verificada",
+    "reasons": [
+     "El enlace pertenece a un dominio oficial del organizador.",
+     "Proviene de una fuente oficial configurada.",
+     "El enlace respondió correctamente en la última verificación."
+    ],
+    "checked_at": "2026-11-19T17:17:13-05:00",
+    "link_ok": true,
+    "official_domain": true,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://bogota.gov.co/boletin-oferta-internacional/becas-jica-2027-capacitacion-en-japon-para-la-comunidad-nikkei",
+    "participate": "https://bogota.gov.co/boletin-oferta-internacional/becas-jica-2027-capacitacion-en-japon-para-la-comunidad-nikkei",
+    "terms": null,
+    "official": null,
+    "image": "https://bogota.gov.co/sites/default/files/2026-11/2026-02-075_home.png"
+   },
+   "sources": [
+    {
+     "url": "https://bogota.gov.co/boletin-oferta-internacional/becas-jica-2027-capacitacion-en-japon-para-la-comunidad-nikkei",
+     "name": "Bogotá.gov.co (oficial)",
+     "type": "official",
+     "seen_at": "2026-11-19T17:17:13-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 1.0,
+    "model": null
+   },
+   "discovered_at": "2026-11-19T17:17:13-05:00",
+   "updated_at": "2026-11-19T17:17:13-05:00",
+   "last_verified": "2026-11-19T17:17:13-05:00",
+   "last_seen": "2026-11-19T17:17:13-05:00",
+   "history": [],
+   "priority": {
+    "score": 83,
+    "level": "alta",
+    "breakdown": {
+     "valor": {
+      "points": 16,
+      "max": 25,
+      "note": "valor no publicado (estimado por tipo de premio)"
+     },
+     "gratuidad": {
+      "points": 22,
+      "max": 25,
+      "note": "gratis_registro"
+     },
+     "facilidad": {
+      "points": 14,
+      "max": 15,
+      "note": "pocos requisitos"
+     },
+     "vigencia": {
+      "points": 10,
+      "max": 10,
+      "note": "vigente (15 días restantes)"
+     },
+     "cobertura": {
+      "points": 10,
+      "max": 10,
+      "note": "nacional"
      },
      "credibilidad": {
       "points": 10,
@@ -231,7 +388,7 @@
      "Proviene de una fuente oficial configurada.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-18T16:18:57-05:00",
+    "checked_at": "2026-11-19T17:17:32-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -266,8 +423,8 @@
    },
    "discovered_at": "2026-11-18T16:18:57-05:00",
    "updated_at": "2026-11-18T16:18:57-05:00",
-   "last_verified": "2026-11-18T16:18:57-05:00",
-   "last_seen": "2026-11-19T08:25:49-05:00",
+   "last_verified": "2026-11-19T17:17:32-05:00",
+   "last_seen": "2026-11-19T17:17:08-05:00",
    "history": [],
    "priority": {
     "score": 82,
@@ -384,7 +541,7 @@
      "Proviene de una fuente oficial configurada.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-18T16:18:44-05:00",
+    "checked_at": "2026-11-19T17:17:23-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -419,7 +576,7 @@
    },
    "discovered_at": "2026-11-18T16:18:44-05:00",
    "updated_at": "2026-11-18T16:18:44-05:00",
-   "last_verified": "2026-11-18T16:18:44-05:00",
+   "last_verified": "2026-11-19T17:17:23-05:00",
    "last_seen": "2026-11-19T08:25:49-05:00",
    "history": [],
    "priority": {
@@ -541,7 +698,7 @@
      "Proviene de una fuente oficial configurada.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-18T16:19:00-05:00",
+    "checked_at": "2026-11-19T17:17:37-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -576,7 +733,7 @@
    },
    "discovered_at": "2026-11-18T16:19:00-05:00",
    "updated_at": "2026-11-18T16:19:00-05:00",
-   "last_verified": "2026-11-18T16:19:00-05:00",
+   "last_verified": "2026-11-19T17:17:37-05:00",
    "last_seen": "2026-11-19T08:25:49-05:00",
    "history": [],
    "priority": {
@@ -738,7 +895,7 @@
    "discovered_at": "2026-11-18T17:21:44-05:00",
    "updated_at": "2026-11-18T17:21:44-05:00",
    "last_verified": "2026-11-18T17:21:47-05:00",
-   "last_seen": "2026-11-19T08:25:49-05:00",
+   "last_seen": "2026-11-19T17:17:08-05:00",
    "history": [],
    "priority": {
     "score": 77,
@@ -773,6 +930,161 @@
       "points": 6,
       "max": 10,
       "note": "pendiente"
+     },
+     "claridad": {
+      "points": 1,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
+   "id": "op_65949d5cdb24",
+   "title": "EU-LAC Digital Accelerator 2026: hasta 10.500 euros para startups de Bogotá",
+   "summary": "¿Tienes una startup en Bogotá y sueñas con llevar tu solución digital a nuevos mercados? Esta convocatoria internacional puede ayudarte a convertir una idea innovadora en una oportunidad de crecimiento empresarial.",
+   "section": "estado",
+   "category": "emprendimiento",
+   "tags": [
+    "Viajes"
+   ],
+   "mechanics": [],
+   "kind": "Programa público",
+   "organizer": {
+    "name": "Alcaldía de Bogotá",
+    "type": "gobierno",
+    "domain": "bogota.gov.co",
+    "known": true
+   },
+   "prize": {
+    "description": null,
+    "value_cop": null,
+    "value_text": null,
+    "value_source": null,
+    "winners": null,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "gratis_registro",
+    "label": "Gratis con registro",
+    "free": true,
+    "certainty": "inferido",
+    "requires_purchase": null,
+    "requires_registration": true,
+    "requires_social": false,
+    "requires_activity": true,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": null,
+    "notes": [
+     "No se encontró ninguna condición de compra en la fuente oficial (inferido, confírmalo en los términos)."
+    ]
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": null,
+    "age_text": null,
+    "coverage": "bogota",
+    "cities": [
+     "Bogotá"
+    ]
+   },
+   "requirements": [
+    "Las personas interesadas deberán revisar la guía oficial y completar el formulario de postulación."
+   ],
+   "documents": [],
+   "steps": [],
+   "steps_source": null,
+   "dates": {
+    "published": "2026-11-19T15:16:26-05:00",
+    "start": null,
+    "end": "2026-11-30",
+    "draw": null
+   },
+   "status": "activa",
+   "gov": {
+    "program_status": "abierta",
+    "entity": "Alcaldía de Bogotá"
+   },
+   "offer": null,
+   "verification": {
+    "status": "verificada",
+    "reasons": [
+     "El enlace pertenece a un dominio oficial del organizador.",
+     "Proviene de una fuente oficial configurada.",
+     "El enlace respondió correctamente en la última verificación."
+    ],
+    "checked_at": "2026-11-19T17:17:12-05:00",
+    "link_ok": true,
+    "official_domain": true,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://bogota.gov.co/boletin-oferta-internacional/eu-lac-digital-accelerator-2026-subvenciones-para-startups",
+    "participate": "https://bogota.gov.co/boletin-oferta-internacional/eu-lac-digital-accelerator-2026-subvenciones-para-startups",
+    "terms": null,
+    "official": null,
+    "image": "https://bogota.gov.co/sites/default/files/2026-11/2026-02-078_home.png"
+   },
+   "sources": [
+    {
+     "url": "https://bogota.gov.co/boletin-oferta-internacional/eu-lac-digital-accelerator-2026-subvenciones-para-startups",
+     "name": "Bogotá.gov.co (oficial)",
+     "type": "official",
+     "seen_at": "2026-11-19T17:17:12-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 0.56,
+    "model": null
+   },
+   "discovered_at": "2026-11-19T17:17:12-05:00",
+   "updated_at": "2026-11-19T17:17:12-05:00",
+   "last_verified": "2026-11-19T17:17:12-05:00",
+   "last_seen": "2026-11-19T17:17:12-05:00",
+   "history": [],
+   "priority": {
+    "score": 77,
+    "level": "alta",
+    "breakdown": {
+     "valor": {
+      "points": 14,
+      "max": 25,
+      "note": "valor no publicado (estimado por tipo de premio)"
+     },
+     "gratuidad": {
+      "points": 22,
+      "max": 25,
+      "note": "gratis_registro"
+     },
+     "facilidad": {
+      "points": 10,
+      "max": 15,
+      "note": "registro, actividad"
+     },
+     "vigencia": {
+      "points": 10,
+      "max": 10,
+      "note": "vigente (11 días restantes)"
+     },
+     "cobertura": {
+      "points": 10,
+      "max": 10,
+      "note": "bogota"
+     },
+     "credibilidad": {
+      "points": 10,
+      "max": 10,
+      "note": "verificada"
      },
      "claridad": {
       "points": 1,
@@ -857,7 +1169,7 @@
      "Proviene de una fuente oficial configurada.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-18T16:19:02-05:00",
+    "checked_at": "2026-11-19T17:17:38-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -892,7 +1204,7 @@
    },
    "discovered_at": "2026-11-18T16:19:02-05:00",
    "updated_at": "2026-11-18T16:19:02-05:00",
-   "last_verified": "2026-11-18T16:19:02-05:00",
+   "last_verified": "2026-11-19T17:17:38-05:00",
    "last_seen": "2026-11-19T08:25:49-05:00",
    "history": [],
    "priority": {
@@ -1012,7 +1324,7 @@
      "Proviene de una fuente oficial configurada.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-18T16:18:56-05:00",
+    "checked_at": "2026-11-19T17:17:31-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -1047,8 +1359,8 @@
    },
    "discovered_at": "2026-11-18T16:18:56-05:00",
    "updated_at": "2026-11-18T16:18:56-05:00",
-   "last_verified": "2026-11-18T16:18:56-05:00",
-   "last_seen": "2026-11-19T08:25:49-05:00",
+   "last_verified": "2026-11-19T17:17:31-05:00",
+   "last_seen": "2026-11-19T17:17:08-05:00",
    "history": [],
    "priority": {
     "score": 77,
@@ -1591,6 +1903,159 @@
    }
   },
   {
+   "id": "op_4fa24c5b40e1",
+   "title": "Grito de Mujer 2027: lleva la voz y el arte de Bogotá al mundo",
+   "summary": "¿Te imaginas que el arte y la cultura de Bogotá se unan a un movimiento mundial para visibilizar las voces de mujeres y niñas? Esta convocatoria internacional invita a transformar la creatividad y la solidaridad en espacios de encuentro, reflexión y esperanza.",
+   "section": "estado",
+   "category": "cultura",
+   "tags": [
+    "Cultura y estímulos"
+   ],
+   "mechanics": [],
+   "kind": "Programa público",
+   "organizer": {
+    "name": "Alcaldía de Bogotá",
+    "type": "gobierno",
+    "domain": "bogota.gov.co",
+    "known": true
+   },
+   "prize": {
+    "description": null,
+    "value_cop": null,
+    "value_text": null,
+    "value_source": null,
+    "winners": null,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "gratis_registro",
+    "label": "Gratis con registro",
+    "free": true,
+    "certainty": "inferido",
+    "requires_purchase": null,
+    "requires_registration": false,
+    "requires_social": false,
+    "requires_activity": false,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": null,
+    "notes": [
+     "No se encontró ninguna condición de compra en la fuente oficial (inferido, confírmalo en los términos)."
+    ]
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": null,
+    "age_text": null,
+    "coverage": "bogota",
+    "cities": [
+     "Bogotá"
+    ]
+   },
+   "requirements": [],
+   "documents": [],
+   "steps": [],
+   "steps_source": null,
+   "dates": {
+    "published": "2026-11-19T16:08:02-05:00",
+    "start": null,
+    "end": "2027-02-15",
+    "draw": null
+   },
+   "status": "activa",
+   "gov": {
+    "program_status": "abierta",
+    "entity": "Alcaldía de Bogotá"
+   },
+   "offer": null,
+   "verification": {
+    "status": "verificada",
+    "reasons": [
+     "El enlace pertenece a un dominio oficial del organizador.",
+     "Proviene de una fuente oficial configurada.",
+     "El enlace respondió correctamente en la última verificación."
+    ],
+    "checked_at": "2026-11-19T17:17:08-05:00",
+    "link_ok": true,
+    "official_domain": true,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://bogota.gov.co/boletin-oferta-internacional/grito-de-mujer-2027-organiza-un-evento-cultural-en-bogota",
+    "participate": "https://bogota.gov.co/boletin-oferta-internacional/grito-de-mujer-2027-organiza-un-evento-cultural-en-bogota",
+    "terms": null,
+    "official": null,
+    "image": "https://bogota.gov.co/sites/default/files/2026-11/2026-02-081_home.png"
+   },
+   "sources": [
+    {
+     "url": "https://bogota.gov.co/boletin-oferta-internacional/grito-de-mujer-2027-organiza-un-evento-cultural-en-bogota",
+     "name": "Bogotá.gov.co (oficial)",
+     "type": "official",
+     "seen_at": "2026-11-19T17:17:08-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 0.68,
+    "model": null
+   },
+   "discovered_at": "2026-11-19T17:17:08-05:00",
+   "updated_at": "2026-11-19T17:17:08-05:00",
+   "last_verified": "2026-11-19T17:17:08-05:00",
+   "last_seen": "2026-11-19T17:17:08-05:00",
+   "history": [],
+   "priority": {
+    "score": 75,
+    "level": "alta",
+    "breakdown": {
+     "valor": {
+      "points": 9,
+      "max": 25,
+      "note": "valor no publicado"
+     },
+     "gratuidad": {
+      "points": 22,
+      "max": 25,
+      "note": "gratis_registro"
+     },
+     "facilidad": {
+      "points": 15,
+      "max": 15,
+      "note": "pocos requisitos"
+     },
+     "vigencia": {
+      "points": 8,
+      "max": 10,
+      "note": "vigente (88 días restantes)"
+     },
+     "cobertura": {
+      "points": 10,
+      "max": 10,
+      "note": "bogota"
+     },
+     "credibilidad": {
+      "points": 10,
+      "max": 10,
+      "note": "verificada"
+     },
+     "claridad": {
+      "points": 1,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
    "id": "op_2fdb286d2959",
    "title": "Jornadas informativas - PDE 2026",
    "summary": "Para dar a conocer la oferta del Programa Distrital de Estímulos del Idartes en sus áreas artísticas, programas y líneas estratégicas, se realizan jornadas informativas, a través del Instagram, Facebook y Youtube de Idartes.Este es un espacio para que los interesados puedan…",
@@ -1660,7 +2125,7 @@
      "Proviene de una fuente oficial configurada.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-18T16:18:58-05:00",
+    "checked_at": "2026-11-19T17:17:34-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -1695,7 +2160,7 @@
    },
    "discovered_at": "2026-11-18T16:18:58-05:00",
    "updated_at": "2026-11-18T16:18:58-05:00",
-   "last_verified": "2026-11-18T16:18:58-05:00",
+   "last_verified": "2026-11-19T17:17:34-05:00",
    "last_seen": "2026-11-19T08:25:49-05:00",
    "history": [],
    "priority": {
@@ -1827,7 +2292,7 @@
      "Tiene términos y condiciones consultables.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-18T16:18:57-05:00",
+    "checked_at": "2026-11-19T17:17:33-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": true,
@@ -1862,7 +2327,7 @@
    },
    "discovered_at": "2026-11-18T16:18:57-05:00",
    "updated_at": "2026-11-18T16:18:57-05:00",
-   "last_verified": "2026-11-18T16:18:57-05:00",
+   "last_verified": "2026-11-19T17:17:33-05:00",
    "last_seen": "2026-11-19T08:25:49-05:00",
    "history": [],
    "priority": {
@@ -1979,7 +2444,7 @@
      "Proviene de una fuente oficial configurada.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-18T16:19:05-05:00",
+    "checked_at": "2026-11-19T17:17:42-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -2014,7 +2479,7 @@
    },
    "discovered_at": "2026-11-18T16:19:05-05:00",
    "updated_at": "2026-11-18T16:19:05-05:00",
-   "last_verified": "2026-11-18T16:19:05-05:00",
+   "last_verified": "2026-11-19T17:17:42-05:00",
    "last_seen": "2026-11-18T16:19:05-05:00",
    "history": [],
    "priority": {
@@ -2040,6 +2505,159 @@
       "points": 8,
       "max": 10,
       "note": "vigente (60 días restantes)"
+     },
+     "cobertura": {
+      "points": 10,
+      "max": 10,
+      "note": "bogota"
+     },
+     "credibilidad": {
+      "points": 10,
+      "max": 10,
+      "note": "verificada"
+     },
+     "claridad": {
+      "points": 1,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
+   "id": "op_8948cfc25090",
+   "title": "TradeRoots Americas 2027: impulsa tu pyme hacia mercados internacionales",
+   "summary": "¿Tienes una pequeña o mediana empresa en Bogotá y sueñas con llevar tus productos a nuevos mercados? Esta iniciativa internacional puede ayudarte a convertir tu potencial exportador en oportunidades comerciales reales.",
+   "section": "estado",
+   "category": "emprendimiento",
+   "tags": [],
+   "mechanics": [],
+   "kind": "Programa público",
+   "organizer": {
+    "name": "Alcaldía de Bogotá",
+    "type": "gobierno",
+    "domain": "bogota.gov.co",
+    "known": true
+   },
+   "prize": {
+    "description": null,
+    "value_cop": null,
+    "value_text": null,
+    "value_source": null,
+    "winners": null,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "gratis_registro",
+    "label": "Gratis con registro",
+    "free": true,
+    "certainty": "inferido",
+    "requires_purchase": null,
+    "requires_registration": true,
+    "requires_social": false,
+    "requires_activity": false,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": null,
+    "notes": [
+     "No se encontró ninguna condición de compra en la fuente oficial (inferido, confírmalo en los términos)."
+    ]
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": null,
+    "age_text": null,
+    "coverage": "bogota",
+    "cities": [
+     "Bogotá"
+    ]
+   },
+   "requirements": [
+    "Contar con registro empresarial vigente, mínimo un año de operación, catálogo de productos activo, presencia digital básica y disponibilidad para participar."
+   ],
+   "documents": [],
+   "steps": [],
+   "steps_source": null,
+   "dates": {
+    "published": "2026-11-19T15:36:31-05:00",
+    "start": null,
+    "end": null,
+    "draw": null
+   },
+   "status": "activa",
+   "gov": {
+    "program_status": "abierta",
+    "entity": "Alcaldía de Bogotá"
+   },
+   "offer": null,
+   "verification": {
+    "status": "verificada",
+    "reasons": [
+     "El enlace pertenece a un dominio oficial del organizador.",
+     "Proviene de una fuente oficial configurada.",
+     "El enlace respondió correctamente en la última verificación."
+    ],
+    "checked_at": "2026-11-19T17:17:10-05:00",
+    "link_ok": true,
+    "official_domain": true,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://bogota.gov.co/boletin-oferta-internacional/traderoots-americas-2027-oportunidades-para-pymes-de-bogota",
+    "participate": "https://bogota.gov.co/boletin-oferta-internacional/traderoots-americas-2027-oportunidades-para-pymes-de-bogota",
+    "terms": null,
+    "official": null,
+    "image": "https://bogota.gov.co/sites/default/files/2026-11/2026-02-079_home.png"
+   },
+   "sources": [
+    {
+     "url": "https://bogota.gov.co/boletin-oferta-internacional/traderoots-americas-2027-oportunidades-para-pymes-de-bogota",
+     "name": "Bogotá.gov.co (oficial)",
+     "type": "official",
+     "seen_at": "2026-11-19T17:17:10-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 0.64,
+    "model": null
+   },
+   "discovered_at": "2026-11-19T17:17:10-05:00",
+   "updated_at": "2026-11-19T17:17:10-05:00",
+   "last_verified": "2026-11-19T17:17:10-05:00",
+   "last_seen": "2026-11-19T17:17:10-05:00",
+   "history": [],
+   "priority": {
+    "score": 75,
+    "level": "alta",
+    "breakdown": {
+     "valor": {
+      "points": 14,
+      "max": 25,
+      "note": "valor no publicado (estimado por tipo de premio)"
+     },
+     "gratuidad": {
+      "points": 22,
+      "max": 25,
+      "note": "gratis_registro"
+     },
+     "facilidad": {
+      "points": 13,
+      "max": 15,
+      "note": "registro"
+     },
+     "vigencia": {
+      "points": 5,
+      "max": 10,
+      "note": "sin fecha límite publicada"
      },
      "cobertura": {
       "points": 10,
@@ -2284,7 +2902,7 @@
      "Proviene de una fuente oficial configurada.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-18T16:18:54-05:00",
+    "checked_at": "2026-11-19T17:17:28-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -2319,7 +2937,7 @@
    },
    "discovered_at": "2026-11-18T16:18:54-05:00",
    "updated_at": "2026-11-18T16:18:54-05:00",
-   "last_verified": "2026-11-18T16:18:54-05:00",
+   "last_verified": "2026-11-19T17:17:28-05:00",
    "last_seen": "2026-11-19T08:25:49-05:00",
    "history": [],
    "priority": {
@@ -2434,7 +3052,7 @@
      "Proviene de una fuente oficial configurada.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-18T16:18:53-05:00",
+    "checked_at": "2026-11-19T17:17:27-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -2469,7 +3087,7 @@
    },
    "discovered_at": "2026-11-18T16:18:53-05:00",
    "updated_at": "2026-11-18T16:18:53-05:00",
-   "last_verified": "2026-11-18T16:18:53-05:00",
+   "last_verified": "2026-11-19T17:17:27-05:00",
    "last_seen": "2026-11-19T08:25:49-05:00",
    "history": [],
    "priority": {
@@ -2588,8 +3206,8 @@
     "reasons": [
      "Organizador no identificado con certeza."
     ],
-    "checked_at": "2026-11-18T16:19:08-05:00",
-    "link_ok": null,
+    "checked_at": "2026-11-19T17:17:46-05:00",
+    "link_ok": true,
     "official_domain": false,
     "terms_found": false,
     "link_failures": 0
@@ -2623,7 +3241,7 @@
    },
    "discovered_at": "2026-11-18T16:19:08-05:00",
    "updated_at": "2026-11-18T16:19:08-05:00",
-   "last_verified": "2026-11-18T16:19:08-05:00",
+   "last_verified": "2026-11-19T17:17:46-05:00",
    "last_seen": "2026-11-18T16:19:08-05:00",
    "history": [],
    "priority": {
@@ -2659,6 +3277,161 @@
       "points": 6,
       "max": 10,
       "note": "pendiente"
+     },
+     "claridad": {
+      "points": 1,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
+   "id": "op_003b2438711b",
+   "title": "Concurso Internacional de Artes Plásticas 2027: lleva tu talento al mundo",
+   "summary": "¿Te gusta dibujar, pintar o expresar tus emociones a través del arte? Tu creatividad puede cruzar fronteras y llegar hasta Francia. Esta convocatoria internacional invita a niñas, niños y jóvenes de Bogotá a compartir su talento con el mundo.",
+   "section": "estado",
+   "category": "jovenes",
+   "tags": [],
+   "mechanics": [],
+   "kind": "Programa público",
+   "organizer": {
+    "name": "Alcaldía de Bogotá",
+    "type": "gobierno",
+    "domain": "bogota.gov.co",
+    "known": true
+   },
+   "prize": {
+    "description": null,
+    "value_cop": null,
+    "value_text": null,
+    "value_source": null,
+    "winners": 100,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "gratis_registro",
+    "label": "Gratis con registro",
+    "free": true,
+    "certainty": "explicito",
+    "requires_purchase": false,
+    "requires_registration": true,
+    "requires_social": false,
+    "requires_activity": false,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": null,
+    "notes": [
+     "La fuente lo indica: «participación es gratuita»."
+    ]
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": null,
+    "age_text": null,
+    "coverage": "bogota",
+    "cities": [
+     "Bogotá"
+    ]
+   },
+   "requirements": [
+    "Las obras deberán recibirse máximo el 22 de febrero de 2027."
+   ],
+   "documents": [
+    "Diploma o acta de grado"
+   ],
+   "steps": [],
+   "steps_source": null,
+   "dates": {
+    "published": "2026-11-19T15:52:36-05:00",
+    "start": null,
+    "end": "2027-02-22",
+    "draw": null
+   },
+   "status": "activa",
+   "gov": {
+    "program_status": "abierta",
+    "entity": "Alcaldía de Bogotá"
+   },
+   "offer": null,
+   "verification": {
+    "status": "verificada",
+    "reasons": [
+     "El enlace pertenece a un dominio oficial del organizador.",
+     "Proviene de una fuente oficial configurada.",
+     "El enlace respondió correctamente en la última verificación."
+    ],
+    "checked_at": "2026-11-19T17:17:09-05:00",
+    "link_ok": true,
+    "official_domain": true,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://bogota.gov.co/boletin-oferta-internacional/concurso-de-artes-plasticas-2027-talento-joven-de-bogota",
+    "participate": "https://bogota.gov.co/boletin-oferta-internacional/concurso-de-artes-plasticas-2027-talento-joven-de-bogota",
+    "terms": null,
+    "official": null,
+    "image": "https://bogota.gov.co/sites/default/files/2026-11/2026-02-080_home.png"
+   },
+   "sources": [
+    {
+     "url": "https://bogota.gov.co/boletin-oferta-internacional/concurso-de-artes-plasticas-2027-talento-joven-de-bogota",
+     "name": "Bogotá.gov.co (oficial)",
+     "type": "official",
+     "seen_at": "2026-11-19T17:17:09-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 1.0,
+    "model": null
+   },
+   "discovered_at": "2026-11-19T17:17:09-05:00",
+   "updated_at": "2026-11-19T17:17:09-05:00",
+   "last_verified": "2026-11-19T17:17:09-05:00",
+   "last_seen": "2026-11-19T17:17:09-05:00",
+   "history": [],
+   "priority": {
+    "score": 73,
+    "level": "alta",
+    "breakdown": {
+     "valor": {
+      "points": 9,
+      "max": 25,
+      "note": "valor no publicado"
+     },
+     "gratuidad": {
+      "points": 22,
+      "max": 25,
+      "note": "gratis_registro"
+     },
+     "facilidad": {
+      "points": 13,
+      "max": 15,
+      "note": "registro"
+     },
+     "vigencia": {
+      "points": 8,
+      "max": 10,
+      "note": "vigente (95 días restantes)"
+     },
+     "cobertura": {
+      "points": 10,
+      "max": 10,
+      "note": "bogota"
+     },
+     "credibilidad": {
+      "points": 10,
+      "max": 10,
+      "note": "verificada"
      },
      "claridad": {
       "points": 1,
@@ -2893,7 +3666,7 @@
      "Proviene de una fuente oficial configurada.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-18T16:18:52-05:00",
+    "checked_at": "2026-11-19T17:17:25-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -2934,7 +3707,7 @@
    },
    "discovered_at": "2026-11-18T16:18:46-05:00",
    "updated_at": "2026-11-18T16:18:46-05:00",
-   "last_verified": "2026-11-18T16:18:52-05:00",
+   "last_verified": "2026-11-19T17:17:25-05:00",
    "last_seen": "2026-11-19T08:25:49-05:00",
    "history": [],
    "priority": {
@@ -3059,7 +3832,7 @@
      "El enlace pertenece a un dominio oficial del organizador.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-18T16:19:09-05:00",
+    "checked_at": "2026-11-19T17:17:49-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -3094,7 +3867,7 @@
    },
    "discovered_at": "2026-11-18T16:19:09-05:00",
    "updated_at": "2026-11-18T16:19:09-05:00",
-   "last_verified": "2026-11-18T16:19:09-05:00",
+   "last_verified": "2026-11-19T17:17:49-05:00",
    "last_seen": "2026-11-19T08:25:49-05:00",
    "history": [],
    "priority": {
@@ -3386,7 +4159,7 @@
      "El enlace pertenece a un dominio oficial del organizador.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-18T16:19:06-05:00",
+    "checked_at": "2026-11-19T17:17:43-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -3421,7 +4194,7 @@
    },
    "discovered_at": "2026-11-18T16:19:06-05:00",
    "updated_at": "2026-11-18T16:19:06-05:00",
-   "last_verified": "2026-11-18T16:19:06-05:00",
+   "last_verified": "2026-11-19T17:17:43-05:00",
    "last_seen": "2026-11-18T16:19:06-05:00",
    "history": [],
    "priority": {
@@ -3538,7 +4311,7 @@
      "Proviene de una fuente oficial configurada.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-18T16:18:56-05:00",
+    "checked_at": "2026-11-19T17:17:31-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -3579,7 +4352,7 @@
    },
    "discovered_at": "2026-11-18T16:18:49-05:00",
    "updated_at": "2026-11-18T16:18:49-05:00",
-   "last_verified": "2026-11-18T16:18:56-05:00",
+   "last_verified": "2026-11-19T17:17:31-05:00",
    "last_seen": "2026-11-19T08:25:49-05:00",
    "history": [],
    "priority": {
@@ -3696,7 +4469,7 @@
      "Proviene de una fuente oficial configurada.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-18T16:18:51-05:00",
+    "checked_at": "2026-11-19T17:17:24-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -3737,7 +4510,7 @@
    },
    "discovered_at": "2026-11-18T16:18:45-05:00",
    "updated_at": "2026-11-18T16:18:45-05:00",
-   "last_verified": "2026-11-18T16:18:51-05:00",
+   "last_verified": "2026-11-19T17:17:24-05:00",
    "last_seen": "2026-11-19T08:25:49-05:00",
    "history": [],
    "priority": {
@@ -4013,8 +4786,8 @@
     "reasons": [
      "El enlace pertenece a un dominio oficial del organizador."
     ],
-    "checked_at": "2026-11-18T16:19:08-05:00",
-    "link_ok": null,
+    "checked_at": "2026-11-19T17:17:47-05:00",
+    "link_ok": true,
     "official_domain": true,
     "terms_found": false,
     "link_failures": 0
@@ -4048,7 +4821,7 @@
    },
    "discovered_at": "2026-11-18T16:19:08-05:00",
    "updated_at": "2026-11-18T16:19:08-05:00",
-   "last_verified": "2026-11-18T16:19:08-05:00",
+   "last_verified": "2026-11-19T17:17:47-05:00",
    "last_seen": "2026-11-18T22:36:47-05:00",
    "history": [],
    "priority": {
@@ -4631,7 +5404,7 @@
      "Proviene de una fuente oficial configurada.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-18T16:18:58-05:00",
+    "checked_at": "2026-11-19T17:17:34-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -4666,7 +5439,7 @@
    },
    "discovered_at": "2026-11-18T16:18:58-05:00",
    "updated_at": "2026-11-18T16:18:58-05:00",
-   "last_verified": "2026-11-18T16:18:58-05:00",
+   "last_verified": "2026-11-19T17:17:34-05:00",
    "last_seen": "2026-11-19T08:25:49-05:00",
    "history": [],
    "priority": {
@@ -4785,7 +5558,7 @@
      "Proviene de una fuente oficial configurada.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-18T16:19:04-05:00",
+    "checked_at": "2026-11-19T17:17:41-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -4820,7 +5593,7 @@
    },
    "discovered_at": "2026-11-18T16:19:04-05:00",
    "updated_at": "2026-11-18T16:19:04-05:00",
-   "last_verified": "2026-11-18T16:19:04-05:00",
+   "last_verified": "2026-11-19T17:17:41-05:00",
    "last_seen": "2026-11-19T08:25:49-05:00",
    "history": [],
    "priority": {
@@ -4941,7 +5714,7 @@
      "Proviene de una fuente oficial configurada.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-18T16:18:53-05:00",
+    "checked_at": "2026-11-19T17:17:27-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -4982,7 +5755,7 @@
    },
    "discovered_at": "2026-11-18T16:18:47-05:00",
    "updated_at": "2026-11-18T16:18:47-05:00",
-   "last_verified": "2026-11-18T16:18:53-05:00",
+   "last_verified": "2026-11-19T17:17:27-05:00",
    "last_seen": "2026-11-19T08:25:49-05:00",
    "history": [],
    "priority": {
@@ -5730,7 +6503,7 @@
      "Tiene términos y condiciones consultables.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-18T16:18:55-05:00",
+    "checked_at": "2026-11-19T17:17:31-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": true,
@@ -5765,8 +6538,8 @@
    },
    "discovered_at": "2026-11-18T16:18:55-05:00",
    "updated_at": "2026-11-18T16:18:55-05:00",
-   "last_verified": "2026-11-18T16:18:55-05:00",
-   "last_seen": "2026-11-19T08:25:49-05:00",
+   "last_verified": "2026-11-19T17:17:31-05:00",
+   "last_seen": "2026-11-19T17:17:08-05:00",
    "history": [],
    "priority": {
     "score": 69,
@@ -6068,8 +6841,8 @@
     "reasons": [
      "Organizador no identificado con certeza."
     ],
-    "checked_at": "2026-11-18T16:19:06-05:00",
-    "link_ok": null,
+    "checked_at": "2026-11-19T17:17:43-05:00",
+    "link_ok": true,
     "official_domain": false,
     "terms_found": false,
     "link_failures": 0
@@ -6103,7 +6876,7 @@
    },
    "discovered_at": "2026-11-18T16:19:06-05:00",
    "updated_at": "2026-11-18T16:19:06-05:00",
-   "last_verified": "2026-11-18T16:19:06-05:00",
+   "last_verified": "2026-11-19T17:17:43-05:00",
    "last_seen": "2026-11-18T22:36:47-05:00",
    "history": [],
    "priority": {
@@ -6253,7 +7026,7 @@
    "discovered_at": "2026-11-18T17:21:45-05:00",
    "updated_at": "2026-11-18T17:21:45-05:00",
    "last_verified": "2026-11-18T17:21:45-05:00",
-   "last_seen": "2026-11-19T08:25:49-05:00",
+   "last_seen": "2026-11-19T17:17:08-05:00",
    "history": [],
    "priority": {
     "score": 68,
@@ -6375,7 +7148,7 @@
      "Proviene de una fuente oficial configurada.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-18T16:19:03-05:00",
+    "checked_at": "2026-11-19T17:17:39-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -6410,7 +7183,7 @@
    },
    "discovered_at": "2026-11-18T16:19:03-05:00",
    "updated_at": "2026-11-18T16:19:03-05:00",
-   "last_verified": "2026-11-18T16:19:03-05:00",
+   "last_verified": "2026-11-19T17:17:39-05:00",
    "last_seen": "2026-11-19T08:25:49-05:00",
    "history": [],
    "priority": {
@@ -6541,8 +7314,8 @@
     "reasons": [
      "Organizador no identificado con certeza."
     ],
-    "checked_at": "2026-11-18T16:19:09-05:00",
-    "link_ok": null,
+    "checked_at": "2026-11-19T17:17:50-05:00",
+    "link_ok": true,
     "official_domain": false,
     "terms_found": false,
     "link_failures": 0
@@ -6576,7 +7349,7 @@
    },
    "discovered_at": "2026-11-18T16:19:09-05:00",
    "updated_at": "2026-11-18T16:19:09-05:00",
-   "last_verified": "2026-11-18T16:19:09-05:00",
+   "last_verified": "2026-11-19T17:17:50-05:00",
    "last_seen": "2026-11-18T22:36:47-05:00",
    "history": [],
    "priority": {
@@ -6615,6 +7388,162 @@
      },
      "claridad": {
       "points": 3,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
+   "id": "op_da976636b48f",
+   "title": "Paro nacional del 19 de noviembre en Colombia, estos son los sindicatos que no participarán en las movilizaciones convocadas por la…",
+   "summary": "Utipec y Fetrappem afirmaron que sus afiliados no respaldarán los paros ni las movilizaciones del jueves 19 de noviembre y rechazaron que se atribuya una postura unificada al sindicalismo colombiano",
+   "section": "estado",
+   "category": "empleo",
+   "tags": [
+    "Empleo"
+   ],
+   "mechanics": [],
+   "kind": "Programa público",
+   "organizer": {
+    "name": "Organizador no identificado",
+    "type": "desconocido",
+    "domain": null,
+    "known": false
+   },
+   "prize": {
+    "description": null,
+    "value_cop": null,
+    "value_text": null,
+    "value_source": null,
+    "winners": null,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "gratis_registro",
+    "label": "Gratis con registro",
+    "free": true,
+    "certainty": "inferido",
+    "requires_purchase": null,
+    "requires_registration": false,
+    "requires_social": false,
+    "requires_activity": false,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": null,
+    "notes": [
+     "No se encontró ninguna condición de compra en la fuente oficial (inferido, confírmalo en los términos)."
+    ]
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": null,
+    "age_text": null,
+    "coverage": "regional",
+    "cities": [
+     "Bogotá",
+     "Medellín",
+     "Cali",
+     "Barranquilla"
+    ]
+   },
+   "requirements": [
+    "Utipec afirmó que sus afiliados no participarán ni respaldarán las movilizaciones del 19 de noviembre de 2026 (@UTIPEC_/X) Alejandro Ospina, presidente de Fetrappem y Utipec, rechazó las movilizaciones previstas para…"
+   ],
+   "documents": [],
+   "steps": [],
+   "steps_source": null,
+   "dates": {
+    "published": "2026-11-19T10:17:13-05:00",
+    "start": "2026-11-19",
+    "end": "2026-11-19",
+    "draw": null
+   },
+   "status": "activa",
+   "gov": {
+    "program_status": "abierta",
+    "entity": "Organizador no identificado"
+   },
+   "offer": null,
+   "verification": {
+    "status": "pendiente",
+    "reasons": [
+     "Organizador no identificado con certeza."
+    ],
+    "checked_at": "2026-11-19T17:17:10-05:00",
+    "link_ok": null,
+    "official_domain": false,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://www.infobae.com/colombia/2026/11/19/paro-nacional-del-19-de-noviembre-en-colombia-estos-son-los-sindicatos-que-no-participaran-en-las-movilizaciones-convocadas-por-la-oposicion-desmentimos-la-narrativa/",
+    "participate": "https://www.infobae.com/colombia/2026/11/19/paro-nacional-en-vivo-hoy-19-de-noviembre-asi-amanecen-las-vias-de-las-principales-ciudades/",
+    "terms": null,
+    "official": null,
+    "image": "https://www.infobae.com/resizer/v2/NGH4QRJDHJEMNMNZGW5XMT2HUM.jpg?auth=255d17d8ad1ef12d6e5abf92a64eb14cdb2a3cbb561a918335416fc5574a2e3c&smart=true&width=1200&height=630&quality=85"
+   },
+   "sources": [
+    {
+     "url": "https://www.infobae.com/colombia/2026/11/19/paro-nacional-del-19-de-noviembre-en-colombia-estos-son-los-sindicatos-que-no-participaran-en-las-movilizaciones-convocadas-por-la-oposicion-desmentimos-la-narrativa/",
+     "name": "Infobae Colombia (feed)",
+     "type": "news",
+     "seen_at": "2026-11-19T17:17:10-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 0.57,
+    "model": null
+   },
+   "discovered_at": "2026-11-19T17:17:10-05:00",
+   "updated_at": "2026-11-19T17:17:10-05:00",
+   "last_verified": "2026-11-19T17:17:10-05:00",
+   "last_seen": "2026-11-19T17:17:10-05:00",
+   "history": [],
+   "priority": {
+    "score": 67,
+    "level": "media",
+    "breakdown": {
+     "valor": {
+      "points": 9,
+      "max": 25,
+      "note": "valor no publicado"
+     },
+     "gratuidad": {
+      "points": 22,
+      "max": 25,
+      "note": "gratis_registro"
+     },
+     "facilidad": {
+      "points": 15,
+      "max": 15,
+      "note": "pocos requisitos"
+     },
+     "vigencia": {
+      "points": 9,
+      "max": 10,
+      "note": "vence en 0 día(s): revisar ya"
+     },
+     "cobertura": {
+      "points": 5,
+      "max": 10,
+      "note": "regional"
+     },
+     "credibilidad": {
+      "points": 6,
+      "max": 10,
+      "note": "pendiente"
+     },
+     "claridad": {
+      "points": 1,
       "max": 5,
       "note": "sin términos enlazados"
      }
@@ -6691,7 +7620,7 @@
      "El enlace respondió correctamente en la última verificación.",
      "Falta confirmar condiciones en la página oficial."
     ],
-    "checked_at": "2026-11-18T16:18:52-05:00",
+    "checked_at": "2026-11-19T17:17:26-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -6726,7 +7655,7 @@
    },
    "discovered_at": "2026-11-18T16:18:52-05:00",
    "updated_at": "2026-11-18T16:18:52-05:00",
-   "last_verified": "2026-11-18T16:18:52-05:00",
+   "last_verified": "2026-11-19T17:17:26-05:00",
    "last_seen": "2026-11-19T08:25:49-05:00",
    "history": [],
    "priority": {
@@ -6888,7 +7817,7 @@
    "discovered_at": "2026-11-18T17:21:34-05:00",
    "updated_at": "2026-11-18T17:21:34-05:00",
    "last_verified": "2026-11-18T17:21:34-05:00",
-   "last_seen": "2026-11-19T08:25:49-05:00",
+   "last_seen": "2026-11-19T17:17:08-05:00",
    "history": [],
    "priority": {
     "score": 67,
@@ -7567,6 +8496,159 @@
    }
   },
   {
+   "id": "op_aa8036205edf",
+   "title": "Concurso DIAN 2676: CNSC anunció la fecha de publicación de resultados de pruebas escritas",
+   "summary": "La Comisión Nacional del Servicio Civil (CNSC) anunció el cronograma a seguir después de la prueba escrita del 8 de noviembre de 2026. Aquí le contamos las fechas que debe tener en cuenta.",
+   "section": "concursos",
+   "category": "otros_premios",
+   "tags": [],
+   "mechanics": [],
+   "kind": "Concurso",
+   "organizer": {
+    "name": "Organizador no identificado",
+    "type": "desconocido",
+    "domain": null,
+    "known": false
+   },
+   "prize": {
+    "description": null,
+    "value_cop": null,
+    "value_text": null,
+    "value_source": null,
+    "winners": null,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "gratis_registro",
+    "label": "Gratis con registro",
+    "free": true,
+    "certainty": "explicito",
+    "requires_purchase": false,
+    "requires_registration": true,
+    "requires_social": false,
+    "requires_activity": false,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": null,
+    "notes": [
+     "La fuente lo indica: «inscripción gratuita»."
+    ]
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": null,
+    "age_text": null,
+    "coverage": "desconocida",
+    "cities": []
+   },
+   "requirements": [
+    "¿Cómo consultar vacantes, salarios y requisitos en SIMO? Verifique ¿Cómo consultar los resultados de las pruebas DIAN 2676? Los interesados deberán ingresar a la página oficial de la CNCS, enlace SIMO o seguir los…",
+    "Por ello, quienes presenten reclamaciones deberán estar atentos a los avisos publicados en los canales oficiales de la CNSC y revisar periódicamente la plataforma."
+   ],
+   "documents": [],
+   "steps": [
+    "Ingresar al portal oficial de la CNSC .",
+    "Seleccionar el enlace SIMO .",
+    "Iniciar sesión con el usuario y la contraseña registrados durante la inscripción.",
+    "Buscar el proceso de selección DSIAN 2676.",
+    "Consultar la información correspondiente a los resultados de las pruebas escritas."
+   ],
+   "steps_source": "fuente_secundaria",
+   "dates": {
+    "published": "2026-11-19T15:09:32-05:00",
+    "start": "2026-11-20",
+    "end": null,
+    "draw": null
+   },
+   "status": "proxima",
+   "gov": null,
+   "offer": null,
+   "verification": {
+    "status": "pendiente",
+    "reasons": [
+     "Organizador no identificado con certeza."
+    ],
+    "checked_at": "2026-11-19T17:17:09-05:00",
+    "link_ok": null,
+    "official_domain": false,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://caracol.com.co/2026/11/19/concurso-dian-2676-cnsc-anuncio-la-fecha-de-publicacion-de-resultados-de-pruebas-escritas/",
+    "participate": "https://caracol.com.co/2026/11/09/concurso-docente-2026-2027-quienes-son-las-unicas-personas-que-tendran-inscripcion-gratuita/",
+    "terms": null,
+    "official": null,
+    "image": "https://caracol.com.co/resizer/v2/EDRPBXAOF5HWJOLLOIL2TJMIRI.png?auth=0b9786a7b9134b558c5d86a097b0af6a626adaaebcfcbf0fb97139cc3e0cc959&quality=70&width=1200&height=675&smart=true"
+   },
+   "sources": [
+    {
+     "url": "https://caracol.com.co/2026/11/19/concurso-dian-2676-cnsc-anuncio-la-fecha-de-publicacion-de-resultados-de-pruebas-escritas/",
+     "name": "Caracol Radio (feed)",
+     "type": "news",
+     "seen_at": "2026-11-19T17:17:09-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 0.89,
+    "model": null
+   },
+   "discovered_at": "2026-11-19T17:17:09-05:00",
+   "updated_at": "2026-11-19T17:17:09-05:00",
+   "last_verified": "2026-11-19T17:17:09-05:00",
+   "last_seen": "2026-11-19T17:17:09-05:00",
+   "history": [],
+   "priority": {
+    "score": 64,
+    "level": "media",
+    "breakdown": {
+     "valor": {
+      "points": 9,
+      "max": 25,
+      "note": "valor no publicado"
+     },
+     "gratuidad": {
+      "points": 22,
+      "max": 25,
+      "note": "gratis_registro"
+     },
+     "facilidad": {
+      "points": 12,
+      "max": 15,
+      "note": "registro"
+     },
+     "vigencia": {
+      "points": 6,
+      "max": 10,
+      "note": "abre próximamente"
+     },
+     "cobertura": {
+      "points": 6,
+      "max": 10,
+      "note": "desconocida"
+     },
+     "credibilidad": {
+      "points": 6,
+      "max": 10,
+      "note": "pendiente"
+     },
+     "claridad": {
+      "points": 3,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
    "id": "op_3daf344eb478",
    "title": "Subsidio de vivienda en Bogotá: quiénes aplican a 'Reduce tu Cuota' y cómo postularse",
    "summary": "La Alcaldía reabrió el programa con 4.000 cupos que se aplicarán desde 2027.",
@@ -7806,7 +8888,7 @@
      "El enlace respondió correctamente en la última verificación.",
      "Falta confirmar condiciones en la página oficial."
     ],
-    "checked_at": "2026-11-18T16:19:08-05:00",
+    "checked_at": "2026-11-19T17:17:47-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -7841,7 +8923,7 @@
    },
    "discovered_at": "2026-11-18T16:19:08-05:00",
    "updated_at": "2026-11-18T16:19:08-05:00",
-   "last_verified": "2026-11-18T16:19:08-05:00",
+   "last_verified": "2026-11-19T17:17:47-05:00",
    "last_seen": "2026-11-18T22:36:47-05:00",
    "history": [],
    "priority": {
@@ -8106,8 +9188,8 @@
     "reasons": [
      "Información insuficiente: sin organizador identificado, fechas ni enlace oficial."
     ],
-    "checked_at": "2026-11-18T16:19:08-05:00",
-    "link_ok": null,
+    "checked_at": "2026-11-19T17:17:47-05:00",
+    "link_ok": true,
     "official_domain": false,
     "terms_found": false,
     "link_failures": 0
@@ -8141,7 +9223,7 @@
    },
    "discovered_at": "2026-11-18T16:19:08-05:00",
    "updated_at": "2026-11-18T16:19:08-05:00",
-   "last_verified": "2026-11-18T16:19:08-05:00",
+   "last_verified": "2026-11-19T17:17:47-05:00",
    "last_seen": "2026-11-19T08:25:49-05:00",
    "history": [],
    "priority": {
@@ -8728,7 +9810,7 @@
      "Tiene términos y condiciones consultables.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-18T16:18:58-05:00",
+    "checked_at": "2026-11-19T17:17:37-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": true,
@@ -8763,8 +9845,8 @@
    },
    "discovered_at": "2026-11-18T16:18:58-05:00",
    "updated_at": "2026-11-18T16:18:58-05:00",
-   "last_verified": "2026-11-18T16:18:58-05:00",
-   "last_seen": "2026-11-19T08:25:49-05:00",
+   "last_verified": "2026-11-19T17:17:37-05:00",
+   "last_seen": "2026-11-19T17:17:08-05:00",
    "history": [],
    "priority": {
     "score": 60,
@@ -9257,6 +10339,155 @@
    }
   },
   {
+   "id": "op_748447f77711",
+   "title": "Damnificados del terremoto en Cali ya pueden postularse a bonos de vivienda de $50 millones",
+   "summary": "Cerca de 200 familias que perdieron definitivamente sus viviendas podrán acceder a esta alternativa habitacional. La primera priorización será para hogares con ingresos de hasta cuatro salarios mínimos.",
+   "section": "bonos",
+   "category": "supermercado",
+   "tags": [
+    "Entradas a eventos",
+    "Vivienda"
+   ],
+   "mechanics": [],
+   "kind": "Beneficio",
+   "organizer": {
+    "name": "Organizador no identificado",
+    "type": "desconocido",
+    "domain": null,
+    "known": false
+   },
+   "prize": {
+    "description": null,
+    "value_cop": 50000000,
+    "value_text": "$50 millones",
+    "value_source": "noticia",
+    "winners": null,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "desconocido",
+    "label": "Costo sin confirmar",
+    "free": false,
+    "certainty": "desconocido",
+    "requires_purchase": null,
+    "requires_registration": false,
+    "requires_social": false,
+    "requires_activity": false,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": null,
+    "notes": []
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": null,
+    "age_text": null,
+    "coverage": "regional",
+    "cities": [
+     "Cali"
+    ]
+   },
+   "requirements": [
+    "La convocatoria está dirigida a quienes habitaban inmuebles que colapsaron, fueron demolidos o ya cuentan con aprobación para demolición."
+   ],
+   "documents": [],
+   "steps": [],
+   "steps_source": null,
+   "dates": {
+    "published": "2026-11-19T13:24:06-05:00",
+    "start": "2026-11-19",
+    "end": null,
+    "draw": null
+   },
+   "status": "sin_confirmar",
+   "gov": null,
+   "offer": null,
+   "verification": {
+    "status": "pendiente",
+    "reasons": [
+     "Organizador no identificado con certeza."
+    ],
+    "checked_at": "2026-11-19T17:17:10-05:00",
+    "link_ok": null,
+    "official_domain": false,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://caracol.com.co/2026/11/19/damnificados-del-terremoto-en-cali-ya-pueden-postularse-a-bonos-de-vivienda-de-50-millones/",
+    "participate": null,
+    "terms": null,
+    "official": null,
+    "image": "https://caracol.com.co/resizer/v2/N3RKGMYSKFAYXKSWSYJTQC7N5Y.jpeg?auth=7fae93b0d4e94c4e8e80e5759c4855918ce037e8c62544d104665342584e07a4&quality=70&width=1200&height=675&smart=true"
+   },
+   "sources": [
+    {
+     "url": "https://caracol.com.co/2026/11/19/damnificados-del-terremoto-en-cali-ya-pueden-postularse-a-bonos-de-vivienda-de-50-millones/",
+     "name": "Caracol Radio (feed)",
+     "type": "news",
+     "seen_at": "2026-11-19T17:17:10-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 0.57,
+    "model": null
+   },
+   "discovered_at": "2026-11-19T17:17:10-05:00",
+   "updated_at": "2026-11-19T17:17:10-05:00",
+   "last_verified": "2026-11-19T17:17:10-05:00",
+   "last_seen": "2026-11-19T17:17:10-05:00",
+   "history": [],
+   "priority": {
+    "score": 57,
+    "level": "media",
+    "breakdown": {
+     "valor": {
+      "points": 16,
+      "max": 25,
+      "note": "valor publicado 50.000.000 COP"
+     },
+     "gratuidad": {
+      "points": 9,
+      "max": 25,
+      "note": "desconocido"
+     },
+     "facilidad": {
+      "points": 15,
+      "max": 15,
+      "note": "pocos requisitos"
+     },
+     "vigencia": {
+      "points": 5,
+      "max": 10,
+      "note": "sin fecha límite publicada"
+     },
+     "cobertura": {
+      "points": 5,
+      "max": 10,
+      "note": "regional"
+     },
+     "credibilidad": {
+      "points": 6,
+      "max": 10,
+      "note": "pendiente"
+     },
+     "claridad": {
+      "points": 1,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
    "id": "op_9bc664462026",
    "title": "Nequi pone la diferencia",
    "summary": "¡Recibe hasta $20.000 por transferir desde PayPal a Nequi! Si recibiste una invitación para participar, haz una transferencia exitosa de mínimo USD 150 en una sola operación y Nequi te abonará la diferencia.",
@@ -9338,7 +10569,7 @@
      "El enlace respondió correctamente en la última verificación.",
      "Falta confirmar condiciones en la página oficial."
     ],
-    "checked_at": "2026-11-18T16:18:44-05:00",
+    "checked_at": "2026-11-19T17:17:23-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -9373,8 +10604,8 @@
    },
    "discovered_at": "2026-11-18T16:18:44-05:00",
    "updated_at": "2026-11-18T16:18:44-05:00",
-   "last_verified": "2026-11-18T16:18:44-05:00",
-   "last_seen": "2026-11-19T08:25:49-05:00",
+   "last_verified": "2026-11-19T17:17:23-05:00",
+   "last_seen": "2026-11-19T17:17:08-05:00",
    "history": [],
    "priority": {
     "score": 57,
@@ -9504,8 +10735,8 @@
     "reasons": [
      "Falta confirmar condiciones en la página oficial."
     ],
-    "checked_at": "2026-11-18T16:19:08-05:00",
-    "link_ok": null,
+    "checked_at": "2026-11-19T17:17:48-05:00",
+    "link_ok": true,
     "official_domain": false,
     "terms_found": false,
     "link_failures": 0
@@ -9539,7 +10770,7 @@
    },
    "discovered_at": "2026-11-18T16:19:08-05:00",
    "updated_at": "2026-11-18T16:19:08-05:00",
-   "last_verified": "2026-11-18T16:19:08-05:00",
+   "last_verified": "2026-11-19T17:17:48-05:00",
    "last_seen": "2026-11-19T08:25:49-05:00",
    "history": [],
    "priority": {
@@ -9674,7 +10905,7 @@
      "El enlace respondió correctamente en la última verificación.",
      "Falta confirmar condiciones en la página oficial."
     ],
-    "checked_at": "2026-11-18T16:18:40-05:00",
+    "checked_at": "2026-11-19T17:17:19-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -9709,8 +10940,8 @@
    },
    "discovered_at": "2026-11-18T16:18:40-05:00",
    "updated_at": "2026-11-18T16:18:40-05:00",
-   "last_verified": "2026-11-18T16:18:40-05:00",
-   "last_seen": "2026-11-19T08:25:49-05:00",
+   "last_verified": "2026-11-19T17:17:19-05:00",
+   "last_seen": "2026-11-19T17:17:08-05:00",
    "history": [],
    "priority": {
     "score": 55,
@@ -9851,7 +11082,7 @@
      "El enlace respondió correctamente en la última verificación.",
      "Falta confirmar condiciones en la página oficial."
     ],
-    "checked_at": "2026-11-18T16:18:36-05:00",
+    "checked_at": "2026-11-19T17:17:14-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -9886,8 +11117,8 @@
    },
    "discovered_at": "2026-11-18T16:18:36-05:00",
    "updated_at": "2026-11-18T16:18:36-05:00",
-   "last_verified": "2026-11-18T16:18:36-05:00",
-   "last_seen": "2026-11-19T08:25:49-05:00",
+   "last_verified": "2026-11-19T17:17:14-05:00",
+   "last_seen": "2026-11-19T17:17:08-05:00",
    "history": [],
    "priority": {
     "score": 55,
@@ -10326,7 +11557,7 @@
      "El enlace respondió correctamente en la última verificación.",
      "Falta confirmar condiciones en la página oficial."
     ],
-    "checked_at": "2026-11-18T16:18:39-05:00",
+    "checked_at": "2026-11-19T17:17:18-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -10361,8 +11592,8 @@
    },
    "discovered_at": "2026-11-18T16:18:39-05:00",
    "updated_at": "2026-11-18T16:18:39-05:00",
-   "last_verified": "2026-11-18T16:18:39-05:00",
-   "last_seen": "2026-11-19T08:25:49-05:00",
+   "last_verified": "2026-11-19T17:17:18-05:00",
+   "last_seen": "2026-11-19T17:17:08-05:00",
    "history": [],
    "priority": {
     "score": 55,
@@ -10637,7 +11868,7 @@
      "El enlace respondió correctamente en la última verificación.",
      "Falta confirmar condiciones en la página oficial."
     ],
-    "checked_at": "2026-11-18T16:18:44-05:00",
+    "checked_at": "2026-11-19T17:17:23-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -10678,8 +11909,8 @@
    },
    "discovered_at": "2026-11-18T16:18:44-05:00",
    "updated_at": "2026-11-18T16:18:44-05:00",
-   "last_verified": "2026-11-18T16:18:44-05:00",
-   "last_seen": "2026-11-19T08:25:49-05:00",
+   "last_verified": "2026-11-19T17:17:23-05:00",
+   "last_seen": "2026-11-19T17:17:08-05:00",
    "history": [],
    "priority": {
     "score": 54,
@@ -10808,7 +12039,7 @@
      "El enlace respondió correctamente en la última verificación.",
      "Falta confirmar condiciones en la página oficial."
     ],
-    "checked_at": "2026-11-18T16:18:37-05:00",
+    "checked_at": "2026-11-19T17:17:15-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -10843,8 +12074,8 @@
    },
    "discovered_at": "2026-11-18T16:18:37-05:00",
    "updated_at": "2026-11-18T16:18:37-05:00",
-   "last_verified": "2026-11-18T16:18:37-05:00",
-   "last_seen": "2026-11-19T08:25:49-05:00",
+   "last_verified": "2026-11-19T17:17:15-05:00",
+   "last_seen": "2026-11-19T17:17:08-05:00",
    "history": [],
    "priority": {
     "score": 53,
@@ -10974,7 +12205,7 @@
      "El enlace respondió correctamente en la última verificación.",
      "Falta confirmar condiciones en la página oficial."
     ],
-    "checked_at": "2026-11-18T16:18:38-05:00",
+    "checked_at": "2026-11-19T17:17:16-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -11009,8 +12240,8 @@
    },
    "discovered_at": "2026-11-18T16:18:38-05:00",
    "updated_at": "2026-11-18T16:18:38-05:00",
-   "last_verified": "2026-11-18T16:18:38-05:00",
-   "last_seen": "2026-11-19T08:25:49-05:00",
+   "last_verified": "2026-11-19T17:17:16-05:00",
+   "last_seen": "2026-11-19T17:17:08-05:00",
    "history": [],
    "priority": {
     "score": 53,
@@ -11288,7 +12519,7 @@
      "El enlace respondió correctamente en la última verificación.",
      "Falta confirmar condiciones en la página oficial."
     ],
-    "checked_at": "2026-11-18T16:18:42-05:00",
+    "checked_at": "2026-11-19T17:17:20-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -11323,8 +12554,8 @@
    },
    "discovered_at": "2026-11-18T16:18:42-05:00",
    "updated_at": "2026-11-18T16:18:42-05:00",
-   "last_verified": "2026-11-18T16:18:42-05:00",
-   "last_seen": "2026-11-19T08:25:49-05:00",
+   "last_verified": "2026-11-19T17:17:20-05:00",
+   "last_seen": "2026-11-19T17:17:08-05:00",
    "history": [],
    "priority": {
     "score": 51,
@@ -11448,7 +12679,7 @@
      "El enlace respondió correctamente en la última verificación.",
      "Falta confirmar condiciones en la página oficial."
     ],
-    "checked_at": "2026-11-18T16:18:43-05:00",
+    "checked_at": "2026-11-19T17:17:21-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -11483,8 +12714,8 @@
    },
    "discovered_at": "2026-11-18T16:18:43-05:00",
    "updated_at": "2026-11-18T16:18:43-05:00",
-   "last_verified": "2026-11-18T16:18:43-05:00",
-   "last_seen": "2026-11-19T08:25:49-05:00",
+   "last_verified": "2026-11-19T17:17:21-05:00",
+   "last_seen": "2026-11-19T17:17:08-05:00",
    "history": [],
    "priority": {
     "score": 50,
@@ -11602,8 +12833,8 @@
     "reasons": [
      "Falta confirmar condiciones en la página oficial."
     ],
-    "checked_at": "2026-11-18T16:19:07-05:00",
-    "link_ok": null,
+    "checked_at": "2026-11-19T17:17:45-05:00",
+    "link_ok": true,
     "official_domain": false,
     "terms_found": false,
     "link_failures": 0
@@ -11637,7 +12868,7 @@
    },
    "discovered_at": "2026-11-18T16:19:07-05:00",
    "updated_at": "2026-11-18T16:19:07-05:00",
-   "last_verified": "2026-11-18T16:19:07-05:00",
+   "last_verified": "2026-11-19T17:17:45-05:00",
    "last_seen": "2026-11-18T16:19:07-05:00",
    "history": [],
    "priority": {
@@ -11755,8 +12986,8 @@
     "reasons": [
      "Falta confirmar condiciones en la página oficial."
     ],
-    "checked_at": "2026-11-18T16:19:07-05:00",
-    "link_ok": null,
+    "checked_at": "2026-11-19T17:17:46-05:00",
+    "link_ok": true,
     "official_domain": false,
     "terms_found": false,
     "link_failures": 0
@@ -11790,7 +13021,7 @@
    },
    "discovered_at": "2026-11-18T16:19:07-05:00",
    "updated_at": "2026-11-18T16:19:07-05:00",
-   "last_verified": "2026-11-18T16:19:07-05:00",
+   "last_verified": "2026-11-19T17:17:46-05:00",
    "last_seen": "2026-11-18T21:46:59-05:00",
    "history": [],
    "priority": {
