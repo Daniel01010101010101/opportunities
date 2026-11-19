@@ -108,3 +108,20 @@ export const programStatusLabel: Record<string, string> = {
   cerrada: 'Cerrada',
   sin_confirmar: 'Estado sin confirmar',
 }
+
+/**
+ * Próximo turno del cron "17 *\/2 * * *" (UTC). Si el valor guardado por el motor ya pasó
+ * (por ejemplo, porque GitHub no ejecutó el turno), se calcula el siguiente turno real en lugar de mostrar una hora vencida.
+ */
+export const nextScheduledRun = (stored?: string | null): { at: string; overdue: boolean } => {
+  const now = Date.now()
+  const storedMs = stored ? new Date(stored).getTime() : NaN
+  if (!Number.isNaN(storedMs) && storedMs > now) return { at: stored!, overdue: false }
+  const d = new Date(now)
+  d.setUTCMinutes(17, 0, 0)
+  for (let i = 0; i < 4; i++) {
+    if (d.getTime() > now && d.getUTCHours() % 2 === 0) break
+    d.setUTCHours(d.getUTCHours() + 1)
+  }
+  return { at: d.toISOString(), overdue: !Number.isNaN(storedMs) }
+}

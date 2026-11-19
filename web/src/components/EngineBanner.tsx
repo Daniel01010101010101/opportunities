@@ -5,7 +5,7 @@ import { ago, fmtDateTime } from '@/lib/format'
 
 /** Advertencias visibles cuando el sistema no está al día. Nunca muestra una fecha inventada. */
 export function useEngineHealth() {
-  const { status, loading, error } = useData()
+  const { status, loading, error, runs } = useData()
   if (loading) return { level: 'loading' as const, text: '' }
   if (error) return { level: 'error' as const, text: `No se pudieron cargar los datos del radar (${error}).` }
   if (!status) {
@@ -14,6 +14,17 @@ export function useEngineHealth() {
   const hours = (Date.now() - new Date(status.generated_at).getTime()) / 3_600_000
   if (status.last_run?.status === 'error') {
     return { level: 'error' as const, text: `La última ejecución (${fmtDateTime(status.generated_at)}) no pudo consultar ninguna fuente. Última ejecución exitosa: ${status.last_success_at ? fmtDateTime(status.last_success_at) : 'ninguna'}.` }
+  }
+  const firstRun = runs.length ? new Date(runs[0].started_at).getTime() : Date.now()
+  const lastScheduled = [...runs].reverse().find((r) => r.trigger === 'schedule' || r.trigger === 'retry')
+  const hoursSinceScheduled = lastScheduled ? (Date.now() - new Date(lastScheduled.started_at).getTime()) / 3_600_000 : null
+  if ((hoursSinceScheduled === null && (Date.now() - firstRun) / 3_600_000 > 4.5) || (hoursSinceScheduled !== null && hoursSinceScheduled > 6.5)) {
+    return {
+      level: 'stale' as const,
+      text: `GitHub no está ejecutando la búsqueda automática cada 2 horas${lastScheduled ? ` (última programada: ${fmtDateTime(lastScheduled.started_at)})` : ' (todavía no ha corrido ninguna programada)'}. ` +
+        'Solución: en GitHub → Settings → General → Default branch, elige «main». Mientras tanto usa «Investigar ahora». ' +
+        `Última actualización real: ${fmtDateTime(status.generated_at)}.`,
+    }
   }
   if (hours > 5) {
     return { level: 'stale' as const, text: `El radar no se ha actualizado desde ${fmtDateTime(status.generated_at)} (${ago(status.generated_at)}). Debería actualizarse cada 2 horas: revisa el estado en Monitoreo.` }

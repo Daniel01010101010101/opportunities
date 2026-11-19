@@ -9,7 +9,7 @@ import { EmptyState, SectionTitle, Skeleton, StatTile } from '@/components/ui'
 import { useData } from '@/lib/data'
 import { usePersonal } from '@/lib/personal'
 import { categoryById, sections } from '@/lib/taxonomy'
-import { ago, daysUntil, fmtDateTime, fmtTime } from '@/lib/format'
+import { ago, daysUntil, fmtDateTime, fmtTime, nextScheduledRun } from '@/lib/format'
 import { EXAMPLE_QUERIES } from '@/lib/search'
 import type { Opportunity } from '@/lib/types'
 
@@ -84,7 +84,7 @@ export default function RadarPage() {
             </h1>
             <p className="mt-2 text-sm text-muted">
               {status ? (
-                <>Última actualización {fmtDateTime(status.generated_at)} ({ago(status.generated_at)}) · próxima búsqueda automática a las {fmtTime(status.schedule.next_run_at)} (hora de Bogotá). {status.message}</>
+                <>Última actualización {fmtDateTime(status.generated_at)} ({ago(status.generated_at)}) · próxima búsqueda automática a las {fmtTime(nextScheduledRun(status.schedule.next_run_at).at)} (hora de Bogotá). {status.message}</>
               ) : 'Aún no hay ejecuciones publicadas del motor de búsqueda.'}
             </p>
             {sinceLast != null && sinceLast > 0 && (
@@ -113,7 +113,7 @@ export default function RadarPage() {
         <StatTile label="Verificadas" value={c?.verified ?? 0} hint={`${c?.pending ?? 0} pendientes`} icon={BadgeCheck} onClick={() => navigate('/monitoreo')} />
         <StatTile label="Prioridad alta" value={c?.by_priority?.alta ?? 0} hint={`${c?.by_priority?.media ?? 0} media · ${c?.by_priority?.baja ?? 0} baja`} icon={Flame} />
         <StatTile label="Fuentes activas" value={status?.sources.ok_last_run ?? 0} hint={`${status?.sources.configured ?? 0} configuradas · ${status?.sources.discovered ?? 0} descubiertas`} icon={Sparkles} onClick={() => navigate('/monitoreo')} />
-        <StatTile label="Próxima búsqueda" value={status ? fmtTime(status.schedule.next_run_at) : '—'} hint="automática cada 2 h" icon={CalendarClock} />
+        <StatTile label="Próxima búsqueda" value={status ? fmtTime(nextScheduledRun(status.schedule.next_run_at).at) : '—'} hint={status && nextScheduledRun(status.schedule.next_run_at).overdue ? 'el turno anterior no se ejecutó' : 'automática cada 2 h'} icon={CalendarClock} />
         <StatTile label="Estado del motor" value={status ? ({ ok: 'Activo', sin_novedades: 'Sin novedades', parcial: 'Parcial', error: 'Con error', sin_fuentes_pendientes: 'Activo' } as Record<string, string>)[status.last_run.status] : '—'} hint={status ? `${status.last_run.sources_ok}/${status.last_run.sources_checked} fuentes OK` : 'sin datos'} icon={Activity} onClick={() => navigate('/monitoreo')} />
       </section>
 

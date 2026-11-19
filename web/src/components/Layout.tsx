@@ -8,7 +8,7 @@ import { EngineBanner, useEngineHealth } from './EngineBanner'
 import { ResearchModal } from './Research'
 import { useData } from '@/lib/data'
 import { usePersonal } from '@/lib/personal'
-import { ago, cn, fmtTime } from '@/lib/format'
+import { ago, cn, fmtTime, nextScheduledRun } from '@/lib/format'
 
 const NAV = [
   { group: 'Radar', items: [{ to: '/', label: 'Radar general', icon: LayoutDashboard, end: true }] },
@@ -112,7 +112,7 @@ function SidebarContent({ onNavigate }: { onNavigate?: () => void }) {
         {status ? (
           <div className="mt-1.5 space-y-0.5 text-muted">
             <div>Actualizado {ago(status.generated_at)}</div>
-            <div>Próxima: {fmtTime(status.schedule.next_run_at)} (Bogotá)</div>
+            <div>Próxima: {fmtTime(nextScheduledRun(status.schedule.next_run_at).at)} (Bogotá)</div>
           </div>
         ) : <div className="mt-1.5 text-muted">Sin ejecuciones publicadas todavía</div>}
       </NavLink>

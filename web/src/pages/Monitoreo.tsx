@@ -5,7 +5,7 @@ import { eventLabel, RunStatusIcon, useWorkflowRuns } from '@/components/Researc
 import { useEngineHealth } from '@/components/EngineBanner'
 import { Badge, EmptyState, PageHeader, SectionTitle, StatTile } from '@/components/ui'
 import { useData } from '@/lib/data'
-import { ago, cn, fmtDateTime, fmtTime, hostOf } from '@/lib/format'
+import { ago, cn, fmtDateTime, fmtTime, hostOf, nextScheduledRun } from '@/lib/format'
 import { workflowUrl } from '@/lib/github'
 import type { RunRecord, SourceInfo } from '@/lib/types'
 
@@ -119,7 +119,7 @@ export default function MonitoreoPage() {
 
       <section className="grid grid-cols-2 gap-3 md:grid-cols-3 xl:grid-cols-5">
         <StatTile label="Última ejecución exitosa" value={status?.last_success_at ? fmtTime(status.last_success_at) : '—'} hint={status?.last_success_at ? `${fmtDateTime(status.last_success_at)} · ${ago(status.last_success_at)}` : 'ninguna todavía'} icon={CheckCircle2} accent />
-        <StatTile label="Próxima programada" value={status ? fmtTime(status.schedule.next_run_at) : '—'} hint={status ? `${status.schedule.description} · cron ${status.schedule.cron_utc} (UTC)` : ''} icon={History} />
+        <StatTile label="Próxima programada" value={status ? fmtTime(nextScheduledRun(status.schedule.next_run_at).at) : '—'} hint={status ? `${status.schedule.description} · cron ${status.schedule.cron_utc} (UTC)` : ''} icon={History} />
         <StatTile label="Fuentes activas" value={status?.sources.ok_last_run ?? 0} hint={`${status?.sources.configured ?? 0} configuradas · ${status?.sources.discovered ?? 0} descubiertas`} icon={Globe} />
         <StatTile label="Fuentes con fallas" value={failedSources.length} hint={failedSources.slice(0, 2).map((s) => s.name).join(', ') || 'ninguna'} icon={XCircle} />
         <StatTile label="Tiempo de ejecución" value={status ? `${Math.round(status.last_run.duration_s)} s` : '—'} hint="última ejecución" icon={Activity} />
