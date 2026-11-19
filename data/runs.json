@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T22:36:49-05:00",
+ "generated_at": "2026-11-19T08:25:51-05:00",
  "runs": [
   {
    "id": "20261118-161736",
@@ -448,6 +448,94 @@
    },
    "git_sha": "48191f4",
    "run_url": "https://github.com/Daniel01010101010101/opportunities/actions/runs/44452574969"
+  },
+  {
+   "id": "20261119-082204",
+   "started_at": "2026-11-19T08:22:04-05:00",
+   "finished_at": "2026-11-19T08:25:51-05:00",
+   "duration_s": 226.9,
+   "trigger": "schedule",
+   "category": null,
+   "query": null,
+   "status": "parcial",
+   "sources_checked": 98,
+   "sources_ok": 90,
+   "sources_failed": [
+    {
+     "id": "gd-concursos",
+     "error": "GDELT limitó la consulta (429); se reintentará en la próxima ejecución"
+    },
+    {
+     "id": "wp-eje21",
+     "error": "HTTP 403; HTTP 403"
+    },
+    {
+     "id": "nf-laopinion",
+     "error": "ReadTimeout: HTTPSConnectionPool(host='laopinion.co', port=443): Read timed out. (read timeout=20.0)"
+    }
+   ],
+   "sources_skipped": [
+    {
+     "id": "brave-sorteos",
+     "reason": "requiere el secreto BRAVE_API_KEY"
+    },
+    {
+     "id": "brave-gratis",
+     "reason": "requiere el secreto BRAVE_API_KEY"
+    },
+    {
+     "id": "cse-convocatorias",
+     "reason": "requiere los secretos GOOGLE_CSE_KEY y GOOGLE_CSE_CX"
+    },
+    {
+     "id": "cse-sorteos",
+     "reason": "requiere los secretos GOOGLE_CSE_KEY y GOOGLE_CSE_CX"
+    },
+    {
+     "id": "cse-bonos-gasolina",
+     "reason": "requiere los secretos GOOGLE_CSE_KEY y GOOGLE_CSE_CX"
+    }
+   ],
+   "new": 1,
+   "updated": 0,
+   "unchanged": 1,
+   "discarded": 32,
+   "discard_reasons": {
+    "búsqueda de concursos: el título no anuncia una convocatoria abierta": 8,
+    "nota sobre ganadores o resultados, no es una convocatoria abierta": 6,
+    "noticia antigua (más de 30 días)": 5,
+    "no aplica en Colombia (no menciona Colombia)": 3,
+    "título sin señales de oportunidad o con señales negativas": 2,
+    "noticia antigua (más de 90 días)": 2,
+    "no describe una oportunidad aprovechable (señales negativas: Número ganador, chance, número ganador, números ganador)": 1,
+    "bloqueado por robots.txt / fuente no permitida": 1
+   },
+   "expired": 0,
+   "reverified": 0,
+   "archived": 0,
+   "purged": 0,
+   "http_requests": 129,
+   "robots_blocked": 1,
+   "errors": [
+    "Fuente GDELT · concursos en medios colombianos: GDELT limitó la consulta (429); se reintentará en la próxima ejecución",
+    "Fuente Eje21: HTTP 403; HTTP 403",
+    "Fuente La Opinión Cúcuta (feed): ReadTimeout: HTTPSConnectionPool(host='laopinion.co', port=443): Read timed out. (read timeout=20.0)"
+   ],
+   "llm": {
+    "enabled": false,
+    "model": null,
+    "calls": 0,
+    "errors": 0,
+    "input_tokens": 0,
+    "output_tokens": 0
+   },
+   "alerts": {
+    "telegram": "no_configurado",
+    "email": "no_configurado",
+    "sent": 0
+   },
+   "git_sha": "48191f4",
+   "run_url": "https://github.com/Daniel01010101010101/opportunities/actions/runs/44532695575"
   }
  ]
 }

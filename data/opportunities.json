@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-18T22:36:49-05:00",
- "count": 76,
+ "generated_at": "2026-11-19T08:25:51-05:00",
+ "count": 77,
  "items": [
   {
    "id": "op_72402b2d44f8",
@@ -114,7 +114,7 @@
    "discovered_at": "2026-11-18T17:21:34-05:00",
    "updated_at": "2026-11-18T17:21:34-05:00",
    "last_verified": "2026-11-18T17:21:34-05:00",
-   "last_seen": "2026-11-18T21:46:59-05:00",
+   "last_seen": "2026-11-19T08:25:49-05:00",
    "history": [],
    "priority": {
     "score": 84,
@@ -138,7 +138,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (30 días restantes)"
+      "note": "vigente (29 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -267,7 +267,7 @@
    "discovered_at": "2026-11-18T16:18:57-05:00",
    "updated_at": "2026-11-18T16:18:57-05:00",
    "last_verified": "2026-11-18T16:18:57-05:00",
-   "last_seen": "2026-11-18T21:46:59-05:00",
+   "last_seen": "2026-11-19T08:25:49-05:00",
    "history": [],
    "priority": {
     "score": 82,
@@ -291,7 +291,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (7 días restantes)"
+      "note": "vigente (6 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -420,7 +420,7 @@
    "discovered_at": "2026-11-18T16:18:44-05:00",
    "updated_at": "2026-11-18T16:18:44-05:00",
    "last_verified": "2026-11-18T16:18:44-05:00",
-   "last_seen": "2026-11-18T17:21:33-05:00",
+   "last_seen": "2026-11-19T08:25:49-05:00",
    "history": [],
    "priority": {
     "score": 79,
@@ -577,7 +577,7 @@
    "discovered_at": "2026-11-18T16:19:00-05:00",
    "updated_at": "2026-11-18T16:19:00-05:00",
    "last_verified": "2026-11-18T16:19:00-05:00",
-   "last_seen": "2026-11-18T21:46:59-05:00",
+   "last_seen": "2026-11-19T08:25:49-05:00",
    "history": [],
    "priority": {
     "score": 79,
@@ -601,7 +601,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (57 días restantes)"
+      "note": "vigente (56 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -738,7 +738,7 @@
    "discovered_at": "2026-11-18T17:21:44-05:00",
    "updated_at": "2026-11-18T17:21:44-05:00",
    "last_verified": "2026-11-18T17:21:47-05:00",
-   "last_seen": "2026-11-18T17:29:12-05:00",
+   "last_seen": "2026-11-19T08:25:49-05:00",
    "history": [],
    "priority": {
     "score": 77,
@@ -893,7 +893,7 @@
    "discovered_at": "2026-11-18T16:19:02-05:00",
    "updated_at": "2026-11-18T16:19:02-05:00",
    "last_verified": "2026-11-18T16:19:02-05:00",
-   "last_seen": "2026-11-18T21:46:59-05:00",
+   "last_seen": "2026-11-19T08:25:49-05:00",
    "history": [],
    "priority": {
     "score": 77,
@@ -917,7 +917,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (74 días restantes)"
+      "note": "vigente (73 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -1048,7 +1048,7 @@
    "discovered_at": "2026-11-18T16:18:56-05:00",
    "updated_at": "2026-11-18T16:18:56-05:00",
    "last_verified": "2026-11-18T16:18:56-05:00",
-   "last_seen": "2026-11-18T21:46:59-05:00",
+   "last_seen": "2026-11-19T08:25:49-05:00",
    "history": [],
    "priority": {
     "score": 77,
@@ -1072,7 +1072,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (21 días restantes)"
+      "note": "vigente (20 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -1239,7 +1239,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (91 días restantes)"
+      "note": "vigente (90 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -1399,7 +1399,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (12 días restantes)"
+      "note": "vigente (11 días restantes)"
      },
      "cobertura": {
       "points": 5,
@@ -1538,7 +1538,7 @@
    "discovered_at": "2026-11-18T17:21:54-05:00",
    "updated_at": "2026-11-18T17:21:56-05:00",
    "last_verified": "2026-11-18T17:21:56-05:00",
-   "last_seen": "2026-11-18T17:29:12-05:00",
+   "last_seen": "2026-11-19T08:25:49-05:00",
    "history": [
     {
      "at": "2026-11-18T17:21:56-05:00",
@@ -1570,7 +1570,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (43 días restantes)"
+      "note": "vigente (42 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -1696,7 +1696,7 @@
    "discovered_at": "2026-11-18T16:18:58-05:00",
    "updated_at": "2026-11-18T16:18:58-05:00",
    "last_verified": "2026-11-18T16:18:58-05:00",
-   "last_seen": "2026-11-18T17:21:33-05:00",
+   "last_seen": "2026-11-19T08:25:49-05:00",
    "history": [],
    "priority": {
     "score": 75,
@@ -1720,7 +1720,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (104 días restantes)"
+      "note": "vigente (103 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -1863,7 +1863,7 @@
    "discovered_at": "2026-11-18T16:18:57-05:00",
    "updated_at": "2026-11-18T16:18:57-05:00",
    "last_verified": "2026-11-18T16:18:57-05:00",
-   "last_seen": "2026-11-18T17:21:33-05:00",
+   "last_seen": "2026-11-19T08:25:49-05:00",
    "history": [],
    "priority": {
     "score": 75,
@@ -2039,7 +2039,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (61 días restantes)"
+      "note": "vigente (60 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -2320,7 +2320,7 @@
    "discovered_at": "2026-11-18T16:18:54-05:00",
    "updated_at": "2026-11-18T16:18:54-05:00",
    "last_verified": "2026-11-18T16:18:54-05:00",
-   "last_seen": "2026-11-18T17:21:33-05:00",
+   "last_seen": "2026-11-19T08:25:49-05:00",
    "history": [],
    "priority": {
     "score": 74,
@@ -2470,7 +2470,7 @@
    "discovered_at": "2026-11-18T16:18:53-05:00",
    "updated_at": "2026-11-18T16:18:53-05:00",
    "last_verified": "2026-11-18T16:18:53-05:00",
-   "last_seen": "2026-11-18T17:21:33-05:00",
+   "last_seen": "2026-11-19T08:25:49-05:00",
    "history": [],
    "priority": {
     "score": 74,
@@ -2648,7 +2648,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (7 días restantes)"
+      "note": "vigente (6 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -2781,7 +2781,7 @@
    "discovered_at": "2026-11-18T16:19:10-05:00",
    "updated_at": "2026-11-18T16:19:10-05:00",
    "last_verified": "2026-11-18T16:19:10-05:00",
-   "last_seen": "2026-11-18T16:19:10-05:00",
+   "last_seen": "2026-11-19T08:25:49-05:00",
    "history": [],
    "priority": {
     "score": 73,
@@ -2805,7 +2805,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (7 días restantes)"
+      "note": "vigente (6 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -2935,7 +2935,7 @@
    "discovered_at": "2026-11-18T16:18:46-05:00",
    "updated_at": "2026-11-18T16:18:46-05:00",
    "last_verified": "2026-11-18T16:18:52-05:00",
-   "last_seen": "2026-11-18T17:21:33-05:00",
+   "last_seen": "2026-11-19T08:25:49-05:00",
    "history": [],
    "priority": {
     "score": 73,
@@ -3095,7 +3095,7 @@
    "discovered_at": "2026-11-18T16:19:09-05:00",
    "updated_at": "2026-11-18T16:19:09-05:00",
    "last_verified": "2026-11-18T16:19:09-05:00",
-   "last_seen": "2026-11-18T16:19:09-05:00",
+   "last_seen": "2026-11-19T08:25:49-05:00",
    "history": [],
    "priority": {
     "score": 73,
@@ -3446,7 +3446,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (43 días restantes)"
+      "note": "vigente (42 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -3580,7 +3580,7 @@
    "discovered_at": "2026-11-18T16:18:49-05:00",
    "updated_at": "2026-11-18T16:18:49-05:00",
    "last_verified": "2026-11-18T16:18:56-05:00",
-   "last_seen": "2026-11-18T17:21:33-05:00",
+   "last_seen": "2026-11-19T08:25:49-05:00",
    "history": [],
    "priority": {
     "score": 72,
@@ -3738,7 +3738,7 @@
    "discovered_at": "2026-11-18T16:18:45-05:00",
    "updated_at": "2026-11-18T16:18:45-05:00",
    "last_verified": "2026-11-18T16:18:51-05:00",
-   "last_seen": "2026-11-18T17:21:33-05:00",
+   "last_seen": "2026-11-19T08:25:49-05:00",
    "history": [],
    "priority": {
     "score": 72,
@@ -4375,7 +4375,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (7 días restantes)"
+      "note": "vigente (6 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -4515,7 +4515,7 @@
    "discovered_at": "2026-11-18T16:19:12-05:00",
    "updated_at": "2026-11-18T16:19:12-05:00",
    "last_verified": "2026-11-18T16:19:12-05:00",
-   "last_seen": "2026-11-18T16:19:12-05:00",
+   "last_seen": "2026-11-19T08:25:49-05:00",
    "history": [],
    "priority": {
     "score": 71,
@@ -4539,7 +4539,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (12 días restantes)"
+      "note": "vigente (11 días restantes)"
      },
      "cobertura": {
       "points": 5,
@@ -4667,7 +4667,7 @@
    "discovered_at": "2026-11-18T16:18:58-05:00",
    "updated_at": "2026-11-18T16:18:58-05:00",
    "last_verified": "2026-11-18T16:18:58-05:00",
-   "last_seen": "2026-11-18T21:46:59-05:00",
+   "last_seen": "2026-11-19T08:25:49-05:00",
    "history": [],
    "priority": {
     "score": 70,
@@ -4821,7 +4821,7 @@
    "discovered_at": "2026-11-18T16:19:04-05:00",
    "updated_at": "2026-11-18T16:19:04-05:00",
    "last_verified": "2026-11-18T16:19:04-05:00",
-   "last_seen": "2026-11-18T21:46:59-05:00",
+   "last_seen": "2026-11-19T08:25:49-05:00",
    "history": [],
    "priority": {
     "score": 70,
@@ -4983,7 +4983,7 @@
    "discovered_at": "2026-11-18T16:18:47-05:00",
    "updated_at": "2026-11-18T16:18:47-05:00",
    "last_verified": "2026-11-18T16:18:53-05:00",
-   "last_seen": "2026-11-18T17:21:33-05:00",
+   "last_seen": "2026-11-19T08:25:49-05:00",
    "history": [],
    "priority": {
     "score": 69,
@@ -5140,7 +5140,7 @@
    "discovered_at": "2026-11-18T16:19:13-05:00",
    "updated_at": "2026-11-18T16:19:13-05:00",
    "last_verified": "2026-11-18T16:19:13-05:00",
-   "last_seen": "2026-11-18T16:19:13-05:00",
+   "last_seen": "2026-11-19T08:25:49-05:00",
    "history": [],
    "priority": {
     "score": 69,
@@ -5475,7 +5475,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (6 días restantes)"
+      "note": "vigente (5 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -5563,7 +5563,7 @@
     "reasons": [
      "Información insuficiente: sin organizador identificado, fechas ni enlace oficial."
     ],
-    "checked_at": "2026-11-18T16:19:13-05:00",
+    "checked_at": "2026-11-19T08:25:50-05:00",
     "link_ok": null,
     "official_domain": false,
     "terms_found": false,
@@ -5575,7 +5575,7 @@
     "sensitive_data_warning": false
    },
    "urls": {
-    "source": "https://www.msn.com/es-co/noticias/nacional/medell%C3%ADn-ofrece-538-subsidios-para-comprar-vivienda-estos-son-los-requisitos/ar-AA2gPZ82",
+    "source": "https://www.msn.com/es-co/noticias/other/medell%C3%ADn-ofrece-538-subsidios-para-comprar-vivienda-estos-son-los-requisitos/ar-AA2gPZ82",
     "participate": null,
     "terms": null,
     "official": null,
@@ -5587,6 +5587,12 @@
      "name": "Noticias · subsidios de vivienda",
      "type": "news",
      "seen_at": "2026-11-18T16:19:13-05:00"
+    },
+    {
+     "url": "https://www.msn.com/es-co/noticias/other/medell%C3%ADn-ofrece-538-subsidios-para-comprar-vivienda-estos-son-los-requisitos/ar-AA2gPZ82",
+     "name": "Noticias · subsidios de vivienda",
+     "type": "news",
+     "seen_at": "2026-11-19T08:25:50-05:00"
     }
    ],
    "language": "es",
@@ -5598,8 +5604,8 @@
    },
    "discovered_at": "2026-11-18T16:19:13-05:00",
    "updated_at": "2026-11-18T16:19:13-05:00",
-   "last_verified": "2026-11-18T16:19:13-05:00",
-   "last_seen": "2026-11-18T16:19:13-05:00",
+   "last_verified": "2026-11-19T08:25:50-05:00",
+   "last_seen": "2026-11-19T08:25:50-05:00",
    "history": [],
    "priority": {
     "score": 69,
@@ -5760,7 +5766,7 @@
    "discovered_at": "2026-11-18T16:18:55-05:00",
    "updated_at": "2026-11-18T16:18:55-05:00",
    "last_verified": "2026-11-18T16:18:55-05:00",
-   "last_seen": "2026-11-18T21:46:59-05:00",
+   "last_seen": "2026-11-19T08:25:49-05:00",
    "history": [],
    "priority": {
     "score": 69,
@@ -5784,7 +5790,7 @@
      "vigencia": {
       "points": 9,
       "max": 10,
-      "note": "vence en 1 día(s): revisar ya"
+      "note": "vence en 0 día(s): revisar ya"
      },
      "cobertura": {
       "points": 10,
@@ -6122,7 +6128,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (65 días restantes)"
+      "note": "vigente (64 días restantes)"
      },
      "cobertura": {
       "points": 6,
@@ -6247,7 +6253,7 @@
    "discovered_at": "2026-11-18T17:21:45-05:00",
    "updated_at": "2026-11-18T17:21:45-05:00",
    "last_verified": "2026-11-18T17:21:45-05:00",
-   "last_seen": "2026-11-18T17:29:12-05:00",
+   "last_seen": "2026-11-19T08:25:49-05:00",
    "history": [],
    "priority": {
     "score": 68,
@@ -6405,7 +6411,7 @@
    "discovered_at": "2026-11-18T16:19:03-05:00",
    "updated_at": "2026-11-18T16:19:03-05:00",
    "last_verified": "2026-11-18T16:19:03-05:00",
-   "last_seen": "2026-11-18T21:46:59-05:00",
+   "last_seen": "2026-11-19T08:25:49-05:00",
    "history": [],
    "priority": {
     "score": 68,
@@ -6721,7 +6727,7 @@
    "discovered_at": "2026-11-18T16:18:52-05:00",
    "updated_at": "2026-11-18T16:18:52-05:00",
    "last_verified": "2026-11-18T16:18:52-05:00",
-   "last_seen": "2026-11-18T17:21:33-05:00",
+   "last_seen": "2026-11-19T08:25:49-05:00",
    "history": [],
    "priority": {
     "score": 67,
@@ -6882,7 +6888,7 @@
    "discovered_at": "2026-11-18T17:21:34-05:00",
    "updated_at": "2026-11-18T17:21:34-05:00",
    "last_verified": "2026-11-18T17:21:34-05:00",
-   "last_seen": "2026-11-18T21:46:59-05:00",
+   "last_seen": "2026-11-19T08:25:49-05:00",
    "history": [],
    "priority": {
     "score": 67,
@@ -6906,7 +6912,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (7 días restantes)"
+      "note": "vigente (6 días restantes)"
      },
      "cobertura": {
       "points": 5,
@@ -7540,7 +7546,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (58 días restantes)"
+      "note": "vigente (57 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -7683,7 +7689,7 @@
    "discovered_at": "2026-11-18T16:19:12-05:00",
    "updated_at": "2026-11-18T16:19:12-05:00",
    "last_verified": "2026-11-18T16:19:12-05:00",
-   "last_seen": "2026-11-18T16:19:12-05:00",
+   "last_seen": "2026-11-19T08:25:49-05:00",
    "history": [],
    "priority": {
     "score": 64,
@@ -7860,7 +7866,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (22 días restantes)"
+      "note": "vigente (21 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -7988,7 +7994,7 @@
    "discovered_at": "2026-11-18T16:19:12-05:00",
    "updated_at": "2026-11-18T16:19:12-05:00",
    "last_verified": "2026-11-18T16:19:12-05:00",
-   "last_seen": "2026-11-18T16:19:12-05:00",
+   "last_seen": "2026-11-19T08:25:49-05:00",
    "history": [],
    "priority": {
     "score": 63,
@@ -8136,7 +8142,7 @@
    "discovered_at": "2026-11-18T16:19:08-05:00",
    "updated_at": "2026-11-18T16:19:08-05:00",
    "last_verified": "2026-11-18T16:19:08-05:00",
-   "last_seen": "2026-11-18T16:19:08-05:00",
+   "last_seen": "2026-11-19T08:25:49-05:00",
    "history": [],
    "priority": {
     "score": 62,
@@ -8450,7 +8456,7 @@
    "discovered_at": "2026-11-18T16:19:11-05:00",
    "updated_at": "2026-11-18T16:19:11-05:00",
    "last_verified": "2026-11-18T16:19:11-05:00",
-   "last_seen": "2026-11-18T22:36:47-05:00",
+   "last_seen": "2026-11-19T08:25:49-05:00",
    "history": [],
    "priority": {
     "score": 62,
@@ -8599,7 +8605,7 @@
    "discovered_at": "2026-11-18T17:21:34-05:00",
    "updated_at": "2026-11-18T17:21:34-05:00",
    "last_verified": "2026-11-18T17:21:34-05:00",
-   "last_seen": "2026-11-18T21:46:59-05:00",
+   "last_seen": "2026-11-19T08:25:49-05:00",
    "history": [],
    "priority": {
     "score": 61,
@@ -8758,7 +8764,7 @@
    "discovered_at": "2026-11-18T16:18:58-05:00",
    "updated_at": "2026-11-18T16:18:58-05:00",
    "last_verified": "2026-11-18T16:18:58-05:00",
-   "last_seen": "2026-11-18T21:46:59-05:00",
+   "last_seen": "2026-11-19T08:25:49-05:00",
    "history": [],
    "priority": {
     "score": 60,
@@ -8952,6 +8958,155 @@
    }
   },
   {
+   "id": "op_089ec7286657",
+   "title": "1.024 deportistas cartageneros participarán en Liga Callejera de Golito",
+   "summary": "La iniciativa del IDER llegará a 64 calles de las tres localidades del Distrito",
+   "section": "estado",
+   "category": "jovenes",
+   "tags": [],
+   "mechanics": [],
+   "kind": "Programa público",
+   "organizer": {
+    "name": "Organizador no identificado",
+    "type": "desconocido",
+    "domain": null,
+    "known": false
+   },
+   "prize": {
+    "description": null,
+    "value_cop": null,
+    "value_text": null,
+    "value_source": null,
+    "winners": null,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "gratis_registro",
+    "label": "Gratis con registro",
+    "free": true,
+    "certainty": "inferido",
+    "requires_purchase": null,
+    "requires_registration": false,
+    "requires_social": false,
+    "requires_activity": false,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": null,
+    "notes": [
+     "No se encontró ninguna condición de compra en la fuente oficial (inferido, confírmalo en los términos)."
+    ]
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": null,
+    "age_text": null,
+    "coverage": "regional",
+    "cities": [
+     "Cartagena"
+    ]
+   },
+   "requirements": [],
+   "documents": [],
+   "steps": [],
+   "steps_source": null,
+   "dates": {
+    "published": "2026-11-19T08:06:40-05:00",
+    "start": null,
+    "end": null,
+    "draw": null
+   },
+   "status": "sin_confirmar",
+   "gov": {
+    "program_status": "sin_confirmar",
+    "entity": "Organizador no identificado"
+   },
+   "offer": null,
+   "verification": {
+    "status": "no_verificable",
+    "reasons": [
+     "Información insuficiente: sin organizador identificado, fechas ni enlace oficial."
+    ],
+    "checked_at": "2026-11-19T08:25:50-05:00",
+    "link_ok": null,
+    "official_domain": false,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://caracol.com.co/2026/11/19/1024-deportistas-cartageneros-participaran-en-liga-callejera-de-golito/",
+    "participate": null,
+    "terms": null,
+    "official": null,
+    "image": "https://caracol.com.co/resizer/v2/5LKZ7CFAF5CGFBPHWOI4CFVQCU.jpg?auth=c12c93e1a617cb1763baeecea2480ce753e418782d11aebc81613a9aae548c44&quality=70&width=1200&height=675&focal=866,533"
+   },
+   "sources": [
+    {
+     "url": "https://caracol.com.co/2026/11/19/1024-deportistas-cartageneros-participaran-en-liga-callejera-de-golito/",
+     "name": "Caracol Radio (feed)",
+     "type": "news",
+     "seen_at": "2026-11-19T08:25:50-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 0.37,
+    "model": null
+   },
+   "discovered_at": "2026-11-19T08:25:50-05:00",
+   "updated_at": "2026-11-19T08:25:50-05:00",
+   "last_verified": "2026-11-19T08:25:50-05:00",
+   "last_seen": "2026-11-19T08:25:50-05:00",
+   "history": [],
+   "priority": {
+    "score": 59,
+    "level": "media",
+    "breakdown": {
+     "valor": {
+      "points": 9,
+      "max": 25,
+      "note": "valor no publicado"
+     },
+     "gratuidad": {
+      "points": 22,
+      "max": 25,
+      "note": "gratis_registro"
+     },
+     "facilidad": {
+      "points": 15,
+      "max": 15,
+      "note": "pocos requisitos"
+     },
+     "vigencia": {
+      "points": 5,
+      "max": 10,
+      "note": "sin fecha límite publicada"
+     },
+     "cobertura": {
+      "points": 5,
+      "max": 10,
+      "note": "regional"
+     },
+     "credibilidad": {
+      "points": 2,
+      "max": 10,
+      "note": "no_verificable"
+     },
+     "claridad": {
+      "points": 1,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
    "id": "op_56de05d024b2",
    "title": "Aqualia abre convocatoria de su Premio de Periodismo 2026: entregará premios de hasta $11 millones",
    "summary": "Los periodistas colombianos tendrán una nueva oportunidad de obtener reconocimiento internacional por sus trabajos sobre el medioambiente y la gestión de los",
@@ -9057,7 +9212,7 @@
    "discovered_at": "2026-11-18T17:21:46-05:00",
    "updated_at": "2026-11-18T17:21:46-05:00",
    "last_verified": "2026-11-18T17:21:46-05:00",
-   "last_seen": "2026-11-18T17:29:12-05:00",
+   "last_seen": "2026-11-19T08:25:49-05:00",
    "history": [],
    "priority": {
     "score": 58,
@@ -9081,7 +9236,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (102 días restantes)"
+      "note": "vigente (101 días restantes)"
      },
      "cobertura": {
       "points": 5,
@@ -9219,7 +9374,7 @@
    "discovered_at": "2026-11-18T16:18:44-05:00",
    "updated_at": "2026-11-18T16:18:44-05:00",
    "last_verified": "2026-11-18T16:18:44-05:00",
-   "last_seen": "2026-11-18T17:21:33-05:00",
+   "last_seen": "2026-11-19T08:25:49-05:00",
    "history": [],
    "priority": {
     "score": 57,
@@ -9243,7 +9398,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (28 días restantes)"
+      "note": "vigente (27 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -9385,7 +9540,7 @@
    "discovered_at": "2026-11-18T16:19:08-05:00",
    "updated_at": "2026-11-18T16:19:08-05:00",
    "last_verified": "2026-11-18T16:19:08-05:00",
-   "last_seen": "2026-11-18T16:19:08-05:00",
+   "last_seen": "2026-11-19T08:25:49-05:00",
    "history": [],
    "priority": {
     "score": 57,
@@ -9555,7 +9710,7 @@
    "discovered_at": "2026-11-18T16:18:40-05:00",
    "updated_at": "2026-11-18T16:18:40-05:00",
    "last_verified": "2026-11-18T16:18:40-05:00",
-   "last_seen": "2026-11-18T17:21:33-05:00",
+   "last_seen": "2026-11-19T08:25:49-05:00",
    "history": [],
    "priority": {
     "score": 55,
@@ -9579,7 +9734,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (43 días restantes)"
+      "note": "vigente (42 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -9732,7 +9887,7 @@
    "discovered_at": "2026-11-18T16:18:36-05:00",
    "updated_at": "2026-11-18T16:18:36-05:00",
    "last_verified": "2026-11-18T16:18:36-05:00",
-   "last_seen": "2026-11-18T17:21:33-05:00",
+   "last_seen": "2026-11-19T08:25:49-05:00",
    "history": [],
    "priority": {
     "score": 55,
@@ -9756,7 +9911,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (43 días restantes)"
+      "note": "vigente (42 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -9884,7 +10039,7 @@
    "discovered_at": "2026-11-18T17:21:48-05:00",
    "updated_at": "2026-11-18T17:21:48-05:00",
    "last_verified": "2026-11-18T17:21:48-05:00",
-   "last_seen": "2026-11-18T21:46:59-05:00",
+   "last_seen": "2026-11-19T08:25:49-05:00",
    "history": [],
    "priority": {
     "score": 55,
@@ -10060,7 +10215,7 @@
      "vigencia": {
       "points": 9,
       "max": 10,
-      "note": "vence en 2 día(s): revisar ya"
+      "note": "vence en 1 día(s): revisar ya"
      },
      "cobertura": {
       "points": 5,
@@ -10207,7 +10362,7 @@
    "discovered_at": "2026-11-18T16:18:39-05:00",
    "updated_at": "2026-11-18T16:18:39-05:00",
    "last_verified": "2026-11-18T16:18:39-05:00",
-   "last_seen": "2026-11-18T17:21:33-05:00",
+   "last_seen": "2026-11-19T08:25:49-05:00",
    "history": [],
    "priority": {
     "score": 55,
@@ -10231,7 +10386,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (43 días restantes)"
+      "note": "vigente (42 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -10380,7 +10535,7 @@
      "vigencia": {
       "points": 9,
       "max": 10,
-      "note": "vence en 3 día(s): revisar ya"
+      "note": "vence en 2 día(s): revisar ya"
      },
      "cobertura": {
       "points": 10,
@@ -10524,7 +10679,7 @@
    "discovered_at": "2026-11-18T16:18:44-05:00",
    "updated_at": "2026-11-18T16:18:44-05:00",
    "last_verified": "2026-11-18T16:18:44-05:00",
-   "last_seen": "2026-11-18T17:21:33-05:00",
+   "last_seen": "2026-11-19T08:25:49-05:00",
    "history": [],
    "priority": {
     "score": 54,
@@ -10689,7 +10844,7 @@
    "discovered_at": "2026-11-18T16:18:37-05:00",
    "updated_at": "2026-11-18T16:18:37-05:00",
    "last_verified": "2026-11-18T16:18:37-05:00",
-   "last_seen": "2026-11-18T17:21:33-05:00",
+   "last_seen": "2026-11-19T08:25:49-05:00",
    "history": [],
    "priority": {
     "score": 53,
@@ -10713,7 +10868,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (139 días restantes)"
+      "note": "vigente (138 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -10855,7 +11010,7 @@
    "discovered_at": "2026-11-18T16:18:38-05:00",
    "updated_at": "2026-11-18T16:18:38-05:00",
    "last_verified": "2026-11-18T16:18:38-05:00",
-   "last_seen": "2026-11-18T17:21:33-05:00",
+   "last_seen": "2026-11-19T08:25:49-05:00",
    "history": [],
    "priority": {
     "score": 53,
@@ -10879,7 +11034,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (43 días restantes)"
+      "note": "vigente (42 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -11169,7 +11324,7 @@
    "discovered_at": "2026-11-18T16:18:42-05:00",
    "updated_at": "2026-11-18T16:18:42-05:00",
    "last_verified": "2026-11-18T16:18:42-05:00",
-   "last_seen": "2026-11-18T17:21:33-05:00",
+   "last_seen": "2026-11-19T08:25:49-05:00",
    "history": [],
    "priority": {
     "score": 51,
@@ -11193,7 +11348,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (133 días restantes)"
+      "note": "vigente (132 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -11329,7 +11484,7 @@
    "discovered_at": "2026-11-18T16:18:43-05:00",
    "updated_at": "2026-11-18T16:18:43-05:00",
    "last_verified": "2026-11-18T16:18:43-05:00",
-   "last_seen": "2026-11-18T17:21:33-05:00",
+   "last_seen": "2026-11-19T08:25:49-05:00",
    "history": [],
    "priority": {
     "score": 50,
@@ -11353,7 +11508,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (7 días restantes)"
+      "note": "vigente (6 días restantes)"
      },
      "cobertura": {
       "points": 10,
