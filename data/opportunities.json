@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-18T17:29:14-05:00",
- "count": 72,
+ "generated_at": "2026-11-18T21:47:00-05:00",
+ "count": 73,
  "items": [
   {
    "id": "op_72402b2d44f8",
@@ -114,7 +114,7 @@
    "discovered_at": "2026-11-18T17:21:34-05:00",
    "updated_at": "2026-11-18T17:21:34-05:00",
    "last_verified": "2026-11-18T17:21:34-05:00",
-   "last_seen": "2026-11-18T17:21:34-05:00",
+   "last_seen": "2026-11-18T21:46:59-05:00",
    "history": [],
    "priority": {
     "score": 84,
@@ -267,7 +267,7 @@
    "discovered_at": "2026-11-18T16:18:57-05:00",
    "updated_at": "2026-11-18T16:18:57-05:00",
    "last_verified": "2026-11-18T16:18:57-05:00",
-   "last_seen": "2026-11-18T17:21:33-05:00",
+   "last_seen": "2026-11-18T21:46:59-05:00",
    "history": [],
    "priority": {
     "score": 82,
@@ -577,7 +577,7 @@
    "discovered_at": "2026-11-18T16:19:00-05:00",
    "updated_at": "2026-11-18T16:19:00-05:00",
    "last_verified": "2026-11-18T16:19:00-05:00",
-   "last_seen": "2026-11-18T17:21:33-05:00",
+   "last_seen": "2026-11-18T21:46:59-05:00",
    "history": [],
    "priority": {
     "score": 79,
@@ -893,7 +893,7 @@
    "discovered_at": "2026-11-18T16:19:02-05:00",
    "updated_at": "2026-11-18T16:19:02-05:00",
    "last_verified": "2026-11-18T16:19:02-05:00",
-   "last_seen": "2026-11-18T17:21:33-05:00",
+   "last_seen": "2026-11-18T21:46:59-05:00",
    "history": [],
    "priority": {
     "score": 77,
@@ -1048,7 +1048,7 @@
    "discovered_at": "2026-11-18T16:18:56-05:00",
    "updated_at": "2026-11-18T16:18:56-05:00",
    "last_verified": "2026-11-18T16:18:56-05:00",
-   "last_seen": "2026-11-18T17:21:33-05:00",
+   "last_seen": "2026-11-18T21:46:59-05:00",
    "history": [],
    "priority": {
     "score": 77,
@@ -4071,6 +4071,158 @@
    }
   },
   {
+   "id": "op_cdbe47a848e6",
+   "title": "Convocatoria Navidad es Cultura 2026: incentivos de hasta 20 millones para artistas locales",
+   "summary": "Serán tres las convocatorias para combinar el talento artístico local con las actividades programadas para Navidad en Bogotá",
+   "section": "estado",
+   "category": "cultura",
+   "tags": [
+    "Convocatorias públicas",
+    "Cultura y estímulos"
+   ],
+   "mechanics": [],
+   "kind": "Programa público",
+   "organizer": {
+    "name": "Organizador no identificado",
+    "type": "desconocido",
+    "domain": null,
+    "known": false
+   },
+   "prize": {
+    "description": null,
+    "value_cop": null,
+    "value_text": null,
+    "value_source": null,
+    "winners": null,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "gratis_registro",
+    "label": "Gratis con registro",
+    "free": true,
+    "certainty": "inferido",
+    "requires_purchase": null,
+    "requires_registration": true,
+    "requires_social": false,
+    "requires_activity": false,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": null,
+    "notes": [
+     "No se encontró ninguna condición de compra en la fuente oficial (inferido, confírmalo en los términos)."
+    ]
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": null,
+    "age_text": null,
+    "coverage": "bogota",
+    "cities": [
+     "Bogotá"
+    ]
+   },
+   "requirements": [],
+   "documents": [],
+   "steps": [],
+   "steps_source": null,
+   "dates": {
+    "published": "2026-11-18T20:31:32-05:00",
+    "start": null,
+    "end": "2026-11-25",
+    "draw": null
+   },
+   "status": "activa",
+   "gov": {
+    "program_status": "abierta",
+    "entity": "Organizador no identificado"
+   },
+   "offer": null,
+   "verification": {
+    "status": "pendiente",
+    "reasons": [
+     "Organizador no identificado con certeza."
+    ],
+    "checked_at": "2026-11-18T21:46:59-05:00",
+    "link_ok": null,
+    "official_domain": false,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://caracol.com.co/2026/11/19/convocatoria-navidad-es-cultura-2026-incentivos-de-hasta-20-millones-para-artistas-locales/",
+    "participate": null,
+    "terms": null,
+    "official": null,
+    "image": "https://caracol.com.co/resizer/v2/2ATRN3AFUZEJDC6Q5U4BM37GMI.jpeg?auth=7349a0bfd78a6bcb016d2151ee9174459a7f7685cc0e0e0c509de42ef11df5f3&quality=70&width=1200&height=675&smart=true"
+   },
+   "sources": [
+    {
+     "url": "https://caracol.com.co/2026/11/19/convocatoria-navidad-es-cultura-2026-incentivos-de-hasta-20-millones-para-artistas-locales/",
+     "name": "Caracol Radio (feed)",
+     "type": "news",
+     "seen_at": "2026-11-18T21:46:59-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 0.73,
+    "model": null
+   },
+   "discovered_at": "2026-11-18T21:46:59-05:00",
+   "updated_at": "2026-11-18T21:46:59-05:00",
+   "last_verified": "2026-11-18T21:46:59-05:00",
+   "last_seen": "2026-11-18T21:46:59-05:00",
+   "history": [],
+   "priority": {
+    "score": 71,
+    "level": "alta",
+    "breakdown": {
+     "valor": {
+      "points": 9,
+      "max": 25,
+      "note": "valor no publicado"
+     },
+     "gratuidad": {
+      "points": 22,
+      "max": 25,
+      "note": "gratis_registro"
+     },
+     "facilidad": {
+      "points": 13,
+      "max": 15,
+      "note": "registro"
+     },
+     "vigencia": {
+      "points": 10,
+      "max": 10,
+      "note": "vigente (7 días restantes)"
+     },
+     "cobertura": {
+      "points": 10,
+      "max": 10,
+      "note": "bogota"
+     },
+     "credibilidad": {
+      "points": 6,
+      "max": 10,
+      "note": "pendiente"
+     },
+     "claridad": {
+      "points": 1,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
    "id": "op_ed618570ffe8",
    "title": "Medellín abrió más de 500 subsidios de vivienda para familias y jóvenes: los apoyos superan los 30 millones de pesos",
    "summary": "La ciudad ofrece alternativas para quienes buscan comprar casa nueva, completar la cuota inicial o realizar mejoras, con requisitos claros y canales de inscripción activos hasta noviembre de 2026 para varios programas.",
@@ -4342,7 +4494,7 @@
    "discovered_at": "2026-11-18T16:18:58-05:00",
    "updated_at": "2026-11-18T16:18:58-05:00",
    "last_verified": "2026-11-18T16:18:58-05:00",
-   "last_seen": "2026-11-18T17:21:33-05:00",
+   "last_seen": "2026-11-18T21:46:59-05:00",
    "history": [],
    "priority": {
     "score": 70,
@@ -4496,7 +4648,7 @@
    "discovered_at": "2026-11-18T16:19:04-05:00",
    "updated_at": "2026-11-18T16:19:04-05:00",
    "last_verified": "2026-11-18T16:19:04-05:00",
-   "last_seen": "2026-11-18T17:21:33-05:00",
+   "last_seen": "2026-11-18T21:46:59-05:00",
    "history": [],
    "priority": {
     "score": 70,
@@ -5280,7 +5432,7 @@
    "discovered_at": "2026-11-18T16:18:55-05:00",
    "updated_at": "2026-11-18T16:18:55-05:00",
    "last_verified": "2026-11-18T16:18:55-05:00",
-   "last_seen": "2026-11-18T17:21:33-05:00",
+   "last_seen": "2026-11-18T21:46:59-05:00",
    "history": [],
    "priority": {
     "score": 69,
@@ -5465,7 +5617,7 @@
    "discovered_at": "2026-11-18T16:19:10-05:00",
    "updated_at": "2026-11-18T16:19:10-05:00",
    "last_verified": "2026-11-18T17:21:33-05:00",
-   "last_seen": "2026-11-18T17:29:12-05:00",
+   "last_seen": "2026-11-18T21:46:59-05:00",
    "history": [],
    "priority": {
     "score": 68,
@@ -5925,7 +6077,7 @@
    "discovered_at": "2026-11-18T16:19:03-05:00",
    "updated_at": "2026-11-18T16:19:03-05:00",
    "last_verified": "2026-11-18T16:19:03-05:00",
-   "last_seen": "2026-11-18T17:21:33-05:00",
+   "last_seen": "2026-11-18T21:46:59-05:00",
    "history": [],
    "priority": {
     "score": 68,
@@ -6402,7 +6554,7 @@
    "discovered_at": "2026-11-18T17:21:34-05:00",
    "updated_at": "2026-11-18T17:21:34-05:00",
    "last_verified": "2026-11-18T17:21:34-05:00",
-   "last_seen": "2026-11-18T17:29:12-05:00",
+   "last_seen": "2026-11-18T21:46:59-05:00",
    "history": [],
    "priority": {
     "score": 67,
@@ -7963,7 +8115,7 @@
    "discovered_at": "2026-11-18T17:21:34-05:00",
    "updated_at": "2026-11-18T17:21:34-05:00",
    "last_verified": "2026-11-18T17:21:34-05:00",
-   "last_seen": "2026-11-18T17:29:12-05:00",
+   "last_seen": "2026-11-18T21:46:59-05:00",
    "history": [],
    "priority": {
     "score": 61,
@@ -8122,7 +8274,7 @@
    "discovered_at": "2026-11-18T16:18:58-05:00",
    "updated_at": "2026-11-18T16:18:58-05:00",
    "last_verified": "2026-11-18T16:18:58-05:00",
-   "last_seen": "2026-11-18T17:21:33-05:00",
+   "last_seen": "2026-11-18T21:46:59-05:00",
    "history": [],
    "priority": {
     "score": 60,
@@ -9248,7 +9400,7 @@
    "discovered_at": "2026-11-18T17:21:48-05:00",
    "updated_at": "2026-11-18T17:21:48-05:00",
    "last_verified": "2026-11-18T17:21:48-05:00",
-   "last_seen": "2026-11-18T17:21:48-05:00",
+   "last_seen": "2026-11-18T21:46:59-05:00",
    "history": [],
    "priority": {
     "score": 55,
@@ -11000,7 +11152,7 @@
    "discovered_at": "2026-11-18T16:19:07-05:00",
    "updated_at": "2026-11-18T16:19:07-05:00",
    "last_verified": "2026-11-18T16:19:07-05:00",
-   "last_seen": "2026-11-18T16:19:07-05:00",
+   "last_seen": "2026-11-18T21:46:59-05:00",
    "history": [],
    "priority": {
     "score": 43,
@@ -11152,7 +11304,7 @@
    "discovered_at": "2026-11-18T16:19:11-05:00",
    "updated_at": "2026-11-18T16:19:11-05:00",
    "last_verified": "2026-11-18T16:19:11-05:00",
-   "last_seen": "2026-11-18T16:19:11-05:00",
+   "last_seen": "2026-11-18T21:46:59-05:00",
    "history": [],
    "priority": {
     "score": 42,
@@ -11305,7 +11457,7 @@
    "discovered_at": "2026-11-18T16:19:12-05:00",
    "updated_at": "2026-11-18T16:19:12-05:00",
    "last_verified": "2026-11-18T16:19:12-05:00",
-   "last_seen": "2026-11-18T16:19:12-05:00",
+   "last_seen": "2026-11-18T21:46:59-05:00",
    "history": [],
    "priority": {
     "score": 33,
