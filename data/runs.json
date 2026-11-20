@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T08:04:57-05:00",
+ "generated_at": "2026-11-20T16:57:17-05:00",
  "runs": [
   {
    "id": "20261118-161736",
@@ -801,6 +801,89 @@
    },
    "git_sha": "48191f4",
    "run_url": "https://github.com/Daniel01010101010101/opportunities/actions/runs/44740722669"
+  },
+  {
+   "id": "20261120-165127",
+   "started_at": "2026-11-20T16:51:27-05:00",
+   "finished_at": "2026-11-20T16:57:17-05:00",
+   "duration_s": 350.1,
+   "trigger": "schedule",
+   "category": null,
+   "query": null,
+   "status": "parcial",
+   "sources_checked": 98,
+   "sources_ok": 91,
+   "sources_failed": [
+    {
+     "id": "wp-eje21",
+     "error": "HTTP 403; HTTP 403"
+    },
+    {
+     "id": "gd-concursos",
+     "error": "GDELT limitó la consulta (429); se reintentará en la próxima ejecución"
+    }
+   ],
+   "sources_skipped": [
+    {
+     "id": "cse-sorteos",
+     "reason": "requiere los secretos GOOGLE_CSE_KEY y GOOGLE_CSE_CX"
+    },
+    {
+     "id": "brave-sorteos",
+     "reason": "requiere el secreto BRAVE_API_KEY"
+    },
+    {
+     "id": "cse-convocatorias",
+     "reason": "requiere los secretos GOOGLE_CSE_KEY y GOOGLE_CSE_CX"
+    },
+    {
+     "id": "cse-bonos-gasolina",
+     "reason": "requiere los secretos GOOGLE_CSE_KEY y GOOGLE_CSE_CX"
+    },
+    {
+     "id": "brave-gratis",
+     "reason": "requiere el secreto BRAVE_API_KEY"
+    }
+   ],
+   "new": 12,
+   "updated": 1,
+   "unchanged": 0,
+   "discarded": 51,
+   "discard_reasons": {
+    "búsqueda de concursos: el título no anuncia una convocatoria abierta": 23,
+    "nota sobre ganadores o resultados, no es una convocatoria abierta": 12,
+    "noticia antigua (más de 30 días)": 3,
+    "no describe una oportunidad aprovechable (el título no describe una oportunidad (posible comunicado de prensa))": 3,
+    "no aplica en Colombia (medio de otro país (.cl))": 3,
+    "no aplica en Colombia (no menciona Colombia)": 3,
+    "título sin señales de oportunidad o con señales negativas": 1,
+    "noticia antigua (más de 90 días)": 1
+   },
+   "expired": 0,
+   "reverified": 40,
+   "archived": 0,
+   "purged": 0,
+   "http_requests": 182,
+   "robots_blocked": 0,
+   "errors": [
+    "Fuente Eje21: HTTP 403; HTTP 403",
+    "Fuente GDELT · concursos en medios colombianos: GDELT limitó la consulta (429); se reintentará en la próxima ejecución"
+   ],
+   "llm": {
+    "enabled": false,
+    "model": null,
+    "calls": 0,
+    "errors": 0,
+    "input_tokens": 0,
+    "output_tokens": 0
+   },
+   "alerts": {
+    "telegram": "no_configurado",
+    "email": "no_configurado",
+    "sent": 0
+   },
+   "git_sha": "48191f4",
+   "run_url": "https://github.com/Daniel01010101010101/opportunities/actions/runs/44823943428"
   }
  ]
 }
