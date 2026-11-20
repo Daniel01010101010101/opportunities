@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T17:17:50-05:00",
+ "generated_at": "2026-11-19T22:29:47-05:00",
  "changes": [
   {
    "at": "2026-11-18T17:21:56-05:00",
@@ -9,6 +9,15 @@
    "to": "2026-01-01",
    "id": "op_69958052fdc3",
    "title": "Colpensiones sorteará 1.002 bonos de hasta $217 millones: así puede participar y estos son los requisitos"
+  },
+  {
+   "at": "2026-11-19T22:29:30-05:00",
+   "field": "dates.end",
+   "label": "Fecha de finalización",
+   "from": "2026-11-30",
+   "to": "2026-12-11",
+   "id": "op_1c2420506fa0",
+   "title": "La Alcaldía de Medellín amplía su oferta de vivienda con más de 500 subsidios para familias y jóvenes"
   }
  ]
 }
