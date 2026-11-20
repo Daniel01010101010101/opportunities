@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T22:29:47-05:00",
+ "generated_at": "2026-11-20T08:04:57-05:00",
  "changes": [
   {
    "at": "2026-11-18T17:21:56-05:00",
@@ -18,6 +18,33 @@
    "to": "2026-12-11",
    "id": "op_1c2420506fa0",
    "title": "La Alcaldía de Medellín amplía su oferta de vivienda con más de 500 subsidios para familias y jóvenes"
+  },
+  {
+   "at": "2026-11-20T08:04:57-05:00",
+   "field": "status",
+   "label": "Estado",
+   "from": "activa",
+   "to": "vencida",
+   "id": "op_a26a6332e228",
+   "title": "Misión gta: conquista el mejor puntaje"
+  },
+  {
+   "at": "2026-11-20T08:04:57-05:00",
+   "field": "status",
+   "label": "Estado",
+   "from": "activa",
+   "to": "vencida",
+   "id": "op_da976636b48f",
+   "title": "Paro nacional del 19 de noviembre en Colombia, estos son los sindicatos que no participarán en las movilizaciones convocadas por la…"
+  },
+  {
+   "at": "2026-11-20T08:04:57-05:00",
+   "field": "status",
+   "label": "Estado",
+   "from": "proxima",
+   "to": "activa",
+   "id": "op_aa8036205edf",
+   "title": "Concurso DIAN 2676: CNSC anunció la fecha de publicación de resultados de pruebas escritas"
   }
  ]
 }

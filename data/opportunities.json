@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-19T22:29:47-05:00",
- "count": 90,
+ "generated_at": "2026-11-20T08:04:57-05:00",
+ "count": 95,
  "items": [
   {
    "id": "op_72402b2d44f8",
@@ -114,7 +114,7 @@
    "discovered_at": "2026-11-18T17:21:34-05:00",
    "updated_at": "2026-11-18T17:21:34-05:00",
    "last_verified": "2026-11-19T22:29:33-05:00",
-   "last_seen": "2026-11-19T22:29:19-05:00",
+   "last_seen": "2026-11-20T08:04:54-05:00",
    "history": [],
    "priority": {
     "score": 84,
@@ -138,7 +138,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (29 días restantes)"
+      "note": "vigente (28 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -271,7 +271,7 @@
    "discovered_at": "2026-11-19T17:17:13-05:00",
    "updated_at": "2026-11-19T17:17:13-05:00",
    "last_verified": "2026-11-19T17:17:13-05:00",
-   "last_seen": "2026-11-19T22:29:19-05:00",
+   "last_seen": "2026-11-20T08:04:54-05:00",
    "history": [],
    "priority": {
     "score": 83,
@@ -295,7 +295,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (15 días restantes)"
+      "note": "vigente (14 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -448,7 +448,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (6 días restantes)"
+      "note": "vigente (5 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -758,7 +758,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (56 días restantes)"
+      "note": "vigente (55 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -895,7 +895,7 @@
    "discovered_at": "2026-11-18T17:21:44-05:00",
    "updated_at": "2026-11-18T17:21:44-05:00",
    "last_verified": "2026-11-19T22:29:40-05:00",
-   "last_seen": "2026-11-19T17:17:08-05:00",
+   "last_seen": "2026-11-20T08:04:54-05:00",
    "history": [],
    "priority": {
     "score": 77,
@@ -1050,7 +1050,7 @@
    "discovered_at": "2026-11-19T17:17:12-05:00",
    "updated_at": "2026-11-19T17:17:12-05:00",
    "last_verified": "2026-11-19T17:17:12-05:00",
-   "last_seen": "2026-11-19T22:29:19-05:00",
+   "last_seen": "2026-11-20T08:04:54-05:00",
    "history": [],
    "priority": {
     "score": 77,
@@ -1074,7 +1074,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (11 días restantes)"
+      "note": "vigente (10 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -1229,7 +1229,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (73 días restantes)"
+      "note": "vigente (72 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -1360,7 +1360,7 @@
    "discovered_at": "2026-11-18T16:18:56-05:00",
    "updated_at": "2026-11-18T16:18:56-05:00",
    "last_verified": "2026-11-19T17:17:31-05:00",
-   "last_seen": "2026-11-19T22:29:19-05:00",
+   "last_seen": "2026-11-20T08:04:54-05:00",
    "history": [],
    "priority": {
     "score": 77,
@@ -1384,7 +1384,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (20 días restantes)"
+      "note": "vigente (19 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -1527,7 +1527,7 @@
    "discovered_at": "2026-11-18T22:36:49-05:00",
    "updated_at": "2026-11-18T22:36:49-05:00",
    "last_verified": "2026-11-19T22:29:45-05:00",
-   "last_seen": "2026-11-18T22:36:49-05:00",
+   "last_seen": "2026-11-20T08:04:54-05:00",
    "history": [],
    "priority": {
     "score": 76,
@@ -1551,7 +1551,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (90 días restantes)"
+      "note": "vigente (89 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -1719,7 +1719,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (22 días restantes)"
+      "note": "vigente (21 días restantes)"
      },
      "cobertura": {
       "points": 5,
@@ -1890,7 +1890,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (42 días restantes)"
+      "note": "vigente (41 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -2019,7 +2019,7 @@
    "discovered_at": "2026-11-19T17:17:08-05:00",
    "updated_at": "2026-11-19T17:17:08-05:00",
    "last_verified": "2026-11-19T17:17:08-05:00",
-   "last_seen": "2026-11-19T22:29:19-05:00",
+   "last_seen": "2026-11-20T08:04:54-05:00",
    "history": [],
    "priority": {
     "score": 75,
@@ -2043,7 +2043,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (88 días restantes)"
+      "note": "vigente (87 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -2193,7 +2193,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (103 días restantes)"
+      "note": "vigente (102 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -2512,7 +2512,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (60 días restantes)"
+      "note": "vigente (59 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -2641,7 +2641,7 @@
    "discovered_at": "2026-11-19T17:17:10-05:00",
    "updated_at": "2026-11-19T17:17:10-05:00",
    "last_verified": "2026-11-19T17:17:10-05:00",
-   "last_seen": "2026-11-19T22:29:19-05:00",
+   "last_seen": "2026-11-20T08:04:54-05:00",
    "history": [],
    "priority": {
     "score": 75,
@@ -2796,7 +2796,7 @@
    "discovered_at": "2026-11-18T16:19:04-05:00",
    "updated_at": "2026-11-18T16:19:04-05:00",
    "last_verified": "2026-11-19T22:29:45-05:00",
-   "last_seen": "2026-11-18T22:36:47-05:00",
+   "last_seen": "2026-11-20T08:04:54-05:00",
    "history": [],
    "priority": {
     "score": 75,
@@ -3250,7 +3250,7 @@
    "discovered_at": "2026-11-18T16:19:08-05:00",
    "updated_at": "2026-11-18T16:19:08-05:00",
    "last_verified": "2026-11-19T17:17:46-05:00",
-   "last_seen": "2026-11-18T16:19:08-05:00",
+   "last_seen": "2026-11-20T08:04:54-05:00",
    "history": [],
    "priority": {
     "score": 73,
@@ -3274,7 +3274,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (6 días restantes)"
+      "note": "vigente (5 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -3405,7 +3405,7 @@
    "discovered_at": "2026-11-19T17:17:09-05:00",
    "updated_at": "2026-11-19T17:17:09-05:00",
    "last_verified": "2026-11-19T17:17:09-05:00",
-   "last_seen": "2026-11-19T22:29:19-05:00",
+   "last_seen": "2026-11-20T08:04:54-05:00",
    "history": [],
    "priority": {
     "score": 73,
@@ -3429,7 +3429,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (95 días restantes)"
+      "note": "vigente (94 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -3586,7 +3586,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (6 días restantes)"
+      "note": "vigente (5 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -4227,7 +4227,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (42 días restantes)"
+      "note": "vigente (41 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -4674,7 +4674,7 @@
    "discovered_at": "2026-11-18T16:19:12-05:00",
    "updated_at": "2026-11-18T16:19:12-05:00",
    "last_verified": "2026-11-19T22:29:28-05:00",
-   "last_seen": "2026-11-18T22:36:47-05:00",
+   "last_seen": "2026-11-20T08:04:54-05:00",
    "history": [],
    "priority": {
     "score": 72,
@@ -4830,7 +4830,7 @@
    "discovered_at": "2026-11-18T16:19:08-05:00",
    "updated_at": "2026-11-18T16:19:08-05:00",
    "last_verified": "2026-11-19T17:17:47-05:00",
-   "last_seen": "2026-11-18T22:36:47-05:00",
+   "last_seen": "2026-11-20T08:04:54-05:00",
    "history": [],
    "priority": {
     "score": 71,
@@ -4980,7 +4980,7 @@
    "discovered_at": "2026-11-18T16:19:13-05:00",
    "updated_at": "2026-11-18T16:19:13-05:00",
    "last_verified": "2026-11-19T22:29:30-05:00",
-   "last_seen": "2026-11-18T22:36:47-05:00",
+   "last_seen": "2026-11-20T08:04:54-05:00",
    "history": [],
    "priority": {
     "score": 71,
@@ -5156,7 +5156,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (6 días restantes)"
+      "note": "vigente (5 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -5320,7 +5320,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (11 días restantes)"
+      "note": "vigente (10 días restantes)"
      },
      "cobertura": {
       "points": 5,
@@ -5637,6 +5637,166 @@
       "points": 10,
       "max": 10,
       "note": "verificada"
+     },
+     "claridad": {
+      "points": 1,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
+   "id": "op_92df3eb814f1",
+   "title": "Icetex y Universitat Oberta de Catalunya abren convocatoria de 50 becas para maestrías virtuales hasta 2026",
+   "summary": "Icetex y UOC ofrecen 50 becas para maestrías virtuales, cubriendo 45% de la matrícula. Requisitos, plazos y programas ¡Infórmate!",
+   "section": "estado",
+   "category": "becas",
+   "tags": [
+    "Becas y educación",
+    "Convocatorias públicas"
+   ],
+   "mechanics": [],
+   "kind": "Programa público",
+   "organizer": {
+    "name": "ICETEX",
+    "type": "gobierno",
+    "domain": "icetex.gov.co",
+    "known": true
+   },
+   "prize": {
+    "description": null,
+    "value_cop": null,
+    "value_text": null,
+    "value_source": null,
+    "winners": 50,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "gratis_registro",
+    "label": "Gratis con registro",
+    "free": true,
+    "certainty": "inferido",
+    "requires_purchase": null,
+    "requires_registration": true,
+    "requires_social": true,
+    "requires_activity": true,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": null,
+    "notes": [
+     "Pide interactuar en redes sociales (seguir, comentar o etiquetar).",
+     "No se encontró ninguna condición de compra en la fuente oficial (inferido, confírmalo en los términos)."
+    ]
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": 21,
+    "age_text": "mayores de 21 años",
+    "coverage": "nacional",
+    "cities": []
+   },
+   "requirements": [
+    "De acuerdo con el Icetex, las personas interesadas deben ser mayores de 21 años y menores de 65 años, contar con título universitario de pregrado y haber tenido un promedio mínimo de 3,6 sobre 5,0 en su carrera, sin…",
+    "Puede hallar más información y requisitos detallados en el sitio web oficial del Icetex.",
+    "Sin embargo, no aplica para tasas de gestión, servicios de apoyo o asignaturas que deban repetirse;"
+   ],
+   "documents": [
+    "Documento de identidad (cédula)",
+    "Certificado de notas",
+    "Hoja de vida",
+    "Carta de motivación"
+   ],
+   "steps": [],
+   "steps_source": null,
+   "dates": {
+    "published": "2026-11-19T16:50:46-05:00",
+    "start": null,
+    "end": "2026-12-16",
+    "draw": null
+   },
+   "status": "activa",
+   "gov": {
+    "program_status": "abierta",
+    "entity": "ICETEX"
+   },
+   "offer": null,
+   "verification": {
+    "status": "pendiente",
+    "reasons": [
+     "Falta confirmar condiciones en la página oficial."
+    ],
+    "checked_at": "2026-11-20T08:04:55-05:00",
+    "link_ok": null,
+    "official_domain": false,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://www.pulzo.com/empleo/becas-icetex-2026-para-maestrias-virtuales-uoc-requisitos-fechas-y-programas-desde-colombia-PP5359771A",
+    "participate": null,
+    "terms": null,
+    "official": null,
+    "image": "https://d2yoo3qu6vrk5d.cloudfront.net/pulzo-lite/images-resized/PP5359771A-h-o.jpg"
+   },
+   "sources": [
+    {
+     "url": "https://www.pulzo.com/empleo/becas-icetex-2026-para-maestrias-virtuales-uoc-requisitos-fechas-y-programas-desde-colombia-PP5359771A",
+     "name": "Noticias · ICETEX y becas",
+     "type": "news",
+     "seen_at": "2026-11-20T08:04:55-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 1.0,
+    "model": null
+   },
+   "discovered_at": "2026-11-20T08:04:55-05:00",
+   "updated_at": "2026-11-20T08:04:55-05:00",
+   "last_verified": "2026-11-20T08:04:55-05:00",
+   "last_seen": "2026-11-20T08:04:55-05:00",
+   "history": [],
+   "priority": {
+    "score": 70,
+    "level": "alta",
+    "breakdown": {
+     "valor": {
+      "points": 16,
+      "max": 25,
+      "note": "valor no publicado (estimado por tipo de premio)"
+     },
+     "gratuidad": {
+      "points": 22,
+      "max": 25,
+      "note": "gratis_registro"
+     },
+     "facilidad": {
+      "points": 5,
+      "max": 15,
+      "note": "registro, actividad, redes sociales"
+     },
+     "vigencia": {
+      "points": 10,
+      "max": 10,
+      "note": "vigente (26 días restantes)"
+     },
+     "cobertura": {
+      "points": 10,
+      "max": 10,
+      "note": "nacional"
+     },
+     "credibilidad": {
+      "points": 6,
+      "max": 10,
+      "note": "pendiente"
      },
      "claridad": {
       "points": 1,
@@ -6076,7 +6236,7 @@
    "discovered_at": "2026-11-18T22:36:49-05:00",
    "updated_at": "2026-11-18T22:36:49-05:00",
    "last_verified": "2026-11-19T22:29:47-05:00",
-   "last_seen": "2026-11-18T22:36:49-05:00",
+   "last_seen": "2026-11-20T08:04:54-05:00",
    "history": [],
    "priority": {
     "score": 69,
@@ -6256,7 +6416,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (5 días restantes)"
+      "note": "vigente (4 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -6344,8 +6504,8 @@
     "reasons": [
      "Información insuficiente: sin organizador identificado, fechas ni enlace oficial."
     ],
-    "checked_at": "2026-11-19T08:25:50-05:00",
-    "link_ok": null,
+    "checked_at": "2026-11-20T08:04:56-05:00",
+    "link_ok": true,
     "official_domain": false,
     "terms_found": false,
     "link_failures": 0
@@ -6385,7 +6545,7 @@
    },
    "discovered_at": "2026-11-18T16:19:13-05:00",
    "updated_at": "2026-11-18T16:19:13-05:00",
-   "last_verified": "2026-11-19T08:25:50-05:00",
+   "last_verified": "2026-11-20T08:04:56-05:00",
    "last_seen": "2026-11-19T08:25:50-05:00",
    "history": [],
    "priority": {
@@ -6426,167 +6586,6 @@
       "points": 1,
       "max": 5,
       "note": "sin términos enlazados"
-     }
-    }
-   }
-  },
-  {
-   "id": "op_a26a6332e228",
-   "title": "Misión gta: conquista el mejor puntaje",
-   "summary": "Combustibles líquidos, aceites lubricantes, gas natural vehicular, etc. Ofrecemos variadas opciones para el consumo de combustible.",
-   "section": "concursos",
-   "category": "gasolina",
-   "tags": [
-    "Bonos de gasolina",
-    "Transporte y gasolina"
-   ],
-   "kind": "Concurso",
-   "organizer": {
-    "name": "Terpel",
-    "type": "combustible",
-    "domain": "terpel.com",
-    "known": true
-   },
-   "prize": {
-    "description": null,
-    "value_cop": 80000,
-    "value_text": "$80.000",
-    "value_source": "pagina_oficial",
-    "winners": null,
-    "odds_text": null
-   },
-   "cost": {
-    "type": "gratis_actividad",
-    "label": "Gratis con actividad",
-    "free": true,
-    "certainty": "inferido",
-    "requires_purchase": null,
-    "requires_registration": false,
-    "requires_social": true,
-    "requires_activity": true,
-    "requires_subscription": false,
-    "requires_deposit": false,
-    "purchase_threshold_text": null,
-    "notes": [
-     "Pide interactuar en redes sociales (seguir, comentar o etiquetar).",
-     "No se encontró ninguna condición de compra en la fuente oficial (inferido, confírmalo en los términos)."
-    ]
-   },
-   "eligibility": {
-    "who": null,
-    "min_age": 18,
-    "age_text": "mayor de edad",
-    "coverage": "nacional",
-    "cities": [
-     "Bogotá"
-    ]
-   },
-   "requirements": [
-    "Persona natural, mayor de edad, residente en Colombia, inscrita en ViveTerpel, que cumple la totalidad de los requisitos establecidos en los presentes T&C y participa en la Actividad.",
-    "Participante que obtenga uno de los tres (3) mejores puntajes registrados durante la Actividad y cumpla la totalidad de los requisitos establecidos en estos T&C.",
-    "Para participar, los interesados deberán cumplir la totalidad de los siguientes requisitos:",
-    "· Estar registrados en el programa ViveTerpel.",
-    "Para estos efectos, el participante deberá suministrar su número de cédula al promotor y/o anfitrión del establecimiento donde realice la compra.",
-    "La compra o compras debidamente fidelizadas que habiliten la participación en la actividad deberán realizarse exclusivamente durante la vigencia de la Actividad, esto es, el 19 de noviembre de 2026 entre las 5:00 p.m."
-   ],
-   "documents": [
-    "Documento de identidad (cédula)"
-   ],
-   "steps": [],
-   "steps_source": null,
-   "dates": {
-    "published": null,
-    "start": null,
-    "end": "2026-11-19",
-    "draw": null
-   },
-   "status": "activa",
-   "gov": null,
-   "offer": null,
-   "verification": {
-    "status": "verificada",
-    "reasons": [
-     "El enlace pertenece a un dominio oficial del organizador.",
-     "Proviene de una fuente oficial configurada.",
-     "Tiene términos y condiciones consultables.",
-     "El enlace respondió correctamente en la última verificación."
-    ],
-    "checked_at": "2026-11-19T17:17:31-05:00",
-    "link_ok": true,
-    "official_domain": true,
-    "terms_found": true,
-    "link_failures": 0
-   },
-   "risk": {
-    "level": "bajo",
-    "flags": [],
-    "sensitive_data_warning": false
-   },
-   "urls": {
-    "source": "https://www.terpel.com/terminos-legales-folder/terminos-y-condiciones-para-la-actividad-mision-gta-conquista-el-mejor-puntaje",
-    "participate": "https://www.terpel.com/terminos-legales-folder/terminos-y-condiciones-para-la-actividad-mision-gta-conquista-el-mejor-puntaje",
-    "terms": "https://www.terpel.com/terminos-legales-folder/terminos-y-condiciones-para-la-actividad-mision-gta-conquista-el-mejor-puntaje",
-    "official": null,
-    "image": "https://portalcolombia.terpel.com/static/images/terpel_logo_og.png"
-   },
-   "sources": [
-    {
-     "url": "https://www.terpel.com/terminos-legales-folder/terminos-y-condiciones-para-la-actividad-mision-gta-conquista-el-mejor-puntaje",
-     "name": "Terpel · términos de campañas (oficial)",
-     "type": "official",
-     "seen_at": "2026-11-18T16:18:55-05:00"
-    }
-   ],
-   "language": "es",
-   "translated": false,
-   "extraction": {
-    "method": "heuristica",
-    "relevance": 1.0,
-    "model": null
-   },
-   "discovered_at": "2026-11-18T16:18:55-05:00",
-   "updated_at": "2026-11-18T16:18:55-05:00",
-   "last_verified": "2026-11-19T17:17:31-05:00",
-   "last_seen": "2026-11-19T22:29:19-05:00",
-   "history": [],
-   "priority": {
-    "score": 69,
-    "level": "media",
-    "breakdown": {
-     "valor": {
-      "points": 10,
-      "max": 25,
-      "note": "valor publicado 80.000 COP"
-     },
-     "gratuidad": {
-      "points": 18,
-      "max": 25,
-      "note": "gratis_actividad"
-     },
-     "facilidad": {
-      "points": 7,
-      "max": 15,
-      "note": "actividad, redes sociales"
-     },
-     "vigencia": {
-      "points": 9,
-      "max": 10,
-      "note": "vence en 0 día(s): revisar ya"
-     },
-     "cobertura": {
-      "points": 10,
-      "max": 10,
-      "note": "nacional"
-     },
-     "credibilidad": {
-      "points": 10,
-      "max": 10,
-      "note": "verificada"
-     },
-     "claridad": {
-      "points": 5,
-      "max": 5,
-      "note": "términos publicados"
      }
     }
    }
@@ -6732,7 +6731,7 @@
    "discovered_at": "2026-11-18T16:19:10-05:00",
    "updated_at": "2026-11-18T16:19:10-05:00",
    "last_verified": "2026-11-19T22:29:33-05:00",
-   "last_seen": "2026-11-18T22:36:47-05:00",
+   "last_seen": "2026-11-20T08:04:54-05:00",
    "history": [],
    "priority": {
     "score": 68,
@@ -6885,7 +6884,7 @@
    "discovered_at": "2026-11-19T22:29:21-05:00",
    "updated_at": "2026-11-19T22:29:21-05:00",
    "last_verified": "2026-11-19T22:29:21-05:00",
-   "last_seen": "2026-11-19T22:29:21-05:00",
+   "last_seen": "2026-11-20T08:04:54-05:00",
    "history": [],
    "priority": {
     "score": 68,
@@ -6909,7 +6908,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (11 días restantes)"
+      "note": "vigente (10 días restantes)"
      },
      "cobertura": {
       "points": 5,
@@ -7062,7 +7061,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (64 días restantes)"
+      "note": "vigente (63 días restantes)"
      },
      "cobertura": {
       "points": 6,
@@ -7187,7 +7186,7 @@
    "discovered_at": "2026-11-18T17:21:45-05:00",
    "updated_at": "2026-11-18T17:21:45-05:00",
    "last_verified": "2026-11-19T22:29:35-05:00",
-   "last_seen": "2026-11-19T17:17:08-05:00",
+   "last_seen": "2026-11-20T08:04:54-05:00",
    "history": [],
    "priority": {
     "score": 68,
@@ -7511,7 +7510,7 @@
    "discovered_at": "2026-11-18T16:19:09-05:00",
    "updated_at": "2026-11-18T16:19:09-05:00",
    "last_verified": "2026-11-19T17:17:50-05:00",
-   "last_seen": "2026-11-18T22:36:47-05:00",
+   "last_seen": "2026-11-20T08:04:54-05:00",
    "history": [],
    "priority": {
     "score": 67,
@@ -7549,162 +7548,6 @@
      },
      "claridad": {
       "points": 3,
-      "max": 5,
-      "note": "sin términos enlazados"
-     }
-    }
-   }
-  },
-  {
-   "id": "op_da976636b48f",
-   "title": "Paro nacional del 19 de noviembre en Colombia, estos son los sindicatos que no participarán en las movilizaciones convocadas por la…",
-   "summary": "Utipec y Fetrappem afirmaron que sus afiliados no respaldarán los paros ni las movilizaciones del jueves 19 de noviembre y rechazaron que se atribuya una postura unificada al sindicalismo colombiano",
-   "section": "estado",
-   "category": "empleo",
-   "tags": [
-    "Empleo"
-   ],
-   "mechanics": [],
-   "kind": "Programa público",
-   "organizer": {
-    "name": "Organizador no identificado",
-    "type": "desconocido",
-    "domain": null,
-    "known": false
-   },
-   "prize": {
-    "description": null,
-    "value_cop": null,
-    "value_text": null,
-    "value_source": null,
-    "winners": null,
-    "odds_text": null
-   },
-   "cost": {
-    "type": "gratis_registro",
-    "label": "Gratis con registro",
-    "free": true,
-    "certainty": "inferido",
-    "requires_purchase": null,
-    "requires_registration": false,
-    "requires_social": false,
-    "requires_activity": false,
-    "requires_subscription": false,
-    "requires_deposit": false,
-    "purchase_threshold_text": null,
-    "notes": [
-     "No se encontró ninguna condición de compra en la fuente oficial (inferido, confírmalo en los términos)."
-    ]
-   },
-   "eligibility": {
-    "who": null,
-    "min_age": null,
-    "age_text": null,
-    "coverage": "regional",
-    "cities": [
-     "Bogotá",
-     "Medellín",
-     "Cali",
-     "Barranquilla"
-    ]
-   },
-   "requirements": [
-    "Utipec afirmó que sus afiliados no participarán ni respaldarán las movilizaciones del 19 de noviembre de 2026 (@UTIPEC_/X) Alejandro Ospina, presidente de Fetrappem y Utipec, rechazó las movilizaciones previstas para…"
-   ],
-   "documents": [],
-   "steps": [],
-   "steps_source": null,
-   "dates": {
-    "published": "2026-11-19T10:17:13-05:00",
-    "start": "2026-11-19",
-    "end": "2026-11-19",
-    "draw": null
-   },
-   "status": "activa",
-   "gov": {
-    "program_status": "abierta",
-    "entity": "Organizador no identificado"
-   },
-   "offer": null,
-   "verification": {
-    "status": "pendiente",
-    "reasons": [
-     "Organizador no identificado con certeza."
-    ],
-    "checked_at": "2026-11-19T17:17:10-05:00",
-    "link_ok": null,
-    "official_domain": false,
-    "terms_found": false,
-    "link_failures": 0
-   },
-   "risk": {
-    "level": "bajo",
-    "flags": [],
-    "sensitive_data_warning": false
-   },
-   "urls": {
-    "source": "https://www.infobae.com/colombia/2026/11/19/paro-nacional-del-19-de-noviembre-en-colombia-estos-son-los-sindicatos-que-no-participaran-en-las-movilizaciones-convocadas-por-la-oposicion-desmentimos-la-narrativa/",
-    "participate": "https://www.infobae.com/colombia/2026/11/19/paro-nacional-en-vivo-hoy-19-de-noviembre-asi-amanecen-las-vias-de-las-principales-ciudades/",
-    "terms": null,
-    "official": null,
-    "image": "https://www.infobae.com/resizer/v2/NGH4QRJDHJEMNMNZGW5XMT2HUM.jpg?auth=255d17d8ad1ef12d6e5abf92a64eb14cdb2a3cbb561a918335416fc5574a2e3c&smart=true&width=1200&height=630&quality=85"
-   },
-   "sources": [
-    {
-     "url": "https://www.infobae.com/colombia/2026/11/19/paro-nacional-del-19-de-noviembre-en-colombia-estos-son-los-sindicatos-que-no-participaran-en-las-movilizaciones-convocadas-por-la-oposicion-desmentimos-la-narrativa/",
-     "name": "Infobae Colombia (feed)",
-     "type": "news",
-     "seen_at": "2026-11-19T17:17:10-05:00"
-    }
-   ],
-   "language": "es",
-   "translated": false,
-   "extraction": {
-    "method": "heuristica",
-    "relevance": 0.57,
-    "model": null
-   },
-   "discovered_at": "2026-11-19T17:17:10-05:00",
-   "updated_at": "2026-11-19T17:17:10-05:00",
-   "last_verified": "2026-11-19T17:17:10-05:00",
-   "last_seen": "2026-11-19T17:17:10-05:00",
-   "history": [],
-   "priority": {
-    "score": 67,
-    "level": "media",
-    "breakdown": {
-     "valor": {
-      "points": 9,
-      "max": 25,
-      "note": "valor no publicado"
-     },
-     "gratuidad": {
-      "points": 22,
-      "max": 25,
-      "note": "gratis_registro"
-     },
-     "facilidad": {
-      "points": 15,
-      "max": 15,
-      "note": "pocos requisitos"
-     },
-     "vigencia": {
-      "points": 9,
-      "max": 10,
-      "note": "vence en 0 día(s): revisar ya"
-     },
-     "cobertura": {
-      "points": 5,
-      "max": 10,
-      "note": "regional"
-     },
-     "credibilidad": {
-      "points": 6,
-      "max": 10,
-      "note": "pendiente"
-     },
-     "claridad": {
-      "points": 1,
       "max": 5,
       "note": "sin términos enlazados"
      }
@@ -7978,7 +7821,7 @@
    "discovered_at": "2026-11-18T17:21:34-05:00",
    "updated_at": "2026-11-18T17:21:34-05:00",
    "last_verified": "2026-11-19T22:29:34-05:00",
-   "last_seen": "2026-11-19T22:29:19-05:00",
+   "last_seen": "2026-11-20T08:04:54-05:00",
    "history": [],
    "priority": {
     "score": 67,
@@ -8002,7 +7845,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (6 días restantes)"
+      "note": "vigente (5 días restantes)"
      },
      "cobertura": {
       "points": 5,
@@ -8137,7 +7980,7 @@
    "discovered_at": "2026-11-18T16:19:15-05:00",
    "updated_at": "2026-11-18T16:19:15-05:00",
    "last_verified": "2026-11-19T22:29:32-05:00",
-   "last_seen": "2026-11-18T22:36:47-05:00",
+   "last_seen": "2026-11-20T08:04:54-05:00",
    "history": [],
    "priority": {
     "score": 66,
@@ -8291,7 +8134,7 @@
    "discovered_at": "2026-11-19T22:29:20-05:00",
    "updated_at": "2026-11-19T22:29:20-05:00",
    "last_verified": "2026-11-19T22:29:20-05:00",
-   "last_seen": "2026-11-19T22:29:20-05:00",
+   "last_seen": "2026-11-20T08:04:54-05:00",
    "history": [],
    "priority": {
     "score": 66,
@@ -8315,7 +8158,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (8 días restantes)"
+      "note": "vigente (7 días restantes)"
      },
      "cobertura": {
       "points": 5,
@@ -8445,7 +8288,7 @@
    "discovered_at": "2026-11-18T16:19:09-05:00",
    "updated_at": "2026-11-18T16:19:09-05:00",
    "last_verified": "2026-11-19T22:29:22-05:00",
-   "last_seen": "2026-11-18T22:36:47-05:00",
+   "last_seen": "2026-11-20T08:04:54-05:00",
    "history": [],
    "priority": {
     "score": 66,
@@ -8790,7 +8633,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (57 días restantes)"
+      "note": "vigente (56 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -8804,159 +8647,6 @@
      },
      "claridad": {
       "points": 1,
-      "max": 5,
-      "note": "sin términos enlazados"
-     }
-    }
-   }
-  },
-  {
-   "id": "op_aa8036205edf",
-   "title": "Concurso DIAN 2676: CNSC anunció la fecha de publicación de resultados de pruebas escritas",
-   "summary": "La Comisión Nacional del Servicio Civil (CNSC) anunció el cronograma a seguir después de la prueba escrita del 8 de noviembre de 2026. Aquí le contamos las fechas que debe tener en cuenta.",
-   "section": "concursos",
-   "category": "otros_premios",
-   "tags": [],
-   "mechanics": [],
-   "kind": "Concurso",
-   "organizer": {
-    "name": "Organizador no identificado",
-    "type": "desconocido",
-    "domain": null,
-    "known": false
-   },
-   "prize": {
-    "description": null,
-    "value_cop": null,
-    "value_text": null,
-    "value_source": null,
-    "winners": null,
-    "odds_text": null
-   },
-   "cost": {
-    "type": "gratis_registro",
-    "label": "Gratis con registro",
-    "free": true,
-    "certainty": "explicito",
-    "requires_purchase": false,
-    "requires_registration": true,
-    "requires_social": false,
-    "requires_activity": false,
-    "requires_subscription": false,
-    "requires_deposit": false,
-    "purchase_threshold_text": null,
-    "notes": [
-     "La fuente lo indica: «inscripción gratuita»."
-    ]
-   },
-   "eligibility": {
-    "who": null,
-    "min_age": null,
-    "age_text": null,
-    "coverage": "desconocida",
-    "cities": []
-   },
-   "requirements": [
-    "¿Cómo consultar vacantes, salarios y requisitos en SIMO? Verifique ¿Cómo consultar los resultados de las pruebas DIAN 2676? Los interesados deberán ingresar a la página oficial de la CNCS, enlace SIMO o seguir los…",
-    "Por ello, quienes presenten reclamaciones deberán estar atentos a los avisos publicados en los canales oficiales de la CNSC y revisar periódicamente la plataforma."
-   ],
-   "documents": [],
-   "steps": [
-    "Ingresar al portal oficial de la CNSC .",
-    "Seleccionar el enlace SIMO .",
-    "Iniciar sesión con el usuario y la contraseña registrados durante la inscripción.",
-    "Buscar el proceso de selección DSIAN 2676.",
-    "Consultar la información correspondiente a los resultados de las pruebas escritas."
-   ],
-   "steps_source": "fuente_secundaria",
-   "dates": {
-    "published": "2026-11-19T15:09:32-05:00",
-    "start": "2026-11-20",
-    "end": null,
-    "draw": null
-   },
-   "status": "proxima",
-   "gov": null,
-   "offer": null,
-   "verification": {
-    "status": "pendiente",
-    "reasons": [
-     "Organizador no identificado con certeza."
-    ],
-    "checked_at": "2026-11-19T17:17:09-05:00",
-    "link_ok": null,
-    "official_domain": false,
-    "terms_found": false,
-    "link_failures": 0
-   },
-   "risk": {
-    "level": "bajo",
-    "flags": [],
-    "sensitive_data_warning": false
-   },
-   "urls": {
-    "source": "https://caracol.com.co/2026/11/19/concurso-dian-2676-cnsc-anuncio-la-fecha-de-publicacion-de-resultados-de-pruebas-escritas/",
-    "participate": "https://caracol.com.co/2026/11/09/concurso-docente-2026-2027-quienes-son-las-unicas-personas-que-tendran-inscripcion-gratuita/",
-    "terms": null,
-    "official": null,
-    "image": "https://caracol.com.co/resizer/v2/EDRPBXAOF5HWJOLLOIL2TJMIRI.png?auth=0b9786a7b9134b558c5d86a097b0af6a626adaaebcfcbf0fb97139cc3e0cc959&quality=70&width=1200&height=675&smart=true"
-   },
-   "sources": [
-    {
-     "url": "https://caracol.com.co/2026/11/19/concurso-dian-2676-cnsc-anuncio-la-fecha-de-publicacion-de-resultados-de-pruebas-escritas/",
-     "name": "Caracol Radio (feed)",
-     "type": "news",
-     "seen_at": "2026-11-19T17:17:09-05:00"
-    }
-   ],
-   "language": "es",
-   "translated": false,
-   "extraction": {
-    "method": "heuristica",
-    "relevance": 0.89,
-    "model": null
-   },
-   "discovered_at": "2026-11-19T17:17:09-05:00",
-   "updated_at": "2026-11-19T17:17:09-05:00",
-   "last_verified": "2026-11-19T17:17:09-05:00",
-   "last_seen": "2026-11-19T22:29:19-05:00",
-   "history": [],
-   "priority": {
-    "score": 64,
-    "level": "media",
-    "breakdown": {
-     "valor": {
-      "points": 9,
-      "max": 25,
-      "note": "valor no publicado"
-     },
-     "gratuidad": {
-      "points": 22,
-      "max": 25,
-      "note": "gratis_registro"
-     },
-     "facilidad": {
-      "points": 12,
-      "max": 15,
-      "note": "registro"
-     },
-     "vigencia": {
-      "points": 6,
-      "max": 10,
-      "note": "abre próximamente"
-     },
-     "cobertura": {
-      "points": 6,
-      "max": 10,
-      "note": "desconocida"
-     },
-     "credibilidad": {
-      "points": 6,
-      "max": 10,
-      "note": "pendiente"
-     },
-     "claridad": {
-      "points": 3,
       "max": 5,
       "note": "sin términos enlazados"
      }
@@ -9239,7 +8929,7 @@
    "discovered_at": "2026-11-18T16:19:08-05:00",
    "updated_at": "2026-11-18T16:19:08-05:00",
    "last_verified": "2026-11-19T17:17:47-05:00",
-   "last_seen": "2026-11-18T22:36:47-05:00",
+   "last_seen": "2026-11-20T08:04:54-05:00",
    "history": [],
    "priority": {
     "score": 64,
@@ -9263,7 +8953,317 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (21 días restantes)"
+      "note": "vigente (20 días restantes)"
+     },
+     "cobertura": {
+      "points": 10,
+      "max": 10,
+      "note": "bogota"
+     },
+     "credibilidad": {
+      "points": 6,
+      "max": 10,
+      "note": "pendiente"
+     },
+     "claridad": {
+      "points": 1,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
+   "id": "op_aa8036205edf",
+   "title": "Concurso DIAN 2676: CNSC anunció la fecha de publicación de resultados de pruebas escritas",
+   "summary": "La Comisión Nacional del Servicio Civil (CNSC) anunció el cronograma a seguir después de la prueba escrita del 8 de noviembre de 2026. Aquí le contamos las fechas que debe tener en cuenta.",
+   "section": "concursos",
+   "category": "otros_premios",
+   "tags": [],
+   "mechanics": [],
+   "kind": "Concurso",
+   "organizer": {
+    "name": "Organizador no identificado",
+    "type": "desconocido",
+    "domain": null,
+    "known": false
+   },
+   "prize": {
+    "description": null,
+    "value_cop": null,
+    "value_text": null,
+    "value_source": null,
+    "winners": null,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "gratis_registro",
+    "label": "Gratis con registro",
+    "free": true,
+    "certainty": "explicito",
+    "requires_purchase": false,
+    "requires_registration": true,
+    "requires_social": false,
+    "requires_activity": false,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": null,
+    "notes": [
+     "La fuente lo indica: «inscripción gratuita»."
+    ]
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": null,
+    "age_text": null,
+    "coverage": "desconocida",
+    "cities": []
+   },
+   "requirements": [
+    "¿Cómo consultar vacantes, salarios y requisitos en SIMO? Verifique ¿Cómo consultar los resultados de las pruebas DIAN 2676? Los interesados deberán ingresar a la página oficial de la CNCS, enlace SIMO o seguir los…",
+    "Por ello, quienes presenten reclamaciones deberán estar atentos a los avisos publicados en los canales oficiales de la CNSC y revisar periódicamente la plataforma."
+   ],
+   "documents": [],
+   "steps": [
+    "Ingresar al portal oficial de la CNSC .",
+    "Seleccionar el enlace SIMO .",
+    "Iniciar sesión con el usuario y la contraseña registrados durante la inscripción.",
+    "Buscar el proceso de selección DSIAN 2676.",
+    "Consultar la información correspondiente a los resultados de las pruebas escritas."
+   ],
+   "steps_source": "fuente_secundaria",
+   "dates": {
+    "published": "2026-11-19T15:09:32-05:00",
+    "start": "2026-11-20",
+    "end": null,
+    "draw": null
+   },
+   "status": "activa",
+   "gov": null,
+   "offer": null,
+   "verification": {
+    "status": "pendiente",
+    "reasons": [
+     "Organizador no identificado con certeza."
+    ],
+    "checked_at": "2026-11-19T17:17:09-05:00",
+    "link_ok": null,
+    "official_domain": false,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://caracol.com.co/2026/11/19/concurso-dian-2676-cnsc-anuncio-la-fecha-de-publicacion-de-resultados-de-pruebas-escritas/",
+    "participate": "https://caracol.com.co/2026/11/09/concurso-docente-2026-2027-quienes-son-las-unicas-personas-que-tendran-inscripcion-gratuita/",
+    "terms": null,
+    "official": null,
+    "image": "https://caracol.com.co/resizer/v2/EDRPBXAOF5HWJOLLOIL2TJMIRI.png?auth=0b9786a7b9134b558c5d86a097b0af6a626adaaebcfcbf0fb97139cc3e0cc959&quality=70&width=1200&height=675&smart=true"
+   },
+   "sources": [
+    {
+     "url": "https://caracol.com.co/2026/11/19/concurso-dian-2676-cnsc-anuncio-la-fecha-de-publicacion-de-resultados-de-pruebas-escritas/",
+     "name": "Caracol Radio (feed)",
+     "type": "news",
+     "seen_at": "2026-11-19T17:17:09-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 0.89,
+    "model": null
+   },
+   "discovered_at": "2026-11-19T17:17:09-05:00",
+   "updated_at": "2026-11-19T17:17:09-05:00",
+   "last_verified": "2026-11-19T17:17:09-05:00",
+   "last_seen": "2026-11-19T22:29:19-05:00",
+   "history": [
+    {
+     "at": "2026-11-20T08:04:57-05:00",
+     "field": "status",
+     "label": "Estado",
+     "from": "proxima",
+     "to": "activa"
+    }
+   ],
+   "priority": {
+    "score": 63,
+    "level": "media",
+    "breakdown": {
+     "valor": {
+      "points": 9,
+      "max": 25,
+      "note": "valor no publicado"
+     },
+     "gratuidad": {
+      "points": 22,
+      "max": 25,
+      "note": "gratis_registro"
+     },
+     "facilidad": {
+      "points": 12,
+      "max": 15,
+      "note": "registro"
+     },
+     "vigencia": {
+      "points": 5,
+      "max": 10,
+      "note": "sin fecha límite publicada"
+     },
+     "cobertura": {
+      "points": 6,
+      "max": 10,
+      "note": "desconocida"
+     },
+     "credibilidad": {
+      "points": 6,
+      "max": 10,
+      "note": "pendiente"
+     },
+     "claridad": {
+      "points": 3,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
+   "id": "op_ebaac92dbfa2",
+   "title": "Orquesta Filarmónica de Bogotá anuncia conciertos gratuitos en la Catedral Primada y el Auditorio León de Greiff en noviembre de 2026",
+   "summary": "Conciertos gratuitos de la Orquesta Filarmónica de Bogotá: fechas, escenarios y repertorio especial en noviembre 2026. ¡No te lo pierdas!",
+   "section": "bonos",
+   "category": "eventos_gratis",
+   "tags": [],
+   "mechanics": [
+    "creativo"
+   ],
+   "kind": "Beneficio",
+   "organizer": {
+    "name": "Organizador no identificado",
+    "type": "desconocido",
+    "domain": null,
+    "known": false
+   },
+   "prize": {
+    "description": null,
+    "value_cop": null,
+    "value_text": null,
+    "value_source": null,
+    "winners": null,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "gratis_actividad",
+    "label": "Gratis con actividad",
+    "free": true,
+    "certainty": "explicito",
+    "requires_purchase": false,
+    "requires_registration": false,
+    "requires_social": true,
+    "requires_activity": true,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": null,
+    "notes": [
+     "La fuente lo indica: «sin costo».",
+     "Pide interactuar en redes sociales (seguir, comentar o etiquetar)."
+    ]
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": null,
+    "age_text": null,
+    "coverage": "bogota",
+    "cities": [
+     "Bogotá"
+    ]
+   },
+   "requirements": [],
+   "documents": [],
+   "steps": [],
+   "steps_source": null,
+   "dates": {
+    "published": "2026-11-19T10:56:11-05:00",
+    "start": null,
+    "end": "2026-11-21",
+    "draw": null
+   },
+   "status": "activa",
+   "gov": null,
+   "offer": null,
+   "verification": {
+    "status": "pendiente",
+    "reasons": [
+     "Organizador no identificado con certeza."
+    ],
+    "checked_at": "2026-11-20T08:04:56-05:00",
+    "link_ok": null,
+    "official_domain": false,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://www.pulzo.com/nacion/bogota/conciertos-gratuitos-de-la-orquesta-filarmonica-de-bogota-2026-fechas-repertorio-y-solistas-PP5359425A",
+    "participate": null,
+    "terms": null,
+    "official": null,
+    "image": "https://d2yoo3qu6vrk5d.cloudfront.net/pulzo-lite/images-resized/PP5359425A-h-o.jpg"
+   },
+   "sources": [
+    {
+     "url": "https://www.pulzo.com/nacion/bogota/conciertos-gratuitos-de-la-orquesta-filarmonica-de-bogota-2026-fechas-repertorio-y-solistas-PP5359425A",
+     "name": "Noticias · eventos gratis Bogotá",
+     "type": "news",
+     "seen_at": "2026-11-20T08:04:56-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 0.61,
+    "model": null
+   },
+   "discovered_at": "2026-11-20T08:04:56-05:00",
+   "updated_at": "2026-11-20T08:04:56-05:00",
+   "last_verified": "2026-11-20T08:04:56-05:00",
+   "last_seen": "2026-11-20T08:04:56-05:00",
+   "history": [],
+   "priority": {
+    "score": 63,
+    "level": "media",
+    "breakdown": {
+     "valor": {
+      "points": 9,
+      "max": 25,
+      "note": "valor no publicado"
+     },
+     "gratuidad": {
+      "points": 18,
+      "max": 25,
+      "note": "gratis_actividad"
+     },
+     "facilidad": {
+      "points": 10,
+      "max": 15,
+      "note": "actividad, redes sociales"
+     },
+     "vigencia": {
+      "points": 9,
+      "max": 10,
+      "note": "vence en 1 día(s): revisar ya"
      },
      "cobertura": {
       "points": 10,
@@ -9697,7 +9697,7 @@
    "discovered_at": "2026-11-18T16:19:10-05:00",
    "updated_at": "2026-11-18T16:19:10-05:00",
    "last_verified": "2026-11-19T22:29:26-05:00",
-   "last_seen": "2026-11-18T22:36:47-05:00",
+   "last_seen": "2026-11-20T08:04:54-05:00",
    "history": [],
    "priority": {
     "score": 62,
@@ -9853,7 +9853,7 @@
    "discovered_at": "2026-11-18T16:19:11-05:00",
    "updated_at": "2026-11-18T16:19:11-05:00",
    "last_verified": "2026-11-19T22:29:27-05:00",
-   "last_seen": "2026-11-19T08:25:49-05:00",
+   "last_seen": "2026-11-20T08:04:54-05:00",
    "history": [],
    "priority": {
     "score": 62,
@@ -10161,7 +10161,7 @@
    "discovered_at": "2026-11-18T16:18:58-05:00",
    "updated_at": "2026-11-18T16:18:58-05:00",
    "last_verified": "2026-11-19T17:17:37-05:00",
-   "last_seen": "2026-11-19T22:29:19-05:00",
+   "last_seen": "2026-11-20T08:04:54-05:00",
    "history": [],
    "priority": {
     "score": 60,
@@ -10310,7 +10310,7 @@
    "discovered_at": "2026-11-18T16:19:12-05:00",
    "updated_at": "2026-11-18T16:19:12-05:00",
    "last_verified": "2026-11-19T22:29:28-05:00",
-   "last_seen": "2026-11-18T22:36:47-05:00",
+   "last_seen": "2026-11-20T08:04:54-05:00",
    "history": [],
    "priority": {
     "score": 60,
@@ -10423,8 +10423,8 @@
     "reasons": [
      "Información insuficiente: sin organizador identificado, fechas ni enlace oficial."
     ],
-    "checked_at": "2026-11-19T08:25:50-05:00",
-    "link_ok": null,
+    "checked_at": "2026-11-20T08:04:57-05:00",
+    "link_ok": true,
     "official_domain": false,
     "terms_found": false,
     "link_failures": 0
@@ -10458,7 +10458,7 @@
    },
    "discovered_at": "2026-11-19T08:25:50-05:00",
    "updated_at": "2026-11-19T08:25:50-05:00",
-   "last_verified": "2026-11-19T08:25:50-05:00",
+   "last_verified": "2026-11-20T08:04:57-05:00",
    "last_seen": "2026-11-19T08:25:50-05:00",
    "history": [],
    "priority": {
@@ -10633,7 +10633,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (101 días restantes)"
+      "note": "vigente (100 días restantes)"
      },
      "cobertura": {
       "points": 5,
@@ -10920,7 +10920,7 @@
    "discovered_at": "2026-11-18T16:18:44-05:00",
    "updated_at": "2026-11-18T16:18:44-05:00",
    "last_verified": "2026-11-19T17:17:23-05:00",
-   "last_seen": "2026-11-19T17:17:08-05:00",
+   "last_seen": "2026-11-20T08:04:54-05:00",
    "history": [],
    "priority": {
     "score": 57,
@@ -10944,7 +10944,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (27 días restantes)"
+      "note": "vigente (26 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -11256,7 +11256,7 @@
    "discovered_at": "2026-11-18T16:18:40-05:00",
    "updated_at": "2026-11-18T16:18:40-05:00",
    "last_verified": "2026-11-19T17:17:19-05:00",
-   "last_seen": "2026-11-19T17:17:08-05:00",
+   "last_seen": "2026-11-20T08:04:54-05:00",
    "history": [],
    "priority": {
     "score": 55,
@@ -11280,7 +11280,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (42 días restantes)"
+      "note": "vigente (41 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -11433,7 +11433,7 @@
    "discovered_at": "2026-11-18T16:18:36-05:00",
    "updated_at": "2026-11-18T16:18:36-05:00",
    "last_verified": "2026-11-19T17:17:14-05:00",
-   "last_seen": "2026-11-19T17:17:08-05:00",
+   "last_seen": "2026-11-20T08:04:54-05:00",
    "history": [],
    "priority": {
     "score": 55,
@@ -11457,7 +11457,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (42 días restantes)"
+      "note": "vigente (41 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -11585,7 +11585,7 @@
    "discovered_at": "2026-11-18T17:21:48-05:00",
    "updated_at": "2026-11-18T17:21:48-05:00",
    "last_verified": "2026-11-19T22:29:41-05:00",
-   "last_seen": "2026-11-19T22:29:19-05:00",
+   "last_seen": "2026-11-20T08:04:54-05:00",
    "history": [],
    "priority": {
     "score": 55,
@@ -11761,7 +11761,7 @@
      "vigencia": {
       "points": 9,
       "max": 10,
-      "note": "vence en 1 día(s): revisar ya"
+      "note": "vence en 0 día(s): revisar ya"
      },
      "cobertura": {
       "points": 5,
@@ -11908,7 +11908,7 @@
    "discovered_at": "2026-11-18T16:18:39-05:00",
    "updated_at": "2026-11-18T16:18:39-05:00",
    "last_verified": "2026-11-19T17:17:18-05:00",
-   "last_seen": "2026-11-19T17:17:08-05:00",
+   "last_seen": "2026-11-20T08:04:54-05:00",
    "history": [],
    "priority": {
     "score": 55,
@@ -11932,7 +11932,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (42 días restantes)"
+      "note": "vigente (41 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -11946,6 +11946,165 @@
      },
      "claridad": {
       "points": 3,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
+   "id": "op_49fecfc105c3",
+   "title": "Becas del 45 % para maestrías virtuales en diferentes áreas en la Universitat Oberta de Catalunya",
+   "summary": "La Universitat Oberta de Catalunya (UOC) es una institución de educación superior española con sede en Barcelona, fundada en 1994, reconocida por el sistema universitario español y adscrita al Espacio Europeo de Educación Superior (EEES). Se caracteriza por su modelo educativo…",
+   "section": "estado",
+   "category": "becas",
+   "tags": [
+    "Becas y educación"
+   ],
+   "mechanics": [],
+   "kind": "Programa público",
+   "organizer": {
+    "name": "ICETEX",
+    "type": "gobierno",
+    "domain": "icetex.gov.co",
+    "known": true
+   },
+   "prize": {
+    "description": null,
+    "value_cop": null,
+    "value_text": null,
+    "value_source": null,
+    "winners": null,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "requiere_condiciones",
+    "label": "Condiciones económicas",
+    "free": false,
+    "certainty": "explicito",
+    "requires_purchase": false,
+    "requires_registration": true,
+    "requires_social": true,
+    "requires_activity": true,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": null,
+    "notes": [
+     "La inscripción tiene costo según la fuente."
+    ]
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": null,
+    "age_text": null,
+    "coverage": "nacional",
+    "cities": []
+   },
+   "requirements": [
+    "Edad: La persona aspirante debe ser mayor de 21 años y menor de 65 años al momento del cierre de la convocatoria. Este requisito es estricto y no admite excepciones. Para verificar el cumplimiento de este criterio, se…",
+    "Experiencia profesional: La persona aspirante deberá acreditar un mínimo de doce (12) meses de experiencia profesional, contados a partir de la obtención del título universitario , con excepción del tiempo dispuesto en…"
+   ],
+   "documents": [
+    "Documento de identidad (cédula)",
+    "Certificado SISBÉN",
+    "Certificado de notas",
+    "Hoja de vida",
+    "Carta de motivación"
+   ],
+   "steps": [],
+   "steps_source": null,
+   "dates": {
+    "published": "2026-11-19T15:46:47-05:00",
+    "start": "2026-11-13",
+    "end": "2026-12-29",
+    "draw": null
+   },
+   "status": "activa",
+   "gov": {
+    "program_status": "abierta",
+    "entity": "ICETEX"
+   },
+   "offer": null,
+   "verification": {
+    "status": "verificada",
+    "reasons": [
+     "El enlace pertenece a un dominio oficial del organizador.",
+     "El enlace respondió correctamente en la última verificación."
+    ],
+    "checked_at": "2026-11-20T08:04:55-05:00",
+    "link_ok": true,
+    "official_domain": true,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://www.elespectador.com/educacion/icetex-ofrece-becas-que-cubren-hasta-el-45-de-la-matricula-de-maestrias/",
+    "participate": "https://web.icetex.gov.co/es/-/becas-45-maestrias-virtuales-universitat-oberta-catalunya",
+    "terms": null,
+    "official": "https://web.icetex.gov.co/es/-/becas-45-maestrias-virtuales-universitat-oberta-catalunya",
+    "image": "https://web.icetex.gov.co/documents/20122/0/pagina-oficial-icetex.jpeg.jpg/8526dbf8-2951-4be1-2765-fa60a4c52342?version=3.0&t=1706134046293&imagePreview=1"
+   },
+   "sources": [
+    {
+     "url": "https://www.elespectador.com/educacion/icetex-ofrece-becas-que-cubren-hasta-el-45-de-la-matricula-de-maestrias/",
+     "name": "Noticias · ICETEX y becas",
+     "type": "news",
+     "seen_at": "2026-11-20T08:04:55-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 1.0,
+    "model": null
+   },
+   "discovered_at": "2026-11-20T08:04:55-05:00",
+   "updated_at": "2026-11-20T08:04:55-05:00",
+   "last_verified": "2026-11-20T08:04:55-05:00",
+   "last_seen": "2026-11-20T08:04:55-05:00",
+   "history": [],
+   "priority": {
+    "score": 54,
+    "level": "media",
+    "breakdown": {
+     "valor": {
+      "points": 16,
+      "max": 25,
+      "note": "valor no publicado (estimado por tipo de premio)"
+     },
+     "gratuidad": {
+      "points": 4,
+      "max": 25,
+      "note": "requiere_condiciones"
+     },
+     "facilidad": {
+      "points": 5,
+      "max": 15,
+      "note": "registro, actividad, redes sociales"
+     },
+     "vigencia": {
+      "points": 8,
+      "max": 10,
+      "note": "vigente (39 días restantes)"
+     },
+     "cobertura": {
+      "points": 10,
+      "max": 10,
+      "note": "nacional"
+     },
+     "credibilidad": {
+      "points": 10,
+      "max": 10,
+      "note": "verificada"
+     },
+     "claridad": {
+      "points": 1,
       "max": 5,
       "note": "sin términos enlazados"
      }
@@ -12081,7 +12240,7 @@
      "vigencia": {
       "points": 9,
       "max": 10,
-      "note": "vence en 2 día(s): revisar ya"
+      "note": "vence en 1 día(s): revisar ya"
      },
      "cobertura": {
       "points": 10,
@@ -12232,7 +12391,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (6 días restantes)"
+      "note": "vigente (5 días restantes)"
      },
      "cobertura": {
       "points": 5,
@@ -12376,7 +12535,7 @@
    "discovered_at": "2026-11-18T16:18:44-05:00",
    "updated_at": "2026-11-18T16:18:44-05:00",
    "last_verified": "2026-11-19T17:17:23-05:00",
-   "last_seen": "2026-11-19T17:17:08-05:00",
+   "last_seen": "2026-11-20T08:04:54-05:00",
    "history": [],
    "priority": {
     "score": 54,
@@ -12541,7 +12700,7 @@
    "discovered_at": "2026-11-18T16:18:37-05:00",
    "updated_at": "2026-11-18T16:18:37-05:00",
    "last_verified": "2026-11-19T17:17:15-05:00",
-   "last_seen": "2026-11-19T17:17:08-05:00",
+   "last_seen": "2026-11-20T08:04:54-05:00",
    "history": [],
    "priority": {
     "score": 53,
@@ -12565,7 +12724,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (138 días restantes)"
+      "note": "vigente (137 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -12707,7 +12866,7 @@
    "discovered_at": "2026-11-18T16:18:38-05:00",
    "updated_at": "2026-11-18T16:18:38-05:00",
    "last_verified": "2026-11-19T17:17:16-05:00",
-   "last_seen": "2026-11-19T17:17:08-05:00",
+   "last_seen": "2026-11-20T08:04:54-05:00",
    "history": [],
    "priority": {
     "score": 53,
@@ -12731,7 +12890,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (42 días restantes)"
+      "note": "vigente (41 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -13021,7 +13180,7 @@
    "discovered_at": "2026-11-18T16:18:42-05:00",
    "updated_at": "2026-11-18T16:18:42-05:00",
    "last_verified": "2026-11-19T17:17:20-05:00",
-   "last_seen": "2026-11-19T17:17:08-05:00",
+   "last_seen": "2026-11-20T08:04:54-05:00",
    "history": [],
    "priority": {
     "score": 51,
@@ -13045,7 +13204,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (132 días restantes)"
+      "note": "vigente (131 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -13181,7 +13340,7 @@
    "discovered_at": "2026-11-18T16:18:43-05:00",
    "updated_at": "2026-11-18T16:18:43-05:00",
    "last_verified": "2026-11-19T17:17:21-05:00",
-   "last_seen": "2026-11-19T17:17:08-05:00",
+   "last_seen": "2026-11-20T08:04:54-05:00",
    "history": [],
    "priority": {
     "score": 50,
@@ -13205,7 +13364,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (6 días restantes)"
+      "note": "vigente (5 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -13380,6 +13539,162 @@
    }
   },
   {
+   "id": "op_133116de8922",
+   "title": "Black Friday 2026 en Colombia: ¿cuándo es y qué productos tendrán descuentos?",
+   "summary": "Antes de que se termine el año, diferentes comercios ofrecerán promociones en tecnología, electrodomésticos, moda, viajes y otros productos. Estos son los detalles.",
+   "section": "ofertas",
+   "category": "of_eventos_comerciales",
+   "tags": [
+    "Hogar",
+    "Ropa y calzado",
+    "Tecnología",
+    "Temporadas (Black Friday, Día sin IVA…)",
+    "Viajes"
+   ],
+   "mechanics": [],
+   "kind": "Oferta",
+   "organizer": {
+    "name": "Organizador no identificado",
+    "type": "desconocido",
+    "domain": null,
+    "known": false
+   },
+   "prize": {
+    "description": null,
+    "value_cop": null,
+    "value_text": null,
+    "value_source": null,
+    "winners": null,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "requiere_compra",
+    "label": "Requiere compra",
+    "free": false,
+    "certainty": "inferido",
+    "requires_purchase": null,
+    "requires_registration": false,
+    "requires_social": false,
+    "requires_activity": false,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": null,
+    "notes": [
+     "Es una oferta comercial: el beneficio aplica sobre una compra."
+    ]
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": null,
+    "age_text": null,
+    "coverage": "desconocida",
+    "cities": []
+   },
+   "requirements": [],
+   "documents": [],
+   "steps": [],
+   "steps_source": null,
+   "dates": {
+    "published": "2026-11-19T17:10:10-05:00",
+    "start": "2026-11-13",
+    "end": "2026-12-06",
+    "draw": null
+   },
+   "status": "activa",
+   "gov": null,
+   "offer": {
+    "discount_pct": null,
+    "original_price": null,
+    "promo_price": null,
+    "code": null,
+    "pct_verified": false
+   },
+   "verification": {
+    "status": "pendiente",
+    "reasons": [
+     "Organizador no identificado con certeza."
+    ],
+    "checked_at": "2026-11-20T08:04:54-05:00",
+    "link_ok": null,
+    "official_domain": false,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://www.eluniversal.com.co/colombia/2026/11/19/black-friday-2026-en-colombia-cuando-es-y-que-productos-tendran-descuentos/",
+    "participate": null,
+    "terms": null,
+    "official": null,
+    "image": "https://www.eluniversal.com.co/resizer/v2/2ZBVZZQ3AFDXNGRSOCEBGY3LBE.png?auth=d6bbbdeb5fc673173ecab749fa3f1e9a5acb58da2e2d0c738b113fc7f7447874&smart=true&width=1200&height=630&quality=70"
+   },
+   "sources": [
+    {
+     "url": "https://www.eluniversal.com.co/colombia/2026/11/19/black-friday-2026-en-colombia-cuando-es-y-que-productos-tendran-descuentos/",
+     "name": "Noticias · Black Friday Colombia",
+     "type": "news",
+     "seen_at": "2026-11-20T08:04:54-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 1.0,
+    "model": null
+   },
+   "discovered_at": "2026-11-20T08:04:54-05:00",
+   "updated_at": "2026-11-20T08:04:54-05:00",
+   "last_verified": "2026-11-20T08:04:54-05:00",
+   "last_seen": "2026-11-20T08:04:54-05:00",
+   "history": [],
+   "priority": {
+    "score": 47,
+    "level": "media",
+    "breakdown": {
+     "valor": {
+      "points": 5,
+      "max": 25,
+      "note": "descuento sobre compra"
+     },
+     "gratuidad": {
+      "points": 4,
+      "max": 25,
+      "note": "requiere_compra"
+     },
+     "facilidad": {
+      "points": 15,
+      "max": 15,
+      "note": "pocos requisitos"
+     },
+     "vigencia": {
+      "points": 10,
+      "max": 10,
+      "note": "vigente (16 días restantes)"
+     },
+     "cobertura": {
+      "points": 6,
+      "max": 10,
+      "note": "desconocida"
+     },
+     "credibilidad": {
+      "points": 6,
+      "max": 10,
+      "note": "pendiente"
+     },
+     "claridad": {
+      "points": 1,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
    "id": "op_002069a01ef5",
    "title": "Presidente De La Espriella confirmó la captura en Cali de alias ‘Blue’, señalada de participar en actos violentos y terrorismo",
    "summary": "El presidente Abelardo De La Espriella anunció la captura de la mujer investigada por su presunta participación en ataques contra servidores públicos, hechos de terrorismo durante manifestaciones, propaganda mediante grafitis y reclutamiento de jóvenes en universidades públicas.",
@@ -13489,7 +13804,7 @@
    "discovered_at": "2026-11-19T22:29:20-05:00",
    "updated_at": "2026-11-19T22:29:20-05:00",
    "last_verified": "2026-11-19T22:29:20-05:00",
-   "last_seen": "2026-11-19T22:29:20-05:00",
+   "last_seen": "2026-11-20T08:04:54-05:00",
    "history": [],
    "priority": {
     "score": 47,
@@ -13646,7 +13961,7 @@
    "discovered_at": "2026-11-19T22:29:21-05:00",
    "updated_at": "2026-11-19T22:29:21-05:00",
    "last_verified": "2026-11-19T22:29:21-05:00",
-   "last_seen": "2026-11-19T22:29:21-05:00",
+   "last_seen": "2026-11-20T08:04:54-05:00",
    "history": [],
    "priority": {
     "score": 47,
@@ -13670,7 +13985,7 @@
      "vigencia": {
       "points": 9,
       "max": 10,
-      "note": "vence en 2 día(s): revisar ya"
+      "note": "vence en 1 día(s): revisar ya"
      },
      "cobertura": {
       "points": 10,
@@ -13996,6 +14311,152 @@
    }
   },
   {
+   "id": "op_5fb91f3cc652",
+   "title": "LBX gana premio internacional como la plataforma de trading más innovadora de Colombia en 2026",
+   "summary": "LBX fue reconocida como la Plataforma de Trading Más Innovadora de Colombia en los Finance Magnates Awards 2026, un galardón que fortalece su posicionamiento en el mercado financiero digital y su estrategia de expansión en Latinoamérica.",
+   "section": "concursos",
+   "category": "tecnologia",
+   "tags": [],
+   "mechanics": [],
+   "kind": "Concurso",
+   "organizer": {
+    "name": "Organizador no identificado",
+    "type": "desconocido",
+    "domain": null,
+    "known": false
+   },
+   "prize": {
+    "description": null,
+    "value_cop": null,
+    "value_text": null,
+    "value_source": null,
+    "winners": null,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "requiere_compra",
+    "label": "Requiere compra",
+    "free": false,
+    "certainty": "explicito",
+    "requires_purchase": true,
+    "requires_registration": true,
+    "requires_social": false,
+    "requires_activity": false,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": null,
+    "notes": [
+     "La fuente indica condición de compra: «cashback»."
+    ]
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": null,
+    "age_text": null,
+    "coverage": "regional",
+    "cities": []
+   },
+   "requirements": [
+    "La compañía también cuenta con un programa de cashback dirigido a usuarios activos, mediante el cual acredita beneficios de acuerdo con el volumen de operaciones realizado."
+   ],
+   "documents": [],
+   "steps": [],
+   "steps_source": null,
+   "dates": {
+    "published": "2026-11-19T21:04:05-05:00",
+    "start": null,
+    "end": null,
+    "draw": null
+   },
+   "status": "activa",
+   "gov": null,
+   "offer": null,
+   "verification": {
+    "status": "no_verificable",
+    "reasons": [
+     "Información insuficiente: sin organizador identificado, fechas ni enlace oficial."
+    ],
+    "checked_at": "2026-11-20T08:04:54-05:00",
+    "link_ok": null,
+    "official_domain": false,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://360radio.com.co/lbx-gana-premio-internacional-como-la-plataforma-de-trading-mas-innovadora-de-colombia-en-2026/236882/",
+    "participate": null,
+    "terms": null,
+    "official": null,
+    "image": "https://360radio.com.co/wp-content/uploads/2026/11/Proyecto-nuevo-61.webp"
+   },
+   "sources": [
+    {
+     "url": "https://360radio.com.co/lbx-gana-premio-internacional-como-la-plataforma-de-trading-mas-innovadora-de-colombia-en-2026/236882/",
+     "name": "360 Radio",
+     "type": "news",
+     "seen_at": "2026-11-20T08:04:54-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 1.0,
+    "model": null
+   },
+   "discovered_at": "2026-11-20T08:04:54-05:00",
+   "updated_at": "2026-11-20T08:04:54-05:00",
+   "last_verified": "2026-11-20T08:04:54-05:00",
+   "last_seen": "2026-11-20T08:04:54-05:00",
+   "history": [],
+   "priority": {
+    "score": 39,
+    "level": "baja",
+    "breakdown": {
+     "valor": {
+      "points": 9,
+      "max": 25,
+      "note": "valor no publicado"
+     },
+     "gratuidad": {
+      "points": 4,
+      "max": 25,
+      "note": "requiere_compra"
+     },
+     "facilidad": {
+      "points": 13,
+      "max": 15,
+      "note": "registro"
+     },
+     "vigencia": {
+      "points": 5,
+      "max": 10,
+      "note": "sin fecha límite publicada"
+     },
+     "cobertura": {
+      "points": 5,
+      "max": 10,
+      "note": "regional"
+     },
+     "credibilidad": {
+      "points": 2,
+      "max": 10,
+      "note": "no_verificable"
+     },
+     "claridad": {
+      "points": 1,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
    "id": "op_c2b0b772761a",
    "title": "Black Friday en Colombia 2026: fecha, duración, categorías con mayores descuentos y recomendaciones de compra",
    "summary": "Descubre las fechas y mejores ofertas del Black Friday 2026 en Colombia. Consejos clave para comprar seguro y aprovechar descuentos únicos.",
@@ -14104,7 +14565,7 @@
    "discovered_at": "2026-11-18T16:19:12-05:00",
    "updated_at": "2026-11-18T16:19:12-05:00",
    "last_verified": "2026-11-19T22:29:29-05:00",
-   "last_seen": "2026-11-18T21:46:59-05:00",
+   "last_seen": "2026-11-20T08:04:54-05:00",
    "history": [],
    "priority": {
     "score": 33,
@@ -14139,6 +14600,339 @@
       "points": 2,
       "max": 10,
       "note": "no_verificable"
+     },
+     "claridad": {
+      "points": 1,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
+   "id": "op_a26a6332e228",
+   "title": "Misión gta: conquista el mejor puntaje",
+   "summary": "Combustibles líquidos, aceites lubricantes, gas natural vehicular, etc. Ofrecemos variadas opciones para el consumo de combustible.",
+   "section": "concursos",
+   "category": "gasolina",
+   "tags": [
+    "Bonos de gasolina",
+    "Transporte y gasolina"
+   ],
+   "kind": "Concurso",
+   "organizer": {
+    "name": "Terpel",
+    "type": "combustible",
+    "domain": "terpel.com",
+    "known": true
+   },
+   "prize": {
+    "description": null,
+    "value_cop": 80000,
+    "value_text": "$80.000",
+    "value_source": "pagina_oficial",
+    "winners": null,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "gratis_actividad",
+    "label": "Gratis con actividad",
+    "free": true,
+    "certainty": "inferido",
+    "requires_purchase": null,
+    "requires_registration": false,
+    "requires_social": true,
+    "requires_activity": true,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": null,
+    "notes": [
+     "Pide interactuar en redes sociales (seguir, comentar o etiquetar).",
+     "No se encontró ninguna condición de compra en la fuente oficial (inferido, confírmalo en los términos)."
+    ]
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": 18,
+    "age_text": "mayor de edad",
+    "coverage": "nacional",
+    "cities": [
+     "Bogotá"
+    ]
+   },
+   "requirements": [
+    "Persona natural, mayor de edad, residente en Colombia, inscrita en ViveTerpel, que cumple la totalidad de los requisitos establecidos en los presentes T&C y participa en la Actividad.",
+    "Participante que obtenga uno de los tres (3) mejores puntajes registrados durante la Actividad y cumpla la totalidad de los requisitos establecidos en estos T&C.",
+    "Para participar, los interesados deberán cumplir la totalidad de los siguientes requisitos:",
+    "· Estar registrados en el programa ViveTerpel.",
+    "Para estos efectos, el participante deberá suministrar su número de cédula al promotor y/o anfitrión del establecimiento donde realice la compra.",
+    "La compra o compras debidamente fidelizadas que habiliten la participación en la actividad deberán realizarse exclusivamente durante la vigencia de la Actividad, esto es, el 19 de noviembre de 2026 entre las 5:00 p.m."
+   ],
+   "documents": [
+    "Documento de identidad (cédula)"
+   ],
+   "steps": [],
+   "steps_source": null,
+   "dates": {
+    "published": null,
+    "start": null,
+    "end": "2026-11-19",
+    "draw": null
+   },
+   "status": "vencida",
+   "gov": null,
+   "offer": null,
+   "verification": {
+    "status": "vencida",
+    "reasons": [
+     "El enlace pertenece a un dominio oficial del organizador.",
+     "Proviene de una fuente oficial configurada.",
+     "Tiene términos y condiciones consultables.",
+     "El enlace respondió correctamente en la última verificación."
+    ],
+    "checked_at": "2026-11-19T17:17:31-05:00",
+    "link_ok": true,
+    "official_domain": true,
+    "terms_found": true,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://www.terpel.com/terminos-legales-folder/terminos-y-condiciones-para-la-actividad-mision-gta-conquista-el-mejor-puntaje",
+    "participate": "https://www.terpel.com/terminos-legales-folder/terminos-y-condiciones-para-la-actividad-mision-gta-conquista-el-mejor-puntaje",
+    "terms": "https://www.terpel.com/terminos-legales-folder/terminos-y-condiciones-para-la-actividad-mision-gta-conquista-el-mejor-puntaje",
+    "official": null,
+    "image": "https://portalcolombia.terpel.com/static/images/terpel_logo_og.png"
+   },
+   "sources": [
+    {
+     "url": "https://www.terpel.com/terminos-legales-folder/terminos-y-condiciones-para-la-actividad-mision-gta-conquista-el-mejor-puntaje",
+     "name": "Terpel · términos de campañas (oficial)",
+     "type": "official",
+     "seen_at": "2026-11-18T16:18:55-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 1.0,
+    "model": null
+   },
+   "discovered_at": "2026-11-18T16:18:55-05:00",
+   "updated_at": "2026-11-18T16:18:55-05:00",
+   "last_verified": "2026-11-19T17:17:31-05:00",
+   "last_seen": "2026-11-20T08:04:54-05:00",
+   "history": [
+    {
+     "at": "2026-11-20T08:04:57-05:00",
+     "field": "status",
+     "label": "Estado",
+     "from": "activa",
+     "to": "vencida"
+    }
+   ],
+   "priority": {
+    "score": 10,
+    "level": "baja",
+    "breakdown": {
+     "valor": {
+      "points": 10,
+      "max": 25,
+      "note": "valor publicado 80.000 COP"
+     },
+     "gratuidad": {
+      "points": 18,
+      "max": 25,
+      "note": "gratis_actividad"
+     },
+     "facilidad": {
+      "points": 7,
+      "max": 15,
+      "note": "actividad, redes sociales"
+     },
+     "vigencia": {
+      "points": 0,
+      "max": 10,
+      "note": "terminada"
+     },
+     "cobertura": {
+      "points": 10,
+      "max": 10,
+      "note": "nacional"
+     },
+     "credibilidad": {
+      "points": 0,
+      "max": 10,
+      "note": "vencida"
+     },
+     "claridad": {
+      "points": 5,
+      "max": 5,
+      "note": "términos publicados"
+     }
+    }
+   }
+  },
+  {
+   "id": "op_da976636b48f",
+   "title": "Paro nacional del 19 de noviembre en Colombia, estos son los sindicatos que no participarán en las movilizaciones convocadas por la…",
+   "summary": "Utipec y Fetrappem afirmaron que sus afiliados no respaldarán los paros ni las movilizaciones del jueves 19 de noviembre y rechazaron que se atribuya una postura unificada al sindicalismo colombiano",
+   "section": "estado",
+   "category": "empleo",
+   "tags": [
+    "Empleo"
+   ],
+   "mechanics": [],
+   "kind": "Programa público",
+   "organizer": {
+    "name": "Organizador no identificado",
+    "type": "desconocido",
+    "domain": null,
+    "known": false
+   },
+   "prize": {
+    "description": null,
+    "value_cop": null,
+    "value_text": null,
+    "value_source": null,
+    "winners": null,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "gratis_registro",
+    "label": "Gratis con registro",
+    "free": true,
+    "certainty": "inferido",
+    "requires_purchase": null,
+    "requires_registration": false,
+    "requires_social": false,
+    "requires_activity": false,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": null,
+    "notes": [
+     "No se encontró ninguna condición de compra en la fuente oficial (inferido, confírmalo en los términos)."
+    ]
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": null,
+    "age_text": null,
+    "coverage": "regional",
+    "cities": [
+     "Bogotá",
+     "Medellín",
+     "Cali",
+     "Barranquilla"
+    ]
+   },
+   "requirements": [
+    "Utipec afirmó que sus afiliados no participarán ni respaldarán las movilizaciones del 19 de noviembre de 2026 (@UTIPEC_/X) Alejandro Ospina, presidente de Fetrappem y Utipec, rechazó las movilizaciones previstas para…"
+   ],
+   "documents": [],
+   "steps": [],
+   "steps_source": null,
+   "dates": {
+    "published": "2026-11-19T10:17:13-05:00",
+    "start": "2026-11-19",
+    "end": "2026-11-19",
+    "draw": null
+   },
+   "status": "vencida",
+   "gov": {
+    "program_status": "cerrada",
+    "entity": "Organizador no identificado"
+   },
+   "offer": null,
+   "verification": {
+    "status": "vencida",
+    "reasons": [
+     "Organizador no identificado con certeza."
+    ],
+    "checked_at": "2026-11-19T17:17:10-05:00",
+    "link_ok": null,
+    "official_domain": false,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://www.infobae.com/colombia/2026/11/19/paro-nacional-del-19-de-noviembre-en-colombia-estos-son-los-sindicatos-que-no-participaran-en-las-movilizaciones-convocadas-por-la-oposicion-desmentimos-la-narrativa/",
+    "participate": "https://www.infobae.com/colombia/2026/11/19/paro-nacional-en-vivo-hoy-19-de-noviembre-asi-amanecen-las-vias-de-las-principales-ciudades/",
+    "terms": null,
+    "official": null,
+    "image": "https://www.infobae.com/resizer/v2/NGH4QRJDHJEMNMNZGW5XMT2HUM.jpg?auth=255d17d8ad1ef12d6e5abf92a64eb14cdb2a3cbb561a918335416fc5574a2e3c&smart=true&width=1200&height=630&quality=85"
+   },
+   "sources": [
+    {
+     "url": "https://www.infobae.com/colombia/2026/11/19/paro-nacional-del-19-de-noviembre-en-colombia-estos-son-los-sindicatos-que-no-participaran-en-las-movilizaciones-convocadas-por-la-oposicion-desmentimos-la-narrativa/",
+     "name": "Infobae Colombia (feed)",
+     "type": "news",
+     "seen_at": "2026-11-19T17:17:10-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 0.57,
+    "model": null
+   },
+   "discovered_at": "2026-11-19T17:17:10-05:00",
+   "updated_at": "2026-11-19T17:17:10-05:00",
+   "last_verified": "2026-11-19T17:17:10-05:00",
+   "last_seen": "2026-11-19T17:17:10-05:00",
+   "history": [
+    {
+     "at": "2026-11-20T08:04:57-05:00",
+     "field": "status",
+     "label": "Estado",
+     "from": "activa",
+     "to": "vencida"
+    }
+   ],
+   "priority": {
+    "score": 10,
+    "level": "baja",
+    "breakdown": {
+     "valor": {
+      "points": 9,
+      "max": 25,
+      "note": "valor no publicado"
+     },
+     "gratuidad": {
+      "points": 22,
+      "max": 25,
+      "note": "gratis_registro"
+     },
+     "facilidad": {
+      "points": 15,
+      "max": 15,
+      "note": "pocos requisitos"
+     },
+     "vigencia": {
+      "points": 0,
+      "max": 10,
+      "note": "terminada"
+     },
+     "cobertura": {
+      "points": 5,
+      "max": 10,
+      "note": "regional"
+     },
+     "credibilidad": {
+      "points": 0,
+      "max": 10,
+      "note": "vencida"
      },
      "claridad": {
       "points": 1,
