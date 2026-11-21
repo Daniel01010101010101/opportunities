@@ -1,56 +1,56 @@
 {
  "engine_version": "1.0.0",
- "generated_at": "2026-11-20T22:17:58-05:00",
+ "generated_at": "2026-11-21T07:49:39-05:00",
  "timezone": "America/Bogota",
  "schedule": {
   "cron_utc": "17 */2 * * *",
   "description": "Cada 2 horas, minuto 17 (horas impares en Bogotá)",
-  "next_run_at": "2026-11-20T23:17:00-05:00"
+  "next_run_at": "2026-11-21T09:17:00-05:00"
  },
  "last_run": {
-  "id": "20261120-221618",
-  "started_at": "2026-11-20T22:16:18-05:00",
-  "finished_at": "2026-11-20T22:17:58-05:00",
-  "duration_s": 99.8,
+  "id": "20261121-074442",
+  "started_at": "2026-11-21T07:44:42-05:00",
+  "finished_at": "2026-11-21T07:49:39-05:00",
+  "duration_s": 296.5,
   "status": "parcial",
   "trigger": "schedule",
   "new": 1,
   "updated": 0,
-  "discarded": 16,
-  "sources_checked": 76,
-  "sources_ok": 69,
-  "run_url": "https://github.com/Daniel01010101010101/opportunities/actions/runs/44860202879"
+  "discarded": 23,
+  "sources_checked": 97,
+  "sources_ok": 90,
+  "run_url": "https://github.com/Daniel01010101010101/opportunities/actions/runs/44905393950"
  },
- "last_success_at": "2026-11-20T22:17:58-05:00",
- "last_new_opportunity_at": "2026-11-20T22:17:33-05:00",
+ "last_success_at": "2026-11-21T07:49:39-05:00",
+ "last_new_opportunity_at": "2026-11-21T07:49:31-05:00",
  "sources": {
   "configured": 219,
-  "checked_last_run": 76,
-  "ok_last_run": 69,
+  "checked_last_run": 97,
+  "ok_last_run": 90,
   "failed_last_run": 2,
   "discovered": 5,
   "with_errors": 2
  },
  "counts": {
-  "total": 108,
+  "total": 109,
   "active": 106,
-  "new_24h": 23,
+  "new_24h": 19,
   "verified": 35,
-  "pending": 54,
-  "unverifiable": 17,
-  "expired": 2,
+  "pending": 53,
+  "unverifiable": 18,
+  "expired": 3,
   "withdrawn": 0,
   "archived": 0,
   "by_section": {
-   "concursos": 11,
+   "concursos": 10,
    "bonos": 13,
-   "ofertas": 13,
+   "ofertas": 14,
    "estado": 69
   },
   "by_priority": {
    "alta": 38,
-   "media": 63,
-   "baja": 5
+   "media": 62,
+   "baja": 6
   },
   "free": 72,
   "expiring_7d": 16

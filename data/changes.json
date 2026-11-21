@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T22:17:58-05:00",
+ "generated_at": "2026-11-21T07:49:39-05:00",
  "changes": [
   {
    "at": "2026-11-18T17:21:56-05:00",
@@ -63,6 +63,24 @@
    "to": "2026-11-21",
    "id": "op_b7a1637ca521",
    "title": "¡Concierto de salsa gratis en Centro Comercial Ciudad Tunal! Idartes presenta Caleidoscopio Sonoro el 21 de noviembre"
+  },
+  {
+   "at": "2026-11-21T07:49:39-05:00",
+   "field": "status",
+   "label": "Estado",
+   "from": "proxima",
+   "to": "activa",
+   "id": "op_6ea9f027e6bb",
+   "title": "Participa por entradas a la función especial de Los Juegos del Hambre junto a Cine Colombia"
+  },
+  {
+   "at": "2026-11-21T07:49:39-05:00",
+   "field": "status",
+   "label": "Estado",
+   "from": "activa",
+   "to": "vencida",
+   "id": "op_bd2ce9393e3d",
+   "title": "Premios de Periodismo Alfonso Bonilla Aragón 2026: fechas, categorías y cómo participar"
   }
  ]
 }

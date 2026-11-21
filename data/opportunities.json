@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-20T22:17:58-05:00",
- "count": 108,
+ "generated_at": "2026-11-21T07:49:39-05:00",
+ "count": 109,
  "items": [
   {
    "id": "op_72402b2d44f8",
@@ -138,7 +138,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (28 días restantes)"
+      "note": "vigente (27 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -295,7 +295,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (14 días restantes)"
+      "note": "vigente (13 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -433,7 +433,7 @@
    "discovered_at": "2026-11-18T16:18:57-05:00",
    "updated_at": "2026-11-20T16:55:48-05:00",
    "last_verified": "2026-11-20T16:55:48-05:00",
-   "last_seen": "2026-11-20T22:17:32-05:00",
+   "last_seen": "2026-11-21T07:49:31-05:00",
    "history": [
     {
      "at": "2026-11-20T16:55:48-05:00",
@@ -459,164 +459,6 @@
      },
      "facilidad": {
       "points": 14,
-      "max": 15,
-      "note": "pocos requisitos"
-     },
-     "vigencia": {
-      "points": 10,
-      "max": 10,
-      "note": "vigente (5 días restantes)"
-     },
-     "cobertura": {
-      "points": 10,
-      "max": 10,
-      "note": "bogota"
-     },
-     "credibilidad": {
-      "points": 10,
-      "max": 10,
-      "note": "verificada"
-     },
-     "claridad": {
-      "points": 1,
-      "max": 5,
-      "note": "sin términos enlazados"
-     }
-    }
-   }
-  },
-  {
-   "id": "op_4b65e0e1f9d4",
-   "title": "Start-Up Chile Ignite 2026: hasta CLP 50 millones para startups de Bogotá",
-   "summary": "¿Tienes una startup en Bogotá y sueñas con llevar tu emprendimiento a nuevos mercados? Chile puede ser el próximo paso para hacer crecer tu negocio, fortalecer tus capacidades y conectar tus ideas con oportunidades internacionales.",
-   "section": "estado",
-   "category": "emprendimiento",
-   "tags": [
-    "Emprendimiento"
-   ],
-   "mechanics": [],
-   "kind": "Programa público",
-   "organizer": {
-    "name": "Alcaldía de Bogotá",
-    "type": "gobierno",
-    "domain": "bogota.gov.co",
-    "known": true
-   },
-   "prize": {
-    "description": null,
-    "value_cop": null,
-    "value_text": null,
-    "value_source": null,
-    "winners": null,
-    "odds_text": null
-   },
-   "cost": {
-    "type": "gratis_registro",
-    "label": "Gratis con registro",
-    "free": true,
-    "certainty": "inferido",
-    "requires_purchase": null,
-    "requires_registration": false,
-    "requires_social": false,
-    "requires_activity": false,
-    "requires_subscription": false,
-    "requires_deposit": false,
-    "purchase_threshold_text": null,
-    "notes": [
-     "No se encontró ninguna condición de compra en la fuente oficial (inferido, confírmalo en los términos)."
-    ]
-   },
-   "eligibility": {
-    "who": null,
-    "min_age": null,
-    "age_text": null,
-    "coverage": "bogota",
-    "cities": [
-     "Bogotá"
-    ]
-   },
-   "requirements": [
-    "Las startups seleccionadas podrán acceder a financiación de hasta 30 millones de pesos chilenos, sin ceder participación accionaria, con posibilidad de obtener una extensión de hasta 20 millones adicionales, sujeta a…",
-    "Contar con un producto funcional, validación temprana y un equipo comprometido.",
-    "La persona líder debe ser mayor de 18 años y poseer al menos el 10 % de participación en la startup.",
-    "Las empresas seleccionadas deberán cumplir las condiciones de participación y ejecución establecidas por Corfo en Chile."
-   ],
-   "documents": [],
-   "steps": [],
-   "steps_source": null,
-   "dates": {
-    "published": "2026-11-20T14:32:09-05:00",
-    "start": null,
-    "end": "2026-11-24",
-    "draw": null
-   },
-   "status": "activa",
-   "gov": {
-    "program_status": "abierta",
-    "entity": "Alcaldía de Bogotá"
-   },
-   "offer": null,
-   "verification": {
-    "status": "verificada",
-    "reasons": [
-     "El enlace pertenece a un dominio oficial del organizador.",
-     "Proviene de una fuente oficial configurada.",
-     "El enlace respondió correctamente en la última verificación."
-    ],
-    "checked_at": "2026-11-20T16:55:51-05:00",
-    "link_ok": true,
-    "official_domain": true,
-    "terms_found": false,
-    "link_failures": 0
-   },
-   "risk": {
-    "level": "bajo",
-    "flags": [],
-    "sensitive_data_warning": false
-   },
-   "urls": {
-    "source": "https://bogota.gov.co/boletin-oferta-internacional/start-chile-ignite-2026-financiacion-para-startups-de-bogota",
-    "participate": "https://bogota.gov.co/boletin-oferta-internacional/start-chile-ignite-2026-financiacion-para-startups-de-bogota",
-    "terms": null,
-    "official": null,
-    "image": "https://bogota.gov.co/sites/default/files/2026-11/2026-02-084_home.png"
-   },
-   "sources": [
-    {
-     "url": "https://bogota.gov.co/boletin-oferta-internacional/start-chile-ignite-2026-financiacion-para-startups-de-bogota",
-     "name": "Bogotá.gov.co (oficial)",
-     "type": "official",
-     "seen_at": "2026-11-20T16:55:51-05:00"
-    }
-   ],
-   "language": "es",
-   "translated": false,
-   "extraction": {
-    "method": "heuristica",
-    "relevance": 0.6,
-    "model": null
-   },
-   "discovered_at": "2026-11-20T16:55:51-05:00",
-   "updated_at": "2026-11-20T16:55:51-05:00",
-   "last_verified": "2026-11-20T16:55:51-05:00",
-   "last_seen": "2026-11-20T22:17:32-05:00",
-   "history": [],
-   "priority": {
-    "score": 80,
-    "level": "alta",
-    "breakdown": {
-     "valor": {
-      "points": 14,
-      "max": 25,
-      "note": "valor no publicado (estimado por tipo de premio)"
-     },
-     "gratuidad": {
-      "points": 22,
-      "max": 25,
-      "note": "gratis_registro"
-     },
-     "facilidad": {
-      "points": 13,
       "max": 15,
       "note": "pocos requisitos"
      },
@@ -752,7 +594,7 @@
    "discovered_at": "2026-11-18T16:18:44-05:00",
    "updated_at": "2026-11-18T16:18:44-05:00",
    "last_verified": "2026-11-20T16:56:07-05:00",
-   "last_seen": "2026-11-20T16:55:46-05:00",
+   "last_seen": "2026-11-21T07:49:31-05:00",
    "history": [],
    "priority": {
     "score": 79,
@@ -933,7 +775,165 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (55 días restantes)"
+      "note": "vigente (54 días restantes)"
+     },
+     "cobertura": {
+      "points": 10,
+      "max": 10,
+      "note": "bogota"
+     },
+     "credibilidad": {
+      "points": 10,
+      "max": 10,
+      "note": "verificada"
+     },
+     "claridad": {
+      "points": 1,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
+   "id": "op_4b65e0e1f9d4",
+   "title": "Start-Up Chile Ignite 2026: hasta CLP 50 millones para startups de Bogotá",
+   "summary": "¿Tienes una startup en Bogotá y sueñas con llevar tu emprendimiento a nuevos mercados? Chile puede ser el próximo paso para hacer crecer tu negocio, fortalecer tus capacidades y conectar tus ideas con oportunidades internacionales.",
+   "section": "estado",
+   "category": "emprendimiento",
+   "tags": [
+    "Emprendimiento"
+   ],
+   "mechanics": [],
+   "kind": "Programa público",
+   "organizer": {
+    "name": "Alcaldía de Bogotá",
+    "type": "gobierno",
+    "domain": "bogota.gov.co",
+    "known": true
+   },
+   "prize": {
+    "description": null,
+    "value_cop": null,
+    "value_text": null,
+    "value_source": null,
+    "winners": null,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "gratis_registro",
+    "label": "Gratis con registro",
+    "free": true,
+    "certainty": "inferido",
+    "requires_purchase": null,
+    "requires_registration": false,
+    "requires_social": false,
+    "requires_activity": false,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": null,
+    "notes": [
+     "No se encontró ninguna condición de compra en la fuente oficial (inferido, confírmalo en los términos)."
+    ]
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": null,
+    "age_text": null,
+    "coverage": "bogota",
+    "cities": [
+     "Bogotá"
+    ]
+   },
+   "requirements": [
+    "Las startups seleccionadas podrán acceder a financiación de hasta 30 millones de pesos chilenos, sin ceder participación accionaria, con posibilidad de obtener una extensión de hasta 20 millones adicionales, sujeta a…",
+    "Contar con un producto funcional, validación temprana y un equipo comprometido.",
+    "La persona líder debe ser mayor de 18 años y poseer al menos el 10 % de participación en la startup.",
+    "Las empresas seleccionadas deberán cumplir las condiciones de participación y ejecución establecidas por Corfo en Chile."
+   ],
+   "documents": [],
+   "steps": [],
+   "steps_source": null,
+   "dates": {
+    "published": "2026-11-20T14:32:09-05:00",
+    "start": null,
+    "end": "2026-11-24",
+    "draw": null
+   },
+   "status": "activa",
+   "gov": {
+    "program_status": "abierta",
+    "entity": "Alcaldía de Bogotá"
+   },
+   "offer": null,
+   "verification": {
+    "status": "verificada",
+    "reasons": [
+     "El enlace pertenece a un dominio oficial del organizador.",
+     "Proviene de una fuente oficial configurada.",
+     "El enlace respondió correctamente en la última verificación."
+    ],
+    "checked_at": "2026-11-20T16:55:51-05:00",
+    "link_ok": true,
+    "official_domain": true,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://bogota.gov.co/boletin-oferta-internacional/start-chile-ignite-2026-financiacion-para-startups-de-bogota",
+    "participate": "https://bogota.gov.co/boletin-oferta-internacional/start-chile-ignite-2026-financiacion-para-startups-de-bogota",
+    "terms": null,
+    "official": null,
+    "image": "https://bogota.gov.co/sites/default/files/2026-11/2026-02-084_home.png"
+   },
+   "sources": [
+    {
+     "url": "https://bogota.gov.co/boletin-oferta-internacional/start-chile-ignite-2026-financiacion-para-startups-de-bogota",
+     "name": "Bogotá.gov.co (oficial)",
+     "type": "official",
+     "seen_at": "2026-11-20T16:55:51-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 0.6,
+    "model": null
+   },
+   "discovered_at": "2026-11-20T16:55:51-05:00",
+   "updated_at": "2026-11-20T16:55:51-05:00",
+   "last_verified": "2026-11-20T16:55:51-05:00",
+   "last_seen": "2026-11-21T07:49:31-05:00",
+   "history": [],
+   "priority": {
+    "score": 79,
+    "level": "alta",
+    "breakdown": {
+     "valor": {
+      "points": 14,
+      "max": 25,
+      "note": "valor no publicado (estimado por tipo de premio)"
+     },
+     "gratuidad": {
+      "points": 22,
+      "max": 25,
+      "note": "gratis_registro"
+     },
+     "facilidad": {
+      "points": 13,
+      "max": 15,
+      "note": "pocos requisitos"
+     },
+     "vigencia": {
+      "points": 9,
+      "max": 10,
+      "note": "vence en 3 día(s): revisar ya"
      },
      "cobertura": {
       "points": 10,
@@ -1070,7 +1070,7 @@
    "discovered_at": "2026-11-18T17:21:44-05:00",
    "updated_at": "2026-11-18T17:21:44-05:00",
    "last_verified": "2026-11-20T22:17:54-05:00",
-   "last_seen": "2026-11-20T16:55:46-05:00",
+   "last_seen": "2026-11-21T07:49:31-05:00",
    "history": [],
    "priority": {
     "score": 77,
@@ -1249,7 +1249,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (10 días restantes)"
+      "note": "vigente (9 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -1404,7 +1404,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (72 días restantes)"
+      "note": "vigente (71 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -1559,7 +1559,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (19 días restantes)"
+      "note": "vigente (18 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -1666,7 +1666,7 @@
      "El enlace pertenece a un dominio oficial del organizador.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-19T22:29:45-05:00",
+    "checked_at": "2026-11-21T07:49:32-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -1701,7 +1701,7 @@
    },
    "discovered_at": "2026-11-18T22:36:49-05:00",
    "updated_at": "2026-11-18T22:36:49-05:00",
-   "last_verified": "2026-11-19T22:29:45-05:00",
+   "last_verified": "2026-11-21T07:49:32-05:00",
    "last_seen": "2026-11-20T08:04:54-05:00",
    "history": [],
    "priority": {
@@ -1726,7 +1726,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (89 días restantes)"
+      "note": "vigente (88 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -1894,7 +1894,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (21 días restantes)"
+      "note": "vigente (20 días restantes)"
      },
      "cobertura": {
       "points": 5,
@@ -2065,7 +2065,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (41 días restantes)"
+      "note": "vigente (40 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -2194,7 +2194,7 @@
    "discovered_at": "2026-11-19T17:17:08-05:00",
    "updated_at": "2026-11-19T17:17:08-05:00",
    "last_verified": "2026-11-20T16:55:54-05:00",
-   "last_seen": "2026-11-20T22:17:32-05:00",
+   "last_seen": "2026-11-21T07:49:31-05:00",
    "history": [],
    "priority": {
     "score": 75,
@@ -2218,7 +2218,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (87 días restantes)"
+      "note": "vigente (86 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -2344,7 +2344,7 @@
    "discovered_at": "2026-11-18T16:18:58-05:00",
    "updated_at": "2026-11-18T16:18:58-05:00",
    "last_verified": "2026-11-20T16:56:14-05:00",
-   "last_seen": "2026-11-20T16:55:46-05:00",
+   "last_seen": "2026-11-21T07:49:31-05:00",
    "history": [],
    "priority": {
     "score": 75,
@@ -2368,7 +2368,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (102 días restantes)"
+      "note": "vigente (101 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -2511,7 +2511,7 @@
    "discovered_at": "2026-11-18T16:18:57-05:00",
    "updated_at": "2026-11-18T16:18:57-05:00",
    "last_verified": "2026-11-20T16:56:13-05:00",
-   "last_seen": "2026-11-20T16:55:46-05:00",
+   "last_seen": "2026-11-21T07:49:31-05:00",
    "history": [],
    "priority": {
     "score": 75,
@@ -2687,7 +2687,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (59 días restantes)"
+      "note": "vigente (58 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -2929,7 +2929,7 @@
     "reasons": [
      "Falta confirmar condiciones en la página oficial."
     ],
-    "checked_at": "2026-11-19T22:29:45-05:00",
+    "checked_at": "2026-11-21T07:49:32-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -2970,7 +2970,7 @@
    },
    "discovered_at": "2026-11-18T16:19:04-05:00",
    "updated_at": "2026-11-18T16:19:04-05:00",
-   "last_verified": "2026-11-19T22:29:45-05:00",
+   "last_verified": "2026-11-21T07:49:32-05:00",
    "last_seen": "2026-11-20T08:04:54-05:00",
    "history": [],
    "priority": {
@@ -3121,7 +3121,7 @@
    "discovered_at": "2026-11-18T16:18:54-05:00",
    "updated_at": "2026-11-18T16:18:54-05:00",
    "last_verified": "2026-11-20T16:56:11-05:00",
-   "last_seen": "2026-11-20T16:55:46-05:00",
+   "last_seen": "2026-11-21T07:49:31-05:00",
    "history": [],
    "priority": {
     "score": 74,
@@ -3271,7 +3271,7 @@
    "discovered_at": "2026-11-18T16:18:53-05:00",
    "updated_at": "2026-11-18T16:18:53-05:00",
    "last_verified": "2026-11-20T16:56:10-05:00",
-   "last_seen": "2026-11-20T16:55:46-05:00",
+   "last_seen": "2026-11-21T07:49:31-05:00",
    "history": [],
    "priority": {
     "score": 74,
@@ -3449,7 +3449,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (5 días restantes)"
+      "note": "vigente (4 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -3604,7 +3604,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (94 días restantes)"
+      "note": "vigente (93 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -3761,7 +3761,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (5 días restantes)"
+      "note": "vigente (4 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -3891,7 +3891,7 @@
    "discovered_at": "2026-11-18T16:18:46-05:00",
    "updated_at": "2026-11-18T16:18:46-05:00",
    "last_verified": "2026-11-20T16:56:09-05:00",
-   "last_seen": "2026-11-20T16:55:46-05:00",
+   "last_seen": "2026-11-21T07:49:31-05:00",
    "history": [],
    "priority": {
     "score": 73,
@@ -4402,7 +4402,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (41 días restantes)"
+      "note": "vigente (40 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -4536,7 +4536,7 @@
    "discovered_at": "2026-11-18T16:18:49-05:00",
    "updated_at": "2026-11-18T16:18:49-05:00",
    "last_verified": "2026-11-20T16:56:12-05:00",
-   "last_seen": "2026-11-20T16:55:46-05:00",
+   "last_seen": "2026-11-21T07:49:31-05:00",
    "history": [],
    "priority": {
     "score": 72,
@@ -4694,7 +4694,7 @@
    "discovered_at": "2026-11-18T16:18:45-05:00",
    "updated_at": "2026-11-18T16:18:45-05:00",
    "last_verified": "2026-11-20T16:56:08-05:00",
-   "last_seen": "2026-11-20T16:55:46-05:00",
+   "last_seen": "2026-11-21T07:49:31-05:00",
    "history": [],
    "priority": {
     "score": 72,
@@ -5271,7 +5271,7 @@
     "reasons": [
      "Organizador no identificado con certeza."
     ],
-    "checked_at": "2026-11-19T22:29:45-05:00",
+    "checked_at": "2026-11-21T07:49:32-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -5306,7 +5306,7 @@
    },
    "discovered_at": "2026-11-18T21:46:59-05:00",
    "updated_at": "2026-11-18T21:46:59-05:00",
-   "last_verified": "2026-11-19T22:29:45-05:00",
+   "last_verified": "2026-11-21T07:49:32-05:00",
    "last_seen": "2026-11-18T21:46:59-05:00",
    "history": [],
    "priority": {
@@ -5331,7 +5331,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (5 días restantes)"
+      "note": "vigente (4 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -5495,7 +5495,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (10 días restantes)"
+      "note": "vigente (9 días restantes)"
      },
      "cobertura": {
       "points": 5,
@@ -5901,8 +5901,8 @@
     "reasons": [
      "Falta confirmar condiciones en la página oficial."
     ],
-    "checked_at": "2026-11-20T08:04:55-05:00",
-    "link_ok": null,
+    "checked_at": "2026-11-21T07:49:35-05:00",
+    "link_ok": true,
     "official_domain": false,
     "terms_found": false,
     "link_failures": 0
@@ -5936,7 +5936,7 @@
    },
    "discovered_at": "2026-11-20T08:04:55-05:00",
    "updated_at": "2026-11-20T08:04:55-05:00",
-   "last_verified": "2026-11-20T08:04:55-05:00",
+   "last_verified": "2026-11-21T07:49:35-05:00",
    "last_seen": "2026-11-20T08:04:55-05:00",
    "history": [],
    "priority": {
@@ -5961,7 +5961,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (26 días restantes)"
+      "note": "vigente (25 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -6099,7 +6099,7 @@
    "discovered_at": "2026-11-18T16:18:47-05:00",
    "updated_at": "2026-11-18T16:18:47-05:00",
    "last_verified": "2026-11-20T16:56:10-05:00",
-   "last_seen": "2026-11-20T16:55:46-05:00",
+   "last_seen": "2026-11-21T07:49:31-05:00",
    "history": [],
    "priority": {
     "score": 69,
@@ -6375,7 +6375,7 @@
     "reasons": [
      "Falta confirmar condiciones en la página oficial."
     ],
-    "checked_at": "2026-11-19T22:29:47-05:00",
+    "checked_at": "2026-11-21T07:49:34-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -6410,7 +6410,7 @@
    },
    "discovered_at": "2026-11-18T22:36:49-05:00",
    "updated_at": "2026-11-18T22:36:49-05:00",
-   "last_verified": "2026-11-19T22:29:47-05:00",
+   "last_verified": "2026-11-21T07:49:34-05:00",
    "last_seen": "2026-11-20T08:04:54-05:00",
    "history": [],
    "priority": {
@@ -6441,162 +6441,6 @@
       "points": 10,
       "max": 10,
       "note": "nacional"
-     },
-     "credibilidad": {
-      "points": 6,
-      "max": 10,
-      "note": "pendiente"
-     },
-     "claridad": {
-      "points": 1,
-      "max": 5,
-      "note": "sin términos enlazados"
-     }
-    }
-   }
-  },
-  {
-   "id": "op_65ae5d5ec9d2",
-   "title": "Embajada de Estados Unidos abrió convocatoria para un prgrama que beneficiará a líderes comunitarios y profesionales colombianos: así…",
-   "summary": "Las postulaciones permanecerán habilitadas hasta el 24 de noviembre de 2026, para profesionales y referentes comunitarios interesados en impulsar el desarrollo económico local y regional",
-   "section": "estado",
-   "category": "convocatorias",
-   "tags": [
-    "Convocatorias públicas"
-   ],
-   "mechanics": [],
-   "kind": "Programa público",
-   "organizer": {
-    "name": "Organizador no identificado",
-    "type": "desconocido",
-    "domain": null,
-    "known": false
-   },
-   "prize": {
-    "description": null,
-    "value_cop": null,
-    "value_text": null,
-    "value_source": null,
-    "winners": null,
-    "odds_text": null
-   },
-   "cost": {
-    "type": "gratis_registro",
-    "label": "Gratis con registro",
-    "free": true,
-    "certainty": "inferido",
-    "requires_purchase": null,
-    "requires_registration": true,
-    "requires_social": false,
-    "requires_activity": false,
-    "requires_subscription": false,
-    "requires_deposit": false,
-    "purchase_threshold_text": null,
-    "notes": [
-     "No se encontró ninguna condición de compra en la fuente oficial (inferido, confírmalo en los términos)."
-    ]
-   },
-   "eligibility": {
-    "who": null,
-    "min_age": 27,
-    "age_text": "entre 27 y 39 años",
-    "coverage": "bogota",
-    "cities": [
-     "Bogotá"
-    ]
-   },
-   "requirements": [
-    "Los postulantes deberán demostrar que sus conocimientos pueden traducirse en acciones de largo plazo, iniciativas entre sectores y resultados medibles para sus territorios.",
-    "Los candidatos también deberán demostrar capacidad para generar beneficios concretos en sus comunidades y articular proyectos con actores de distintos sectores.",
-    "La información sobre requisitos y proceso de inscripción está disponible en la página del Community Solutions Program de IREX:",
-    "Convocatoria laboral Embajada de Estados Unidos Líderes colombianos Requisitos Colombia-Noticias Más Noticias De la Espriella anunció medidas para comerciantes afectados por incendio en El Gran San y pidió el apoyo de…"
-   ],
-   "documents": [],
-   "steps": [],
-   "steps_source": null,
-   "dates": {
-    "published": "2026-11-18T11:00:36-05:00",
-    "start": null,
-    "end": "2026-11-24",
-    "draw": null
-   },
-   "status": "activa",
-   "gov": {
-    "program_status": "abierta",
-    "entity": "Organizador no identificado"
-   },
-   "offer": null,
-   "verification": {
-    "status": "pendiente",
-    "reasons": [
-     "Organizador no identificado con certeza."
-    ],
-    "checked_at": "2026-11-20T22:17:48-05:00",
-    "link_ok": true,
-    "official_domain": false,
-    "terms_found": false,
-    "link_failures": 0
-   },
-   "risk": {
-    "level": "bajo",
-    "flags": [],
-    "sensitive_data_warning": false
-   },
-   "urls": {
-    "source": "https://www.infobae.com/colombia/2026/11/18/embajada-de-estados-unidos-abrio-convocatoria-para-un-prgrama-que-beneficiara-a-lideres-comunitarios-y-profesionales-colombianos-asi-puede-aplicar/",
-    "participate": null,
-    "terms": null,
-    "official": null,
-    "image": "https://www.infobae.com/resizer/v2/OTTFQX7HR5FGTJFHQVWBG6GP5Q.jpg?auth=f2cfbd433186de2f89760b5ee5eb773aa29e94576074fb42ff9b45a30c98a28d&smart=true&width=1200&height=630&quality=85"
-   },
-   "sources": [
-    {
-     "url": "https://www.infobae.com/colombia/2026/11/18/embajada-de-estados-unidos-abrio-convocatoria-para-un-prgrama-que-beneficiara-a-lideres-comunitarios-y-profesionales-colombianos-asi-puede-aplicar/",
-     "name": "Infobae Colombia (feed)",
-     "type": "news",
-     "seen_at": "2026-11-18T17:21:34-05:00"
-    }
-   ],
-   "language": "es",
-   "translated": false,
-   "extraction": {
-    "method": "heuristica",
-    "relevance": 0.93,
-    "model": null
-   },
-   "discovered_at": "2026-11-18T17:21:34-05:00",
-   "updated_at": "2026-11-18T17:21:34-05:00",
-   "last_verified": "2026-11-20T22:17:48-05:00",
-   "last_seen": "2026-11-18T17:29:12-05:00",
-   "history": [],
-   "priority": {
-    "score": 69,
-    "level": "media",
-    "breakdown": {
-     "valor": {
-      "points": 9,
-      "max": 25,
-      "note": "valor no publicado"
-     },
-     "gratuidad": {
-      "points": 22,
-      "max": 25,
-      "note": "gratis_registro"
-     },
-     "facilidad": {
-      "points": 11,
-      "max": 15,
-      "note": "registro"
-     },
-     "vigencia": {
-      "points": 10,
-      "max": 10,
-      "note": "vigente (4 días restantes)"
-     },
-     "cobertura": {
-      "points": 10,
-      "max": 10,
-      "note": "bogota"
      },
      "credibilidad": {
       "points": 6,
@@ -6679,7 +6523,7 @@
     "reasons": [
      "Información insuficiente: sin organizador identificado, fechas ni enlace oficial."
     ],
-    "checked_at": "2026-11-20T08:04:56-05:00",
+    "checked_at": "2026-11-21T07:49:36-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -6720,7 +6564,7 @@
    },
    "discovered_at": "2026-11-18T16:19:13-05:00",
    "updated_at": "2026-11-18T16:19:13-05:00",
-   "last_verified": "2026-11-20T08:04:56-05:00",
+   "last_verified": "2026-11-21T07:49:36-05:00",
    "last_seen": "2026-11-19T08:25:50-05:00",
    "history": [],
    "priority": {
@@ -6874,7 +6718,7 @@
    "discovered_at": "2026-11-20T16:55:49-05:00",
    "updated_at": "2026-11-20T16:55:49-05:00",
    "last_verified": "2026-11-20T16:55:49-05:00",
-   "last_seen": "2026-11-20T22:17:32-05:00",
+   "last_seen": "2026-11-21T07:49:31-05:00",
    "history": [],
    "priority": {
     "score": 69,
@@ -7534,7 +7378,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (10 días restantes)"
+      "note": "vigente (9 días restantes)"
      },
      "cobertura": {
       "points": 5,
@@ -7687,7 +7531,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (63 días restantes)"
+      "note": "vigente (62 días restantes)"
      },
      "cobertura": {
       "points": 6,
@@ -7812,7 +7656,7 @@
    "discovered_at": "2026-11-18T17:21:45-05:00",
    "updated_at": "2026-11-18T17:21:45-05:00",
    "last_verified": "2026-11-20T22:17:49-05:00",
-   "last_seen": "2026-11-20T16:55:46-05:00",
+   "last_seen": "2026-11-21T07:49:31-05:00",
    "history": [],
    "priority": {
     "score": 68,
@@ -7842,6 +7686,162 @@
       "points": 10,
       "max": 10,
       "note": "nacional"
+     },
+     "credibilidad": {
+      "points": 6,
+      "max": 10,
+      "note": "pendiente"
+     },
+     "claridad": {
+      "points": 1,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
+   "id": "op_65ae5d5ec9d2",
+   "title": "Embajada de Estados Unidos abrió convocatoria para un prgrama que beneficiará a líderes comunitarios y profesionales colombianos: así…",
+   "summary": "Las postulaciones permanecerán habilitadas hasta el 24 de noviembre de 2026, para profesionales y referentes comunitarios interesados en impulsar el desarrollo económico local y regional",
+   "section": "estado",
+   "category": "convocatorias",
+   "tags": [
+    "Convocatorias públicas"
+   ],
+   "mechanics": [],
+   "kind": "Programa público",
+   "organizer": {
+    "name": "Organizador no identificado",
+    "type": "desconocido",
+    "domain": null,
+    "known": false
+   },
+   "prize": {
+    "description": null,
+    "value_cop": null,
+    "value_text": null,
+    "value_source": null,
+    "winners": null,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "gratis_registro",
+    "label": "Gratis con registro",
+    "free": true,
+    "certainty": "inferido",
+    "requires_purchase": null,
+    "requires_registration": true,
+    "requires_social": false,
+    "requires_activity": false,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": null,
+    "notes": [
+     "No se encontró ninguna condición de compra en la fuente oficial (inferido, confírmalo en los términos)."
+    ]
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": 27,
+    "age_text": "entre 27 y 39 años",
+    "coverage": "bogota",
+    "cities": [
+     "Bogotá"
+    ]
+   },
+   "requirements": [
+    "Los postulantes deberán demostrar que sus conocimientos pueden traducirse en acciones de largo plazo, iniciativas entre sectores y resultados medibles para sus territorios.",
+    "Los candidatos también deberán demostrar capacidad para generar beneficios concretos en sus comunidades y articular proyectos con actores de distintos sectores.",
+    "La información sobre requisitos y proceso de inscripción está disponible en la página del Community Solutions Program de IREX:",
+    "Convocatoria laboral Embajada de Estados Unidos Líderes colombianos Requisitos Colombia-Noticias Más Noticias De la Espriella anunció medidas para comerciantes afectados por incendio en El Gran San y pidió el apoyo de…"
+   ],
+   "documents": [],
+   "steps": [],
+   "steps_source": null,
+   "dates": {
+    "published": "2026-11-18T11:00:36-05:00",
+    "start": null,
+    "end": "2026-11-24",
+    "draw": null
+   },
+   "status": "activa",
+   "gov": {
+    "program_status": "abierta",
+    "entity": "Organizador no identificado"
+   },
+   "offer": null,
+   "verification": {
+    "status": "pendiente",
+    "reasons": [
+     "Organizador no identificado con certeza."
+    ],
+    "checked_at": "2026-11-20T22:17:48-05:00",
+    "link_ok": true,
+    "official_domain": false,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://www.infobae.com/colombia/2026/11/18/embajada-de-estados-unidos-abrio-convocatoria-para-un-prgrama-que-beneficiara-a-lideres-comunitarios-y-profesionales-colombianos-asi-puede-aplicar/",
+    "participate": null,
+    "terms": null,
+    "official": null,
+    "image": "https://www.infobae.com/resizer/v2/OTTFQX7HR5FGTJFHQVWBG6GP5Q.jpg?auth=f2cfbd433186de2f89760b5ee5eb773aa29e94576074fb42ff9b45a30c98a28d&smart=true&width=1200&height=630&quality=85"
+   },
+   "sources": [
+    {
+     "url": "https://www.infobae.com/colombia/2026/11/18/embajada-de-estados-unidos-abrio-convocatoria-para-un-prgrama-que-beneficiara-a-lideres-comunitarios-y-profesionales-colombianos-asi-puede-aplicar/",
+     "name": "Infobae Colombia (feed)",
+     "type": "news",
+     "seen_at": "2026-11-18T17:21:34-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 0.93,
+    "model": null
+   },
+   "discovered_at": "2026-11-18T17:21:34-05:00",
+   "updated_at": "2026-11-18T17:21:34-05:00",
+   "last_verified": "2026-11-20T22:17:48-05:00",
+   "last_seen": "2026-11-18T17:29:12-05:00",
+   "history": [],
+   "priority": {
+    "score": 68,
+    "level": "media",
+    "breakdown": {
+     "valor": {
+      "points": 9,
+      "max": 25,
+      "note": "valor no publicado"
+     },
+     "gratuidad": {
+      "points": 22,
+      "max": 25,
+      "note": "gratis_registro"
+     },
+     "facilidad": {
+      "points": 11,
+      "max": 15,
+      "note": "registro"
+     },
+     "vigencia": {
+      "points": 9,
+      "max": 10,
+      "note": "vence en 3 día(s): revisar ya"
+     },
+     "cobertura": {
+      "points": 10,
+      "max": 10,
+      "note": "bogota"
      },
      "credibilidad": {
       "points": 6,
@@ -8286,7 +8286,7 @@
    "discovered_at": "2026-11-18T16:18:52-05:00",
    "updated_at": "2026-11-18T16:18:52-05:00",
    "last_verified": "2026-11-20T16:56:10-05:00",
-   "last_seen": "2026-11-20T16:55:46-05:00",
+   "last_seen": "2026-11-21T07:49:31-05:00",
    "history": [],
    "priority": {
     "score": 67,
@@ -8447,7 +8447,7 @@
    "discovered_at": "2026-11-18T17:21:34-05:00",
    "updated_at": "2026-11-18T17:21:34-05:00",
    "last_verified": "2026-11-20T22:17:48-05:00",
-   "last_seen": "2026-11-20T22:17:32-05:00",
+   "last_seen": "2026-11-21T07:49:31-05:00",
    "history": [],
    "priority": {
     "score": 67,
@@ -8471,7 +8471,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (5 días restantes)"
+      "note": "vigente (4 días restantes)"
      },
      "cobertura": {
       "points": 5,
@@ -8784,7 +8784,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (7 días restantes)"
+      "note": "vigente (6 días restantes)"
      },
      "cobertura": {
       "points": 5,
@@ -9199,7 +9199,7 @@
     "reasons": [
      "Organizador no identificado con certeza."
     ],
-    "checked_at": "2026-11-19T22:29:45-05:00",
+    "checked_at": "2026-11-21T07:49:33-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -9234,7 +9234,7 @@
    },
    "discovered_at": "2026-11-18T22:36:48-05:00",
    "updated_at": "2026-11-18T22:36:48-05:00",
-   "last_verified": "2026-11-19T22:29:45-05:00",
+   "last_verified": "2026-11-21T07:49:33-05:00",
    "last_seen": "2026-11-18T22:36:48-05:00",
    "history": [],
    "priority": {
@@ -9259,7 +9259,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (56 días restantes)"
+      "note": "vigente (55 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -9390,7 +9390,7 @@
    "discovered_at": "2026-11-20T16:55:46-05:00",
    "updated_at": "2026-11-20T16:55:46-05:00",
    "last_verified": "2026-11-20T16:55:46-05:00",
-   "last_seen": "2026-11-20T22:17:32-05:00",
+   "last_seen": "2026-11-21T07:49:31-05:00",
    "history": [],
    "priority": {
     "score": 64,
@@ -9414,7 +9414,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (104 días restantes)"
+      "note": "vigente (103 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -9831,8 +9831,8 @@
     "reasons": [
      "Organizador no identificado con certeza."
     ],
-    "checked_at": "2026-11-20T08:04:56-05:00",
-    "link_ok": null,
+    "checked_at": "2026-11-21T07:49:38-05:00",
+    "link_ok": true,
     "official_domain": false,
     "terms_found": false,
     "link_failures": 0
@@ -9866,7 +9866,7 @@
    },
    "discovered_at": "2026-11-20T08:04:56-05:00",
    "updated_at": "2026-11-20T08:04:56-05:00",
-   "last_verified": "2026-11-20T08:04:56-05:00",
+   "last_verified": "2026-11-21T07:49:38-05:00",
    "last_seen": "2026-11-20T08:04:56-05:00",
    "history": [],
    "priority": {
@@ -9891,7 +9891,7 @@
      "vigencia": {
       "points": 9,
       "max": 10,
-      "note": "vence en 1 día(s): revisar ya"
+      "note": "vence en 0 día(s): revisar ya"
      },
      "cobertura": {
       "points": 10,
@@ -10204,7 +10204,7 @@
      "vigencia": {
       "points": 9,
       "max": 10,
-      "note": "vence en 1 día(s): revisar ya"
+      "note": "vence en 0 día(s): revisar ya"
      },
      "cobertura": {
       "points": 10,
@@ -10965,7 +10965,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (20 días restantes)"
+      "note": "vigente (19 días restantes)"
      },
      "cobertura": {
       "points": 5,
@@ -11249,7 +11249,7 @@
    "discovered_at": "2026-11-18T16:18:58-05:00",
    "updated_at": "2026-11-18T16:18:58-05:00",
    "last_verified": "2026-11-20T16:56:18-05:00",
-   "last_seen": "2026-11-20T22:17:32-05:00",
+   "last_seen": "2026-11-21T07:49:31-05:00",
    "history": [],
    "priority": {
     "score": 60,
@@ -11511,7 +11511,7 @@
     "reasons": [
      "Información insuficiente: sin organizador identificado, fechas ni enlace oficial."
     ],
-    "checked_at": "2026-11-20T08:04:57-05:00",
+    "checked_at": "2026-11-21T07:49:39-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -11546,7 +11546,7 @@
    },
    "discovered_at": "2026-11-19T08:25:50-05:00",
    "updated_at": "2026-11-19T08:25:50-05:00",
-   "last_verified": "2026-11-20T08:04:57-05:00",
+   "last_verified": "2026-11-21T07:49:39-05:00",
    "last_seen": "2026-11-19T08:25:50-05:00",
    "history": [],
    "priority": {
@@ -11721,7 +11721,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (100 días restantes)"
+      "note": "vigente (99 días restantes)"
      },
      "cobertura": {
       "points": 5,
@@ -12008,7 +12008,7 @@
    "discovered_at": "2026-11-18T16:18:44-05:00",
    "updated_at": "2026-11-18T16:18:44-05:00",
    "last_verified": "2026-11-20T16:56:07-05:00",
-   "last_seen": "2026-11-20T16:55:46-05:00",
+   "last_seen": "2026-11-21T07:49:31-05:00",
    "history": [],
    "priority": {
     "score": 57,
@@ -12032,7 +12032,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (26 días restantes)"
+      "note": "vigente (25 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -12219,153 +12219,6 @@
    }
   },
   {
-   "id": "op_6ea9f027e6bb",
-   "title": "Participa por entradas a la función especial de Los Juegos del Hambre junto a Cine Colombia",
-   "summary": "¿Listo para concursar? Aquí te explicamos las condiciones que debes cumplir y aceptar para asistir a la función especial junto a LOS40, Radioacktiva y Cine Colombia.",
-   "section": "bonos",
-   "category": "eventos_gratis",
-   "tags": [
-    "Entradas a eventos",
-    "Entretenimiento"
-   ],
-   "mechanics": [],
-   "kind": "Beneficio",
-   "organizer": {
-    "name": "Cine Colombia",
-    "type": "entretenimiento",
-    "domain": "cinecolombia.com",
-    "known": true
-   },
-   "prize": {
-    "description": null,
-    "value_cop": null,
-    "value_text": null,
-    "value_source": null,
-    "winners": null,
-    "odds_text": null
-   },
-   "cost": {
-    "type": "desconocido",
-    "label": "Costo sin confirmar",
-    "free": false,
-    "certainty": "desconocido",
-    "requires_purchase": null,
-    "requires_registration": false,
-    "requires_social": false,
-    "requires_activity": false,
-    "requires_subscription": false,
-    "requires_deposit": false,
-    "purchase_threshold_text": null,
-    "notes": []
-   },
-   "eligibility": {
-    "who": null,
-    "min_age": null,
-    "age_text": null,
-    "coverage": "bogota",
-    "cities": [
-     "Bogotá"
-    ]
-   },
-   "requirements": [],
-   "documents": [],
-   "steps": [],
-   "steps_source": null,
-   "dates": {
-    "published": "2026-11-20T13:30:38-05:00",
-    "start": "2026-11-21",
-    "end": null,
-    "draw": null
-   },
-   "status": "proxima",
-   "gov": null,
-   "offer": null,
-   "verification": {
-    "status": "pendiente",
-    "reasons": [
-     "Falta confirmar condiciones en la página oficial."
-    ],
-    "checked_at": "2026-11-20T16:55:50-05:00",
-    "link_ok": null,
-    "official_domain": false,
-    "terms_found": false,
-    "link_failures": 0
-   },
-   "risk": {
-    "level": "bajo",
-    "flags": [],
-    "sensitive_data_warning": false
-   },
-   "urls": {
-    "source": "https://los40.com.co/2026/11/20/participa-por-entradas-a-la-funcion-especial-de-los-juegos-del-hambre-junto-a-cine-colombia/",
-    "participate": null,
-    "terms": null,
-    "official": null,
-    "image": "https://los40.com.co/resizer/v2/7JXMNGA3ZFFNRFOAERDAQLUFKE.png?auth=442ef69058e22e2a467fb555225f36269f92d8260578a5de8d79878d5ef8534b&quality=70&width=1200&height=675&smart=true"
-   },
-   "sources": [
-    {
-     "url": "https://los40.com.co/2026/11/20/participa-por-entradas-a-la-funcion-especial-de-los-juegos-del-hambre-junto-a-cine-colombia/",
-     "name": "Noticias · cine y entradas",
-     "type": "news",
-     "seen_at": "2026-11-20T16:55:50-05:00"
-    }
-   ],
-   "language": "es",
-   "translated": false,
-   "extraction": {
-    "method": "heuristica",
-    "relevance": 0.49,
-    "model": null
-   },
-   "discovered_at": "2026-11-20T16:55:50-05:00",
-   "updated_at": "2026-11-20T16:55:50-05:00",
-   "last_verified": "2026-11-20T16:55:50-05:00",
-   "last_seen": "2026-11-20T16:55:50-05:00",
-   "history": [],
-   "priority": {
-    "score": 56,
-    "level": "media",
-    "breakdown": {
-     "valor": {
-      "points": 9,
-      "max": 25,
-      "note": "valor no publicado"
-     },
-     "gratuidad": {
-      "points": 9,
-      "max": 25,
-      "note": "desconocido"
-     },
-     "facilidad": {
-      "points": 15,
-      "max": 15,
-      "note": "pocos requisitos"
-     },
-     "vigencia": {
-      "points": 6,
-      "max": 10,
-      "note": "abre próximamente"
-     },
-     "cobertura": {
-      "points": 10,
-      "max": 10,
-      "note": "bogota"
-     },
-     "credibilidad": {
-      "points": 6,
-      "max": 10,
-      "note": "pendiente"
-     },
-     "claridad": {
-      "points": 1,
-      "max": 5,
-      "note": "sin términos enlazados"
-     }
-    }
-   }
-  },
-  {
    "id": "op_e01fa95f1816",
    "title": "Burger King y Nequi",
    "summary": "Paga en Burger King con tu Tarjeta Nequi Visa los miércoles y recibe 25% de descuento inmediato en combos participantes. 🚨¡Pilas!: avisa al pedir que pagarás con tu Tarjeta Nequi Visa para activar el descuento.",
@@ -12491,7 +12344,7 @@
    "discovered_at": "2026-11-18T16:18:40-05:00",
    "updated_at": "2026-11-18T16:18:40-05:00",
    "last_verified": "2026-11-20T16:56:04-05:00",
-   "last_seen": "2026-11-20T16:55:46-05:00",
+   "last_seen": "2026-11-21T07:49:31-05:00",
    "history": [],
    "priority": {
     "score": 55,
@@ -12515,7 +12368,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (41 días restantes)"
+      "note": "vigente (40 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -12668,7 +12521,7 @@
    "discovered_at": "2026-11-18T16:18:36-05:00",
    "updated_at": "2026-11-18T16:18:36-05:00",
    "last_verified": "2026-11-20T16:55:59-05:00",
-   "last_seen": "2026-11-20T16:55:46-05:00",
+   "last_seen": "2026-11-21T07:49:31-05:00",
    "history": [],
    "priority": {
     "score": 55,
@@ -12692,7 +12545,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (41 días restantes)"
+      "note": "vigente (40 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -12820,7 +12673,7 @@
    "discovered_at": "2026-11-18T17:21:48-05:00",
    "updated_at": "2026-11-18T17:21:48-05:00",
    "last_verified": "2026-11-20T22:17:55-05:00",
-   "last_seen": "2026-11-20T22:17:32-05:00",
+   "last_seen": "2026-11-21T07:49:31-05:00",
    "history": [],
    "priority": {
     "score": 55,
@@ -12865,27 +12718,28 @@
    }
   },
   {
-   "id": "op_bd2ce9393e3d",
-   "title": "Premios de Periodismo Alfonso Bonilla Aragón 2026: fechas, categorías y cómo participar",
-   "summary": "La Alcaldía de Cali abrió la convocatoria para la edición 44 de los premios ABA. Los periodistas podrán postular sus trabajos hasta el 20 de noviembre y competir por un premio de $7 millones en cada una de las 14 categorías.",
-   "section": "concursos",
-   "category": "otros_premios",
-   "tags": [],
-   "mechanics": [
-    "creativo"
+   "id": "op_6ea9f027e6bb",
+   "title": "Participa por entradas a la función especial de Los Juegos del Hambre junto a Cine Colombia",
+   "summary": "¿Listo para concursar? Aquí te explicamos las condiciones que debes cumplir y aceptar para asistir a la función especial junto a LOS40, Radioacktiva y Cine Colombia.",
+   "section": "bonos",
+   "category": "eventos_gratis",
+   "tags": [
+    "Entradas a eventos",
+    "Entretenimiento"
    ],
-   "kind": "Concurso",
+   "mechanics": [],
+   "kind": "Beneficio",
    "organizer": {
-    "name": "Organizador no identificado",
-    "type": "desconocido",
-    "domain": null,
-    "known": false
+    "name": "Cine Colombia",
+    "type": "entretenimiento",
+    "domain": "cinecolombia.com",
+    "known": true
    },
    "prize": {
     "description": null,
-    "value_cop": 7000000,
-    "value_text": "$7 millones",
-    "value_source": "noticia",
+    "value_cop": null,
+    "value_text": null,
+    "value_source": null,
     "winners": null,
     "odds_text": null
    },
@@ -12895,7 +12749,7 @@
     "free": false,
     "certainty": "desconocido",
     "requires_purchase": null,
-    "requires_registration": true,
+    "requires_registration": false,
     "requires_social": false,
     "requires_activity": false,
     "requires_subscription": false,
@@ -12907,25 +12761,19 @@
     "who": null,
     "min_age": null,
     "age_text": null,
-    "coverage": "regional",
+    "coverage": "bogota",
     "cities": [
-     "Cali"
+     "Bogotá"
     ]
    },
-   "requirements": [
-    "El País ¿Quiénes pueden participar en los premios ABA 2026? Podrán participar periodistas locales, nacionales y extranjeros que cumplan con los requisitos establecidos en la convocatoria.",
-    "Los participantes pueden consultar los requisitos completos en el decreto que reglamenta el concurso."
-   ],
-   "documents": [
-    "Documento de identidad (cédula)",
-    "RUT"
-   ],
+   "requirements": [],
+   "documents": [],
    "steps": [],
    "steps_source": null,
    "dates": {
-    "published": "2026-11-03T19:59:51-05:00",
-    "start": "2026-11-03",
-    "end": "2026-11-20",
+    "published": "2026-11-20T13:30:38-05:00",
+    "start": "2026-11-21",
+    "end": null,
     "draw": null
    },
    "status": "activa",
@@ -12934,10 +12782,10 @@
    "verification": {
     "status": "pendiente",
     "reasons": [
-     "Organizador no identificado con certeza."
+     "Falta confirmar condiciones en la página oficial."
     ],
-    "checked_at": "2026-11-20T22:17:49-05:00",
-    "link_ok": true,
+    "checked_at": "2026-11-20T16:55:50-05:00",
+    "link_ok": null,
     "official_domain": false,
     "terms_found": false,
     "link_failures": 0
@@ -12948,40 +12796,48 @@
     "sensitive_data_warning": false
    },
    "urls": {
-    "source": "https://www.elpais.com.co/cali/premios-de-periodismo-alfonso-bonilla-aragon-2026-fechas-categorias-y-como-participar-0351.html",
+    "source": "https://los40.com.co/2026/11/20/participa-por-entradas-a-la-funcion-especial-de-los-juegos-del-hambre-junto-a-cine-colombia/",
     "participate": null,
     "terms": null,
     "official": null,
-    "image": "https://www.elpais.com.co/resizer/v2/BIP4URBW6FBNVB7FOH75HAUVB4.jpeg?auth=50b857e210264ca5472ed3506d42ee34774f02bd760d72f7f74bce908dfadb1c&smart=true&quality=75&width=1280&height=720"
+    "image": "https://los40.com.co/resizer/v2/7JXMNGA3ZFFNRFOAERDAQLUFKE.png?auth=442ef69058e22e2a467fb555225f36269f92d8260578a5de8d79878d5ef8534b&quality=70&width=1200&height=675&smart=true"
    },
    "sources": [
     {
-     "url": "https://www.elpais.com.co/cali/premios-de-periodismo-alfonso-bonilla-aragon-2026-fechas-categorias-y-como-participar-0351.html",
-     "name": "Noticias · concurso emisora premios",
+     "url": "https://los40.com.co/2026/11/20/participa-por-entradas-a-la-funcion-especial-de-los-juegos-del-hambre-junto-a-cine-colombia/",
+     "name": "Noticias · cine y entradas",
      "type": "news",
-     "seen_at": "2026-11-18T17:21:43-05:00"
+     "seen_at": "2026-11-20T16:55:50-05:00"
     }
    ],
    "language": "es",
    "translated": false,
    "extraction": {
     "method": "heuristica",
-    "relevance": 1.0,
+    "relevance": 0.49,
     "model": null
    },
-   "discovered_at": "2026-11-18T17:21:43-05:00",
-   "updated_at": "2026-11-18T17:21:43-05:00",
-   "last_verified": "2026-11-20T22:17:49-05:00",
-   "last_seen": "2026-11-18T17:29:12-05:00",
-   "history": [],
+   "discovered_at": "2026-11-20T16:55:50-05:00",
+   "updated_at": "2026-11-20T16:55:50-05:00",
+   "last_verified": "2026-11-20T16:55:50-05:00",
+   "last_seen": "2026-11-21T07:49:31-05:00",
+   "history": [
+    {
+     "at": "2026-11-21T07:49:39-05:00",
+     "field": "status",
+     "label": "Estado",
+     "from": "proxima",
+     "to": "activa"
+    }
+   ],
    "priority": {
     "score": 55,
     "level": "media",
     "breakdown": {
      "valor": {
-      "points": 14,
+      "points": 9,
       "max": 25,
-      "note": "valor publicado 7.000.000 COP"
+      "note": "valor no publicado"
      },
      "gratuidad": {
       "points": 9,
@@ -12989,19 +12845,19 @@
       "note": "desconocido"
      },
      "facilidad": {
-      "points": 11,
+      "points": 15,
       "max": 15,
-      "note": "registro"
+      "note": "pocos requisitos"
      },
      "vigencia": {
-      "points": 9,
-      "max": 10,
-      "note": "vence en 0 día(s): revisar ya"
-     },
-     "cobertura": {
       "points": 5,
       "max": 10,
-      "note": "regional"
+      "note": "sin fecha límite publicada"
+     },
+     "cobertura": {
+      "points": 10,
+      "max": 10,
+      "note": "bogota"
      },
      "credibilidad": {
       "points": 6,
@@ -13143,7 +12999,7 @@
    "discovered_at": "2026-11-18T16:18:39-05:00",
    "updated_at": "2026-11-18T16:18:39-05:00",
    "last_verified": "2026-11-20T16:56:03-05:00",
-   "last_seen": "2026-11-20T16:55:46-05:00",
+   "last_seen": "2026-11-21T07:49:31-05:00",
    "history": [],
    "priority": {
     "score": 55,
@@ -13167,7 +13023,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (41 días restantes)"
+      "note": "vigente (40 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -13266,7 +13122,7 @@
      "El enlace pertenece a un dominio oficial del organizador.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-20T08:04:55-05:00",
+    "checked_at": "2026-11-21T07:49:36-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -13301,7 +13157,7 @@
    },
    "discovered_at": "2026-11-20T08:04:55-05:00",
    "updated_at": "2026-11-20T08:04:55-05:00",
-   "last_verified": "2026-11-20T08:04:55-05:00",
+   "last_verified": "2026-11-21T07:49:36-05:00",
    "last_seen": "2026-11-20T08:04:55-05:00",
    "history": [],
    "priority": {
@@ -13326,7 +13182,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (39 días restantes)"
+      "note": "vigente (38 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -13475,7 +13331,7 @@
      "vigencia": {
       "points": 9,
       "max": 10,
-      "note": "vence en 1 día(s): revisar ya"
+      "note": "vence en 0 día(s): revisar ya"
      },
      "cobertura": {
       "points": 10,
@@ -13626,7 +13482,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (5 días restantes)"
+      "note": "vigente (4 días restantes)"
      },
      "cobertura": {
       "points": 5,
@@ -13770,7 +13626,7 @@
    "discovered_at": "2026-11-18T16:18:44-05:00",
    "updated_at": "2026-11-18T16:18:44-05:00",
    "last_verified": "2026-11-20T16:56:08-05:00",
-   "last_seen": "2026-11-20T16:55:46-05:00",
+   "last_seen": "2026-11-21T07:49:31-05:00",
    "history": [],
    "priority": {
     "score": 54,
@@ -13950,7 +13806,7 @@
      "vigencia": {
       "points": 9,
       "max": 10,
-      "note": "vence en 2 día(s): revisar ya"
+      "note": "vence en 1 día(s): revisar ya"
      },
      "cobertura": {
       "points": 10,
@@ -14091,7 +13947,7 @@
    "discovered_at": "2026-11-18T16:18:37-05:00",
    "updated_at": "2026-11-18T16:18:37-05:00",
    "last_verified": "2026-11-20T16:56:00-05:00",
-   "last_seen": "2026-11-20T16:55:46-05:00",
+   "last_seen": "2026-11-21T07:49:31-05:00",
    "history": [],
    "priority": {
     "score": 53,
@@ -14115,7 +13971,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (137 días restantes)"
+      "note": "vigente (136 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -14257,7 +14113,7 @@
    "discovered_at": "2026-11-18T16:18:38-05:00",
    "updated_at": "2026-11-18T16:18:38-05:00",
    "last_verified": "2026-11-20T16:56:01-05:00",
-   "last_seen": "2026-11-20T16:55:46-05:00",
+   "last_seen": "2026-11-21T07:49:31-05:00",
    "history": [],
    "priority": {
     "score": 53,
@@ -14281,7 +14137,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (41 días restantes)"
+      "note": "vigente (40 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -14715,7 +14571,7 @@
    "discovered_at": "2026-11-18T16:18:42-05:00",
    "updated_at": "2026-11-18T16:18:42-05:00",
    "last_verified": "2026-11-20T16:56:05-05:00",
-   "last_seen": "2026-11-20T16:55:46-05:00",
+   "last_seen": "2026-11-21T07:49:31-05:00",
    "history": [],
    "priority": {
     "score": 51,
@@ -14739,7 +14595,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (131 días restantes)"
+      "note": "vigente (130 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -14875,7 +14731,7 @@
    "discovered_at": "2026-11-18T16:18:43-05:00",
    "updated_at": "2026-11-18T16:18:43-05:00",
    "last_verified": "2026-11-20T16:56:06-05:00",
-   "last_seen": "2026-11-20T16:55:46-05:00",
+   "last_seen": "2026-11-21T07:49:31-05:00",
    "history": [],
    "priority": {
     "score": 50,
@@ -14899,7 +14755,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (5 días restantes)"
+      "note": "vigente (4 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -15181,7 +15037,7 @@
    "discovered_at": "2026-11-20T16:55:49-05:00",
    "updated_at": "2026-11-20T16:55:49-05:00",
    "last_verified": "2026-11-20T16:55:49-05:00",
-   "last_seen": "2026-11-20T22:17:32-05:00",
+   "last_seen": "2026-11-21T07:49:31-05:00",
    "history": [],
    "priority": {
     "score": 49,
@@ -15301,8 +15157,8 @@
     "reasons": [
      "Organizador no identificado con certeza."
     ],
-    "checked_at": "2026-11-20T08:04:54-05:00",
-    "link_ok": null,
+    "checked_at": "2026-11-21T07:49:34-05:00",
+    "link_ok": true,
     "official_domain": false,
     "terms_found": false,
     "link_failures": 0
@@ -15336,7 +15192,7 @@
    },
    "discovered_at": "2026-11-20T08:04:54-05:00",
    "updated_at": "2026-11-20T08:04:54-05:00",
-   "last_verified": "2026-11-20T08:04:54-05:00",
+   "last_verified": "2026-11-21T07:49:34-05:00",
    "last_seen": "2026-11-20T08:04:54-05:00",
    "history": [],
    "priority": {
@@ -15361,7 +15217,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (16 días restantes)"
+      "note": "vigente (15 días restantes)"
      },
      "cobertura": {
       "points": 6,
@@ -15491,7 +15347,7 @@
    "discovered_at": "2026-11-19T22:29:20-05:00",
    "updated_at": "2026-11-19T22:29:20-05:00",
    "last_verified": "2026-11-20T22:17:35-05:00",
-   "last_seen": "2026-11-20T22:17:32-05:00",
+   "last_seen": "2026-11-21T07:49:31-05:00",
    "history": [],
    "priority": {
     "score": 47,
@@ -15672,7 +15528,7 @@
      "vigencia": {
       "points": 9,
       "max": 10,
-      "note": "vence en 1 día(s): revisar ya"
+      "note": "vence en 0 día(s): revisar ya"
      },
      "cobertura": {
       "points": 10,
@@ -15797,7 +15653,7 @@
    "discovered_at": "2026-11-20T16:55:48-05:00",
    "updated_at": "2026-11-20T16:55:48-05:00",
    "last_verified": "2026-11-20T16:55:48-05:00",
-   "last_seen": "2026-11-20T22:17:32-05:00",
+   "last_seen": "2026-11-21T07:49:31-05:00",
    "history": [],
    "priority": {
     "score": 46,
@@ -16366,8 +16222,8 @@
     "reasons": [
      "Información insuficiente: sin organizador identificado, fechas ni enlace oficial."
     ],
-    "checked_at": "2026-11-20T08:04:54-05:00",
-    "link_ok": null,
+    "checked_at": "2026-11-21T07:49:34-05:00",
+    "link_ok": true,
     "official_domain": false,
     "terms_found": false,
     "link_failures": 0
@@ -16401,8 +16257,8 @@
    },
    "discovered_at": "2026-11-20T08:04:54-05:00",
    "updated_at": "2026-11-20T08:04:54-05:00",
-   "last_verified": "2026-11-20T08:04:54-05:00",
-   "last_seen": "2026-11-20T16:55:46-05:00",
+   "last_verified": "2026-11-21T07:49:34-05:00",
+   "last_seen": "2026-11-21T07:49:31-05:00",
    "history": [],
    "priority": {
     "score": 39,
@@ -16422,6 +16278,158 @@
       "points": 13,
       "max": 15,
       "note": "registro"
+     },
+     "vigencia": {
+      "points": 5,
+      "max": 10,
+      "note": "sin fecha límite publicada"
+     },
+     "cobertura": {
+      "points": 5,
+      "max": 10,
+      "note": "regional"
+     },
+     "credibilidad": {
+      "points": 2,
+      "max": 10,
+      "note": "no_verificable"
+     },
+     "claridad": {
+      "points": 1,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
+   "id": "op_cc284a4b2fbe",
+   "title": "33 actores estratégicos participaron en la primera Mesa de Gobernanza Territorial 2026",
+   "summary": "El encuentro promovió la evaluación de indicadores, la identificación de oportunidades de mejora y la formulación de propuestas y compromisos sectoriales",
+   "section": "ofertas",
+   "category": "otras_ofertas",
+   "tags": [],
+   "mechanics": [],
+   "kind": "Oferta",
+   "organizer": {
+    "name": "Organizador no identificado",
+    "type": "desconocido",
+    "domain": null,
+    "known": false
+   },
+   "prize": {
+    "description": null,
+    "value_cop": null,
+    "value_text": null,
+    "value_source": null,
+    "winners": null,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "requiere_compra",
+    "label": "Requiere compra",
+    "free": false,
+    "certainty": "inferido",
+    "requires_purchase": null,
+    "requires_registration": false,
+    "requires_social": false,
+    "requires_activity": false,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": null,
+    "notes": [
+     "Es una oferta comercial: el beneficio aplica sobre una compra."
+    ]
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": null,
+    "age_text": null,
+    "coverage": "regional",
+    "cities": [
+     "Cartagena"
+    ]
+   },
+   "requirements": [],
+   "documents": [],
+   "steps": [],
+   "steps_source": null,
+   "dates": {
+    "published": "2026-11-21T06:07:05-05:00",
+    "start": null,
+    "end": null,
+    "draw": null
+   },
+   "status": "sin_confirmar",
+   "gov": null,
+   "offer": {
+    "discount_pct": null,
+    "original_price": null,
+    "promo_price": null,
+    "code": null,
+    "pct_verified": false
+   },
+   "verification": {
+    "status": "no_verificable",
+    "reasons": [
+     "Información insuficiente: sin organizador identificado, fechas ni enlace oficial."
+    ],
+    "checked_at": "2026-11-21T07:49:31-05:00",
+    "link_ok": null,
+    "official_domain": false,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://caracol.com.co/2026/11/21/33-actores-estrategicos-participaron-en-la-primera-mesa-de-gobernanza-territorial-2026/",
+    "participate": null,
+    "terms": null,
+    "official": null,
+    "image": "https://caracol.com.co/resizer/v2/QENGSOIB5ZFQXDKC2BSXT32MPI.jpeg?auth=0e8d8599d5312988e95696d9ba2c171e039b7bc26c3228e3e5abab86b53d661e&quality=70&width=1200&height=675&smart=true"
+   },
+   "sources": [
+    {
+     "url": "https://caracol.com.co/2026/11/21/33-actores-estrategicos-participaron-en-la-primera-mesa-de-gobernanza-territorial-2026/",
+     "name": "Caracol Radio (feed)",
+     "type": "news",
+     "seen_at": "2026-11-21T07:49:31-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 0.93,
+    "model": null
+   },
+   "discovered_at": "2026-11-21T07:49:31-05:00",
+   "updated_at": "2026-11-21T07:49:31-05:00",
+   "last_verified": "2026-11-21T07:49:31-05:00",
+   "last_seen": "2026-11-21T07:49:31-05:00",
+   "history": [],
+   "priority": {
+    "score": 37,
+    "level": "baja",
+    "breakdown": {
+     "valor": {
+      "points": 5,
+      "max": 25,
+      "note": "descuento sobre compra"
+     },
+     "gratuidad": {
+      "points": 4,
+      "max": 25,
+      "note": "requiere_compra"
+     },
+     "facilidad": {
+      "points": 15,
+      "max": 15,
+      "note": "pocos requisitos"
      },
      "vigencia": {
       "points": 5,
@@ -16716,7 +16724,7 @@
    "discovered_at": "2026-11-18T16:18:55-05:00",
    "updated_at": "2026-11-18T16:18:55-05:00",
    "last_verified": "2026-11-19T17:17:31-05:00",
-   "last_seen": "2026-11-20T22:17:32-05:00",
+   "last_seen": "2026-11-21T07:49:31-05:00",
    "history": [
     {
      "at": "2026-11-20T08:04:57-05:00",
@@ -16908,6 +16916,166 @@
       "points": 15,
       "max": 15,
       "note": "pocos requisitos"
+     },
+     "vigencia": {
+      "points": 0,
+      "max": 10,
+      "note": "terminada"
+     },
+     "cobertura": {
+      "points": 5,
+      "max": 10,
+      "note": "regional"
+     },
+     "credibilidad": {
+      "points": 0,
+      "max": 10,
+      "note": "vencida"
+     },
+     "claridad": {
+      "points": 1,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
+   "id": "op_bd2ce9393e3d",
+   "title": "Premios de Periodismo Alfonso Bonilla Aragón 2026: fechas, categorías y cómo participar",
+   "summary": "La Alcaldía de Cali abrió la convocatoria para la edición 44 de los premios ABA. Los periodistas podrán postular sus trabajos hasta el 20 de noviembre y competir por un premio de $7 millones en cada una de las 14 categorías.",
+   "section": "concursos",
+   "category": "otros_premios",
+   "tags": [],
+   "mechanics": [
+    "creativo"
+   ],
+   "kind": "Concurso",
+   "organizer": {
+    "name": "Organizador no identificado",
+    "type": "desconocido",
+    "domain": null,
+    "known": false
+   },
+   "prize": {
+    "description": null,
+    "value_cop": 7000000,
+    "value_text": "$7 millones",
+    "value_source": "noticia",
+    "winners": null,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "desconocido",
+    "label": "Costo sin confirmar",
+    "free": false,
+    "certainty": "desconocido",
+    "requires_purchase": null,
+    "requires_registration": true,
+    "requires_social": false,
+    "requires_activity": false,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": null,
+    "notes": []
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": null,
+    "age_text": null,
+    "coverage": "regional",
+    "cities": [
+     "Cali"
+    ]
+   },
+   "requirements": [
+    "El País ¿Quiénes pueden participar en los premios ABA 2026? Podrán participar periodistas locales, nacionales y extranjeros que cumplan con los requisitos establecidos en la convocatoria.",
+    "Los participantes pueden consultar los requisitos completos en el decreto que reglamenta el concurso."
+   ],
+   "documents": [
+    "Documento de identidad (cédula)",
+    "RUT"
+   ],
+   "steps": [],
+   "steps_source": null,
+   "dates": {
+    "published": "2026-11-03T19:59:51-05:00",
+    "start": "2026-11-03",
+    "end": "2026-11-20",
+    "draw": null
+   },
+   "status": "vencida",
+   "gov": null,
+   "offer": null,
+   "verification": {
+    "status": "vencida",
+    "reasons": [
+     "Organizador no identificado con certeza."
+    ],
+    "checked_at": "2026-11-20T22:17:49-05:00",
+    "link_ok": true,
+    "official_domain": false,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://www.elpais.com.co/cali/premios-de-periodismo-alfonso-bonilla-aragon-2026-fechas-categorias-y-como-participar-0351.html",
+    "participate": null,
+    "terms": null,
+    "official": null,
+    "image": "https://www.elpais.com.co/resizer/v2/BIP4URBW6FBNVB7FOH75HAUVB4.jpeg?auth=50b857e210264ca5472ed3506d42ee34774f02bd760d72f7f74bce908dfadb1c&smart=true&quality=75&width=1280&height=720"
+   },
+   "sources": [
+    {
+     "url": "https://www.elpais.com.co/cali/premios-de-periodismo-alfonso-bonilla-aragon-2026-fechas-categorias-y-como-participar-0351.html",
+     "name": "Noticias · concurso emisora premios",
+     "type": "news",
+     "seen_at": "2026-11-18T17:21:43-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 1.0,
+    "model": null
+   },
+   "discovered_at": "2026-11-18T17:21:43-05:00",
+   "updated_at": "2026-11-18T17:21:43-05:00",
+   "last_verified": "2026-11-20T22:17:49-05:00",
+   "last_seen": "2026-11-18T17:29:12-05:00",
+   "history": [
+    {
+     "at": "2026-11-21T07:49:39-05:00",
+     "field": "status",
+     "label": "Estado",
+     "from": "activa",
+     "to": "vencida"
+    }
+   ],
+   "priority": {
+    "score": 10,
+    "level": "baja",
+    "breakdown": {
+     "valor": {
+      "points": 14,
+      "max": 25,
+      "note": "valor publicado 7.000.000 COP"
+     },
+     "gratuidad": {
+      "points": 9,
+      "max": 25,
+      "note": "desconocido"
+     },
+     "facilidad": {
+      "points": 11,
+      "max": 15,
+      "note": "registro"
      },
      "vigencia": {
       "points": 0,
