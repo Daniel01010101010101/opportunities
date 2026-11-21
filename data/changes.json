@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T16:57:17-05:00",
+ "generated_at": "2026-11-20T22:17:58-05:00",
  "changes": [
   {
    "at": "2026-11-18T17:21:56-05:00",
@@ -54,6 +54,15 @@
    "to": "https://bogota.gov.co/boletin-oferta-internacional/masschallenge-2027-oportunidades-para-startups-de-bogota",
    "id": "op_228f9e99c8e1",
    "title": "MassChallenge 2027: conecta tu startup de Bogotá con empresas globales"
+  },
+  {
+   "at": "2026-11-20T22:17:33-05:00",
+   "field": "dates.end",
+   "label": "Fecha de finalización",
+   "from": "2026-12-10",
+   "to": "2026-11-21",
+   "id": "op_b7a1637ca521",
+   "title": "¡Concierto de salsa gratis en Centro Comercial Ciudad Tunal! Idartes presenta Caleidoscopio Sonoro el 21 de noviembre"
   }
  ]
 }
