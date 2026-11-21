@@ -1,59 +1,59 @@
 {
  "engine_version": "1.0.0",
- "generated_at": "2026-11-21T07:49:39-05:00",
+ "generated_at": "2026-11-21T15:42:12-05:00",
  "timezone": "America/Bogota",
  "schedule": {
   "cron_utc": "17 */2 * * *",
   "description": "Cada 2 horas, minuto 17 (horas impares en Bogotá)",
-  "next_run_at": "2026-11-21T09:17:00-05:00"
+  "next_run_at": "2026-11-21T17:17:00-05:00"
  },
  "last_run": {
-  "id": "20261121-074442",
-  "started_at": "2026-11-21T07:44:42-05:00",
-  "finished_at": "2026-11-21T07:49:39-05:00",
-  "duration_s": 296.5,
+  "id": "20261121-153444",
+  "started_at": "2026-11-21T15:34:44-05:00",
+  "finished_at": "2026-11-21T15:42:12-05:00",
+  "duration_s": 448.6,
   "status": "parcial",
   "trigger": "schedule",
-  "new": 1,
-  "updated": 0,
-  "discarded": 23,
-  "sources_checked": 97,
-  "sources_ok": 90,
-  "run_url": "https://github.com/Daniel01010101010101/opportunities/actions/runs/44905393950"
+  "new": 8,
+  "updated": 1,
+  "discarded": 38,
+  "sources_checked": 92,
+  "sources_ok": 83,
+  "run_url": "https://github.com/Daniel01010101010101/opportunities/actions/runs/44946990308"
  },
- "last_success_at": "2026-11-21T07:49:39-05:00",
- "last_new_opportunity_at": "2026-11-21T07:49:31-05:00",
+ "last_success_at": "2026-11-21T15:42:12-05:00",
+ "last_new_opportunity_at": "2026-11-21T15:41:36-05:00",
  "sources": {
   "configured": 219,
-  "checked_last_run": 97,
-  "ok_last_run": 90,
-  "failed_last_run": 2,
+  "checked_last_run": 92,
+  "ok_last_run": 83,
+  "failed_last_run": 4,
   "discovered": 5,
-  "with_errors": 2
+  "with_errors": 5
  },
  "counts": {
-  "total": 109,
-  "active": 106,
-  "new_24h": 19,
+  "total": 117,
+  "active": 114,
+  "new_24h": 22,
   "verified": 35,
-  "pending": 53,
-  "unverifiable": 18,
+  "pending": 58,
+  "unverifiable": 21,
   "expired": 3,
   "withdrawn": 0,
   "archived": 0,
   "by_section": {
-   "concursos": 10,
+   "concursos": 11,
    "bonos": 13,
-   "ofertas": 14,
-   "estado": 69
+   "ofertas": 17,
+   "estado": 73
   },
   "by_priority": {
    "alta": 38,
-   "media": 62,
-   "baja": 6
+   "media": 68,
+   "baja": 8
   },
-  "free": 72,
-  "expiring_7d": 16
+  "free": 75,
+  "expiring_7d": 17
  },
  "llm": {
   "enabled": false,
@@ -67,5 +67,5 @@
   "telegram": false,
   "email": false
  },
- "message": "Búsqueda completada con 2 fuente(s) con error; el resto se procesó normalmente."
+ "message": "Búsqueda completada con 4 fuente(s) con error; el resto se procesó normalmente."
 }

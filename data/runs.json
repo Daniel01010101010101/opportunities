@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T07:49:39-05:00",
+ "generated_at": "2026-11-21T15:42:12-05:00",
  "runs": [
   {
    "id": "20261118-161736",
@@ -1044,6 +1044,98 @@
    },
    "git_sha": "48191f4",
    "run_url": "https://github.com/Daniel01010101010101/opportunities/actions/runs/44905393950"
+  },
+  {
+   "id": "20261121-153444",
+   "started_at": "2026-11-21T15:34:44-05:00",
+   "finished_at": "2026-11-21T15:42:12-05:00",
+   "duration_s": 448.6,
+   "trigger": "schedule",
+   "category": null,
+   "query": null,
+   "status": "parcial",
+   "sources_checked": 92,
+   "sources_ok": 83,
+   "sources_failed": [
+    {
+     "id": "gd-gana",
+     "error": "GDELT limitó la consulta (429); se reintentará en la próxima ejecución"
+    },
+    {
+     "id": "wp-eje21",
+     "error": "HTTP 403; HTTP 403"
+    },
+    {
+     "id": "nf-elnuevosiglo",
+     "error": "ConnectTimeout: HTTPSConnectionPool(host='www.elnuevosiglo.com.co', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www"
+    },
+    {
+     "id": "wp-lanacion",
+     "error": "ConnectTimeout: HTTPSConnectionPool(host='www.lanacion.com.co', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts?search=concurso&per_page=20&orderby=date&order=de; ConnectTimeout: HTTPSConnectionPool(host='www.lanacion.com.co', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts?search=sorteo&per_page=20&orderby=date&order=desc"
+    }
+   ],
+   "sources_skipped": [
+    {
+     "id": "cse-convocatorias",
+     "reason": "requiere los secretos GOOGLE_CSE_KEY y GOOGLE_CSE_CX"
+    },
+    {
+     "id": "cse-bonos-gasolina",
+     "reason": "requiere los secretos GOOGLE_CSE_KEY y GOOGLE_CSE_CX"
+    },
+    {
+     "id": "brave-gratis",
+     "reason": "requiere el secreto BRAVE_API_KEY"
+    },
+    {
+     "id": "brave-sorteos",
+     "reason": "requiere el secreto BRAVE_API_KEY"
+    },
+    {
+     "id": "cse-sorteos",
+     "reason": "requiere los secretos GOOGLE_CSE_KEY y GOOGLE_CSE_CX"
+    }
+   ],
+   "new": 8,
+   "updated": 1,
+   "unchanged": 2,
+   "discarded": 38,
+   "discard_reasons": {
+    "búsqueda de concursos: el título no anuncia una convocatoria abierta": 15,
+    "noticia antigua (más de 30 días)": 8,
+    "título sin señales de oportunidad o con señales negativas": 6,
+    "noticia antigua (más de 90 días)": 4,
+    "nota sobre ganadores o resultados, no es una convocatoria abierta": 3,
+    "no describe una oportunidad aprovechable (señales negativas: Número ganador, Números ganador, resultados del sorteo)": 1,
+    "enlace no disponible (HTTP 502)": 1
+   },
+   "expired": 0,
+   "reverified": 40,
+   "archived": 0,
+   "purged": 0,
+   "http_requests": 165,
+   "robots_blocked": 0,
+   "errors": [
+    "Fuente GDELT · «gana» en medios colombianos: GDELT limitó la consulta (429); se reintentará en la próxima ejecución",
+    "Fuente Eje21: HTTP 403; HTTP 403",
+    "Fuente El Nuevo Siglo (feed): ConnectTimeout: HTTPSConnectionPool(host='www.elnuevosiglo.com.co', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www",
+    "Fuente La Nación Huila: ConnectTimeout: HTTPSConnectionPool(host='www.lanacion.com.co', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts?search=concurso&per_page=20&orderby=date&order=de; ConnectTimeout: HTTPSConnectionPool(host='www.lanacion.com.co', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts?search=sorteo&per_page=20&orderby=date&order=desc"
+   ],
+   "llm": {
+    "enabled": false,
+    "model": null,
+    "calls": 0,
+    "errors": 0,
+    "input_tokens": 0,
+    "output_tokens": 0
+   },
+   "alerts": {
+    "telegram": "no_configurado",
+    "email": "no_configurado",
+    "sent": 0
+   },
+   "git_sha": "48191f4",
+   "run_url": "https://github.com/Daniel01010101010101/opportunities/actions/runs/44946990308"
   }
  ]
 }

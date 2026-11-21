@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T07:49:39-05:00",
+ "generated_at": "2026-11-21T15:42:12-05:00",
  "changes": [
   {
    "at": "2026-11-18T17:21:56-05:00",
@@ -81,6 +81,24 @@
    "to": "vencida",
    "id": "op_bd2ce9393e3d",
    "title": "Premios de Periodismo Alfonso Bonilla Aragón 2026: fechas, categorías y cómo participar"
+  },
+  {
+   "at": "2026-11-21T15:41:33-05:00",
+   "field": "dates.end",
+   "label": "Fecha de finalización",
+   "from": null,
+   "to": "2026-11-27",
+   "id": "op_aa8036205edf",
+   "title": "Concurso DIAN 2676: publican resultados de las pruebas escritas y esta es la fecha límite para reclamar"
+  },
+  {
+   "at": "2026-11-21T15:41:33-05:00",
+   "field": "cost.type",
+   "label": "Costo",
+   "from": "gratis_registro",
+   "to": "desconocido",
+   "id": "op_aa8036205edf",
+   "title": "Concurso DIAN 2676: publican resultados de las pruebas escritas y esta es la fecha límite para reclamar"
   }
  ]
 }
