@@ -1,40 +1,40 @@
 {
  "engine_version": "1.0.0",
- "generated_at": "2026-11-21T15:42:12-05:00",
+ "generated_at": "2026-11-21T21:20:07-05:00",
  "timezone": "America/Bogota",
  "schedule": {
   "cron_utc": "17 */2 * * *",
   "description": "Cada 2 horas, minuto 17 (horas impares en Bogotá)",
-  "next_run_at": "2026-11-21T17:17:00-05:00"
+  "next_run_at": "2026-11-21T23:17:00-05:00"
  },
  "last_run": {
-  "id": "20261121-153444",
-  "started_at": "2026-11-21T15:34:44-05:00",
-  "finished_at": "2026-11-21T15:42:12-05:00",
-  "duration_s": 448.6,
+  "id": "20261121-211841",
+  "started_at": "2026-11-21T21:18:41-05:00",
+  "finished_at": "2026-11-21T21:20:07-05:00",
+  "duration_s": 86.4,
   "status": "parcial",
   "trigger": "schedule",
-  "new": 8,
-  "updated": 1,
-  "discarded": 38,
-  "sources_checked": 92,
-  "sources_ok": 83,
-  "run_url": "https://github.com/Daniel01010101010101/opportunities/actions/runs/44946990308"
+  "new": 0,
+  "updated": 0,
+  "discarded": 30,
+  "sources_checked": 83,
+  "sources_ok": 75,
+  "run_url": "https://github.com/Daniel01010101010101/opportunities/actions/runs/44975464865"
  },
- "last_success_at": "2026-11-21T15:42:12-05:00",
+ "last_success_at": "2026-11-21T21:20:07-05:00",
  "last_new_opportunity_at": "2026-11-21T15:41:36-05:00",
  "sources": {
   "configured": 219,
-  "checked_last_run": 92,
-  "ok_last_run": 83,
-  "failed_last_run": 4,
+  "checked_last_run": 83,
+  "ok_last_run": 75,
+  "failed_last_run": 3,
   "discovered": 5,
-  "with_errors": 5
+  "with_errors": 4
  },
  "counts": {
   "total": 117,
   "active": 114,
-  "new_24h": 22,
+  "new_24h": 10,
   "verified": 35,
   "pending": 58,
   "unverifiable": 21,
@@ -53,7 +53,7 @@
    "baja": 8
   },
   "free": 75,
-  "expiring_7d": 17
+  "expiring_7d": 16
  },
  "llm": {
   "enabled": false,
@@ -67,5 +67,5 @@
   "telegram": false,
   "email": false
  },
- "message": "Búsqueda completada con 4 fuente(s) con error; el resto se procesó normalmente."
+ "message": "Búsqueda completada con 3 fuente(s) con error; el resto se procesó normalmente."
 }
