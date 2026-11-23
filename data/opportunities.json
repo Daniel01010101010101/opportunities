@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T21:55:15-05:00",
+ "generated_at": "2026-11-23T09:52:12-05:00",
  "count": 127,
  "items": [
   {
@@ -78,7 +78,7 @@
      "Proviene de una fuente oficial configurada.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-22T07:43:02-05:00",
+    "checked_at": "2026-11-23T09:51:52-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -113,7 +113,7 @@
    },
    "discovered_at": "2026-11-18T17:21:34-05:00",
    "updated_at": "2026-11-18T17:21:34-05:00",
-   "last_verified": "2026-11-22T07:43:02-05:00",
+   "last_verified": "2026-11-23T09:51:52-05:00",
    "last_seen": "2026-11-20T08:04:54-05:00",
    "history": [],
    "priority": {
@@ -138,7 +138,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (26 días restantes)"
+      "note": "vigente (25 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -295,7 +295,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (12 días restantes)"
+      "note": "vigente (11 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -394,7 +394,7 @@
      "El enlace pertenece a un dominio oficial del organizador.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-22T07:43:02-05:00",
+    "checked_at": "2026-11-23T09:51:52-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -429,7 +429,7 @@
    },
    "discovered_at": "2026-11-22T07:43:02-05:00",
    "updated_at": "2026-11-22T07:43:02-05:00",
-   "last_verified": "2026-11-22T07:43:02-05:00",
+   "last_verified": "2026-11-23T09:51:52-05:00",
    "last_seen": "2026-11-22T15:49:45-05:00",
    "history": [],
    "priority": {
@@ -592,7 +592,7 @@
    "discovered_at": "2026-11-18T16:18:57-05:00",
    "updated_at": "2026-11-20T16:55:48-05:00",
    "last_verified": "2026-11-22T15:49:54-05:00",
-   "last_seen": "2026-11-22T21:54:42-05:00",
+   "last_seen": "2026-11-23T09:51:36-05:00",
    "history": [
     {
      "at": "2026-11-20T16:55:48-05:00",
@@ -624,7 +624,7 @@
      "vigencia": {
       "points": 9,
       "max": 10,
-      "note": "vence en 3 día(s): revisar ya"
+      "note": "vence en 2 día(s): revisar ya"
      },
      "cobertura": {
       "points": 10,
@@ -753,7 +753,7 @@
    "discovered_at": "2026-11-18T16:18:44-05:00",
    "updated_at": "2026-11-18T16:18:44-05:00",
    "last_verified": "2026-11-22T15:50:11-05:00",
-   "last_seen": "2026-11-22T15:49:45-05:00",
+   "last_seen": "2026-11-23T09:51:36-05:00",
    "history": [],
    "priority": {
     "score": 79,
@@ -934,7 +934,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (53 días restantes)"
+      "note": "vigente (52 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -1068,7 +1068,7 @@
    "discovered_at": "2026-11-20T16:55:51-05:00",
    "updated_at": "2026-11-20T16:55:51-05:00",
    "last_verified": "2026-11-22T15:49:56-05:00",
-   "last_seen": "2026-11-22T21:54:42-05:00",
+   "last_seen": "2026-11-23T09:51:36-05:00",
    "history": [],
    "priority": {
     "score": 79,
@@ -1092,7 +1092,7 @@
      "vigencia": {
       "points": 9,
       "max": 10,
-      "note": "vence en 2 día(s): revisar ya"
+      "note": "vence en 1 día(s): revisar ya"
      },
      "cobertura": {
       "points": 10,
@@ -1181,7 +1181,7 @@
     "reasons": [
      "Falta confirmar condiciones en la página oficial."
     ],
-    "checked_at": "2026-11-22T07:43:05-05:00",
+    "checked_at": "2026-11-23T09:52:01-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -1228,8 +1228,8 @@
    },
    "discovered_at": "2026-11-18T17:21:44-05:00",
    "updated_at": "2026-11-18T17:21:44-05:00",
-   "last_verified": "2026-11-22T07:43:05-05:00",
-   "last_seen": "2026-11-22T21:54:42-05:00",
+   "last_verified": "2026-11-23T09:52:01-05:00",
+   "last_seen": "2026-11-23T09:51:36-05:00",
    "history": [],
    "priority": {
     "score": 77,
@@ -1408,7 +1408,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (8 días restantes)"
+      "note": "vigente (7 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -1563,7 +1563,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (70 días restantes)"
+      "note": "vigente (69 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -1718,7 +1718,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (17 días restantes)"
+      "note": "vigente (16 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -1825,7 +1825,7 @@
      "El enlace pertenece a un dominio oficial del organizador.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-22T07:43:09-05:00",
+    "checked_at": "2026-11-23T09:52:01-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -1860,7 +1860,7 @@
    },
    "discovered_at": "2026-11-18T22:36:49-05:00",
    "updated_at": "2026-11-18T22:36:49-05:00",
-   "last_verified": "2026-11-22T07:43:09-05:00",
+   "last_verified": "2026-11-23T09:52:01-05:00",
    "last_seen": "2026-11-22T21:54:42-05:00",
    "history": [],
    "priority": {
@@ -1885,7 +1885,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (87 días restantes)"
+      "note": "vigente (86 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -1985,7 +1985,7 @@
      "El enlace pertenece a un dominio oficial del organizador.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-21T21:20:07-05:00",
+    "checked_at": "2026-11-23T09:51:51-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -2020,7 +2020,7 @@
    },
    "discovered_at": "2026-11-18T16:19:13-05:00",
    "updated_at": "2026-11-18T16:19:13-05:00",
-   "last_verified": "2026-11-21T21:20:07-05:00",
+   "last_verified": "2026-11-23T09:51:51-05:00",
    "last_seen": "2026-11-18T16:19:13-05:00",
    "history": [
     {
@@ -2053,7 +2053,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (19 días restantes)"
+      "note": "vigente (18 días restantes)"
      },
      "cobertura": {
       "points": 5,
@@ -2150,11 +2150,11 @@
     "reasons": [
      "El enlace pertenece a un dominio oficial del organizador."
     ],
-    "checked_at": "2026-11-22T07:43:09-05:00",
+    "checked_at": "2026-11-23T09:52:04-05:00",
     "link_ok": false,
     "official_domain": true,
     "terms_found": false,
-    "link_failures": 3
+    "link_failures": 4
    },
    "risk": {
     "level": "bajo",
@@ -2191,8 +2191,8 @@
    },
    "discovered_at": "2026-11-18T17:21:54-05:00",
    "updated_at": "2026-11-18T17:21:56-05:00",
-   "last_verified": "2026-11-22T07:43:09-05:00",
-   "last_seen": "2026-11-21T21:19:35-05:00",
+   "last_verified": "2026-11-23T09:52:04-05:00",
+   "last_seen": "2026-11-23T09:51:36-05:00",
    "history": [
     {
      "at": "2026-11-18T17:21:56-05:00",
@@ -2224,7 +2224,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (39 días restantes)"
+      "note": "vigente (38 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -2377,7 +2377,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (85 días restantes)"
+      "note": "vigente (84 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -2503,7 +2503,7 @@
    "discovered_at": "2026-11-18T16:18:58-05:00",
    "updated_at": "2026-11-18T16:18:58-05:00",
    "last_verified": "2026-11-22T21:54:50-05:00",
-   "last_seen": "2026-11-22T15:49:45-05:00",
+   "last_seen": "2026-11-23T09:51:36-05:00",
    "history": [],
    "priority": {
     "score": 75,
@@ -2527,7 +2527,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (100 días restantes)"
+      "note": "vigente (99 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -2670,7 +2670,7 @@
    "discovered_at": "2026-11-18T16:18:57-05:00",
    "updated_at": "2026-11-18T16:18:57-05:00",
    "last_verified": "2026-11-22T21:54:49-05:00",
-   "last_seen": "2026-11-22T15:49:45-05:00",
+   "last_seen": "2026-11-23T09:51:36-05:00",
    "history": [],
    "priority": {
     "score": 75,
@@ -2846,7 +2846,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (57 días restantes)"
+      "note": "vigente (56 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -3088,7 +3088,7 @@
     "reasons": [
      "Falta confirmar condiciones en la página oficial."
     ],
-    "checked_at": "2026-11-22T07:43:09-05:00",
+    "checked_at": "2026-11-23T09:52:05-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -3129,7 +3129,7 @@
    },
    "discovered_at": "2026-11-18T16:19:04-05:00",
    "updated_at": "2026-11-18T16:19:04-05:00",
-   "last_verified": "2026-11-22T07:43:09-05:00",
+   "last_verified": "2026-11-23T09:52:05-05:00",
    "last_seen": "2026-11-22T21:54:42-05:00",
    "history": [],
    "priority": {
@@ -3280,7 +3280,7 @@
    "discovered_at": "2026-11-18T16:18:54-05:00",
    "updated_at": "2026-11-18T16:18:54-05:00",
    "last_verified": "2026-11-22T21:54:47-05:00",
-   "last_seen": "2026-11-22T15:49:45-05:00",
+   "last_seen": "2026-11-23T09:51:36-05:00",
    "history": [],
    "priority": {
     "score": 74,
@@ -3430,7 +3430,7 @@
    "discovered_at": "2026-11-18T16:18:53-05:00",
    "updated_at": "2026-11-18T16:18:53-05:00",
    "last_verified": "2026-11-22T21:54:46-05:00",
-   "last_seen": "2026-11-22T15:49:45-05:00",
+   "last_seen": "2026-11-23T09:51:36-05:00",
    "history": [],
    "priority": {
     "score": 74,
@@ -3609,7 +3609,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (92 días restantes)"
+      "note": "vigente (91 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -3739,7 +3739,7 @@
    "discovered_at": "2026-11-18T16:18:46-05:00",
    "updated_at": "2026-11-18T16:18:46-05:00",
    "last_verified": "2026-11-22T21:54:45-05:00",
-   "last_seen": "2026-11-22T15:49:45-05:00",
+   "last_seen": "2026-11-23T09:51:36-05:00",
    "history": [],
    "priority": {
     "score": 73,
@@ -3899,7 +3899,7 @@
    "discovered_at": "2026-11-18T16:19:09-05:00",
    "updated_at": "2026-11-18T16:19:09-05:00",
    "last_verified": "2026-11-22T21:55:08-05:00",
-   "last_seen": "2026-11-21T21:19:35-05:00",
+   "last_seen": "2026-11-23T09:51:36-05:00",
    "history": [],
    "priority": {
     "score": 73,
@@ -4242,7 +4242,7 @@
      "vigencia": {
       "points": 9,
       "max": 10,
-      "note": "vence en 3 día(s): revisar ya"
+      "note": "vence en 2 día(s): revisar ya"
      },
      "cobertura": {
       "points": 10,
@@ -4404,7 +4404,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (39 días restantes)"
+      "note": "vigente (38 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -4538,7 +4538,7 @@
    "discovered_at": "2026-11-18T16:18:49-05:00",
    "updated_at": "2026-11-18T16:18:49-05:00",
    "last_verified": "2026-11-22T21:54:48-05:00",
-   "last_seen": "2026-11-22T15:49:45-05:00",
+   "last_seen": "2026-11-23T09:51:36-05:00",
    "history": [],
    "priority": {
     "score": 72,
@@ -4696,7 +4696,7 @@
    "discovered_at": "2026-11-18T16:18:45-05:00",
    "updated_at": "2026-11-18T16:18:45-05:00",
    "last_verified": "2026-11-22T15:50:12-05:00",
-   "last_seen": "2026-11-22T15:49:45-05:00",
+   "last_seen": "2026-11-23T09:51:36-05:00",
    "history": [],
    "priority": {
     "score": 72,
@@ -5177,7 +5177,7 @@
    "discovered_at": "2026-11-22T21:54:42-05:00",
    "updated_at": "2026-11-22T21:54:42-05:00",
    "last_verified": "2026-11-22T21:54:42-05:00",
-   "last_seen": "2026-11-22T21:54:42-05:00",
+   "last_seen": "2026-11-23T09:51:36-05:00",
    "history": [],
    "priority": {
     "score": 71,
@@ -5291,7 +5291,7 @@
     "reasons": [
      "Falta confirmar condiciones en la página oficial."
     ],
-    "checked_at": "2026-11-21T21:20:07-05:00",
+    "checked_at": "2026-11-23T09:51:51-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -5326,7 +5326,7 @@
    },
    "discovered_at": "2026-11-18T16:19:13-05:00",
    "updated_at": "2026-11-18T16:19:13-05:00",
-   "last_verified": "2026-11-21T21:20:07-05:00",
+   "last_verified": "2026-11-23T09:51:51-05:00",
    "last_seen": "2026-11-22T21:54:42-05:00",
    "history": [],
    "priority": {
@@ -5487,7 +5487,7 @@
    "discovered_at": "2026-11-18T16:19:10-05:00",
    "updated_at": "2026-11-18T16:19:10-05:00",
    "last_verified": "2026-11-22T15:49:47-05:00",
-   "last_seen": "2026-11-22T07:43:01-05:00",
+   "last_seen": "2026-11-23T09:51:36-05:00",
    "history": [],
    "priority": {
     "score": 71,
@@ -5511,7 +5511,7 @@
      "vigencia": {
       "points": 9,
       "max": 10,
-      "note": "vence en 3 día(s): revisar ya"
+      "note": "vence en 2 día(s): revisar ya"
      },
      "cobertura": {
       "points": 5,
@@ -5651,7 +5651,7 @@
    "discovered_at": "2026-11-18T16:19:12-05:00",
    "updated_at": "2026-11-18T16:19:12-05:00",
    "last_verified": "2026-11-22T21:55:14-05:00",
-   "last_seen": "2026-11-21T21:19:35-05:00",
+   "last_seen": "2026-11-23T09:51:36-05:00",
    "history": [],
    "priority": {
     "score": 71,
@@ -5675,7 +5675,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (8 días restantes)"
+      "note": "vigente (7 días restantes)"
      },
      "cobertura": {
       "points": 5,
@@ -5767,7 +5767,7 @@
     "reasons": [
      "Organizador no identificado con certeza."
     ],
-    "checked_at": "2026-11-22T07:43:09-05:00",
+    "checked_at": "2026-11-23T09:52:05-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -5802,7 +5802,7 @@
    },
    "discovered_at": "2026-11-18T21:46:59-05:00",
    "updated_at": "2026-11-18T21:46:59-05:00",
-   "last_verified": "2026-11-22T07:43:09-05:00",
+   "last_verified": "2026-11-23T09:52:05-05:00",
    "last_seen": "2026-11-18T21:46:59-05:00",
    "history": [],
    "priority": {
@@ -5827,7 +5827,7 @@
      "vigencia": {
       "points": 9,
       "max": 10,
-      "note": "vence en 3 día(s): revisar ya"
+      "note": "vence en 2 día(s): revisar ya"
      },
      "cobertura": {
       "points": 10,
@@ -6233,7 +6233,7 @@
     "reasons": [
      "Falta confirmar condiciones en la página oficial."
     ],
-    "checked_at": "2026-11-22T07:43:12-05:00",
+    "checked_at": "2026-11-23T09:52:08-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -6268,7 +6268,7 @@
    },
    "discovered_at": "2026-11-20T08:04:55-05:00",
    "updated_at": "2026-11-20T08:04:55-05:00",
-   "last_verified": "2026-11-22T07:43:12-05:00",
+   "last_verified": "2026-11-23T09:52:08-05:00",
    "last_seen": "2026-11-22T21:54:42-05:00",
    "history": [],
    "priority": {
@@ -6293,7 +6293,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (24 días restantes)"
+      "note": "vigente (23 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -6431,7 +6431,7 @@
    "discovered_at": "2026-11-18T16:18:47-05:00",
    "updated_at": "2026-11-18T16:18:47-05:00",
    "last_verified": "2026-11-22T21:54:46-05:00",
-   "last_seen": "2026-11-22T15:49:45-05:00",
+   "last_seen": "2026-11-23T09:51:36-05:00",
    "history": [],
    "priority": {
     "score": 69,
@@ -6552,7 +6552,7 @@
     "reasons": [
      "Organizador no identificado con certeza."
     ],
-    "checked_at": "2026-11-21T21:20:07-05:00",
+    "checked_at": "2026-11-23T09:51:52-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -6587,8 +6587,8 @@
    },
    "discovered_at": "2026-11-18T16:19:13-05:00",
    "updated_at": "2026-11-18T16:19:13-05:00",
-   "last_verified": "2026-11-21T21:20:07-05:00",
-   "last_seen": "2026-11-21T21:19:35-05:00",
+   "last_verified": "2026-11-23T09:51:52-05:00",
+   "last_seen": "2026-11-23T09:51:36-05:00",
    "history": [],
    "priority": {
     "score": 69,
@@ -6753,7 +6753,7 @@
    "discovered_at": "2026-11-22T15:49:46-05:00",
    "updated_at": "2026-11-22T15:49:46-05:00",
    "last_verified": "2026-11-22T15:49:46-05:00",
-   "last_seen": "2026-11-22T21:54:42-05:00",
+   "last_seen": "2026-11-23T09:51:36-05:00",
    "history": [],
    "priority": {
     "score": 69,
@@ -6872,7 +6872,7 @@
     "reasons": [
      "Falta confirmar condiciones en la página oficial."
     ],
-    "checked_at": "2026-11-22T07:43:11-05:00",
+    "checked_at": "2026-11-23T09:52:06-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -6907,7 +6907,7 @@
    },
    "discovered_at": "2026-11-18T22:36:49-05:00",
    "updated_at": "2026-11-18T22:36:49-05:00",
-   "last_verified": "2026-11-22T07:43:11-05:00",
+   "last_verified": "2026-11-23T09:52:06-05:00",
    "last_seen": "2026-11-22T21:54:42-05:00",
    "history": [],
    "priority": {
@@ -7020,7 +7020,7 @@
     "reasons": [
      "Información insuficiente: sin organizador identificado, fechas ni enlace oficial."
     ],
-    "checked_at": "2026-11-22T07:43:12-05:00",
+    "checked_at": "2026-11-23T09:52:08-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -7061,7 +7061,7 @@
    },
    "discovered_at": "2026-11-18T16:19:13-05:00",
    "updated_at": "2026-11-18T16:19:13-05:00",
-   "last_verified": "2026-11-22T07:43:12-05:00",
+   "last_verified": "2026-11-23T09:52:08-05:00",
    "last_seen": "2026-11-19T08:25:50-05:00",
    "history": [],
    "priority": {
@@ -7215,7 +7215,7 @@
    "discovered_at": "2026-11-20T16:55:49-05:00",
    "updated_at": "2026-11-20T16:55:49-05:00",
    "last_verified": "2026-11-22T15:49:55-05:00",
-   "last_seen": "2026-11-22T21:54:42-05:00",
+   "last_seen": "2026-11-23T09:51:36-05:00",
    "history": [],
    "priority": {
     "score": 69,
@@ -7364,7 +7364,7 @@
    "discovered_at": "2026-11-20T16:55:51-05:00",
    "updated_at": "2026-11-20T16:55:51-05:00",
    "last_verified": "2026-11-22T15:49:57-05:00",
-   "last_seen": "2026-11-21T21:19:35-05:00",
+   "last_seen": "2026-11-23T09:51:36-05:00",
    "history": [],
    "priority": {
     "score": 69,
@@ -7644,7 +7644,7 @@
      "El enlace pertenece a un dominio oficial del organizador.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-22T07:43:03-05:00",
+    "checked_at": "2026-11-23T09:51:53-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -7697,7 +7697,7 @@
    },
    "discovered_at": "2026-11-18T16:19:10-05:00",
    "updated_at": "2026-11-18T16:19:10-05:00",
-   "last_verified": "2026-11-22T07:43:03-05:00",
+   "last_verified": "2026-11-23T09:51:53-05:00",
    "last_seen": "2026-11-22T21:54:42-05:00",
    "history": [],
    "priority": {
@@ -8034,7 +8034,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (8 días restantes)"
+      "note": "vigente (7 días restantes)"
      },
      "cobertura": {
       "points": 5,
@@ -8187,7 +8187,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (61 días restantes)"
+      "note": "vigente (60 días restantes)"
      },
      "cobertura": {
       "points": 6,
@@ -8276,7 +8276,7 @@
     "reasons": [
      "Falta confirmar condiciones en la página oficial."
     ],
-    "checked_at": "2026-11-22T07:43:04-05:00",
+    "checked_at": "2026-11-23T09:51:54-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -8311,8 +8311,8 @@
    },
    "discovered_at": "2026-11-18T17:21:45-05:00",
    "updated_at": "2026-11-18T17:21:45-05:00",
-   "last_verified": "2026-11-22T07:43:04-05:00",
-   "last_seen": "2026-11-22T21:54:42-05:00",
+   "last_verified": "2026-11-23T09:51:54-05:00",
+   "last_seen": "2026-11-23T09:51:36-05:00",
    "history": [],
    "priority": {
     "score": 68,
@@ -8432,7 +8432,7 @@
     "reasons": [
      "Organizador no identificado con certeza."
     ],
-    "checked_at": "2026-11-22T07:43:04-05:00",
+    "checked_at": "2026-11-23T09:51:54-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -8467,7 +8467,7 @@
    },
    "discovered_at": "2026-11-18T17:21:34-05:00",
    "updated_at": "2026-11-18T17:21:34-05:00",
-   "last_verified": "2026-11-22T07:43:04-05:00",
+   "last_verified": "2026-11-23T09:51:54-05:00",
    "last_seen": "2026-11-18T17:29:12-05:00",
    "history": [],
    "priority": {
@@ -8492,7 +8492,7 @@
      "vigencia": {
       "points": 9,
       "max": 10,
-      "note": "vence en 2 día(s): revisar ya"
+      "note": "vence en 1 día(s): revisar ya"
      },
      "cobertura": {
       "points": 10,
@@ -8942,7 +8942,7 @@
    "discovered_at": "2026-11-18T16:18:52-05:00",
    "updated_at": "2026-11-18T16:18:52-05:00",
    "last_verified": "2026-11-22T21:54:47-05:00",
-   "last_seen": "2026-11-22T15:49:45-05:00",
+   "last_seen": "2026-11-23T09:51:36-05:00",
    "history": [],
    "priority": {
     "score": 67,
@@ -9065,7 +9065,7 @@
     "reasons": [
      "Organizador no identificado con certeza."
     ],
-    "checked_at": "2026-11-22T07:43:03-05:00",
+    "checked_at": "2026-11-23T09:51:54-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -9100,7 +9100,7 @@
    },
    "discovered_at": "2026-11-18T16:19:15-05:00",
    "updated_at": "2026-11-18T16:19:15-05:00",
-   "last_verified": "2026-11-22T07:43:03-05:00",
+   "last_verified": "2026-11-23T09:51:54-05:00",
    "last_seen": "2026-11-22T21:54:42-05:00",
    "history": [],
    "priority": {
@@ -9279,7 +9279,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (5 días restantes)"
+      "note": "vigente (4 días restantes)"
      },
      "cobertura": {
       "points": 5,
@@ -9534,7 +9534,7 @@
     "reasons": [
      "Falta confirmar condiciones en la página oficial."
     ],
-    "checked_at": "2026-11-22T07:43:04-05:00",
+    "checked_at": "2026-11-23T09:51:55-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -9569,8 +9569,8 @@
    },
    "discovered_at": "2026-11-18T17:21:34-05:00",
    "updated_at": "2026-11-18T17:21:34-05:00",
-   "last_verified": "2026-11-22T07:43:04-05:00",
-   "last_seen": "2026-11-22T21:54:42-05:00",
+   "last_verified": "2026-11-23T09:51:55-05:00",
+   "last_seen": "2026-11-23T09:51:36-05:00",
    "history": [],
    "priority": {
     "score": 66,
@@ -9594,7 +9594,7 @@
      "vigencia": {
       "points": 9,
       "max": 10,
-      "note": "vence en 3 día(s): revisar ya"
+      "note": "vence en 2 día(s): revisar ya"
      },
      "cobertura": {
       "points": 5,
@@ -9855,7 +9855,7 @@
     "reasons": [
      "Organizador no identificado con certeza."
     ],
-    "checked_at": "2026-11-22T07:43:10-05:00",
+    "checked_at": "2026-11-23T09:52:05-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -9890,7 +9890,7 @@
    },
    "discovered_at": "2026-11-18T22:36:48-05:00",
    "updated_at": "2026-11-18T22:36:48-05:00",
-   "last_verified": "2026-11-22T07:43:10-05:00",
+   "last_verified": "2026-11-23T09:52:05-05:00",
    "last_seen": "2026-11-18T22:36:48-05:00",
    "history": [],
    "priority": {
@@ -9915,7 +9915,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (54 días restantes)"
+      "note": "vigente (53 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -10075,7 +10075,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (9 días restantes)"
+      "note": "vigente (8 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -10206,7 +10206,7 @@
    "discovered_at": "2026-11-20T16:55:46-05:00",
    "updated_at": "2026-11-20T16:55:46-05:00",
    "last_verified": "2026-11-22T15:49:53-05:00",
-   "last_seen": "2026-11-22T21:54:42-05:00",
+   "last_seen": "2026-11-23T09:51:36-05:00",
    "history": [],
    "priority": {
     "score": 64,
@@ -10230,7 +10230,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (102 días restantes)"
+      "note": "vigente (101 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -10373,7 +10373,7 @@
    "discovered_at": "2026-11-18T16:19:12-05:00",
    "updated_at": "2026-11-18T16:19:12-05:00",
    "last_verified": "2026-11-22T21:55:15-05:00",
-   "last_seen": "2026-11-21T21:19:35-05:00",
+   "last_seen": "2026-11-23T09:51:36-05:00",
    "history": [],
    "priority": {
     "score": 64,
@@ -10565,7 +10565,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (20 días restantes)"
+      "note": "vigente (19 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -10725,7 +10725,7 @@
      "vigencia": {
       "points": 9,
       "max": 10,
-      "note": "vence en 2 día(s): revisar ya"
+      "note": "vence en 1 día(s): revisar ya"
      },
      "cobertura": {
       "points": 10,
@@ -11001,7 +11001,7 @@
    "discovered_at": "2026-11-18T16:19:08-05:00",
    "updated_at": "2026-11-18T16:19:08-05:00",
    "last_verified": "2026-11-22T21:55:05-05:00",
-   "last_seen": "2026-11-21T21:19:35-05:00",
+   "last_seen": "2026-11-23T09:51:36-05:00",
    "history": [],
    "priority": {
     "score": 62,
@@ -11437,7 +11437,7 @@
     "reasons": [
      "Falta confirmar condiciones en la página oficial."
     ],
-    "checked_at": "2026-11-21T21:20:03-05:00",
+    "checked_at": "2026-11-23T09:51:48-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -11472,8 +11472,8 @@
    },
    "discovered_at": "2026-11-18T16:19:11-05:00",
    "updated_at": "2026-11-18T16:19:11-05:00",
-   "last_verified": "2026-11-21T21:20:03-05:00",
-   "last_seen": "2026-11-21T21:19:35-05:00",
+   "last_verified": "2026-11-23T09:51:48-05:00",
+   "last_seen": "2026-11-23T09:51:36-05:00",
    "history": [],
    "priority": {
     "score": 62,
@@ -11586,7 +11586,7 @@
     "reasons": [
      "Información insuficiente: sin organizador identificado, fechas ni enlace oficial."
     ],
-    "checked_at": "2026-11-22T07:43:04-05:00",
+    "checked_at": "2026-11-23T09:51:56-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -11621,7 +11621,7 @@
    },
    "discovered_at": "2026-11-18T17:21:34-05:00",
    "updated_at": "2026-11-18T17:21:34-05:00",
-   "last_verified": "2026-11-22T07:43:04-05:00",
+   "last_verified": "2026-11-23T09:51:56-05:00",
    "last_seen": "2026-11-19T08:25:49-05:00",
    "history": [],
    "priority": {
@@ -11796,7 +11796,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (18 días restantes)"
+      "note": "vigente (17 días restantes)"
      },
      "cobertura": {
       "points": 5,
@@ -12080,7 +12080,7 @@
    "discovered_at": "2026-11-18T16:18:58-05:00",
    "updated_at": "2026-11-18T16:18:58-05:00",
    "last_verified": "2026-11-22T21:54:55-05:00",
-   "last_seen": "2026-11-22T21:54:42-05:00",
+   "last_seen": "2026-11-23T09:51:36-05:00",
    "history": [],
    "priority": {
     "score": 60,
@@ -12193,7 +12193,7 @@
     "reasons": [
      "Información insuficiente: sin organizador identificado, fechas ni enlace oficial."
     ],
-    "checked_at": "2026-11-21T21:20:03-05:00",
+    "checked_at": "2026-11-23T09:51:48-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -12228,7 +12228,7 @@
    },
    "discovered_at": "2026-11-18T16:19:12-05:00",
    "updated_at": "2026-11-18T16:19:12-05:00",
-   "last_verified": "2026-11-21T21:20:03-05:00",
+   "last_verified": "2026-11-23T09:51:48-05:00",
    "last_seen": "2026-11-22T21:54:42-05:00",
    "history": [],
    "priority": {
@@ -12342,7 +12342,7 @@
     "reasons": [
      "Información insuficiente: sin organizador identificado, fechas ni enlace oficial."
     ],
-    "checked_at": "2026-11-22T07:43:15-05:00",
+    "checked_at": "2026-11-23T09:52:12-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -12377,7 +12377,7 @@
    },
    "discovered_at": "2026-11-19T08:25:50-05:00",
    "updated_at": "2026-11-19T08:25:50-05:00",
-   "last_verified": "2026-11-22T07:43:15-05:00",
+   "last_verified": "2026-11-23T09:52:12-05:00",
    "last_seen": "2026-11-19T08:25:50-05:00",
    "history": [],
    "priority": {
@@ -12492,7 +12492,7 @@
     "reasons": [
      "Organizador no identificado con certeza."
     ],
-    "checked_at": "2026-11-22T07:43:04-05:00",
+    "checked_at": "2026-11-23T09:52:00-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -12527,7 +12527,7 @@
    },
    "discovered_at": "2026-11-18T17:21:46-05:00",
    "updated_at": "2026-11-18T17:21:46-05:00",
-   "last_verified": "2026-11-22T07:43:04-05:00",
+   "last_verified": "2026-11-23T09:52:00-05:00",
    "last_seen": "2026-11-19T08:25:49-05:00",
    "history": [],
    "priority": {
@@ -12552,7 +12552,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (98 días restantes)"
+      "note": "vigente (97 días restantes)"
      },
      "cobertura": {
       "points": 5,
@@ -12839,7 +12839,7 @@
    "discovered_at": "2026-11-18T16:18:44-05:00",
    "updated_at": "2026-11-18T16:18:44-05:00",
    "last_verified": "2026-11-22T15:50:12-05:00",
-   "last_seen": "2026-11-22T21:54:42-05:00",
+   "last_seen": "2026-11-23T09:51:36-05:00",
    "history": [],
    "priority": {
     "score": 57,
@@ -12863,7 +12863,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (24 días restantes)"
+      "note": "vigente (23 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -13005,7 +13005,7 @@
    "discovered_at": "2026-11-18T16:19:08-05:00",
    "updated_at": "2026-11-18T16:19:08-05:00",
    "last_verified": "2026-11-22T21:55:07-05:00",
-   "last_seen": "2026-11-21T21:19:35-05:00",
+   "last_seen": "2026-11-23T09:51:36-05:00",
    "history": [],
    "priority": {
     "score": 57,
@@ -13113,8 +13113,8 @@
     "reasons": [
      "Falta confirmar condiciones en la página oficial."
     ],
-    "checked_at": "2026-11-22T07:43:01-05:00",
-    "link_ok": null,
+    "checked_at": "2026-11-23T09:51:52-05:00",
+    "link_ok": true,
     "official_domain": false,
     "terms_found": false,
     "link_failures": 0
@@ -13148,8 +13148,8 @@
    },
    "discovered_at": "2026-11-22T07:43:01-05:00",
    "updated_at": "2026-11-22T07:43:01-05:00",
-   "last_verified": "2026-11-22T07:43:01-05:00",
-   "last_seen": "2026-11-22T21:54:42-05:00",
+   "last_verified": "2026-11-23T09:51:52-05:00",
+   "last_seen": "2026-11-23T09:51:36-05:00",
    "history": [],
    "priority": {
     "score": 57,
@@ -13476,7 +13476,7 @@
    "discovered_at": "2026-11-18T16:18:40-05:00",
    "updated_at": "2026-11-18T16:18:40-05:00",
    "last_verified": "2026-11-22T15:50:08-05:00",
-   "last_seen": "2026-11-22T21:54:42-05:00",
+   "last_seen": "2026-11-23T09:51:36-05:00",
    "history": [],
    "priority": {
     "score": 55,
@@ -13500,7 +13500,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (39 días restantes)"
+      "note": "vigente (38 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -13653,7 +13653,7 @@
    "discovered_at": "2026-11-18T16:18:36-05:00",
    "updated_at": "2026-11-18T16:18:36-05:00",
    "last_verified": "2026-11-22T15:50:03-05:00",
-   "last_seen": "2026-11-22T21:54:42-05:00",
+   "last_seen": "2026-11-23T09:51:36-05:00",
    "history": [],
    "priority": {
     "score": 55,
@@ -13677,7 +13677,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (39 días restantes)"
+      "note": "vigente (38 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -13769,7 +13769,7 @@
     "reasons": [
      "Falta confirmar condiciones en la página oficial."
     ],
-    "checked_at": "2026-11-22T07:43:06-05:00",
+    "checked_at": "2026-11-23T09:52:01-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -13804,8 +13804,8 @@
    },
    "discovered_at": "2026-11-18T17:21:48-05:00",
    "updated_at": "2026-11-18T17:21:48-05:00",
-   "last_verified": "2026-11-22T07:43:06-05:00",
-   "last_seen": "2026-11-22T21:54:42-05:00",
+   "last_verified": "2026-11-23T09:52:01-05:00",
+   "last_seen": "2026-11-23T09:51:36-05:00",
    "history": [],
    "priority": {
     "score": 55,
@@ -13952,7 +13952,7 @@
    "discovered_at": "2026-11-20T16:55:50-05:00",
    "updated_at": "2026-11-20T16:55:50-05:00",
    "last_verified": "2026-11-22T15:49:58-05:00",
-   "last_seen": "2026-11-21T21:19:35-05:00",
+   "last_seen": "2026-11-23T09:51:36-05:00",
    "history": [
     {
      "at": "2026-11-21T07:49:39-05:00",
@@ -14131,7 +14131,7 @@
    "discovered_at": "2026-11-18T16:18:39-05:00",
    "updated_at": "2026-11-18T16:18:39-05:00",
    "last_verified": "2026-11-22T15:50:07-05:00",
-   "last_seen": "2026-11-22T21:54:42-05:00",
+   "last_seen": "2026-11-23T09:51:36-05:00",
    "history": [],
    "priority": {
     "score": 55,
@@ -14155,7 +14155,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (39 días restantes)"
+      "note": "vigente (38 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -14254,7 +14254,7 @@
      "El enlace pertenece a un dominio oficial del organizador.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-22T07:43:13-05:00",
+    "checked_at": "2026-11-23T09:52:11-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -14289,7 +14289,7 @@
    },
    "discovered_at": "2026-11-20T08:04:55-05:00",
    "updated_at": "2026-11-20T08:04:55-05:00",
-   "last_verified": "2026-11-22T07:43:13-05:00",
+   "last_verified": "2026-11-23T09:52:11-05:00",
    "last_seen": "2026-11-21T15:41:32-05:00",
    "history": [],
    "priority": {
@@ -14314,7 +14314,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (37 días restantes)"
+      "note": "vigente (36 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -14458,7 +14458,7 @@
    "discovered_at": "2026-11-18T16:18:44-05:00",
    "updated_at": "2026-11-18T16:18:44-05:00",
    "last_verified": "2026-11-22T21:54:43-05:00",
-   "last_seen": "2026-11-22T15:49:45-05:00",
+   "last_seen": "2026-11-23T09:51:36-05:00",
    "history": [],
    "priority": {
     "score": 54,
@@ -14633,168 +14633,12 @@
      "vigencia": {
       "points": 9,
       "max": 10,
-      "note": "vence en 3 día(s): revisar ya"
+      "note": "vence en 2 día(s): revisar ya"
      },
      "cobertura": {
       "points": 5,
       "max": 10,
       "note": "regional"
-     },
-     "credibilidad": {
-      "points": 6,
-      "max": 10,
-      "note": "pendiente"
-     },
-     "claridad": {
-      "points": 1,
-      "max": 5,
-      "note": "sin términos enlazados"
-     }
-    }
-   }
-  },
-  {
-   "id": "op_b7818f30d372",
-   "title": "Feria de vivienda en Cali ofrece subsidios para familias afectadas por el terremoto del 10 de agosto",
-   "summary": "La feria de vivienda en Cali ofrece subsidios de hasta 50 millones para familias damnificadas por el terremoto del 10 de agosto.",
-   "section": "estado",
-   "category": "vivienda",
-   "tags": [
-    "Vivienda"
-   ],
-   "mechanics": [],
-   "kind": "Programa público",
-   "organizer": {
-    "name": "Organizador no identificado",
-    "type": "desconocido",
-    "domain": null,
-    "known": false
-   },
-   "prize": {
-    "description": null,
-    "value_cop": 50000000,
-    "value_text": "50 millones de pesos",
-    "value_source": "noticia",
-    "winners": null,
-    "odds_text": null
-   },
-   "cost": {
-    "type": "requiere_compra",
-    "label": "Requiere compra",
-    "free": false,
-    "certainty": "explicito",
-    "requires_purchase": true,
-    "requires_registration": true,
-    "requires_social": true,
-    "requires_activity": true,
-    "requires_subscription": false,
-    "requires_deposit": false,
-    "purchase_threshold_text": null,
-    "notes": [
-     "La fuente indica condición de compra: «descuentos de hasta 40 %»."
-    ]
-   },
-   "eligibility": {
-    "who": null,
-    "min_age": null,
-    "age_text": null,
-    "coverage": "nacional",
-    "cities": [
-     "Cali"
-    ]
-   },
-   "requirements": [
-    "Los requisitos comprenden la presentación de un certificado de la Unidad Nacional para la Gestión del Riesgo de Desastres (UNGRD) en el que se documente el colapso o riesgo de demolición de la vivienda;",
-    "acreditar mínimo cinco años de residencia en Cali y contar con el cierre financiero que cubra el monto restante para la adquisición de la vivienda."
-   ],
-   "documents": [
-    "Registro civil"
-   ],
-   "steps": [],
-   "steps_source": null,
-   "dates": {
-    "published": "2026-11-19T12:26:11-05:00",
-    "start": "2026-08-10",
-    "end": "2026-11-22",
-    "draw": null
-   },
-   "status": "activa",
-   "gov": {
-    "program_status": "abierta",
-    "entity": "Organizador no identificado"
-   },
-   "offer": null,
-   "verification": {
-    "status": "pendiente",
-    "reasons": [
-     "Organizador no identificado con certeza."
-    ],
-    "checked_at": "2026-11-22T15:49:59-05:00",
-    "link_ok": true,
-    "official_domain": false,
-    "terms_found": false,
-    "link_failures": 0
-   },
-   "risk": {
-    "level": "bajo",
-    "flags": [],
-    "sensitive_data_warning": false
-   },
-   "urls": {
-    "source": "https://www.pulzo.com/economia/vivienda/subsidios-de-vivienda-en-cali-como-acceder-a-la-feria-te-completamos-para-tu-casa-tras-el-sismo-PP5359514A",
-    "participate": null,
-    "terms": null,
-    "official": null,
-    "image": "https://d2yoo3qu6vrk5d.cloudfront.net/pulzo-lite/images-resized/PP5359514A-h-o.jpg"
-   },
-   "sources": [
-    {
-     "url": "https://www.pulzo.com/economia/vivienda/subsidios-de-vivienda-en-cali-como-acceder-a-la-feria-te-completamos-para-tu-casa-tras-el-sismo-PP5359514A",
-     "name": "Noticias · subsidios de vivienda",
-     "type": "news",
-     "seen_at": "2026-11-20T16:55:53-05:00"
-    }
-   ],
-   "language": "es",
-   "translated": false,
-   "extraction": {
-    "method": "heuristica",
-    "relevance": 0.93,
-    "model": null
-   },
-   "discovered_at": "2026-11-20T16:55:53-05:00",
-   "updated_at": "2026-11-20T16:55:53-05:00",
-   "last_verified": "2026-11-22T15:49:59-05:00",
-   "last_seen": "2026-11-21T21:19:35-05:00",
-   "history": [],
-   "priority": {
-    "score": 53,
-    "level": "media",
-    "breakdown": {
-     "valor": {
-      "points": 16,
-      "max": 25,
-      "note": "valor publicado 50.000.000 COP"
-     },
-     "gratuidad": {
-      "points": 4,
-      "max": 25,
-      "note": "requiere_compra"
-     },
-     "facilidad": {
-      "points": 7,
-      "max": 15,
-      "note": "registro, actividad, redes sociales"
-     },
-     "vigencia": {
-      "points": 9,
-      "max": 10,
-      "note": "vence en 0 día(s): revisar ya"
-     },
-     "cobertura": {
-      "points": 10,
-      "max": 10,
-      "note": "nacional"
      },
      "credibilidad": {
       "points": 6,
@@ -14930,7 +14774,7 @@
    "discovered_at": "2026-11-18T16:18:37-05:00",
    "updated_at": "2026-11-18T16:18:37-05:00",
    "last_verified": "2026-11-22T15:50:05-05:00",
-   "last_seen": "2026-11-22T21:54:42-05:00",
+   "last_seen": "2026-11-23T09:51:36-05:00",
    "history": [],
    "priority": {
     "score": 53,
@@ -14954,7 +14798,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (135 días restantes)"
+      "note": "vigente (134 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -15096,7 +14940,7 @@
    "discovered_at": "2026-11-18T16:18:38-05:00",
    "updated_at": "2026-11-18T16:18:38-05:00",
    "last_verified": "2026-11-22T15:50:06-05:00",
-   "last_seen": "2026-11-22T21:54:42-05:00",
+   "last_seen": "2026-11-23T09:51:36-05:00",
    "history": [],
    "priority": {
     "score": 53,
@@ -15120,7 +14964,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (39 días restantes)"
+      "note": "vigente (38 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -15351,7 +15195,7 @@
     "reasons": [
      "Información insuficiente: sin organizador identificado, fechas ni enlace oficial."
     ],
-    "checked_at": "2026-11-21T21:20:04-05:00",
+    "checked_at": "2026-11-23T09:51:49-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -15386,7 +15230,7 @@
    },
    "discovered_at": "2026-11-18T16:19:12-05:00",
    "updated_at": "2026-11-18T16:19:12-05:00",
-   "last_verified": "2026-11-21T21:20:04-05:00",
+   "last_verified": "2026-11-23T09:51:49-05:00",
    "last_seen": "2026-11-18T22:36:47-05:00",
    "history": [],
    "priority": {
@@ -15595,7 +15439,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (5 días restantes)"
+      "note": "vigente (4 días restantes)"
      },
      "cobertura": {
       "points": 5,
@@ -15738,7 +15582,7 @@
    "discovered_at": "2026-11-18T16:18:42-05:00",
    "updated_at": "2026-11-18T16:18:42-05:00",
    "last_verified": "2026-11-22T15:50:09-05:00",
-   "last_seen": "2026-11-22T21:54:42-05:00",
+   "last_seen": "2026-11-23T09:51:36-05:00",
    "history": [],
    "priority": {
     "score": 51,
@@ -15762,7 +15606,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (129 días restantes)"
+      "note": "vigente (128 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -15937,169 +15781,6 @@
    }
   },
   {
-   "id": "op_f0ac37e4c688",
-   "title": "Black Friday 2026 en Colombia: moda, tecnología y viajes lideran las ofertas, pero crece el riesgo de endeudamiento",
-   "summary": "Black Friday 2026 moviliza compras de moda y tecnología en Colombia con vuelos desde $50.000 y advertencias por deuda y fallas en los pagos digitales.",
-   "section": "ofertas",
-   "category": "of_tecnologia",
-   "tags": [
-    "Ciencia e innovación",
-    "Computadores",
-    "Dinero en efectivo",
-    "Ropa y calzado",
-    "Tecnología",
-    "Televisores"
-   ],
-   "mechanics": [],
-   "kind": "Oferta",
-   "organizer": {
-    "name": "Amazon",
-    "type": "comercio",
-    "domain": "amazon.com",
-    "known": true
-   },
-   "prize": {
-    "description": null,
-    "value_cop": null,
-    "value_text": null,
-    "value_source": null,
-    "winners": null,
-    "odds_text": null
-   },
-   "cost": {
-    "type": "requiere_compra",
-    "label": "Requiere compra",
-    "free": false,
-    "certainty": "explicito",
-    "requires_purchase": true,
-    "requires_registration": false,
-    "requires_social": false,
-    "requires_activity": false,
-    "requires_subscription": false,
-    "requires_deposit": false,
-    "purchase_threshold_text": "$50.000",
-    "notes": [
-     "La fuente indica condición de compra: «descuentos de hasta el 75%».",
-     "Monto mínimo mencionado: $50.000."
-    ]
-   },
-   "eligibility": {
-    "who": null,
-    "min_age": null,
-    "age_text": null,
-    "coverage": "bogota",
-    "cities": [
-     "Bogotá"
-    ]
-   },
-   "requirements": [
-    "es la infraestructura digital la que debe permitir que se completen” , afirmó Danilo Fernandes , vicepresidente y CCO de B2B para América Latina de Liberty Networks.",
-    "los hogares deberán evaluar si los descuentos representan un ahorro real, mientras los comercios deberán garantizar que sus sistemas permitan completar las transacciones sin interrupciones."
-   ],
-   "documents": [],
-   "steps": [],
-   "steps_source": null,
-   "dates": {
-    "published": "2026-11-20T10:53:23-05:00",
-    "start": null,
-    "end": "2026-11-22",
-    "draw": null
-   },
-   "status": "activa",
-   "gov": null,
-   "offer": {
-    "discount_pct": null,
-    "original_price": null,
-    "promo_price": null,
-    "code": null,
-    "pct_verified": false
-   },
-   "verification": {
-    "status": "pendiente",
-    "reasons": [
-     "Falta confirmar condiciones en la página oficial."
-    ],
-    "checked_at": "2026-11-22T21:54:43-05:00",
-    "link_ok": null,
-    "official_domain": false,
-    "terms_found": false,
-    "link_failures": 0
-   },
-   "risk": {
-    "level": "bajo",
-    "flags": [],
-    "sensitive_data_warning": false
-   },
-   "urls": {
-    "source": "https://revistaclevel.com/black-friday-2026-en-colombia-moda-tecnologia-y-viajes-lideran-las-ofertas-pero-crece-el-riesgo-de",
-    "participate": null,
-    "terms": null,
-    "official": null,
-    "image": "https://revistaclevel.com/sites/default/files/styles/image_sc_cx_1200x630/public/fotos%20c-level%20%2870%29_5.png?itok=Yj7hV8uq"
-   },
-   "sources": [
-    {
-     "url": "https://revistaclevel.com/black-friday-2026-en-colombia-moda-tecnologia-y-viajes-lideran-las-ofertas-pero-crece-el-riesgo-de",
-     "name": "Noticias · Black Friday Colombia",
-     "type": "news",
-     "seen_at": "2026-11-22T21:54:43-05:00"
-    }
-   ],
-   "language": "es",
-   "translated": false,
-   "extraction": {
-    "method": "heuristica",
-    "relevance": 1.0,
-    "model": null
-   },
-   "discovered_at": "2026-11-22T21:54:43-05:00",
-   "updated_at": "2026-11-22T21:54:43-05:00",
-   "last_verified": "2026-11-22T21:54:43-05:00",
-   "last_seen": "2026-11-22T21:54:43-05:00",
-   "history": [],
-   "priority": {
-    "score": 49,
-    "level": "media",
-    "breakdown": {
-     "valor": {
-      "points": 5,
-      "max": 25,
-      "note": "descuento sobre compra"
-     },
-     "gratuidad": {
-      "points": 4,
-      "max": 25,
-      "note": "requiere_compra"
-     },
-     "facilidad": {
-      "points": 14,
-      "max": 15,
-      "note": "pocos requisitos"
-     },
-     "vigencia": {
-      "points": 9,
-      "max": 10,
-      "note": "vence en 0 día(s): revisar ya"
-     },
-     "cobertura": {
-      "points": 10,
-      "max": 10,
-      "note": "bogota"
-     },
-     "credibilidad": {
-      "points": 6,
-      "max": 10,
-      "note": "pendiente"
-     },
-     "claridad": {
-      "points": 1,
-      "max": 5,
-      "note": "sin términos enlazados"
-     }
-    }
-   }
-  },
-  {
    "id": "op_0868d66c4ef5",
    "title": "Gánate la pinta pa’ tu bendi",
    "summary": "¡Gánate una pinta Nequi para tu mascota! Sigue a @Nequi_ y comenta el post con su foto, nombre y talla. (",
@@ -16215,7 +15896,7 @@
    "discovered_at": "2026-11-18T16:18:43-05:00",
    "updated_at": "2026-11-18T16:18:43-05:00",
    "last_verified": "2026-11-22T15:50:11-05:00",
-   "last_seen": "2026-11-22T21:54:42-05:00",
+   "last_seen": "2026-11-23T09:51:36-05:00",
    "history": [],
    "priority": {
     "score": 49,
@@ -16239,7 +15920,7 @@
      "vigencia": {
       "points": 9,
       "max": 10,
-      "note": "vence en 3 día(s): revisar ya"
+      "note": "vence en 2 día(s): revisar ya"
      },
      "cobertura": {
       "points": 10,
@@ -16631,7 +16312,7 @@
     "reasons": [
      "Organizador no identificado con certeza."
     ],
-    "checked_at": "2026-11-22T07:43:11-05:00",
+    "checked_at": "2026-11-23T09:52:07-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -16666,7 +16347,7 @@
    },
    "discovered_at": "2026-11-20T08:04:54-05:00",
    "updated_at": "2026-11-20T08:04:54-05:00",
-   "last_verified": "2026-11-22T07:43:11-05:00",
+   "last_verified": "2026-11-23T09:52:07-05:00",
    "last_seen": "2026-11-22T21:54:42-05:00",
    "history": [],
    "priority": {
@@ -16691,7 +16372,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (14 días restantes)"
+      "note": "vigente (13 días restantes)"
      },
      "cobertura": {
       "points": 6,
@@ -16849,7 +16530,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (8 días restantes)"
+      "note": "vigente (7 días restantes)"
      },
      "cobertura": {
       "points": 6,
@@ -17545,7 +17226,7 @@
      "Tiene términos y condiciones consultables.",
      "Información insuficiente: sin organizador identificado, fechas ni enlace oficial."
     ],
-    "checked_at": "2026-11-21T21:20:05-05:00",
+    "checked_at": "2026-11-23T09:51:50-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": true,
@@ -17580,7 +17261,7 @@
    },
    "discovered_at": "2026-11-18T16:19:11-05:00",
    "updated_at": "2026-11-18T16:19:11-05:00",
-   "last_verified": "2026-11-21T21:20:05-05:00",
+   "last_verified": "2026-11-23T09:51:50-05:00",
    "last_seen": "2026-11-18T21:46:59-05:00",
    "history": [],
    "priority": {
@@ -17936,165 +17617,6 @@
    }
   },
   {
-   "id": "op_41cb0c2637ab",
-   "title": "¿Cómo ganar dinero en redes sociales? Esto debe saber si quiere monetizar sus contenidos",
-   "summary": "Las ganancias dependen de las visualizaciones, la interacción con la audiencia, las herramientas de cada plataforma y los acuerdos comerciales.",
-   "section": "ofertas",
-   "category": "otras_ofertas",
-   "tags": [
-    "Dinero en efectivo"
-   ],
-   "mechanics": [],
-   "kind": "Oferta",
-   "organizer": {
-    "name": "Organizador no identificado",
-    "type": "desconocido",
-    "domain": null,
-    "known": false
-   },
-   "prize": {
-    "description": null,
-    "value_cop": null,
-    "value_text": null,
-    "value_source": null,
-    "winners": null,
-    "odds_text": null
-   },
-   "cost": {
-    "type": "requiere_compra",
-    "label": "Requiere compra",
-    "free": false,
-    "certainty": "inferido",
-    "requires_purchase": null,
-    "requires_registration": false,
-    "requires_social": false,
-    "requires_activity": false,
-    "requires_subscription": false,
-    "requires_deposit": false,
-    "purchase_threshold_text": null,
-    "notes": [
-     "Es una oferta comercial: el beneficio aplica sobre una compra."
-    ]
-   },
-   "eligibility": {
-    "who": null,
-    "min_age": null,
-    "age_text": null,
-    "coverage": "regional",
-    "cities": []
-   },
-   "requirements": [
-    "Sin embargo, tener una cuenta con miles de seguidores no significa que la plataforma vaya a pagar automáticamente por cada publicación.",
-    "Los requisitos pueden incluir condiciones relacionadas con la edad, el país, el número de seguidores, las visualizaciones y el cumplimiento de las normas de la comunidad.",
-    "En todos los casos, las herramientas y los requisitos pueden cambiar.",
-    "También influyen el tema del contenido, la ubicación de la audiencia, el formato de las publicaciones, la capacidad de mantener una comunidad y la calidad de las campañas comerciales.",
-    "No genera los mismos resultados un video de entretenimiento dirigido a una audiencia amplia que un contenido especializado para personas interesadas en tecnología, finanzas o educación.",
-    "Por eso, antes de buscar ingresos, es recomendable definir una temática, identificar el público al que se quiere llegar, mantener una frecuencia de publicación y revisar las estadísticas de cada cuenta."
-   ],
-   "documents": [],
-   "steps": [],
-   "steps_source": null,
-   "dates": {
-    "published": "Dom, 22/11/2026 - 11:15",
-    "start": null,
-    "end": "2026-11-22",
-    "draw": null
-   },
-   "status": "activa",
-   "gov": null,
-   "offer": {
-    "discount_pct": null,
-    "original_price": null,
-    "promo_price": null,
-    "code": null,
-    "pct_verified": false
-   },
-   "verification": {
-    "status": "pendiente",
-    "reasons": [
-     "Organizador no identificado con certeza."
-    ],
-    "checked_at": "2026-11-22T15:49:46-05:00",
-    "link_ok": null,
-    "official_domain": false,
-    "terms_found": false,
-    "link_failures": 0
-   },
-   "risk": {
-    "level": "bajo",
-    "flags": [],
-    "sensitive_data_warning": false
-   },
-   "urls": {
-    "source": "https://laopinion.co/tecnologia/como-ganar-dinero-en-redes-sociales-esto-debe-saber-si-quiere-monetizar-sus-contenidos",
-    "participate": null,
-    "terms": null,
-    "official": null,
-    "image": "https://media.laopinion.co/sites/default/files/2026-07/redes-sociales1.jpg"
-   },
-   "sources": [
-    {
-     "url": "https://laopinion.co/tecnologia/como-ganar-dinero-en-redes-sociales-esto-debe-saber-si-quiere-monetizar-sus-contenidos",
-     "name": "La Opinión Cúcuta (feed)",
-     "type": "news",
-     "seen_at": "2026-11-22T15:49:46-05:00"
-    }
-   ],
-   "language": "es",
-   "translated": false,
-   "extraction": {
-    "method": "heuristica",
-    "relevance": 0.85,
-    "model": null
-   },
-   "discovered_at": "2026-11-22T15:49:46-05:00",
-   "updated_at": "2026-11-22T15:49:46-05:00",
-   "last_verified": "2026-11-22T15:49:46-05:00",
-   "last_seen": "2026-11-22T15:49:46-05:00",
-   "history": [],
-   "priority": {
-    "score": 42,
-    "level": "baja",
-    "breakdown": {
-     "valor": {
-      "points": 5,
-      "max": 25,
-      "note": "descuento sobre compra"
-     },
-     "gratuidad": {
-      "points": 4,
-      "max": 25,
-      "note": "requiere_compra"
-     },
-     "facilidad": {
-      "points": 12,
-      "max": 15,
-      "note": "pocos requisitos"
-     },
-     "vigencia": {
-      "points": 9,
-      "max": 10,
-      "note": "vence en 0 día(s): revisar ya"
-     },
-     "cobertura": {
-      "points": 5,
-      "max": 10,
-      "note": "regional"
-     },
-     "credibilidad": {
-      "points": 6,
-      "max": 10,
-      "note": "pendiente"
-     },
-     "claridad": {
-      "points": 1,
-      "max": 5,
-      "note": "sin términos enlazados"
-     }
-    }
-   }
-  },
-  {
    "id": "op_7e5f3417f65a",
    "title": "Estos son los subsidios disponibles en Expovivienda 2026 en Bogotá; así puede inscribirse",
    "summary": "Este fin de semana en Bogotá se lleva a cabo el ‘Black Friday’ de la vivienda y allí podrá encontrar los subsidios que otorga el Distrito.",
@@ -18204,7 +17726,7 @@
    "discovered_at": "2026-11-21T15:41:34-05:00",
    "updated_at": "2026-11-21T15:41:34-05:00",
    "last_verified": "2026-11-22T15:49:50-05:00",
-   "last_seen": "2026-11-22T15:49:45-05:00",
+   "last_seen": "2026-11-23T09:51:36-05:00",
    "history": [],
    "priority": {
     "score": 40,
@@ -18314,7 +17836,7 @@
     "reasons": [
      "Información insuficiente: sin organizador identificado, fechas ni enlace oficial."
     ],
-    "checked_at": "2026-11-22T07:43:12-05:00",
+    "checked_at": "2026-11-23T09:52:09-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -18349,8 +17871,8 @@
    },
    "discovered_at": "2026-11-20T08:04:54-05:00",
    "updated_at": "2026-11-20T08:04:54-05:00",
-   "last_verified": "2026-11-22T07:43:12-05:00",
-   "last_seen": "2026-11-22T21:54:42-05:00",
+   "last_verified": "2026-11-23T09:52:09-05:00",
+   "last_seen": "2026-11-23T09:51:36-05:00",
    "history": [],
    "priority": {
     "score": 39,
@@ -18822,7 +18344,7 @@
    "discovered_at": "2026-11-22T15:49:46-05:00",
    "updated_at": "2026-11-22T15:49:46-05:00",
    "last_verified": "2026-11-22T15:49:46-05:00",
-   "last_seen": "2026-11-22T21:54:42-05:00",
+   "last_seen": "2026-11-23T09:51:36-05:00",
    "history": [],
    "priority": {
     "score": 34,
@@ -18939,7 +18461,7 @@
     "reasons": [
      "Información insuficiente: sin organizador identificado, fechas ni enlace oficial."
     ],
-    "checked_at": "2026-11-21T21:20:06-05:00",
+    "checked_at": "2026-11-23T09:51:50-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -18974,7 +18496,7 @@
    },
    "discovered_at": "2026-11-18T16:19:12-05:00",
    "updated_at": "2026-11-18T16:19:12-05:00",
-   "last_verified": "2026-11-21T21:20:06-05:00",
+   "last_verified": "2026-11-23T09:51:50-05:00",
    "last_seen": "2026-11-22T21:54:42-05:00",
    "history": [],
    "priority": {
@@ -19010,6 +18532,177 @@
       "points": 2,
       "max": 10,
       "note": "no_verificable"
+     },
+     "claridad": {
+      "points": 1,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
+   "id": "op_f0ac37e4c688",
+   "title": "Black Friday 2026 en Colombia: moda, tecnología y viajes lideran las ofertas, pero crece el riesgo de endeudamiento",
+   "summary": "Black Friday 2026 moviliza compras de moda y tecnología en Colombia con vuelos desde $50.000 y advertencias por deuda y fallas en los pagos digitales.",
+   "section": "ofertas",
+   "category": "of_tecnologia",
+   "tags": [
+    "Ciencia e innovación",
+    "Computadores",
+    "Dinero en efectivo",
+    "Ropa y calzado",
+    "Tecnología",
+    "Televisores"
+   ],
+   "mechanics": [],
+   "kind": "Oferta",
+   "organizer": {
+    "name": "Amazon",
+    "type": "comercio",
+    "domain": "amazon.com",
+    "known": true
+   },
+   "prize": {
+    "description": null,
+    "value_cop": null,
+    "value_text": null,
+    "value_source": null,
+    "winners": null,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "requiere_compra",
+    "label": "Requiere compra",
+    "free": false,
+    "certainty": "explicito",
+    "requires_purchase": true,
+    "requires_registration": false,
+    "requires_social": false,
+    "requires_activity": false,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": "$50.000",
+    "notes": [
+     "La fuente indica condición de compra: «descuentos de hasta el 75%».",
+     "Monto mínimo mencionado: $50.000."
+    ]
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": null,
+    "age_text": null,
+    "coverage": "bogota",
+    "cities": [
+     "Bogotá"
+    ]
+   },
+   "requirements": [
+    "es la infraestructura digital la que debe permitir que se completen” , afirmó Danilo Fernandes , vicepresidente y CCO de B2B para América Latina de Liberty Networks.",
+    "los hogares deberán evaluar si los descuentos representan un ahorro real, mientras los comercios deberán garantizar que sus sistemas permitan completar las transacciones sin interrupciones."
+   ],
+   "documents": [],
+   "steps": [],
+   "steps_source": null,
+   "dates": {
+    "published": "2026-11-20T10:53:23-05:00",
+    "start": null,
+    "end": "2026-11-22",
+    "draw": null
+   },
+   "status": "vencida",
+   "gov": null,
+   "offer": {
+    "discount_pct": null,
+    "original_price": null,
+    "promo_price": null,
+    "code": null,
+    "pct_verified": false
+   },
+   "verification": {
+    "status": "vencida",
+    "reasons": [
+     "Falta confirmar condiciones en la página oficial."
+    ],
+    "checked_at": "2026-11-22T21:54:43-05:00",
+    "link_ok": null,
+    "official_domain": false,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://revistaclevel.com/black-friday-2026-en-colombia-moda-tecnologia-y-viajes-lideran-las-ofertas-pero-crece-el-riesgo-de",
+    "participate": null,
+    "terms": null,
+    "official": null,
+    "image": "https://revistaclevel.com/sites/default/files/styles/image_sc_cx_1200x630/public/fotos%20c-level%20%2870%29_5.png?itok=Yj7hV8uq"
+   },
+   "sources": [
+    {
+     "url": "https://revistaclevel.com/black-friday-2026-en-colombia-moda-tecnologia-y-viajes-lideran-las-ofertas-pero-crece-el-riesgo-de",
+     "name": "Noticias · Black Friday Colombia",
+     "type": "news",
+     "seen_at": "2026-11-22T21:54:43-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 1.0,
+    "model": null
+   },
+   "discovered_at": "2026-11-22T21:54:43-05:00",
+   "updated_at": "2026-11-22T21:54:43-05:00",
+   "last_verified": "2026-11-22T21:54:43-05:00",
+   "last_seen": "2026-11-22T21:54:43-05:00",
+   "history": [
+    {
+     "at": "2026-11-23T09:52:12-05:00",
+     "field": "status",
+     "label": "Estado",
+     "from": "activa",
+     "to": "vencida"
+    }
+   ],
+   "priority": {
+    "score": 10,
+    "level": "baja",
+    "breakdown": {
+     "valor": {
+      "points": 5,
+      "max": 25,
+      "note": "descuento sobre compra"
+     },
+     "gratuidad": {
+      "points": 4,
+      "max": 25,
+      "note": "requiere_compra"
+     },
+     "facilidad": {
+      "points": 14,
+      "max": 15,
+      "note": "pocos requisitos"
+     },
+     "vigencia": {
+      "points": 0,
+      "max": 10,
+      "note": "terminada"
+     },
+     "cobertura": {
+      "points": 10,
+      "max": 10,
+      "note": "bogota"
+     },
+     "credibilidad": {
+      "points": 0,
+      "max": 10,
+      "note": "vencida"
      },
      "claridad": {
       "points": 1,
@@ -19177,6 +18870,170 @@
    }
   },
   {
+   "id": "op_b7818f30d372",
+   "title": "Feria de vivienda en Cali ofrece subsidios para familias afectadas por el terremoto del 10 de agosto",
+   "summary": "La feria de vivienda en Cali ofrece subsidios de hasta 50 millones para familias damnificadas por el terremoto del 10 de agosto.",
+   "section": "estado",
+   "category": "vivienda",
+   "tags": [
+    "Vivienda"
+   ],
+   "mechanics": [],
+   "kind": "Programa público",
+   "organizer": {
+    "name": "Organizador no identificado",
+    "type": "desconocido",
+    "domain": null,
+    "known": false
+   },
+   "prize": {
+    "description": null,
+    "value_cop": 50000000,
+    "value_text": "50 millones de pesos",
+    "value_source": "noticia",
+    "winners": null,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "requiere_compra",
+    "label": "Requiere compra",
+    "free": false,
+    "certainty": "explicito",
+    "requires_purchase": true,
+    "requires_registration": true,
+    "requires_social": true,
+    "requires_activity": true,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": null,
+    "notes": [
+     "La fuente indica condición de compra: «descuentos de hasta 40 %»."
+    ]
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": null,
+    "age_text": null,
+    "coverage": "nacional",
+    "cities": [
+     "Cali"
+    ]
+   },
+   "requirements": [
+    "Los requisitos comprenden la presentación de un certificado de la Unidad Nacional para la Gestión del Riesgo de Desastres (UNGRD) en el que se documente el colapso o riesgo de demolición de la vivienda;",
+    "acreditar mínimo cinco años de residencia en Cali y contar con el cierre financiero que cubra el monto restante para la adquisición de la vivienda."
+   ],
+   "documents": [
+    "Registro civil"
+   ],
+   "steps": [],
+   "steps_source": null,
+   "dates": {
+    "published": "2026-11-19T12:26:11-05:00",
+    "start": "2026-08-10",
+    "end": "2026-11-22",
+    "draw": null
+   },
+   "status": "vencida",
+   "gov": {
+    "program_status": "cerrada",
+    "entity": "Organizador no identificado"
+   },
+   "offer": null,
+   "verification": {
+    "status": "vencida",
+    "reasons": [
+     "Organizador no identificado con certeza."
+    ],
+    "checked_at": "2026-11-22T15:49:59-05:00",
+    "link_ok": true,
+    "official_domain": false,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://www.pulzo.com/economia/vivienda/subsidios-de-vivienda-en-cali-como-acceder-a-la-feria-te-completamos-para-tu-casa-tras-el-sismo-PP5359514A",
+    "participate": null,
+    "terms": null,
+    "official": null,
+    "image": "https://d2yoo3qu6vrk5d.cloudfront.net/pulzo-lite/images-resized/PP5359514A-h-o.jpg"
+   },
+   "sources": [
+    {
+     "url": "https://www.pulzo.com/economia/vivienda/subsidios-de-vivienda-en-cali-como-acceder-a-la-feria-te-completamos-para-tu-casa-tras-el-sismo-PP5359514A",
+     "name": "Noticias · subsidios de vivienda",
+     "type": "news",
+     "seen_at": "2026-11-20T16:55:53-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 0.93,
+    "model": null
+   },
+   "discovered_at": "2026-11-20T16:55:53-05:00",
+   "updated_at": "2026-11-20T16:55:53-05:00",
+   "last_verified": "2026-11-22T15:49:59-05:00",
+   "last_seen": "2026-11-23T09:51:36-05:00",
+   "history": [
+    {
+     "at": "2026-11-23T09:52:12-05:00",
+     "field": "status",
+     "label": "Estado",
+     "from": "activa",
+     "to": "vencida"
+    }
+   ],
+   "priority": {
+    "score": 10,
+    "level": "baja",
+    "breakdown": {
+     "valor": {
+      "points": 16,
+      "max": 25,
+      "note": "valor publicado 50.000.000 COP"
+     },
+     "gratuidad": {
+      "points": 4,
+      "max": 25,
+      "note": "requiere_compra"
+     },
+     "facilidad": {
+      "points": 7,
+      "max": 15,
+      "note": "registro, actividad, redes sociales"
+     },
+     "vigencia": {
+      "points": 0,
+      "max": 10,
+      "note": "terminada"
+     },
+     "cobertura": {
+      "points": 10,
+      "max": 10,
+      "note": "nacional"
+     },
+     "credibilidad": {
+      "points": 0,
+      "max": 10,
+      "note": "vencida"
+     },
+     "claridad": {
+      "points": 1,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
    "id": "op_a26a6332e228",
    "title": "Misión gta: conquista el mejor puntaje",
    "summary": "Combustibles líquidos, aceites lubricantes, gas natural vehicular, etc. Ofrecemos variadas opciones para el consumo de combustible.",
@@ -19293,7 +19150,7 @@
    "discovered_at": "2026-11-18T16:18:55-05:00",
    "updated_at": "2026-11-18T16:18:55-05:00",
    "last_verified": "2026-11-19T17:17:31-05:00",
-   "last_seen": "2026-11-22T21:54:42-05:00",
+   "last_seen": "2026-11-23T09:51:36-05:00",
    "history": [
     {
      "at": "2026-11-20T08:04:57-05:00",
@@ -19802,6 +19659,173 @@
       "points": 11,
       "max": 15,
       "note": "registro"
+     },
+     "vigencia": {
+      "points": 0,
+      "max": 10,
+      "note": "terminada"
+     },
+     "cobertura": {
+      "points": 5,
+      "max": 10,
+      "note": "regional"
+     },
+     "credibilidad": {
+      "points": 0,
+      "max": 10,
+      "note": "vencida"
+     },
+     "claridad": {
+      "points": 1,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
+   "id": "op_41cb0c2637ab",
+   "title": "¿Cómo ganar dinero en redes sociales? Esto debe saber si quiere monetizar sus contenidos",
+   "summary": "Las ganancias dependen de las visualizaciones, la interacción con la audiencia, las herramientas de cada plataforma y los acuerdos comerciales.",
+   "section": "ofertas",
+   "category": "otras_ofertas",
+   "tags": [
+    "Dinero en efectivo"
+   ],
+   "mechanics": [],
+   "kind": "Oferta",
+   "organizer": {
+    "name": "Organizador no identificado",
+    "type": "desconocido",
+    "domain": null,
+    "known": false
+   },
+   "prize": {
+    "description": null,
+    "value_cop": null,
+    "value_text": null,
+    "value_source": null,
+    "winners": null,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "requiere_compra",
+    "label": "Requiere compra",
+    "free": false,
+    "certainty": "inferido",
+    "requires_purchase": null,
+    "requires_registration": false,
+    "requires_social": false,
+    "requires_activity": false,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": null,
+    "notes": [
+     "Es una oferta comercial: el beneficio aplica sobre una compra."
+    ]
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": null,
+    "age_text": null,
+    "coverage": "regional",
+    "cities": []
+   },
+   "requirements": [
+    "Sin embargo, tener una cuenta con miles de seguidores no significa que la plataforma vaya a pagar automáticamente por cada publicación.",
+    "Los requisitos pueden incluir condiciones relacionadas con la edad, el país, el número de seguidores, las visualizaciones y el cumplimiento de las normas de la comunidad.",
+    "En todos los casos, las herramientas y los requisitos pueden cambiar.",
+    "También influyen el tema del contenido, la ubicación de la audiencia, el formato de las publicaciones, la capacidad de mantener una comunidad y la calidad de las campañas comerciales.",
+    "No genera los mismos resultados un video de entretenimiento dirigido a una audiencia amplia que un contenido especializado para personas interesadas en tecnología, finanzas o educación.",
+    "Por eso, antes de buscar ingresos, es recomendable definir una temática, identificar el público al que se quiere llegar, mantener una frecuencia de publicación y revisar las estadísticas de cada cuenta."
+   ],
+   "documents": [],
+   "steps": [],
+   "steps_source": null,
+   "dates": {
+    "published": "Dom, 22/11/2026 - 11:15",
+    "start": null,
+    "end": "2026-11-22",
+    "draw": null
+   },
+   "status": "vencida",
+   "gov": null,
+   "offer": {
+    "discount_pct": null,
+    "original_price": null,
+    "promo_price": null,
+    "code": null,
+    "pct_verified": false
+   },
+   "verification": {
+    "status": "vencida",
+    "reasons": [
+     "Organizador no identificado con certeza."
+    ],
+    "checked_at": "2026-11-22T15:49:46-05:00",
+    "link_ok": null,
+    "official_domain": false,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://laopinion.co/tecnologia/como-ganar-dinero-en-redes-sociales-esto-debe-saber-si-quiere-monetizar-sus-contenidos",
+    "participate": null,
+    "terms": null,
+    "official": null,
+    "image": "https://media.laopinion.co/sites/default/files/2026-07/redes-sociales1.jpg"
+   },
+   "sources": [
+    {
+     "url": "https://laopinion.co/tecnologia/como-ganar-dinero-en-redes-sociales-esto-debe-saber-si-quiere-monetizar-sus-contenidos",
+     "name": "La Opinión Cúcuta (feed)",
+     "type": "news",
+     "seen_at": "2026-11-22T15:49:46-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 0.85,
+    "model": null
+   },
+   "discovered_at": "2026-11-22T15:49:46-05:00",
+   "updated_at": "2026-11-22T15:49:46-05:00",
+   "last_verified": "2026-11-22T15:49:46-05:00",
+   "last_seen": "2026-11-22T15:49:46-05:00",
+   "history": [
+    {
+     "at": "2026-11-23T09:52:12-05:00",
+     "field": "status",
+     "label": "Estado",
+     "from": "activa",
+     "to": "vencida"
+    }
+   ],
+   "priority": {
+    "score": 10,
+    "level": "baja",
+    "breakdown": {
+     "valor": {
+      "points": 5,
+      "max": 25,
+      "note": "descuento sobre compra"
+     },
+     "gratuidad": {
+      "points": 4,
+      "max": 25,
+      "note": "requiere_compra"
+     },
+     "facilidad": {
+      "points": 12,
+      "max": 15,
+      "note": "pocos requisitos"
      },
      "vigencia": {
       "points": 0,

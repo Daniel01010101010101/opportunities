@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T21:55:15-05:00",
+ "generated_at": "2026-11-23T09:52:12-05:00",
  "changes": [
   {
    "at": "2026-11-18T17:21:56-05:00",
@@ -135,6 +135,33 @@
    "to": "vencida",
    "id": "op_f9d7e7bc59e2",
    "title": "‘Pitbullmanía’ reunirá en Bogotá a perros de manejo especial que esperan una familia: así puede participar en el proceso de adopción"
+  },
+  {
+   "at": "2026-11-23T09:52:12-05:00",
+   "field": "status",
+   "label": "Estado",
+   "from": "activa",
+   "to": "vencida",
+   "id": "op_b7818f30d372",
+   "title": "Feria de vivienda en Cali ofrece subsidios para familias afectadas por el terremoto del 10 de agosto"
+  },
+  {
+   "at": "2026-11-23T09:52:12-05:00",
+   "field": "status",
+   "label": "Estado",
+   "from": "activa",
+   "to": "vencida",
+   "id": "op_f0ac37e4c688",
+   "title": "Black Friday 2026 en Colombia: moda, tecnología y viajes lideran las ofertas, pero crece el riesgo de endeudamiento"
+  },
+  {
+   "at": "2026-11-23T09:52:12-05:00",
+   "field": "status",
+   "label": "Estado",
+   "from": "activa",
+   "to": "vencida",
+   "id": "op_41cb0c2637ab",
+   "title": "¿Cómo ganar dinero en redes sociales? Esto debe saber si quiere monetizar sus contenidos"
   }
  ]
 }
