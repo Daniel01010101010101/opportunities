@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T22:00:58-05:00",
+ "generated_at": "2026-11-24T10:01:32-05:00",
  "changes": [
   {
    "at": "2026-11-18T17:21:56-05:00",
@@ -162,6 +162,24 @@
    "to": "vencida",
    "id": "op_41cb0c2637ab",
    "title": "¿Cómo ganar dinero en redes sociales? Esto debe saber si quiere monetizar sus contenidos"
+  },
+  {
+   "at": "2026-11-24T10:01:32-05:00",
+   "field": "status",
+   "label": "Estado",
+   "from": "proxima",
+   "to": "activa",
+   "id": "op_5a207b776eec",
+   "title": "Bogotá abrió 180 becas-crédito para estudios superiores en la ciudad hasta el 24 de noviembre de 2026: paso a paso para postularse"
+  },
+  {
+   "at": "2026-11-24T10:01:32-05:00",
+   "field": "status",
+   "label": "Estado",
+   "from": "proxima",
+   "to": "activa",
+   "id": "op_2623749824ba",
+   "title": "Bogotá abre convocatoria 2026 del programa FEST Atenea con becas-crédito condonables para educación superior"
   }
  ]
 }

@@ -1,59 +1,59 @@
 {
  "engine_version": "1.0.0",
- "generated_at": "2026-11-23T22:00:58-05:00",
+ "generated_at": "2026-11-24T10:01:32-05:00",
  "timezone": "America/Bogota",
  "schedule": {
   "cron_utc": "17 */2 * * *",
   "description": "Cada 2 horas, minuto 17 (horas impares en Bogotá)",
-  "next_run_at": "2026-11-23T23:17:00-05:00"
+  "next_run_at": "2026-11-24T11:17:00-05:00"
  },
  "last_run": {
-  "id": "20261123-215617",
-  "started_at": "2026-11-23T21:56:17-05:00",
-  "finished_at": "2026-11-23T22:00:58-05:00",
-  "duration_s": 280.2,
+  "id": "20261124-095636",
+  "started_at": "2026-11-24T09:56:36-05:00",
+  "finished_at": "2026-11-24T10:01:32-05:00",
+  "duration_s": 295.5,
   "status": "parcial",
   "trigger": "schedule",
-  "new": 3,
+  "new": 1,
   "updated": 0,
-  "discarded": 29,
+  "discarded": 33,
   "sources_checked": 98,
-  "sources_ok": 91,
-  "run_url": "https://github.com/Daniel01010101010101/opportunities/actions/runs/45315921462"
+  "sources_ok": 90,
+  "run_url": "https://github.com/Daniel01010101010101/opportunities/actions/runs/45419672594"
  },
- "last_success_at": "2026-11-23T22:00:58-05:00",
- "last_new_opportunity_at": "2026-11-23T22:00:24-05:00",
+ "last_success_at": "2026-11-24T10:01:32-05:00",
+ "last_new_opportunity_at": "2026-11-24T10:01:00-05:00",
  "sources": {
   "configured": 219,
   "checked_last_run": 98,
-  "ok_last_run": 91,
+  "ok_last_run": 90,
   "failed_last_run": 2,
   "discovered": 6,
-  "with_errors": 4
+  "with_errors": 3
  },
  "counts": {
-  "total": 130,
-  "active": 121,
-  "new_24h": 3,
+  "total": 131,
+  "active": 122,
+  "new_24h": 4,
   "verified": 36,
-  "pending": 63,
+  "pending": 64,
   "unverifiable": 22,
   "expired": 9,
   "withdrawn": 0,
   "archived": 0,
   "by_section": {
-   "concursos": 13,
+   "concursos": 14,
    "bonos": 11,
    "ofertas": 19,
    "estado": 78
   },
   "by_priority": {
    "alta": 40,
-   "media": 71,
+   "media": 72,
    "baja": 10
   },
   "free": 80,
-  "expiring_7d": 21
+  "expiring_7d": 22
  },
  "llm": {
   "enabled": false,

@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-23T22:00:58-05:00",
- "count": 130,
+ "generated_at": "2026-11-24T10:01:32-05:00",
+ "count": 131,
  "items": [
   {
    "id": "op_72402b2d44f8",
@@ -138,7 +138,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (25 días restantes)"
+      "note": "vigente (24 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -295,7 +295,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (11 días restantes)"
+      "note": "vigente (10 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -592,7 +592,7 @@
    "discovered_at": "2026-11-18T16:18:57-05:00",
    "updated_at": "2026-11-20T16:55:48-05:00",
    "last_verified": "2026-11-23T22:00:37-05:00",
-   "last_seen": "2026-11-23T22:00:22-05:00",
+   "last_seen": "2026-11-24T10:00:59-05:00",
    "history": [
     {
      "at": "2026-11-20T16:55:48-05:00",
@@ -624,7 +624,7 @@
      "vigencia": {
       "points": 9,
       "max": 10,
-      "note": "vence en 2 día(s): revisar ya"
+      "note": "vence en 1 día(s): revisar ya"
      },
      "cobertura": {
       "points": 10,
@@ -753,7 +753,7 @@
    "discovered_at": "2026-11-18T16:18:44-05:00",
    "updated_at": "2026-11-18T16:18:44-05:00",
    "last_verified": "2026-11-23T22:00:57-05:00",
-   "last_seen": "2026-11-23T22:00:22-05:00",
+   "last_seen": "2026-11-24T10:00:59-05:00",
    "history": [],
    "priority": {
     "score": 79,
@@ -874,7 +874,7 @@
      "Proviene de una fuente oficial configurada.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-22T21:54:52-05:00",
+    "checked_at": "2026-11-24T10:01:11-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -909,7 +909,7 @@
    },
    "discovered_at": "2026-11-18T16:19:00-05:00",
    "updated_at": "2026-11-18T16:19:00-05:00",
-   "last_verified": "2026-11-22T21:54:52-05:00",
+   "last_verified": "2026-11-24T10:01:11-05:00",
    "last_seen": "2026-11-19T08:25:49-05:00",
    "history": [],
    "priority": {
@@ -934,7 +934,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (52 días restantes)"
+      "note": "vigente (51 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -1068,7 +1068,7 @@
    "discovered_at": "2026-11-20T16:55:51-05:00",
    "updated_at": "2026-11-20T16:55:51-05:00",
    "last_verified": "2026-11-23T22:00:40-05:00",
-   "last_seen": "2026-11-23T22:00:22-05:00",
+   "last_seen": "2026-11-24T10:00:59-05:00",
    "history": [],
    "priority": {
     "score": 79,
@@ -1092,7 +1092,7 @@
      "vigencia": {
       "points": 9,
       "max": 10,
-      "note": "vence en 1 día(s): revisar ya"
+      "note": "vence en 0 día(s): revisar ya"
      },
      "cobertura": {
       "points": 10,
@@ -1229,7 +1229,7 @@
    "discovered_at": "2026-11-18T17:21:44-05:00",
    "updated_at": "2026-11-18T17:21:44-05:00",
    "last_verified": "2026-11-23T09:52:01-05:00",
-   "last_seen": "2026-11-23T22:00:22-05:00",
+   "last_seen": "2026-11-24T10:00:59-05:00",
    "history": [],
    "priority": {
     "score": 77,
@@ -1408,7 +1408,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (7 días restantes)"
+      "note": "vigente (6 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -1503,7 +1503,7 @@
      "Proviene de una fuente oficial configurada.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-22T21:54:53-05:00",
+    "checked_at": "2026-11-24T10:01:12-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -1538,7 +1538,7 @@
    },
    "discovered_at": "2026-11-18T16:19:02-05:00",
    "updated_at": "2026-11-18T16:19:02-05:00",
-   "last_verified": "2026-11-22T21:54:53-05:00",
+   "last_verified": "2026-11-24T10:01:12-05:00",
    "last_seen": "2026-11-19T08:25:49-05:00",
    "history": [],
    "priority": {
@@ -1563,7 +1563,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (69 días restantes)"
+      "note": "vigente (68 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -1658,7 +1658,7 @@
      "Proviene de una fuente oficial configurada.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-22T21:54:46-05:00",
+    "checked_at": "2026-11-24T10:01:05-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -1693,7 +1693,7 @@
    },
    "discovered_at": "2026-11-18T16:18:56-05:00",
    "updated_at": "2026-11-18T16:18:56-05:00",
-   "last_verified": "2026-11-22T21:54:46-05:00",
+   "last_verified": "2026-11-24T10:01:05-05:00",
    "last_seen": "2026-11-20T08:04:54-05:00",
    "history": [],
    "priority": {
@@ -1718,7 +1718,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (16 días restantes)"
+      "note": "vigente (15 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -1885,7 +1885,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (86 días restantes)"
+      "note": "vigente (85 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -2053,7 +2053,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (18 días restantes)"
+      "note": "vigente (17 días restantes)"
      },
      "cobertura": {
       "points": 5,
@@ -2224,7 +2224,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (38 días restantes)"
+      "note": "vigente (37 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -2377,7 +2377,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (84 días restantes)"
+      "note": "vigente (83 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -2467,7 +2467,7 @@
      "Proviene de una fuente oficial configurada.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-22T21:54:50-05:00",
+    "checked_at": "2026-11-24T10:01:10-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -2502,8 +2502,8 @@
    },
    "discovered_at": "2026-11-18T16:18:58-05:00",
    "updated_at": "2026-11-18T16:18:58-05:00",
-   "last_verified": "2026-11-22T21:54:50-05:00",
-   "last_seen": "2026-11-23T22:00:22-05:00",
+   "last_verified": "2026-11-24T10:01:10-05:00",
+   "last_seen": "2026-11-24T10:00:59-05:00",
    "history": [],
    "priority": {
     "score": 75,
@@ -2527,7 +2527,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (99 días restantes)"
+      "note": "vigente (98 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -2634,7 +2634,7 @@
      "Tiene términos y condiciones consultables.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-22T21:54:49-05:00",
+    "checked_at": "2026-11-24T10:01:09-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": true,
@@ -2669,8 +2669,8 @@
    },
    "discovered_at": "2026-11-18T16:18:57-05:00",
    "updated_at": "2026-11-18T16:18:57-05:00",
-   "last_verified": "2026-11-22T21:54:49-05:00",
-   "last_seen": "2026-11-23T22:00:22-05:00",
+   "last_verified": "2026-11-24T10:01:09-05:00",
+   "last_seen": "2026-11-24T10:00:59-05:00",
    "history": [],
    "priority": {
     "score": 75,
@@ -2786,7 +2786,7 @@
      "Proviene de una fuente oficial configurada.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-22T21:54:57-05:00",
+    "checked_at": "2026-11-24T10:01:17-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -2821,7 +2821,7 @@
    },
    "discovered_at": "2026-11-18T16:19:05-05:00",
    "updated_at": "2026-11-18T16:19:05-05:00",
-   "last_verified": "2026-11-22T21:54:57-05:00",
+   "last_verified": "2026-11-24T10:01:17-05:00",
    "last_seen": "2026-11-18T16:19:05-05:00",
    "history": [],
    "priority": {
@@ -2846,7 +2846,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (56 días restantes)"
+      "note": "vigente (55 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -3175,6 +3175,178 @@
    }
   },
   {
+   "id": "op_5a207b776eec",
+   "title": "Bogotá abrió 180 becas-crédito para estudios superiores en la ciudad hasta el 24 de noviembre de 2026: paso a paso para postularse",
+   "summary": "La tercera convocatoria de FEST Atenea se dirige a personas de hasta 28 años, pertenecientes a hogares de estratos 1 a 4, que comiencen o continúen formación técnica, tecnológica o universitaria",
+   "section": "estado",
+   "category": "becas",
+   "tags": [
+    "Becas y educación",
+    "Convocatorias públicas",
+    "Jóvenes"
+   ],
+   "mechanics": [],
+   "kind": "Programa público",
+   "organizer": {
+    "name": "Alcaldía de Bogotá",
+    "type": "gobierno",
+    "domain": "bogota.gov.co",
+    "known": true
+   },
+   "prize": {
+    "description": null,
+    "value_cop": null,
+    "value_text": null,
+    "value_source": null,
+    "winners": null,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "gratis_registro",
+    "label": "Gratis con registro",
+    "free": true,
+    "certainty": "inferido",
+    "requires_purchase": null,
+    "requires_registration": true,
+    "requires_social": false,
+    "requires_activity": false,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": null,
+    "notes": [
+     "No se encontró ninguna condición de compra en la fuente oficial (inferido, confírmalo en los términos)."
+    ]
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": null,
+    "age_text": null,
+    "coverage": "bogota",
+    "cities": [
+     "Bogotá",
+     "Medellín"
+    ]
+   },
+   "requirements": [
+    "Ser bachiller egresado de un colegio ubicado en Bogotá, haber validado el bachillerato ante el Icfes o estar cursando grado 11 de calendario A al cierre de la convocatoria.",
+    "Haber presentado la prueba Saber 11.",
+    "Tener 28 años o menos al 24 de noviembre de 2026.",
+    "Residir en un hogar de estratos 0, 1, 2, 3 o 4.",
+    "Estar en proceso de admisión, haber sido admitido o cursar un programa académico habilitado para esta convocatoria.",
+    "No contar con un título profesional universitario.",
+    "No tener un beneficio activo del Distrito que financie un programa de pregrado, como Jóvenes a la E, convocatorias anteriores de FEST Atenea u otros fondos distritales de educación superior."
+   ],
+   "documents": [
+    "Certificado SISBÉN"
+   ],
+   "steps": [],
+   "steps_source": null,
+   "dates": {
+    "published": "2026-11-22T17:11:05-05:00",
+    "start": "2026-11-24",
+    "end": "2026-11-24",
+    "draw": null
+   },
+   "status": "activa",
+   "gov": {
+    "program_status": "proxima",
+    "entity": "Alcaldía de Bogotá"
+   },
+   "offer": null,
+   "verification": {
+    "status": "pendiente",
+    "reasons": [
+     "Falta confirmar condiciones en la página oficial."
+    ],
+    "checked_at": "2026-11-24T10:01:02-05:00",
+    "link_ok": true,
+    "official_domain": false,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://www.infobae.com/colombia/2026/11/22/bogota-abrio-180-becas-credito-para-estudios-superiores-en-la-ciudad-hasta-el-24-de-noviembre-de-2026-paso-a-paso-para-postularse/",
+    "participate": null,
+    "terms": null,
+    "official": null,
+    "image": "https://www.infobae.com/resizer/v2/SKIR5LGLZNF7XOJWHCDHKEDBNE.jpeg?auth=5279e5f0f65b3d95dfab030c3d33cca1ac9b91d23df1df170875bef44bed6e0d&smart=true&width=1200&height=630&quality=85"
+   },
+   "sources": [
+    {
+     "url": "https://www.infobae.com/colombia/2026/11/22/bogota-abrio-180-becas-credito-para-estudios-superiores-en-la-ciudad-hasta-el-24-de-noviembre-de-2026-paso-a-paso-para-postularse/",
+     "name": "Noticias · becas Bogotá",
+     "type": "news",
+     "seen_at": "2026-11-22T21:54:42-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 1.0,
+    "model": null
+   },
+   "discovered_at": "2026-11-22T21:54:42-05:00",
+   "updated_at": "2026-11-22T21:54:42-05:00",
+   "last_verified": "2026-11-24T10:01:02-05:00",
+   "last_seen": "2026-11-23T09:51:36-05:00",
+   "history": [
+    {
+     "at": "2026-11-24T10:01:32-05:00",
+     "field": "status",
+     "label": "Estado",
+     "from": "proxima",
+     "to": "activa"
+    }
+   ],
+   "priority": {
+    "score": 74,
+    "level": "alta",
+    "breakdown": {
+     "valor": {
+      "points": 16,
+      "max": 25,
+      "note": "valor no publicado (estimado por tipo de premio)"
+     },
+     "gratuidad": {
+      "points": 22,
+      "max": 25,
+      "note": "gratis_registro"
+     },
+     "facilidad": {
+      "points": 10,
+      "max": 15,
+      "note": "registro"
+     },
+     "vigencia": {
+      "points": 9,
+      "max": 10,
+      "note": "vence en 0 día(s): revisar ya"
+     },
+     "cobertura": {
+      "points": 10,
+      "max": 10,
+      "note": "bogota"
+     },
+     "credibilidad": {
+      "points": 6,
+      "max": 10,
+      "note": "pendiente"
+     },
+     "claridad": {
+      "points": 1,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
    "id": "op_047b76583143",
    "title": "Formación SENA para empresas y trabajadores",
    "summary": "Explora las ofertas educativas disponibles en el SENA. Encuentra programas de formación técnica, tecnológica y complementaria para tu desarrollo profesional.",
@@ -3244,7 +3416,7 @@
      "Proviene de una fuente oficial configurada.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-22T21:54:47-05:00",
+    "checked_at": "2026-11-24T10:01:06-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -3279,8 +3451,8 @@
    },
    "discovered_at": "2026-11-18T16:18:54-05:00",
    "updated_at": "2026-11-18T16:18:54-05:00",
-   "last_verified": "2026-11-22T21:54:47-05:00",
-   "last_seen": "2026-11-23T22:00:22-05:00",
+   "last_verified": "2026-11-24T10:01:06-05:00",
+   "last_seen": "2026-11-24T10:00:59-05:00",
    "history": [],
    "priority": {
     "score": 74,
@@ -3394,7 +3566,7 @@
      "Proviene de una fuente oficial configurada.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-22T21:54:46-05:00",
+    "checked_at": "2026-11-24T10:01:05-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -3429,8 +3601,8 @@
    },
    "discovered_at": "2026-11-18T16:18:53-05:00",
    "updated_at": "2026-11-18T16:18:53-05:00",
-   "last_verified": "2026-11-22T21:54:46-05:00",
-   "last_seen": "2026-11-23T22:00:22-05:00",
+   "last_verified": "2026-11-24T10:01:05-05:00",
+   "last_seen": "2026-11-24T10:00:59-05:00",
    "history": [],
    "priority": {
     "score": 74,
@@ -3609,7 +3781,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (91 días restantes)"
+      "note": "vigente (90 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -3697,7 +3869,7 @@
      "Proviene de una fuente oficial configurada.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-22T21:54:45-05:00",
+    "checked_at": "2026-11-24T10:01:04-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -3738,8 +3910,8 @@
    },
    "discovered_at": "2026-11-18T16:18:46-05:00",
    "updated_at": "2026-11-18T16:18:46-05:00",
-   "last_verified": "2026-11-22T21:54:45-05:00",
-   "last_seen": "2026-11-23T22:00:22-05:00",
+   "last_verified": "2026-11-24T10:01:04-05:00",
+   "last_seen": "2026-11-24T10:00:59-05:00",
    "history": [],
    "priority": {
     "score": 73,
@@ -3863,7 +4035,7 @@
      "El enlace pertenece a un dominio oficial del organizador.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-22T21:55:08-05:00",
+    "checked_at": "2026-11-24T10:01:26-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -3898,7 +4070,7 @@
    },
    "discovered_at": "2026-11-18T16:19:09-05:00",
    "updated_at": "2026-11-18T16:19:09-05:00",
-   "last_verified": "2026-11-22T21:55:08-05:00",
+   "last_verified": "2026-11-24T10:01:26-05:00",
    "last_seen": "2026-11-23T09:51:36-05:00",
    "history": [],
    "priority": {
@@ -4028,7 +4200,7 @@
     "reasons": [
      "Organizador no identificado con certeza."
     ],
-    "checked_at": "2026-11-22T21:55:14-05:00",
+    "checked_at": "2026-11-24T10:01:32-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -4063,7 +4235,7 @@
    },
    "discovered_at": "2026-11-18T16:19:10-05:00",
    "updated_at": "2026-11-18T16:19:10-05:00",
-   "last_verified": "2026-11-22T21:55:14-05:00",
+   "last_verified": "2026-11-24T10:01:32-05:00",
    "last_seen": "2026-11-21T15:41:32-05:00",
    "history": [],
    "priority": {
@@ -4182,7 +4354,7 @@
     "reasons": [
      "Organizador no identificado con certeza."
     ],
-    "checked_at": "2026-11-22T21:55:00-05:00",
+    "checked_at": "2026-11-24T10:01:20-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -4217,7 +4389,7 @@
    },
    "discovered_at": "2026-11-18T16:19:08-05:00",
    "updated_at": "2026-11-18T16:19:08-05:00",
-   "last_verified": "2026-11-22T21:55:00-05:00",
+   "last_verified": "2026-11-24T10:01:20-05:00",
    "last_seen": "2026-11-20T08:04:54-05:00",
    "history": [],
    "priority": {
@@ -4242,7 +4414,7 @@
      "vigencia": {
       "points": 9,
       "max": 10,
-      "note": "vence en 2 día(s): revisar ya"
+      "note": "vence en 1 día(s): revisar ya"
      },
      "cobertura": {
       "points": 10,
@@ -4344,7 +4516,7 @@
      "El enlace pertenece a un dominio oficial del organizador.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-22T21:54:59-05:00",
+    "checked_at": "2026-11-24T10:01:18-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -4379,7 +4551,7 @@
    },
    "discovered_at": "2026-11-18T16:19:06-05:00",
    "updated_at": "2026-11-18T16:19:06-05:00",
-   "last_verified": "2026-11-22T21:54:59-05:00",
+   "last_verified": "2026-11-24T10:01:18-05:00",
    "last_seen": "2026-11-18T16:19:06-05:00",
    "history": [],
    "priority": {
@@ -4404,7 +4576,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (38 días restantes)"
+      "note": "vigente (37 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -4496,7 +4668,7 @@
      "Proviene de una fuente oficial configurada.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-22T21:54:48-05:00",
+    "checked_at": "2026-11-24T10:01:07-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -4537,8 +4709,8 @@
    },
    "discovered_at": "2026-11-18T16:18:49-05:00",
    "updated_at": "2026-11-18T16:18:49-05:00",
-   "last_verified": "2026-11-22T21:54:48-05:00",
-   "last_seen": "2026-11-23T22:00:22-05:00",
+   "last_verified": "2026-11-24T10:01:07-05:00",
+   "last_seen": "2026-11-24T10:00:59-05:00",
    "history": [],
    "priority": {
     "score": 72,
@@ -4654,7 +4826,7 @@
      "Proviene de una fuente oficial configurada.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-22T15:50:12-05:00",
+    "checked_at": "2026-11-24T10:01:01-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -4695,8 +4867,8 @@
    },
    "discovered_at": "2026-11-18T16:18:45-05:00",
    "updated_at": "2026-11-18T16:18:45-05:00",
-   "last_verified": "2026-11-22T15:50:12-05:00",
-   "last_seen": "2026-11-23T22:00:22-05:00",
+   "last_verified": "2026-11-24T10:01:01-05:00",
+   "last_seen": "2026-11-24T10:00:59-05:00",
    "history": [],
    "priority": {
     "score": 72,
@@ -4971,7 +5143,7 @@
     "reasons": [
      "El enlace pertenece a un dominio oficial del organizador."
     ],
-    "checked_at": "2026-11-21T21:19:49-05:00",
+    "checked_at": "2026-11-24T10:01:01-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -5012,7 +5184,7 @@
    },
    "discovered_at": "2026-11-18T16:19:08-05:00",
    "updated_at": "2026-11-18T16:19:08-05:00",
-   "last_verified": "2026-11-22T21:54:42-05:00",
+   "last_verified": "2026-11-24T10:01:01-05:00",
    "last_seen": "2026-11-22T21:54:42-05:00",
    "history": [],
    "priority": {
@@ -5048,170 +5220,6 @@
       "points": 10,
       "max": 10,
       "note": "verificada"
-     },
-     "claridad": {
-      "points": 1,
-      "max": 5,
-      "note": "sin términos enlazados"
-     }
-    }
-   }
-  },
-  {
-   "id": "op_5a207b776eec",
-   "title": "Bogotá abrió 180 becas-crédito para estudios superiores en la ciudad hasta el 24 de noviembre de 2026: paso a paso para postularse",
-   "summary": "La tercera convocatoria de FEST Atenea se dirige a personas de hasta 28 años, pertenecientes a hogares de estratos 1 a 4, que comiencen o continúen formación técnica, tecnológica o universitaria",
-   "section": "estado",
-   "category": "becas",
-   "tags": [
-    "Becas y educación",
-    "Convocatorias públicas",
-    "Jóvenes"
-   ],
-   "mechanics": [],
-   "kind": "Programa público",
-   "organizer": {
-    "name": "Alcaldía de Bogotá",
-    "type": "gobierno",
-    "domain": "bogota.gov.co",
-    "known": true
-   },
-   "prize": {
-    "description": null,
-    "value_cop": null,
-    "value_text": null,
-    "value_source": null,
-    "winners": null,
-    "odds_text": null
-   },
-   "cost": {
-    "type": "gratis_registro",
-    "label": "Gratis con registro",
-    "free": true,
-    "certainty": "inferido",
-    "requires_purchase": null,
-    "requires_registration": true,
-    "requires_social": false,
-    "requires_activity": false,
-    "requires_subscription": false,
-    "requires_deposit": false,
-    "purchase_threshold_text": null,
-    "notes": [
-     "No se encontró ninguna condición de compra en la fuente oficial (inferido, confírmalo en los términos)."
-    ]
-   },
-   "eligibility": {
-    "who": null,
-    "min_age": null,
-    "age_text": null,
-    "coverage": "bogota",
-    "cities": [
-     "Bogotá",
-     "Medellín"
-    ]
-   },
-   "requirements": [
-    "Ser bachiller egresado de un colegio ubicado en Bogotá, haber validado el bachillerato ante el Icfes o estar cursando grado 11 de calendario A al cierre de la convocatoria.",
-    "Haber presentado la prueba Saber 11.",
-    "Tener 28 años o menos al 24 de noviembre de 2026.",
-    "Residir en un hogar de estratos 0, 1, 2, 3 o 4.",
-    "Estar en proceso de admisión, haber sido admitido o cursar un programa académico habilitado para esta convocatoria.",
-    "No contar con un título profesional universitario.",
-    "No tener un beneficio activo del Distrito que financie un programa de pregrado, como Jóvenes a la E, convocatorias anteriores de FEST Atenea u otros fondos distritales de educación superior."
-   ],
-   "documents": [
-    "Certificado SISBÉN"
-   ],
-   "steps": [],
-   "steps_source": null,
-   "dates": {
-    "published": "2026-11-22T17:11:05-05:00",
-    "start": "2026-11-24",
-    "end": "2026-11-24",
-    "draw": null
-   },
-   "status": "proxima",
-   "gov": {
-    "program_status": "proxima",
-    "entity": "Alcaldía de Bogotá"
-   },
-   "offer": null,
-   "verification": {
-    "status": "pendiente",
-    "reasons": [
-     "Falta confirmar condiciones en la página oficial."
-    ],
-    "checked_at": "2026-11-22T21:54:42-05:00",
-    "link_ok": null,
-    "official_domain": false,
-    "terms_found": false,
-    "link_failures": 0
-   },
-   "risk": {
-    "level": "bajo",
-    "flags": [],
-    "sensitive_data_warning": false
-   },
-   "urls": {
-    "source": "https://www.infobae.com/colombia/2026/11/22/bogota-abrio-180-becas-credito-para-estudios-superiores-en-la-ciudad-hasta-el-24-de-noviembre-de-2026-paso-a-paso-para-postularse/",
-    "participate": null,
-    "terms": null,
-    "official": null,
-    "image": "https://www.infobae.com/resizer/v2/SKIR5LGLZNF7XOJWHCDHKEDBNE.jpeg?auth=5279e5f0f65b3d95dfab030c3d33cca1ac9b91d23df1df170875bef44bed6e0d&smart=true&width=1200&height=630&quality=85"
-   },
-   "sources": [
-    {
-     "url": "https://www.infobae.com/colombia/2026/11/22/bogota-abrio-180-becas-credito-para-estudios-superiores-en-la-ciudad-hasta-el-24-de-noviembre-de-2026-paso-a-paso-para-postularse/",
-     "name": "Noticias · becas Bogotá",
-     "type": "news",
-     "seen_at": "2026-11-22T21:54:42-05:00"
-    }
-   ],
-   "language": "es",
-   "translated": false,
-   "extraction": {
-    "method": "heuristica",
-    "relevance": 1.0,
-    "model": null
-   },
-   "discovered_at": "2026-11-22T21:54:42-05:00",
-   "updated_at": "2026-11-22T21:54:42-05:00",
-   "last_verified": "2026-11-22T21:54:42-05:00",
-   "last_seen": "2026-11-23T09:51:36-05:00",
-   "history": [],
-   "priority": {
-    "score": 71,
-    "level": "alta",
-    "breakdown": {
-     "valor": {
-      "points": 16,
-      "max": 25,
-      "note": "valor no publicado (estimado por tipo de premio)"
-     },
-     "gratuidad": {
-      "points": 22,
-      "max": 25,
-      "note": "gratis_registro"
-     },
-     "facilidad": {
-      "points": 10,
-      "max": 15,
-      "note": "registro"
-     },
-     "vigencia": {
-      "points": 6,
-      "max": 10,
-      "note": "abre próximamente"
-     },
-     "cobertura": {
-      "points": 10,
-      "max": 10,
-      "note": "bogota"
-     },
-     "credibilidad": {
-      "points": 6,
-      "max": 10,
-      "note": "pendiente"
      },
      "claridad": {
       "points": 1,
@@ -5511,7 +5519,7 @@
      "vigencia": {
       "points": 9,
       "max": 10,
-      "note": "vence en 2 día(s): revisar ya"
+      "note": "vence en 1 día(s): revisar ya"
      },
      "cobertura": {
       "points": 5,
@@ -5675,7 +5683,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (7 días restantes)"
+      "note": "vigente (6 días restantes)"
      },
      "cobertura": {
       "points": 5,
@@ -5827,7 +5835,7 @@
      "vigencia": {
       "points": 9,
       "max": 10,
-      "note": "vence en 2 día(s): revisar ya"
+      "note": "vence en 1 día(s): revisar ya"
      },
      "cobertura": {
       "points": 10,
@@ -5919,7 +5927,7 @@
      "Proviene de una fuente oficial configurada.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-22T21:54:50-05:00",
+    "checked_at": "2026-11-24T10:01:10-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -5954,7 +5962,7 @@
    },
    "discovered_at": "2026-11-18T16:18:58-05:00",
    "updated_at": "2026-11-18T16:18:58-05:00",
-   "last_verified": "2026-11-22T21:54:50-05:00",
+   "last_verified": "2026-11-24T10:01:10-05:00",
    "last_seen": "2026-11-19T08:25:49-05:00",
    "history": [],
    "priority": {
@@ -6073,7 +6081,7 @@
      "Proviene de una fuente oficial configurada.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-22T21:54:56-05:00",
+    "checked_at": "2026-11-24T10:01:16-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -6108,7 +6116,7 @@
    },
    "discovered_at": "2026-11-18T16:19:04-05:00",
    "updated_at": "2026-11-18T16:19:04-05:00",
-   "last_verified": "2026-11-22T21:54:56-05:00",
+   "last_verified": "2026-11-24T10:01:16-05:00",
    "last_seen": "2026-11-19T08:25:49-05:00",
    "history": [],
    "priority": {
@@ -6293,7 +6301,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (23 días restantes)"
+      "note": "vigente (22 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -6389,7 +6397,7 @@
      "Proviene de una fuente oficial configurada.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-22T21:54:46-05:00",
+    "checked_at": "2026-11-24T10:01:06-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -6430,8 +6438,8 @@
    },
    "discovered_at": "2026-11-18T16:18:47-05:00",
    "updated_at": "2026-11-18T16:18:47-05:00",
-   "last_verified": "2026-11-22T21:54:46-05:00",
-   "last_seen": "2026-11-23T22:00:22-05:00",
+   "last_verified": "2026-11-24T10:01:06-05:00",
+   "last_seen": "2026-11-24T10:00:59-05:00",
    "history": [],
    "priority": {
     "score": 69,
@@ -7373,7 +7381,7 @@
    "discovered_at": "2026-11-20T16:55:49-05:00",
    "updated_at": "2026-11-20T16:55:49-05:00",
    "last_verified": "2026-11-23T22:00:38-05:00",
-   "last_seen": "2026-11-23T22:00:22-05:00",
+   "last_seen": "2026-11-24T10:00:59-05:00",
    "history": [],
    "priority": {
     "score": 69,
@@ -7901,165 +7909,6 @@
    }
   },
   {
-   "id": "op_2623749824ba",
-   "title": "Bogotá abre convocatoria 2026 del programa FEST Atenea con becas-crédito condonables para educación superior",
-   "summary": "Convocatoria FEST Atenea ofrece 180 becas-crédito condonables para jóvenes de Bogotá, facilitando acceso a educación superior sin barreras financieras.",
-   "section": "estado",
-   "category": "becas",
-   "tags": [
-    "Becas y educación",
-    "Convocatorias públicas"
-   ],
-   "mechanics": [],
-   "kind": "Programa público",
-   "organizer": {
-    "name": "Bogotá",
-    "type": "desconocido",
-    "domain": null,
-    "known": false
-   },
-   "prize": {
-    "description": null,
-    "value_cop": null,
-    "value_text": null,
-    "value_source": null,
-    "winners": null,
-    "odds_text": null
-   },
-   "cost": {
-    "type": "gratis_registro",
-    "label": "Gratis con registro",
-    "free": true,
-    "certainty": "inferido",
-    "requires_purchase": null,
-    "requires_registration": true,
-    "requires_social": true,
-    "requires_activity": true,
-    "requires_subscription": false,
-    "requires_deposit": false,
-    "purchase_threshold_text": null,
-    "notes": [
-     "Pide interactuar en redes sociales (seguir, comentar o etiquetar).",
-     "No se encontró ninguna condición de compra en la fuente oficial (inferido, confírmalo en los términos)."
-    ]
-   },
-   "eligibility": {
-    "who": null,
-    "min_age": null,
-    "age_text": null,
-    "coverage": "bogota",
-    "cities": [
-     "Bogotá"
-    ]
-   },
-   "requirements": [
-    "Además, la modalidad del crédito elimina requisitos tradicionales como contar con codeudor o historial crediticio, y quienes se gradúen verán condonados todos los intereses.",
-    "Es posible obtener una condonación adicional del capital de hasta 20 % si se cumplen ciertas condiciones:",
-    "El proceso exige que los interesados gestionen su admisión directamente en las instituciones habilitadas, lo cual es un requisito previo para acceder al beneficio."
-   ],
-   "documents": [
-    "Certificado SISBÉN"
-   ],
-   "steps": [],
-   "steps_source": null,
-   "dates": {
-    "published": "2026-11-21T08:31:17-05:00",
-    "start": "2026-11-24",
-    "end": null,
-    "draw": null
-   },
-   "status": "proxima",
-   "gov": {
-    "program_status": "proxima",
-    "entity": "Bogotá"
-   },
-   "offer": null,
-   "verification": {
-    "status": "pendiente",
-    "reasons": [
-     "Organizador no identificado con certeza."
-    ],
-    "checked_at": "2026-11-23T22:00:34-05:00",
-    "link_ok": true,
-    "official_domain": false,
-    "terms_found": false,
-    "link_failures": 0
-   },
-   "risk": {
-    "level": "bajo",
-    "flags": [],
-    "sensitive_data_warning": false
-   },
-   "urls": {
-    "source": "https://www.pulzo.com/nacion/bogota/convocatoria-fest-atenea-bogota-2026-requisitos-becas-credito-y-como-inscribirse-PP5361065A",
-    "participate": null,
-    "terms": null,
-    "official": null,
-    "image": "https://d2yoo3qu6vrk5d.cloudfront.net/pulzo-lite/images-resized/PP5361065A-h-o.jpg"
-   },
-   "sources": [
-    {
-     "url": "https://www.pulzo.com/nacion/bogota/convocatoria-fest-atenea-bogota-2026-requisitos-becas-credito-y-como-inscribirse-PP5361065A",
-     "name": "Noticias · becas Bogotá",
-     "type": "news",
-     "seen_at": "2026-11-21T15:41:35-05:00"
-    }
-   ],
-   "language": "es",
-   "translated": false,
-   "extraction": {
-    "method": "heuristica",
-    "relevance": 1.0,
-    "model": null
-   },
-   "discovered_at": "2026-11-21T15:41:35-05:00",
-   "updated_at": "2026-11-21T15:41:35-05:00",
-   "last_verified": "2026-11-23T22:00:34-05:00",
-   "last_seen": "2026-11-22T21:54:42-05:00",
-   "history": [],
-   "priority": {
-    "score": 68,
-    "level": "media",
-    "breakdown": {
-     "valor": {
-      "points": 16,
-      "max": 25,
-      "note": "valor no publicado (estimado por tipo de premio)"
-     },
-     "gratuidad": {
-      "points": 22,
-      "max": 25,
-      "note": "gratis_registro"
-     },
-     "facilidad": {
-      "points": 7,
-      "max": 15,
-      "note": "registro, actividad, redes sociales"
-     },
-     "vigencia": {
-      "points": 6,
-      "max": 10,
-      "note": "abre próximamente"
-     },
-     "cobertura": {
-      "points": 10,
-      "max": 10,
-      "note": "bogota"
-     },
-     "credibilidad": {
-      "points": 6,
-      "max": 10,
-      "note": "pendiente"
-     },
-     "claridad": {
-      "points": 1,
-      "max": 5,
-      "note": "sin términos enlazados"
-     }
-    }
-   }
-  },
-  {
    "id": "op_90f7dd72bf6d",
    "title": "Cardique abre convocatoria para premiar iniciativas ambientales en Bolívar",
    "summary": "El reconocimiento ‘DiQueSí’ tendrá seis categorías y está dirigido a empresas, organizaciones sociales y comunidades con proyectos que demuestren resultados ambientales y sociales",
@@ -8132,7 +7981,7 @@
     "reasons": [
      "Organizador no identificado con certeza."
     ],
-    "checked_at": "2026-11-22T21:55:11-05:00",
+    "checked_at": "2026-11-24T10:01:30-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -8167,7 +8016,7 @@
    },
    "discovered_at": "2026-11-19T22:29:21-05:00",
    "updated_at": "2026-11-19T22:29:21-05:00",
-   "last_verified": "2026-11-22T21:55:11-05:00",
+   "last_verified": "2026-11-24T10:01:30-05:00",
    "last_seen": "2026-11-20T08:04:54-05:00",
    "history": [],
    "priority": {
@@ -8192,7 +8041,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (7 días restantes)"
+      "note": "vigente (6 días restantes)"
      },
      "cobertura": {
       "points": 5,
@@ -8285,7 +8134,7 @@
     "reasons": [
      "Organizador no identificado con certeza."
     ],
-    "checked_at": "2026-11-22T21:54:59-05:00",
+    "checked_at": "2026-11-24T10:01:19-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -8320,7 +8169,7 @@
    },
    "discovered_at": "2026-11-18T16:19:06-05:00",
    "updated_at": "2026-11-18T16:19:06-05:00",
-   "last_verified": "2026-11-22T21:54:59-05:00",
+   "last_verified": "2026-11-24T10:01:19-05:00",
    "last_seen": "2026-11-18T22:36:47-05:00",
    "history": [],
    "priority": {
@@ -8345,7 +8194,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (60 días restantes)"
+      "note": "vigente (59 días restantes)"
      },
      "cobertura": {
       "points": 6,
@@ -8470,7 +8319,7 @@
    "discovered_at": "2026-11-18T17:21:45-05:00",
    "updated_at": "2026-11-18T17:21:45-05:00",
    "last_verified": "2026-11-23T09:51:54-05:00",
-   "last_seen": "2026-11-23T22:00:22-05:00",
+   "last_seen": "2026-11-24T10:00:59-05:00",
    "history": [],
    "priority": {
     "score": 68,
@@ -8650,7 +8499,7 @@
      "vigencia": {
       "points": 9,
       "max": 10,
-      "note": "vence en 1 día(s): revisar ya"
+      "note": "vence en 0 día(s): revisar ya"
      },
      "cobertura": {
       "points": 10,
@@ -8748,7 +8597,7 @@
      "Proviene de una fuente oficial configurada.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-22T21:54:55-05:00",
+    "checked_at": "2026-11-24T10:01:13-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -8783,7 +8632,7 @@
    },
    "discovered_at": "2026-11-18T16:19:03-05:00",
    "updated_at": "2026-11-18T16:19:03-05:00",
-   "last_verified": "2026-11-22T21:54:55-05:00",
+   "last_verified": "2026-11-24T10:01:13-05:00",
    "last_seen": "2026-11-19T08:25:49-05:00",
    "history": [],
    "priority": {
@@ -8914,7 +8763,7 @@
     "reasons": [
      "Organizador no identificado con certeza."
     ],
-    "checked_at": "2026-11-22T21:55:08-05:00",
+    "checked_at": "2026-11-24T10:01:27-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -8949,7 +8798,7 @@
    },
    "discovered_at": "2026-11-18T16:19:09-05:00",
    "updated_at": "2026-11-18T16:19:09-05:00",
-   "last_verified": "2026-11-22T21:55:08-05:00",
+   "last_verified": "2026-11-24T10:01:27-05:00",
    "last_seen": "2026-11-22T21:54:42-05:00",
    "history": [],
    "priority": {
@@ -8988,6 +8837,173 @@
      },
      "claridad": {
       "points": 3,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
+   "id": "op_2623749824ba",
+   "title": "Bogotá abre convocatoria 2026 del programa FEST Atenea con becas-crédito condonables para educación superior",
+   "summary": "Convocatoria FEST Atenea ofrece 180 becas-crédito condonables para jóvenes de Bogotá, facilitando acceso a educación superior sin barreras financieras.",
+   "section": "estado",
+   "category": "becas",
+   "tags": [
+    "Becas y educación",
+    "Convocatorias públicas"
+   ],
+   "mechanics": [],
+   "kind": "Programa público",
+   "organizer": {
+    "name": "Bogotá",
+    "type": "desconocido",
+    "domain": null,
+    "known": false
+   },
+   "prize": {
+    "description": null,
+    "value_cop": null,
+    "value_text": null,
+    "value_source": null,
+    "winners": null,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "gratis_registro",
+    "label": "Gratis con registro",
+    "free": true,
+    "certainty": "inferido",
+    "requires_purchase": null,
+    "requires_registration": true,
+    "requires_social": true,
+    "requires_activity": true,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": null,
+    "notes": [
+     "Pide interactuar en redes sociales (seguir, comentar o etiquetar).",
+     "No se encontró ninguna condición de compra en la fuente oficial (inferido, confírmalo en los términos)."
+    ]
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": null,
+    "age_text": null,
+    "coverage": "bogota",
+    "cities": [
+     "Bogotá"
+    ]
+   },
+   "requirements": [
+    "Además, la modalidad del crédito elimina requisitos tradicionales como contar con codeudor o historial crediticio, y quienes se gradúen verán condonados todos los intereses.",
+    "Es posible obtener una condonación adicional del capital de hasta 20 % si se cumplen ciertas condiciones:",
+    "El proceso exige que los interesados gestionen su admisión directamente en las instituciones habilitadas, lo cual es un requisito previo para acceder al beneficio."
+   ],
+   "documents": [
+    "Certificado SISBÉN"
+   ],
+   "steps": [],
+   "steps_source": null,
+   "dates": {
+    "published": "2026-11-21T08:31:17-05:00",
+    "start": "2026-11-24",
+    "end": null,
+    "draw": null
+   },
+   "status": "activa",
+   "gov": {
+    "program_status": "proxima",
+    "entity": "Bogotá"
+   },
+   "offer": null,
+   "verification": {
+    "status": "pendiente",
+    "reasons": [
+     "Organizador no identificado con certeza."
+    ],
+    "checked_at": "2026-11-23T22:00:34-05:00",
+    "link_ok": true,
+    "official_domain": false,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://www.pulzo.com/nacion/bogota/convocatoria-fest-atenea-bogota-2026-requisitos-becas-credito-y-como-inscribirse-PP5361065A",
+    "participate": null,
+    "terms": null,
+    "official": null,
+    "image": "https://d2yoo3qu6vrk5d.cloudfront.net/pulzo-lite/images-resized/PP5361065A-h-o.jpg"
+   },
+   "sources": [
+    {
+     "url": "https://www.pulzo.com/nacion/bogota/convocatoria-fest-atenea-bogota-2026-requisitos-becas-credito-y-como-inscribirse-PP5361065A",
+     "name": "Noticias · becas Bogotá",
+     "type": "news",
+     "seen_at": "2026-11-21T15:41:35-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 1.0,
+    "model": null
+   },
+   "discovered_at": "2026-11-21T15:41:35-05:00",
+   "updated_at": "2026-11-21T15:41:35-05:00",
+   "last_verified": "2026-11-23T22:00:34-05:00",
+   "last_seen": "2026-11-22T21:54:42-05:00",
+   "history": [
+    {
+     "at": "2026-11-24T10:01:32-05:00",
+     "field": "status",
+     "label": "Estado",
+     "from": "proxima",
+     "to": "activa"
+    }
+   ],
+   "priority": {
+    "score": 67,
+    "level": "media",
+    "breakdown": {
+     "valor": {
+      "points": 16,
+      "max": 25,
+      "note": "valor no publicado (estimado por tipo de premio)"
+     },
+     "gratuidad": {
+      "points": 22,
+      "max": 25,
+      "note": "gratis_registro"
+     },
+     "facilidad": {
+      "points": 7,
+      "max": 15,
+      "note": "registro, actividad, redes sociales"
+     },
+     "vigencia": {
+      "points": 5,
+      "max": 10,
+      "note": "sin fecha límite publicada"
+     },
+     "cobertura": {
+      "points": 10,
+      "max": 10,
+      "note": "bogota"
+     },
+     "credibilidad": {
+      "points": 6,
+      "max": 10,
+      "note": "pendiente"
+     },
+     "claridad": {
+      "points": 1,
       "max": 5,
       "note": "sin términos enlazados"
      }
@@ -9064,7 +9080,7 @@
      "El enlace respondió correctamente en la última verificación.",
      "Falta confirmar condiciones en la página oficial."
     ],
-    "checked_at": "2026-11-22T21:54:47-05:00",
+    "checked_at": "2026-11-24T10:01:07-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -9099,8 +9115,8 @@
    },
    "discovered_at": "2026-11-18T16:18:52-05:00",
    "updated_at": "2026-11-18T16:18:52-05:00",
-   "last_verified": "2026-11-22T21:54:47-05:00",
-   "last_seen": "2026-11-23T22:00:22-05:00",
+   "last_verified": "2026-11-24T10:01:07-05:00",
+   "last_seen": "2026-11-24T10:00:59-05:00",
    "history": [],
    "priority": {
     "score": 67,
@@ -9304,160 +9320,6 @@
    }
   },
   {
-   "id": "op_aa508390413d",
-   "title": "Cartagena abre inscripciones para capacitar ciudadanos en políticas públicas",
-   "summary": "El curso gratuito tendrá 20 horas de formación presencial y está dirigido a organizaciones sociales",
-   "section": "estado",
-   "category": "convocatorias",
-   "tags": [
-    "Convocatorias públicas",
-    "Viajes"
-   ],
-   "mechanics": [],
-   "kind": "Programa público",
-   "organizer": {
-    "name": "Cartagena",
-    "type": "desconocido",
-    "domain": null,
-    "known": false
-   },
-   "prize": {
-    "description": null,
-    "value_cop": null,
-    "value_text": null,
-    "value_source": null,
-    "winners": null,
-    "odds_text": null
-   },
-   "cost": {
-    "type": "gratis_registro",
-    "label": "Gratis con registro",
-    "free": true,
-    "certainty": "inferido",
-    "requires_purchase": null,
-    "requires_registration": true,
-    "requires_social": false,
-    "requires_activity": false,
-    "requires_subscription": false,
-    "requires_deposit": false,
-    "purchase_threshold_text": null,
-    "notes": [
-     "No se encontró ninguna condición de compra en la fuente oficial (inferido, confírmalo en los términos)."
-    ]
-   },
-   "eligibility": {
-    "who": null,
-    "min_age": null,
-    "age_text": null,
-    "coverage": "regional",
-    "cities": [
-     "Cartagena"
-    ]
-   },
-   "requirements": [
-    "Está dirigido a integrantes de instancias de participación ciudadana, organizaciones sociales y comunitarias, así como a otros actores vinculados a estos espacios."
-   ],
-   "documents": [],
-   "steps": [],
-   "steps_source": null,
-   "dates": {
-    "published": "2026-11-19T20:17:43-05:00",
-    "start": null,
-    "end": "2026-11-27",
-    "draw": null
-   },
-   "status": "activa",
-   "gov": {
-    "program_status": "abierta",
-    "entity": "Cartagena"
-   },
-   "offer": null,
-   "verification": {
-    "status": "pendiente",
-    "reasons": [
-     "Organizador no identificado con certeza."
-    ],
-    "checked_at": "2026-11-22T21:55:10-05:00",
-    "link_ok": true,
-    "official_domain": false,
-    "terms_found": false,
-    "link_failures": 0
-   },
-   "risk": {
-    "level": "bajo",
-    "flags": [],
-    "sensitive_data_warning": false
-   },
-   "urls": {
-    "source": "https://caracol.com.co/2026/11/20/cartagena-abre-inscripciones-para-capacitar-ciudadanos-en-politicas-publicas/",
-    "participate": null,
-    "terms": null,
-    "official": null,
-    "image": "https://caracol.com.co/resizer/v2/MONF4FS5OJC6TP3FU25R7ENVWE.jpg?auth=874e29e0904833d02cc948d6eb37fa8a9079fff9bf56f3e49e4d09ba42b9c93e&quality=70&width=1200&height=675&smart=true"
-   },
-   "sources": [
-    {
-     "url": "https://caracol.com.co/2026/11/20/cartagena-abre-inscripciones-para-capacitar-ciudadanos-en-politicas-publicas/",
-     "name": "Caracol Radio (feed)",
-     "type": "news",
-     "seen_at": "2026-11-19T22:29:20-05:00"
-    }
-   ],
-   "language": "es",
-   "translated": false,
-   "extraction": {
-    "method": "heuristica",
-    "relevance": 0.81,
-    "model": null
-   },
-   "discovered_at": "2026-11-19T22:29:20-05:00",
-   "updated_at": "2026-11-19T22:29:20-05:00",
-   "last_verified": "2026-11-22T21:55:10-05:00",
-   "last_seen": "2026-11-20T08:04:54-05:00",
-   "history": [],
-   "priority": {
-    "score": 66,
-    "level": "media",
-    "breakdown": {
-     "valor": {
-      "points": 9,
-      "max": 25,
-      "note": "valor no publicado"
-     },
-     "gratuidad": {
-      "points": 22,
-      "max": 25,
-      "note": "gratis_registro"
-     },
-     "facilidad": {
-      "points": 13,
-      "max": 15,
-      "note": "registro"
-     },
-     "vigencia": {
-      "points": 10,
-      "max": 10,
-      "note": "vigente (4 días restantes)"
-     },
-     "cobertura": {
-      "points": 5,
-      "max": 10,
-      "note": "regional"
-     },
-     "credibilidad": {
-      "points": 6,
-      "max": 10,
-      "note": "pendiente"
-     },
-     "claridad": {
-      "points": 1,
-      "max": 5,
-      "note": "sin términos enlazados"
-     }
-    }
-   }
-  },
-  {
    "id": "op_842fc29d65e8",
    "title": "Requisitos para ser beneficiario del programa Renta Ciudadana: esto informa Prosperidad Social",
    "summary": "El próximo ciclo de pagos del programa se realizará entre el 13 y el 28 de noviembre.",
@@ -9531,7 +9393,7 @@
     "reasons": [
      "Falta confirmar condiciones en la página oficial."
     ],
-    "checked_at": "2026-11-22T21:55:11-05:00",
+    "checked_at": "2026-11-24T10:01:30-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -9566,7 +9428,7 @@
    },
    "discovered_at": "2026-11-18T16:19:09-05:00",
    "updated_at": "2026-11-18T16:19:09-05:00",
-   "last_verified": "2026-11-22T21:55:11-05:00",
+   "last_verified": "2026-11-24T10:01:30-05:00",
    "last_seen": "2026-11-20T08:04:54-05:00",
    "history": [],
    "priority": {
@@ -9728,7 +9590,7 @@
    "discovered_at": "2026-11-18T17:21:34-05:00",
    "updated_at": "2026-11-18T17:21:34-05:00",
    "last_verified": "2026-11-23T09:51:55-05:00",
-   "last_seen": "2026-11-23T22:00:22-05:00",
+   "last_seen": "2026-11-24T10:00:59-05:00",
    "history": [],
    "priority": {
     "score": 66,
@@ -9752,7 +9614,7 @@
      "vigencia": {
       "points": 9,
       "max": 10,
-      "note": "vence en 2 día(s): revisar ya"
+      "note": "vence en 1 día(s): revisar ya"
      },
      "cobertura": {
       "points": 5,
@@ -9766,6 +9628,160 @@
      },
      "claridad": {
       "points": 3,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
+   "id": "op_aa508390413d",
+   "title": "Cartagena abre inscripciones para capacitar ciudadanos en políticas públicas",
+   "summary": "El curso gratuito tendrá 20 horas de formación presencial y está dirigido a organizaciones sociales",
+   "section": "estado",
+   "category": "convocatorias",
+   "tags": [
+    "Convocatorias públicas",
+    "Viajes"
+   ],
+   "mechanics": [],
+   "kind": "Programa público",
+   "organizer": {
+    "name": "Cartagena",
+    "type": "desconocido",
+    "domain": null,
+    "known": false
+   },
+   "prize": {
+    "description": null,
+    "value_cop": null,
+    "value_text": null,
+    "value_source": null,
+    "winners": null,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "gratis_registro",
+    "label": "Gratis con registro",
+    "free": true,
+    "certainty": "inferido",
+    "requires_purchase": null,
+    "requires_registration": true,
+    "requires_social": false,
+    "requires_activity": false,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": null,
+    "notes": [
+     "No se encontró ninguna condición de compra en la fuente oficial (inferido, confírmalo en los términos)."
+    ]
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": null,
+    "age_text": null,
+    "coverage": "regional",
+    "cities": [
+     "Cartagena"
+    ]
+   },
+   "requirements": [
+    "Está dirigido a integrantes de instancias de participación ciudadana, organizaciones sociales y comunitarias, así como a otros actores vinculados a estos espacios."
+   ],
+   "documents": [],
+   "steps": [],
+   "steps_source": null,
+   "dates": {
+    "published": "2026-11-19T20:17:43-05:00",
+    "start": null,
+    "end": "2026-11-27",
+    "draw": null
+   },
+   "status": "activa",
+   "gov": {
+    "program_status": "abierta",
+    "entity": "Cartagena"
+   },
+   "offer": null,
+   "verification": {
+    "status": "pendiente",
+    "reasons": [
+     "Organizador no identificado con certeza."
+    ],
+    "checked_at": "2026-11-24T10:01:28-05:00",
+    "link_ok": true,
+    "official_domain": false,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://caracol.com.co/2026/11/20/cartagena-abre-inscripciones-para-capacitar-ciudadanos-en-politicas-publicas/",
+    "participate": null,
+    "terms": null,
+    "official": null,
+    "image": "https://caracol.com.co/resizer/v2/MONF4FS5OJC6TP3FU25R7ENVWE.jpg?auth=874e29e0904833d02cc948d6eb37fa8a9079fff9bf56f3e49e4d09ba42b9c93e&quality=70&width=1200&height=675&smart=true"
+   },
+   "sources": [
+    {
+     "url": "https://caracol.com.co/2026/11/20/cartagena-abre-inscripciones-para-capacitar-ciudadanos-en-politicas-publicas/",
+     "name": "Caracol Radio (feed)",
+     "type": "news",
+     "seen_at": "2026-11-19T22:29:20-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 0.81,
+    "model": null
+   },
+   "discovered_at": "2026-11-19T22:29:20-05:00",
+   "updated_at": "2026-11-19T22:29:20-05:00",
+   "last_verified": "2026-11-24T10:01:28-05:00",
+   "last_seen": "2026-11-20T08:04:54-05:00",
+   "history": [],
+   "priority": {
+    "score": 65,
+    "level": "media",
+    "breakdown": {
+     "valor": {
+      "points": 9,
+      "max": 25,
+      "note": "valor no publicado"
+     },
+     "gratuidad": {
+      "points": 22,
+      "max": 25,
+      "note": "gratis_registro"
+     },
+     "facilidad": {
+      "points": 13,
+      "max": 15,
+      "note": "registro"
+     },
+     "vigencia": {
+      "points": 9,
+      "max": 10,
+      "note": "vence en 3 día(s): revisar ya"
+     },
+     "cobertura": {
+      "points": 5,
+      "max": 10,
+      "note": "regional"
+     },
+     "credibilidad": {
+      "points": 6,
+      "max": 10,
+      "note": "pendiente"
+     },
+     "claridad": {
+      "points": 1,
       "max": 5,
       "note": "sin términos enlazados"
      }
@@ -10073,7 +10089,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (53 días restantes)"
+      "note": "vigente (52 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -10233,7 +10249,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (8 días restantes)"
+      "note": "vigente (7 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -10364,7 +10380,7 @@
    "discovered_at": "2026-11-20T16:55:46-05:00",
    "updated_at": "2026-11-20T16:55:46-05:00",
    "last_verified": "2026-11-23T22:00:36-05:00",
-   "last_seen": "2026-11-23T22:00:22-05:00",
+   "last_seen": "2026-11-24T10:00:59-05:00",
    "history": [],
    "priority": {
     "score": 64,
@@ -10388,7 +10404,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (101 días restantes)"
+      "note": "vigente (100 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -10648,7 +10664,7 @@
      "El enlace respondió correctamente en la última verificación.",
      "Falta confirmar condiciones en la página oficial."
     ],
-    "checked_at": "2026-11-22T21:55:03-05:00",
+    "checked_at": "2026-11-24T10:01:20-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -10683,7 +10699,7 @@
    },
    "discovered_at": "2026-11-18T16:19:08-05:00",
    "updated_at": "2026-11-18T16:19:08-05:00",
-   "last_verified": "2026-11-22T21:55:03-05:00",
+   "last_verified": "2026-11-24T10:01:20-05:00",
    "last_seen": "2026-11-22T21:54:42-05:00",
    "history": [
     {
@@ -10723,7 +10739,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (19 días restantes)"
+      "note": "vigente (18 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -10823,8 +10839,8 @@
     "reasons": [
      "Organizador no identificado con certeza."
     ],
-    "checked_at": "2026-11-22T21:54:43-05:00",
-    "link_ok": null,
+    "checked_at": "2026-11-24T10:01:03-05:00",
+    "link_ok": true,
     "official_domain": false,
     "terms_found": false,
     "link_failures": 0
@@ -10858,7 +10874,7 @@
    },
    "discovered_at": "2026-11-22T21:54:43-05:00",
    "updated_at": "2026-11-22T21:54:43-05:00",
-   "last_verified": "2026-11-22T21:54:43-05:00",
+   "last_verified": "2026-11-24T10:01:03-05:00",
    "last_seen": "2026-11-22T21:54:43-05:00",
    "history": [],
    "priority": {
@@ -10883,7 +10899,7 @@
      "vigencia": {
       "points": 9,
       "max": 10,
-      "note": "vence en 1 día(s): revisar ya"
+      "note": "vence en 0 día(s): revisar ya"
      },
      "cobertura": {
       "points": 10,
@@ -11123,7 +11139,7 @@
     "reasons": [
      "Información insuficiente: sin organizador identificado, fechas ni enlace oficial."
     ],
-    "checked_at": "2026-11-22T21:55:05-05:00",
+    "checked_at": "2026-11-24T10:01:22-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -11158,7 +11174,7 @@
    },
    "discovered_at": "2026-11-18T16:19:08-05:00",
    "updated_at": "2026-11-18T16:19:08-05:00",
-   "last_verified": "2026-11-22T21:55:05-05:00",
+   "last_verified": "2026-11-24T10:01:22-05:00",
    "last_seen": "2026-11-23T09:51:36-05:00",
    "history": [],
    "priority": {
@@ -11676,175 +11692,6 @@
    }
   },
   {
-   "id": "op_8449a108bd26",
-   "title": "Abierta convocatoria para Mercadito Navideño 2026 en el Centro Histórico de Cartagena",
-   "summary": "La invitación es para emprendedores locales",
-   "section": "estado",
-   "category": "convocatorias",
-   "tags": [
-    "Convocatorias públicas",
-    "Viajes"
-   ],
-   "mechanics": [],
-   "kind": "Programa público",
-   "organizer": {
-    "name": "Organizador no identificado",
-    "type": "desconocido",
-    "domain": null,
-    "known": false
-   },
-   "prize": {
-    "description": null,
-    "value_cop": null,
-    "value_text": null,
-    "value_source": null,
-    "winners": null,
-    "odds_text": null
-   },
-   "cost": {
-    "type": "gratis_registro",
-    "label": "Gratis con registro",
-    "free": true,
-    "certainty": "inferido",
-    "requires_purchase": null,
-    "requires_registration": true,
-    "requires_social": false,
-    "requires_activity": true,
-    "requires_subscription": false,
-    "requires_deposit": false,
-    "purchase_threshold_text": null,
-    "notes": [
-     "No se encontró ninguna condición de compra en la fuente oficial (inferido, confírmalo en los términos)."
-    ]
-   },
-   "eligibility": {
-    "who": null,
-    "min_age": null,
-    "age_text": null,
-    "coverage": "regional",
-    "cities": [
-     "Cartagena"
-    ]
-   },
-   "requirements": [
-    "1. Documentación de identidad: Fotocopias de la cédula del representante legal y de quien atenderá el stand.",
-    "2. RUT actualizado: Legible, con fecha de impresión 2026 y expedición no mayor a tres meses.",
-    "3. Portafolio de productos: Formato PDF con fotografías, nombre y descripción de los productos que se van a comercializar.",
-    "4. Listado de precios: Especificando nombre, presentación y valor de venta en pesos colombianos, impuestos incluidos.",
-    "5. Medios de pago obligatorios: Disponer de efectivo, transferencia bancaria, pago por código QR y datáfono (tarjetas débito/crédito).",
-    "6. Sector gastronómico (Sabores de Navidad): Certificado vigente de manipulación de alimentos o compromiso de asistir a la capacitación gratuita impartida por Corpoturismo y el Dadis."
-   ],
-   "documents": [
-    "Documento de identidad (cédula)",
-    "RUT"
-   ],
-   "steps": [
-    "Documentación de identidad: Fotocopias de la cédula del representante legal y de quien atenderá el stand.",
-    "RUT actualizado: Legible, con fecha de impresión 2026 y expedición no mayor a tres meses.",
-    "Portafolio de productos: Formato PDF con fotografías, nombre y descripción de los productos que se van a comercializar.",
-    "Listado de precios: Especificando nombre, presentación y valor de venta en pesos colombianos, impuestos incluidos.",
-    "Medios de pago obligatorios: Disponer de efectivo, transferencia bancaria, pago por código QR y datáfono (tarjetas débito/crédito).",
-    "Sector gastronómico (Sabores de Navidad): Certificado vigente de manipulación de alimentos o compromiso de asistir a la capacitación gratuita impartida por Corpoturismo y el Dadis."
-   ],
-   "steps_source": "fuente_secundaria",
-   "dates": {
-    "published": "2026-11-23T15:30:14-05:00",
-    "start": null,
-    "end": "2026-11-27",
-    "draw": null
-   },
-   "status": "activa",
-   "gov": {
-    "program_status": "abierta",
-    "entity": "Organizador no identificado"
-   },
-   "offer": null,
-   "verification": {
-    "status": "pendiente",
-    "reasons": [
-     "Organizador no identificado con certeza."
-    ],
-    "checked_at": "2026-11-23T22:00:23-05:00",
-    "link_ok": null,
-    "official_domain": false,
-    "terms_found": false,
-    "link_failures": 0
-   },
-   "risk": {
-    "level": "bajo",
-    "flags": [],
-    "sensitive_data_warning": false
-   },
-   "urls": {
-    "source": "https://caracol.com.co/2026/11/23/abierta-convocatoria-para-mercadito-navideno-2026-en-el-centro-historico-de-cartagena/",
-    "participate": null,
-    "terms": null,
-    "official": null,
-    "image": "https://caracol.com.co/resizer/v2/LRV27IPEZNA4BPAFCRJLXSKSKY.jpeg?auth=c33dcd6fb969c651b42729331cd571027c731de265af0f9457a0f1ca7c950f66&quality=70&width=1200&height=675&focal=633,395"
-   },
-   "sources": [
-    {
-     "url": "https://caracol.com.co/2026/11/23/abierta-convocatoria-para-mercadito-navideno-2026-en-el-centro-historico-de-cartagena/",
-     "name": "Caracol Radio (feed)",
-     "type": "news",
-     "seen_at": "2026-11-23T22:00:23-05:00"
-    }
-   ],
-   "language": "es",
-   "translated": false,
-   "extraction": {
-    "method": "heuristica",
-    "relevance": 0.89,
-    "model": null
-   },
-   "discovered_at": "2026-11-23T22:00:23-05:00",
-   "updated_at": "2026-11-23T22:00:23-05:00",
-   "last_verified": "2026-11-23T22:00:23-05:00",
-   "last_seen": "2026-11-23T22:00:23-05:00",
-   "history": [],
-   "priority": {
-    "score": 61,
-    "level": "media",
-    "breakdown": {
-     "valor": {
-      "points": 9,
-      "max": 25,
-      "note": "valor no publicado"
-     },
-     "gratuidad": {
-      "points": 22,
-      "max": 25,
-      "note": "gratis_registro"
-     },
-     "facilidad": {
-      "points": 6,
-      "max": 15,
-      "note": "registro, actividad"
-     },
-     "vigencia": {
-      "points": 10,
-      "max": 10,
-      "note": "vigente (4 días restantes)"
-     },
-     "cobertura": {
-      "points": 5,
-      "max": 10,
-      "note": "regional"
-     },
-     "credibilidad": {
-      "points": 6,
-      "max": 10,
-      "note": "pendiente"
-     },
-     "claridad": {
-      "points": 3,
-      "max": 5,
-      "note": "sin términos enlazados"
-     }
-    }
-   }
-  },
-  {
    "id": "op_917377fcf6c7",
    "title": "En el III Congreso de Turismo de Experiencias y Expo-Experiencias de Córdoba participarán 30 conferencistas nacionales e internacionales",
    "summary": "El encuentro reunirá en el departamento a destinos, instituciones, empresarios y expertos para compartir conocimientos y fortalecer iniciativas de turismo sostenible e inclusivo.",
@@ -12123,7 +11970,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (17 días restantes)"
+      "note": "vigente (16 días restantes)"
      },
      "cobertura": {
       "points": 5,
@@ -12137,6 +11984,175 @@
      },
      "claridad": {
       "points": 1,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
+   "id": "op_8449a108bd26",
+   "title": "Abierta convocatoria para Mercadito Navideño 2026 en el Centro Histórico de Cartagena",
+   "summary": "La invitación es para emprendedores locales",
+   "section": "estado",
+   "category": "convocatorias",
+   "tags": [
+    "Convocatorias públicas",
+    "Viajes"
+   ],
+   "mechanics": [],
+   "kind": "Programa público",
+   "organizer": {
+    "name": "Organizador no identificado",
+    "type": "desconocido",
+    "domain": null,
+    "known": false
+   },
+   "prize": {
+    "description": null,
+    "value_cop": null,
+    "value_text": null,
+    "value_source": null,
+    "winners": null,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "gratis_registro",
+    "label": "Gratis con registro",
+    "free": true,
+    "certainty": "inferido",
+    "requires_purchase": null,
+    "requires_registration": true,
+    "requires_social": false,
+    "requires_activity": true,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": null,
+    "notes": [
+     "No se encontró ninguna condición de compra en la fuente oficial (inferido, confírmalo en los términos)."
+    ]
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": null,
+    "age_text": null,
+    "coverage": "regional",
+    "cities": [
+     "Cartagena"
+    ]
+   },
+   "requirements": [
+    "1. Documentación de identidad: Fotocopias de la cédula del representante legal y de quien atenderá el stand.",
+    "2. RUT actualizado: Legible, con fecha de impresión 2026 y expedición no mayor a tres meses.",
+    "3. Portafolio de productos: Formato PDF con fotografías, nombre y descripción de los productos que se van a comercializar.",
+    "4. Listado de precios: Especificando nombre, presentación y valor de venta en pesos colombianos, impuestos incluidos.",
+    "5. Medios de pago obligatorios: Disponer de efectivo, transferencia bancaria, pago por código QR y datáfono (tarjetas débito/crédito).",
+    "6. Sector gastronómico (Sabores de Navidad): Certificado vigente de manipulación de alimentos o compromiso de asistir a la capacitación gratuita impartida por Corpoturismo y el Dadis."
+   ],
+   "documents": [
+    "Documento de identidad (cédula)",
+    "RUT"
+   ],
+   "steps": [
+    "Documentación de identidad: Fotocopias de la cédula del representante legal y de quien atenderá el stand.",
+    "RUT actualizado: Legible, con fecha de impresión 2026 y expedición no mayor a tres meses.",
+    "Portafolio de productos: Formato PDF con fotografías, nombre y descripción de los productos que se van a comercializar.",
+    "Listado de precios: Especificando nombre, presentación y valor de venta en pesos colombianos, impuestos incluidos.",
+    "Medios de pago obligatorios: Disponer de efectivo, transferencia bancaria, pago por código QR y datáfono (tarjetas débito/crédito).",
+    "Sector gastronómico (Sabores de Navidad): Certificado vigente de manipulación de alimentos o compromiso de asistir a la capacitación gratuita impartida por Corpoturismo y el Dadis."
+   ],
+   "steps_source": "fuente_secundaria",
+   "dates": {
+    "published": "2026-11-23T15:30:14-05:00",
+    "start": null,
+    "end": "2026-11-27",
+    "draw": null
+   },
+   "status": "activa",
+   "gov": {
+    "program_status": "abierta",
+    "entity": "Organizador no identificado"
+   },
+   "offer": null,
+   "verification": {
+    "status": "pendiente",
+    "reasons": [
+     "Organizador no identificado con certeza."
+    ],
+    "checked_at": "2026-11-23T22:00:23-05:00",
+    "link_ok": null,
+    "official_domain": false,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://caracol.com.co/2026/11/23/abierta-convocatoria-para-mercadito-navideno-2026-en-el-centro-historico-de-cartagena/",
+    "participate": null,
+    "terms": null,
+    "official": null,
+    "image": "https://caracol.com.co/resizer/v2/LRV27IPEZNA4BPAFCRJLXSKSKY.jpeg?auth=c33dcd6fb969c651b42729331cd571027c731de265af0f9457a0f1ca7c950f66&quality=70&width=1200&height=675&focal=633,395"
+   },
+   "sources": [
+    {
+     "url": "https://caracol.com.co/2026/11/23/abierta-convocatoria-para-mercadito-navideno-2026-en-el-centro-historico-de-cartagena/",
+     "name": "Caracol Radio (feed)",
+     "type": "news",
+     "seen_at": "2026-11-23T22:00:23-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 0.89,
+    "model": null
+   },
+   "discovered_at": "2026-11-23T22:00:23-05:00",
+   "updated_at": "2026-11-23T22:00:23-05:00",
+   "last_verified": "2026-11-23T22:00:23-05:00",
+   "last_seen": "2026-11-23T22:00:23-05:00",
+   "history": [],
+   "priority": {
+    "score": 60,
+    "level": "media",
+    "breakdown": {
+     "valor": {
+      "points": 9,
+      "max": 25,
+      "note": "valor no publicado"
+     },
+     "gratuidad": {
+      "points": 22,
+      "max": 25,
+      "note": "gratis_registro"
+     },
+     "facilidad": {
+      "points": 6,
+      "max": 15,
+      "note": "registro, actividad"
+     },
+     "vigencia": {
+      "points": 9,
+      "max": 10,
+      "note": "vence en 3 día(s): revisar ya"
+     },
+     "cobertura": {
+      "points": 5,
+      "max": 10,
+      "note": "regional"
+     },
+     "credibilidad": {
+      "points": 6,
+      "max": 10,
+      "note": "pendiente"
+     },
+     "claridad": {
+      "points": 3,
       "max": 5,
       "note": "sin términos enlazados"
      }
@@ -12371,7 +12387,7 @@
      "Tiene términos y condiciones consultables.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-22T21:54:55-05:00",
+    "checked_at": "2026-11-24T10:01:16-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": true,
@@ -12406,8 +12422,8 @@
    },
    "discovered_at": "2026-11-18T16:18:58-05:00",
    "updated_at": "2026-11-18T16:18:58-05:00",
-   "last_verified": "2026-11-22T21:54:55-05:00",
-   "last_seen": "2026-11-23T22:00:22-05:00",
+   "last_verified": "2026-11-24T10:01:16-05:00",
+   "last_seen": "2026-11-24T10:00:59-05:00",
    "history": [],
    "priority": {
     "score": 60,
@@ -12591,6 +12607,163 @@
       "points": 2,
       "max": 10,
       "note": "no_verificable"
+     },
+     "claridad": {
+      "points": 1,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
+   "id": "op_6260073375ee",
+   "title": "Novelistas de Colombia pueden participar ganar 2 millones de pesos (y publicación) con este concurso",
+   "summary": "Segundo Premio Nacional de Novela Jaime Echeverri. Fecha: 15/12/2026. Premio: 2 millones de pesos y publicación. Ámbito: Colombia. Admite envíos por Internet.",
+   "section": "concursos",
+   "category": "dinero",
+   "tags": [
+    "Dinero en efectivo"
+   ],
+   "mechanics": [],
+   "kind": "Concurso",
+   "organizer": {
+    "name": "Organizador no identificado",
+    "type": "desconocido",
+    "domain": null,
+    "known": false
+   },
+   "prize": {
+    "description": null,
+    "value_cop": 2000000,
+    "value_text": "2 millones de pesos",
+    "value_source": "noticia",
+    "winners": null,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "desconocido",
+    "label": "Costo sin confirmar",
+    "free": false,
+    "certainty": "desconocido",
+    "requires_purchase": null,
+    "requires_registration": false,
+    "requires_social": false,
+    "requires_activity": false,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": null,
+    "notes": []
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": null,
+    "age_text": null,
+    "coverage": "nacional",
+    "cities": [
+     "Bogotá"
+    ]
+   },
+   "requirements": [
+    "Presentar una novela escrita en español, inédita, y que haya sido creada por una sola persona sin el uso de la Inteligencia Artificial. El texto no podrá haber sido premiado, ni estar pendiente de fallo en otro concurso.",
+    "Solo se admite una obra por autor.",
+    "El texto debe estar escrito en Word a doce puntos, con letra Arial, a interlineado de espacio y medio y firmado con seudónimo.",
+    "La novela tendrá una extensión máxima de 300 páginas en tamaño carta.",
+    "El tema es libre.",
+    "El envío al concurso significa la aceptación de estas bases. De existir un vacío en las mismas, el equipo de Escarabajo Editorial lo solucionará según su criterio.",
+    "Se recibirán trabajos, desde el 1 de noviembre de 2026 hasta el 15 de diciembre del 2026, al correo electrónico novelaescarabajo@gmail.com .",
+    "En la segunda semana de marzo, a través de las redes sociales y la página web de la Editorial Escarabajo, se dará a conocer al ganador."
+   ],
+   "documents": [
+    "Documento de identidad (cédula)"
+   ],
+   "steps": [],
+   "steps_source": null,
+   "dates": {
+    "published": "2026-11-24T05:00:00-05:00",
+    "start": "2026-11-01",
+    "end": "2026-12-15",
+    "draw": null
+   },
+   "status": "activa",
+   "gov": null,
+   "offer": null,
+   "verification": {
+    "status": "pendiente",
+    "reasons": [
+     "Organizador no identificado con certeza."
+    ],
+    "checked_at": "2026-11-24T10:01:00-05:00",
+    "link_ok": null,
+    "official_domain": false,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://letralia.com/convocatorias/novela/2026/11/24/segundo-premio-nacional-de-novela-jaime-echeverri/",
+    "participate": "https://letralia.com/convocatorias/novela/2026/11/24/segundo-premio-nacional-de-novela-jaime-echeverri/",
+    "terms": null,
+    "official": null,
+    "image": "https://letralia.com/wp-content/uploads/2026/11/15echeverri.jpg"
+   },
+   "sources": [
+    {
+     "url": "https://letralia.com/convocatorias/novela/2026/11/24/segundo-premio-nacional-de-novela-jaime-echeverri/",
+     "name": "Noticias · Puntos Colombia concursos",
+     "type": "news",
+     "seen_at": "2026-11-24T10:01:00-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 1.0,
+    "model": null
+   },
+   "discovered_at": "2026-11-24T10:01:00-05:00",
+   "updated_at": "2026-11-24T10:01:00-05:00",
+   "last_verified": "2026-11-24T10:01:00-05:00",
+   "last_seen": "2026-11-24T10:01:00-05:00",
+   "history": [],
+   "priority": {
+    "score": 60,
+    "level": "media",
+    "breakdown": {
+     "valor": {
+      "points": 13,
+      "max": 25,
+      "note": "valor publicado 2.000.000 COP"
+     },
+     "gratuidad": {
+      "points": 9,
+      "max": 25,
+      "note": "desconocido"
+     },
+     "facilidad": {
+      "points": 11,
+      "max": 15,
+      "note": "pocos requisitos"
+     },
+     "vigencia": {
+      "points": 10,
+      "max": 10,
+      "note": "vigente (21 días restantes)"
+     },
+     "cobertura": {
+      "points": 10,
+      "max": 10,
+      "note": "nacional"
+     },
+     "credibilidad": {
+      "points": 6,
+      "max": 10,
+      "note": "pendiente"
      },
      "claridad": {
       "points": 1,
@@ -12879,7 +13052,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (97 días restantes)"
+      "note": "vigente (96 días restantes)"
      },
      "cobertura": {
       "points": 5,
@@ -13130,7 +13303,7 @@
      "El enlace respondió correctamente en la última verificación.",
      "Falta confirmar condiciones en la página oficial."
     ],
-    "checked_at": "2026-11-22T15:50:12-05:00",
+    "checked_at": "2026-11-24T10:01:01-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -13165,8 +13338,8 @@
    },
    "discovered_at": "2026-11-18T16:18:44-05:00",
    "updated_at": "2026-11-18T16:18:44-05:00",
-   "last_verified": "2026-11-22T15:50:12-05:00",
-   "last_seen": "2026-11-23T22:00:22-05:00",
+   "last_verified": "2026-11-24T10:01:01-05:00",
+   "last_seen": "2026-11-24T10:00:59-05:00",
    "history": [],
    "priority": {
     "score": 57,
@@ -13190,7 +13363,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (23 días restantes)"
+      "note": "vigente (22 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -13296,7 +13469,7 @@
     "reasons": [
      "Falta confirmar condiciones en la página oficial."
     ],
-    "checked_at": "2026-11-22T21:55:07-05:00",
+    "checked_at": "2026-11-24T10:01:24-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -13331,7 +13504,7 @@
    },
    "discovered_at": "2026-11-18T16:19:08-05:00",
    "updated_at": "2026-11-18T16:19:08-05:00",
-   "last_verified": "2026-11-22T21:55:07-05:00",
+   "last_verified": "2026-11-24T10:01:24-05:00",
    "last_seen": "2026-11-23T09:51:36-05:00",
    "history": [],
    "priority": {
@@ -13799,7 +13972,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (534 días restantes)"
+      "note": "vigente (533 días restantes)"
      },
      "cobertura": {
       "points": 5,
@@ -13945,7 +14118,7 @@
    "discovered_at": "2026-11-18T16:18:40-05:00",
    "updated_at": "2026-11-18T16:18:40-05:00",
    "last_verified": "2026-11-23T22:00:55-05:00",
-   "last_seen": "2026-11-23T22:00:22-05:00",
+   "last_seen": "2026-11-24T10:00:59-05:00",
    "history": [],
    "priority": {
     "score": 55,
@@ -13969,7 +14142,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (38 días restantes)"
+      "note": "vigente (37 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -14122,7 +14295,7 @@
    "discovered_at": "2026-11-18T16:18:36-05:00",
    "updated_at": "2026-11-18T16:18:36-05:00",
    "last_verified": "2026-11-23T22:00:50-05:00",
-   "last_seen": "2026-11-23T22:00:22-05:00",
+   "last_seen": "2026-11-24T10:00:59-05:00",
    "history": [],
    "priority": {
     "score": 55,
@@ -14146,7 +14319,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (38 días restantes)"
+      "note": "vigente (37 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -14274,7 +14447,7 @@
    "discovered_at": "2026-11-18T17:21:48-05:00",
    "updated_at": "2026-11-18T17:21:48-05:00",
    "last_verified": "2026-11-23T09:52:01-05:00",
-   "last_seen": "2026-11-23T22:00:22-05:00",
+   "last_seen": "2026-11-24T10:00:59-05:00",
    "history": [],
    "priority": {
     "score": 55,
@@ -14421,7 +14594,7 @@
    "discovered_at": "2026-11-20T16:55:50-05:00",
    "updated_at": "2026-11-20T16:55:50-05:00",
    "last_verified": "2026-11-23T22:00:45-05:00",
-   "last_seen": "2026-11-23T09:51:36-05:00",
+   "last_seen": "2026-11-24T10:00:59-05:00",
    "history": [
     {
      "at": "2026-11-21T07:49:39-05:00",
@@ -14600,7 +14773,7 @@
    "discovered_at": "2026-11-18T16:18:39-05:00",
    "updated_at": "2026-11-18T16:18:39-05:00",
    "last_verified": "2026-11-23T22:00:54-05:00",
-   "last_seen": "2026-11-23T22:00:22-05:00",
+   "last_seen": "2026-11-24T10:00:59-05:00",
    "history": [],
    "priority": {
     "score": 55,
@@ -14624,7 +14797,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (38 días restantes)"
+      "note": "vigente (37 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -14783,7 +14956,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (36 días restantes)"
+      "note": "vigente (35 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -14885,7 +15058,7 @@
      "El enlace respondió correctamente en la última verificación.",
      "Falta confirmar condiciones en la página oficial."
     ],
-    "checked_at": "2026-11-22T21:54:43-05:00",
+    "checked_at": "2026-11-24T10:01:04-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -14926,8 +15099,8 @@
    },
    "discovered_at": "2026-11-18T16:18:44-05:00",
    "updated_at": "2026-11-18T16:18:44-05:00",
-   "last_verified": "2026-11-22T21:54:43-05:00",
-   "last_seen": "2026-11-23T22:00:22-05:00",
+   "last_verified": "2026-11-24T10:01:04-05:00",
+   "last_seen": "2026-11-24T10:00:59-05:00",
    "history": [],
    "priority": {
     "score": 54,
@@ -15042,7 +15215,7 @@
     "reasons": [
      "Organizador no identificado con certeza."
     ],
-    "checked_at": "2026-11-22T21:55:12-05:00",
+    "checked_at": "2026-11-24T10:01:31-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -15077,7 +15250,7 @@
    },
    "discovered_at": "2026-11-19T22:29:22-05:00",
    "updated_at": "2026-11-19T22:29:22-05:00",
-   "last_verified": "2026-11-22T21:55:12-05:00",
+   "last_verified": "2026-11-24T10:01:31-05:00",
    "last_seen": "2026-11-19T22:29:22-05:00",
    "history": [],
    "priority": {
@@ -15102,7 +15275,7 @@
      "vigencia": {
       "points": 9,
       "max": 10,
-      "note": "vence en 2 día(s): revisar ya"
+      "note": "vence en 1 día(s): revisar ya"
      },
      "cobertura": {
       "points": 5,
@@ -15243,7 +15416,7 @@
    "discovered_at": "2026-11-18T16:18:37-05:00",
    "updated_at": "2026-11-18T16:18:37-05:00",
    "last_verified": "2026-11-23T22:00:51-05:00",
-   "last_seen": "2026-11-23T22:00:22-05:00",
+   "last_seen": "2026-11-24T10:00:59-05:00",
    "history": [],
    "priority": {
     "score": 53,
@@ -15267,7 +15440,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (134 días restantes)"
+      "note": "vigente (133 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -15409,7 +15582,7 @@
    "discovered_at": "2026-11-18T16:18:38-05:00",
    "updated_at": "2026-11-18T16:18:38-05:00",
    "last_verified": "2026-11-23T22:00:53-05:00",
-   "last_seen": "2026-11-23T22:00:22-05:00",
+   "last_seen": "2026-11-24T10:00:59-05:00",
    "history": [],
    "priority": {
     "score": 53,
@@ -15433,7 +15606,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (38 días restantes)"
+      "note": "vigente (37 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -15745,6 +15918,173 @@
    }
   },
   {
+   "id": "op_311614601d7a",
+   "title": "Primer datafono de Nequi Negocios",
+   "summary": "¡Dale a tu negocio más formas de recibir pagos! Si tienes un punto de venta físico en Medellín, Bogotá, Cali o Cartagena y cumples los requisitos, puedes recibir un datáfono para aceptar pagos con tarjeta desde Nequi Negocios. ¡Cupos limitados!",
+   "section": "ofertas",
+   "category": "of_bancarias",
+   "tags": [
+    "Descuentos bancarios"
+   ],
+   "kind": "Oferta",
+   "organizer": {
+    "name": "Nequi",
+    "type": "billetera",
+    "domain": "nequi.com.co",
+    "known": true
+   },
+   "prize": {
+    "description": null,
+    "value_cop": 1000000,
+    "value_text": "$1.000.000",
+    "value_source": "pagina_oficial",
+    "winners": null,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "requiere_compra",
+    "label": "Requiere compra",
+    "free": false,
+    "certainty": "explicito",
+    "requires_purchase": true,
+    "requires_registration": true,
+    "requires_social": false,
+    "requires_activity": false,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": "$200.000",
+    "notes": [
+     "La fuente indica condición de compra: «por cada $».",
+     "Monto mínimo mencionado: $200.000."
+    ]
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": 18,
+    "age_text": "mayores de 18 años",
+    "coverage": "nacional",
+    "cities": [
+     "Bogotá",
+     "Medellín",
+     "Cali",
+     "Cartagena"
+    ]
+   },
+   "requirements": [
+    "Ser mayor de 18 años.",
+    "Tener un punto de venta físico en Medellín, Bogotá, Cali o Cartagena.",
+    "Tener un Nequi activo y habilitado para recibir los recursos de tus ventas.",
+    "Haber completado la vinculación a Nequi Negocios y contratado los servicios de aceptación de medios de pago de Wompi, aceptando sus términos y condiciones.",
+    "Acreditar ventas superiores a $8.000.000 mensuales .",
+    "Ser seleccionado previamente por Wompi para participar."
+   ],
+   "documents": [],
+   "steps": [],
+   "steps_source": null,
+   "dates": {
+    "published": null,
+    "start": "2026-10-13",
+    "end": "2027-03-31",
+    "draw": null
+   },
+   "status": "activa",
+   "gov": null,
+   "offer": {
+    "discount_pct": null,
+    "original_price": null,
+    "promo_price": null,
+    "code": null,
+    "pct_verified": false
+   },
+   "verification": {
+    "status": "pendiente",
+    "reasons": [
+     "El enlace pertenece a un dominio oficial del organizador.",
+     "Proviene de una fuente oficial configurada.",
+     "El enlace respondió correctamente en la última verificación.",
+     "Falta confirmar condiciones en la página oficial."
+    ],
+    "checked_at": "2026-11-23T22:00:56-05:00",
+    "link_ok": true,
+    "official_domain": true,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://www.nequi.com.co/promociones/primer-datafono-de-nequi-negocios",
+    "participate": "https://www.nequi.com.co/promociones/primer-datafono-de-nequi-negocios",
+    "terms": null,
+    "official": null,
+    "image": "https://cdn.prod.website-files.com/632b322905e108a14151cbdc/6afcb6f93db9260874138bf4_dat%C3%A1fono%20para%20tu%20negocio.jpg"
+   },
+   "sources": [
+    {
+     "url": "https://www.nequi.com.co/promociones/primer-datafono-de-nequi-negocios",
+     "name": "Nequi · promociones (oficial)",
+     "type": "official",
+     "seen_at": "2026-11-18T16:18:42-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 1.0,
+    "model": null
+   },
+   "discovered_at": "2026-11-18T16:18:42-05:00",
+   "updated_at": "2026-11-18T16:18:42-05:00",
+   "last_verified": "2026-11-23T22:00:56-05:00",
+   "last_seen": "2026-11-24T10:00:59-05:00",
+   "history": [],
+   "priority": {
+    "score": 51,
+    "level": "media",
+    "breakdown": {
+     "valor": {
+      "points": 12,
+      "max": 25,
+      "note": "valor publicado 1.000.000 COP"
+     },
+     "gratuidad": {
+      "points": 4,
+      "max": 25,
+      "note": "requiere_compra"
+     },
+     "facilidad": {
+      "points": 10,
+      "max": 15,
+      "note": "registro"
+     },
+     "vigencia": {
+      "points": 8,
+      "max": 10,
+      "note": "vigente (127 días restantes)"
+     },
+     "cobertura": {
+      "points": 10,
+      "max": 10,
+      "note": "nacional"
+     },
+     "credibilidad": {
+      "points": 6,
+      "max": 10,
+      "note": "pendiente"
+     },
+     "claridad": {
+      "points": 1,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
    "id": "op_aa8036205edf",
    "title": "Concurso DIAN 2676: publican resultados de las pruebas escritas y esta es la fecha límite para reclamar",
    "summary": "La Comisión Nacional del Servicio Civil (CNSC) informó cuándo podrán consultarse las calificaciones y cuáles son las fechas establecidas para presentar reclamaciones.",
@@ -15887,7 +16227,7 @@
     }
    ],
    "priority": {
-    "score": 51,
+    "score": 50,
     "level": "media",
     "breakdown": {
      "valor": {
@@ -15906,9 +16246,9 @@
       "note": "registro, actividad"
      },
      "vigencia": {
-      "points": 10,
+      "points": 9,
       "max": 10,
-      "note": "vigente (4 días restantes)"
+      "note": "vence en 3 día(s): revisar ya"
      },
      "cobertura": {
       "points": 5,
@@ -15922,173 +16262,6 @@
      },
      "claridad": {
       "points": 3,
-      "max": 5,
-      "note": "sin términos enlazados"
-     }
-    }
-   }
-  },
-  {
-   "id": "op_311614601d7a",
-   "title": "Primer datafono de Nequi Negocios",
-   "summary": "¡Dale a tu negocio más formas de recibir pagos! Si tienes un punto de venta físico en Medellín, Bogotá, Cali o Cartagena y cumples los requisitos, puedes recibir un datáfono para aceptar pagos con tarjeta desde Nequi Negocios. ¡Cupos limitados!",
-   "section": "ofertas",
-   "category": "of_bancarias",
-   "tags": [
-    "Descuentos bancarios"
-   ],
-   "kind": "Oferta",
-   "organizer": {
-    "name": "Nequi",
-    "type": "billetera",
-    "domain": "nequi.com.co",
-    "known": true
-   },
-   "prize": {
-    "description": null,
-    "value_cop": 1000000,
-    "value_text": "$1.000.000",
-    "value_source": "pagina_oficial",
-    "winners": null,
-    "odds_text": null
-   },
-   "cost": {
-    "type": "requiere_compra",
-    "label": "Requiere compra",
-    "free": false,
-    "certainty": "explicito",
-    "requires_purchase": true,
-    "requires_registration": true,
-    "requires_social": false,
-    "requires_activity": false,
-    "requires_subscription": false,
-    "requires_deposit": false,
-    "purchase_threshold_text": "$200.000",
-    "notes": [
-     "La fuente indica condición de compra: «por cada $».",
-     "Monto mínimo mencionado: $200.000."
-    ]
-   },
-   "eligibility": {
-    "who": null,
-    "min_age": 18,
-    "age_text": "mayores de 18 años",
-    "coverage": "nacional",
-    "cities": [
-     "Bogotá",
-     "Medellín",
-     "Cali",
-     "Cartagena"
-    ]
-   },
-   "requirements": [
-    "Ser mayor de 18 años.",
-    "Tener un punto de venta físico en Medellín, Bogotá, Cali o Cartagena.",
-    "Tener un Nequi activo y habilitado para recibir los recursos de tus ventas.",
-    "Haber completado la vinculación a Nequi Negocios y contratado los servicios de aceptación de medios de pago de Wompi, aceptando sus términos y condiciones.",
-    "Acreditar ventas superiores a $8.000.000 mensuales .",
-    "Ser seleccionado previamente por Wompi para participar."
-   ],
-   "documents": [],
-   "steps": [],
-   "steps_source": null,
-   "dates": {
-    "published": null,
-    "start": "2026-10-13",
-    "end": "2027-03-31",
-    "draw": null
-   },
-   "status": "activa",
-   "gov": null,
-   "offer": {
-    "discount_pct": null,
-    "original_price": null,
-    "promo_price": null,
-    "code": null,
-    "pct_verified": false
-   },
-   "verification": {
-    "status": "pendiente",
-    "reasons": [
-     "El enlace pertenece a un dominio oficial del organizador.",
-     "Proviene de una fuente oficial configurada.",
-     "El enlace respondió correctamente en la última verificación.",
-     "Falta confirmar condiciones en la página oficial."
-    ],
-    "checked_at": "2026-11-23T22:00:56-05:00",
-    "link_ok": true,
-    "official_domain": true,
-    "terms_found": false,
-    "link_failures": 0
-   },
-   "risk": {
-    "level": "bajo",
-    "flags": [],
-    "sensitive_data_warning": false
-   },
-   "urls": {
-    "source": "https://www.nequi.com.co/promociones/primer-datafono-de-nequi-negocios",
-    "participate": "https://www.nequi.com.co/promociones/primer-datafono-de-nequi-negocios",
-    "terms": null,
-    "official": null,
-    "image": "https://cdn.prod.website-files.com/632b322905e108a14151cbdc/6afcb6f93db9260874138bf4_dat%C3%A1fono%20para%20tu%20negocio.jpg"
-   },
-   "sources": [
-    {
-     "url": "https://www.nequi.com.co/promociones/primer-datafono-de-nequi-negocios",
-     "name": "Nequi · promociones (oficial)",
-     "type": "official",
-     "seen_at": "2026-11-18T16:18:42-05:00"
-    }
-   ],
-   "language": "es",
-   "translated": false,
-   "extraction": {
-    "method": "heuristica",
-    "relevance": 1.0,
-    "model": null
-   },
-   "discovered_at": "2026-11-18T16:18:42-05:00",
-   "updated_at": "2026-11-18T16:18:42-05:00",
-   "last_verified": "2026-11-23T22:00:56-05:00",
-   "last_seen": "2026-11-23T22:00:22-05:00",
-   "history": [],
-   "priority": {
-    "score": 51,
-    "level": "media",
-    "breakdown": {
-     "valor": {
-      "points": 12,
-      "max": 25,
-      "note": "valor publicado 1.000.000 COP"
-     },
-     "gratuidad": {
-      "points": 4,
-      "max": 25,
-      "note": "requiere_compra"
-     },
-     "facilidad": {
-      "points": 10,
-      "max": 15,
-      "note": "registro"
-     },
-     "vigencia": {
-      "points": 8,
-      "max": 10,
-      "note": "vigente (128 días restantes)"
-     },
-     "cobertura": {
-      "points": 10,
-      "max": 10,
-      "note": "nacional"
-     },
-     "credibilidad": {
-      "points": 6,
-      "max": 10,
-      "note": "pendiente"
-     },
-     "claridad": {
-      "points": 1,
       "max": 5,
       "note": "sin términos enlazados"
      }
@@ -16169,7 +16342,7 @@
     "reasons": [
      "Falta confirmar condiciones en la página oficial."
     ],
-    "checked_at": "2026-11-22T21:55:03-05:00",
+    "checked_at": "2026-11-24T10:01:22-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -16204,7 +16377,7 @@
    },
    "discovered_at": "2026-11-18T16:19:07-05:00",
    "updated_at": "2026-11-18T16:19:07-05:00",
-   "last_verified": "2026-11-22T21:55:03-05:00",
+   "last_verified": "2026-11-24T10:01:22-05:00",
    "last_seen": "2026-11-18T16:19:07-05:00",
    "history": [],
    "priority": {
@@ -16365,7 +16538,7 @@
    "discovered_at": "2026-11-18T16:18:43-05:00",
    "updated_at": "2026-11-18T16:18:43-05:00",
    "last_verified": "2026-11-23T22:00:57-05:00",
-   "last_seen": "2026-11-23T22:00:22-05:00",
+   "last_seen": "2026-11-24T10:00:59-05:00",
    "history": [],
    "priority": {
     "score": 49,
@@ -16389,7 +16562,7 @@
      "vigencia": {
       "points": 9,
       "max": 10,
-      "note": "vence en 2 día(s): revisar ya"
+      "note": "vence en 1 día(s): revisar ya"
      },
      "cobertura": {
       "points": 10,
@@ -16841,7 +17014,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (13 días restantes)"
+      "note": "vigente (12 días restantes)"
      },
      "cobertura": {
       "points": 6,
@@ -16999,7 +17172,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (7 días restantes)"
+      "note": "vigente (6 días restantes)"
      },
      "cobertura": {
       "points": 6,
@@ -17093,7 +17266,7 @@
     "reasons": [
      "Organizador no identificado con certeza."
     ],
-    "checked_at": "2026-11-22T21:55:10-05:00",
+    "checked_at": "2026-11-24T10:01:28-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -17128,7 +17301,7 @@
    },
    "discovered_at": "2026-11-19T22:29:20-05:00",
    "updated_at": "2026-11-19T22:29:20-05:00",
-   "last_verified": "2026-11-22T21:55:10-05:00",
+   "last_verified": "2026-11-24T10:01:28-05:00",
    "last_seen": "2026-11-21T07:49:31-05:00",
    "history": [],
    "priority": {
@@ -17543,7 +17716,7 @@
     "reasons": [
      "Falta confirmar condiciones en la página oficial."
     ],
-    "checked_at": "2026-11-22T21:55:05-05:00",
+    "checked_at": "2026-11-24T10:01:23-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -17578,7 +17751,7 @@
    },
    "discovered_at": "2026-11-18T16:19:07-05:00",
    "updated_at": "2026-11-18T16:19:07-05:00",
-   "last_verified": "2026-11-22T21:55:05-05:00",
+   "last_verified": "2026-11-24T10:01:23-05:00",
    "last_seen": "2026-11-18T21:46:59-05:00",
    "history": [],
    "priority": {
@@ -17851,8 +18024,8 @@
     "reasons": [
      "Falta confirmar condiciones en la página oficial."
     ],
-    "checked_at": "2026-11-22T21:54:42-05:00",
-    "link_ok": null,
+    "checked_at": "2026-11-24T10:01:02-05:00",
+    "link_ok": true,
     "official_domain": false,
     "terms_found": false,
     "link_failures": 0
@@ -17886,7 +18059,7 @@
    },
    "discovered_at": "2026-11-22T21:54:42-05:00",
    "updated_at": "2026-11-22T21:54:42-05:00",
-   "last_verified": "2026-11-22T21:54:42-05:00",
+   "last_verified": "2026-11-24T10:01:02-05:00",
    "last_seen": "2026-11-22T21:54:42-05:00",
    "history": [],
    "priority": {
@@ -18005,7 +18178,7 @@
     "reasons": [
      "Información insuficiente: sin organizador identificado, fechas ni enlace oficial."
     ],
-    "checked_at": "2026-11-22T21:55:07-05:00",
+    "checked_at": "2026-11-24T10:01:25-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -18040,7 +18213,7 @@
    },
    "discovered_at": "2026-11-20T22:17:33-05:00",
    "updated_at": "2026-11-20T22:17:33-05:00",
-   "last_verified": "2026-11-22T21:55:07-05:00",
+   "last_verified": "2026-11-24T10:01:25-05:00",
    "last_seen": "2026-11-20T22:17:33-05:00",
    "history": [],
    "priority": {
@@ -18341,7 +18514,7 @@
    "discovered_at": "2026-11-20T08:04:54-05:00",
    "updated_at": "2026-11-20T08:04:54-05:00",
    "last_verified": "2026-11-23T09:52:09-05:00",
-   "last_seen": "2026-11-23T22:00:22-05:00",
+   "last_seen": "2026-11-24T10:00:59-05:00",
    "history": [],
    "priority": {
     "score": 39,
@@ -19619,7 +19792,7 @@
    "discovered_at": "2026-11-18T16:18:55-05:00",
    "updated_at": "2026-11-18T16:18:55-05:00",
    "last_verified": "2026-11-19T17:17:31-05:00",
-   "last_seen": "2026-11-23T22:00:22-05:00",
+   "last_seen": "2026-11-24T10:00:59-05:00",
    "history": [
     {
      "at": "2026-11-20T08:04:57-05:00",
