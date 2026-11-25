@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T19:53:22-05:00",
+ "generated_at": "2026-11-25T06:29:42-05:00",
  "changes": [
   {
    "at": "2026-11-18T17:21:56-05:00",
@@ -234,6 +234,51 @@
    "to": "pendiente",
    "id": "op_fe3c9a0d611b",
    "title": "Anuel anuncia concierto gratis en Bogotá tras la polémica por su presentación en el Vive Claro"
+  },
+  {
+   "at": "2026-11-25T06:29:42-05:00",
+   "field": "status",
+   "label": "Estado",
+   "from": "activa",
+   "to": "vencida",
+   "id": "op_4b65e0e1f9d4",
+   "title": "Start-Up Chile Ignite 2026: hasta CLP 50 millones para startups de Bogotá"
+  },
+  {
+   "at": "2026-11-25T06:29:42-05:00",
+   "field": "status",
+   "label": "Estado",
+   "from": "activa",
+   "to": "vencida",
+   "id": "op_5a207b776eec",
+   "title": "Bogotá abrió 180 becas-crédito para estudios superiores en la ciudad hasta el 24 de noviembre de 2026: paso a paso para postularse"
+  },
+  {
+   "at": "2026-11-25T06:29:42-05:00",
+   "field": "status",
+   "label": "Estado",
+   "from": "activa",
+   "to": "vencida",
+   "id": "op_ae95a4252aa4",
+   "title": "Bogotá otorga becas-crédito para que jóvenes de estratos 1 a 4 estudien en la universidad"
+  },
+  {
+   "at": "2026-11-25T06:29:42-05:00",
+   "field": "status",
+   "label": "Estado",
+   "from": "activa",
+   "to": "vencida",
+   "id": "op_65ae5d5ec9d2",
+   "title": "Embajada de Estados Unidos abrió convocatoria para un prgrama que beneficiará a líderes comunitarios y profesionales colombianos: así…"
+  },
+  {
+   "at": "2026-11-25T06:29:42-05:00",
+   "field": "status",
+   "label": "Estado",
+   "from": "activa",
+   "to": "vencida",
+   "id": "op_3e31e5d2b3c8",
+   "title": "Alcaldía de Tunjuelito abre inscripciones para actividades de integración y recreación en temporada de fin de año 2026"
   }
  ]
 }
