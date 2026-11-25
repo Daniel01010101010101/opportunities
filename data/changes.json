@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T10:01:32-05:00",
+ "generated_at": "2026-11-24T19:53:22-05:00",
  "changes": [
   {
    "at": "2026-11-18T17:21:56-05:00",
@@ -180,6 +180,60 @@
    "to": "activa",
    "id": "op_2623749824ba",
    "title": "Bogotá abre convocatoria 2026 del programa FEST Atenea con becas-crédito condonables para educación superior"
+  },
+  {
+   "at": "2026-11-24T19:52:50-05:00",
+   "field": "dates.start",
+   "label": "Fecha de inicio",
+   "from": null,
+   "to": "2026-11-24",
+   "id": "op_a6c0e90fce98",
+   "title": "Postúlate a las ofertas que trae el Boletín de Oferta Internacional de Bogotá"
+  },
+  {
+   "at": "2026-11-24T19:52:50-05:00",
+   "field": "cost.type",
+   "label": "Costo",
+   "from": "requiere_compra",
+   "to": "gratis_registro",
+   "id": "op_a6c0e90fce98",
+   "title": "Postúlate a las ofertas que trae el Boletín de Oferta Internacional de Bogotá"
+  },
+  {
+   "at": "2026-11-24T19:52:52-05:00",
+   "field": "dates.end",
+   "label": "Fecha de finalización",
+   "from": null,
+   "to": "2026-11-24",
+   "id": "op_ae95a4252aa4",
+   "title": "Bogotá otorga becas-crédito para que jóvenes de estratos 1 a 4 estudien en la universidad"
+  },
+  {
+   "at": "2026-11-24T19:52:52-05:00",
+   "field": "status",
+   "label": "Estado",
+   "from": "sin_confirmar",
+   "to": "activa",
+   "id": "op_ae95a4252aa4",
+   "title": "Bogotá otorga becas-crédito para que jóvenes de estratos 1 a 4 estudien en la universidad"
+  },
+  {
+   "at": "2026-11-24T19:52:52-05:00",
+   "field": "urls.participate",
+   "label": "Enlace de participación",
+   "from": "https://bogota.gov.co/mi-ciudad/educacion/2026-11/convocatoria-becas-para-jovenes-la-e-universidades-privadas-bogota?utm_source=chatgpt.com",
+   "to": "https://bogota.gov.co/mi-ciudad/educacion/2026-11/bogota-ofrece-becas-credito-universitarias-jovenes-de-estratos-1-4",
+   "id": "op_ae95a4252aa4",
+   "title": "Bogotá otorga becas-crédito para que jóvenes de estratos 1 a 4 estudien en la universidad"
+  },
+  {
+   "at": "2026-11-24T19:52:52-05:00",
+   "field": "verification.status",
+   "label": "Verificación",
+   "from": "no_verificable",
+   "to": "pendiente",
+   "id": "op_fe3c9a0d611b",
+   "title": "Anuel anuncia concierto gratis en Bogotá tras la polémica por su presentación en el Vive Claro"
   }
  ]
 }
