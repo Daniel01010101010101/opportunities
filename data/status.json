@@ -1,59 +1,59 @@
 {
  "engine_version": "1.0.0",
- "generated_at": "2026-11-25T23:15:47-05:00",
+ "generated_at": "2026-11-26T09:01:27-05:00",
  "timezone": "America/Bogota",
  "schedule": {
   "cron_utc": "17 */2 * * *",
   "description": "Cada 2 horas, minuto 17 (horas impares en Bogotá)",
-  "next_run_at": "2026-11-25T23:17:00-05:00"
+  "next_run_at": "2026-11-26T09:17:00-05:00"
  },
  "last_run": {
-  "id": "20261125-231201",
-  "started_at": "2026-11-25T23:12:01-05:00",
-  "finished_at": "2026-11-25T23:15:47-05:00",
-  "duration_s": 225.2,
+  "id": "20261126-085807",
+  "started_at": "2026-11-26T08:58:07-05:00",
+  "finished_at": "2026-11-26T09:01:27-05:00",
+  "duration_s": 200.3,
   "status": "parcial",
   "trigger": "schedule",
-  "new": 3,
-  "updated": 0,
-  "discarded": 26,
-  "sources_checked": 92,
-  "sources_ok": 84,
-  "run_url": "https://github.com/Daniel01010101010101/opportunities/actions/runs/45753650311"
+  "new": 6,
+  "updated": 1,
+  "discarded": 22,
+  "sources_checked": 93,
+  "sources_ok": 85,
+  "run_url": "https://github.com/Daniel01010101010101/opportunities/actions/runs/45834244219"
  },
- "last_success_at": "2026-11-25T23:15:47-05:00",
- "last_new_opportunity_at": "2026-11-25T23:15:21-05:00",
+ "last_success_at": "2026-11-26T09:01:27-05:00",
+ "last_new_opportunity_at": "2026-11-26T09:00:45-05:00",
  "sources": {
   "configured": 219,
-  "checked_last_run": 92,
-  "ok_last_run": 84,
+  "checked_last_run": 93,
+  "ok_last_run": 85,
   "failed_last_run": 3,
   "discovered": 8,
-  "with_errors": 5
+  "with_errors": 4
  },
  "counts": {
-  "total": 162,
-  "active": 148,
-  "new_24h": 14,
-  "verified": 41,
-  "pending": 79,
-  "unverifiable": 28,
-  "expired": 14,
+  "total": 168,
+  "active": 147,
+  "new_24h": 18,
+  "verified": 40,
+  "pending": 78,
+  "unverifiable": 29,
+  "expired": 21,
   "withdrawn": 0,
   "archived": 0,
   "by_section": {
-   "concursos": 19,
-   "bonos": 13,
-   "ofertas": 25,
-   "estado": 91
+   "concursos": 16,
+   "bonos": 14,
+   "ofertas": 27,
+   "estado": 90
   },
   "by_priority": {
-   "alta": 49,
-   "media": 82,
-   "baja": 17
+   "alta": 47,
+   "media": 81,
+   "baja": 19
   },
-  "free": 94,
-  "expiring_7d": 23
+  "free": 92,
+  "expiring_7d": 17
  },
  "llm": {
   "enabled": false,

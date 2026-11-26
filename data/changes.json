@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T23:15:47-05:00",
+ "generated_at": "2026-11-26T09:01:27-05:00",
  "changes": [
   {
    "at": "2026-11-18T17:21:56-05:00",
@@ -279,6 +279,96 @@
    "to": "vencida",
    "id": "op_3e31e5d2b3c8",
    "title": "Alcaldía de Tunjuelito abre inscripciones para actividades de integración y recreación en temporada de fin de año 2026"
+  },
+  {
+   "at": "2026-11-26T09:00:44-05:00",
+   "field": "dates.start",
+   "label": "Fecha de inicio",
+   "from": null,
+   "to": "2026-11-21",
+   "id": "op_fe3c9a0d611b",
+   "title": "Anuel AA promete concierto gratis en Bogotá tras polémica en el Vive Claro"
+  },
+  {
+   "at": "2026-11-26T09:01:27-05:00",
+   "field": "status",
+   "label": "Estado",
+   "from": "activa",
+   "to": "vencida",
+   "id": "op_228f9e99c8e1",
+   "title": "MassChallenge 2027: conecta tu startup de Bogotá con empresas globales"
+  },
+  {
+   "at": "2026-11-26T09:01:27-05:00",
+   "field": "status",
+   "label": "Estado",
+   "from": "activa",
+   "to": "vencida",
+   "id": "op_7df59f6d30f9",
+   "title": "Bogotá lanza convocatorias artísticas para “Navidad es Cultura 2026” con eventos y presentaciones en barrios y localidades"
+  },
+  {
+   "at": "2026-11-26T09:01:27-05:00",
+   "field": "status",
+   "label": "Estado",
+   "from": "proxima",
+   "to": "activa",
+   "id": "op_ef1a31b1ed1d",
+   "title": "Prosperidad Social entregará la sexta transferencia de Renta Joven a 72.244 participantes del programa"
+  },
+  {
+   "at": "2026-11-26T09:01:27-05:00",
+   "field": "status",
+   "label": "Estado",
+   "from": "activa",
+   "to": "vencida",
+   "id": "op_cf39de37374e",
+   "title": "Cursos para aprender sobre IA y tecnología con el ICETEX: ¿Cómo inscribirse? Opciones disponibles"
+  },
+  {
+   "at": "2026-11-26T09:01:27-05:00",
+   "field": "status",
+   "label": "Estado",
+   "from": "activa",
+   "to": "vencida",
+   "id": "op_cdbe47a848e6",
+   "title": "Convocatoria Navidad es Cultura 2026: incentivos de hasta 20 millones para artistas locales"
+  },
+  {
+   "at": "2026-11-26T09:01:27-05:00",
+   "field": "status",
+   "label": "Estado",
+   "from": "activa",
+   "to": "vencida",
+   "id": "op_b1ca72ef2dc4",
+   "title": "¿Eres un fan 100% Yamaha? Gana una visita exclusiva a la planta de Incolmotos Yamaha"
+  },
+  {
+   "at": "2026-11-26T09:01:27-05:00",
+   "field": "status",
+   "label": "Estado",
+   "from": "activa",
+   "to": "vencida",
+   "id": "op_ca560959f290",
+   "title": "El club Alianza Valledupar cambiará de nombre y de escudo: abrió un concurso para que los hinchas ayuden en la definición"
+  },
+  {
+   "at": "2026-11-26T09:01:27-05:00",
+   "field": "status",
+   "label": "Estado",
+   "from": "activa",
+   "to": "vencida",
+   "id": "op_0868d66c4ef5",
+   "title": "Gánate la pinta pa’ tu bendi"
+  },
+  {
+   "at": "2026-11-26T09:01:27-05:00",
+   "field": "status",
+   "label": "Estado",
+   "from": "proxima",
+   "to": "activa",
+   "id": "op_5d559b9e8d02",
+   "title": "Cali participará en el Asian Bird Fair 2026 en China"
   }
  ]
 }

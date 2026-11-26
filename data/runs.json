@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T23:15:47-05:00",
+ "generated_at": "2026-11-26T09:01:27-05:00",
  "runs": [
   {
    "id": "20261118-161736",
@@ -2080,6 +2080,93 @@
    },
    "git_sha": "48191f4",
    "run_url": "https://github.com/Daniel01010101010101/opportunities/actions/runs/45753650311"
+  },
+  {
+   "id": "20261126-085807",
+   "started_at": "2026-11-26T08:58:07-05:00",
+   "finished_at": "2026-11-26T09:01:27-05:00",
+   "duration_s": 200.3,
+   "trigger": "schedule",
+   "category": null,
+   "query": null,
+   "status": "parcial",
+   "sources_checked": 93,
+   "sources_ok": 85,
+   "sources_failed": [
+    {
+     "id": "wp-eje21",
+     "error": "HTTP 403; HTTP 403"
+    },
+    {
+     "id": "gd-sorteos",
+     "error": "GDELT limitó la consulta (429); se reintentará en la próxima ejecución"
+    },
+    {
+     "id": "gd-concursos",
+     "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+    }
+   ],
+   "sources_skipped": [
+    {
+     "id": "cse-bonos-gasolina",
+     "reason": "requiere los secretos GOOGLE_CSE_KEY y GOOGLE_CSE_CX"
+    },
+    {
+     "id": "cse-sorteos",
+     "reason": "requiere los secretos GOOGLE_CSE_KEY y GOOGLE_CSE_CX"
+    },
+    {
+     "id": "brave-sorteos",
+     "reason": "requiere el secreto BRAVE_API_KEY"
+    },
+    {
+     "id": "cse-convocatorias",
+     "reason": "requiere los secretos GOOGLE_CSE_KEY y GOOGLE_CSE_CX"
+    },
+    {
+     "id": "brave-gratis",
+     "reason": "requiere el secreto BRAVE_API_KEY"
+    }
+   ],
+   "new": 6,
+   "updated": 1,
+   "unchanged": 1,
+   "discarded": 22,
+   "discard_reasons": {
+    "nota sobre ganadores o resultados, no es una convocatoria abierta": 7,
+    "búsqueda de concursos: el título no anuncia una convocatoria abierta": 4,
+    "noticia antigua (más de 30 días)": 3,
+    "no describe una oportunidad aprovechable": 3,
+    "noticia antigua (más de 90 días)": 2,
+    "título sin señales de oportunidad o con señales negativas": 2,
+    "bloqueado por robots.txt / fuente no permitida": 1
+   },
+   "expired": 7,
+   "reverified": 40,
+   "archived": 0,
+   "purged": 0,
+   "http_requests": 165,
+   "robots_blocked": 1,
+   "errors": [
+    "Fuente Eje21: HTTP 403; HTTP 403",
+    "Fuente GDELT · sorteos en medios colombianos: GDELT limitó la consulta (429); se reintentará en la próxima ejecución",
+    "Fuente GDELT · concursos en medios colombianos: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+   ],
+   "llm": {
+    "enabled": false,
+    "model": null,
+    "calls": 0,
+    "errors": 0,
+    "input_tokens": 0,
+    "output_tokens": 0
+   },
+   "alerts": {
+    "telegram": "no_configurado",
+    "email": "no_configurado",
+    "sent": 0
+   },
+   "git_sha": "48191f4",
+   "run_url": "https://github.com/Daniel01010101010101/opportunities/actions/runs/45834244219"
   }
  ]
 }
