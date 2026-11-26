@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T09:01:27-05:00",
+ "generated_at": "2026-11-26T18:07:05-05:00",
  "changes": [
   {
    "at": "2026-11-18T17:21:56-05:00",
@@ -369,6 +369,24 @@
    "to": "activa",
    "id": "op_5d559b9e8d02",
    "title": "Cali participará en el Asian Bird Fair 2026 en China"
+  },
+  {
+   "at": "2026-11-26T18:06:34-05:00",
+   "field": "status",
+   "label": "Estado",
+   "from": "proxima",
+   "to": "sin_confirmar",
+   "id": "op_36e7c2e8cac6",
+   "title": "Gobierno anuncia el regreso de los subsidios de vivienda en 2027 bajo el programa Mi Casa Milagro"
+  },
+  {
+   "at": "2026-11-26T18:06:34-05:00",
+   "field": "verification.status",
+   "label": "Verificación",
+   "from": "pendiente",
+   "to": "no_verificable",
+   "id": "op_36e7c2e8cac6",
+   "title": "Gobierno anuncia el regreso de los subsidios de vivienda en 2027 bajo el programa Mi Casa Milagro"
   }
  ]
 }

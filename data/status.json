@@ -1,59 +1,59 @@
 {
  "engine_version": "1.0.0",
- "generated_at": "2026-11-26T09:01:27-05:00",
+ "generated_at": "2026-11-26T18:07:05-05:00",
  "timezone": "America/Bogota",
  "schedule": {
   "cron_utc": "17 */2 * * *",
   "description": "Cada 2 horas, minuto 17 (horas impares en Bogotá)",
-  "next_run_at": "2026-11-26T09:17:00-05:00"
+  "next_run_at": "2026-11-26T19:17:00-05:00"
  },
  "last_run": {
-  "id": "20261126-085807",
-  "started_at": "2026-11-26T08:58:07-05:00",
-  "finished_at": "2026-11-26T09:01:27-05:00",
-  "duration_s": 200.3,
+  "id": "20261126-180225",
+  "started_at": "2026-11-26T18:02:25-05:00",
+  "finished_at": "2026-11-26T18:07:05-05:00",
+  "duration_s": 279.9,
   "status": "parcial",
   "trigger": "schedule",
-  "new": 6,
+  "new": 12,
   "updated": 1,
-  "discarded": 22,
-  "sources_checked": 93,
-  "sources_ok": 85,
-  "run_url": "https://github.com/Daniel01010101010101/opportunities/actions/runs/45834244219"
+  "discarded": 55,
+  "sources_checked": 97,
+  "sources_ok": 89,
+  "run_url": "https://github.com/Daniel01010101010101/opportunities/actions/runs/45908461106"
  },
- "last_success_at": "2026-11-26T09:01:27-05:00",
- "last_new_opportunity_at": "2026-11-26T09:00:45-05:00",
+ "last_success_at": "2026-11-26T18:07:05-05:00",
+ "last_new_opportunity_at": "2026-11-26T18:06:34-05:00",
  "sources": {
   "configured": 219,
-  "checked_last_run": 93,
-  "ok_last_run": 85,
+  "checked_last_run": 97,
+  "ok_last_run": 89,
   "failed_last_run": 3,
   "discovered": 8,
   "with_errors": 4
  },
  "counts": {
-  "total": 168,
-  "active": 147,
-  "new_24h": 18,
+  "total": 180,
+  "active": 159,
+  "new_24h": 21,
   "verified": 40,
-  "pending": 78,
-  "unverifiable": 29,
+  "pending": 87,
+  "unverifiable": 32,
   "expired": 21,
   "withdrawn": 0,
   "archived": 0,
   "by_section": {
-   "concursos": 16,
-   "bonos": 14,
-   "ofertas": 27,
-   "estado": 90
+   "concursos": 17,
+   "bonos": 15,
+   "ofertas": 30,
+   "estado": 97
   },
   "by_priority": {
-   "alta": 47,
-   "media": 81,
+   "alta": 50,
+   "media": 90,
    "baja": 19
   },
-  "free": 92,
-  "expiring_7d": 17
+  "free": 98,
+  "expiring_7d": 19
  },
  "llm": {
   "enabled": false,

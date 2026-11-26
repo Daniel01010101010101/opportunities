@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-26T09:01:27-05:00",
- "count": 168,
+ "generated_at": "2026-11-26T18:07:05-05:00",
+ "count": 180,
  "items": [
   {
    "id": "op_824f3d5cb76a",
@@ -86,11 +86,11 @@
      "El enlace pertenece a un dominio oficial del organizador.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-25T16:50:28-05:00",
-    "link_ok": true,
+    "checked_at": "2026-11-26T18:06:55-05:00",
+    "link_ok": false,
     "official_domain": true,
     "terms_found": false,
-    "link_failures": 0
+    "link_failures": 1
    },
    "risk": {
     "level": "bajo",
@@ -121,7 +121,7 @@
    },
    "discovered_at": "2026-11-25T16:50:28-05:00",
    "updated_at": "2026-11-25T16:50:28-05:00",
-   "last_verified": "2026-11-25T16:50:28-05:00",
+   "last_verified": "2026-11-26T18:06:55-05:00",
    "last_seen": "2026-11-26T09:00:43-05:00",
    "history": [],
    "priority": {
@@ -399,7 +399,7 @@
      "Proviene de una fuente oficial configurada.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-25T06:29:32-05:00",
+    "checked_at": "2026-11-26T18:06:43-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -434,7 +434,7 @@
    },
    "discovered_at": "2026-11-19T17:17:13-05:00",
    "updated_at": "2026-11-19T17:17:13-05:00",
-   "last_verified": "2026-11-25T06:29:32-05:00",
+   "last_verified": "2026-11-26T18:06:43-05:00",
    "last_seen": "2026-11-20T08:04:54-05:00",
    "history": [],
    "priority": {
@@ -592,7 +592,7 @@
    "discovered_at": "2026-11-25T23:15:19-05:00",
    "updated_at": "2026-11-25T23:15:19-05:00",
    "last_verified": "2026-11-25T23:15:19-05:00",
-   "last_seen": "2026-11-26T09:00:43-05:00",
+   "last_seen": "2026-11-26T18:06:31-05:00",
    "history": [],
    "priority": {
     "score": 82,
@@ -868,7 +868,7 @@
      "Proviene de una fuente oficial configurada.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-25T06:29:40-05:00",
+    "checked_at": "2026-11-26T18:06:51-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -903,7 +903,7 @@
    },
    "discovered_at": "2026-11-18T16:18:44-05:00",
    "updated_at": "2026-11-18T16:18:44-05:00",
-   "last_verified": "2026-11-25T06:29:40-05:00",
+   "last_verified": "2026-11-26T18:06:51-05:00",
    "last_seen": "2026-11-26T09:00:43-05:00",
    "history": [],
    "priority": {
@@ -1025,7 +1025,7 @@
      "Proviene de una fuente oficial configurada.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-25T16:50:40-05:00",
+    "checked_at": "2026-11-26T18:07:05-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -1060,7 +1060,7 @@
    },
    "discovered_at": "2026-11-18T16:19:00-05:00",
    "updated_at": "2026-11-18T16:19:00-05:00",
-   "last_verified": "2026-11-25T16:50:40-05:00",
+   "last_verified": "2026-11-26T18:07:05-05:00",
    "last_seen": "2026-11-19T08:25:49-05:00",
    "history": [],
    "priority": {
@@ -1234,7 +1234,7 @@
    "discovered_at": "2026-11-20T16:55:46-05:00",
    "updated_at": "2026-11-24T19:52:50-05:00",
    "last_verified": "2026-11-25T16:51:05-05:00",
-   "last_seen": "2026-11-26T09:00:43-05:00",
+   "last_seen": "2026-11-26T18:06:31-05:00",
    "history": [
     {
      "at": "2026-11-24T19:52:50-05:00",
@@ -1410,7 +1410,7 @@
    "discovered_at": "2026-11-18T17:21:44-05:00",
    "updated_at": "2026-11-18T17:21:44-05:00",
    "last_verified": "2026-11-25T23:15:43-05:00",
-   "last_seen": "2026-11-26T09:00:43-05:00",
+   "last_seen": "2026-11-26T18:06:31-05:00",
    "history": [],
    "priority": {
     "score": 77,
@@ -1529,7 +1529,7 @@
      "Proviene de una fuente oficial configurada.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-25T06:29:31-05:00",
+    "checked_at": "2026-11-26T18:06:41-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -1564,7 +1564,7 @@
    },
    "discovered_at": "2026-11-19T17:17:12-05:00",
    "updated_at": "2026-11-19T17:17:12-05:00",
-   "last_verified": "2026-11-25T06:29:31-05:00",
+   "last_verified": "2026-11-26T18:06:41-05:00",
    "last_seen": "2026-11-20T08:04:54-05:00",
    "history": [],
    "priority": {
@@ -1839,7 +1839,7 @@
      "Proviene de una fuente oficial configurada.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-25T16:50:32-05:00",
+    "checked_at": "2026-11-26T18:06:58-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -1874,7 +1874,7 @@
    },
    "discovered_at": "2026-11-18T16:18:56-05:00",
    "updated_at": "2026-11-18T16:18:56-05:00",
-   "last_verified": "2026-11-25T16:50:32-05:00",
+   "last_verified": "2026-11-26T18:06:58-05:00",
    "last_seen": "2026-11-20T08:04:54-05:00",
    "history": [],
    "priority": {
@@ -2334,7 +2334,7 @@
      "Proviene de una fuente oficial configurada.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-25T16:50:25-05:00",
+    "checked_at": "2026-11-26T18:06:52-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -2369,8 +2369,8 @@
    },
    "discovered_at": "2026-11-25T16:50:25-05:00",
    "updated_at": "2026-11-25T16:50:25-05:00",
-   "last_verified": "2026-11-25T16:50:25-05:00",
-   "last_seen": "2026-11-25T23:15:19-05:00",
+   "last_verified": "2026-11-26T18:06:52-05:00",
+   "last_seen": "2026-11-26T18:06:31-05:00",
    "history": [
     {
      "at": "2026-11-26T09:01:27-05:00",
@@ -2709,7 +2709,7 @@
    "discovered_at": "2026-11-18T17:21:54-05:00",
    "updated_at": "2026-11-18T17:21:56-05:00",
    "last_verified": "2026-11-26T09:01:03-05:00",
-   "last_seen": "2026-11-25T06:28:59-05:00",
+   "last_seen": "2026-11-26T18:06:31-05:00",
    "history": [
     {
      "at": "2026-11-18T17:21:56-05:00",
@@ -2984,7 +2984,7 @@
      "Proviene de una fuente oficial configurada.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-25T16:50:38-05:00",
+    "checked_at": "2026-11-26T18:07:03-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -3019,8 +3019,8 @@
    },
    "discovered_at": "2026-11-18T16:18:58-05:00",
    "updated_at": "2026-11-18T16:18:58-05:00",
-   "last_verified": "2026-11-25T16:50:38-05:00",
-   "last_seen": "2026-11-25T23:15:19-05:00",
+   "last_verified": "2026-11-26T18:07:03-05:00",
+   "last_seen": "2026-11-26T18:06:31-05:00",
    "history": [],
    "priority": {
     "score": 75,
@@ -3151,7 +3151,7 @@
      "Tiene términos y condiciones consultables.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-25T16:50:37-05:00",
+    "checked_at": "2026-11-26T18:07:02-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": true,
@@ -3186,8 +3186,8 @@
    },
    "discovered_at": "2026-11-18T16:18:57-05:00",
    "updated_at": "2026-11-18T16:18:57-05:00",
-   "last_verified": "2026-11-25T16:50:37-05:00",
-   "last_seen": "2026-11-25T23:15:19-05:00",
+   "last_verified": "2026-11-26T18:07:02-05:00",
+   "last_seen": "2026-11-26T18:06:31-05:00",
    "history": [],
    "priority": {
     "score": 75,
@@ -3456,7 +3456,7 @@
      "Proviene de una fuente oficial configurada.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-25T06:29:30-05:00",
+    "checked_at": "2026-11-26T18:06:39-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -3491,7 +3491,7 @@
    },
    "discovered_at": "2026-11-19T17:17:10-05:00",
    "updated_at": "2026-11-19T17:17:10-05:00",
-   "last_verified": "2026-11-25T06:29:30-05:00",
+   "last_verified": "2026-11-26T18:06:39-05:00",
    "last_seen": "2026-11-20T08:04:54-05:00",
    "history": [],
    "priority": {
@@ -3761,7 +3761,7 @@
      "Proviene de una fuente oficial configurada.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-25T16:50:34-05:00",
+    "checked_at": "2026-11-26T18:07:00-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -3796,8 +3796,8 @@
    },
    "discovered_at": "2026-11-18T16:18:54-05:00",
    "updated_at": "2026-11-18T16:18:54-05:00",
-   "last_verified": "2026-11-25T16:50:34-05:00",
-   "last_seen": "2026-11-25T23:15:19-05:00",
+   "last_verified": "2026-11-26T18:07:00-05:00",
+   "last_seen": "2026-11-26T18:06:31-05:00",
    "history": [],
    "priority": {
     "score": 74,
@@ -3911,7 +3911,7 @@
      "Proviene de una fuente oficial configurada.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-25T16:50:33-05:00",
+    "checked_at": "2026-11-26T18:06:59-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -3946,8 +3946,8 @@
    },
    "discovered_at": "2026-11-18T16:18:53-05:00",
    "updated_at": "2026-11-18T16:18:53-05:00",
-   "last_verified": "2026-11-25T16:50:33-05:00",
-   "last_seen": "2026-11-25T23:15:19-05:00",
+   "last_verified": "2026-11-26T18:06:59-05:00",
+   "last_seen": "2026-11-26T18:06:31-05:00",
    "history": [],
    "priority": {
     "score": 74,
@@ -4066,7 +4066,7 @@
      "Proviene de una fuente oficial configurada.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-25T06:29:27-05:00",
+    "checked_at": "2026-11-26T18:06:38-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -4101,7 +4101,7 @@
    },
    "discovered_at": "2026-11-19T17:17:09-05:00",
    "updated_at": "2026-11-19T17:17:09-05:00",
-   "last_verified": "2026-11-25T06:29:27-05:00",
+   "last_verified": "2026-11-26T18:06:38-05:00",
    "last_seen": "2026-11-20T22:17:32-05:00",
    "history": [],
    "priority": {
@@ -4214,7 +4214,7 @@
      "Proviene de una fuente oficial configurada.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-25T16:50:31-05:00",
+    "checked_at": "2026-11-26T18:06:57-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -4255,8 +4255,8 @@
    },
    "discovered_at": "2026-11-18T16:18:46-05:00",
    "updated_at": "2026-11-18T16:18:46-05:00",
-   "last_verified": "2026-11-25T16:50:31-05:00",
-   "last_seen": "2026-11-25T23:15:19-05:00",
+   "last_verified": "2026-11-26T18:06:57-05:00",
+   "last_seen": "2026-11-26T18:06:31-05:00",
    "history": [],
    "priority": {
     "score": 73,
@@ -4893,7 +4893,7 @@
    "discovered_at": "2026-11-25T23:15:20-05:00",
    "updated_at": "2026-11-25T23:15:20-05:00",
    "last_verified": "2026-11-25T23:15:20-05:00",
-   "last_seen": "2026-11-26T09:00:43-05:00",
+   "last_seen": "2026-11-26T18:06:31-05:00",
    "history": [],
    "priority": {
     "score": 72,
@@ -5009,7 +5009,7 @@
      "Proviene de una fuente oficial configurada.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-25T16:50:35-05:00",
+    "checked_at": "2026-11-26T18:07:01-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -5050,8 +5050,8 @@
    },
    "discovered_at": "2026-11-18T16:18:49-05:00",
    "updated_at": "2026-11-18T16:18:49-05:00",
-   "last_verified": "2026-11-25T16:50:35-05:00",
-   "last_seen": "2026-11-25T23:15:19-05:00",
+   "last_verified": "2026-11-26T18:07:01-05:00",
+   "last_seen": "2026-11-26T18:06:31-05:00",
    "history": [],
    "priority": {
     "score": 72,
@@ -5167,7 +5167,7 @@
      "Proviene de una fuente oficial configurada.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-25T16:50:29-05:00",
+    "checked_at": "2026-11-26T18:06:56-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -5208,8 +5208,8 @@
    },
    "discovered_at": "2026-11-18T16:18:45-05:00",
    "updated_at": "2026-11-18T16:18:45-05:00",
-   "last_verified": "2026-11-25T16:50:29-05:00",
-   "last_seen": "2026-11-25T23:15:19-05:00",
+   "last_verified": "2026-11-26T18:06:56-05:00",
+   "last_seen": "2026-11-26T18:06:31-05:00",
    "history": [],
    "priority": {
     "score": 72,
@@ -5244,6 +5244,161 @@
       "points": 10,
       "max": 10,
       "note": "verificada"
+     },
+     "claridad": {
+      "points": 1,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
+   "id": "op_c7ec363b2567",
+   "title": "Regresa el subsidio de vivienda en Colombia: ¿a partir de cuándo y quiénes se pueden beneficiar?",
+   "summary": "Miles de familias colombianas podrían volver a acceder a subsidios para comprar vivienda VIP y VIS en 2027. El Gobierno anunció el regreso del programa. Conozca los detalles.",
+   "section": "estado",
+   "category": "vivienda",
+   "tags": [
+    "Vivienda"
+   ],
+   "mechanics": [],
+   "kind": "Programa público",
+   "organizer": {
+    "name": "Organizador no identificado",
+    "type": "desconocido",
+    "domain": null,
+    "known": false
+   },
+   "prize": {
+    "description": null,
+    "value_cop": null,
+    "value_text": null,
+    "value_source": null,
+    "winners": null,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "gratis_registro",
+    "label": "Gratis con registro",
+    "free": true,
+    "certainty": "inferido",
+    "requires_purchase": null,
+    "requires_registration": false,
+    "requires_social": false,
+    "requires_activity": false,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": null,
+    "notes": [
+     "No se encontró ninguna condición de compra en la fuente oficial (inferido, confírmalo en los términos)."
+    ]
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": null,
+    "age_text": null,
+    "coverage": "regional",
+    "cities": [
+     "Bucaramanga",
+     "Pereira",
+     "Palmira"
+    ]
+   },
+   "requirements": [
+    "En marzo de 2027, miles de familias colombianas podrán conocer la convocatoria y los requisitos para acceder nuevamente a los subsidios de Vivienda de Interés Prioritario (VIP) y Vivienda de Interés Social (VIS)."
+   ],
+   "documents": [],
+   "steps": [],
+   "steps_source": null,
+   "dates": {
+    "published": "2026-11-26T10:59:06-05:00",
+    "start": "2026-08-10",
+    "end": null,
+    "draw": null
+   },
+   "status": "sin_confirmar",
+   "gov": {
+    "program_status": "sin_confirmar",
+    "entity": "Organizador no identificado"
+   },
+   "offer": null,
+   "verification": {
+    "status": "pendiente",
+    "reasons": [
+     "Organizador no identificado con certeza."
+    ],
+    "checked_at": "2026-11-26T18:06:33-05:00",
+    "link_ok": null,
+    "official_domain": false,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://www.vanguardia.com/economia/2026/11/26/regresa-el-subsidio-de-vivienda-en-colombia-asi-lo-confirmo-el-ministerio/",
+    "participate": null,
+    "terms": null,
+    "official": null,
+    "image": "https://www.vanguardia.com/resizer/v2/JEI5X3AGHFAUNJTWHX3YILTSDU.jpg?auth=7456574d380ffc462fb030f29fd0520a4345383487a411bbcf3239527a811b6d&smart=true&width=1200&height=630&quality=70"
+   },
+   "sources": [
+    {
+     "url": "https://www.vanguardia.com/economia/2026/11/26/regresa-el-subsidio-de-vivienda-en-colombia-asi-lo-confirmo-el-ministerio/",
+     "name": "Noticias · subsidios de vivienda",
+     "type": "news",
+     "seen_at": "2026-11-26T18:06:33-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 0.89,
+    "model": null
+   },
+   "discovered_at": "2026-11-26T18:06:33-05:00",
+   "updated_at": "2026-11-26T18:06:33-05:00",
+   "last_verified": "2026-11-26T18:06:33-05:00",
+   "last_seen": "2026-11-26T18:06:33-05:00",
+   "history": [],
+   "priority": {
+    "score": 72,
+    "level": "alta",
+    "breakdown": {
+     "valor": {
+      "points": 18,
+      "max": 25,
+      "note": "valor no publicado (estimado por tipo de premio)"
+     },
+     "gratuidad": {
+      "points": 22,
+      "max": 25,
+      "note": "gratis_registro"
+     },
+     "facilidad": {
+      "points": 15,
+      "max": 15,
+      "note": "pocos requisitos"
+     },
+     "vigencia": {
+      "points": 5,
+      "max": 10,
+      "note": "sin fecha límite publicada"
+     },
+     "cobertura": {
+      "points": 5,
+      "max": 10,
+      "note": "regional"
+     },
+     "credibilidad": {
+      "points": 6,
+      "max": 10,
+      "note": "pendiente"
      },
      "claridad": {
       "points": 1,
@@ -5484,7 +5639,7 @@
      "Proviene de una fuente oficial configurada.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-25T16:50:27-05:00",
+    "checked_at": "2026-11-26T18:06:55-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -5519,8 +5674,8 @@
    },
    "discovered_at": "2026-11-25T16:50:27-05:00",
    "updated_at": "2026-11-25T16:50:27-05:00",
-   "last_verified": "2026-11-25T16:50:27-05:00",
-   "last_seen": "2026-11-26T09:00:43-05:00",
+   "last_verified": "2026-11-26T18:06:55-05:00",
+   "last_seen": "2026-11-26T18:06:31-05:00",
    "history": [],
    "priority": {
     "score": 72,
@@ -5640,7 +5795,7 @@
     "reasons": [
      "El enlace pertenece a un dominio oficial del organizador."
     ],
-    "checked_at": "2026-11-25T16:50:29-05:00",
+    "checked_at": "2026-11-26T18:06:56-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -5681,7 +5836,7 @@
    },
    "discovered_at": "2026-11-18T16:19:08-05:00",
    "updated_at": "2026-11-18T16:19:08-05:00",
-   "last_verified": "2026-11-25T16:50:29-05:00",
+   "last_verified": "2026-11-26T18:06:56-05:00",
    "last_seen": "2026-11-22T21:54:42-05:00",
    "history": [],
    "priority": {
@@ -6253,7 +6408,7 @@
      "Proviene de una fuente oficial configurada.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-25T16:50:26-05:00",
+    "checked_at": "2026-11-26T18:06:53-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -6288,8 +6443,8 @@
    },
    "discovered_at": "2026-11-25T16:50:26-05:00",
    "updated_at": "2026-11-25T16:50:26-05:00",
-   "last_verified": "2026-11-25T16:50:26-05:00",
-   "last_seen": "2026-11-26T09:00:43-05:00",
+   "last_verified": "2026-11-26T18:06:53-05:00",
+   "last_seen": "2026-11-26T18:06:31-05:00",
    "history": [],
    "priority": {
     "score": 71,
@@ -6453,7 +6608,7 @@
    "discovered_at": "2026-11-18T16:19:12-05:00",
    "updated_at": "2026-11-18T16:19:12-05:00",
    "last_verified": "2026-11-25T23:15:33-05:00",
-   "last_seen": "2026-11-25T06:28:59-05:00",
+   "last_seen": "2026-11-26T18:06:31-05:00",
    "history": [],
    "priority": {
     "score": 71,
@@ -6753,7 +6908,7 @@
    "discovered_at": "2026-11-25T23:15:21-05:00",
    "updated_at": "2026-11-25T23:15:21-05:00",
    "last_verified": "2026-11-25T23:15:21-05:00",
-   "last_seen": "2026-11-26T09:00:43-05:00",
+   "last_seen": "2026-11-26T18:06:31-05:00",
    "history": [],
    "priority": {
     "score": 71,
@@ -6869,7 +7024,7 @@
      "Proviene de una fuente oficial configurada.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-25T16:50:39-05:00",
+    "checked_at": "2026-11-26T18:07:04-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -6904,7 +7059,7 @@
    },
    "discovered_at": "2026-11-18T16:18:58-05:00",
    "updated_at": "2026-11-18T16:18:58-05:00",
-   "last_verified": "2026-11-25T16:50:39-05:00",
+   "last_verified": "2026-11-26T18:07:04-05:00",
    "last_seen": "2026-11-19T08:25:49-05:00",
    "history": [],
    "priority": {
@@ -7094,6 +7249,319 @@
       "points": 10,
       "max": 10,
       "note": "verificada"
+     },
+     "claridad": {
+      "points": 1,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
+   "id": "op_a9bc875f6df7",
+   "title": "Gobierno anuncia subsidio de vivienda que llegaría en 2027: Mi Casa Milagro",
+   "summary": "La iniciativa contempla ayudas de hasta 30 salarios mínimos para facilitar la compra de vivienda nueva, pero aún faltan por definir los requisitos, los beneficiarios y el proceso de inscripción.",
+   "section": "estado",
+   "category": "vivienda",
+   "tags": [
+    "Convocatorias públicas",
+    "Vivienda"
+   ],
+   "mechanics": [],
+   "kind": "Programa público",
+   "organizer": {
+    "name": "Gobierno",
+    "type": "desconocido",
+    "domain": null,
+    "known": false
+   },
+   "prize": {
+    "description": null,
+    "value_cop": null,
+    "value_text": null,
+    "value_source": null,
+    "winners": null,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "gratis_registro",
+    "label": "Gratis con registro",
+    "free": true,
+    "certainty": "inferido",
+    "requires_purchase": null,
+    "requires_registration": true,
+    "requires_social": false,
+    "requires_activity": false,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": null,
+    "notes": [
+     "No se encontró ninguna condición de compra en la fuente oficial (inferido, confírmalo en los términos)."
+    ]
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": null,
+    "age_text": null,
+    "coverage": "desconocida",
+    "cities": []
+   },
+   "requirements": [
+    "Sin embargo, todavía no están definidos los requisitos para acceder a Mi Casa Milagro, los criterios de priorización, los límites de ingresos, las condiciones relacionadas con el Sisbén ni el proceso de inscripción.",
+    "El Ministerio deberá establecer estas condiciones y precisar cuántos subsidios serán entregados y cuál será el presupuesto destinado específicamente a la iniciativa."
+   ],
+   "documents": [
+    "Certificado SISBÉN"
+   ],
+   "steps": [],
+   "steps_source": null,
+   "dates": {
+    "published": "2026-11-26T12:35:49-05:00",
+    "start": "2026-11-26",
+    "end": null,
+    "draw": null
+   },
+   "status": "activa",
+   "gov": {
+    "program_status": "abierta",
+    "entity": "Gobierno"
+   },
+   "offer": null,
+   "verification": {
+    "status": "pendiente",
+    "reasons": [
+     "Organizador no identificado con certeza."
+    ],
+    "checked_at": "2026-11-26T18:06:33-05:00",
+    "link_ok": null,
+    "official_domain": false,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://www.bluradio.com/economia/gobierno-anuncia-subsidio-de-vivienda-que-llegaria-en-2027-mi-casa-milagro-rg10",
+    "participate": null,
+    "terms": null,
+    "official": null,
+    "image": "https://caracoltv.brightspotcdn.com/dims4/default/a8fcc32/2147483647/strip/true/crop/1280x720+0+0/resize/1280x720!/format/webp/quality/75/?url=https%3A%2F%2Fcaracol-brightspot.s3.us-west-2.amazonaws.com%2F92%2F0d%2F061f14f0419c86d7562c4f64451b%2Fsubsidio-de-vivienda-en-colombia.jpg"
+   },
+   "sources": [
+    {
+     "url": "https://www.bluradio.com/economia/gobierno-anuncia-subsidio-de-vivienda-que-llegaria-en-2027-mi-casa-milagro-rg10",
+     "name": "Noticias · subsidios de vivienda",
+     "type": "news",
+     "seen_at": "2026-11-26T18:06:33-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 0.7,
+    "model": null
+   },
+   "discovered_at": "2026-11-26T18:06:33-05:00",
+   "updated_at": "2026-11-26T18:06:33-05:00",
+   "last_verified": "2026-11-26T18:06:33-05:00",
+   "last_seen": "2026-11-26T18:06:33-05:00",
+   "history": [],
+   "priority": {
+    "score": 70,
+    "level": "alta",
+    "breakdown": {
+     "valor": {
+      "points": 18,
+      "max": 25,
+      "note": "valor no publicado (estimado por tipo de premio)"
+     },
+     "gratuidad": {
+      "points": 22,
+      "max": 25,
+      "note": "gratis_registro"
+     },
+     "facilidad": {
+      "points": 12,
+      "max": 15,
+      "note": "registro"
+     },
+     "vigencia": {
+      "points": 5,
+      "max": 10,
+      "note": "sin fecha límite publicada"
+     },
+     "cobertura": {
+      "points": 6,
+      "max": 10,
+      "note": "desconocida"
+     },
+     "credibilidad": {
+      "points": 6,
+      "max": 10,
+      "note": "pendiente"
+     },
+     "claridad": {
+      "points": 1,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
+   "id": "op_c37d3438d35c",
+   "title": "Gobierno revive los subsidios de vivienda con 'Mi Casa Milagro': convocatoria se proyecta para marzo de 2027",
+   "summary": "El Gobierno prepara el regreso de los subsidios de vivienda con Mi Casa Milagro. Conozca cuándo sería la convocatoria, prevista para marzo de 2027.",
+   "section": "estado",
+   "category": "vivienda",
+   "tags": [
+    "Convocatorias públicas",
+    "Vivienda"
+   ],
+   "mechanics": [],
+   "kind": "Programa público",
+   "organizer": {
+    "name": "Organizador no identificado",
+    "type": "desconocido",
+    "domain": null,
+    "known": false
+   },
+   "prize": {
+    "description": null,
+    "value_cop": 1080000,
+    "value_text": "$1,08 millones",
+    "value_source": "noticia",
+    "winners": null,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "gratis_registro",
+    "label": "Gratis con registro",
+    "free": true,
+    "certainty": "inferido",
+    "requires_purchase": null,
+    "requires_registration": false,
+    "requires_social": true,
+    "requires_activity": true,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": null,
+    "notes": [
+     "Pide interactuar en redes sociales (seguir, comentar o etiquetar).",
+     "No se encontró ninguna condición de compra en la fuente oficial (inferido, confírmalo en los términos)."
+    ]
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": null,
+    "age_text": null,
+    "coverage": "bogota",
+    "cities": [
+     "Bogotá",
+     "Cartagena"
+    ]
+   },
+   "requirements": [
+    "¿Cómo afiliarse al Sisbén por Internet? Paso a paso para solicitar 'online' la encuesta ¿Cuáles serán los requisitos para acceder al subsidio? Por ahora, el Gobierno no ha publicado los requisitos definitivos para…"
+   ],
+   "documents": [
+    "Certificado SISBÉN"
+   ],
+   "steps": [],
+   "steps_source": null,
+   "dates": {
+    "published": "2026-11-26T15:15:37-05:00",
+    "start": null,
+    "end": "2026-11-26",
+    "draw": null
+   },
+   "status": "activa",
+   "gov": {
+    "program_status": "abierta",
+    "entity": "Organizador no identificado"
+   },
+   "offer": null,
+   "verification": {
+    "status": "pendiente",
+    "reasons": [
+     "Organizador no identificado con certeza."
+    ],
+    "checked_at": "2026-11-26T18:06:32-05:00",
+    "link_ok": null,
+    "official_domain": false,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://www.rtvcnoticias.com/economia/finanzas-personales/mi-casa-milagro-subsidios-vivienda-2027",
+    "participate": "https://www.rtvcnoticias.com/colombia/como-afiliarse-al-sisben-por-internet-paso-paso-para-solicitar-online-la-encuesta",
+    "terms": null,
+    "official": null,
+    "image": "https://rtvc-informativo.s3.amazonaws.com/assets/public/2026-11/mi-casa-milagro-subsidios-vivienda-2027.jpg"
+   },
+   "sources": [
+    {
+     "url": "https://www.rtvcnoticias.com/economia/finanzas-personales/mi-casa-milagro-subsidios-vivienda-2027",
+     "name": "Noticias · subsidios de vivienda",
+     "type": "news",
+     "seen_at": "2026-11-26T18:06:32-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 1.0,
+    "model": null
+   },
+   "discovered_at": "2026-11-26T18:06:32-05:00",
+   "updated_at": "2026-11-26T18:06:32-05:00",
+   "last_verified": "2026-11-26T18:06:32-05:00",
+   "last_seen": "2026-11-26T18:06:32-05:00",
+   "history": [],
+   "priority": {
+    "score": 70,
+    "level": "alta",
+    "breakdown": {
+     "valor": {
+      "points": 12,
+      "max": 25,
+      "note": "valor publicado 1.080.000 COP"
+     },
+     "gratuidad": {
+      "points": 22,
+      "max": 25,
+      "note": "gratis_registro"
+     },
+     "facilidad": {
+      "points": 10,
+      "max": 15,
+      "note": "actividad, redes sociales"
+     },
+     "vigencia": {
+      "points": 9,
+      "max": 10,
+      "note": "vence en 0 día(s): revisar ya"
+     },
+     "cobertura": {
+      "points": 10,
+      "max": 10,
+      "note": "bogota"
+     },
+     "credibilidad": {
+      "points": 6,
+      "max": 10,
+      "note": "pendiente"
      },
      "claridad": {
       "points": 1,
@@ -7489,7 +7957,7 @@
      "Proviene de una fuente oficial configurada.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-25T16:50:34-05:00",
+    "checked_at": "2026-11-26T18:07:00-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -7530,8 +7998,8 @@
    },
    "discovered_at": "2026-11-18T16:18:47-05:00",
    "updated_at": "2026-11-18T16:18:47-05:00",
-   "last_verified": "2026-11-25T16:50:34-05:00",
-   "last_seen": "2026-11-25T23:15:19-05:00",
+   "last_verified": "2026-11-26T18:07:00-05:00",
+   "last_seen": "2026-11-26T18:06:31-05:00",
    "history": [],
    "priority": {
     "score": 69,
@@ -8898,7 +9366,7 @@
     "reasons": [
      "Información insuficiente: sin organizador identificado, fechas ni enlace oficial."
     ],
-    "checked_at": "2026-11-25T06:29:28-05:00",
+    "checked_at": "2026-11-26T18:06:38-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -8933,7 +9401,7 @@
    },
    "discovered_at": "2026-11-20T16:55:54-05:00",
    "updated_at": "2026-11-20T16:55:54-05:00",
-   "last_verified": "2026-11-25T06:29:28-05:00",
+   "last_verified": "2026-11-26T18:06:38-05:00",
    "last_seen": "2026-11-21T21:19:35-05:00",
    "history": [],
    "priority": {
@@ -9389,7 +9857,7 @@
    "discovered_at": "2026-11-18T17:21:45-05:00",
    "updated_at": "2026-11-18T17:21:45-05:00",
    "last_verified": "2026-11-25T23:15:41-05:00",
-   "last_seen": "2026-11-26T09:00:43-05:00",
+   "last_seen": "2026-11-26T18:06:31-05:00",
    "history": [],
    "priority": {
     "score": 68,
@@ -9925,6 +10393,184 @@
    }
   },
   {
+   "id": "op_36e7c2e8cac6",
+   "title": "Gobierno anuncia el regreso de los subsidios de vivienda en 2027 bajo el programa Mi Casa Milagro",
+   "summary": "El Gobierno anunció el regreso de los subsidios de vivienda con Mi Casa Milagro, un programa que reemplazará a Mi Casa Ya y se proyecta para 2027.",
+   "section": "estado",
+   "category": "vivienda",
+   "tags": [
+    "Vivienda"
+   ],
+   "mechanics": [],
+   "kind": "Programa público",
+   "organizer": {
+    "name": "Gobierno",
+    "type": "desconocido",
+    "domain": null,
+    "known": false
+   },
+   "prize": {
+    "description": null,
+    "value_cop": null,
+    "value_text": null,
+    "value_source": null,
+    "winners": null,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "gratis_registro",
+    "label": "Gratis con registro",
+    "free": true,
+    "certainty": "explicito",
+    "requires_purchase": false,
+    "requires_registration": false,
+    "requires_social": false,
+    "requires_activity": false,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": null,
+    "notes": [
+     "La fuente lo indica: «sin costo»."
+    ]
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": null,
+    "age_text": null,
+    "coverage": "regional",
+    "cities": [
+     "Bogotá",
+     "Medellín",
+     "Barranquilla",
+     "Cartagena"
+    ]
+   },
+   "requirements": [
+    "\"Preparémonos, porque el año entrante viene la posibilidad de que en los 32 departamentos del país la gente pueda comenzar a soñar con tener su casa y la posibilidad de tener un subsidio.",
+    "¿puede el Gobierno cumplir su promesa de un “país de propietarios”? \"Les digo a los colombianos que vuelvan a creer y tengan el deseo de tener una vivienda propia."
+   ],
+   "documents": [],
+   "steps": [],
+   "steps_source": null,
+   "dates": {
+    "published": "2026-11-26T09:58:02-05:00",
+    "start": "2026-11-27",
+    "end": null,
+    "draw": null
+   },
+   "status": "sin_confirmar",
+   "gov": {
+    "program_status": "sin_confirmar",
+    "entity": "Gobierno"
+   },
+   "offer": null,
+   "verification": {
+    "status": "no_verificable",
+    "reasons": [
+     "Información insuficiente: sin organizador identificado, fechas ni enlace oficial."
+    ],
+    "checked_at": "2026-11-26T18:06:34-05:00",
+    "link_ok": null,
+    "official_domain": false,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://cambiocolombia.com/mi-casa-milagro-regreso-subsidios-vivienda-2027",
+    "participate": null,
+    "terms": null,
+    "official": null,
+    "image": "https://d1x0qnenkl91hi.cloudfront.net/uploads/crops/full-width/dondon_0381e48e82_full-width.webp"
+   },
+   "sources": [
+    {
+     "url": "https://www.businesscol.com/el-gobierno-anuncia-regreso-de-subsidios-de-vivienda-en-2027-con-programa-mi-casa-milagro/",
+     "name": "Noticias · subsidios de vivienda",
+     "type": "news",
+     "seen_at": "2026-11-26T18:06:33-05:00"
+    },
+    {
+     "url": "https://cambiocolombia.com/mi-casa-milagro-regreso-subsidios-vivienda-2027",
+     "name": "Noticias · subsidios de vivienda",
+     "type": "news",
+     "seen_at": "2026-11-26T18:06:34-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 1.0,
+    "model": null
+   },
+   "discovered_at": "2026-11-26T18:06:33-05:00",
+   "updated_at": "2026-11-26T18:06:34-05:00",
+   "last_verified": "2026-11-26T18:06:34-05:00",
+   "last_seen": "2026-11-26T18:06:34-05:00",
+   "history": [
+    {
+     "at": "2026-11-26T18:06:34-05:00",
+     "field": "status",
+     "label": "Estado",
+     "from": "proxima",
+     "to": "sin_confirmar"
+    },
+    {
+     "at": "2026-11-26T18:06:34-05:00",
+     "field": "verification.status",
+     "label": "Verificación",
+     "from": "pendiente",
+     "to": "no_verificable"
+    }
+   ],
+   "priority": {
+    "score": 67,
+    "level": "media",
+    "breakdown": {
+     "valor": {
+      "points": 18,
+      "max": 25,
+      "note": "valor no publicado (estimado por tipo de premio)"
+     },
+     "gratuidad": {
+      "points": 22,
+      "max": 25,
+      "note": "gratis_registro"
+     },
+     "facilidad": {
+      "points": 14,
+      "max": 15,
+      "note": "pocos requisitos"
+     },
+     "vigencia": {
+      "points": 5,
+      "max": 10,
+      "note": "sin fecha límite publicada"
+     },
+     "cobertura": {
+      "points": 5,
+      "max": 10,
+      "note": "regional"
+     },
+     "credibilidad": {
+      "points": 2,
+      "max": 10,
+      "note": "no_verificable"
+     },
+     "claridad": {
+      "points": 1,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
    "id": "op_7817f6d13ddc",
    "title": "Renta Ciudadana en Cali: hogares beneficiarios tienen plazo hasta el 28 de noviembre de 2026 para cobrar subsidio",
    "summary": "5.551 hogares en Cali deben reclamar Renta Ciudadana antes del 28 de noviembre de 2026 o perderán el subsidio definitivamente.",
@@ -10150,7 +10796,7 @@
      "El enlace respondió correctamente en la última verificación.",
      "Falta confirmar condiciones en la página oficial."
     ],
-    "checked_at": "2026-11-25T16:50:37-05:00",
+    "checked_at": "2026-11-26T18:07:03-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -10185,8 +10831,8 @@
    },
    "discovered_at": "2026-11-18T16:18:52-05:00",
    "updated_at": "2026-11-18T16:18:52-05:00",
-   "last_verified": "2026-11-25T16:50:37-05:00",
-   "last_seen": "2026-11-25T23:15:19-05:00",
+   "last_verified": "2026-11-26T18:07:03-05:00",
+   "last_seen": "2026-11-26T18:06:31-05:00",
    "history": [],
    "priority": {
     "score": 67,
@@ -12234,7 +12880,7 @@
    "discovered_at": "2026-11-18T16:19:08-05:00",
    "updated_at": "2026-11-18T16:19:08-05:00",
    "last_verified": "2026-11-25T16:50:49-05:00",
-   "last_seen": "2026-11-25T06:28:59-05:00",
+   "last_seen": "2026-11-26T18:06:31-05:00",
    "history": [],
    "priority": {
     "score": 62,
@@ -12870,7 +13516,7 @@
    "discovered_at": "2026-11-18T16:19:11-05:00",
    "updated_at": "2026-11-18T16:19:11-05:00",
    "last_verified": "2026-11-25T23:15:35-05:00",
-   "last_seen": "2026-11-25T06:28:59-05:00",
+   "last_seen": "2026-11-26T18:06:31-05:00",
    "history": [],
    "priority": {
     "score": 62,
@@ -13767,8 +14413,8 @@
     "reasons": [
      "Información insuficiente: sin organizador identificado, fechas ni enlace oficial."
     ],
-    "checked_at": "2026-11-25T16:50:26-05:00",
-    "link_ok": null,
+    "checked_at": "2026-11-26T18:06:53-05:00",
+    "link_ok": true,
     "official_domain": false,
     "terms_found": false,
     "link_failures": 0
@@ -13802,7 +14448,7 @@
    },
    "discovered_at": "2026-11-25T16:50:26-05:00",
    "updated_at": "2026-11-25T16:50:26-05:00",
-   "last_verified": "2026-11-25T16:50:26-05:00",
+   "last_verified": "2026-11-26T18:06:53-05:00",
    "last_seen": "2026-11-25T16:50:26-05:00",
    "history": [],
    "priority": {
@@ -13962,7 +14608,7 @@
    "discovered_at": "2026-11-18T16:18:58-05:00",
    "updated_at": "2026-11-18T16:18:58-05:00",
    "last_verified": "2026-11-25T16:50:46-05:00",
-   "last_seen": "2026-11-26T09:00:43-05:00",
+   "last_seen": "2026-11-26T18:06:31-05:00",
    "history": [],
    "priority": {
     "score": 60,
@@ -14232,7 +14878,7 @@
     "reasons": [
      "Organizador no identificado con certeza."
     ],
-    "checked_at": "2026-11-25T06:29:42-05:00",
+    "checked_at": "2026-11-26T18:06:52-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -14267,7 +14913,7 @@
    },
    "discovered_at": "2026-11-24T10:01:00-05:00",
    "updated_at": "2026-11-24T10:01:00-05:00",
-   "last_verified": "2026-11-25T06:29:42-05:00",
+   "last_verified": "2026-11-26T18:06:52-05:00",
    "last_seen": "2026-11-24T10:01:00-05:00",
    "history": [],
    "priority": {
@@ -14462,6 +15108,177 @@
    }
   },
   {
+   "id": "op_d08827be5945",
+   "title": "Abren convocatoria a mujeres para obtener su licencia de conducción; requisitos y cómo participar",
+   "summary": "Son 50 cupos para que las personas interesadas en acceder al permiso de conducción en sus diferentes categorías.",
+   "section": "estado",
+   "category": "convocatorias",
+   "tags": [
+    "Carros",
+    "Convocatorias públicas",
+    "Motos"
+   ],
+   "mechanics": [],
+   "kind": "Programa público",
+   "organizer": {
+    "name": "Organizador no identificado",
+    "type": "desconocido",
+    "domain": null,
+    "known": false
+   },
+   "prize": {
+    "description": null,
+    "value_cop": null,
+    "value_text": null,
+    "value_source": null,
+    "winners": 50,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "gratis_registro",
+    "label": "Gratis con registro",
+    "free": true,
+    "certainty": "inferido",
+    "requires_purchase": null,
+    "requires_registration": true,
+    "requires_social": false,
+    "requires_activity": true,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": null,
+    "notes": [
+     "No se encontró ninguna condición de compra en la fuente oficial (inferido, confírmalo en los términos)."
+    ]
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": null,
+    "age_text": null,
+    "coverage": "bogota",
+    "cities": [
+     "Bogotá"
+    ]
+   },
+   "requirements": [
+    "Tener al menos 18 años.",
+    "Portar consigo su documento de identidad.",
+    "Llevar un recibo de servicio público para la verificación de residencia o arraigo.",
+    "Saber leer y escribir o presentar título de bachiller.",
+    "Contar con el certificado del SIMIT con una antigüedad no mayor a 30 días (paz y salvo por multas e infracciones).",
+    "Quienes deseen sacar la licencia A2 (motocicleta) deben saber manejar bicicleta.",
+    "Presentar examen médico preocupacional con una antigüedad no mayor a tres meses.",
+    "Llevar la carta de manifestación de interés firmada físicamente, que se puede descargar escaneando el código QR de las piezas oficiales."
+   ],
+   "documents": [
+    "Documento de identidad (cédula)",
+    "RUT",
+    "Certificado laboral",
+    "Certificado de residencia"
+   ],
+   "steps": [
+    "Viernes 27 de noviembre : de 8:00 a.m. a 12:00 m. y de 1:00 p.m. a 4:00 p.m.",
+    "Sábado 28 de noviembre : de 8:00 a.m. a 12:00 m."
+   ],
+   "steps_source": "fuente_secundaria",
+   "dates": {
+    "published": "2026-11-26T17:21:04-05:00",
+    "start": null,
+    "end": null,
+    "draw": null
+   },
+   "status": "sin_confirmar",
+   "gov": {
+    "program_status": "sin_confirmar",
+    "entity": "Organizador no identificado"
+   },
+   "offer": null,
+   "verification": {
+    "status": "no_verificable",
+    "reasons": [
+     "Tiene términos y condiciones consultables.",
+     "Información insuficiente: sin organizador identificado, fechas ni enlace oficial."
+    ],
+    "checked_at": "2026-11-26T18:06:32-05:00",
+    "link_ok": null,
+    "official_domain": false,
+    "terms_found": true,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://www.tropicanafm.com/2026/abren-convocatoria-a-mujeres-para-obtener-su-licencia-de-conduccion-requisitos-y-como-participar-481780.html",
+    "participate": null,
+    "terms": "https://www.tropicanafm.com/2026/existe-una-edad-maxima-para-manejar-carro-o-moto-en-colombia-condiciones-para-renovar-la-licencia-467620.html",
+    "official": null,
+    "image": "https://www.tropicanafm.com/wp-content/uploads/2026/11/26/26112026-Convocatoria-licencia-conduccion-mujeres.jpg"
+   },
+   "sources": [
+    {
+     "url": "https://www.tropicanafm.com/2026/abren-convocatoria-a-mujeres-para-obtener-su-licencia-de-conduccion-requisitos-y-como-participar-481780.html",
+     "name": "Tropicana (feed)",
+     "type": "news",
+     "seen_at": "2026-11-26T18:06:32-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 1.0,
+    "model": null
+   },
+   "discovered_at": "2026-11-26T18:06:32-05:00",
+   "updated_at": "2026-11-26T18:06:32-05:00",
+   "last_verified": "2026-11-26T18:06:32-05:00",
+   "last_seen": "2026-11-26T18:06:32-05:00",
+   "history": [],
+   "priority": {
+    "score": 59,
+    "level": "media",
+    "breakdown": {
+     "valor": {
+      "points": 9,
+      "max": 25,
+      "note": "valor no publicado"
+     },
+     "gratuidad": {
+      "points": 22,
+      "max": 25,
+      "note": "gratis_registro"
+     },
+     "facilidad": {
+      "points": 6,
+      "max": 15,
+      "note": "registro, actividad"
+     },
+     "vigencia": {
+      "points": 5,
+      "max": 10,
+      "note": "sin fecha límite publicada"
+     },
+     "cobertura": {
+      "points": 10,
+      "max": 10,
+      "note": "bogota"
+     },
+     "credibilidad": {
+      "points": 2,
+      "max": 10,
+      "note": "no_verificable"
+     },
+     "claridad": {
+      "points": 5,
+      "max": 5,
+      "note": "términos publicados"
+     }
+    }
+   }
+  },
+  {
    "id": "op_f61d4f2a5ea6",
    "title": "Próximas fechas ICFES 2027 confirmadas: ¿cuándo abren inscripciones pruebas Saber 11 calendario B?",
    "summary": "Le contamos las fechas claves para el desarrollo de las cuatro pruebas ICFES que se van a realizar durante el 2027.",
@@ -14533,8 +15350,8 @@
     "reasons": [
      "Organizador no identificado con certeza."
     ],
-    "checked_at": "2026-11-25T16:50:26-05:00",
-    "link_ok": null,
+    "checked_at": "2026-11-26T18:06:54-05:00",
+    "link_ok": true,
     "official_domain": false,
     "terms_found": false,
     "link_failures": 0
@@ -14568,7 +15385,7 @@
    },
    "discovered_at": "2026-11-25T16:50:26-05:00",
    "updated_at": "2026-11-25T16:50:26-05:00",
-   "last_verified": "2026-11-25T16:50:26-05:00",
+   "last_verified": "2026-11-26T18:06:54-05:00",
    "last_seen": "2026-11-25T16:50:26-05:00",
    "history": [],
    "priority": {
@@ -14834,8 +15651,8 @@
     "reasons": [
      "Falta confirmar condiciones en la página oficial."
     ],
-    "checked_at": "2026-11-25T16:50:25-05:00",
-    "link_ok": null,
+    "checked_at": "2026-11-26T18:06:53-05:00",
+    "link_ok": true,
     "official_domain": false,
     "terms_found": false,
     "link_failures": 0
@@ -14869,7 +15686,7 @@
    },
    "discovered_at": "2026-11-25T16:50:25-05:00",
    "updated_at": "2026-11-25T16:50:25-05:00",
-   "last_verified": "2026-11-25T16:50:25-05:00",
+   "last_verified": "2026-11-26T18:06:53-05:00",
    "last_seen": "2026-11-25T16:50:25-05:00",
    "history": [],
    "priority": {
@@ -14983,7 +15800,7 @@
     "reasons": [
      "Organizador no identificado con certeza."
     ],
-    "checked_at": "2026-11-25T06:29:33-05:00",
+    "checked_at": "2026-11-26T18:06:44-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -15018,7 +15835,7 @@
    },
    "discovered_at": "2026-11-19T17:17:10-05:00",
    "updated_at": "2026-11-19T17:17:10-05:00",
-   "last_verified": "2026-11-25T06:29:33-05:00",
+   "last_verified": "2026-11-26T18:06:44-05:00",
    "last_seen": "2026-11-19T17:17:10-05:00",
    "history": [],
    "priority": {
@@ -15297,7 +16114,7 @@
      "El enlace respondió correctamente en la última verificación.",
      "Falta confirmar condiciones en la página oficial."
     ],
-    "checked_at": "2026-11-25T16:50:30-05:00",
+    "checked_at": "2026-11-26T18:06:56-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -15332,8 +16149,8 @@
    },
    "discovered_at": "2026-11-18T16:18:44-05:00",
    "updated_at": "2026-11-18T16:18:44-05:00",
-   "last_verified": "2026-11-25T16:50:30-05:00",
-   "last_seen": "2026-11-26T09:00:43-05:00",
+   "last_verified": "2026-11-26T18:06:56-05:00",
+   "last_seen": "2026-11-26T18:06:31-05:00",
    "history": [],
    "priority": {
     "score": 57,
@@ -15499,7 +16316,7 @@
    "discovered_at": "2026-11-18T16:19:08-05:00",
    "updated_at": "2026-11-18T16:19:08-05:00",
    "last_verified": "2026-11-25T16:50:53-05:00",
-   "last_seen": "2026-11-25T06:28:59-05:00",
+   "last_seen": "2026-11-26T18:06:31-05:00",
    "history": [],
    "priority": {
     "score": 57,
@@ -16259,7 +17076,7 @@
      "El enlace respondió correctamente en la última verificación.",
      "Falta confirmar condiciones en la página oficial."
     ],
-    "checked_at": "2026-11-25T06:29:38-05:00",
+    "checked_at": "2026-11-26T18:06:49-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -16294,8 +17111,8 @@
    },
    "discovered_at": "2026-11-18T16:18:40-05:00",
    "updated_at": "2026-11-18T16:18:40-05:00",
-   "last_verified": "2026-11-25T06:29:38-05:00",
-   "last_seen": "2026-11-26T09:00:43-05:00",
+   "last_verified": "2026-11-26T18:06:49-05:00",
+   "last_seen": "2026-11-26T18:06:31-05:00",
    "history": [],
    "priority": {
     "score": 55,
@@ -16436,7 +17253,7 @@
      "El enlace respondió correctamente en la última verificación.",
      "Falta confirmar condiciones en la página oficial."
     ],
-    "checked_at": "2026-11-25T06:29:33-05:00",
+    "checked_at": "2026-11-26T18:06:44-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -16471,8 +17288,8 @@
    },
    "discovered_at": "2026-11-18T16:18:36-05:00",
    "updated_at": "2026-11-18T16:18:36-05:00",
-   "last_verified": "2026-11-25T06:29:33-05:00",
-   "last_seen": "2026-11-26T09:00:43-05:00",
+   "last_verified": "2026-11-26T18:06:44-05:00",
+   "last_seen": "2026-11-26T18:06:31-05:00",
    "history": [],
    "priority": {
     "score": 55,
@@ -16510,6 +17327,156 @@
      },
      "claridad": {
       "points": 3,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
+   "id": "op_403c679e44de",
+   "title": "Ellas presentan, el programa que permitió que más de 250 mujeres participaran en la producción de los conciertos de Silvana Estrada en…",
+   "summary": "Ellas presentan busca transformar la industria de la música en vivo en Colombia produciendo espectáculos liderados e integrados en su totalidad por mujeres, más allá de lo que exige la ley",
+   "section": "concursos",
+   "category": "entradas",
+   "tags": [
+    "Entradas a eventos"
+   ],
+   "mechanics": [],
+   "kind": "Concurso",
+   "organizer": {
+    "name": "Claro Colombia",
+    "type": "telecom",
+    "domain": "claro.com.co",
+    "known": true
+   },
+   "prize": {
+    "description": null,
+    "value_cop": 5000000,
+    "value_text": "$5 millones",
+    "value_source": "noticia",
+    "winners": null,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "desconocido",
+    "label": "Costo sin confirmar",
+    "free": false,
+    "certainty": "desconocido",
+    "requires_purchase": null,
+    "requires_registration": false,
+    "requires_social": false,
+    "requires_activity": false,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": null,
+    "notes": []
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": null,
+    "age_text": null,
+    "coverage": "regional",
+    "cities": [
+     "Bogotá",
+     "Medellín",
+     "Cartagena"
+    ]
+   },
+   "requirements": [
+    "“Sería muy bueno” El partido Centro Democrático deberá definir sus apuestas para las elecciones territoriales de 2027."
+   ],
+   "documents": [],
+   "steps": [],
+   "steps_source": null,
+   "dates": {
+    "published": "2026-11-26T17:32:07-05:00",
+    "start": null,
+    "end": null,
+    "draw": null
+   },
+   "status": "sin_confirmar",
+   "gov": null,
+   "offer": null,
+   "verification": {
+    "status": "pendiente",
+    "reasons": [
+     "Falta confirmar condiciones en la página oficial."
+    ],
+    "checked_at": "2026-11-26T18:06:32-05:00",
+    "link_ok": null,
+    "official_domain": false,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://www.infobae.com/colombia/2026/11/26/ellas-presentan-el-programa-que-permitio-que-mas-de-250-mujeres-participaran-en-la-produccion-de-los-conciertos-de-silvana-estrada-en-bogota/",
+    "participate": null,
+    "terms": null,
+    "official": null,
+    "image": "https://www.infobae.com/resizer/v2/VEOKOJMIIZAHJIN5RSB5MCISWI.jpg?auth=8cbdb2c9f1b1f84edd594f4d39558e490880e88448a5e5443d3fd8c933a5b647&smart=true&width=1200&height=630&quality=85"
+   },
+   "sources": [
+    {
+     "url": "https://www.infobae.com/colombia/2026/11/26/ellas-presentan-el-programa-que-permitio-que-mas-de-250-mujeres-participaran-en-la-produccion-de-los-conciertos-de-silvana-estrada-en-bogota/",
+     "name": "Infobae Colombia (feed)",
+     "type": "news",
+     "seen_at": "2026-11-26T18:06:32-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 0.49,
+    "model": null
+   },
+   "discovered_at": "2026-11-26T18:06:32-05:00",
+   "updated_at": "2026-11-26T18:06:32-05:00",
+   "last_verified": "2026-11-26T18:06:32-05:00",
+   "last_seen": "2026-11-26T18:06:32-05:00",
+   "history": [],
+   "priority": {
+    "score": 55,
+    "level": "media",
+    "breakdown": {
+     "valor": {
+      "points": 14,
+      "max": 25,
+      "note": "valor publicado 5.000.000 COP"
+     },
+     "gratuidad": {
+      "points": 9,
+      "max": 25,
+      "note": "desconocido"
+     },
+     "facilidad": {
+      "points": 15,
+      "max": 15,
+      "note": "pocos requisitos"
+     },
+     "vigencia": {
+      "points": 5,
+      "max": 10,
+      "note": "sin fecha límite publicada"
+     },
+     "cobertura": {
+      "points": 5,
+      "max": 10,
+      "note": "regional"
+     },
+     "credibilidad": {
+      "points": 6,
+      "max": 10,
+      "note": "pendiente"
+     },
+     "claridad": {
+      "points": 1,
       "max": 5,
       "note": "sin términos enlazados"
      }
@@ -16624,7 +17591,7 @@
    "discovered_at": "2026-11-18T17:21:48-05:00",
    "updated_at": "2026-11-18T17:21:48-05:00",
    "last_verified": "2026-11-26T09:01:00-05:00",
-   "last_seen": "2026-11-26T09:00:43-05:00",
+   "last_seen": "2026-11-26T18:06:31-05:00",
    "history": [],
    "priority": {
     "score": 55,
@@ -16735,7 +17702,7 @@
     "reasons": [
      "Falta confirmar condiciones en la página oficial."
     ],
-    "checked_at": "2026-11-25T06:29:30-05:00",
+    "checked_at": "2026-11-26T18:06:41-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -16770,8 +17737,8 @@
    },
    "discovered_at": "2026-11-20T16:55:50-05:00",
    "updated_at": "2026-11-20T16:55:50-05:00",
-   "last_verified": "2026-11-25T06:29:30-05:00",
-   "last_seen": "2026-11-25T06:28:59-05:00",
+   "last_verified": "2026-11-26T18:06:41-05:00",
+   "last_seen": "2026-11-26T18:06:31-05:00",
    "history": [
     {
      "at": "2026-11-21T07:49:39-05:00",
@@ -16914,7 +17881,7 @@
      "El enlace respondió correctamente en la última verificación.",
      "Falta confirmar condiciones en la página oficial."
     ],
-    "checked_at": "2026-11-25T06:29:37-05:00",
+    "checked_at": "2026-11-26T18:06:47-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -16949,8 +17916,8 @@
    },
    "discovered_at": "2026-11-18T16:18:39-05:00",
    "updated_at": "2026-11-18T16:18:39-05:00",
-   "last_verified": "2026-11-25T06:29:37-05:00",
-   "last_seen": "2026-11-26T09:00:43-05:00",
+   "last_verified": "2026-11-26T18:06:47-05:00",
+   "last_seen": "2026-11-26T18:06:31-05:00",
    "history": [],
    "priority": {
     "score": 55,
@@ -17235,7 +18202,7 @@
      "El enlace respondió correctamente en la última verificación.",
      "Falta confirmar condiciones en la página oficial."
     ],
-    "checked_at": "2026-11-25T16:50:31-05:00",
+    "checked_at": "2026-11-26T18:06:57-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -17276,8 +18243,8 @@
    },
    "discovered_at": "2026-11-18T16:18:44-05:00",
    "updated_at": "2026-11-18T16:18:44-05:00",
-   "last_verified": "2026-11-25T16:50:31-05:00",
-   "last_seen": "2026-11-26T09:00:43-05:00",
+   "last_verified": "2026-11-26T18:06:57-05:00",
+   "last_seen": "2026-11-26T18:06:31-05:00",
    "history": [],
    "priority": {
     "score": 54,
@@ -17307,6 +18274,328 @@
       "points": 10,
       "max": 10,
       "note": "nacional"
+     },
+     "credibilidad": {
+      "points": 6,
+      "max": 10,
+      "note": "pendiente"
+     },
+     "claridad": {
+      "points": 1,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
+   "id": "op_efb67684b0e1",
+   "title": "Gobierno anuncia nuevo programa ‘Mi Casa Milagro’ para subsidios de vivienda en Colombia tras suspensión de ‘Mi Casa Ya’",
+   "summary": "El Gobierno reactiva subsidios para vivienda nueva con ‘Mi Casa Milagro’; inicio en 2027, requisitos y cobertura por definir.",
+   "section": "estado",
+   "category": "vivienda",
+   "tags": [
+    "Vivienda"
+   ],
+   "mechanics": [],
+   "kind": "Programa público",
+   "organizer": {
+    "name": "Ministerio de Vivienda",
+    "type": "gobierno",
+    "domain": "minvivienda.gov.co",
+    "known": true
+   },
+   "prize": {
+    "description": null,
+    "value_cop": null,
+    "value_text": null,
+    "value_source": null,
+    "winners": null,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "requiere_compra",
+    "label": "Requiere compra",
+    "free": false,
+    "certainty": "explicito",
+    "requires_purchase": true,
+    "requires_registration": false,
+    "requires_social": true,
+    "requires_activity": true,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": null,
+    "notes": [
+     "La fuente indica condición de compra: «descuentos de hasta 40 %»."
+    ]
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": null,
+    "age_text": null,
+    "coverage": "nacional",
+    "cities": [
+     "Bogotá",
+     "Cali",
+     "Ibagué"
+    ]
+   },
+   "requirements": [
+    "Sin embargo, a pesar de que el regreso del subsidio ya está confirmado, todavía no se conocen los requisitos específicos para acceder."
+   ],
+   "documents": [],
+   "steps": [],
+   "steps_source": null,
+   "dates": {
+    "published": "2026-11-26T14:00:51-05:00",
+    "start": "2026-08-10",
+    "end": null,
+    "draw": null
+   },
+   "status": "sin_confirmar",
+   "gov": {
+    "program_status": "sin_confirmar",
+    "entity": "Ministerio de Vivienda"
+   },
+   "offer": null,
+   "verification": {
+    "status": "pendiente",
+    "reasons": [
+     "Falta confirmar condiciones en la página oficial."
+    ],
+    "checked_at": "2026-11-26T18:06:34-05:00",
+    "link_ok": null,
+    "official_domain": false,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://www.pulzo.com/economia/vivienda/subsidios-de-vivienda-nueva-en-colombia-2024-requisitos-y-fechas-del-programa-mi-casa-milagro-PP5365469A",
+    "participate": null,
+    "terms": null,
+    "official": null,
+    "image": "https://d2yoo3qu6vrk5d.cloudfront.net/pulzo-lite/images-resized/PP5365469A-h-o.jpg"
+   },
+   "sources": [
+    {
+     "url": "https://www.pulzo.com/economia/vivienda/subsidios-de-vivienda-nueva-en-colombia-2024-requisitos-y-fechas-del-programa-mi-casa-milagro-PP5365469A",
+     "name": "Noticias · subsidios de vivienda",
+     "type": "news",
+     "seen_at": "2026-11-26T18:06:34-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 0.97,
+    "model": null
+   },
+   "discovered_at": "2026-11-26T18:06:34-05:00",
+   "updated_at": "2026-11-26T18:06:34-05:00",
+   "last_verified": "2026-11-26T18:06:34-05:00",
+   "last_seen": "2026-11-26T18:06:34-05:00",
+   "history": [],
+   "priority": {
+    "score": 54,
+    "level": "media",
+    "breakdown": {
+     "valor": {
+      "points": 18,
+      "max": 25,
+      "note": "valor no publicado (estimado por tipo de premio)"
+     },
+     "gratuidad": {
+      "points": 4,
+      "max": 25,
+      "note": "requiere_compra"
+     },
+     "facilidad": {
+      "points": 10,
+      "max": 15,
+      "note": "actividad, redes sociales"
+     },
+     "vigencia": {
+      "points": 5,
+      "max": 10,
+      "note": "sin fecha límite publicada"
+     },
+     "cobertura": {
+      "points": 10,
+      "max": 10,
+      "note": "nacional"
+     },
+     "credibilidad": {
+      "points": 6,
+      "max": 10,
+      "note": "pendiente"
+     },
+     "claridad": {
+      "points": 1,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
+   "id": "op_bf2b9d2be5ca",
+   "title": "¿Quiere participar en el Festival del Pastel Cartagenero 2026? Abren inscripciones",
+   "summary": "Para la nueva edición del Festival del Pastel Cartagenero, que se realizará en diciembre de 2026, serán seleccionados 50 participantes. Estos son los detalles.",
+   "section": "estado",
+   "category": "convocatorias",
+   "tags": [
+    "Convocatorias públicas",
+    "Cultura y estímulos",
+    "Entradas a eventos"
+   ],
+   "mechanics": [],
+   "kind": "Programa público",
+   "organizer": {
+    "name": "Organizador no identificado",
+    "type": "desconocido",
+    "domain": null,
+    "known": false
+   },
+   "prize": {
+    "description": null,
+    "value_cop": 5500000,
+    "value_text": "$5.500.000",
+    "value_source": "noticia",
+    "winners": 50,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "gratis_registro",
+    "label": "Gratis con registro",
+    "free": true,
+    "certainty": "inferido",
+    "requires_purchase": null,
+    "requires_registration": true,
+    "requires_social": false,
+    "requires_activity": false,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": null,
+    "notes": [
+     "No se encontró ninguna condición de compra en la fuente oficial (inferido, confírmalo en los términos)."
+    ]
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": 18,
+    "age_text": "mayores de 18 años",
+    "coverage": "regional",
+    "cities": [
+     "Cartagena"
+    ]
+   },
+   "requirements": [
+    "¿Quiénes pueden participar en el Festival del Pastel Cartagenero? La convocatoria está dirigida a personas naturales mayores de 18 años que residan en Cartagena, sus corregimientos o las islas.",
+    "¿Cómo inscribirse en el Festival del Pastel 2026? Las personas interesadas deberán realizar su inscripción exclusivamente a través de internet, diligenciando el formulario disponible en la página web del IPCC:",
+    "Para completar el registro, los aspirantes deberán adjuntar los siguientes documentos y soportes:",
+    "Los demás documentos y requisitos establecidos en las bases de la convocatoria."
+   ],
+   "documents": [
+    "Documento de identidad (cédula)",
+    "RUT"
+   ],
+   "steps": [],
+   "steps_source": null,
+   "dates": {
+    "published": "2026-11-26T14:01:30-05:00",
+    "start": "2026-12-10",
+    "end": "2026-12-13",
+    "draw": null
+   },
+   "status": "proxima",
+   "gov": {
+    "program_status": "proxima",
+    "entity": "Organizador no identificado"
+   },
+   "offer": null,
+   "verification": {
+    "status": "pendiente",
+    "reasons": [
+     "Organizador no identificado con certeza."
+    ],
+    "checked_at": "2026-11-26T18:06:32-05:00",
+    "link_ok": null,
+    "official_domain": false,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "medio",
+    "flags": [
+     {
+      "code": "datos_sensibles",
+      "label": "Solicita fotos de tu documento o datos biométricos. Compártelos solo en el sitio oficial.",
+      "level": "medio"
+     }
+    ],
+    "sensitive_data_warning": true
+   },
+   "urls": {
+    "source": "https://www.eluniversal.com.co/cartagena/2026/11/26/quiere-participar-en-el-festival-del-pastel-cartagenero-2026-abren-inscripciones/",
+    "participate": null,
+    "terms": null,
+    "official": null,
+    "image": "https://www.eluniversal.com.co/resizer/v2/KUJZ4H7DOZFUHFH7QKDE2NYG24.jpeg?auth=7f5256eddae2fb03e0ec006aa90997e1c669a24444db371d571435451fb01b87&smart=true&width=1200&height=630&quality=70"
+   },
+   "sources": [
+    {
+     "url": "https://www.eluniversal.com.co/cartagena/2026/11/26/quiere-participar-en-el-festival-del-pastel-cartagenero-2026-abren-inscripciones/",
+     "name": "El Universal (feed)",
+     "type": "news",
+     "seen_at": "2026-11-26T18:06:32-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 1.0,
+    "model": null
+   },
+   "discovered_at": "2026-11-26T18:06:32-05:00",
+   "updated_at": "2026-11-26T18:06:32-05:00",
+   "last_verified": "2026-11-26T18:06:32-05:00",
+   "last_seen": "2026-11-26T18:06:32-05:00",
+   "history": [],
+   "priority": {
+    "score": 54,
+    "level": "media",
+    "breakdown": {
+     "valor": {
+      "points": 14,
+      "max": 25,
+      "note": "valor publicado 5.500.000 COP"
+     },
+     "gratuidad": {
+      "points": 22,
+      "max": 25,
+      "note": "gratis_registro"
+     },
+     "facilidad": {
+      "points": 10,
+      "max": 15,
+      "note": "registro"
+     },
+     "vigencia": {
+      "points": 6,
+      "max": 10,
+      "note": "abre próximamente"
+     },
+     "cobertura": {
+      "points": 5,
+      "max": 10,
+      "note": "regional"
      },
      "credibilidad": {
       "points": 6,
@@ -17427,7 +18716,7 @@
    "discovered_at": "2026-11-24T19:52:51-05:00",
    "updated_at": "2026-11-24T19:52:51-05:00",
    "last_verified": "2026-11-25T23:15:27-05:00",
-   "last_seen": "2026-11-26T09:00:43-05:00",
+   "last_seen": "2026-11-26T18:06:31-05:00",
    "history": [],
    "priority": {
     "score": 53,
@@ -17556,7 +18845,7 @@
      "El enlace respondió correctamente en la última verificación.",
      "Falta confirmar condiciones en la página oficial."
     ],
-    "checked_at": "2026-11-25T06:29:35-05:00",
+    "checked_at": "2026-11-26T18:06:45-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -17591,8 +18880,8 @@
    },
    "discovered_at": "2026-11-18T16:18:37-05:00",
    "updated_at": "2026-11-18T16:18:37-05:00",
-   "last_verified": "2026-11-25T06:29:35-05:00",
-   "last_seen": "2026-11-26T09:00:43-05:00",
+   "last_verified": "2026-11-26T18:06:45-05:00",
+   "last_seen": "2026-11-26T18:06:31-05:00",
    "history": [],
    "priority": {
     "score": 53,
@@ -17722,7 +19011,7 @@
      "El enlace respondió correctamente en la última verificación.",
      "Falta confirmar condiciones en la página oficial."
     ],
-    "checked_at": "2026-11-25T06:29:36-05:00",
+    "checked_at": "2026-11-26T18:06:46-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -17757,8 +19046,8 @@
    },
    "discovered_at": "2026-11-18T16:18:38-05:00",
    "updated_at": "2026-11-18T16:18:38-05:00",
-   "last_verified": "2026-11-25T06:29:36-05:00",
-   "last_seen": "2026-11-26T09:00:43-05:00",
+   "last_verified": "2026-11-26T18:06:46-05:00",
+   "last_seen": "2026-11-26T18:06:31-05:00",
    "history": [],
    "priority": {
     "score": 53,
@@ -17932,6 +19221,172 @@
       "points": 6,
       "max": 10,
       "note": "desconocida"
+     },
+     "credibilidad": {
+      "points": 6,
+      "max": 10,
+      "note": "pendiente"
+     },
+     "claridad": {
+      "points": 1,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
+   "id": "op_23fbb41bd67c",
+   "title": "Subastas de fin de año de la Dian: carros, motos y camiones desde $1.500.000; así puede participar en línea",
+   "summary": "Los productos proceden de aprehensiones, decomisos o declaraciones de abandono a favor de la Nación, por lo que los interesados deben consultar imágenes, videos y opciones de exhibición antes de presentar una propuesta",
+   "section": "ofertas",
+   "category": "of_viajes",
+   "tags": [
+    "Carros",
+    "Motos",
+    "Viajes"
+   ],
+   "mechanics": [],
+   "kind": "Oferta",
+   "organizer": {
+    "name": "Banco Popular",
+    "type": "banco",
+    "domain": "bancopopular.com.co",
+    "known": true
+   },
+   "prize": {
+    "description": null,
+    "value_cop": 79420000,
+    "value_text": "$79.420.000",
+    "value_source": "noticia",
+    "winners": null,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "requiere_compra",
+    "label": "Requiere compra",
+    "free": false,
+    "certainty": "inferido",
+    "requires_purchase": null,
+    "requires_registration": true,
+    "requires_social": false,
+    "requires_activity": false,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": "$1.500.000",
+    "notes": [
+     "Es una oferta comercial: el beneficio aplica sobre una compra."
+    ]
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": null,
+    "age_text": null,
+    "coverage": "regional",
+    "cities": [
+     "Bogotá",
+     "Medellín",
+     "Cali",
+     "Barranquilla",
+     "Cartagena",
+     "Cúcuta",
+     "Popayán"
+    ]
+   },
+   "requirements": [
+    "Los participantes deben contar con una cuenta corriente o de ahorros de cualquier entidad bancaria colombiana que esté habilitada para pagos por PSE.",
+    "La persona adjudicataria deberá pagar el valor restante de la mercancía dentro de los cuatro días hábiles siguientes, mediante pago virtual o consignación a “Depósito para Remate” en una oficina del Banco Popular.",
+    "“Sería muy bueno” El partido Centro Democrático deberá definir sus apuestas para las elecciones territoriales de 2027."
+   ],
+   "documents": [],
+   "steps": [],
+   "steps_source": null,
+   "dates": {
+    "published": "2026-11-26T16:42:34-05:00",
+    "start": null,
+    "end": "2027-01-11",
+    "draw": null
+   },
+   "status": "activa",
+   "gov": null,
+   "offer": {
+    "discount_pct": null,
+    "original_price": null,
+    "promo_price": null,
+    "code": null,
+    "pct_verified": false
+   },
+   "verification": {
+    "status": "pendiente",
+    "reasons": [
+     "Falta confirmar condiciones en la página oficial."
+    ],
+    "checked_at": "2026-11-26T18:06:33-05:00",
+    "link_ok": null,
+    "official_domain": false,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://www.infobae.com/colombia/2026/11/26/subastas-de-fin-de-ano-de-la-dian-carros-motos-y-camiones-desde-1500000-asi-puede-participar-en-linea/",
+    "participate": null,
+    "terms": null,
+    "official": null,
+    "image": "https://www.infobae.com/resizer/v2/RU4WYO5BWZDWBALZXZRJJZ4ZHM.jpg?auth=49951124f483b806c775cccf314f25e1c67c5a2158cd3619d625b41c6d7e2c2a&smart=true&width=1200&height=630&quality=85"
+   },
+   "sources": [
+    {
+     "url": "https://www.infobae.com/colombia/2026/11/26/subastas-de-fin-de-ano-de-la-dian-carros-motos-y-camiones-desde-1500000-asi-puede-participar-en-linea/",
+     "name": "Infobae Colombia (feed)",
+     "type": "news",
+     "seen_at": "2026-11-26T18:06:33-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 0.97,
+    "model": null
+   },
+   "discovered_at": "2026-11-26T18:06:33-05:00",
+   "updated_at": "2026-11-26T18:06:33-05:00",
+   "last_verified": "2026-11-26T18:06:33-05:00",
+   "last_seen": "2026-11-26T18:06:33-05:00",
+   "history": [],
+   "priority": {
+    "score": 52,
+    "level": "media",
+    "breakdown": {
+     "valor": {
+      "points": 16,
+      "max": 25,
+      "note": "valor publicado 79.420.000 COP"
+     },
+     "gratuidad": {
+      "points": 4,
+      "max": 25,
+      "note": "requiere_compra"
+     },
+     "facilidad": {
+      "points": 12,
+      "max": 15,
+      "note": "registro"
+     },
+     "vigencia": {
+      "points": 8,
+      "max": 10,
+      "note": "vigente (46 días restantes)"
+     },
+     "cobertura": {
+      "points": 5,
+      "max": 10,
+      "note": "regional"
      },
      "credibilidad": {
       "points": 6,
@@ -18336,7 +19791,7 @@
    "discovered_at": "2026-11-25T06:29:00-05:00",
    "updated_at": "2026-11-25T06:29:00-05:00",
    "last_verified": "2026-11-26T09:01:13-05:00",
-   "last_seen": "2026-11-25T06:29:00-05:00",
+   "last_seen": "2026-11-26T18:06:31-05:00",
    "history": [],
    "priority": {
     "score": 51,
@@ -18467,7 +19922,7 @@
      "El enlace respondió correctamente en la última verificación.",
      "Falta confirmar condiciones en la página oficial."
     ],
-    "checked_at": "2026-11-25T06:29:39-05:00",
+    "checked_at": "2026-11-26T18:06:50-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -18502,8 +19957,8 @@
    },
    "discovered_at": "2026-11-18T16:18:42-05:00",
    "updated_at": "2026-11-18T16:18:42-05:00",
-   "last_verified": "2026-11-25T06:29:39-05:00",
-   "last_seen": "2026-11-26T09:00:43-05:00",
+   "last_verified": "2026-11-26T18:06:50-05:00",
+   "last_seen": "2026-11-26T18:06:31-05:00",
    "history": [],
    "priority": {
     "score": 51,
@@ -18717,6 +20172,178 @@
       "points": 5,
       "max": 10,
       "note": "regional"
+     },
+     "credibilidad": {
+      "points": 6,
+      "max": 10,
+      "note": "pendiente"
+     },
+     "claridad": {
+      "points": 3,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
+   "id": "op_f80214625909",
+   "title": "Nequi x Cinemas Procinal y RoyalFilms",
+   "summary": "¡Tu próxima ida a cine tiene descuento con Nequi! Recibe 25% de descuento en boletería y 10% en combos de confitería al pagar presencialmente con tu Tarjeta Nequi Visa. ¡Disfruta más tus películas favoritas!",
+   "section": "ofertas",
+   "category": "of_bancarias",
+   "tags": [
+    "Descuentos bancarios",
+    "Entradas a eventos",
+    "Experiencias y visitas"
+   ],
+   "mechanics": [],
+   "kind": "Oferta",
+   "organizer": {
+    "name": "Nequi",
+    "type": "billetera",
+    "domain": "nequi.com.co",
+    "known": true
+   },
+   "prize": {
+    "description": null,
+    "value_cop": 1000000,
+    "value_text": "$1.000.000",
+    "value_source": "pagina_oficial",
+    "winners": null,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "requiere_compra",
+    "label": "Requiere compra",
+    "free": false,
+    "certainty": "explicito",
+    "requires_purchase": true,
+    "requires_registration": false,
+    "requires_social": false,
+    "requires_activity": true,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": "$200.000",
+    "notes": [
+     "La fuente indica condición de compra: «por pagar con».",
+     "Monto mínimo mencionado: $200.000."
+    ]
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": 18,
+    "age_text": "mayores de 18 años",
+    "coverage": "nacional",
+    "cities": [
+     "Medellín"
+    ]
+   },
+   "requirements": [
+    "No aplica para compras por páginas web, aplicaciones ni otros canales en línea.",
+    "El descuento en boletería no aplica para preventas, funciones antes de las 3:00 p.",
+    "Debes pagar la totalidad de la compra con tu Tarjeta Nequi Visa.",
+    "Podrán participar en la Campaña las personas que cumplan con los siguientes requisitos, además de cualquier otro establecido en estos TyC (en adelante los “Participantes”):",
+    "Ser mayores de 18 años y contar con capacidad legal para participar en la Campaña.",
+    "Tener una cuenta de ahorros o depósito de bajo monto en Nequi activo durante la Vigencia de la Campaña."
+   ],
+   "documents": [],
+   "steps": [
+    "Visita presencialmente una taquilla o punto de dulcería de Cinemas Procinal o Royal Films.",
+    "Elige tus entradas para funciones a partir de las 3:00 p. m. o los combos de confitería participantes.",
+    "Paga el valor total de tu compra con tu Tarjeta Nequi Visa física o digital.",
+    "¡Listo! El descuento se aplicará automáticamente al momento de pagar. No necesitas cupones, códigos ni inscripciones."
+   ],
+   "steps_source": "pagina_oficial",
+   "dates": {
+    "published": null,
+    "start": "2026-12-02",
+    "end": "2027-03-02",
+    "draw": null
+   },
+   "status": "proxima",
+   "gov": null,
+   "offer": {
+    "discount_pct": 25,
+    "original_price": null,
+    "promo_price": null,
+    "code": null,
+    "pct_verified": false
+   },
+   "verification": {
+    "status": "pendiente",
+    "reasons": [
+     "El enlace pertenece a un dominio oficial del organizador.",
+     "Proviene de una fuente oficial configurada.",
+     "El enlace respondió correctamente en la última verificación.",
+     "Falta confirmar condiciones en la página oficial."
+    ],
+    "checked_at": "2026-11-26T18:06:31-05:00",
+    "link_ok": true,
+    "official_domain": true,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://www.nequi.com.co/promociones/nequi-x-cinemas-procinal-y-royalfilms",
+    "participate": "https://www.nequi.com.co/promociones/nequi-x-cinemas-procinal-y-royalfilms",
+    "terms": null,
+    "official": null,
+    "image": "https://cdn.prod.website-files.com/632b322905e108a14151cbdc/6a2094ac4a204705d923a3df_c%C3%B3mo%20mejorar%20el%20historial%20crediticio.webp"
+   },
+   "sources": [
+    {
+     "url": "https://www.nequi.com.co/promociones/nequi-x-cinemas-procinal-y-royalfilms",
+     "name": "Nequi · promociones (oficial)",
+     "type": "official",
+     "seen_at": "2026-11-26T18:06:31-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 1.0,
+    "model": null
+   },
+   "discovered_at": "2026-11-26T18:06:31-05:00",
+   "updated_at": "2026-11-26T18:06:31-05:00",
+   "last_verified": "2026-11-26T18:06:31-05:00",
+   "last_seen": "2026-11-26T18:06:31-05:00",
+   "history": [],
+   "priority": {
+    "score": 50,
+    "level": "media",
+    "breakdown": {
+     "valor": {
+      "points": 12,
+      "max": 25,
+      "note": "valor publicado 1.000.000 COP"
+     },
+     "gratuidad": {
+      "points": 4,
+      "max": 25,
+      "note": "requiere_compra"
+     },
+     "facilidad": {
+      "points": 9,
+      "max": 15,
+      "note": "actividad"
+     },
+     "vigencia": {
+      "points": 6,
+      "max": 10,
+      "note": "abre próximamente"
+     },
+     "cobertura": {
+      "points": 10,
+      "max": 10,
+      "note": "nacional"
      },
      "credibilidad": {
       "points": 6,
@@ -18993,7 +20620,7 @@
    "discovered_at": "2026-11-26T09:00:43-05:00",
    "updated_at": "2026-11-26T09:00:43-05:00",
    "last_verified": "2026-11-26T09:00:43-05:00",
-   "last_seen": "2026-11-26T09:00:43-05:00",
+   "last_seen": "2026-11-26T18:06:31-05:00",
    "history": [],
    "priority": {
     "score": 49,
@@ -19810,6 +21437,167 @@
    }
   },
   {
+   "id": "op_7a7fa5cb0485",
+   "title": "Bonos increíbles y una avalancha de cashback: 1xBet lanza una promoción especial por el Black Friday",
+   "summary": "¡Celebra el Black Friday con 1xBet hasta el 30 de noviembre!",
+   "section": "ofertas",
+   "category": "of_eventos_comerciales",
+   "tags": [
+    "Cashback y reembolsos",
+    "Temporadas (Black Friday, Día sin IVA…)"
+   ],
+   "mechanics": [],
+   "kind": "Oferta",
+   "organizer": {
+    "name": "Organizador no identificado",
+    "type": "desconocido",
+    "domain": null,
+    "known": false
+   },
+   "prize": {
+    "description": null,
+    "value_cop": null,
+    "value_text": null,
+    "value_source": null,
+    "winners": null,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "requiere_compra",
+    "label": "Requiere compra",
+    "free": false,
+    "certainty": "inferido",
+    "requires_purchase": null,
+    "requires_registration": true,
+    "requires_social": false,
+    "requires_activity": false,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": null,
+    "notes": [
+     "Es una oferta comercial: el beneficio aplica sobre una compra."
+    ]
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": null,
+    "age_text": null,
+    "coverage": "desconocida",
+    "cities": []
+   },
+   "requirements": [
+    "Además, debes aceptar recibir ofertas de bonos en la configuración de tu perfil.",
+    "También podrías encontrar un código promocional en el fondo de la caja para obtener una apuesta gratis de 1, 3, 5, 10, 20, 50 o 100 USD."
+   ],
+   "documents": [],
+   "steps": [
+    "Regístrate o inicia sesión en el sitio web de 1xBet o en su práctica app;",
+    "En la página de la promoción, haz clic en el botón para participar;",
+    "Deposita al menos 35 700,4 COP entre el 24 y el 30 de noviembre;",
+    "Abre tus Cajas de Bonos y descubre si contienen algún bono."
+   ],
+   "steps_source": "fuente_secundaria",
+   "dates": {
+    "published": "Jue, 26/11/2026 - 15:12",
+    "start": "2026-11-24",
+    "end": "2026-11-30",
+    "draw": null
+   },
+   "status": "activa",
+   "gov": null,
+   "offer": {
+    "discount_pct": null,
+    "original_price": null,
+    "promo_price": null,
+    "code": null,
+    "pct_verified": false
+   },
+   "verification": {
+    "status": "pendiente",
+    "reasons": [
+     "Organizador no identificado con certeza."
+    ],
+    "checked_at": "2026-11-26T18:06:34-05:00",
+    "link_ok": null,
+    "official_domain": false,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://www.elnuevosiglo.com.co/deportes/bonos-increibles-y-una-avalancha-de-cashback-1xbet-lanza-una-promocion-especial-por-el",
+    "participate": null,
+    "terms": null,
+    "official": null,
+    "image": "https://www.elnuevosiglo.com.co/sites/default/files/2026-11/Screenshot%202026-11-26%20151203.png"
+   },
+   "sources": [
+    {
+     "url": "https://www.elnuevosiglo.com.co/deportes/bonos-increibles-y-una-avalancha-de-cashback-1xbet-lanza-una-promocion-especial-por-el",
+     "name": "Noticias · cashback",
+     "type": "news",
+     "seen_at": "2026-11-26T18:06:34-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 1.0,
+    "model": null
+   },
+   "discovered_at": "2026-11-26T18:06:34-05:00",
+   "updated_at": "2026-11-26T18:06:34-05:00",
+   "last_verified": "2026-11-26T18:06:34-05:00",
+   "last_seen": "2026-11-26T18:06:34-05:00",
+   "history": [],
+   "priority": {
+    "score": 46,
+    "level": "media",
+    "breakdown": {
+     "valor": {
+      "points": 5,
+      "max": 25,
+      "note": "descuento sobre compra"
+     },
+     "gratuidad": {
+      "points": 4,
+      "max": 25,
+      "note": "requiere_compra"
+     },
+     "facilidad": {
+      "points": 12,
+      "max": 15,
+      "note": "registro"
+     },
+     "vigencia": {
+      "points": 10,
+      "max": 10,
+      "note": "vigente (4 días restantes)"
+     },
+     "cobertura": {
+      "points": 6,
+      "max": 10,
+      "note": "desconocida"
+     },
+     "credibilidad": {
+      "points": 6,
+      "max": 10,
+      "note": "pendiente"
+     },
+     "claridad": {
+      "points": 3,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
    "id": "op_1ff2a1d64b9e",
    "title": "Concurso DIAN 2676: desde el 20 de noviembre se pueden conocer los resultados",
    "summary": "Le contamos cómo consultar los resultados.",
@@ -20107,6 +21895,150 @@
    }
   },
   {
+   "id": "op_fe42e90fdefb",
+   "title": "Más de 100 policías participaron en jornada de memoria y derechos humanos en Medellín",
+   "summary": "Estudiantes de policía, auxiliares y uniformados hicieron parte de la estrategia “Reconocer para dignificar”, orientada a fortalecer una cultura institucional comprometida con la paz.",
+   "section": "bonos",
+   "category": "otros_beneficios",
+   "tags": [],
+   "mechanics": [],
+   "kind": "Beneficio",
+   "organizer": {
+    "name": "Organizador no identificado",
+    "type": "desconocido",
+    "domain": null,
+    "known": false
+   },
+   "prize": {
+    "description": null,
+    "value_cop": null,
+    "value_text": null,
+    "value_source": null,
+    "winners": null,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "desconocido",
+    "label": "Costo sin confirmar",
+    "free": false,
+    "certainty": "desconocido",
+    "requires_purchase": null,
+    "requires_registration": false,
+    "requires_social": false,
+    "requires_activity": false,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": null,
+    "notes": []
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": null,
+    "age_text": null,
+    "coverage": "regional",
+    "cities": [
+     "Medellín"
+    ]
+   },
+   "requirements": [],
+   "documents": [],
+   "steps": [],
+   "steps_source": null,
+   "dates": {
+    "published": "2026-11-26T14:48:32-05:00",
+    "start": null,
+    "end": null,
+    "draw": null
+   },
+   "status": "sin_confirmar",
+   "gov": null,
+   "offer": null,
+   "verification": {
+    "status": "no_verificable",
+    "reasons": [
+     "Información insuficiente: sin organizador identificado, fechas ni enlace oficial."
+    ],
+    "checked_at": "2026-11-26T18:06:32-05:00",
+    "link_ok": null,
+    "official_domain": false,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://caracol.com.co/2026/11/26/mas-de-100-policias-participaron-en-jornada-de-memoria-y-derechos-humanos-en-medellin/",
+    "participate": null,
+    "terms": null,
+    "official": null,
+    "image": "https://caracol.com.co/resizer/v2/GQNRCTNV5NEAXK25FLY2B3NNRI.jpeg?auth=11258d68bbd2fa16bfb6af8a3b842269841a3e93c66c943a314100eea1c44dc9&quality=70&width=1200&height=675&smart=true"
+   },
+   "sources": [
+    {
+     "url": "https://caracol.com.co/2026/11/26/mas-de-100-policias-participaron-en-jornada-de-memoria-y-derechos-humanos-en-medellin/",
+     "name": "Caracol Radio (feed)",
+     "type": "news",
+     "seen_at": "2026-11-26T18:06:32-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 0.37,
+    "model": null
+   },
+   "discovered_at": "2026-11-26T18:06:32-05:00",
+   "updated_at": "2026-11-26T18:06:32-05:00",
+   "last_verified": "2026-11-26T18:06:32-05:00",
+   "last_seen": "2026-11-26T18:06:32-05:00",
+   "history": [],
+   "priority": {
+    "score": 46,
+    "level": "media",
+    "breakdown": {
+     "valor": {
+      "points": 9,
+      "max": 25,
+      "note": "valor no publicado"
+     },
+     "gratuidad": {
+      "points": 9,
+      "max": 25,
+      "note": "desconocido"
+     },
+     "facilidad": {
+      "points": 15,
+      "max": 15,
+      "note": "pocos requisitos"
+     },
+     "vigencia": {
+      "points": 5,
+      "max": 10,
+      "note": "sin fecha límite publicada"
+     },
+     "cobertura": {
+      "points": 5,
+      "max": 10,
+      "note": "regional"
+     },
+     "credibilidad": {
+      "points": 2,
+      "max": 10,
+      "note": "no_verificable"
+     },
+     "claridad": {
+      "points": 1,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
    "id": "op_4b73b3ae0609",
    "title": "Black Friday en Bogotá: los centros comerciales se preparan con descuentos",
    "summary": "Bogotá tendrá jornadas de descuentos para adelantar las compras de Navidad en Black Friday.",
@@ -20336,8 +22268,8 @@
     "reasons": [
      "Información insuficiente: sin organizador identificado, fechas ni enlace oficial."
     ],
-    "checked_at": "2026-11-25T16:50:26-05:00",
-    "link_ok": null,
+    "checked_at": "2026-11-26T18:06:55-05:00",
+    "link_ok": true,
     "official_domain": false,
     "terms_found": false,
     "link_failures": 0
@@ -20371,7 +22303,7 @@
    },
    "discovered_at": "2026-11-25T16:50:26-05:00",
    "updated_at": "2026-11-25T16:50:26-05:00",
-   "last_verified": "2026-11-25T16:50:26-05:00",
+   "last_verified": "2026-11-26T18:06:55-05:00",
    "last_seen": "2026-11-25T23:15:19-05:00",
    "history": [],
    "priority": {
@@ -20531,7 +22463,7 @@
    "discovered_at": "2026-11-24T19:52:52-05:00",
    "updated_at": "2026-11-24T19:52:52-05:00",
    "last_verified": "2026-11-25T23:15:30-05:00",
-   "last_seen": "2026-11-25T06:28:59-05:00",
+   "last_seen": "2026-11-26T18:06:31-05:00",
    "history": [],
    "priority": {
     "score": 44,
@@ -20800,8 +22732,8 @@
     "reasons": [
      "Información insuficiente: sin organizador identificado, fechas ni enlace oficial."
     ],
-    "checked_at": "2026-11-25T16:50:25-05:00",
-    "link_ok": null,
+    "checked_at": "2026-11-26T18:06:53-05:00",
+    "link_ok": true,
     "official_domain": false,
     "terms_found": false,
     "link_failures": 0
@@ -20835,8 +22767,8 @@
    },
    "discovered_at": "2026-11-25T16:50:25-05:00",
    "updated_at": "2026-11-25T16:50:25-05:00",
-   "last_verified": "2026-11-25T16:50:25-05:00",
-   "last_seen": "2026-11-26T09:00:43-05:00",
+   "last_verified": "2026-11-26T18:06:53-05:00",
+   "last_seen": "2026-11-26T18:06:31-05:00",
    "history": [],
    "priority": {
     "score": 43,
@@ -21429,7 +23361,7 @@
     "reasons": [
      "Falta confirmar condiciones en la página oficial."
     ],
-    "checked_at": "2026-11-25T16:50:31-05:00",
+    "checked_at": "2026-11-26T18:06:58-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -21464,7 +23396,7 @@
    },
    "discovered_at": "2026-11-22T21:54:42-05:00",
    "updated_at": "2026-11-22T21:54:42-05:00",
-   "last_verified": "2026-11-25T16:50:31-05:00",
+   "last_verified": "2026-11-26T18:06:58-05:00",
    "last_seen": "2026-11-22T21:54:42-05:00",
    "history": [],
    "priority": {
@@ -22081,7 +24013,7 @@
    "discovered_at": "2026-11-20T08:04:54-05:00",
    "updated_at": "2026-11-20T08:04:54-05:00",
    "last_verified": "2026-11-26T09:01:08-05:00",
-   "last_seen": "2026-11-26T09:00:43-05:00",
+   "last_seen": "2026-11-26T18:06:31-05:00",
    "history": [],
    "priority": {
     "score": 39,
@@ -24387,7 +26319,7 @@
    "discovered_at": "2026-11-18T16:19:10-05:00",
    "updated_at": "2026-11-18T16:19:10-05:00",
    "last_verified": "2026-11-26T09:01:15-05:00",
-   "last_seen": "2026-11-25T06:28:59-05:00",
+   "last_seen": "2026-11-26T18:06:31-05:00",
    "history": [
     {
      "at": "2026-11-26T09:01:27-05:00",
@@ -25042,7 +26974,7 @@
    "discovered_at": "2026-11-18T16:18:43-05:00",
    "updated_at": "2026-11-18T16:18:43-05:00",
    "last_verified": "2026-11-25T06:29:41-05:00",
-   "last_seen": "2026-11-26T09:00:43-05:00",
+   "last_seen": "2026-11-26T18:06:31-05:00",
    "history": [
     {
      "at": "2026-11-26T09:01:27-05:00",
@@ -25388,7 +27320,7 @@
    "discovered_at": "2026-11-18T16:18:55-05:00",
    "updated_at": "2026-11-18T16:18:55-05:00",
    "last_verified": "2026-11-19T17:17:31-05:00",
-   "last_seen": "2026-11-26T09:00:43-05:00",
+   "last_seen": "2026-11-26T18:06:31-05:00",
    "history": [
     {
      "at": "2026-11-20T08:04:57-05:00",
@@ -26371,7 +28303,7 @@
    "discovered_at": "2026-11-18T17:21:34-05:00",
    "updated_at": "2026-11-18T17:21:34-05:00",
    "last_verified": "2026-11-25T23:15:42-05:00",
-   "last_seen": "2026-11-26T09:00:43-05:00",
+   "last_seen": "2026-11-26T18:06:31-05:00",
    "history": [
     {
      "at": "2026-11-26T09:01:27-05:00",
