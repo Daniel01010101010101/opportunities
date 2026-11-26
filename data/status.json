@@ -1,28 +1,28 @@
 {
  "engine_version": "1.0.0",
- "generated_at": "2026-11-25T16:51:05-05:00",
+ "generated_at": "2026-11-25T23:15:47-05:00",
  "timezone": "America/Bogota",
  "schedule": {
   "cron_utc": "17 */2 * * *",
   "description": "Cada 2 horas, minuto 17 (horas impares en Bogotá)",
-  "next_run_at": "2026-11-25T17:17:00-05:00"
+  "next_run_at": "2026-11-25T23:17:00-05:00"
  },
  "last_run": {
-  "id": "20261125-164657",
-  "started_at": "2026-11-25T16:46:57-05:00",
-  "finished_at": "2026-11-25T16:51:05-05:00",
-  "duration_s": 247.7,
+  "id": "20261125-231201",
+  "started_at": "2026-11-25T23:12:01-05:00",
+  "finished_at": "2026-11-25T23:15:47-05:00",
+  "duration_s": 225.2,
   "status": "parcial",
   "trigger": "schedule",
-  "new": 9,
+  "new": 3,
   "updated": 0,
-  "discarded": 23,
+  "discarded": 26,
   "sources_checked": 92,
   "sources_ok": 84,
-  "run_url": "https://github.com/Daniel01010101010101/opportunities/actions/runs/45707392562"
+  "run_url": "https://github.com/Daniel01010101010101/opportunities/actions/runs/45753650311"
  },
- "last_success_at": "2026-11-25T16:51:05-05:00",
- "last_new_opportunity_at": "2026-11-25T16:50:28-05:00",
+ "last_success_at": "2026-11-25T23:15:47-05:00",
+ "last_new_opportunity_at": "2026-11-25T23:15:21-05:00",
  "sources": {
   "configured": 219,
   "checked_last_run": 92,
@@ -32,11 +32,11 @@
   "with_errors": 5
  },
  "counts": {
-  "total": 159,
-  "active": 145,
-  "new_24h": 28,
-  "verified": 39,
-  "pending": 78,
+  "total": 162,
+  "active": 148,
+  "new_24h": 14,
+  "verified": 41,
+  "pending": 79,
   "unverifiable": 28,
   "expired": 14,
   "withdrawn": 0,
@@ -45,15 +45,15 @@
    "concursos": 19,
    "bonos": 13,
    "ofertas": 25,
-   "estado": 88
+   "estado": 91
   },
   "by_priority": {
-   "alta": 46,
+   "alta": 49,
    "media": 82,
    "baja": 17
   },
-  "free": 91,
-  "expiring_7d": 22
+  "free": 94,
+  "expiring_7d": 23
  },
  "llm": {
   "enabled": false,
