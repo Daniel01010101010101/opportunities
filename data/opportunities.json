@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-26T18:07:05-05:00",
- "count": 180,
+ "generated_at": "2026-11-27T03:47:36-05:00",
+ "count": 182,
  "items": [
   {
    "id": "op_824f3d5cb76a",
@@ -146,7 +146,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (24 días restantes)"
+      "note": "vigente (23 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -302,7 +302,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (22 días restantes)"
+      "note": "vigente (21 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -459,7 +459,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (8 días restantes)"
+      "note": "vigente (7 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -556,7 +556,7 @@
      "Proviene de una fuente oficial configurada.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-25T23:15:19-05:00",
+    "checked_at": "2026-11-27T03:47:25-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -591,8 +591,8 @@
    },
    "discovered_at": "2026-11-25T23:15:19-05:00",
    "updated_at": "2026-11-25T23:15:19-05:00",
-   "last_verified": "2026-11-25T23:15:19-05:00",
-   "last_seen": "2026-11-26T18:06:31-05:00",
+   "last_verified": "2026-11-27T03:47:25-05:00",
+   "last_seen": "2026-11-27T03:47:03-05:00",
    "history": [],
    "priority": {
     "score": 82,
@@ -616,7 +616,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (45 días restantes)"
+      "note": "vigente (44 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -904,7 +904,7 @@
    "discovered_at": "2026-11-18T16:18:44-05:00",
    "updated_at": "2026-11-18T16:18:44-05:00",
    "last_verified": "2026-11-26T18:06:51-05:00",
-   "last_seen": "2026-11-26T09:00:43-05:00",
+   "last_seen": "2026-11-27T03:47:03-05:00",
    "history": [],
    "priority": {
     "score": 79,
@@ -1085,7 +1085,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (49 días restantes)"
+      "note": "vigente (48 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -1192,7 +1192,7 @@
      "El enlace pertenece a un dominio oficial del organizador.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-25T16:51:05-05:00",
+    "checked_at": "2026-11-27T03:47:24-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -1233,8 +1233,8 @@
    },
    "discovered_at": "2026-11-20T16:55:46-05:00",
    "updated_at": "2026-11-24T19:52:50-05:00",
-   "last_verified": "2026-11-25T16:51:05-05:00",
-   "last_seen": "2026-11-26T18:06:31-05:00",
+   "last_verified": "2026-11-27T03:47:24-05:00",
+   "last_seen": "2026-11-27T03:47:03-05:00",
    "history": [
     {
      "at": "2026-11-24T19:52:50-05:00",
@@ -1273,7 +1273,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (98 días restantes)"
+      "note": "vigente (97 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -1410,7 +1410,7 @@
    "discovered_at": "2026-11-18T17:21:44-05:00",
    "updated_at": "2026-11-18T17:21:44-05:00",
    "last_verified": "2026-11-25T23:15:43-05:00",
-   "last_seen": "2026-11-26T18:06:31-05:00",
+   "last_seen": "2026-11-27T03:47:03-05:00",
    "history": [],
    "priority": {
     "score": 77,
@@ -1445,161 +1445,6 @@
       "points": 6,
       "max": 10,
       "note": "pendiente"
-     },
-     "claridad": {
-      "points": 1,
-      "max": 5,
-      "note": "sin términos enlazados"
-     }
-    }
-   }
-  },
-  {
-   "id": "op_65949d5cdb24",
-   "title": "EU-LAC Digital Accelerator 2026: hasta 10.500 euros para startups de Bogotá",
-   "summary": "¿Tienes una startup en Bogotá y sueñas con llevar tu solución digital a nuevos mercados? Esta convocatoria internacional puede ayudarte a convertir una idea innovadora en una oportunidad de crecimiento empresarial.",
-   "section": "estado",
-   "category": "emprendimiento",
-   "tags": [
-    "Viajes"
-   ],
-   "mechanics": [],
-   "kind": "Programa público",
-   "organizer": {
-    "name": "Alcaldía de Bogotá",
-    "type": "gobierno",
-    "domain": "bogota.gov.co",
-    "known": true
-   },
-   "prize": {
-    "description": null,
-    "value_cop": null,
-    "value_text": null,
-    "value_source": null,
-    "winners": null,
-    "odds_text": null
-   },
-   "cost": {
-    "type": "gratis_registro",
-    "label": "Gratis con registro",
-    "free": true,
-    "certainty": "inferido",
-    "requires_purchase": null,
-    "requires_registration": true,
-    "requires_social": false,
-    "requires_activity": true,
-    "requires_subscription": false,
-    "requires_deposit": false,
-    "purchase_threshold_text": null,
-    "notes": [
-     "No se encontró ninguna condición de compra en la fuente oficial (inferido, confírmalo en los términos)."
-    ]
-   },
-   "eligibility": {
-    "who": null,
-    "min_age": null,
-    "age_text": null,
-    "coverage": "bogota",
-    "cities": [
-     "Bogotá"
-    ]
-   },
-   "requirements": [
-    "Las personas interesadas deberán revisar la guía oficial y completar el formulario de postulación."
-   ],
-   "documents": [],
-   "steps": [],
-   "steps_source": null,
-   "dates": {
-    "published": "2026-11-19T15:16:26-05:00",
-    "start": null,
-    "end": "2026-11-30",
-    "draw": null
-   },
-   "status": "activa",
-   "gov": {
-    "program_status": "abierta",
-    "entity": "Alcaldía de Bogotá"
-   },
-   "offer": null,
-   "verification": {
-    "status": "verificada",
-    "reasons": [
-     "El enlace pertenece a un dominio oficial del organizador.",
-     "Proviene de una fuente oficial configurada.",
-     "El enlace respondió correctamente en la última verificación."
-    ],
-    "checked_at": "2026-11-26T18:06:41-05:00",
-    "link_ok": true,
-    "official_domain": true,
-    "terms_found": false,
-    "link_failures": 0
-   },
-   "risk": {
-    "level": "bajo",
-    "flags": [],
-    "sensitive_data_warning": false
-   },
-   "urls": {
-    "source": "https://bogota.gov.co/boletin-oferta-internacional/eu-lac-digital-accelerator-2026-subvenciones-para-startups",
-    "participate": "https://bogota.gov.co/boletin-oferta-internacional/eu-lac-digital-accelerator-2026-subvenciones-para-startups",
-    "terms": null,
-    "official": null,
-    "image": "https://bogota.gov.co/sites/default/files/2026-11/2026-02-078_home.png"
-   },
-   "sources": [
-    {
-     "url": "https://bogota.gov.co/boletin-oferta-internacional/eu-lac-digital-accelerator-2026-subvenciones-para-startups",
-     "name": "Bogotá.gov.co (oficial)",
-     "type": "official",
-     "seen_at": "2026-11-19T17:17:12-05:00"
-    }
-   ],
-   "language": "es",
-   "translated": false,
-   "extraction": {
-    "method": "heuristica",
-    "relevance": 0.56,
-    "model": null
-   },
-   "discovered_at": "2026-11-19T17:17:12-05:00",
-   "updated_at": "2026-11-19T17:17:12-05:00",
-   "last_verified": "2026-11-26T18:06:41-05:00",
-   "last_seen": "2026-11-20T08:04:54-05:00",
-   "history": [],
-   "priority": {
-    "score": 77,
-    "level": "alta",
-    "breakdown": {
-     "valor": {
-      "points": 14,
-      "max": 25,
-      "note": "valor no publicado (estimado por tipo de premio)"
-     },
-     "gratuidad": {
-      "points": 22,
-      "max": 25,
-      "note": "gratis_registro"
-     },
-     "facilidad": {
-      "points": 10,
-      "max": 15,
-      "note": "registro, actividad"
-     },
-     "vigencia": {
-      "points": 10,
-      "max": 10,
-      "note": "vigente (4 días restantes)"
-     },
-     "cobertura": {
-      "points": 10,
-      "max": 10,
-      "note": "bogota"
-     },
-     "credibilidad": {
-      "points": 10,
-      "max": 10,
-      "note": "verificada"
      },
      "claridad": {
       "points": 1,
@@ -1684,7 +1529,7 @@
      "Proviene de una fuente oficial configurada.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-25T16:50:41-05:00",
+    "checked_at": "2026-11-27T03:47:04-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -1719,7 +1564,7 @@
    },
    "discovered_at": "2026-11-18T16:19:02-05:00",
    "updated_at": "2026-11-18T16:19:02-05:00",
-   "last_verified": "2026-11-25T16:50:41-05:00",
+   "last_verified": "2026-11-27T03:47:04-05:00",
    "last_seen": "2026-11-19T08:25:49-05:00",
    "history": [],
    "priority": {
@@ -1744,7 +1589,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (66 días restantes)"
+      "note": "vigente (65 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -1899,7 +1744,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (13 días restantes)"
+      "note": "vigente (12 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -2066,7 +1911,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (83 días restantes)"
+      "note": "vigente (82 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -2080,6 +1925,161 @@
      },
      "claridad": {
       "points": 3,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
+   "id": "op_65949d5cdb24",
+   "title": "EU-LAC Digital Accelerator 2026: hasta 10.500 euros para startups de Bogotá",
+   "summary": "¿Tienes una startup en Bogotá y sueñas con llevar tu solución digital a nuevos mercados? Esta convocatoria internacional puede ayudarte a convertir una idea innovadora en una oportunidad de crecimiento empresarial.",
+   "section": "estado",
+   "category": "emprendimiento",
+   "tags": [
+    "Viajes"
+   ],
+   "mechanics": [],
+   "kind": "Programa público",
+   "organizer": {
+    "name": "Alcaldía de Bogotá",
+    "type": "gobierno",
+    "domain": "bogota.gov.co",
+    "known": true
+   },
+   "prize": {
+    "description": null,
+    "value_cop": null,
+    "value_text": null,
+    "value_source": null,
+    "winners": null,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "gratis_registro",
+    "label": "Gratis con registro",
+    "free": true,
+    "certainty": "inferido",
+    "requires_purchase": null,
+    "requires_registration": true,
+    "requires_social": false,
+    "requires_activity": true,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": null,
+    "notes": [
+     "No se encontró ninguna condición de compra en la fuente oficial (inferido, confírmalo en los términos)."
+    ]
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": null,
+    "age_text": null,
+    "coverage": "bogota",
+    "cities": [
+     "Bogotá"
+    ]
+   },
+   "requirements": [
+    "Las personas interesadas deberán revisar la guía oficial y completar el formulario de postulación."
+   ],
+   "documents": [],
+   "steps": [],
+   "steps_source": null,
+   "dates": {
+    "published": "2026-11-19T15:16:26-05:00",
+    "start": null,
+    "end": "2026-11-30",
+    "draw": null
+   },
+   "status": "activa",
+   "gov": {
+    "program_status": "abierta",
+    "entity": "Alcaldía de Bogotá"
+   },
+   "offer": null,
+   "verification": {
+    "status": "verificada",
+    "reasons": [
+     "El enlace pertenece a un dominio oficial del organizador.",
+     "Proviene de una fuente oficial configurada.",
+     "El enlace respondió correctamente en la última verificación."
+    ],
+    "checked_at": "2026-11-26T18:06:41-05:00",
+    "link_ok": true,
+    "official_domain": true,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://bogota.gov.co/boletin-oferta-internacional/eu-lac-digital-accelerator-2026-subvenciones-para-startups",
+    "participate": "https://bogota.gov.co/boletin-oferta-internacional/eu-lac-digital-accelerator-2026-subvenciones-para-startups",
+    "terms": null,
+    "official": null,
+    "image": "https://bogota.gov.co/sites/default/files/2026-11/2026-02-078_home.png"
+   },
+   "sources": [
+    {
+     "url": "https://bogota.gov.co/boletin-oferta-internacional/eu-lac-digital-accelerator-2026-subvenciones-para-startups",
+     "name": "Bogotá.gov.co (oficial)",
+     "type": "official",
+     "seen_at": "2026-11-19T17:17:12-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 0.56,
+    "model": null
+   },
+   "discovered_at": "2026-11-19T17:17:12-05:00",
+   "updated_at": "2026-11-19T17:17:12-05:00",
+   "last_verified": "2026-11-26T18:06:41-05:00",
+   "last_seen": "2026-11-20T08:04:54-05:00",
+   "history": [],
+   "priority": {
+    "score": 76,
+    "level": "alta",
+    "breakdown": {
+     "valor": {
+      "points": 14,
+      "max": 25,
+      "note": "valor no publicado (estimado por tipo de premio)"
+     },
+     "gratuidad": {
+      "points": 22,
+      "max": 25,
+      "note": "gratis_registro"
+     },
+     "facilidad": {
+      "points": 10,
+      "max": 15,
+      "note": "registro, actividad"
+     },
+     "vigencia": {
+      "points": 9,
+      "max": 10,
+      "note": "vence en 3 día(s): revisar ya"
+     },
+     "cobertura": {
+      "points": 10,
+      "max": 10,
+      "note": "bogota"
+     },
+     "credibilidad": {
+      "points": 10,
+      "max": 10,
+      "note": "verificada"
+     },
+     "claridad": {
+      "points": 1,
       "max": 5,
       "note": "sin términos enlazados"
      }
@@ -2234,7 +2234,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (15 días restantes)"
+      "note": "vigente (14 días restantes)"
      },
      "cobertura": {
       "points": 5,
@@ -2402,7 +2402,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (13 días restantes)"
+      "note": "vigente (12 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -2510,7 +2510,7 @@
     "reasons": [
      "Falta confirmar condiciones en la página oficial."
     ],
-    "checked_at": "2026-11-25T23:15:32-05:00",
+    "checked_at": "2026-11-27T03:47:36-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -2545,7 +2545,7 @@
    },
    "discovered_at": "2026-11-24T19:52:53-05:00",
    "updated_at": "2026-11-24T19:52:53-05:00",
-   "last_verified": "2026-11-25T23:15:32-05:00",
+   "last_verified": "2026-11-27T03:47:36-05:00",
    "last_seen": "2026-11-26T09:00:43-05:00",
    "history": [],
    "priority": {
@@ -2570,7 +2570,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (33 días restantes)"
+      "note": "vigente (32 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -2741,7 +2741,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (35 días restantes)"
+      "note": "vigente (34 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -2894,7 +2894,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (81 días restantes)"
+      "note": "vigente (80 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -3044,7 +3044,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (96 días restantes)"
+      "note": "vigente (95 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -3303,7 +3303,7 @@
      "Proviene de una fuente oficial configurada.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-25T16:50:46-05:00",
+    "checked_at": "2026-11-27T03:47:07-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -3338,7 +3338,7 @@
    },
    "discovered_at": "2026-11-18T16:19:05-05:00",
    "updated_at": "2026-11-18T16:19:05-05:00",
-   "last_verified": "2026-11-25T16:50:46-05:00",
+   "last_verified": "2026-11-27T03:47:07-05:00",
    "last_seen": "2026-11-18T16:19:05-05:00",
    "history": [],
    "priority": {
@@ -3363,7 +3363,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (53 días restantes)"
+      "note": "vigente (52 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -4126,7 +4126,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (88 días restantes)"
+      "note": "vigente (87 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -4380,7 +4380,7 @@
      "El enlace pertenece a un dominio oficial del organizador.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-25T16:50:57-05:00",
+    "checked_at": "2026-11-27T03:47:19-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -4415,7 +4415,7 @@
    },
    "discovered_at": "2026-11-18T16:19:09-05:00",
    "updated_at": "2026-11-18T16:19:09-05:00",
-   "last_verified": "2026-11-25T16:50:57-05:00",
+   "last_verified": "2026-11-27T03:47:19-05:00",
    "last_seen": "2026-11-25T06:28:59-05:00",
    "history": [],
    "priority": {
@@ -4545,7 +4545,7 @@
     "reasons": [
      "Organizador no identificado con certeza."
     ],
-    "checked_at": "2026-11-25T16:51:05-05:00",
+    "checked_at": "2026-11-27T03:47:25-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -4580,7 +4580,7 @@
    },
    "discovered_at": "2026-11-18T16:19:10-05:00",
    "updated_at": "2026-11-18T16:19:10-05:00",
-   "last_verified": "2026-11-25T16:51:05-05:00",
+   "last_verified": "2026-11-27T03:47:25-05:00",
    "last_seen": "2026-11-21T15:41:32-05:00",
    "history": [],
    "priority": {
@@ -4707,7 +4707,7 @@
      "El enlace pertenece a un dominio oficial del organizador.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-25T16:50:47-05:00",
+    "checked_at": "2026-11-27T03:47:09-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -4742,7 +4742,7 @@
    },
    "discovered_at": "2026-11-18T16:19:06-05:00",
    "updated_at": "2026-11-18T16:19:06-05:00",
-   "last_verified": "2026-11-25T16:50:47-05:00",
+   "last_verified": "2026-11-27T03:47:09-05:00",
    "last_seen": "2026-11-18T16:19:06-05:00",
    "history": [],
    "priority": {
@@ -4767,7 +4767,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (35 días restantes)"
+      "note": "vigente (34 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -4781,156 +4781,6 @@
      },
      "claridad": {
       "points": 3,
-      "max": 5,
-      "note": "sin términos enlazados"
-     }
-    }
-   }
-  },
-  {
-   "id": "op_0ba02eadd013",
-   "title": "Premio Vida y Obra 2026 en el Valle del Cauca amplía su convocatoria para reconocer trayectorias culturales",
-   "summary": "$120 millones para reconocer el legado cultural en la región.",
-   "section": "estado",
-   "category": "cultura",
-   "tags": [
-    "Convocatorias públicas",
-    "Cultura y estímulos"
-   ],
-   "mechanics": [],
-   "kind": "Programa público",
-   "organizer": {
-    "name": "Ministerio de Transporte",
-    "type": "gobierno",
-    "domain": "mintransporte.gov.co",
-    "known": true
-   },
-   "prize": {
-    "description": null,
-    "value_cop": 30000000,
-    "value_text": "$30 millones",
-    "value_source": "noticia",
-    "winners": null,
-    "odds_text": null
-   },
-   "cost": {
-    "type": "gratis_registro",
-    "label": "Gratis con registro",
-    "free": true,
-    "certainty": "inferido",
-    "requires_purchase": null,
-    "requires_registration": true,
-    "requires_social": false,
-    "requires_activity": false,
-    "requires_subscription": false,
-    "requires_deposit": false,
-    "purchase_threshold_text": null,
-    "notes": [
-     "No se encontró ninguna condición de compra en la fuente oficial (inferido, confírmalo en los términos)."
-    ]
-   },
-   "eligibility": {
-    "who": null,
-    "min_age": 65,
-    "age_text": "mayores de 65 años",
-    "coverage": "regional",
-    "cities": []
-   },
-   "requirements": [],
-   "documents": [],
-   "steps": [],
-   "steps_source": null,
-   "dates": {
-    "published": "2026-11-25T21:19:47-05:00",
-    "start": "2026-11-25",
-    "end": "2026-11-30",
-    "draw": null
-   },
-   "status": "activa",
-   "gov": {
-    "program_status": "abierta",
-    "entity": "Ministerio de Transporte"
-   },
-   "offer": null,
-   "verification": {
-    "status": "pendiente",
-    "reasons": [
-     "Falta confirmar condiciones en la página oficial."
-    ],
-    "checked_at": "2026-11-25T23:15:20-05:00",
-    "link_ok": null,
-    "official_domain": false,
-    "terms_found": false,
-    "link_failures": 0
-   },
-   "risk": {
-    "level": "bajo",
-    "flags": [],
-    "sensitive_data_warning": false
-   },
-   "urls": {
-    "source": "https://www.elpais.com.co/valle/premio-vida-y-obra-2026-en-el-valle-del-cauc-amplia-su-convocatoria-cauca-para-reconocer-trayectorias-culturales-2553.html",
-    "participate": "https://www.elpais.com.co/valle/premio-vida-y-obra-2026-en-el-valle-del-cauc-amplia-su-convocatoria-cauca-para-reconocer-trayectorias-culturales-2553.html",
-    "terms": null,
-    "official": null,
-    "image": "https://www.elpais.com.co/resizer/v2/JBJSR4RT3VFW5LJVGYXWQ6CDPA.jpeg?auth=a774b7c0a8936c369fb34bfeb6d6b777bb510ddf1a48ca83318390d1d39e8d7c&smart=true&quality=75&width=1280&height=720"
-   },
-   "sources": [
-    {
-     "url": "https://www.elpais.com.co/valle/premio-vida-y-obra-2026-en-el-valle-del-cauc-amplia-su-convocatoria-cauca-para-reconocer-trayectorias-culturales-2553.html",
-     "name": "El País Cali (feed)",
-     "type": "news",
-     "seen_at": "2026-11-25T23:15:20-05:00"
-    }
-   ],
-   "language": "es",
-   "translated": false,
-   "extraction": {
-    "method": "heuristica",
-    "relevance": 1.0,
-    "model": null
-   },
-   "discovered_at": "2026-11-25T23:15:20-05:00",
-   "updated_at": "2026-11-25T23:15:20-05:00",
-   "last_verified": "2026-11-25T23:15:20-05:00",
-   "last_seen": "2026-11-26T18:06:31-05:00",
-   "history": [],
-   "priority": {
-    "score": 72,
-    "level": "alta",
-    "breakdown": {
-     "valor": {
-      "points": 15,
-      "max": 25,
-      "note": "valor publicado 30.000.000 COP"
-     },
-     "gratuidad": {
-      "points": 22,
-      "max": 25,
-      "note": "gratis_registro"
-     },
-     "facilidad": {
-      "points": 13,
-      "max": 15,
-      "note": "registro"
-     },
-     "vigencia": {
-      "points": 10,
-      "max": 10,
-      "note": "vigente (4 días restantes)"
-     },
-     "cobertura": {
-      "points": 5,
-      "max": 10,
-      "note": "regional"
-     },
-     "credibilidad": {
-      "points": 6,
-      "max": 10,
-      "note": "pendiente"
-     },
-     "claridad": {
-      "points": 1,
       "max": 5,
       "note": "sin términos enlazados"
      }
@@ -5477,7 +5327,7 @@
     "reasons": [
      "Falta confirmar condiciones en la página oficial."
     ],
-    "checked_at": "2026-11-25T23:15:32-05:00",
+    "checked_at": "2026-11-27T03:47:36-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -5518,7 +5368,7 @@
    },
    "discovered_at": "2026-11-18T16:19:12-05:00",
    "updated_at": "2026-11-18T16:19:12-05:00",
-   "last_verified": "2026-11-25T23:15:32-05:00",
+   "last_verified": "2026-11-27T03:47:36-05:00",
    "last_seen": "2026-11-26T09:00:43-05:00",
    "history": [],
    "priority": {
@@ -5675,7 +5525,7 @@
    "discovered_at": "2026-11-25T16:50:27-05:00",
    "updated_at": "2026-11-25T16:50:27-05:00",
    "last_verified": "2026-11-26T18:06:55-05:00",
-   "last_seen": "2026-11-26T18:06:31-05:00",
+   "last_seen": "2026-11-27T03:47:03-05:00",
    "history": [],
    "priority": {
     "score": 72,
@@ -6444,7 +6294,7 @@
    "discovered_at": "2026-11-25T16:50:26-05:00",
    "updated_at": "2026-11-25T16:50:26-05:00",
    "last_verified": "2026-11-26T18:06:53-05:00",
-   "last_seen": "2026-11-26T18:06:31-05:00",
+   "last_seen": "2026-11-27T03:47:03-05:00",
    "history": [],
    "priority": {
     "score": 71,
@@ -6468,7 +6318,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (142 días restantes)"
+      "note": "vigente (141 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -6489,28 +6339,27 @@
    }
   },
   {
-   "id": "op_ed618570ffe8",
-   "title": "Medellín abrió más de 500 subsidios de vivienda para familias y jóvenes: los apoyos superan los 30 millones de pesos",
-   "summary": "La ciudad ofrece alternativas para quienes buscan comprar casa nueva, completar la cuota inicial o realizar mejoras, con requisitos claros y canales de inscripción activos hasta noviembre de 2026 para varios programas.",
+   "id": "op_0ba02eadd013",
+   "title": "Premio Vida y Obra 2026 en el Valle del Cauca amplía su convocatoria para reconocer trayectorias culturales",
+   "summary": "$120 millones para reconocer el legado cultural en la región.",
    "section": "estado",
-   "category": "vivienda",
+   "category": "cultura",
    "tags": [
     "Convocatorias públicas",
-    "Dinero en efectivo",
-    "Jóvenes",
-    "Vivienda"
+    "Cultura y estímulos"
    ],
+   "mechanics": [],
    "kind": "Programa público",
    "organizer": {
-    "name": "Organizador no identificado",
-    "type": "desconocido",
-    "domain": null,
-    "known": false
+    "name": "Ministerio de Transporte",
+    "type": "gobierno",
+    "domain": "mintransporte.gov.co",
+    "known": true
    },
    "prize": {
     "description": null,
-    "value_cop": 36000000,
-    "value_text": "$36 millones",
+    "value_cop": 30000000,
+    "value_text": "$30 millones",
     "value_source": "noticia",
     "winners": null,
     "odds_text": null
@@ -6533,46 +6382,33 @@
    },
    "eligibility": {
     "who": null,
-    "min_age": 18,
-    "age_text": "entre 18 y 28 años",
+    "min_age": 65,
+    "age_text": "mayores de 65 años",
     "coverage": "regional",
-    "cities": [
-     "Medellín",
-     "Barranquilla",
-     "Pereira",
-     "Pasto"
-    ]
+    "cities": []
    },
-   "requirements": [
-    "Los requisitos de Compra tu Casa, los mejoramientos y otros programas están disponibles en isvimed.gov.co .",
-    "Contar con encuesta del Sisbén o con una constancia de solicitud de esta medición en la ciudad.",
-    "El titular de la postulación debe ser mayor de edad;",
-    "Las personas interesadas deberán revisar directamente las condiciones de acceso y la disponibilidad de unidades del proyecto.",
-    "Los mejoramientos de vivienda tienen postulación continua La oferta del Isvimed también incorpora mejoramientos de vivienda saludable con inscripciones permanentes para quienes cumplan los requisitos."
-   ],
-   "documents": [
-    "Certificado SISBÉN"
-   ],
+   "requirements": [],
+   "documents": [],
    "steps": [],
    "steps_source": null,
    "dates": {
-    "published": "2026-11-06T00:42:12.571Z",
-    "start": null,
+    "published": "2026-11-25T21:19:47-05:00",
+    "start": "2026-11-25",
     "end": "2026-11-30",
     "draw": null
    },
    "status": "activa",
    "gov": {
     "program_status": "abierta",
-    "entity": "Organizador no identificado"
+    "entity": "Ministerio de Transporte"
    },
    "offer": null,
    "verification": {
     "status": "pendiente",
     "reasons": [
-     "Organizador no identificado con certeza."
+     "Falta confirmar condiciones en la página oficial."
     ],
-    "checked_at": "2026-11-25T23:15:33-05:00",
+    "checked_at": "2026-11-27T03:47:26-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -6584,18 +6420,18 @@
     "sensitive_data_warning": false
    },
    "urls": {
-    "source": "https://www.infobae.com/colombia/2026/11/06/medellin-abrio-mas-de-500-subsidios-de-vivienda-para-familias-y-jovenes-los-apoyos-superan-los-30-millones-de-pesos/",
-    "participate": null,
+    "source": "https://www.elpais.com.co/valle/premio-vida-y-obra-2026-en-el-valle-del-cauc-amplia-su-convocatoria-cauca-para-reconocer-trayectorias-culturales-2553.html",
+    "participate": "https://www.elpais.com.co/valle/premio-vida-y-obra-2026-en-el-valle-del-cauc-amplia-su-convocatoria-cauca-para-reconocer-trayectorias-culturales-2553.html",
     "terms": null,
     "official": null,
-    "image": "https://www.infobae.com/resizer/v2/WV2RQDLLWFANVNIVL4S3HWSLMY.jpg?auth=89b1c27824778b8b6051b7c1f72451eb699d9e90a1c999d5f1bec9a873cfb8c8&smart=true&width=1200&height=630&quality=85"
+    "image": "https://www.elpais.com.co/resizer/v2/JBJSR4RT3VFW5LJVGYXWQ6CDPA.jpeg?auth=a774b7c0a8936c369fb34bfeb6d6b777bb510ddf1a48ca83318390d1d39e8d7c&smart=true&quality=75&width=1280&height=720"
    },
    "sources": [
     {
-     "url": "https://www.infobae.com/colombia/2026/11/06/medellin-abrio-mas-de-500-subsidios-de-vivienda-para-familias-y-jovenes-los-apoyos-superan-los-30-millones-de-pesos/",
-     "name": "Noticias · subsidios de vivienda",
+     "url": "https://www.elpais.com.co/valle/premio-vida-y-obra-2026-en-el-valle-del-cauc-amplia-su-convocatoria-cauca-para-reconocer-trayectorias-culturales-2553.html",
+     "name": "El País Cali (feed)",
      "type": "news",
-     "seen_at": "2026-11-18T16:19:12-05:00"
+     "seen_at": "2026-11-25T23:15:20-05:00"
     }
    ],
    "language": "es",
@@ -6605,9 +6441,9 @@
     "relevance": 1.0,
     "model": null
    },
-   "discovered_at": "2026-11-18T16:19:12-05:00",
-   "updated_at": "2026-11-18T16:19:12-05:00",
-   "last_verified": "2026-11-25T23:15:33-05:00",
+   "discovered_at": "2026-11-25T23:15:20-05:00",
+   "updated_at": "2026-11-25T23:15:20-05:00",
+   "last_verified": "2026-11-27T03:47:26-05:00",
    "last_seen": "2026-11-26T18:06:31-05:00",
    "history": [],
    "priority": {
@@ -6615,9 +6451,9 @@
     "level": "alta",
     "breakdown": {
      "valor": {
-      "points": 16,
+      "points": 15,
       "max": 25,
-      "note": "valor publicado 36.000.000 COP"
+      "note": "valor publicado 30.000.000 COP"
      },
      "gratuidad": {
       "points": 22,
@@ -6625,14 +6461,14 @@
       "note": "gratis_registro"
      },
      "facilidad": {
-      "points": 11,
+      "points": 13,
       "max": 15,
       "note": "registro"
      },
      "vigencia": {
-      "points": 10,
+      "points": 9,
       "max": 10,
-      "note": "vigente (4 días restantes)"
+      "note": "vence en 3 día(s): revisar ya"
      },
      "cobertura": {
       "points": 5,
@@ -6721,7 +6557,7 @@
     "reasons": [
      "Falta confirmar condiciones en la página oficial."
     ],
-    "checked_at": "2026-11-25T16:51:05-05:00",
+    "checked_at": "2026-11-27T03:47:25-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -6756,7 +6592,7 @@
    },
    "discovered_at": "2026-11-24T19:52:49-05:00",
    "updated_at": "2026-11-24T19:52:49-05:00",
-   "last_verified": "2026-11-25T16:51:05-05:00",
+   "last_verified": "2026-11-27T03:47:25-05:00",
    "last_seen": "2026-11-25T06:28:59-05:00",
    "history": [],
    "priority": {
@@ -6872,7 +6708,7 @@
      "Proviene de una fuente oficial configurada.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-25T23:15:21-05:00",
+    "checked_at": "2026-11-27T03:47:27-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -6907,8 +6743,8 @@
    },
    "discovered_at": "2026-11-25T23:15:21-05:00",
    "updated_at": "2026-11-25T23:15:21-05:00",
-   "last_verified": "2026-11-25T23:15:21-05:00",
-   "last_seen": "2026-11-26T18:06:31-05:00",
+   "last_verified": "2026-11-27T03:47:27-05:00",
+   "last_seen": "2026-11-27T03:47:03-05:00",
    "history": [],
    "priority": {
     "score": 71,
@@ -7178,7 +7014,7 @@
      "Proviene de una fuente oficial configurada.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-25T16:50:43-05:00",
+    "checked_at": "2026-11-27T03:47:06-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -7213,7 +7049,7 @@
    },
    "discovered_at": "2026-11-18T16:19:04-05:00",
    "updated_at": "2026-11-18T16:19:04-05:00",
-   "last_verified": "2026-11-25T16:50:43-05:00",
+   "last_verified": "2026-11-27T03:47:06-05:00",
    "last_seen": "2026-11-19T08:25:49-05:00",
    "history": [],
    "priority": {
@@ -7414,164 +7250,6 @@
    }
   },
   {
-   "id": "op_c37d3438d35c",
-   "title": "Gobierno revive los subsidios de vivienda con 'Mi Casa Milagro': convocatoria se proyecta para marzo de 2027",
-   "summary": "El Gobierno prepara el regreso de los subsidios de vivienda con Mi Casa Milagro. Conozca cuándo sería la convocatoria, prevista para marzo de 2027.",
-   "section": "estado",
-   "category": "vivienda",
-   "tags": [
-    "Convocatorias públicas",
-    "Vivienda"
-   ],
-   "mechanics": [],
-   "kind": "Programa público",
-   "organizer": {
-    "name": "Organizador no identificado",
-    "type": "desconocido",
-    "domain": null,
-    "known": false
-   },
-   "prize": {
-    "description": null,
-    "value_cop": 1080000,
-    "value_text": "$1,08 millones",
-    "value_source": "noticia",
-    "winners": null,
-    "odds_text": null
-   },
-   "cost": {
-    "type": "gratis_registro",
-    "label": "Gratis con registro",
-    "free": true,
-    "certainty": "inferido",
-    "requires_purchase": null,
-    "requires_registration": false,
-    "requires_social": true,
-    "requires_activity": true,
-    "requires_subscription": false,
-    "requires_deposit": false,
-    "purchase_threshold_text": null,
-    "notes": [
-     "Pide interactuar en redes sociales (seguir, comentar o etiquetar).",
-     "No se encontró ninguna condición de compra en la fuente oficial (inferido, confírmalo en los términos)."
-    ]
-   },
-   "eligibility": {
-    "who": null,
-    "min_age": null,
-    "age_text": null,
-    "coverage": "bogota",
-    "cities": [
-     "Bogotá",
-     "Cartagena"
-    ]
-   },
-   "requirements": [
-    "¿Cómo afiliarse al Sisbén por Internet? Paso a paso para solicitar 'online' la encuesta ¿Cuáles serán los requisitos para acceder al subsidio? Por ahora, el Gobierno no ha publicado los requisitos definitivos para…"
-   ],
-   "documents": [
-    "Certificado SISBÉN"
-   ],
-   "steps": [],
-   "steps_source": null,
-   "dates": {
-    "published": "2026-11-26T15:15:37-05:00",
-    "start": null,
-    "end": "2026-11-26",
-    "draw": null
-   },
-   "status": "activa",
-   "gov": {
-    "program_status": "abierta",
-    "entity": "Organizador no identificado"
-   },
-   "offer": null,
-   "verification": {
-    "status": "pendiente",
-    "reasons": [
-     "Organizador no identificado con certeza."
-    ],
-    "checked_at": "2026-11-26T18:06:32-05:00",
-    "link_ok": null,
-    "official_domain": false,
-    "terms_found": false,
-    "link_failures": 0
-   },
-   "risk": {
-    "level": "bajo",
-    "flags": [],
-    "sensitive_data_warning": false
-   },
-   "urls": {
-    "source": "https://www.rtvcnoticias.com/economia/finanzas-personales/mi-casa-milagro-subsidios-vivienda-2027",
-    "participate": "https://www.rtvcnoticias.com/colombia/como-afiliarse-al-sisben-por-internet-paso-paso-para-solicitar-online-la-encuesta",
-    "terms": null,
-    "official": null,
-    "image": "https://rtvc-informativo.s3.amazonaws.com/assets/public/2026-11/mi-casa-milagro-subsidios-vivienda-2027.jpg"
-   },
-   "sources": [
-    {
-     "url": "https://www.rtvcnoticias.com/economia/finanzas-personales/mi-casa-milagro-subsidios-vivienda-2027",
-     "name": "Noticias · subsidios de vivienda",
-     "type": "news",
-     "seen_at": "2026-11-26T18:06:32-05:00"
-    }
-   ],
-   "language": "es",
-   "translated": false,
-   "extraction": {
-    "method": "heuristica",
-    "relevance": 1.0,
-    "model": null
-   },
-   "discovered_at": "2026-11-26T18:06:32-05:00",
-   "updated_at": "2026-11-26T18:06:32-05:00",
-   "last_verified": "2026-11-26T18:06:32-05:00",
-   "last_seen": "2026-11-26T18:06:32-05:00",
-   "history": [],
-   "priority": {
-    "score": 70,
-    "level": "alta",
-    "breakdown": {
-     "valor": {
-      "points": 12,
-      "max": 25,
-      "note": "valor publicado 1.080.000 COP"
-     },
-     "gratuidad": {
-      "points": 22,
-      "max": 25,
-      "note": "gratis_registro"
-     },
-     "facilidad": {
-      "points": 10,
-      "max": 15,
-      "note": "actividad, redes sociales"
-     },
-     "vigencia": {
-      "points": 9,
-      "max": 10,
-      "note": "vence en 0 día(s): revisar ya"
-     },
-     "cobertura": {
-      "points": 10,
-      "max": 10,
-      "note": "bogota"
-     },
-     "credibilidad": {
-      "points": 6,
-      "max": 10,
-      "note": "pendiente"
-     },
-     "claridad": {
-      "points": 1,
-      "max": 5,
-      "note": "sin términos enlazados"
-     }
-    }
-   }
-  },
-  {
    "id": "op_92df3eb814f1",
    "title": "Icetex y Universitat Oberta de Catalunya abren convocatoria de 50 becas para maestrías virtuales hasta 2026",
    "summary": "Icetex y UOC ofrecen 50 becas para maestrías virtuales, cubriendo 45% de la matrícula. Requisitos, plazos y programas ¡Infórmate!",
@@ -7711,12 +7389,334 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (20 días restantes)"
+      "note": "vigente (19 días restantes)"
      },
      "cobertura": {
       "points": 10,
       "max": 10,
       "note": "nacional"
+     },
+     "credibilidad": {
+      "points": 6,
+      "max": 10,
+      "note": "pendiente"
+     },
+     "claridad": {
+      "points": 1,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
+   "id": "op_ed618570ffe8",
+   "title": "Medellín abrió más de 500 subsidios de vivienda para familias y jóvenes: los apoyos superan los 30 millones de pesos",
+   "summary": "La ciudad ofrece alternativas para quienes buscan comprar casa nueva, completar la cuota inicial o realizar mejoras, con requisitos claros y canales de inscripción activos hasta noviembre de 2026 para varios programas.",
+   "section": "estado",
+   "category": "vivienda",
+   "tags": [
+    "Convocatorias públicas",
+    "Dinero en efectivo",
+    "Jóvenes",
+    "Vivienda"
+   ],
+   "kind": "Programa público",
+   "organizer": {
+    "name": "Organizador no identificado",
+    "type": "desconocido",
+    "domain": null,
+    "known": false
+   },
+   "prize": {
+    "description": null,
+    "value_cop": 36000000,
+    "value_text": "$36 millones",
+    "value_source": "noticia",
+    "winners": null,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "gratis_registro",
+    "label": "Gratis con registro",
+    "free": true,
+    "certainty": "inferido",
+    "requires_purchase": null,
+    "requires_registration": true,
+    "requires_social": false,
+    "requires_activity": false,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": null,
+    "notes": [
+     "No se encontró ninguna condición de compra en la fuente oficial (inferido, confírmalo en los términos)."
+    ]
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": 18,
+    "age_text": "entre 18 y 28 años",
+    "coverage": "regional",
+    "cities": [
+     "Medellín",
+     "Barranquilla",
+     "Pereira",
+     "Pasto"
+    ]
+   },
+   "requirements": [
+    "Los requisitos de Compra tu Casa, los mejoramientos y otros programas están disponibles en isvimed.gov.co .",
+    "Contar con encuesta del Sisbén o con una constancia de solicitud de esta medición en la ciudad.",
+    "El titular de la postulación debe ser mayor de edad;",
+    "Las personas interesadas deberán revisar directamente las condiciones de acceso y la disponibilidad de unidades del proyecto.",
+    "Los mejoramientos de vivienda tienen postulación continua La oferta del Isvimed también incorpora mejoramientos de vivienda saludable con inscripciones permanentes para quienes cumplan los requisitos."
+   ],
+   "documents": [
+    "Certificado SISBÉN"
+   ],
+   "steps": [],
+   "steps_source": null,
+   "dates": {
+    "published": "2026-11-06T00:42:12.571Z",
+    "start": null,
+    "end": "2026-11-30",
+    "draw": null
+   },
+   "status": "activa",
+   "gov": {
+    "program_status": "abierta",
+    "entity": "Organizador no identificado"
+   },
+   "offer": null,
+   "verification": {
+    "status": "pendiente",
+    "reasons": [
+     "Organizador no identificado con certeza."
+    ],
+    "checked_at": "2026-11-25T23:15:33-05:00",
+    "link_ok": true,
+    "official_domain": false,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://www.infobae.com/colombia/2026/11/06/medellin-abrio-mas-de-500-subsidios-de-vivienda-para-familias-y-jovenes-los-apoyos-superan-los-30-millones-de-pesos/",
+    "participate": null,
+    "terms": null,
+    "official": null,
+    "image": "https://www.infobae.com/resizer/v2/WV2RQDLLWFANVNIVL4S3HWSLMY.jpg?auth=89b1c27824778b8b6051b7c1f72451eb699d9e90a1c999d5f1bec9a873cfb8c8&smart=true&width=1200&height=630&quality=85"
+   },
+   "sources": [
+    {
+     "url": "https://www.infobae.com/colombia/2026/11/06/medellin-abrio-mas-de-500-subsidios-de-vivienda-para-familias-y-jovenes-los-apoyos-superan-los-30-millones-de-pesos/",
+     "name": "Noticias · subsidios de vivienda",
+     "type": "news",
+     "seen_at": "2026-11-18T16:19:12-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 1.0,
+    "model": null
+   },
+   "discovered_at": "2026-11-18T16:19:12-05:00",
+   "updated_at": "2026-11-18T16:19:12-05:00",
+   "last_verified": "2026-11-25T23:15:33-05:00",
+   "last_seen": "2026-11-26T18:06:31-05:00",
+   "history": [],
+   "priority": {
+    "score": 70,
+    "level": "alta",
+    "breakdown": {
+     "valor": {
+      "points": 16,
+      "max": 25,
+      "note": "valor publicado 36.000.000 COP"
+     },
+     "gratuidad": {
+      "points": 22,
+      "max": 25,
+      "note": "gratis_registro"
+     },
+     "facilidad": {
+      "points": 11,
+      "max": 15,
+      "note": "registro"
+     },
+     "vigencia": {
+      "points": 9,
+      "max": 10,
+      "note": "vence en 3 día(s): revisar ya"
+     },
+     "cobertura": {
+      "points": 5,
+      "max": 10,
+      "note": "regional"
+     },
+     "credibilidad": {
+      "points": 6,
+      "max": 10,
+      "note": "pendiente"
+     },
+     "claridad": {
+      "points": 1,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
+   "id": "op_f34a7f2ec6a7",
+   "title": "Mujeres en Colombia podrán acceder a cursos virtuales gratuitos del Sena antes de que termine 2026: así pueden inscribirse",
+   "summary": "Las interesadas deben seleccionar la materia deseada dentro del portal Zajuna, validar sus datos personales en el aplicativo Betowa y esperar las indicaciones de ingreso que llegarán directamente a sus bandejas de entrada",
+   "section": "estado",
+   "category": "formacion",
+   "tags": [
+    "Convocatorias públicas",
+    "Formación gratuita (SENA y otros)"
+   ],
+   "mechanics": [],
+   "kind": "Programa público",
+   "organizer": {
+    "name": "SENA",
+    "type": "gobierno",
+    "domain": "sena.edu.co",
+    "known": true
+   },
+   "prize": {
+    "description": null,
+    "value_cop": null,
+    "value_text": null,
+    "value_source": null,
+    "winners": null,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "gratis_registro",
+    "label": "Gratis con registro",
+    "free": true,
+    "certainty": "inferido",
+    "requires_purchase": null,
+    "requires_registration": true,
+    "requires_social": false,
+    "requires_activity": false,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": null,
+    "notes": [
+     "No se encontró ninguna condición de compra en la fuente oficial (inferido, confírmalo en los términos)."
+    ]
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": null,
+    "age_text": null,
+    "coverage": "bogota",
+    "cities": [
+     "Bogotá"
+    ]
+   },
+   "requirements": [
+    "Las interesadas deberán crear una cuenta o ingresar con sus credenciales en la plataforma Betowa, tras seleccionar el programa de su interés.",
+    "La oferta incluye programación, automatización y comercio digital La iniciativa está dirigida a aprendices, egresadas y mujeres en general que busquen complementar o actualizar sus conocimientos en áreas técnicas…",
+    "Allí deberá ingresar con una cuenta previamente creada o registrarse con sus datos."
+   ],
+   "documents": [
+    "Documento de identidad (cédula)"
+   ],
+   "steps": [],
+   "steps_source": null,
+   "dates": {
+    "published": "2026-11-26T20:11:51-05:00",
+    "start": "2026-11-26",
+    "end": null,
+    "draw": null
+   },
+   "status": "permanente",
+   "gov": {
+    "program_status": "permanente",
+    "entity": "SENA"
+   },
+   "offer": null,
+   "verification": {
+    "status": "pendiente",
+    "reasons": [
+     "Falta confirmar condiciones en la página oficial."
+    ],
+    "checked_at": "2026-11-27T03:47:03-05:00",
+    "link_ok": null,
+    "official_domain": false,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://www.infobae.com/colombia/2026/11/27/mujeres-en-colombia-podran-acceder-a-cursos-virtuales-gratuitos-del-sena-antes-de-que-termine-2026-asi-pueden-inscribirse/",
+    "participate": null,
+    "terms": null,
+    "official": null,
+    "image": "https://www.infobae.com/resizer/v2/DCZRJA4GG5AXTMMKTX3NP7AHNM.jpeg?auth=b02622439895180b5f6701b1b3fb82a853a53056b06197d2444a481e383ec170&smart=true&width=1200&height=630&quality=85"
+   },
+   "sources": [
+    {
+     "url": "https://www.infobae.com/colombia/2026/11/27/mujeres-en-colombia-podran-acceder-a-cursos-virtuales-gratuitos-del-sena-antes-de-que-termine-2026-asi-pueden-inscribirse/",
+     "name": "Infobae Colombia (feed)",
+     "type": "news",
+     "seen_at": "2026-11-27T03:47:03-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 1.0,
+    "model": null
+   },
+   "discovered_at": "2026-11-27T03:47:03-05:00",
+   "updated_at": "2026-11-27T03:47:03-05:00",
+   "last_verified": "2026-11-27T03:47:03-05:00",
+   "last_seen": "2026-11-27T03:47:03-05:00",
+   "history": [],
+   "priority": {
+    "score": 70,
+    "level": "alta",
+    "breakdown": {
+     "valor": {
+      "points": 11,
+      "max": 25,
+      "note": "valor no publicado (estimado por tipo de premio)"
+     },
+     "gratuidad": {
+      "points": 22,
+      "max": 25,
+      "note": "gratis_registro"
+     },
+     "facilidad": {
+      "points": 12,
+      "max": 15,
+      "note": "registro"
+     },
+     "vigencia": {
+      "points": 8,
+      "max": 10,
+      "note": "programa permanente"
+     },
+     "cobertura": {
+      "points": 10,
+      "max": 10,
+      "note": "bogota"
      },
      "credibilidad": {
       "points": 6,
@@ -8761,7 +8761,7 @@
     "reasons": [
      "Falta confirmar condiciones en la página oficial."
     ],
-    "checked_at": "2026-11-25T23:15:21-05:00",
+    "checked_at": "2026-11-27T03:47:27-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -8796,7 +8796,7 @@
    },
    "discovered_at": "2026-11-24T19:52:50-05:00",
    "updated_at": "2026-11-24T19:52:50-05:00",
-   "last_verified": "2026-11-25T23:15:21-05:00",
+   "last_verified": "2026-11-27T03:47:27-05:00",
    "last_seen": "2026-11-26T09:00:43-05:00",
    "history": [],
    "priority": {
@@ -8821,7 +8821,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (34 días restantes)"
+      "note": "vigente (33 días restantes)"
      },
      "cobertura": {
       "points": 5,
@@ -9447,159 +9447,6 @@
    }
   },
   {
-   "id": "op_90f7dd72bf6d",
-   "title": "Cardique abre convocatoria para premiar iniciativas ambientales en Bolívar",
-   "summary": "El reconocimiento ‘DiQueSí’ tendrá seis categorías y está dirigido a empresas, organizaciones sociales y comunidades con proyectos que demuestren resultados ambientales y sociales",
-   "section": "estado",
-   "category": "convocatorias",
-   "tags": [
-    "Convocatorias públicas"
-   ],
-   "mechanics": [],
-   "kind": "Programa público",
-   "organizer": {
-    "name": "Cardique",
-    "type": "desconocido",
-    "domain": null,
-    "known": false
-   },
-   "prize": {
-    "description": null,
-    "value_cop": null,
-    "value_text": null,
-    "value_source": null,
-    "winners": null,
-    "odds_text": null
-   },
-   "cost": {
-    "type": "gratis_registro",
-    "label": "Gratis con registro",
-    "free": true,
-    "certainty": "inferido",
-    "requires_purchase": null,
-    "requires_registration": false,
-    "requires_social": false,
-    "requires_activity": false,
-    "requires_subscription": false,
-    "requires_deposit": false,
-    "purchase_threshold_text": null,
-    "notes": [
-     "No se encontró ninguna condición de compra en la fuente oficial (inferido, confírmalo en los términos)."
-    ]
-   },
-   "eligibility": {
-    "who": null,
-    "min_age": null,
-    "age_text": null,
-    "coverage": "regional",
-    "cities": [
-     "Cartagena"
-    ]
-   },
-   "requirements": [
-    "La revisión de requisitos se realizará los días 1 y 2 de diciembre, mientras que la evaluación irá hasta el día 10."
-   ],
-   "documents": [],
-   "steps": [],
-   "steps_source": null,
-   "dates": {
-    "published": "2026-11-19T19:53:03-05:00",
-    "start": null,
-    "end": "2026-11-30",
-    "draw": null
-   },
-   "status": "activa",
-   "gov": {
-    "program_status": "abierta",
-    "entity": "Cardique"
-   },
-   "offer": null,
-   "verification": {
-    "status": "pendiente",
-    "reasons": [
-     "Organizador no identificado con certeza."
-    ],
-    "checked_at": "2026-11-25T16:51:03-05:00",
-    "link_ok": true,
-    "official_domain": false,
-    "terms_found": false,
-    "link_failures": 0
-   },
-   "risk": {
-    "level": "bajo",
-    "flags": [],
-    "sensitive_data_warning": false
-   },
-   "urls": {
-    "source": "https://caracol.com.co/2026/11/20/cardique-abre-convocatoria-para-premiar-iniciativas-ambientales-en-bolivar/",
-    "participate": null,
-    "terms": null,
-    "official": null,
-    "image": "https://caracol.com.co/resizer/v2/VKPOFYSWWFHODKPQCK4OHAVZHA.jpg?auth=dee69d8f7bda86d597d93434aeee166fa664b5c4a9953cfc7d1250099ae3a194&quality=70&width=1200&height=675&smart=true"
-   },
-   "sources": [
-    {
-     "url": "https://caracol.com.co/2026/11/20/cardique-abre-convocatoria-para-premiar-iniciativas-ambientales-en-bolivar/",
-     "name": "Caracol Radio (feed)",
-     "type": "news",
-     "seen_at": "2026-11-19T22:29:21-05:00"
-    }
-   ],
-   "language": "es",
-   "translated": false,
-   "extraction": {
-    "method": "heuristica",
-    "relevance": 0.77,
-    "model": null
-   },
-   "discovered_at": "2026-11-19T22:29:21-05:00",
-   "updated_at": "2026-11-19T22:29:21-05:00",
-   "last_verified": "2026-11-25T16:51:03-05:00",
-   "last_seen": "2026-11-20T08:04:54-05:00",
-   "history": [],
-   "priority": {
-    "score": 68,
-    "level": "media",
-    "breakdown": {
-     "valor": {
-      "points": 9,
-      "max": 25,
-      "note": "valor no publicado"
-     },
-     "gratuidad": {
-      "points": 22,
-      "max": 25,
-      "note": "gratis_registro"
-     },
-     "facilidad": {
-      "points": 15,
-      "max": 15,
-      "note": "pocos requisitos"
-     },
-     "vigencia": {
-      "points": 10,
-      "max": 10,
-      "note": "vigente (4 días restantes)"
-     },
-     "cobertura": {
-      "points": 5,
-      "max": 10,
-      "note": "regional"
-     },
-     "credibilidad": {
-      "points": 6,
-      "max": 10,
-      "note": "pendiente"
-     },
-     "claridad": {
-      "points": 1,
-      "max": 5,
-      "note": "sin términos enlazados"
-     }
-    }
-   }
-  },
-  {
    "id": "op_4480c0f070e4",
    "title": "China y Colombia abren convocatoria de 30 becas completas para maestría y doctorado presencial en universidades chinas",
    "summary": "Convocatoria de 30 becas para maestrías y doctorados en China: matrícula, alojamiento y apoyo mensual. Postula hasta el 22 de enero de 2027.",
@@ -9672,7 +9519,7 @@
     "reasons": [
      "Organizador no identificado con certeza."
     ],
-    "checked_at": "2026-11-25T16:50:47-05:00",
+    "checked_at": "2026-11-27T03:47:10-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -9707,7 +9554,7 @@
    },
    "discovered_at": "2026-11-18T16:19:06-05:00",
    "updated_at": "2026-11-18T16:19:06-05:00",
-   "last_verified": "2026-11-25T16:50:47-05:00",
+   "last_verified": "2026-11-27T03:47:10-05:00",
    "last_seen": "2026-11-18T22:36:47-05:00",
    "history": [],
    "priority": {
@@ -9732,7 +9579,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (57 días restantes)"
+      "note": "vigente (56 días restantes)"
      },
      "cobertura": {
       "points": 6,
@@ -9857,7 +9704,7 @@
    "discovered_at": "2026-11-18T17:21:45-05:00",
    "updated_at": "2026-11-18T17:21:45-05:00",
    "last_verified": "2026-11-25T23:15:41-05:00",
-   "last_seen": "2026-11-26T18:06:31-05:00",
+   "last_seen": "2026-11-27T03:47:03-05:00",
    "history": [],
    "priority": {
     "score": 68,
@@ -9979,7 +9826,7 @@
      "Proviene de una fuente oficial configurada.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-25T16:50:42-05:00",
+    "checked_at": "2026-11-27T03:47:05-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -10014,7 +9861,7 @@
    },
    "discovered_at": "2026-11-18T16:19:03-05:00",
    "updated_at": "2026-11-18T16:19:03-05:00",
-   "last_verified": "2026-11-25T16:50:42-05:00",
+   "last_verified": "2026-11-27T03:47:05-05:00",
    "last_seen": "2026-11-19T08:25:49-05:00",
    "history": [],
    "priority": {
@@ -10145,7 +9992,7 @@
     "reasons": [
      "Organizador no identificado con certeza."
     ],
-    "checked_at": "2026-11-25T16:50:58-05:00",
+    "checked_at": "2026-11-27T03:47:20-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -10180,7 +10027,7 @@
    },
    "discovered_at": "2026-11-18T16:19:09-05:00",
    "updated_at": "2026-11-18T16:19:09-05:00",
-   "last_verified": "2026-11-25T16:50:58-05:00",
+   "last_verified": "2026-11-27T03:47:20-05:00",
    "last_seen": "2026-11-26T09:00:43-05:00",
    "history": [],
    "priority": {
@@ -10378,6 +10225,159 @@
       "points": 10,
       "max": 10,
       "note": "bogota"
+     },
+     "credibilidad": {
+      "points": 6,
+      "max": 10,
+      "note": "pendiente"
+     },
+     "claridad": {
+      "points": 1,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
+   "id": "op_90f7dd72bf6d",
+   "title": "Cardique abre convocatoria para premiar iniciativas ambientales en Bolívar",
+   "summary": "El reconocimiento ‘DiQueSí’ tendrá seis categorías y está dirigido a empresas, organizaciones sociales y comunidades con proyectos que demuestren resultados ambientales y sociales",
+   "section": "estado",
+   "category": "convocatorias",
+   "tags": [
+    "Convocatorias públicas"
+   ],
+   "mechanics": [],
+   "kind": "Programa público",
+   "organizer": {
+    "name": "Cardique",
+    "type": "desconocido",
+    "domain": null,
+    "known": false
+   },
+   "prize": {
+    "description": null,
+    "value_cop": null,
+    "value_text": null,
+    "value_source": null,
+    "winners": null,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "gratis_registro",
+    "label": "Gratis con registro",
+    "free": true,
+    "certainty": "inferido",
+    "requires_purchase": null,
+    "requires_registration": false,
+    "requires_social": false,
+    "requires_activity": false,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": null,
+    "notes": [
+     "No se encontró ninguna condición de compra en la fuente oficial (inferido, confírmalo en los términos)."
+    ]
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": null,
+    "age_text": null,
+    "coverage": "regional",
+    "cities": [
+     "Cartagena"
+    ]
+   },
+   "requirements": [
+    "La revisión de requisitos se realizará los días 1 y 2 de diciembre, mientras que la evaluación irá hasta el día 10."
+   ],
+   "documents": [],
+   "steps": [],
+   "steps_source": null,
+   "dates": {
+    "published": "2026-11-19T19:53:03-05:00",
+    "start": null,
+    "end": "2026-11-30",
+    "draw": null
+   },
+   "status": "activa",
+   "gov": {
+    "program_status": "abierta",
+    "entity": "Cardique"
+   },
+   "offer": null,
+   "verification": {
+    "status": "pendiente",
+    "reasons": [
+     "Organizador no identificado con certeza."
+    ],
+    "checked_at": "2026-11-27T03:47:23-05:00",
+    "link_ok": true,
+    "official_domain": false,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://caracol.com.co/2026/11/20/cardique-abre-convocatoria-para-premiar-iniciativas-ambientales-en-bolivar/",
+    "participate": null,
+    "terms": null,
+    "official": null,
+    "image": "https://caracol.com.co/resizer/v2/VKPOFYSWWFHODKPQCK4OHAVZHA.jpg?auth=dee69d8f7bda86d597d93434aeee166fa664b5c4a9953cfc7d1250099ae3a194&quality=70&width=1200&height=675&smart=true"
+   },
+   "sources": [
+    {
+     "url": "https://caracol.com.co/2026/11/20/cardique-abre-convocatoria-para-premiar-iniciativas-ambientales-en-bolivar/",
+     "name": "Caracol Radio (feed)",
+     "type": "news",
+     "seen_at": "2026-11-19T22:29:21-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 0.77,
+    "model": null
+   },
+   "discovered_at": "2026-11-19T22:29:21-05:00",
+   "updated_at": "2026-11-19T22:29:21-05:00",
+   "last_verified": "2026-11-27T03:47:23-05:00",
+   "last_seen": "2026-11-20T08:04:54-05:00",
+   "history": [],
+   "priority": {
+    "score": 67,
+    "level": "media",
+    "breakdown": {
+     "valor": {
+      "points": 9,
+      "max": 25,
+      "note": "valor no publicado"
+     },
+     "gratuidad": {
+      "points": 22,
+      "max": 25,
+      "note": "gratis_registro"
+     },
+     "facilidad": {
+      "points": 15,
+      "max": 15,
+      "note": "pocos requisitos"
+     },
+     "vigencia": {
+      "points": 9,
+      "max": 10,
+      "note": "vence en 3 día(s): revisar ya"
+     },
+     "cobertura": {
+      "points": 5,
+      "max": 10,
+      "note": "regional"
      },
      "credibilidad": {
       "points": 6,
@@ -10646,7 +10646,7 @@
     "reasons": [
      "Organizador no identificado con certeza."
     ],
-    "checked_at": "2026-11-25T23:15:29-05:00",
+    "checked_at": "2026-11-27T03:47:33-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -10681,7 +10681,7 @@
    },
    "discovered_at": "2026-11-24T19:52:52-05:00",
    "updated_at": "2026-11-24T19:52:52-05:00",
-   "last_verified": "2026-11-25T23:15:29-05:00",
+   "last_verified": "2026-11-27T03:47:33-05:00",
    "last_seen": "2026-11-24T19:52:52-05:00",
    "history": [],
    "priority": {
@@ -10706,7 +10706,7 @@
      "vigencia": {
       "points": 9,
       "max": 10,
-      "note": "vence en 2 día(s): revisar ya"
+      "note": "vence en 1 día(s): revisar ya"
      },
      "cobertura": {
       "points": 5,
@@ -11109,7 +11109,7 @@
     "reasons": [
      "Falta confirmar condiciones en la página oficial."
     ],
-    "checked_at": "2026-11-25T16:51:03-05:00",
+    "checked_at": "2026-11-27T03:47:24-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -11144,7 +11144,7 @@
    },
    "discovered_at": "2026-11-18T16:19:09-05:00",
    "updated_at": "2026-11-18T16:19:09-05:00",
-   "last_verified": "2026-11-25T16:51:03-05:00",
+   "last_verified": "2026-11-27T03:47:24-05:00",
    "last_seen": "2026-11-20T08:04:54-05:00",
    "history": [],
    "priority": {
@@ -11175,162 +11175,6 @@
       "points": 10,
       "max": 10,
       "note": "nacional"
-     },
-     "credibilidad": {
-      "points": 6,
-      "max": 10,
-      "note": "pendiente"
-     },
-     "claridad": {
-      "points": 1,
-      "max": 5,
-      "note": "sin términos enlazados"
-     }
-    }
-   }
-  },
-  {
-   "id": "op_52fdb9d1a775",
-   "title": "ANT abre convocatoria en Tolima con apoyo de hasta $750 millones para proyectos productivos",
-   "summary": "El programa esta orientado atender las necesidades de los campesinos de esta zona del país",
-   "section": "estado",
-   "category": "convocatorias",
-   "tags": [
-    "Convocatorias públicas"
-   ],
-   "mechanics": [],
-   "kind": "Programa público",
-   "organizer": {
-    "name": "ANT",
-    "type": "desconocido",
-    "domain": null,
-    "known": false
-   },
-   "prize": {
-    "description": null,
-    "value_cop": null,
-    "value_text": null,
-    "value_source": null,
-    "winners": null,
-    "odds_text": null
-   },
-   "cost": {
-    "type": "gratis_registro",
-    "label": "Gratis con registro",
-    "free": true,
-    "certainty": "inferido",
-    "requires_purchase": null,
-    "requires_registration": true,
-    "requires_social": false,
-    "requires_activity": false,
-    "requires_subscription": false,
-    "requires_deposit": false,
-    "purchase_threshold_text": null,
-    "notes": [
-     "No se encontró ninguna condición de compra en la fuente oficial (inferido, confírmalo en los términos)."
-    ]
-   },
-   "eligibility": {
-    "who": null,
-    "min_age": null,
-    "age_text": null,
-    "coverage": "regional",
-    "cities": [
-     "Ibagué"
-    ]
-   },
-   "requirements": [
-    "Las organizaciones interesadas deberán realizar su inscripción a través del portal de la ANT o de manera presencial en la Unidad de Gestión Territorial de Ibagué."
-   ],
-   "documents": [
-    "Documento de identidad (cédula)",
-    "RUT"
-   ],
-   "steps": [],
-   "steps_source": null,
-   "dates": {
-    "published": "2026-11-24T15:34:01-05:00",
-    "start": null,
-    "end": "2026-11-30",
-    "draw": null
-   },
-   "status": "activa",
-   "gov": {
-    "program_status": "abierta",
-    "entity": "ANT"
-   },
-   "offer": null,
-   "verification": {
-    "status": "pendiente",
-    "reasons": [
-     "Organizador no identificado con certeza."
-    ],
-    "checked_at": "2026-11-25T23:15:22-05:00",
-    "link_ok": true,
-    "official_domain": false,
-    "terms_found": false,
-    "link_failures": 0
-   },
-   "risk": {
-    "level": "bajo",
-    "flags": [],
-    "sensitive_data_warning": false
-   },
-   "urls": {
-    "source": "https://caracol.com.co/2026/11/24/ant-abre-convocatoria-en-tolima-con-apoyo-de-hasta-750-millones-para-proyectos-productivos/",
-    "participate": null,
-    "terms": null,
-    "official": null,
-    "image": "https://caracol.com.co/resizer/v2/E5HOD5PT5JAXXPFMHL477YF3KM.jpeg?auth=441a080d7a647394a00175a97f26f489c14f3c6ce8e088147d790fc98f6a44f2&quality=70&width=1200&height=675&smart=true"
-   },
-   "sources": [
-    {
-     "url": "https://caracol.com.co/2026/11/24/ant-abre-convocatoria-en-tolima-con-apoyo-de-hasta-750-millones-para-proyectos-productivos/",
-     "name": "Caracol Radio (feed)",
-     "type": "news",
-     "seen_at": "2026-11-24T19:52:50-05:00"
-    }
-   ],
-   "language": "es",
-   "translated": false,
-   "extraction": {
-    "method": "heuristica",
-    "relevance": 0.45,
-    "model": null
-   },
-   "discovered_at": "2026-11-24T19:52:50-05:00",
-   "updated_at": "2026-11-24T19:52:50-05:00",
-   "last_verified": "2026-11-25T23:15:22-05:00",
-   "last_seen": "2026-11-24T19:52:50-05:00",
-   "history": [],
-   "priority": {
-    "score": 65,
-    "level": "media",
-    "breakdown": {
-     "valor": {
-      "points": 9,
-      "max": 25,
-      "note": "valor no publicado"
-     },
-     "gratuidad": {
-      "points": 22,
-      "max": 25,
-      "note": "gratis_registro"
-     },
-     "facilidad": {
-      "points": 12,
-      "max": 15,
-      "note": "registro"
-     },
-     "vigencia": {
-      "points": 10,
-      "max": 10,
-      "note": "vigente (4 días restantes)"
-     },
-     "cobertura": {
-      "points": 5,
-      "max": 10,
-      "note": "regional"
      },
      "credibilidad": {
       "points": 6,
@@ -11419,7 +11263,7 @@
     "reasons": [
      "Organizador no identificado con certeza."
     ],
-    "checked_at": "2026-11-25T16:51:01-05:00",
+    "checked_at": "2026-11-27T03:47:22-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -11454,7 +11298,7 @@
    },
    "discovered_at": "2026-11-19T22:29:20-05:00",
    "updated_at": "2026-11-19T22:29:20-05:00",
-   "last_verified": "2026-11-25T16:51:01-05:00",
+   "last_verified": "2026-11-27T03:47:22-05:00",
    "last_seen": "2026-11-20T08:04:54-05:00",
    "history": [],
    "priority": {
@@ -11479,7 +11323,7 @@
      "vigencia": {
       "points": 9,
       "max": 10,
-      "note": "vence en 1 día(s): revisar ya"
+      "note": "vence en 0 día(s): revisar ya"
      },
      "cobertura": {
       "points": 5,
@@ -11665,6 +11509,162 @@
    }
   },
   {
+   "id": "op_52fdb9d1a775",
+   "title": "ANT abre convocatoria en Tolima con apoyo de hasta $750 millones para proyectos productivos",
+   "summary": "El programa esta orientado atender las necesidades de los campesinos de esta zona del país",
+   "section": "estado",
+   "category": "convocatorias",
+   "tags": [
+    "Convocatorias públicas"
+   ],
+   "mechanics": [],
+   "kind": "Programa público",
+   "organizer": {
+    "name": "ANT",
+    "type": "desconocido",
+    "domain": null,
+    "known": false
+   },
+   "prize": {
+    "description": null,
+    "value_cop": null,
+    "value_text": null,
+    "value_source": null,
+    "winners": null,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "gratis_registro",
+    "label": "Gratis con registro",
+    "free": true,
+    "certainty": "inferido",
+    "requires_purchase": null,
+    "requires_registration": true,
+    "requires_social": false,
+    "requires_activity": false,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": null,
+    "notes": [
+     "No se encontró ninguna condición de compra en la fuente oficial (inferido, confírmalo en los términos)."
+    ]
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": null,
+    "age_text": null,
+    "coverage": "regional",
+    "cities": [
+     "Ibagué"
+    ]
+   },
+   "requirements": [
+    "Las organizaciones interesadas deberán realizar su inscripción a través del portal de la ANT o de manera presencial en la Unidad de Gestión Territorial de Ibagué."
+   ],
+   "documents": [
+    "Documento de identidad (cédula)",
+    "RUT"
+   ],
+   "steps": [],
+   "steps_source": null,
+   "dates": {
+    "published": "2026-11-24T15:34:01-05:00",
+    "start": null,
+    "end": "2026-11-30",
+    "draw": null
+   },
+   "status": "activa",
+   "gov": {
+    "program_status": "abierta",
+    "entity": "ANT"
+   },
+   "offer": null,
+   "verification": {
+    "status": "pendiente",
+    "reasons": [
+     "Organizador no identificado con certeza."
+    ],
+    "checked_at": "2026-11-27T03:47:28-05:00",
+    "link_ok": true,
+    "official_domain": false,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://caracol.com.co/2026/11/24/ant-abre-convocatoria-en-tolima-con-apoyo-de-hasta-750-millones-para-proyectos-productivos/",
+    "participate": null,
+    "terms": null,
+    "official": null,
+    "image": "https://caracol.com.co/resizer/v2/E5HOD5PT5JAXXPFMHL477YF3KM.jpeg?auth=441a080d7a647394a00175a97f26f489c14f3c6ce8e088147d790fc98f6a44f2&quality=70&width=1200&height=675&smart=true"
+   },
+   "sources": [
+    {
+     "url": "https://caracol.com.co/2026/11/24/ant-abre-convocatoria-en-tolima-con-apoyo-de-hasta-750-millones-para-proyectos-productivos/",
+     "name": "Caracol Radio (feed)",
+     "type": "news",
+     "seen_at": "2026-11-24T19:52:50-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 0.45,
+    "model": null
+   },
+   "discovered_at": "2026-11-24T19:52:50-05:00",
+   "updated_at": "2026-11-24T19:52:50-05:00",
+   "last_verified": "2026-11-27T03:47:28-05:00",
+   "last_seen": "2026-11-24T19:52:50-05:00",
+   "history": [],
+   "priority": {
+    "score": 64,
+    "level": "media",
+    "breakdown": {
+     "valor": {
+      "points": 9,
+      "max": 25,
+      "note": "valor no publicado"
+     },
+     "gratuidad": {
+      "points": 22,
+      "max": 25,
+      "note": "gratis_registro"
+     },
+     "facilidad": {
+      "points": 12,
+      "max": 15,
+      "note": "registro"
+     },
+     "vigencia": {
+      "points": 9,
+      "max": 10,
+      "note": "vence en 3 día(s): revisar ya"
+     },
+     "cobertura": {
+      "points": 5,
+      "max": 10,
+      "note": "regional"
+     },
+     "credibilidad": {
+      "points": 6,
+      "max": 10,
+      "note": "pendiente"
+     },
+     "claridad": {
+      "points": 1,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
    "id": "op_7ae7ad5d2974",
    "title": "Abren convocatoria de Jóvenes a la E en Bogotá: apoyos para ingreso a educación superior en 2027",
    "summary": "Nueva convocatoria Jóvenes a la E en Bogotá: postúlate del 7 al 13 de noviembre y accede a apoyos económicos para tu educación superior.",
@@ -11800,7 +11800,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (50 días restantes)"
+      "note": "vigente (49 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -11960,7 +11960,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (5 días restantes)"
+      "note": "vigente (4 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -12057,7 +12057,7 @@
     "reasons": [
      "Organizador no identificado con certeza."
     ],
-    "checked_at": "2026-11-25T23:15:25-05:00",
+    "checked_at": "2026-11-27T03:47:30-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -12092,7 +12092,7 @@
    },
    "discovered_at": "2026-11-24T19:52:51-05:00",
    "updated_at": "2026-11-24T19:52:51-05:00",
-   "last_verified": "2026-11-25T23:15:25-05:00",
+   "last_verified": "2026-11-27T03:47:30-05:00",
    "last_seen": "2026-11-25T06:28:59-05:00",
    "history": [],
    "priority": {
@@ -12117,7 +12117,7 @@
      "vigencia": {
       "points": 9,
       "max": 10,
-      "note": "vence en 3 día(s): revisar ya"
+      "note": "vence en 2 día(s): revisar ya"
      },
      "cobertura": {
       "points": 5,
@@ -12269,7 +12269,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (9 días restantes)"
+      "note": "vigente (8 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -12516,7 +12516,7 @@
    "dates": {
     "published": "Lun, 16/11/2026 - 16:46",
     "start": null,
-    "end": "2026-12-12",
+    "end": "2026-12-05",
     "draw": null
    },
    "status": "activa",
@@ -12529,7 +12529,7 @@
      "El enlace respondió correctamente en la última verificación.",
      "Falta confirmar condiciones en la página oficial."
     ],
-    "checked_at": "2026-11-25T16:50:49-05:00",
+    "checked_at": "2026-11-27T03:47:11-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -12564,7 +12564,7 @@
    },
    "discovered_at": "2026-11-18T16:19:08-05:00",
    "updated_at": "2026-11-18T16:19:08-05:00",
-   "last_verified": "2026-11-25T16:50:49-05:00",
+   "last_verified": "2026-11-27T03:47:11-05:00",
    "last_seen": "2026-11-22T21:54:42-05:00",
    "history": [
     {
@@ -12580,6 +12580,13 @@
      "label": "Fecha de finalización",
      "from": "2026-11-21",
      "to": "2026-12-12"
+    },
+    {
+     "at": "2026-11-27T03:47:11-05:00",
+     "field": "dates.end",
+     "label": "Fecha de finalización",
+     "from": "2026-12-12",
+     "to": "2026-12-05"
     }
    ],
    "priority": {
@@ -12604,7 +12611,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (16 días restantes)"
+      "note": "vigente (8 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -12844,7 +12851,7 @@
     "reasons": [
      "Información insuficiente: sin organizador identificado, fechas ni enlace oficial."
     ],
-    "checked_at": "2026-11-25T16:50:49-05:00",
+    "checked_at": "2026-11-27T03:47:11-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -12879,7 +12886,7 @@
    },
    "discovered_at": "2026-11-18T16:19:08-05:00",
    "updated_at": "2026-11-18T16:19:08-05:00",
-   "last_verified": "2026-11-25T16:50:49-05:00",
+   "last_verified": "2026-11-27T03:47:11-05:00",
    "last_seen": "2026-11-26T18:06:31-05:00",
    "history": [],
    "priority": {
@@ -13166,7 +13173,7 @@
      "El enlace pertenece a un dominio oficial del organizador.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-25T23:15:23-05:00",
+    "checked_at": "2026-11-27T03:47:28-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -13201,7 +13208,7 @@
    },
    "discovered_at": "2026-11-24T19:52:50-05:00",
    "updated_at": "2026-11-24T19:52:50-05:00",
-   "last_verified": "2026-11-25T23:15:23-05:00",
+   "last_verified": "2026-11-27T03:47:28-05:00",
    "last_seen": "2026-11-25T06:28:59-05:00",
    "history": [],
    "priority": {
@@ -13633,7 +13640,7 @@
     "reasons": [
      "Organizador no identificado con certeza."
     ],
-    "checked_at": "2026-11-25T23:15:26-05:00",
+    "checked_at": "2026-11-27T03:47:31-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -13668,7 +13675,7 @@
    },
    "discovered_at": "2026-11-24T19:52:51-05:00",
    "updated_at": "2026-11-24T19:52:51-05:00",
-   "last_verified": "2026-11-25T23:15:26-05:00",
+   "last_verified": "2026-11-27T03:47:31-05:00",
    "last_seen": "2026-11-24T19:52:51-05:00",
    "history": [],
    "priority": {
@@ -13693,7 +13700,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (19 días restantes)"
+      "note": "vigente (18 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -13992,7 +13999,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (14 días restantes)"
+      "note": "vigente (13 días restantes)"
      },
      "cobertura": {
       "points": 5,
@@ -14161,7 +14168,7 @@
      "vigencia": {
       "points": 9,
       "max": 10,
-      "note": "vence en 1 día(s): revisar ya"
+      "note": "vence en 0 día(s): revisar ya"
      },
      "cobertura": {
       "points": 5,
@@ -14572,7 +14579,7 @@
      "Tiene términos y condiciones consultables.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-25T16:50:46-05:00",
+    "checked_at": "2026-11-27T03:47:09-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": true,
@@ -14607,8 +14614,8 @@
    },
    "discovered_at": "2026-11-18T16:18:58-05:00",
    "updated_at": "2026-11-18T16:18:58-05:00",
-   "last_verified": "2026-11-25T16:50:46-05:00",
-   "last_seen": "2026-11-26T18:06:31-05:00",
+   "last_verified": "2026-11-27T03:47:09-05:00",
+   "last_seen": "2026-11-27T03:47:03-05:00",
    "history": [],
    "priority": {
     "score": 60,
@@ -14938,7 +14945,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (19 días restantes)"
+      "note": "vigente (18 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -15234,7 +15241,7 @@
    "discovered_at": "2026-11-26T18:06:32-05:00",
    "updated_at": "2026-11-26T18:06:32-05:00",
    "last_verified": "2026-11-26T18:06:32-05:00",
-   "last_seen": "2026-11-26T18:06:32-05:00",
+   "last_seen": "2026-11-27T03:47:03-05:00",
    "history": [],
    "priority": {
     "score": 59,
@@ -15560,7 +15567,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (94 días restantes)"
+      "note": "vigente (93 días restantes)"
      },
      "cobertura": {
       "points": 5,
@@ -15952,7 +15959,7 @@
     "reasons": [
      "Información insuficiente: sin organizador identificado, fechas ni enlace oficial."
     ],
-    "checked_at": "2026-11-25T23:15:24-05:00",
+    "checked_at": "2026-11-27T03:47:29-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -15987,7 +15994,7 @@
    },
    "discovered_at": "2026-11-24T19:52:50-05:00",
    "updated_at": "2026-11-24T19:52:50-05:00",
-   "last_verified": "2026-11-25T23:15:24-05:00",
+   "last_verified": "2026-11-27T03:47:29-05:00",
    "last_seen": "2026-11-25T16:50:24-05:00",
    "history": [],
    "priority": {
@@ -16150,7 +16157,7 @@
    "discovered_at": "2026-11-18T16:18:44-05:00",
    "updated_at": "2026-11-18T16:18:44-05:00",
    "last_verified": "2026-11-26T18:06:56-05:00",
-   "last_seen": "2026-11-26T18:06:31-05:00",
+   "last_seen": "2026-11-27T03:47:03-05:00",
    "history": [],
    "priority": {
     "score": 57,
@@ -16174,7 +16181,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (20 días restantes)"
+      "note": "vigente (19 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -16280,7 +16287,7 @@
     "reasons": [
      "Falta confirmar condiciones en la página oficial."
     ],
-    "checked_at": "2026-11-25T16:50:53-05:00",
+    "checked_at": "2026-11-27T03:47:16-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -16315,7 +16322,7 @@
    },
    "discovered_at": "2026-11-18T16:19:08-05:00",
    "updated_at": "2026-11-18T16:19:08-05:00",
-   "last_verified": "2026-11-25T16:50:53-05:00",
+   "last_verified": "2026-11-27T03:47:16-05:00",
    "last_seen": "2026-11-26T18:06:31-05:00",
    "history": [],
    "priority": {
@@ -16783,7 +16790,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (531 días restantes)"
+      "note": "vigente (530 días restantes)"
      },
      "cobertura": {
       "points": 5,
@@ -17112,7 +17119,7 @@
    "discovered_at": "2026-11-18T16:18:40-05:00",
    "updated_at": "2026-11-18T16:18:40-05:00",
    "last_verified": "2026-11-26T18:06:49-05:00",
-   "last_seen": "2026-11-26T18:06:31-05:00",
+   "last_seen": "2026-11-27T03:47:03-05:00",
    "history": [],
    "priority": {
     "score": 55,
@@ -17136,7 +17143,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (35 días restantes)"
+      "note": "vigente (34 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -17289,7 +17296,7 @@
    "discovered_at": "2026-11-18T16:18:36-05:00",
    "updated_at": "2026-11-18T16:18:36-05:00",
    "last_verified": "2026-11-26T18:06:44-05:00",
-   "last_seen": "2026-11-26T18:06:31-05:00",
+   "last_seen": "2026-11-27T03:47:03-05:00",
    "history": [],
    "priority": {
     "score": 55,
@@ -17313,7 +17320,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (35 días restantes)"
+      "note": "vigente (34 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -17439,7 +17446,7 @@
    "discovered_at": "2026-11-26T18:06:32-05:00",
    "updated_at": "2026-11-26T18:06:32-05:00",
    "last_verified": "2026-11-26T18:06:32-05:00",
-   "last_seen": "2026-11-26T18:06:32-05:00",
+   "last_seen": "2026-11-27T03:47:03-05:00",
    "history": [],
    "priority": {
     "score": 55,
@@ -17591,7 +17598,7 @@
    "discovered_at": "2026-11-18T17:21:48-05:00",
    "updated_at": "2026-11-18T17:21:48-05:00",
    "last_verified": "2026-11-26T09:01:00-05:00",
-   "last_seen": "2026-11-26T18:06:31-05:00",
+   "last_seen": "2026-11-27T03:47:03-05:00",
    "history": [],
    "priority": {
     "score": 55,
@@ -17917,7 +17924,7 @@
    "discovered_at": "2026-11-18T16:18:39-05:00",
    "updated_at": "2026-11-18T16:18:39-05:00",
    "last_verified": "2026-11-26T18:06:47-05:00",
-   "last_seen": "2026-11-26T18:06:31-05:00",
+   "last_seen": "2026-11-27T03:47:03-05:00",
    "history": [],
    "priority": {
     "score": 55,
@@ -17941,7 +17948,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (35 días restantes)"
+      "note": "vigente (34 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -18100,7 +18107,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (33 días restantes)"
+      "note": "vigente (32 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -18244,7 +18251,7 @@
    "discovered_at": "2026-11-18T16:18:44-05:00",
    "updated_at": "2026-11-18T16:18:44-05:00",
    "last_verified": "2026-11-26T18:06:57-05:00",
-   "last_seen": "2026-11-26T18:06:31-05:00",
+   "last_seen": "2026-11-27T03:47:03-05:00",
    "history": [],
    "priority": {
     "score": 54,
@@ -18566,7 +18573,7 @@
    "discovered_at": "2026-11-26T18:06:32-05:00",
    "updated_at": "2026-11-26T18:06:32-05:00",
    "last_verified": "2026-11-26T18:06:32-05:00",
-   "last_seen": "2026-11-26T18:06:32-05:00",
+   "last_seen": "2026-11-27T03:47:03-05:00",
    "history": [],
    "priority": {
     "score": 54,
@@ -18680,7 +18687,7 @@
     "reasons": [
      "Organizador no identificado con certeza."
     ],
-    "checked_at": "2026-11-25T23:15:27-05:00",
+    "checked_at": "2026-11-27T03:47:32-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -18715,7 +18722,7 @@
    },
    "discovered_at": "2026-11-24T19:52:51-05:00",
    "updated_at": "2026-11-24T19:52:51-05:00",
-   "last_verified": "2026-11-25T23:15:27-05:00",
+   "last_verified": "2026-11-27T03:47:32-05:00",
    "last_seen": "2026-11-26T18:06:31-05:00",
    "history": [],
    "priority": {
@@ -18740,7 +18747,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (18 días restantes)"
+      "note": "vigente (17 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -18881,7 +18888,7 @@
    "discovered_at": "2026-11-18T16:18:37-05:00",
    "updated_at": "2026-11-18T16:18:37-05:00",
    "last_verified": "2026-11-26T18:06:45-05:00",
-   "last_seen": "2026-11-26T18:06:31-05:00",
+   "last_seen": "2026-11-27T03:47:03-05:00",
    "history": [],
    "priority": {
     "score": 53,
@@ -18905,7 +18912,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (131 días restantes)"
+      "note": "vigente (130 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -19047,7 +19054,7 @@
    "discovered_at": "2026-11-18T16:18:38-05:00",
    "updated_at": "2026-11-18T16:18:38-05:00",
    "last_verified": "2026-11-26T18:06:46-05:00",
-   "last_seen": "2026-11-26T18:06:31-05:00",
+   "last_seen": "2026-11-27T03:47:03-05:00",
    "history": [],
    "priority": {
     "score": 53,
@@ -19071,7 +19078,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (35 días restantes)"
+      "note": "vigente (34 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -19155,7 +19162,7 @@
     "reasons": [
      "Organizador no identificado con certeza."
     ],
-    "checked_at": "2026-11-25T23:15:24-05:00",
+    "checked_at": "2026-11-27T03:47:29-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -19190,7 +19197,7 @@
    },
    "discovered_at": "2026-11-24T19:52:50-05:00",
    "updated_at": "2026-11-24T19:52:50-05:00",
-   "last_verified": "2026-11-25T23:15:24-05:00",
+   "last_verified": "2026-11-27T03:47:29-05:00",
    "last_seen": "2026-11-25T06:28:59-05:00",
    "history": [],
    "priority": {
@@ -19357,7 +19364,7 @@
    "discovered_at": "2026-11-26T18:06:33-05:00",
    "updated_at": "2026-11-26T18:06:33-05:00",
    "last_verified": "2026-11-26T18:06:33-05:00",
-   "last_seen": "2026-11-26T18:06:33-05:00",
+   "last_seen": "2026-11-27T03:47:03-05:00",
    "history": [],
    "priority": {
     "score": 52,
@@ -19381,7 +19388,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (46 días restantes)"
+      "note": "vigente (45 días restantes)"
      },
      "cobertura": {
       "points": 5,
@@ -19958,7 +19965,7 @@
    "discovered_at": "2026-11-18T16:18:42-05:00",
    "updated_at": "2026-11-18T16:18:42-05:00",
    "last_verified": "2026-11-26T18:06:50-05:00",
-   "last_seen": "2026-11-26T18:06:31-05:00",
+   "last_seen": "2026-11-27T03:47:03-05:00",
    "history": [],
    "priority": {
     "score": 51,
@@ -19982,7 +19989,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (125 días restantes)"
+      "note": "vigente (124 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -20166,7 +20173,7 @@
      "vigencia": {
       "points": 9,
       "max": 10,
-      "note": "vence en 1 día(s): revisar ya"
+      "note": "vence en 0 día(s): revisar ya"
      },
      "cobertura": {
       "points": 5,
@@ -20314,7 +20321,7 @@
    "discovered_at": "2026-11-26T18:06:31-05:00",
    "updated_at": "2026-11-26T18:06:31-05:00",
    "last_verified": "2026-11-26T18:06:31-05:00",
-   "last_seen": "2026-11-26T18:06:31-05:00",
+   "last_seen": "2026-11-27T03:47:03-05:00",
    "history": [],
    "priority": {
     "score": 50,
@@ -20432,7 +20439,7 @@
     "reasons": [
      "Falta confirmar condiciones en la página oficial."
     ],
-    "checked_at": "2026-11-25T16:50:51-05:00",
+    "checked_at": "2026-11-27T03:47:13-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -20467,7 +20474,7 @@
    },
    "discovered_at": "2026-11-18T16:19:07-05:00",
    "updated_at": "2026-11-18T16:19:07-05:00",
-   "last_verified": "2026-11-25T16:50:51-05:00",
+   "last_verified": "2026-11-27T03:47:13-05:00",
    "last_seen": "2026-11-18T16:19:07-05:00",
    "history": [],
    "priority": {
@@ -20952,7 +20959,7 @@
      "vigencia": {
       "points": 10,
       "max": 10,
-      "note": "vigente (10 días restantes)"
+      "note": "vigente (9 días restantes)"
      },
      "cobertura": {
       "points": 6,
@@ -21125,164 +21132,6 @@
    }
   },
   {
-   "id": "op_7eeca6bda01a",
-   "title": "Infinix Colombia lanza descuentos de hasta 60% en sus celulares para Black Friday",
-   "summary": "Infinix Colombia, celulares Infinix, Black Friday, celulares, Note Edge, HOT 70 Pro, edición limitada HOT 70 Pro, Free Fire, Note 60 Pro",
-   "section": "ofertas",
-   "category": "of_tecnologia",
-   "tags": [
-    "Celulares",
-    "Supermercados",
-    "Tecnología",
-    "Temporadas (Black Friday, Día sin IVA…)"
-   ],
-   "mechanics": [],
-   "kind": "Oferta",
-   "organizer": {
-    "name": "Infinix Colombia",
-    "type": "desconocido",
-    "domain": null,
-    "known": false
-   },
-   "prize": {
-    "description": null,
-    "value_cop": null,
-    "value_text": null,
-    "value_source": null,
-    "winners": null,
-    "odds_text": null
-   },
-   "cost": {
-    "type": "requiere_compra",
-    "label": "Requiere compra",
-    "free": false,
-    "certainty": "explicito",
-    "requires_purchase": true,
-    "requires_registration": false,
-    "requires_social": false,
-    "requires_activity": false,
-    "requires_subscription": false,
-    "requires_deposit": false,
-    "purchase_threshold_text": "$988.900",
-    "notes": [
-     "La fuente indica condición de compra: «pagando con».",
-     "Monto mínimo mencionado: $988.900."
-    ]
-   },
-   "eligibility": {
-    "who": null,
-    "min_age": null,
-    "age_text": null,
-    "coverage": "desconocida",
-    "cities": []
-   },
-   "requirements": [
-    "Esto ayuda a controlar el calor y mantener un rendimiento estable en sesiones largas de juego, transmisiones en vivo o grabación de contenido."
-   ],
-   "documents": [],
-   "steps": [],
-   "steps_source": null,
-   "dates": {
-    "published": "2026-11-20T12:53:43-05:00",
-    "start": null,
-    "end": "2026-11-30",
-    "draw": null
-   },
-   "status": "activa",
-   "gov": null,
-   "offer": {
-    "discount_pct": null,
-    "original_price": null,
-    "promo_price": null,
-    "code": null,
-    "pct_verified": false
-   },
-   "verification": {
-    "status": "pendiente",
-    "reasons": [
-     "Organizador no identificado con certeza."
-    ],
-    "checked_at": "2026-11-26T09:01:22-05:00",
-    "link_ok": true,
-    "official_domain": false,
-    "terms_found": false,
-    "link_failures": 0
-   },
-   "risk": {
-    "level": "bajo",
-    "flags": [],
-    "sensitive_data_warning": false
-   },
-   "urls": {
-    "source": "https://www.technocio.com/infinix-colombia-lanza-descuentos-de-hasta-60-en-sus-celulares-para-black-friday/",
-    "participate": null,
-    "terms": null,
-    "official": null,
-    "image": "https://www.technocio.com/wp-content/uploads/2026/11/Infinix-HOT-70-Pro.jpg"
-   },
-   "sources": [
-    {
-     "url": "https://www.technocio.com/infinix-colombia-lanza-descuentos-de-hasta-60-en-sus-celulares-para-black-friday/",
-     "name": "Noticias · Black Friday Colombia",
-     "type": "news",
-     "seen_at": "2026-11-21T15:41:35-05:00"
-    }
-   ],
-   "language": "es",
-   "translated": false,
-   "extraction": {
-    "method": "heuristica",
-    "relevance": 0.45,
-    "model": null
-   },
-   "discovered_at": "2026-11-21T15:41:35-05:00",
-   "updated_at": "2026-11-21T15:41:35-05:00",
-   "last_verified": "2026-11-26T09:01:22-05:00",
-   "last_seen": "2026-11-21T15:41:35-05:00",
-   "history": [],
-   "priority": {
-    "score": 47,
-    "level": "media",
-    "breakdown": {
-     "valor": {
-      "points": 5,
-      "max": 25,
-      "note": "descuento sobre compra"
-     },
-     "gratuidad": {
-      "points": 4,
-      "max": 25,
-      "note": "requiere_compra"
-     },
-     "facilidad": {
-      "points": 15,
-      "max": 15,
-      "note": "pocos requisitos"
-     },
-     "vigencia": {
-      "points": 10,
-      "max": 10,
-      "note": "vigente (4 días restantes)"
-     },
-     "cobertura": {
-      "points": 6,
-      "max": 10,
-      "note": "desconocida"
-     },
-     "credibilidad": {
-      "points": 6,
-      "max": 10,
-      "note": "pendiente"
-     },
-     "claridad": {
-      "points": 1,
-      "max": 5,
-      "note": "sin términos enlazados"
-     }
-    }
-   }
-  },
-  {
    "id": "op_002069a01ef5",
    "title": "Presidente De La Espriella confirmó la captura en Cali de alias ‘Blue’, señalada de participar en actos violentos y terrorismo",
    "summary": "El presidente Abelardo De La Espriella anunció la captura de la mujer investigada por su presunta participación en ataques contra servidores públicos, hechos de terrorismo durante manifestaciones, propaganda mediante grafitis y reclutamiento de jóvenes en universidades públicas.",
@@ -21356,7 +21205,7 @@
     "reasons": [
      "Organizador no identificado con certeza."
     ],
-    "checked_at": "2026-11-25T16:51:02-05:00",
+    "checked_at": "2026-11-27T03:47:22-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -21391,7 +21240,7 @@
    },
    "discovered_at": "2026-11-19T22:29:20-05:00",
    "updated_at": "2026-11-19T22:29:20-05:00",
-   "last_verified": "2026-11-25T16:51:02-05:00",
+   "last_verified": "2026-11-27T03:47:22-05:00",
    "last_seen": "2026-11-21T07:49:31-05:00",
    "history": [],
    "priority": {
@@ -21437,17 +21286,17 @@
    }
   },
   {
-   "id": "op_7a7fa5cb0485",
-   "title": "Bonos increíbles y una avalancha de cashback: 1xBet lanza una promoción especial por el Black Friday",
-   "summary": "¡Celebra el Black Friday con 1xBet hasta el 30 de noviembre!",
-   "section": "ofertas",
-   "category": "of_eventos_comerciales",
+   "id": "op_74b59dbfa3f6",
+   "title": "Asaltan vivienda del director de Medicina Legal en Bogotá: cinco delincuentes participaron del robo",
+   "summary": "El hecho ocurrió en la noche de este jueves. El atraco quedó registrado en las cámaras de seguridad del lugar.",
+   "section": "bonos",
+   "category": "otros_beneficios",
    "tags": [
-    "Cashback y reembolsos",
-    "Temporadas (Black Friday, Día sin IVA…)"
+    "Carros",
+    "Vivienda"
    ],
    "mechanics": [],
-   "kind": "Oferta",
+   "kind": "Beneficio",
    "organizer": {
     "name": "Organizador no identificado",
     "type": "desconocido",
@@ -21463,61 +21312,49 @@
     "odds_text": null
    },
    "cost": {
-    "type": "requiere_compra",
-    "label": "Requiere compra",
+    "type": "desconocido",
+    "label": "Costo sin confirmar",
     "free": false,
-    "certainty": "inferido",
+    "certainty": "desconocido",
     "requires_purchase": null,
-    "requires_registration": true,
+    "requires_registration": false,
     "requires_social": false,
     "requires_activity": false,
     "requires_subscription": false,
     "requires_deposit": false,
     "purchase_threshold_text": null,
-    "notes": [
-     "Es una oferta comercial: el beneficio aplica sobre una compra."
-    ]
+    "notes": []
    },
    "eligibility": {
     "who": null,
     "min_age": null,
     "age_text": null,
-    "coverage": "desconocida",
-    "cities": []
+    "coverage": "regional",
+    "cities": [
+     "Bogotá",
+     "Barranquilla",
+     "Cartagena"
+    ]
    },
-   "requirements": [
-    "Además, debes aceptar recibir ofertas de bonos en la configuración de tu perfil.",
-    "También podrías encontrar un código promocional en el fondo de la caja para obtener una apuesta gratis de 1, 3, 5, 10, 20, 50 o 100 USD."
-   ],
+   "requirements": [],
    "documents": [],
-   "steps": [
-    "Regístrate o inicia sesión en el sitio web de 1xBet o en su práctica app;",
-    "En la página de la promoción, haz clic en el botón para participar;",
-    "Deposita al menos 35 700,4 COP entre el 24 y el 30 de noviembre;",
-    "Abre tus Cajas de Bonos y descubre si contienen algún bono."
-   ],
-   "steps_source": "fuente_secundaria",
+   "steps": [],
+   "steps_source": null,
    "dates": {
-    "published": "Jue, 26/11/2026 - 15:12",
-    "start": "2026-11-24",
-    "end": "2026-11-30",
+    "published": "2026-11-26T23:44:40-05:00",
+    "start": null,
+    "end": null,
     "draw": null
    },
-   "status": "activa",
+   "status": "sin_confirmar",
    "gov": null,
-   "offer": {
-    "discount_pct": null,
-    "original_price": null,
-    "promo_price": null,
-    "code": null,
-    "pct_verified": false
-   },
+   "offer": null,
    "verification": {
-    "status": "pendiente",
+    "status": "no_verificable",
     "reasons": [
-     "Organizador no identificado con certeza."
+     "Información insuficiente: sin organizador identificado, fechas ni enlace oficial."
     ],
-    "checked_at": "2026-11-26T18:06:34-05:00",
+    "checked_at": "2026-11-27T03:47:03-05:00",
     "link_ok": null,
     "official_domain": false,
     "terms_found": false,
@@ -21529,68 +21366,68 @@
     "sensitive_data_warning": false
    },
    "urls": {
-    "source": "https://www.elnuevosiglo.com.co/deportes/bonos-increibles-y-una-avalancha-de-cashback-1xbet-lanza-una-promocion-especial-por-el",
+    "source": "https://www.elheraldo.co/colombia/2026/11/27/asaltan-vivienda-del-director-de-medicina-legal-en-bogota-cinco-delincuentes-participaron-del-robo/",
     "participate": null,
     "terms": null,
     "official": null,
-    "image": "https://www.elnuevosiglo.com.co/sites/default/files/2026-11/Screenshot%202026-11-26%20151203.png"
+    "image": "https://www.elheraldo.co/resizer/v2/F5OV6ULNW5CVRO524PBS4X3XKA.png?smart=true&auth=64e49c6f7b29a66403e2de4f6a4ed1efc9817958e666d253305821b492bd12e8&width=1200&height=675"
    },
    "sources": [
     {
-     "url": "https://www.elnuevosiglo.com.co/deportes/bonos-increibles-y-una-avalancha-de-cashback-1xbet-lanza-una-promocion-especial-por-el",
-     "name": "Noticias · cashback",
+     "url": "https://www.elheraldo.co/colombia/2026/11/27/asaltan-vivienda-del-director-de-medicina-legal-en-bogota-cinco-delincuentes-participaron-del-robo/",
+     "name": "El Heraldo (feed)",
      "type": "news",
-     "seen_at": "2026-11-26T18:06:34-05:00"
+     "seen_at": "2026-11-27T03:47:03-05:00"
     }
    ],
    "language": "es",
    "translated": false,
    "extraction": {
     "method": "heuristica",
-    "relevance": 1.0,
+    "relevance": 0.33,
     "model": null
    },
-   "discovered_at": "2026-11-26T18:06:34-05:00",
-   "updated_at": "2026-11-26T18:06:34-05:00",
-   "last_verified": "2026-11-26T18:06:34-05:00",
-   "last_seen": "2026-11-26T18:06:34-05:00",
+   "discovered_at": "2026-11-27T03:47:03-05:00",
+   "updated_at": "2026-11-27T03:47:03-05:00",
+   "last_verified": "2026-11-27T03:47:03-05:00",
+   "last_seen": "2026-11-27T03:47:03-05:00",
    "history": [],
    "priority": {
     "score": 46,
     "level": "media",
     "breakdown": {
      "valor": {
-      "points": 5,
+      "points": 9,
       "max": 25,
-      "note": "descuento sobre compra"
+      "note": "valor no publicado"
      },
      "gratuidad": {
-      "points": 4,
+      "points": 9,
       "max": 25,
-      "note": "requiere_compra"
+      "note": "desconocido"
      },
      "facilidad": {
-      "points": 12,
+      "points": 15,
       "max": 15,
-      "note": "registro"
+      "note": "pocos requisitos"
      },
      "vigencia": {
-      "points": 10,
+      "points": 5,
       "max": 10,
-      "note": "vigente (4 días restantes)"
+      "note": "sin fecha límite publicada"
      },
      "cobertura": {
-      "points": 6,
+      "points": 5,
       "max": 10,
-      "note": "desconocida"
+      "note": "regional"
      },
      "credibilidad": {
-      "points": 6,
+      "points": 2,
       "max": 10,
-      "note": "pendiente"
+      "note": "no_verificable"
      },
      "claridad": {
-      "points": 3,
+      "points": 1,
       "max": 5,
       "note": "sin términos enlazados"
      }
@@ -21895,6 +21732,164 @@
    }
   },
   {
+   "id": "op_7eeca6bda01a",
+   "title": "Infinix Colombia lanza descuentos de hasta 60% en sus celulares para Black Friday",
+   "summary": "Infinix Colombia, celulares Infinix, Black Friday, celulares, Note Edge, HOT 70 Pro, edición limitada HOT 70 Pro, Free Fire, Note 60 Pro",
+   "section": "ofertas",
+   "category": "of_tecnologia",
+   "tags": [
+    "Celulares",
+    "Supermercados",
+    "Tecnología",
+    "Temporadas (Black Friday, Día sin IVA…)"
+   ],
+   "mechanics": [],
+   "kind": "Oferta",
+   "organizer": {
+    "name": "Infinix Colombia",
+    "type": "desconocido",
+    "domain": null,
+    "known": false
+   },
+   "prize": {
+    "description": null,
+    "value_cop": null,
+    "value_text": null,
+    "value_source": null,
+    "winners": null,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "requiere_compra",
+    "label": "Requiere compra",
+    "free": false,
+    "certainty": "explicito",
+    "requires_purchase": true,
+    "requires_registration": false,
+    "requires_social": false,
+    "requires_activity": false,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": "$988.900",
+    "notes": [
+     "La fuente indica condición de compra: «pagando con».",
+     "Monto mínimo mencionado: $988.900."
+    ]
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": null,
+    "age_text": null,
+    "coverage": "desconocida",
+    "cities": []
+   },
+   "requirements": [
+    "Esto ayuda a controlar el calor y mantener un rendimiento estable en sesiones largas de juego, transmisiones en vivo o grabación de contenido."
+   ],
+   "documents": [],
+   "steps": [],
+   "steps_source": null,
+   "dates": {
+    "published": "2026-11-20T12:53:43-05:00",
+    "start": null,
+    "end": "2026-11-30",
+    "draw": null
+   },
+   "status": "activa",
+   "gov": null,
+   "offer": {
+    "discount_pct": null,
+    "original_price": null,
+    "promo_price": null,
+    "code": null,
+    "pct_verified": false
+   },
+   "verification": {
+    "status": "pendiente",
+    "reasons": [
+     "Organizador no identificado con certeza."
+    ],
+    "checked_at": "2026-11-26T09:01:22-05:00",
+    "link_ok": true,
+    "official_domain": false,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://www.technocio.com/infinix-colombia-lanza-descuentos-de-hasta-60-en-sus-celulares-para-black-friday/",
+    "participate": null,
+    "terms": null,
+    "official": null,
+    "image": "https://www.technocio.com/wp-content/uploads/2026/11/Infinix-HOT-70-Pro.jpg"
+   },
+   "sources": [
+    {
+     "url": "https://www.technocio.com/infinix-colombia-lanza-descuentos-de-hasta-60-en-sus-celulares-para-black-friday/",
+     "name": "Noticias · Black Friday Colombia",
+     "type": "news",
+     "seen_at": "2026-11-21T15:41:35-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 0.45,
+    "model": null
+   },
+   "discovered_at": "2026-11-21T15:41:35-05:00",
+   "updated_at": "2026-11-21T15:41:35-05:00",
+   "last_verified": "2026-11-26T09:01:22-05:00",
+   "last_seen": "2026-11-21T15:41:35-05:00",
+   "history": [],
+   "priority": {
+    "score": 46,
+    "level": "media",
+    "breakdown": {
+     "valor": {
+      "points": 5,
+      "max": 25,
+      "note": "descuento sobre compra"
+     },
+     "gratuidad": {
+      "points": 4,
+      "max": 25,
+      "note": "requiere_compra"
+     },
+     "facilidad": {
+      "points": 15,
+      "max": 15,
+      "note": "pocos requisitos"
+     },
+     "vigencia": {
+      "points": 9,
+      "max": 10,
+      "note": "vence en 3 día(s): revisar ya"
+     },
+     "cobertura": {
+      "points": 6,
+      "max": 10,
+      "note": "desconocida"
+     },
+     "credibilidad": {
+      "points": 6,
+      "max": 10,
+      "note": "pendiente"
+     },
+     "claridad": {
+      "points": 1,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
    "id": "op_fe42e90fdefb",
    "title": "Más de 100 policías participaron en jornada de memoria y derechos humanos en Medellín",
    "summary": "Estudiantes de policía, auxiliares y uniformados hicieron parte de la estrategia “Reconocer para dignificar”, orientada a fortalecer una cultura institucional comprometida con la paz.",
@@ -22039,6 +22034,331 @@
    }
   },
   {
+   "id": "op_9f7c96024e07",
+   "title": "Black Friday vuelos nacionales desde $50.000 y descuentos en hoteles en Colombia",
+   "summary": "Despegar anunció vuelos nacionales desde $50.000 pagando con Nequi este 27 de noviembre por el Black Friday, además de descuentos de hasta el 75 % en hoteles y vuelos 2x1.",
+   "section": "ofertas",
+   "category": "of_viajes",
+   "tags": [
+    "Temporadas (Black Friday, Día sin IVA…)",
+    "Viajes"
+   ],
+   "mechanics": [],
+   "kind": "Oferta",
+   "organizer": {
+    "name": "Nequi",
+    "type": "billetera",
+    "domain": "nequi.com.co",
+    "known": true
+   },
+   "prize": {
+    "description": null,
+    "value_cop": null,
+    "value_text": null,
+    "value_source": null,
+    "winners": null,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "requiere_compra",
+    "label": "Requiere compra",
+    "free": false,
+    "certainty": "explicito",
+    "requires_purchase": true,
+    "requires_registration": false,
+    "requires_social": false,
+    "requires_activity": false,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": "$50.000",
+    "notes": [
+     "La fuente indica condición de compra: «descuentos de hasta el 45 %».",
+     "Monto mínimo mencionado: $50.000."
+    ]
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": null,
+    "age_text": null,
+    "coverage": "regional",
+    "cities": [
+     "San Andrés"
+    ]
+   },
+   "requirements": [],
+   "documents": [],
+   "steps": [],
+   "steps_source": null,
+   "dates": {
+    "published": "Dom, 22/11/2026 - 12:56",
+    "start": "2026-11-27",
+    "end": "2026-11-29",
+    "draw": null
+   },
+   "status": "activa",
+   "gov": null,
+   "offer": {
+    "discount_pct": null,
+    "original_price": null,
+    "promo_price": null,
+    "code": null,
+    "pct_verified": false
+   },
+   "verification": {
+    "status": "pendiente",
+    "reasons": [
+     "Falta confirmar condiciones en la página oficial."
+    ],
+    "checked_at": "2026-11-26T18:06:58-05:00",
+    "link_ok": true,
+    "official_domain": false,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://www.elnuevosiglo.com.co/cultura-y-sociedad/black-friday-vuelos-nacionales-desde-50000-y-descuentos-en-hoteles-en-colombia",
+    "participate": null,
+    "terms": null,
+    "official": null,
+    "image": "https://www.elnuevosiglo.com.co/sites/default/files/2026-11/FOTOS%20TAMA%C3%91O%20WEB%20EL%20NUEVO%20SIGLO%20%2842%29.png"
+   },
+   "sources": [
+    {
+     "url": "https://www.elnuevosiglo.com.co/cultura-y-sociedad/black-friday-vuelos-nacionales-desde-50000-y-descuentos-en-hoteles-en-colombia",
+     "name": "Noticias · Black Friday Colombia",
+     "type": "news",
+     "seen_at": "2026-11-22T21:54:42-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 0.65,
+    "model": null
+   },
+   "discovered_at": "2026-11-22T21:54:42-05:00",
+   "updated_at": "2026-11-22T21:54:42-05:00",
+   "last_verified": "2026-11-26T18:06:58-05:00",
+   "last_seen": "2026-11-22T21:54:42-05:00",
+   "history": [
+    {
+     "at": "2026-11-27T03:47:36-05:00",
+     "field": "status",
+     "label": "Estado",
+     "from": "proxima",
+     "to": "activa"
+    }
+   ],
+   "priority": {
+    "score": 45,
+    "level": "media",
+    "breakdown": {
+     "valor": {
+      "points": 5,
+      "max": 25,
+      "note": "descuento sobre compra"
+     },
+     "gratuidad": {
+      "points": 4,
+      "max": 25,
+      "note": "requiere_compra"
+     },
+     "facilidad": {
+      "points": 15,
+      "max": 15,
+      "note": "pocos requisitos"
+     },
+     "vigencia": {
+      "points": 9,
+      "max": 10,
+      "note": "vence en 2 día(s): revisar ya"
+     },
+     "cobertura": {
+      "points": 5,
+      "max": 10,
+      "note": "regional"
+     },
+     "credibilidad": {
+      "points": 6,
+      "max": 10,
+      "note": "pendiente"
+     },
+     "claridad": {
+      "points": 1,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
+   "id": "op_7a7fa5cb0485",
+   "title": "Bonos increíbles y una avalancha de cashback: 1xBet lanza una promoción especial por el Black Friday",
+   "summary": "¡Celebra el Black Friday con 1xBet hasta el 30 de noviembre!",
+   "section": "ofertas",
+   "category": "of_eventos_comerciales",
+   "tags": [
+    "Cashback y reembolsos",
+    "Temporadas (Black Friday, Día sin IVA…)"
+   ],
+   "mechanics": [],
+   "kind": "Oferta",
+   "organizer": {
+    "name": "Organizador no identificado",
+    "type": "desconocido",
+    "domain": null,
+    "known": false
+   },
+   "prize": {
+    "description": null,
+    "value_cop": null,
+    "value_text": null,
+    "value_source": null,
+    "winners": null,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "requiere_compra",
+    "label": "Requiere compra",
+    "free": false,
+    "certainty": "inferido",
+    "requires_purchase": null,
+    "requires_registration": true,
+    "requires_social": false,
+    "requires_activity": false,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": null,
+    "notes": [
+     "Es una oferta comercial: el beneficio aplica sobre una compra."
+    ]
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": null,
+    "age_text": null,
+    "coverage": "desconocida",
+    "cities": []
+   },
+   "requirements": [
+    "Además, debes aceptar recibir ofertas de bonos en la configuración de tu perfil.",
+    "También podrías encontrar un código promocional en el fondo de la caja para obtener una apuesta gratis de 1, 3, 5, 10, 20, 50 o 100 USD."
+   ],
+   "documents": [],
+   "steps": [
+    "Regístrate o inicia sesión en el sitio web de 1xBet o en su práctica app;",
+    "En la página de la promoción, haz clic en el botón para participar;",
+    "Deposita al menos 35 700,4 COP entre el 24 y el 30 de noviembre;",
+    "Abre tus Cajas de Bonos y descubre si contienen algún bono."
+   ],
+   "steps_source": "fuente_secundaria",
+   "dates": {
+    "published": "Jue, 26/11/2026 - 15:12",
+    "start": "2026-11-24",
+    "end": "2026-11-30",
+    "draw": null
+   },
+   "status": "activa",
+   "gov": null,
+   "offer": {
+    "discount_pct": null,
+    "original_price": null,
+    "promo_price": null,
+    "code": null,
+    "pct_verified": false
+   },
+   "verification": {
+    "status": "pendiente",
+    "reasons": [
+     "Organizador no identificado con certeza."
+    ],
+    "checked_at": "2026-11-26T18:06:34-05:00",
+    "link_ok": null,
+    "official_domain": false,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://www.elnuevosiglo.com.co/deportes/bonos-increibles-y-una-avalancha-de-cashback-1xbet-lanza-una-promocion-especial-por-el",
+    "participate": null,
+    "terms": null,
+    "official": null,
+    "image": "https://www.elnuevosiglo.com.co/sites/default/files/2026-11/Screenshot%202026-11-26%20151203.png"
+   },
+   "sources": [
+    {
+     "url": "https://www.elnuevosiglo.com.co/deportes/bonos-increibles-y-una-avalancha-de-cashback-1xbet-lanza-una-promocion-especial-por-el",
+     "name": "Noticias · cashback",
+     "type": "news",
+     "seen_at": "2026-11-26T18:06:34-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 1.0,
+    "model": null
+   },
+   "discovered_at": "2026-11-26T18:06:34-05:00",
+   "updated_at": "2026-11-26T18:06:34-05:00",
+   "last_verified": "2026-11-26T18:06:34-05:00",
+   "last_seen": "2026-11-26T18:06:34-05:00",
+   "history": [],
+   "priority": {
+    "score": 45,
+    "level": "media",
+    "breakdown": {
+     "valor": {
+      "points": 5,
+      "max": 25,
+      "note": "descuento sobre compra"
+     },
+     "gratuidad": {
+      "points": 4,
+      "max": 25,
+      "note": "requiere_compra"
+     },
+     "facilidad": {
+      "points": 12,
+      "max": 15,
+      "note": "registro"
+     },
+     "vigencia": {
+      "points": 9,
+      "max": 10,
+      "note": "vence en 3 día(s): revisar ya"
+     },
+     "cobertura": {
+      "points": 6,
+      "max": 10,
+      "note": "desconocida"
+     },
+     "credibilidad": {
+      "points": 6,
+      "max": 10,
+      "note": "pendiente"
+     },
+     "claridad": {
+      "points": 3,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
    "id": "op_4b73b3ae0609",
    "title": "Black Friday en Bogotá: los centros comerciales se preparan con descuentos",
    "summary": "Bogotá tendrá jornadas de descuentos para adelantar las compras de Navidad en Black Friday.",
@@ -22113,7 +22433,7 @@
     "reasons": [
      "Organizador no identificado con certeza."
     ],
-    "checked_at": "2026-11-25T23:15:29-05:00",
+    "checked_at": "2026-11-27T03:47:33-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -22148,7 +22468,7 @@
    },
    "discovered_at": "2026-11-24T19:52:52-05:00",
    "updated_at": "2026-11-24T19:52:52-05:00",
-   "last_verified": "2026-11-25T23:15:29-05:00",
+   "last_verified": "2026-11-27T03:47:33-05:00",
    "last_seen": "2026-11-24T19:52:52-05:00",
    "history": [],
    "priority": {
@@ -22173,7 +22493,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (113 días restantes)"
+      "note": "vigente (112 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -22427,7 +22747,7 @@
     "reasons": [
      "Organizador no identificado con certeza."
     ],
-    "checked_at": "2026-11-25T23:15:30-05:00",
+    "checked_at": "2026-11-27T03:47:34-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -22462,7 +22782,7 @@
    },
    "discovered_at": "2026-11-24T19:52:52-05:00",
    "updated_at": "2026-11-24T19:52:52-05:00",
-   "last_verified": "2026-11-25T23:15:30-05:00",
+   "last_verified": "2026-11-27T03:47:34-05:00",
    "last_seen": "2026-11-26T18:06:31-05:00",
    "history": [],
    "priority": {
@@ -22487,7 +22807,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (216 días restantes)"
+      "note": "vigente (215 días restantes)"
      },
      "cobertura": {
       "points": 5,
@@ -22580,7 +22900,7 @@
     "reasons": [
      "Falta confirmar condiciones en la página oficial."
     ],
-    "checked_at": "2026-11-25T16:50:52-05:00",
+    "checked_at": "2026-11-27T03:47:13-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -22615,7 +22935,7 @@
    },
    "discovered_at": "2026-11-18T16:19:07-05:00",
    "updated_at": "2026-11-18T16:19:07-05:00",
-   "last_verified": "2026-11-25T16:50:52-05:00",
+   "last_verified": "2026-11-27T03:47:13-05:00",
    "last_seen": "2026-11-18T21:46:59-05:00",
    "history": [],
    "priority": {
@@ -22768,7 +23088,7 @@
    "discovered_at": "2026-11-25T16:50:25-05:00",
    "updated_at": "2026-11-25T16:50:25-05:00",
    "last_verified": "2026-11-26T18:06:53-05:00",
-   "last_seen": "2026-11-26T18:06:31-05:00",
+   "last_seen": "2026-11-27T03:47:03-05:00",
    "history": [],
    "priority": {
     "score": 43,
@@ -22955,7 +23275,7 @@
      "vigencia": {
       "points": 8,
       "max": 10,
-      "note": "vigente (104 días restantes)"
+      "note": "vigente (103 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -23053,7 +23373,7 @@
     "reasons": [
      "Organizador no identificado con certeza."
     ],
-    "checked_at": "2026-11-25T23:15:27-05:00",
+    "checked_at": "2026-11-27T03:47:32-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -23088,7 +23408,7 @@
    },
    "discovered_at": "2026-11-24T19:52:51-05:00",
    "updated_at": "2026-11-24T19:52:51-05:00",
-   "last_verified": "2026-11-25T23:15:27-05:00",
+   "last_verified": "2026-11-27T03:47:32-05:00",
    "last_seen": "2026-11-26T09:00:43-05:00",
    "history": [],
    "priority": {
@@ -23286,162 +23606,6 @@
    }
   },
   {
-   "id": "op_9f7c96024e07",
-   "title": "Black Friday vuelos nacionales desde $50.000 y descuentos en hoteles en Colombia",
-   "summary": "Despegar anunció vuelos nacionales desde $50.000 pagando con Nequi este 27 de noviembre por el Black Friday, además de descuentos de hasta el 75 % en hoteles y vuelos 2x1.",
-   "section": "ofertas",
-   "category": "of_viajes",
-   "tags": [
-    "Temporadas (Black Friday, Día sin IVA…)",
-    "Viajes"
-   ],
-   "mechanics": [],
-   "kind": "Oferta",
-   "organizer": {
-    "name": "Nequi",
-    "type": "billetera",
-    "domain": "nequi.com.co",
-    "known": true
-   },
-   "prize": {
-    "description": null,
-    "value_cop": null,
-    "value_text": null,
-    "value_source": null,
-    "winners": null,
-    "odds_text": null
-   },
-   "cost": {
-    "type": "requiere_compra",
-    "label": "Requiere compra",
-    "free": false,
-    "certainty": "explicito",
-    "requires_purchase": true,
-    "requires_registration": false,
-    "requires_social": false,
-    "requires_activity": false,
-    "requires_subscription": false,
-    "requires_deposit": false,
-    "purchase_threshold_text": "$50.000",
-    "notes": [
-     "La fuente indica condición de compra: «descuentos de hasta el 45 %».",
-     "Monto mínimo mencionado: $50.000."
-    ]
-   },
-   "eligibility": {
-    "who": null,
-    "min_age": null,
-    "age_text": null,
-    "coverage": "regional",
-    "cities": [
-     "San Andrés"
-    ]
-   },
-   "requirements": [],
-   "documents": [],
-   "steps": [],
-   "steps_source": null,
-   "dates": {
-    "published": "Dom, 22/11/2026 - 12:56",
-    "start": "2026-11-27",
-    "end": "2026-11-29",
-    "draw": null
-   },
-   "status": "proxima",
-   "gov": null,
-   "offer": {
-    "discount_pct": null,
-    "original_price": null,
-    "promo_price": null,
-    "code": null,
-    "pct_verified": false
-   },
-   "verification": {
-    "status": "pendiente",
-    "reasons": [
-     "Falta confirmar condiciones en la página oficial."
-    ],
-    "checked_at": "2026-11-26T18:06:58-05:00",
-    "link_ok": true,
-    "official_domain": false,
-    "terms_found": false,
-    "link_failures": 0
-   },
-   "risk": {
-    "level": "bajo",
-    "flags": [],
-    "sensitive_data_warning": false
-   },
-   "urls": {
-    "source": "https://www.elnuevosiglo.com.co/cultura-y-sociedad/black-friday-vuelos-nacionales-desde-50000-y-descuentos-en-hoteles-en-colombia",
-    "participate": null,
-    "terms": null,
-    "official": null,
-    "image": "https://www.elnuevosiglo.com.co/sites/default/files/2026-11/FOTOS%20TAMA%C3%91O%20WEB%20EL%20NUEVO%20SIGLO%20%2842%29.png"
-   },
-   "sources": [
-    {
-     "url": "https://www.elnuevosiglo.com.co/cultura-y-sociedad/black-friday-vuelos-nacionales-desde-50000-y-descuentos-en-hoteles-en-colombia",
-     "name": "Noticias · Black Friday Colombia",
-     "type": "news",
-     "seen_at": "2026-11-22T21:54:42-05:00"
-    }
-   ],
-   "language": "es",
-   "translated": false,
-   "extraction": {
-    "method": "heuristica",
-    "relevance": 0.65,
-    "model": null
-   },
-   "discovered_at": "2026-11-22T21:54:42-05:00",
-   "updated_at": "2026-11-22T21:54:42-05:00",
-   "last_verified": "2026-11-26T18:06:58-05:00",
-   "last_seen": "2026-11-22T21:54:42-05:00",
-   "history": [],
-   "priority": {
-    "score": 42,
-    "level": "baja",
-    "breakdown": {
-     "valor": {
-      "points": 5,
-      "max": 25,
-      "note": "descuento sobre compra"
-     },
-     "gratuidad": {
-      "points": 4,
-      "max": 25,
-      "note": "requiere_compra"
-     },
-     "facilidad": {
-      "points": 15,
-      "max": 15,
-      "note": "pocos requisitos"
-     },
-     "vigencia": {
-      "points": 6,
-      "max": 10,
-      "note": "abre próximamente"
-     },
-     "cobertura": {
-      "points": 5,
-      "max": 10,
-      "note": "regional"
-     },
-     "credibilidad": {
-      "points": 6,
-      "max": 10,
-      "note": "pendiente"
-     },
-     "claridad": {
-      "points": 1,
-      "max": 5,
-      "note": "sin términos enlazados"
-     }
-    }
-   }
-  },
-  {
    "id": "op_d4eeaf550581",
    "title": "Black Friday: Clic ofrece hasta un 30 % de descuento en vuelos a destinos nacionales",
    "summary": "Black Friday, Clic, Clic Air, tiquetes para viajar por Colombia, descuentos, promociones, tarifas especiales en vuelos",
@@ -23523,7 +23687,7 @@
     "reasons": [
      "Organizador no identificado con certeza."
     ],
-    "checked_at": "2026-11-25T23:15:29-05:00",
+    "checked_at": "2026-11-27T03:47:34-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -23558,7 +23722,7 @@
    },
    "discovered_at": "2026-11-24T19:52:51-05:00",
    "updated_at": "2026-11-24T19:52:51-05:00",
-   "last_verified": "2026-11-25T23:15:29-05:00",
+   "last_verified": "2026-11-27T03:47:34-05:00",
    "last_seen": "2026-11-24T19:52:51-05:00",
    "history": [],
    "priority": {
@@ -23677,7 +23841,7 @@
     "reasons": [
      "Información insuficiente: sin organizador identificado, fechas ni enlace oficial."
     ],
-    "checked_at": "2026-11-25T16:50:55-05:00",
+    "checked_at": "2026-11-27T03:47:18-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -23712,7 +23876,7 @@
    },
    "discovered_at": "2026-11-20T22:17:33-05:00",
    "updated_at": "2026-11-20T22:17:33-05:00",
-   "last_verified": "2026-11-25T16:50:55-05:00",
+   "last_verified": "2026-11-27T03:47:18-05:00",
    "last_seen": "2026-11-20T22:17:33-05:00",
    "history": [],
    "priority": {
@@ -24013,7 +24177,7 @@
    "discovered_at": "2026-11-20T08:04:54-05:00",
    "updated_at": "2026-11-20T08:04:54-05:00",
    "last_verified": "2026-11-26T09:01:08-05:00",
-   "last_seen": "2026-11-26T18:06:31-05:00",
+   "last_seen": "2026-11-27T03:47:03-05:00",
    "history": [],
    "priority": {
     "score": 39,
@@ -26859,6 +27023,172 @@
    }
   },
   {
+   "id": "op_c37d3438d35c",
+   "title": "Gobierno revive los subsidios de vivienda con 'Mi Casa Milagro': convocatoria se proyecta para marzo de 2027",
+   "summary": "El Gobierno prepara el regreso de los subsidios de vivienda con Mi Casa Milagro. Conozca cuándo sería la convocatoria, prevista para marzo de 2027.",
+   "section": "estado",
+   "category": "vivienda",
+   "tags": [
+    "Convocatorias públicas",
+    "Vivienda"
+   ],
+   "mechanics": [],
+   "kind": "Programa público",
+   "organizer": {
+    "name": "Organizador no identificado",
+    "type": "desconocido",
+    "domain": null,
+    "known": false
+   },
+   "prize": {
+    "description": null,
+    "value_cop": 1080000,
+    "value_text": "$1,08 millones",
+    "value_source": "noticia",
+    "winners": null,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "gratis_registro",
+    "label": "Gratis con registro",
+    "free": true,
+    "certainty": "inferido",
+    "requires_purchase": null,
+    "requires_registration": false,
+    "requires_social": true,
+    "requires_activity": true,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": null,
+    "notes": [
+     "Pide interactuar en redes sociales (seguir, comentar o etiquetar).",
+     "No se encontró ninguna condición de compra en la fuente oficial (inferido, confírmalo en los términos)."
+    ]
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": null,
+    "age_text": null,
+    "coverage": "bogota",
+    "cities": [
+     "Bogotá",
+     "Cartagena"
+    ]
+   },
+   "requirements": [
+    "¿Cómo afiliarse al Sisbén por Internet? Paso a paso para solicitar 'online' la encuesta ¿Cuáles serán los requisitos para acceder al subsidio? Por ahora, el Gobierno no ha publicado los requisitos definitivos para…"
+   ],
+   "documents": [
+    "Certificado SISBÉN"
+   ],
+   "steps": [],
+   "steps_source": null,
+   "dates": {
+    "published": "2026-11-26T15:15:37-05:00",
+    "start": null,
+    "end": "2026-11-26",
+    "draw": null
+   },
+   "status": "vencida",
+   "gov": {
+    "program_status": "cerrada",
+    "entity": "Organizador no identificado"
+   },
+   "offer": null,
+   "verification": {
+    "status": "vencida",
+    "reasons": [
+     "Organizador no identificado con certeza."
+    ],
+    "checked_at": "2026-11-26T18:06:32-05:00",
+    "link_ok": null,
+    "official_domain": false,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://www.rtvcnoticias.com/economia/finanzas-personales/mi-casa-milagro-subsidios-vivienda-2027",
+    "participate": "https://www.rtvcnoticias.com/colombia/como-afiliarse-al-sisben-por-internet-paso-paso-para-solicitar-online-la-encuesta",
+    "terms": null,
+    "official": null,
+    "image": "https://rtvc-informativo.s3.amazonaws.com/assets/public/2026-11/mi-casa-milagro-subsidios-vivienda-2027.jpg"
+   },
+   "sources": [
+    {
+     "url": "https://www.rtvcnoticias.com/economia/finanzas-personales/mi-casa-milagro-subsidios-vivienda-2027",
+     "name": "Noticias · subsidios de vivienda",
+     "type": "news",
+     "seen_at": "2026-11-26T18:06:32-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 1.0,
+    "model": null
+   },
+   "discovered_at": "2026-11-26T18:06:32-05:00",
+   "updated_at": "2026-11-26T18:06:32-05:00",
+   "last_verified": "2026-11-26T18:06:32-05:00",
+   "last_seen": "2026-11-26T18:06:32-05:00",
+   "history": [
+    {
+     "at": "2026-11-27T03:47:36-05:00",
+     "field": "status",
+     "label": "Estado",
+     "from": "activa",
+     "to": "vencida"
+    }
+   ],
+   "priority": {
+    "score": 10,
+    "level": "baja",
+    "breakdown": {
+     "valor": {
+      "points": 12,
+      "max": 25,
+      "note": "valor publicado 1.080.000 COP"
+     },
+     "gratuidad": {
+      "points": 22,
+      "max": 25,
+      "note": "gratis_registro"
+     },
+     "facilidad": {
+      "points": 10,
+      "max": 15,
+      "note": "actividad, redes sociales"
+     },
+     "vigencia": {
+      "points": 0,
+      "max": 10,
+      "note": "terminada"
+     },
+     "cobertura": {
+      "points": 10,
+      "max": 10,
+      "note": "bogota"
+     },
+     "credibilidad": {
+      "points": 0,
+      "max": 10,
+      "note": "vencida"
+     },
+     "claridad": {
+      "points": 1,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
    "id": "op_0868d66c4ef5",
    "title": "Gánate la pinta pa’ tu bendi",
    "summary": "¡Gánate una pinta Nequi para tu mascota! Sigue a @Nequi_ y comenta el post con su foto, nombre y talla. (",
@@ -26974,7 +27304,7 @@
    "discovered_at": "2026-11-18T16:18:43-05:00",
    "updated_at": "2026-11-18T16:18:43-05:00",
    "last_verified": "2026-11-25T06:29:41-05:00",
-   "last_seen": "2026-11-26T18:06:31-05:00",
+   "last_seen": "2026-11-27T03:47:03-05:00",
    "history": [
     {
      "at": "2026-11-26T09:01:27-05:00",
@@ -27320,7 +27650,7 @@
    "discovered_at": "2026-11-18T16:18:55-05:00",
    "updated_at": "2026-11-18T16:18:55-05:00",
    "last_verified": "2026-11-19T17:17:31-05:00",
-   "last_seen": "2026-11-26T18:06:31-05:00",
+   "last_seen": "2026-11-27T03:47:03-05:00",
    "history": [
     {
      "at": "2026-11-20T08:04:57-05:00",
@@ -28303,7 +28633,7 @@
    "discovered_at": "2026-11-18T17:21:34-05:00",
    "updated_at": "2026-11-18T17:21:34-05:00",
    "last_verified": "2026-11-25T23:15:42-05:00",
-   "last_seen": "2026-11-26T18:06:31-05:00",
+   "last_seen": "2026-11-27T03:47:03-05:00",
    "history": [
     {
      "at": "2026-11-26T09:01:27-05:00",

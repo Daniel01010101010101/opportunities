@@ -1,56 +1,56 @@
 {
  "engine_version": "1.0.0",
- "generated_at": "2026-11-26T18:07:05-05:00",
+ "generated_at": "2026-11-27T03:47:36-05:00",
  "timezone": "America/Bogota",
  "schedule": {
   "cron_utc": "17 */2 * * *",
   "description": "Cada 2 horas, minuto 17 (horas impares en Bogotá)",
-  "next_run_at": "2026-11-26T19:17:00-05:00"
+  "next_run_at": "2026-11-27T05:17:00-05:00"
  },
  "last_run": {
-  "id": "20261126-180225",
-  "started_at": "2026-11-26T18:02:25-05:00",
-  "finished_at": "2026-11-26T18:07:05-05:00",
-  "duration_s": 279.9,
+  "id": "20261127-034347",
+  "started_at": "2026-11-27T03:43:47-05:00",
+  "finished_at": "2026-11-27T03:47:36-05:00",
+  "duration_s": 229.3,
   "status": "parcial",
   "trigger": "schedule",
-  "new": 12,
-  "updated": 1,
-  "discarded": 55,
-  "sources_checked": 97,
-  "sources_ok": 89,
-  "run_url": "https://github.com/Daniel01010101010101/opportunities/actions/runs/45908461106"
+  "new": 2,
+  "updated": 0,
+  "discarded": 20,
+  "sources_checked": 93,
+  "sources_ok": 85,
+  "run_url": "https://github.com/Daniel01010101010101/opportunities/actions/runs/45967888470"
  },
- "last_success_at": "2026-11-26T18:07:05-05:00",
- "last_new_opportunity_at": "2026-11-26T18:06:34-05:00",
+ "last_success_at": "2026-11-27T03:47:36-05:00",
+ "last_new_opportunity_at": "2026-11-27T03:47:03-05:00",
  "sources": {
   "configured": 219,
-  "checked_last_run": 97,
-  "ok_last_run": 89,
+  "checked_last_run": 93,
+  "ok_last_run": 85,
   "failed_last_run": 3,
   "discovered": 8,
-  "with_errors": 4
+  "with_errors": 5
  },
  "counts": {
-  "total": 180,
-  "active": 159,
-  "new_24h": 21,
+  "total": 182,
+  "active": 160,
+  "new_24h": 19,
   "verified": 40,
   "pending": 87,
-  "unverifiable": 32,
-  "expired": 21,
+  "unverifiable": 33,
+  "expired": 22,
   "withdrawn": 0,
   "archived": 0,
   "by_section": {
    "concursos": 17,
-   "bonos": 15,
+   "bonos": 16,
    "ofertas": 30,
    "estado": 97
   },
   "by_priority": {
    "alta": 50,
-   "media": 90,
-   "baja": 19
+   "media": 92,
+   "baja": 18
   },
   "free": 98,
   "expiring_7d": 19

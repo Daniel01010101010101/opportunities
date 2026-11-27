@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T18:07:05-05:00",
+ "generated_at": "2026-11-27T03:47:36-05:00",
  "runs": [
   {
    "id": "20261118-161736",
@@ -2255,6 +2255,88 @@
    },
    "git_sha": "48191f4",
    "run_url": "https://github.com/Daniel01010101010101/opportunities/actions/runs/45908461106"
+  },
+  {
+   "id": "20261127-034347",
+   "started_at": "2026-11-27T03:43:47-05:00",
+   "finished_at": "2026-11-27T03:47:36-05:00",
+   "duration_s": 229.3,
+   "trigger": "schedule",
+   "category": null,
+   "query": null,
+   "status": "parcial",
+   "sources_checked": 93,
+   "sources_ok": 85,
+   "sources_failed": [
+    {
+     "id": "wp-eje21",
+     "error": "HTTP 403; HTTP 403"
+    },
+    {
+     "id": "wp-bcnoticias",
+     "error": "respuesta no válida de la API de WordPress; respuesta no válida de la API de WordPress"
+    },
+    {
+     "id": "gd-concursos",
+     "error": "GDELT limitó la consulta (429); se reintentará en la próxima ejecución"
+    }
+   ],
+   "sources_skipped": [
+    {
+     "id": "cse-sorteos",
+     "reason": "requiere los secretos GOOGLE_CSE_KEY y GOOGLE_CSE_CX"
+    },
+    {
+     "id": "brave-sorteos",
+     "reason": "requiere el secreto BRAVE_API_KEY"
+    },
+    {
+     "id": "brave-gratis",
+     "reason": "requiere el secreto BRAVE_API_KEY"
+    },
+    {
+     "id": "cse-convocatorias",
+     "reason": "requiere los secretos GOOGLE_CSE_KEY y GOOGLE_CSE_CX"
+    },
+    {
+     "id": "cse-bonos-gasolina",
+     "reason": "requiere los secretos GOOGLE_CSE_KEY y GOOGLE_CSE_CX"
+    }
+   ],
+   "new": 2,
+   "updated": 0,
+   "unchanged": 0,
+   "discarded": 20,
+   "discard_reasons": {
+    "búsqueda de concursos: el título no anuncia una convocatoria abierta": 14,
+    "nota sobre ganadores o resultados, no es una convocatoria abierta": 6
+   },
+   "expired": 1,
+   "reverified": 40,
+   "archived": 0,
+   "purged": 0,
+   "http_requests": 155,
+   "robots_blocked": 0,
+   "errors": [
+    "Fuente Eje21: HTTP 403; HTTP 403",
+    "Fuente BC Noticias: respuesta no válida de la API de WordPress; respuesta no válida de la API de WordPress",
+    "Fuente GDELT · concursos en medios colombianos: GDELT limitó la consulta (429); se reintentará en la próxima ejecución"
+   ],
+   "llm": {
+    "enabled": false,
+    "model": null,
+    "calls": 0,
+    "errors": 0,
+    "input_tokens": 0,
+    "output_tokens": 0
+   },
+   "alerts": {
+    "telegram": "no_configurado",
+    "email": "no_configurado",
+    "sent": 0
+   },
+   "git_sha": "48191f4",
+   "run_url": "https://github.com/Daniel01010101010101/opportunities/actions/runs/45967888470"
   }
  ]
 }

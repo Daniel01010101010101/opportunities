@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T18:07:05-05:00",
+ "generated_at": "2026-11-27T03:47:36-05:00",
  "changes": [
   {
    "at": "2026-11-18T17:21:56-05:00",
@@ -387,6 +387,33 @@
    "to": "no_verificable",
    "id": "op_36e7c2e8cac6",
    "title": "Gobierno anuncia el regreso de los subsidios de vivienda en 2027 bajo el programa Mi Casa Milagro"
+  },
+  {
+   "at": "2026-11-27T03:47:11-05:00",
+   "field": "dates.end",
+   "label": "Fecha de finalización",
+   "from": "2026-12-12",
+   "to": "2026-12-05",
+   "id": "op_b7a1637ca521",
+   "title": "¡Concierto de salsa gratis en Centro Comercial Ciudad Tunal! Idartes presenta Caleidoscopio Sonoro el 21 de noviembre"
+  },
+  {
+   "at": "2026-11-27T03:47:36-05:00",
+   "field": "status",
+   "label": "Estado",
+   "from": "activa",
+   "to": "vencida",
+   "id": "op_c37d3438d35c",
+   "title": "Gobierno revive los subsidios de vivienda con 'Mi Casa Milagro': convocatoria se proyecta para marzo de 2027"
+  },
+  {
+   "at": "2026-11-27T03:47:36-05:00",
+   "field": "status",
+   "label": "Estado",
+   "from": "proxima",
+   "to": "activa",
+   "id": "op_9f7c96024e07",
+   "title": "Black Friday vuelos nacionales desde $50.000 y descuentos en hoteles en Colombia"
   }
  ]
 }
