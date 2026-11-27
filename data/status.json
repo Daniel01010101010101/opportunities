@@ -1,58 +1,58 @@
 {
  "engine_version": "1.0.0",
- "generated_at": "2026-11-27T03:47:36-05:00",
+ "generated_at": "2026-11-27T14:36:12-05:00",
  "timezone": "America/Bogota",
  "schedule": {
   "cron_utc": "17 */2 * * *",
   "description": "Cada 2 horas, minuto 17 (horas impares en Bogotá)",
-  "next_run_at": "2026-11-27T05:17:00-05:00"
+  "next_run_at": "2026-11-27T15:17:00-05:00"
  },
  "last_run": {
-  "id": "20261127-034347",
-  "started_at": "2026-11-27T03:43:47-05:00",
-  "finished_at": "2026-11-27T03:47:36-05:00",
-  "duration_s": 229.3,
+  "id": "20261127-143036",
+  "started_at": "2026-11-27T14:30:36-05:00",
+  "finished_at": "2026-11-27T14:36:12-05:00",
+  "duration_s": 336.1,
   "status": "parcial",
   "trigger": "schedule",
   "new": 2,
-  "updated": 0,
-  "discarded": 20,
-  "sources_checked": 93,
-  "sources_ok": 85,
-  "run_url": "https://github.com/Daniel01010101010101/opportunities/actions/runs/45967888470"
+  "updated": 1,
+  "discarded": 22,
+  "sources_checked": 97,
+  "sources_ok": 89,
+  "run_url": "https://github.com/Daniel01010101010101/opportunities/actions/runs/46057143187"
  },
- "last_success_at": "2026-11-27T03:47:36-05:00",
- "last_new_opportunity_at": "2026-11-27T03:47:03-05:00",
+ "last_success_at": "2026-11-27T14:36:12-05:00",
+ "last_new_opportunity_at": "2026-11-27T14:35:39-05:00",
  "sources": {
   "configured": 219,
-  "checked_last_run": 93,
-  "ok_last_run": 85,
+  "checked_last_run": 97,
+  "ok_last_run": 89,
   "failed_last_run": 3,
   "discovered": 8,
-  "with_errors": 5
+  "with_errors": 4
  },
  "counts": {
-  "total": 182,
-  "active": 160,
-  "new_24h": 19,
+  "total": 184,
+  "active": 162,
+  "new_24h": 15,
   "verified": 40,
-  "pending": 87,
-  "unverifiable": 33,
+  "pending": 88,
+  "unverifiable": 34,
   "expired": 22,
   "withdrawn": 0,
   "archived": 0,
   "by_section": {
    "concursos": 17,
-   "bonos": 16,
+   "bonos": 17,
    "ofertas": 30,
-   "estado": 97
+   "estado": 98
   },
   "by_priority": {
    "alta": 50,
-   "media": 92,
+   "media": 94,
    "baja": 18
   },
-  "free": 98,
+  "free": 100,
   "expiring_7d": 19
  },
  "llm": {
