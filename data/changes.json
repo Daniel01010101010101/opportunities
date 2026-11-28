@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T21:48:33-05:00",
+ "generated_at": "2026-11-28T08:13:21-05:00",
  "changes": [
   {
    "at": "2026-11-18T17:21:56-05:00",
@@ -468,6 +468,141 @@
    "to": "activa",
    "id": "op_3209a45b01c8",
    "title": "SENA abre más de 60.000 cupos gratuitos para 2027: conozca cómo inscribirse y qué carreras estudiar"
+  },
+  {
+   "at": "2026-11-28T08:12:55-05:00",
+   "field": "dates.start",
+   "label": "Fecha de inicio",
+   "from": "2026-11-27",
+   "to": "2024-12-16",
+   "id": "op_36e7c2e8cac6",
+   "title": "¿Regresan los subsidios de ‘Mi Casa Ya’? Gobierno anunció programa para financiar vivienda"
+  },
+  {
+   "at": "2026-11-28T08:12:55-05:00",
+   "field": "status",
+   "label": "Estado",
+   "from": "sin_confirmar",
+   "to": "activa",
+   "id": "op_36e7c2e8cac6",
+   "title": "¿Regresan los subsidios de ‘Mi Casa Ya’? Gobierno anunció programa para financiar vivienda"
+  },
+  {
+   "at": "2026-11-28T08:12:55-05:00",
+   "field": "verification.status",
+   "label": "Verificación",
+   "from": "no_verificable",
+   "to": "pendiente",
+   "id": "op_36e7c2e8cac6",
+   "title": "¿Regresan los subsidios de ‘Mi Casa Ya’? Gobierno anunció programa para financiar vivienda"
+  },
+  {
+   "at": "2026-11-28T08:12:55-05:00",
+   "field": "urls.participate",
+   "label": "Enlace de participación",
+   "from": null,
+   "to": "https://www.tropicanafm.com/2026/credito-de-vivienda-comfama-cuanto-dinero-presta-y-cuales-son-los-requisitos-para-solicitarlo-481449.html",
+   "id": "op_36e7c2e8cac6",
+   "title": "¿Regresan los subsidios de ‘Mi Casa Ya’? Gobierno anunció programa para financiar vivienda"
+  },
+  {
+   "at": "2026-11-28T08:12:55-05:00",
+   "field": "urls.participate",
+   "label": "Enlace de participación",
+   "from": null,
+   "to": "https://www.portafolio.co/mis-finanzas/ahorro/pse-premiara-a-los-compradores-del-black-friday-con-mas-de-100-millones-asi-puede-participar-506715",
+   "id": "op_ffbeba602465",
+   "title": "JetSMART lanza descuentos de Black Friday: consulte destinos, fechas y vuelos desde $45.942"
+  },
+  {
+   "at": "2026-11-28T08:12:56-05:00",
+   "field": "status",
+   "label": "Estado",
+   "from": "activa",
+   "to": "sin_confirmar",
+   "id": "op_a9bc875f6df7",
+   "title": "Gobierno anuncia reactivación de subsidios de vivienda con el programa Mi Casa Milagro para familias en Colombia"
+  },
+  {
+   "at": "2026-11-28T08:12:56-05:00",
+   "field": "verification.status",
+   "label": "Verificación",
+   "from": "pendiente",
+   "to": "no_verificable",
+   "id": "op_a9bc875f6df7",
+   "title": "Gobierno anuncia reactivación de subsidios de vivienda con el programa Mi Casa Milagro para familias en Colombia"
+  },
+  {
+   "at": "2026-11-28T08:12:56-05:00",
+   "field": "cost.type",
+   "label": "Costo",
+   "from": "gratis_registro",
+   "to": "requiere_compra",
+   "id": "op_a9bc875f6df7",
+   "title": "Gobierno anuncia reactivación de subsidios de vivienda con el programa Mi Casa Milagro para familias en Colombia"
+  },
+  {
+   "at": "2026-11-28T08:13:21-05:00",
+   "field": "status",
+   "label": "Estado",
+   "from": "proxima",
+   "to": "activa",
+   "id": "op_80b69883a091",
+   "title": "Renta Ciudadana y Devolución del IVA: Prosperidad Social confirmó las fechas del quinto pago de 2026; consulte cuándo reclamarlo"
+  },
+  {
+   "at": "2026-11-28T08:13:21-05:00",
+   "field": "status",
+   "label": "Estado",
+   "from": "proxima",
+   "to": "activa",
+   "id": "op_014ca03c8ed1",
+   "title": "Bogotá ofertará cerca de 3.000 vacantes de empleo antes de que termine noviembre: cargos y cómo participar"
+  },
+  {
+   "at": "2026-11-28T08:13:21-05:00",
+   "field": "status",
+   "label": "Estado",
+   "from": "proxima",
+   "to": "activa",
+   "id": "op_d127a6559f16",
+   "title": "Celebran 780.000 familias por nuevas fechas de pago de subsidios: así puede verificar beneficio"
+  },
+  {
+   "at": "2026-11-28T08:13:21-05:00",
+   "field": "status",
+   "label": "Estado",
+   "from": "proxima",
+   "to": "activa",
+   "id": "op_842fc29d65e8",
+   "title": "Requisitos para ser beneficiario del programa Renta Ciudadana: esto informa Prosperidad Social"
+  },
+  {
+   "at": "2026-11-28T08:13:21-05:00",
+   "field": "status",
+   "label": "Estado",
+   "from": "activa",
+   "to": "vencida",
+   "id": "op_aa508390413d",
+   "title": "Cartagena abre inscripciones para capacitar ciudadanos en políticas públicas"
+  },
+  {
+   "at": "2026-11-28T08:13:21-05:00",
+   "field": "status",
+   "label": "Estado",
+   "from": "activa",
+   "to": "vencida",
+   "id": "op_8449a108bd26",
+   "title": "Abierta convocatoria para Mercadito Navideño 2026 en el Centro Histórico de Cartagena"
+  },
+  {
+   "at": "2026-11-28T08:13:21-05:00",
+   "field": "status",
+   "label": "Estado",
+   "from": "activa",
+   "to": "vencida",
+   "id": "op_aa8036205edf",
+   "title": "Concurso DIAN 2676: publican resultados de las pruebas escritas y esta es la fecha límite para reclamar"
   }
  ]
 }
