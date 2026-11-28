@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-27T14:36:12-05:00",
- "count": 184,
+ "generated_at": "2026-11-27T21:48:33-05:00",
+ "count": 202,
  "items": [
   {
    "id": "op_824f3d5cb76a",
@@ -592,7 +592,7 @@
    "discovered_at": "2026-11-25T23:15:19-05:00",
    "updated_at": "2026-11-25T23:15:19-05:00",
    "last_verified": "2026-11-27T03:47:25-05:00",
-   "last_seen": "2026-11-27T14:35:38-05:00",
+   "last_seen": "2026-11-27T21:48:10-05:00",
    "history": [],
    "priority": {
     "score": 82,
@@ -904,7 +904,7 @@
    "discovered_at": "2026-11-18T16:18:44-05:00",
    "updated_at": "2026-11-18T16:18:44-05:00",
    "last_verified": "2026-11-26T18:06:51-05:00",
-   "last_seen": "2026-11-27T03:47:03-05:00",
+   "last_seen": "2026-11-27T21:48:10-05:00",
    "history": [],
    "priority": {
     "score": 79,
@@ -1410,7 +1410,7 @@
    "discovered_at": "2026-11-18T17:21:44-05:00",
    "updated_at": "2026-11-18T17:21:44-05:00",
    "last_verified": "2026-11-27T14:35:53-05:00",
-   "last_seen": "2026-11-27T14:35:38-05:00",
+   "last_seen": "2026-11-27T21:48:10-05:00",
    "history": [],
    "priority": {
     "score": 77,
@@ -2370,7 +2370,7 @@
    "discovered_at": "2026-11-25T16:50:25-05:00",
    "updated_at": "2026-11-25T16:50:25-05:00",
    "last_verified": "2026-11-26T18:06:52-05:00",
-   "last_seen": "2026-11-27T14:35:38-05:00",
+   "last_seen": "2026-11-27T21:48:10-05:00",
    "history": [
     {
      "at": "2026-11-26T09:01:27-05:00",
@@ -2546,7 +2546,7 @@
    "discovered_at": "2026-11-24T19:52:53-05:00",
    "updated_at": "2026-11-24T19:52:53-05:00",
    "last_verified": "2026-11-27T03:47:36-05:00",
-   "last_seen": "2026-11-26T09:00:43-05:00",
+   "last_seen": "2026-11-27T21:48:10-05:00",
    "history": [],
    "priority": {
     "score": 75,
@@ -2584,6 +2584,166 @@
      },
      "claridad": {
       "points": 3,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
+   "id": "op_be403943c219",
+   "title": "Alcaldía de Bogotá ofrecerá becas en maestrías y doctorados para 2027: puede aplicar hasta diciembre",
+   "summary": "Los interesados podrán inscribirse hasta el 15 de diciembre; se financiarán hasta 100 cupos.",
+   "section": "estado",
+   "category": "becas",
+   "tags": [
+    "Becas y educación"
+   ],
+   "mechanics": [],
+   "kind": "Programa público",
+   "organizer": {
+    "name": "Alcaldía de Bogotá",
+    "type": "gobierno",
+    "domain": "bogota.gov.co",
+    "known": true
+   },
+   "prize": {
+    "description": null,
+    "value_cop": null,
+    "value_text": null,
+    "value_source": null,
+    "winners": null,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "gratis_registro",
+    "label": "Gratis con registro",
+    "free": true,
+    "certainty": "inferido",
+    "requires_purchase": null,
+    "requires_registration": true,
+    "requires_social": false,
+    "requires_activity": false,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": null,
+    "notes": [
+     "No se encontró ninguna condición de compra en la fuente oficial (inferido, confírmalo en los términos)."
+    ]
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": null,
+    "age_text": null,
+    "coverage": "bogota",
+    "cities": [
+     "Bogotá"
+    ]
+   },
+   "requirements": [
+    "¿Cuántas becas ofrecerá Bogotá y quiénes pueden participar? La nueva convocatoria contempla 100 oportunidades educativas distribuidas entre programas de pregrado, maestría y doctorado.",
+    "La Secretaría Distrital de Gobierno indicó que los requisitos generales incluyen residir en Bogotá, contar con antecedentes académicos, tener cédula de ciudadanía y participar en una pequeña entrevista.",
+    "La oferta está dirigida a personas que buscan estudiar sin abandonar sus responsabilidades laborales o personales, gracias a la flexibilidad de los programas virtuales.",
+    "Por eso, los aspirantes deberán verificar las condiciones económicas antes de formalizar su matrícula.",
+    "Los aspirantes también deberán cumplir con los requisitos académicos correspondientes al programa elegido.",
+    "Si el programa corresponde a una universidad extranjera, es importante verificar su reconocimiento oficial en el país de origen y consultar los requisitos de convalidación ante el Ministerio de Educación Nacional."
+   ],
+   "documents": [
+    "Documento de identidad (cédula)"
+   ],
+   "steps": [],
+   "steps_source": null,
+   "dates": {
+    "published": "2026-11-27T06:00:25-05:00",
+    "start": "2026-11-19",
+    "end": "2026-12-15",
+    "draw": null
+   },
+   "status": "activa",
+   "gov": {
+    "program_status": "abierta",
+    "entity": "Alcaldía de Bogotá"
+   },
+   "offer": null,
+   "verification": {
+    "status": "pendiente",
+    "reasons": [
+     "Falta confirmar condiciones en la página oficial."
+    ],
+    "checked_at": "2026-11-27T21:48:13-05:00",
+    "link_ok": null,
+    "official_domain": false,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://www.lafm.com.co/sociedad/becas-alcaldia-de-bogota-2027-maestrias-doctorados-pregrados-418461",
+    "participate": null,
+    "terms": null,
+    "official": null,
+    "image": "https://files.lafm.com.co/media/news-images/2026/11/27/110635/portadas-2026-11-27t060537306-1200x675.jpg?w=1280"
+   },
+   "sources": [
+    {
+     "url": "https://www.lafm.com.co/sociedad/becas-alcaldia-de-bogota-2027-maestrias-doctorados-pregrados-418461",
+     "name": "Noticias · becas Bogotá",
+     "type": "news",
+     "seen_at": "2026-11-27T21:48:13-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 1.0,
+    "model": null
+   },
+   "discovered_at": "2026-11-27T21:48:13-05:00",
+   "updated_at": "2026-11-27T21:48:13-05:00",
+   "last_verified": "2026-11-27T21:48:13-05:00",
+   "last_seen": "2026-11-27T21:48:13-05:00",
+   "history": [],
+   "priority": {
+    "score": 75,
+    "level": "alta",
+    "breakdown": {
+     "valor": {
+      "points": 16,
+      "max": 25,
+      "note": "valor no publicado (estimado por tipo de premio)"
+     },
+     "gratuidad": {
+      "points": 22,
+      "max": 25,
+      "note": "gratis_registro"
+     },
+     "facilidad": {
+      "points": 10,
+      "max": 15,
+      "note": "registro"
+     },
+     "vigencia": {
+      "points": 10,
+      "max": 10,
+      "note": "vigente (18 días restantes)"
+     },
+     "cobertura": {
+      "points": 10,
+      "max": 10,
+      "note": "bogota"
+     },
+     "credibilidad": {
+      "points": 6,
+      "max": 10,
+      "note": "pendiente"
+     },
+     "claridad": {
+      "points": 1,
       "max": 5,
       "note": "sin términos enlazados"
      }
@@ -2834,7 +2994,7 @@
      "Proviene de una fuente oficial configurada.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-26T09:01:25-05:00",
+    "checked_at": "2026-11-27T21:48:27-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -2869,7 +3029,7 @@
    },
    "discovered_at": "2026-11-19T17:17:08-05:00",
    "updated_at": "2026-11-19T17:17:08-05:00",
-   "last_verified": "2026-11-26T09:01:25-05:00",
+   "last_verified": "2026-11-27T21:48:27-05:00",
    "last_seen": "2026-11-22T07:43:01-05:00",
    "history": [],
    "priority": {
@@ -3456,7 +3616,7 @@
      "Proviene de una fuente oficial configurada.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-26T18:06:39-05:00",
+    "checked_at": "2026-11-27T21:48:33-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -3491,7 +3651,7 @@
    },
    "discovered_at": "2026-11-19T17:17:10-05:00",
    "updated_at": "2026-11-19T17:17:10-05:00",
-   "last_verified": "2026-11-26T18:06:39-05:00",
+   "last_verified": "2026-11-27T21:48:33-05:00",
    "last_seen": "2026-11-20T08:04:54-05:00",
    "history": [],
    "priority": {
@@ -3647,7 +3807,7 @@
    "discovered_at": "2026-11-18T16:19:04-05:00",
    "updated_at": "2026-11-18T16:19:04-05:00",
    "last_verified": "2026-11-27T14:36:07-05:00",
-   "last_seen": "2026-11-26T09:00:43-05:00",
+   "last_seen": "2026-11-27T21:48:10-05:00",
    "history": [],
    "priority": {
     "score": 75,
@@ -4066,7 +4226,7 @@
      "Proviene de una fuente oficial configurada.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-26T18:06:38-05:00",
+    "checked_at": "2026-11-27T21:48:32-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -4101,7 +4261,7 @@
    },
    "discovered_at": "2026-11-19T17:17:09-05:00",
    "updated_at": "2026-11-19T17:17:09-05:00",
-   "last_verified": "2026-11-26T18:06:38-05:00",
+   "last_verified": "2026-11-27T21:48:32-05:00",
    "last_seen": "2026-11-20T22:17:32-05:00",
    "history": [],
    "priority": {
@@ -4291,6 +4451,160 @@
       "points": 10,
       "max": 10,
       "note": "verificada"
+     },
+     "claridad": {
+      "points": 1,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
+   "id": "op_9574f5fef13c",
+   "title": "Sena abrió convocatoria para 60.000 cupos en cerca de 300 programas técnicos y tecnológicos de 2027",
+   "summary": "Los programas son presenciales y, también, a distancia.",
+   "section": "estado",
+   "category": "formacion",
+   "tags": [
+    "Convocatorias públicas",
+    "Formación gratuita (SENA y otros)"
+   ],
+   "mechanics": [],
+   "kind": "Programa público",
+   "organizer": {
+    "name": "SENA",
+    "type": "gobierno",
+    "domain": "sena.edu.co",
+    "known": true
+   },
+   "prize": {
+    "description": null,
+    "value_cop": null,
+    "value_text": null,
+    "value_source": null,
+    "winners": 0,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "gratis_registro",
+    "label": "Gratis con registro",
+    "free": true,
+    "certainty": "inferido",
+    "requires_purchase": null,
+    "requires_registration": true,
+    "requires_social": false,
+    "requires_activity": false,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": null,
+    "notes": [
+     "No se encontró ninguna condición de compra en la fuente oficial (inferido, confírmalo en los términos)."
+    ]
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": null,
+    "age_text": null,
+    "coverage": "nacional",
+    "cities": [
+     "Bogotá"
+    ]
+   },
+   "requirements": [],
+   "documents": [
+    "Hoja de vida"
+   ],
+   "steps": [],
+   "steps_source": null,
+   "dates": {
+    "published": "2026-11-27T17:32:46-05:00",
+    "start": null,
+    "end": "2026-12-02",
+    "draw": null
+   },
+   "status": "activa",
+   "gov": {
+    "program_status": "abierta",
+    "entity": "SENA"
+   },
+   "offer": null,
+   "verification": {
+    "status": "pendiente",
+    "reasons": [
+     "Falta confirmar condiciones en la página oficial."
+    ],
+    "checked_at": "2026-11-27T21:48:15-05:00",
+    "link_ok": null,
+    "official_domain": false,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://caracol.com.co/2026/11/27/sena-abrio-convocatoria-para-60000-cupos-en-cerca-de-300-programas-tecnicos-y-tecnologicos-de-2027/",
+    "participate": null,
+    "terms": null,
+    "official": null,
+    "image": "https://caracol.com.co/resizer/v2/EOLADE2QNJB25BWPGQN3ORCH3E.png?auth=0a800a698b157952ebd3a707232c9ad159e27b0ff0eba091ecd5b86dcd6832ba&quality=70&width=1200&height=675&smart=true"
+   },
+   "sources": [
+    {
+     "url": "https://caracol.com.co/2026/11/27/sena-abrio-convocatoria-para-60000-cupos-en-cerca-de-300-programas-tecnicos-y-tecnologicos-de-2027/",
+     "name": "Noticias · convocatorias SENA",
+     "type": "news",
+     "seen_at": "2026-11-27T21:48:15-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 1.0,
+    "model": null
+   },
+   "discovered_at": "2026-11-27T21:48:15-05:00",
+   "updated_at": "2026-11-27T21:48:15-05:00",
+   "last_verified": "2026-11-27T21:48:15-05:00",
+   "last_seen": "2026-11-27T21:48:15-05:00",
+   "history": [],
+   "priority": {
+    "score": 73,
+    "level": "alta",
+    "breakdown": {
+     "valor": {
+      "points": 11,
+      "max": 25,
+      "note": "valor no publicado (estimado por tipo de premio)"
+     },
+     "gratuidad": {
+      "points": 22,
+      "max": 25,
+      "note": "gratis_registro"
+     },
+     "facilidad": {
+      "points": 13,
+      "max": 15,
+      "note": "registro"
+     },
+     "vigencia": {
+      "points": 10,
+      "max": 10,
+      "note": "vigente (5 días restantes)"
+     },
+     "cobertura": {
+      "points": 10,
+      "max": 10,
+      "note": "nacional"
+     },
+     "credibilidad": {
+      "points": 6,
+      "max": 10,
+      "note": "pendiente"
      },
      "claridad": {
       "points": 1,
@@ -5178,8 +5492,8 @@
     "reasons": [
      "Organizador no identificado con certeza."
     ],
-    "checked_at": "2026-11-26T18:06:33-05:00",
-    "link_ok": null,
+    "checked_at": "2026-11-27T21:48:31-05:00",
+    "link_ok": true,
     "official_domain": false,
     "terms_found": false,
     "link_failures": 0
@@ -5213,7 +5527,7 @@
    },
    "discovered_at": "2026-11-26T18:06:33-05:00",
    "updated_at": "2026-11-26T18:06:33-05:00",
-   "last_verified": "2026-11-26T18:06:33-05:00",
+   "last_verified": "2026-11-27T21:48:31-05:00",
    "last_seen": "2026-11-26T18:06:33-05:00",
    "history": [],
    "priority": {
@@ -5369,7 +5683,7 @@
    "discovered_at": "2026-11-18T16:19:12-05:00",
    "updated_at": "2026-11-18T16:19:12-05:00",
    "last_verified": "2026-11-27T03:47:36-05:00",
-   "last_seen": "2026-11-26T09:00:43-05:00",
+   "last_seen": "2026-11-27T21:48:10-05:00",
    "history": [],
    "priority": {
     "score": 72,
@@ -5399,6 +5713,162 @@
       "points": 10,
       "max": 10,
       "note": "nacional"
+     },
+     "credibilidad": {
+      "points": 6,
+      "max": 10,
+      "note": "pendiente"
+     },
+     "claridad": {
+      "points": 1,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
+   "id": "op_8a44666cf32d",
+   "title": "Sena abrió inscripciones para 2027",
+   "summary": "El Servicio Nacional de Aprendizaje (Sena) abrió las inscripciones para su Primera Convocatoria de Formación Presencial y a Distancia de 2027, con más de 60.000 cupos disponibles en diferentes regiones del país. La oferta está dirigida a personas que buscan comenzar una…",
+   "section": "estado",
+   "category": "formacion",
+   "tags": [
+    "Convocatorias públicas",
+    "Formación gratuita (SENA y otros)"
+   ],
+   "mechanics": [],
+   "kind": "Programa público",
+   "organizer": {
+    "name": "SENA",
+    "type": "gobierno",
+    "domain": "sena.edu.co",
+    "known": true
+   },
+   "prize": {
+    "description": null,
+    "value_cop": null,
+    "value_text": null,
+    "value_source": null,
+    "winners": 0,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "gratis_registro",
+    "label": "Gratis con registro",
+    "free": true,
+    "certainty": "inferido",
+    "requires_purchase": null,
+    "requires_registration": true,
+    "requires_social": false,
+    "requires_activity": false,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": null,
+    "notes": [
+     "No se encontró ninguna condición de compra en la fuente oficial (inferido, confírmalo en los términos)."
+    ]
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": null,
+    "age_text": null,
+    "coverage": "bogota",
+    "cities": [
+     "Bogotá"
+    ]
+   },
+   "requirements": [
+    "La oferta está dirigida a personas que buscan comenzar una formación, adquirir nuevas habilidades o prepararse para ingresar al mercado laboral.",
+    "¿Cómo hacer la inscripción en el Sena? Las personas interesadas deberán consultar la oferta académica y realizar su postulación a través de la plataforma oficial Betowa, habilitada por el Servicio Nacional de…",
+    "Allí podrán revisar los requisitos de cada programa, verificar la disponibilidad de cupos y completar el procedimiento de inscripción."
+   ],
+   "documents": [],
+   "steps": [],
+   "steps_source": null,
+   "dates": {
+    "published": "2026-11-27T17:11:16-05:00",
+    "start": "2026-11-26",
+    "end": "2026-12-02",
+    "draw": null
+   },
+   "status": "activa",
+   "gov": {
+    "program_status": "abierta",
+    "entity": "SENA"
+   },
+   "offer": null,
+   "verification": {
+    "status": "pendiente",
+    "reasons": [
+     "Falta confirmar condiciones en la página oficial."
+    ],
+    "checked_at": "2026-11-27T21:48:11-05:00",
+    "link_ok": null,
+    "official_domain": false,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://www.tolimastereo.com/post/sena-abri%C3%B3-inscripciones-para-2027",
+    "participate": null,
+    "terms": null,
+    "official": null,
+    "image": "https://static.wixstatic.com/media/960c72_04c1f117cd05461ca196d40db566bb4e~mv2.jpg/v1/fill/w_768,h_431,al_c,q_80/960c72_04c1f117cd05461ca196d40db566bb4e~mv2.jpg"
+   },
+   "sources": [
+    {
+     "url": "https://www.tolimastereo.com/post/sena-abrió-inscripciones-para-2027",
+     "name": "Noticias · convocatorias SENA",
+     "type": "news",
+     "seen_at": "2026-11-27T21:48:11-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 1.0,
+    "model": null
+   },
+   "discovered_at": "2026-11-27T21:48:11-05:00",
+   "updated_at": "2026-11-27T21:48:11-05:00",
+   "last_verified": "2026-11-27T21:48:11-05:00",
+   "last_seen": "2026-11-27T21:48:11-05:00",
+   "history": [],
+   "priority": {
+    "score": 72,
+    "level": "alta",
+    "breakdown": {
+     "valor": {
+      "points": 11,
+      "max": 25,
+      "note": "valor no publicado (estimado por tipo de premio)"
+     },
+     "gratuidad": {
+      "points": 22,
+      "max": 25,
+      "note": "gratis_registro"
+     },
+     "facilidad": {
+      "points": 12,
+      "max": 15,
+      "note": "registro"
+     },
+     "vigencia": {
+      "points": 10,
+      "max": 10,
+      "note": "vigente (5 días restantes)"
+     },
+     "cobertura": {
+      "points": 10,
+      "max": 10,
+      "note": "bogota"
      },
      "credibilidad": {
       "points": 6,
@@ -5525,7 +5995,7 @@
    "discovered_at": "2026-11-25T16:50:27-05:00",
    "updated_at": "2026-11-25T16:50:27-05:00",
    "last_verified": "2026-11-26T18:06:55-05:00",
-   "last_seen": "2026-11-27T14:35:38-05:00",
+   "last_seen": "2026-11-27T21:48:10-05:00",
    "history": [],
    "priority": {
     "score": 72,
@@ -5837,7 +6307,7 @@
    "discovered_at": "2026-11-18T16:19:13-05:00",
    "updated_at": "2026-11-18T16:19:13-05:00",
    "last_verified": "2026-11-27T14:35:47-05:00",
-   "last_seen": "2026-11-26T09:00:43-05:00",
+   "last_seen": "2026-11-27T21:48:10-05:00",
    "history": [],
    "priority": {
     "score": 71,
@@ -5867,158 +6337,6 @@
       "points": 10,
       "max": 10,
       "note": "bogota"
-     },
-     "credibilidad": {
-      "points": 6,
-      "max": 10,
-      "note": "pendiente"
-     },
-     "claridad": {
-      "points": 1,
-      "max": 5,
-      "note": "sin términos enlazados"
-     }
-    }
-   }
-  },
-  {
-   "id": "op_3209a45b01c8",
-   "title": "El SENA anuncia nuevas inscripciones gratuitas para estudiar en 2027",
-   "summary": "El SENA publicó el calendario de inscripciones para 2027, con oportunidades de formación presencial y a distancia para colombianos.",
-   "section": "estado",
-   "category": "formacion",
-   "tags": [
-    "Convocatorias públicas",
-    "Formación gratuita (SENA y otros)"
-   ],
-   "mechanics": [],
-   "kind": "Programa público",
-   "organizer": {
-    "name": "SENA",
-    "type": "gobierno",
-    "domain": "sena.edu.co",
-    "known": true
-   },
-   "prize": {
-    "description": null,
-    "value_cop": null,
-    "value_text": null,
-    "value_source": null,
-    "winners": null,
-    "odds_text": null
-   },
-   "cost": {
-    "type": "gratis_registro",
-    "label": "Gratis con registro",
-    "free": true,
-    "certainty": "inferido",
-    "requires_purchase": null,
-    "requires_registration": false,
-    "requires_social": false,
-    "requires_activity": false,
-    "requires_subscription": false,
-    "requires_deposit": false,
-    "purchase_threshold_text": null,
-    "notes": [
-     "No se encontró ninguna condición de compra en la fuente oficial (inferido, confírmalo en los términos)."
-    ]
-   },
-   "eligibility": {
-    "who": null,
-    "min_age": null,
-    "age_text": null,
-    "coverage": "nacional",
-    "cities": []
-   },
-   "requirements": [
-    "Los aspirantes deberán realizar el proceso a través de la plataforma Betowa, donde podrán consultar los programas disponibles y los requisitos correspondientes."
-   ],
-   "documents": [],
-   "steps": [],
-   "steps_source": null,
-   "dates": {
-    "published": "2026-11-25T22:50:10-05:00",
-    "start": "2026-11-30",
-    "end": "2026-12-02",
-    "draw": null
-   },
-   "status": "proxima",
-   "gov": {
-    "program_status": "proxima",
-    "entity": "SENA"
-   },
-   "offer": null,
-   "verification": {
-    "status": "pendiente",
-    "reasons": [
-     "Falta confirmar condiciones en la página oficial."
-    ],
-    "checked_at": "2026-11-27T14:36:01-05:00",
-    "link_ok": true,
-    "official_domain": false,
-    "terms_found": false,
-    "link_failures": 0
-   },
-   "risk": {
-    "level": "bajo",
-    "flags": [],
-    "sensitive_data_warning": false
-   },
-   "urls": {
-    "source": "https://www.diariodelsur.com.co/noticias/el-sena-anuncia-nuevas-inscripciones-gratuitas-para-estudiar-en-2027",
-    "participate": null,
-    "terms": null,
-    "official": null,
-    "image": "https://gec.hsbnoticias.com/uploads/articles/8823a21e-d643-4ede-bc32-fe511018f91c.webp"
-   },
-   "sources": [
-    {
-     "url": "https://www.diariodelsur.com.co/noticias/el-sena-anuncia-nuevas-inscripciones-gratuitas-para-estudiar-en-2027",
-     "name": "Noticias · convocatorias SENA",
-     "type": "news",
-     "seen_at": "2026-11-26T09:00:45-05:00"
-    }
-   ],
-   "language": "es",
-   "translated": false,
-   "extraction": {
-    "method": "heuristica",
-    "relevance": 1.0,
-    "model": null
-   },
-   "discovered_at": "2026-11-26T09:00:45-05:00",
-   "updated_at": "2026-11-26T09:00:45-05:00",
-   "last_verified": "2026-11-27T14:36:01-05:00",
-   "last_seen": "2026-11-26T09:00:45-05:00",
-   "history": [],
-   "priority": {
-    "score": 71,
-    "level": "alta",
-    "breakdown": {
-     "valor": {
-      "points": 11,
-      "max": 25,
-      "note": "valor no publicado (estimado por tipo de premio)"
-     },
-     "gratuidad": {
-      "points": 22,
-      "max": 25,
-      "note": "gratis_registro"
-     },
-     "facilidad": {
-      "points": 15,
-      "max": 15,
-      "note": "pocos requisitos"
-     },
-     "vigencia": {
-      "points": 6,
-      "max": 10,
-      "note": "abre próximamente"
-     },
-     "cobertura": {
-      "points": 10,
-      "max": 10,
-      "note": "nacional"
      },
      "credibilidad": {
       "points": 6,
@@ -6102,7 +6420,7 @@
     "reasons": [
      "Falta confirmar condiciones en la página oficial."
     ],
-    "checked_at": "2026-11-26T09:01:13-05:00",
+    "checked_at": "2026-11-27T21:48:17-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -6137,7 +6455,7 @@
    },
    "discovered_at": "2026-11-25T06:28:59-05:00",
    "updated_at": "2026-11-25T06:28:59-05:00",
-   "last_verified": "2026-11-26T09:01:13-05:00",
+   "last_verified": "2026-11-27T21:48:17-05:00",
    "last_seen": "2026-11-25T23:15:19-05:00",
    "history": [],
    "priority": {
@@ -6294,7 +6612,7 @@
    "discovered_at": "2026-11-25T16:50:26-05:00",
    "updated_at": "2026-11-25T16:50:26-05:00",
    "last_verified": "2026-11-26T18:06:53-05:00",
-   "last_seen": "2026-11-27T14:35:38-05:00",
+   "last_seen": "2026-11-27T21:48:10-05:00",
    "history": [],
    "priority": {
     "score": 71,
@@ -6744,7 +7062,7 @@
    "discovered_at": "2026-11-25T23:15:21-05:00",
    "updated_at": "2026-11-25T23:15:21-05:00",
    "last_verified": "2026-11-27T03:47:27-05:00",
-   "last_seen": "2026-11-27T14:35:38-05:00",
+   "last_seen": "2026-11-27T21:48:10-05:00",
    "history": [],
    "priority": {
     "score": 71,
@@ -7169,8 +7487,8 @@
     "reasons": [
      "Organizador no identificado con certeza."
     ],
-    "checked_at": "2026-11-26T18:06:33-05:00",
-    "link_ok": null,
+    "checked_at": "2026-11-27T21:48:31-05:00",
+    "link_ok": true,
     "official_domain": false,
     "terms_found": false,
     "link_failures": 0
@@ -7204,7 +7522,7 @@
    },
    "discovered_at": "2026-11-26T18:06:33-05:00",
    "updated_at": "2026-11-26T18:06:33-05:00",
-   "last_verified": "2026-11-26T18:06:33-05:00",
+   "last_verified": "2026-11-27T21:48:31-05:00",
    "last_seen": "2026-11-26T18:06:33-05:00",
    "history": [],
    "priority": {
@@ -7365,7 +7683,7 @@
    "discovered_at": "2026-11-20T08:04:55-05:00",
    "updated_at": "2026-11-20T08:04:55-05:00",
    "last_verified": "2026-11-27T14:36:10-05:00",
-   "last_seen": "2026-11-26T09:00:43-05:00",
+   "last_seen": "2026-11-27T21:48:10-05:00",
    "history": [],
    "priority": {
     "score": 70,
@@ -7725,6 +8043,343 @@
      },
      "claridad": {
       "points": 1,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
+   "id": "op_efb07d13c151",
+   "title": "SENA abre convocatoria de formación gratuita para 2027: así puede inscribirse",
+   "summary": "El SENA abrió inscripciones para su primera convocatoria de formación gratuita presencial y a distancia de 2027. ¿Cómo aplicar?",
+   "section": "estado",
+   "category": "formacion",
+   "tags": [
+    "Convocatorias públicas",
+    "Formación gratuita (SENA y otros)"
+   ],
+   "mechanics": [],
+   "kind": "Programa público",
+   "organizer": {
+    "name": "SENA",
+    "type": "gobierno",
+    "domain": "sena.edu.co",
+    "known": true
+   },
+   "prize": {
+    "description": null,
+    "value_cop": null,
+    "value_text": null,
+    "value_source": null,
+    "winners": null,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "gratis_registro",
+    "label": "Gratis con registro",
+    "free": true,
+    "certainty": "inferido",
+    "requires_purchase": null,
+    "requires_registration": false,
+    "requires_social": false,
+    "requires_activity": false,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": null,
+    "notes": [
+     "No se encontró ninguna condición de compra en la fuente oficial (inferido, confírmalo en los términos)."
+    ]
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": null,
+    "age_text": null,
+    "coverage": "nacional",
+    "cities": []
+   },
+   "requirements": [],
+   "documents": [],
+   "steps": [],
+   "steps_source": null,
+   "dates": {
+    "published": "2026-11-27T02:29:18-05:00",
+    "start": null,
+    "end": null,
+    "draw": null
+   },
+   "status": "sin_confirmar",
+   "gov": {
+    "program_status": "sin_confirmar",
+    "entity": "SENA"
+   },
+   "offer": null,
+   "verification": {
+    "status": "pendiente",
+    "reasons": [
+     "Falta confirmar condiciones en la página oficial."
+    ],
+    "checked_at": "2026-11-27T21:48:12-05:00",
+    "link_ok": null,
+    "official_domain": false,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://www.msn.com/es-co/noticias/nacional/sena-abre-convocatoria-de-formaci%C3%B3n-gratuita-para-2027-as%C3%AD-puede-inscribirse/ar-AA2inxxV",
+    "participate": null,
+    "terms": null,
+    "official": null,
+    "image": "http://www.bing.com/th?id=ONUT.LW8xytoa26ZpixDH6NcWqA&pid=News&w=640"
+   },
+   "sources": [
+    {
+     "url": "https://www.msn.com/es-co/noticias/nacional/sena-abre-convocatoria-de-formaci%C3%B3n-gratuita-para-2027-as%C3%AD-puede-inscribirse/ar-AA2inxxV",
+     "name": "Noticias · convocatorias SENA",
+     "type": "news",
+     "seen_at": "2026-11-27T21:48:12-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 0.87,
+    "model": null
+   },
+   "discovered_at": "2026-11-27T21:48:12-05:00",
+   "updated_at": "2026-11-27T21:48:12-05:00",
+   "last_verified": "2026-11-27T21:48:12-05:00",
+   "last_seen": "2026-11-27T21:48:12-05:00",
+   "history": [],
+   "priority": {
+    "score": 70,
+    "level": "alta",
+    "breakdown": {
+     "valor": {
+      "points": 11,
+      "max": 25,
+      "note": "valor no publicado (estimado por tipo de premio)"
+     },
+     "gratuidad": {
+      "points": 22,
+      "max": 25,
+      "note": "gratis_registro"
+     },
+     "facilidad": {
+      "points": 15,
+      "max": 15,
+      "note": "pocos requisitos"
+     },
+     "vigencia": {
+      "points": 5,
+      "max": 10,
+      "note": "sin fecha límite publicada"
+     },
+     "cobertura": {
+      "points": 10,
+      "max": 10,
+      "note": "nacional"
+     },
+     "credibilidad": {
+      "points": 6,
+      "max": 10,
+      "note": "pendiente"
+     },
+     "claridad": {
+      "points": 1,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
+   "id": "op_3209a45b01c8",
+   "title": "SENA abre convocatoria para formación presencial en 2027 con más de 60.000 cupos y cerca de 300 programas en Colombia",
+   "summary": "Convocatoria SENA 2027: más de 60.000 cupos gratuitos en 300 programas técnicos, tecnólogos y auxiliares para Bogotá y Colombia.",
+   "section": "estado",
+   "category": "formacion",
+   "tags": [
+    "Convocatorias públicas",
+    "Formación gratuita (SENA y otros)"
+   ],
+   "mechanics": [],
+   "kind": "Programa público",
+   "organizer": {
+    "name": "SENA",
+    "type": "gobierno",
+    "domain": "sena.edu.co",
+    "known": true
+   },
+   "prize": {
+    "description": null,
+    "value_cop": null,
+    "value_text": null,
+    "value_source": null,
+    "winners": null,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "gratis_registro",
+    "label": "Gratis con registro",
+    "free": true,
+    "certainty": "inferido",
+    "requires_purchase": null,
+    "requires_registration": true,
+    "requires_social": true,
+    "requires_activity": true,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": null,
+    "notes": [
+     "Pide interactuar en redes sociales (seguir, comentar o etiquetar).",
+     "No se encontró ninguna condición de compra en la fuente oficial (inferido, confírmalo en los términos)."
+    ]
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": null,
+    "age_text": null,
+    "coverage": "bogota",
+    "cities": [
+     "Bogotá"
+    ]
+   },
+   "requirements": [
+    "El SENA hace énfasis en la importancia de consultar los requisitos específicos y las características de cada programa antes de inscribirse, para así asegurar el cumplimiento de las condiciones y la pertinencia de la…"
+   ],
+   "documents": [],
+   "steps": [
+    "Ingresar a betowa.sena.edu.co .",
+    "Explorar el catálogo de programas de formación disponibles.",
+    "Identificar las opciones que correspondan a sus intereses y revisar sus características.",
+    "Comprobar que el programa esté habilitado en la región donde desea estudiar.",
+    "Seguir las indicaciones de la plataforma para completar la postulación."
+   ],
+   "steps_source": "fuente_secundaria",
+   "dates": {
+    "published": "2026-11-27T11:26:44-05:00",
+    "start": "2026-11-30",
+    "end": "2026-12-02",
+    "draw": null
+   },
+   "status": "activa",
+   "gov": {
+    "program_status": "abierta",
+    "entity": "SENA"
+   },
+   "offer": null,
+   "verification": {
+    "status": "pendiente",
+    "reasons": [
+     "Falta confirmar condiciones en la página oficial."
+    ],
+    "checked_at": "2026-11-27T21:48:15-05:00",
+    "link_ok": null,
+    "official_domain": false,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://www.pulzo.com/empleo/convocatoria-sena-2027-en-bogota-y-colombia-60-000-cupos-y-300-programas-gratis-PP5366366A",
+    "participate": null,
+    "terms": null,
+    "official": null,
+    "image": "https://d2yoo3qu6vrk5d.cloudfront.net/pulzo-lite/images-resized/PP5366366A-h-o.jpg"
+   },
+   "sources": [
+    {
+     "url": "https://www.diariodelsur.com.co/noticias/el-sena-anuncia-nuevas-inscripciones-gratuitas-para-estudiar-en-2027",
+     "name": "Noticias · convocatorias SENA",
+     "type": "news",
+     "seen_at": "2026-11-26T09:00:45-05:00"
+    },
+    {
+     "url": "https://www.lafm.com.co/sociedad/sena-cupos-programas-gratuitos-formacion-2027-418541",
+     "name": "Noticias · convocatorias SENA",
+     "type": "news",
+     "seen_at": "2026-11-27T21:48:11-05:00"
+    },
+    {
+     "url": "https://www.pulzo.com/empleo/convocatoria-sena-2027-en-colombia-cupos-carreras-tecnicas-y-como-inscribirse-online-PP5366375A",
+     "name": "Noticias · convocatorias SENA",
+     "type": "news",
+     "seen_at": "2026-11-27T21:48:14-05:00"
+    },
+    {
+     "url": "https://www.pulzo.com/empleo/convocatoria-sena-2027-en-bogota-y-colombia-60-000-cupos-y-300-programas-gratis-PP5366366A",
+     "name": "Noticias · convocatorias SENA",
+     "type": "news",
+     "seen_at": "2026-11-27T21:48:15-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 1.0,
+    "model": null
+   },
+   "discovered_at": "2026-11-26T09:00:45-05:00",
+   "updated_at": "2026-11-27T21:48:11-05:00",
+   "last_verified": "2026-11-27T21:48:15-05:00",
+   "last_seen": "2026-11-27T21:48:15-05:00",
+   "history": [
+    {
+     "at": "2026-11-27T21:48:11-05:00",
+     "field": "status",
+     "label": "Estado",
+     "from": "proxima",
+     "to": "activa"
+    }
+   ],
+   "priority": {
+    "score": 70,
+    "level": "alta",
+    "breakdown": {
+     "valor": {
+      "points": 11,
+      "max": 25,
+      "note": "valor no publicado (estimado por tipo de premio)"
+     },
+     "gratuidad": {
+      "points": 22,
+      "max": 25,
+      "note": "gratis_registro"
+     },
+     "facilidad": {
+      "points": 8,
+      "max": 15,
+      "note": "registro, actividad, redes sociales"
+     },
+     "vigencia": {
+      "points": 10,
+      "max": 10,
+      "note": "vigente (5 días restantes)"
+     },
+     "cobertura": {
+      "points": 10,
+      "max": 10,
+      "note": "bogota"
+     },
+     "credibilidad": {
+      "points": 6,
+      "max": 10,
+      "note": "pendiente"
+     },
+     "claridad": {
+      "points": 3,
       "max": 5,
       "note": "sin términos enlazados"
      }
@@ -8443,7 +9098,7 @@
     "reasons": [
      "Organizador no identificado con certeza."
     ],
-    "checked_at": "2026-11-26T09:01:14-05:00",
+    "checked_at": "2026-11-27T21:48:20-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -8478,7 +9133,7 @@
    },
    "discovered_at": "2026-11-22T15:49:46-05:00",
    "updated_at": "2026-11-22T15:49:46-05:00",
-   "last_verified": "2026-11-26T09:01:14-05:00",
+   "last_verified": "2026-11-27T21:48:20-05:00",
    "last_seen": "2026-11-25T06:28:59-05:00",
    "history": [],
    "priority": {
@@ -8977,7 +9632,7 @@
    "discovered_at": "2026-11-24T19:52:50-05:00",
    "updated_at": "2026-11-24T19:52:50-05:00",
    "last_verified": "2026-11-27T03:47:27-05:00",
-   "last_seen": "2026-11-26T09:00:43-05:00",
+   "last_seen": "2026-11-27T21:48:10-05:00",
    "history": [],
    "priority": {
     "score": 69,
@@ -9248,7 +9903,7 @@
      "Proviene de una fuente oficial configurada.",
      "El enlace respondió correctamente en la última verificación."
     ],
-    "checked_at": "2026-11-26T09:01:22-05:00",
+    "checked_at": "2026-11-27T21:48:24-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -9283,7 +9938,7 @@
    },
    "discovered_at": "2026-11-20T16:55:49-05:00",
    "updated_at": "2026-11-20T16:55:49-05:00",
-   "last_verified": "2026-11-26T09:01:22-05:00",
+   "last_verified": "2026-11-27T21:48:24-05:00",
    "last_seen": "2026-11-25T06:28:59-05:00",
    "history": [],
    "priority": {
@@ -9397,7 +10052,7 @@
     "reasons": [
      "Información insuficiente: sin organizador identificado, fechas ni enlace oficial."
     ],
-    "checked_at": "2026-11-26T09:01:25-05:00",
+    "checked_at": "2026-11-27T21:48:27-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -9432,7 +10087,7 @@
    },
    "discovered_at": "2026-11-20T16:55:51-05:00",
    "updated_at": "2026-11-20T16:55:51-05:00",
-   "last_verified": "2026-11-26T09:01:25-05:00",
+   "last_verified": "2026-11-27T21:48:27-05:00",
    "last_seen": "2026-11-25T06:28:59-05:00",
    "history": [],
    "priority": {
@@ -9546,7 +10201,7 @@
     "reasons": [
      "Información insuficiente: sin organizador identificado, fechas ni enlace oficial."
     ],
-    "checked_at": "2026-11-26T18:06:38-05:00",
+    "checked_at": "2026-11-27T21:48:32-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -9581,7 +10236,7 @@
    },
    "discovered_at": "2026-11-20T16:55:54-05:00",
    "updated_at": "2026-11-20T16:55:54-05:00",
-   "last_verified": "2026-11-26T18:06:38-05:00",
+   "last_verified": "2026-11-27T21:48:32-05:00",
    "last_seen": "2026-11-21T21:19:35-05:00",
    "history": [],
    "priority": {
@@ -9884,7 +10539,157 @@
    "discovered_at": "2026-11-18T17:21:45-05:00",
    "updated_at": "2026-11-18T17:21:45-05:00",
    "last_verified": "2026-11-27T14:35:49-05:00",
-   "last_seen": "2026-11-27T14:35:38-05:00",
+   "last_seen": "2026-11-27T21:48:10-05:00",
+   "history": [],
+   "priority": {
+    "score": 68,
+    "level": "media",
+    "breakdown": {
+     "valor": {
+      "points": 9,
+      "max": 25,
+      "note": "valor no publicado"
+     },
+     "gratuidad": {
+      "points": 22,
+      "max": 25,
+      "note": "gratis_registro"
+     },
+     "facilidad": {
+      "points": 15,
+      "max": 15,
+      "note": "pocos requisitos"
+     },
+     "vigencia": {
+      "points": 5,
+      "max": 10,
+      "note": "sin fecha límite publicada"
+     },
+     "cobertura": {
+      "points": 10,
+      "max": 10,
+      "note": "nacional"
+     },
+     "credibilidad": {
+      "points": 6,
+      "max": 10,
+      "note": "pendiente"
+     },
+     "claridad": {
+      "points": 1,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
+   "id": "op_593349727d41",
+   "title": "Inscripciones Sena 2027: convocatoria abierta para estudiar gratis software, finanzas, cocina y construcción",
+   "summary": "Las postulaciones estarán abiertas del 26 de noviembre al 2 de diciembre en la plataforma de la entidad; las clases comenzarán en enero de 2027.",
+   "section": "estado",
+   "category": "convocatorias",
+   "tags": [
+    "Convocatorias públicas",
+    "Formación gratuita (SENA y otros)"
+   ],
+   "mechanics": [],
+   "kind": "Programa público",
+   "organizer": {
+    "name": "SENA",
+    "type": "gobierno",
+    "domain": "sena.edu.co",
+    "known": true
+   },
+   "prize": {
+    "description": null,
+    "value_cop": null,
+    "value_text": null,
+    "value_source": null,
+    "winners": null,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "gratis_registro",
+    "label": "Gratis con registro",
+    "free": true,
+    "certainty": "inferido",
+    "requires_purchase": null,
+    "requires_registration": false,
+    "requires_social": false,
+    "requires_activity": false,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": null,
+    "notes": [
+     "No se encontró ninguna condición de compra en la fuente oficial (inferido, confírmalo en los términos)."
+    ]
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": null,
+    "age_text": null,
+    "coverage": "nacional",
+    "cities": []
+   },
+   "requirements": [],
+   "documents": [],
+   "steps": [],
+   "steps_source": null,
+   "dates": {
+    "published": "2026-11-27T05:29:20-05:00",
+    "start": null,
+    "end": null,
+    "draw": null
+   },
+   "status": "sin_confirmar",
+   "gov": {
+    "program_status": "sin_confirmar",
+    "entity": "SENA"
+   },
+   "offer": null,
+   "verification": {
+    "status": "pendiente",
+    "reasons": [
+     "Falta confirmar condiciones en la página oficial."
+    ],
+    "checked_at": "2026-11-27T21:48:11-05:00",
+    "link_ok": null,
+    "official_domain": false,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://www.msn.com/es-co/noticias/otras/inscripciones-sena-2027-convocatoria-abierta-para-estudiar-gratis-software-finanzas-cocina-y-construcci%C3%B3n/ar-AA2io2Nu",
+    "participate": null,
+    "terms": null,
+    "official": null,
+    "image": "http://www.bing.com/th?id=ONUT.ORn6ABspXqgHizazkiVp1g&pid=News&w=640"
+   },
+   "sources": [
+    {
+     "url": "https://www.msn.com/es-co/noticias/otras/inscripciones-sena-2027-convocatoria-abierta-para-estudiar-gratis-software-finanzas-cocina-y-construcci%C3%B3n/ar-AA2io2Nu",
+     "name": "Noticias · convocatorias SENA",
+     "type": "news",
+     "seen_at": "2026-11-27T21:48:11-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 1.0,
+    "model": null
+   },
+   "discovered_at": "2026-11-27T21:48:11-05:00",
+   "updated_at": "2026-11-27T21:48:11-05:00",
+   "last_verified": "2026-11-27T21:48:11-05:00",
+   "last_seen": "2026-11-27T21:48:11-05:00",
    "history": [],
    "priority": {
     "score": 68,
@@ -10208,7 +11013,7 @@
    "discovered_at": "2026-11-18T16:19:09-05:00",
    "updated_at": "2026-11-18T16:19:09-05:00",
    "last_verified": "2026-11-27T03:47:20-05:00",
-   "last_seen": "2026-11-26T09:00:43-05:00",
+   "last_seen": "2026-11-27T21:48:10-05:00",
    "history": [],
    "priority": {
     "score": 67,
@@ -10331,7 +11136,7 @@
     "reasons": [
      "Organizador no identificado con certeza."
     ],
-    "checked_at": "2026-11-26T09:01:19-05:00",
+    "checked_at": "2026-11-27T21:48:23-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -10366,7 +11171,7 @@
    },
    "discovered_at": "2026-11-21T15:41:35-05:00",
    "updated_at": "2026-11-21T15:41:35-05:00",
-   "last_verified": "2026-11-26T09:01:19-05:00",
+   "last_verified": "2026-11-27T21:48:23-05:00",
    "last_seen": "2026-11-26T09:00:43-05:00",
    "history": [
     {
@@ -10649,8 +11454,8 @@
     "reasons": [
      "Información insuficiente: sin organizador identificado, fechas ni enlace oficial."
     ],
-    "checked_at": "2026-11-26T18:06:34-05:00",
-    "link_ok": null,
+    "checked_at": "2026-11-27T21:48:31-05:00",
+    "link_ok": true,
     "official_domain": false,
     "terms_found": false,
     "link_failures": 0
@@ -10690,7 +11495,7 @@
    },
    "discovered_at": "2026-11-26T18:06:33-05:00",
    "updated_at": "2026-11-26T18:06:34-05:00",
-   "last_verified": "2026-11-26T18:06:34-05:00",
+   "last_verified": "2026-11-27T21:48:31-05:00",
    "last_seen": "2026-11-26T18:06:34-05:00",
    "history": [
     {
@@ -11171,7 +11976,7 @@
    "discovered_at": "2026-11-18T16:19:15-05:00",
    "updated_at": "2026-11-18T16:19:15-05:00",
    "last_verified": "2026-11-27T14:35:51-05:00",
-   "last_seen": "2026-11-26T09:00:43-05:00",
+   "last_seen": "2026-11-27T21:48:10-05:00",
    "history": [],
    "priority": {
     "score": 66,
@@ -11196,6 +12001,171 @@
       "points": 5,
       "max": 10,
       "note": "sin fecha límite publicada"
+     },
+     "cobertura": {
+      "points": 10,
+      "max": 10,
+      "note": "bogota"
+     },
+     "credibilidad": {
+      "points": 6,
+      "max": 10,
+      "note": "pendiente"
+     },
+     "claridad": {
+      "points": 1,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
+   "id": "op_52f831d8ed3a",
+   "title": "Licencias de conducción GRATIS para mujeres de esta localidad en Bogotá: Inscripción es presencial",
+   "summary": "La convocatoria ofrece licencias de conducción para distintos tipos de vehículos incluyendo los de servicio público.",
+   "section": "estado",
+   "category": "convocatorias",
+   "tags": [
+    "Convocatorias públicas"
+   ],
+   "mechanics": [],
+   "kind": "Programa público",
+   "organizer": {
+    "name": "Jumbo y Metro (Cencosud)",
+    "type": "comercio",
+    "domain": "tiendasjumbo.co",
+    "known": true
+   },
+   "prize": {
+    "description": null,
+    "value_cop": null,
+    "value_text": null,
+    "value_source": null,
+    "winners": null,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "gratis_registro",
+    "label": "Gratis con registro",
+    "free": true,
+    "certainty": "inferido",
+    "requires_purchase": null,
+    "requires_registration": true,
+    "requires_social": false,
+    "requires_activity": false,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": null,
+    "notes": [
+     "No se encontró ninguna condición de compra en la fuente oficial (inferido, confírmalo en los términos)."
+    ]
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": 18,
+    "age_text": "mayores de edad",
+    "coverage": "bogota",
+    "cities": [
+     "Bogotá"
+    ]
+   },
+   "requirements": [
+    "Tener 18 años o más.",
+    "Presentar documento de identidad.",
+    "Llevar recibo de servicio público para la verificación de residencia.",
+    "Acreditar domicilio o vínculo activo en La Candelaria mediante certificado de residencia , certificado laboral, certificado de actividad comercial en el sector o constancia de estudios en instituciones educativas de la…",
+    "Saber leer y escribir o presentar título de bachiller.",
+    "Presentar certificado del SIMIT con una antigüedad no mayor a 30 días (paz y salvo por multas e infracciones).",
+    "Para la categoría A2 (motocicleta), saber manejar bicicleta.",
+    "Presentar examen médico preocupacional con una antigüedad no mayor a tres meses."
+   ],
+   "documents": [
+    "Documento de identidad (cédula)",
+    "RUT",
+    "Certificado laboral",
+    "Certificado de residencia"
+   ],
+   "steps": [],
+   "steps_source": null,
+   "dates": {
+    "published": "2026-11-27T18:08:57-05:00",
+    "start": null,
+    "end": "2026-11-28",
+    "draw": null
+   },
+   "status": "activa",
+   "gov": {
+    "program_status": "abierta",
+    "entity": "Jumbo y Metro (Cencosud)"
+   },
+   "offer": null,
+   "verification": {
+    "status": "pendiente",
+    "reasons": [
+     "Falta confirmar condiciones en la página oficial."
+    ],
+    "checked_at": "2026-11-27T21:48:13-05:00",
+    "link_ok": null,
+    "official_domain": false,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://caracol.com.co/2026/11/27/licencias-de-conduccion-gratis-para-mujeres-de-esta-localidad-en-bogota-inscripcion-es-presencial/",
+    "participate": null,
+    "terms": null,
+    "official": null,
+    "image": "https://caracol.com.co/resizer/v2/ZM5PBCNGDRDEDLLPKJ575HNIAA.jpg?auth=33542b970de186bfdb728928e09c726fb7d7ebf2189dfc09035d99aa31a18a06&quality=70&width=1200&height=675&smart=true"
+   },
+   "sources": [
+    {
+     "url": "https://caracol.com.co/2026/11/27/licencias-de-conduccion-gratis-para-mujeres-de-esta-localidad-en-bogota-inscripcion-es-presencial/",
+     "name": "Noticias · Alcaldía de Bogotá beneficios",
+     "type": "news",
+     "seen_at": "2026-11-27T21:48:13-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 0.75,
+    "model": null
+   },
+   "discovered_at": "2026-11-27T21:48:13-05:00",
+   "updated_at": "2026-11-27T21:48:13-05:00",
+   "last_verified": "2026-11-27T21:48:13-05:00",
+   "last_seen": "2026-11-27T21:48:13-05:00",
+   "history": [],
+   "priority": {
+    "score": 66,
+    "level": "media",
+    "breakdown": {
+     "valor": {
+      "points": 9,
+      "max": 25,
+      "note": "valor no publicado"
+     },
+     "gratuidad": {
+      "points": 22,
+      "max": 25,
+      "note": "gratis_registro"
+     },
+     "facilidad": {
+      "points": 9,
+      "max": 15,
+      "note": "registro"
+     },
+     "vigencia": {
+      "points": 9,
+      "max": 10,
+      "note": "vence en 1 día(s): revisar ya"
      },
      "cobertura": {
       "points": 10,
@@ -11635,7 +12605,7 @@
    "discovered_at": "2026-11-27T14:35:39-05:00",
    "updated_at": "2026-11-27T14:35:39-05:00",
    "last_verified": "2026-11-27T14:35:39-05:00",
-   "last_seen": "2026-11-27T14:35:39-05:00",
+   "last_seen": "2026-11-27T21:48:10-05:00",
    "history": [],
    "priority": {
     "score": 65,
@@ -12236,7 +13206,7 @@
     "reasons": [
      "Organizador no identificado con certeza."
     ],
-    "checked_at": "2026-11-26T09:01:18-05:00",
+    "checked_at": "2026-11-27T21:48:22-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -12271,7 +13241,7 @@
    },
    "discovered_at": "2026-11-21T15:41:34-05:00",
    "updated_at": "2026-11-21T15:41:34-05:00",
-   "last_verified": "2026-11-26T09:01:18-05:00",
+   "last_verified": "2026-11-27T21:48:22-05:00",
    "last_seen": "2026-11-21T15:41:34-05:00",
    "history": [],
    "priority": {
@@ -12297,6 +13267,163 @@
       "points": 10,
       "max": 10,
       "note": "vigente (4 días restantes)"
+     },
+     "cobertura": {
+      "points": 10,
+      "max": 10,
+      "note": "bogota"
+     },
+     "credibilidad": {
+      "points": 6,
+      "max": 10,
+      "note": "pendiente"
+     },
+     "claridad": {
+      "points": 1,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
+   "id": "op_d09245104172",
+   "title": "Bogotá abre convocatoria para 500 cupos de formación en inteligencia artificial y habilidades digitales para adultos",
+   "summary": "Mejora tus habilidades digitales en Bogotá: 500 cupos gratuitos en cursos de IA, marketing y servicio al cliente. Inscríbete aquí.",
+   "section": "estado",
+   "category": "convocatorias",
+   "tags": [
+    "Convocatorias públicas"
+   ],
+   "mechanics": [],
+   "kind": "Programa público",
+   "organizer": {
+    "name": "Bogotá",
+    "type": "desconocido",
+    "domain": null,
+    "known": false
+   },
+   "prize": {
+    "description": null,
+    "value_cop": null,
+    "value_text": null,
+    "value_source": null,
+    "winners": 500,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "gratis_registro",
+    "label": "Gratis con registro",
+    "free": true,
+    "certainty": "explicito",
+    "requires_purchase": false,
+    "requires_registration": true,
+    "requires_social": true,
+    "requires_activity": true,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": null,
+    "notes": [
+     "La fuente lo indica: «sin costo».",
+     "Pide interactuar en redes sociales (seguir, comentar o etiquetar)."
+    ]
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": 18,
+    "age_text": "mayores de 18 años",
+    "coverage": "bogota",
+    "cities": [
+     "Bogotá"
+    ]
+   },
+   "requirements": [
+    "Esta oferta educativa está dirigida a quienes deseen prepararse para los actuales desafíos del mercado laboral, priorizando el desarrollo de habilidades en inteligencia artificial y su aplicación en el sector servicios.",
+    "Para participar, es indispensable cumplir ciertos requisitos:",
+    "Quienes se postulen deben contar con acceso a internet y un dispositivo para cursar la formación virtual.",
+    "Es fundamental verificar que cumplen con los requisitos mencionados y diligenciar el proceso de inscripción dentro de las fechas establecidas."
+   ],
+   "documents": [],
+   "steps": [],
+   "steps_source": null,
+   "dates": {
+    "published": "2026-11-27T11:51:14-05:00",
+    "start": "2026-11-23",
+    "end": "2026-12-20",
+    "draw": null
+   },
+   "status": "activa",
+   "gov": {
+    "program_status": "abierta",
+    "entity": "Bogotá"
+   },
+   "offer": null,
+   "verification": {
+    "status": "pendiente",
+    "reasons": [
+     "Organizador no identificado con certeza."
+    ],
+    "checked_at": "2026-11-27T21:48:12-05:00",
+    "link_ok": null,
+    "official_domain": false,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://www.pulzo.com/nacion/bogota/convocatoria-talento-capital-formacion-10-1-en-bogota-500-cupos-en-ia-y-habilidades-digitales-PP5366406A",
+    "participate": null,
+    "terms": null,
+    "official": null,
+    "image": "https://d2yoo3qu6vrk5d.cloudfront.net/pulzo-lite/images-resized/PP5366406A-h-o.jpg"
+   },
+   "sources": [
+    {
+     "url": "https://www.pulzo.com/nacion/bogota/convocatoria-talento-capital-formacion-10-1-en-bogota-500-cupos-en-ia-y-habilidades-digitales-PP5366406A",
+     "name": "Noticias · Alcaldía de Bogotá beneficios",
+     "type": "news",
+     "seen_at": "2026-11-27T21:48:12-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 1.0,
+    "model": null
+   },
+   "discovered_at": "2026-11-27T21:48:12-05:00",
+   "updated_at": "2026-11-27T21:48:12-05:00",
+   "last_verified": "2026-11-27T21:48:12-05:00",
+   "last_seen": "2026-11-27T21:48:12-05:00",
+   "history": [],
+   "priority": {
+    "score": 64,
+    "level": "media",
+    "breakdown": {
+     "valor": {
+      "points": 9,
+      "max": 25,
+      "note": "valor no publicado"
+     },
+     "gratuidad": {
+      "points": 22,
+      "max": 25,
+      "note": "gratis_registro"
+     },
+     "facilidad": {
+      "points": 6,
+      "max": 15,
+      "note": "registro, actividad, redes sociales"
+     },
+     "vigencia": {
+      "points": 10,
+      "max": 10,
+      "note": "vigente (23 días restantes)"
      },
      "cobertura": {
       "points": 10,
@@ -12581,7 +13708,7 @@
    "discovered_at": "2026-11-26T09:00:44-05:00",
    "updated_at": "2026-11-26T09:00:44-05:00",
    "last_verified": "2026-11-27T14:36:00-05:00",
-   "last_seen": "2026-11-26T09:00:44-05:00",
+   "last_seen": "2026-11-27T21:48:10-05:00",
    "history": [],
    "priority": {
     "score": 64,
@@ -13381,7 +14508,7 @@
    "discovered_at": "2026-11-18T16:19:10-05:00",
    "updated_at": "2026-11-18T16:19:10-05:00",
    "last_verified": "2026-11-27T14:35:42-05:00",
-   "last_seen": "2026-11-26T09:00:43-05:00",
+   "last_seen": "2026-11-27T21:48:10-05:00",
    "history": [],
    "priority": {
     "score": 62,
@@ -13667,7 +14794,7 @@
     "reasons": [
      "Organizador no identificado con certeza."
     ],
-    "checked_at": "2026-11-26T09:01:16-05:00",
+    "checked_at": "2026-11-27T21:48:20-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -13702,7 +14829,7 @@
    },
    "discovered_at": "2026-11-21T15:41:33-05:00",
    "updated_at": "2026-11-21T15:41:33-05:00",
-   "last_verified": "2026-11-26T09:01:16-05:00",
+   "last_verified": "2026-11-27T21:48:20-05:00",
    "last_seen": "2026-11-22T07:43:01-05:00",
    "history": [],
    "priority": {
@@ -14206,6 +15333,159 @@
    }
   },
   {
+   "id": "op_2594529b596a",
+   "title": "Liz de Júpiter presenta su novela gráfica en Bucaramanga y participará en la FIL Guadalajara 2026",
+   "summary": "La ilustradora santandereana presenta ‘Yarima y el susurro de la montaña’, una novela gráfica sobre el duelo, la naturaleza y el descubrimiento de la propia identidad.",
+   "section": "estado",
+   "category": "cultura",
+   "tags": [
+    "Convocatorias públicas",
+    "Cultura y estímulos"
+   ],
+   "mechanics": [],
+   "kind": "Programa público",
+   "organizer": {
+    "name": "Organizador no identificado",
+    "type": "desconocido",
+    "domain": null,
+    "known": false
+   },
+   "prize": {
+    "description": null,
+    "value_cop": null,
+    "value_text": null,
+    "value_source": null,
+    "winners": null,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "gratis_registro",
+    "label": "Gratis con registro",
+    "free": true,
+    "certainty": "inferido",
+    "requires_purchase": null,
+    "requires_registration": false,
+    "requires_social": false,
+    "requires_activity": true,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": null,
+    "notes": [
+     "No se encontró ninguna condición de compra en la fuente oficial (inferido, confírmalo en los términos)."
+    ]
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": null,
+    "age_text": null,
+    "coverage": "regional",
+    "cities": [
+     "Bucaramanga",
+     "Pereira"
+    ]
+   },
+   "requirements": [],
+   "documents": [],
+   "steps": [],
+   "steps_source": null,
+   "dates": {
+    "published": "2026-11-27T14:28:57-05:00",
+    "start": "2026-12-07",
+    "end": null,
+    "draw": null
+   },
+   "status": "proxima",
+   "gov": {
+    "program_status": "proxima",
+    "entity": "Organizador no identificado"
+   },
+   "offer": null,
+   "verification": {
+    "status": "pendiente",
+    "reasons": [
+     "Organizador no identificado con certeza."
+    ],
+    "checked_at": "2026-11-27T21:48:11-05:00",
+    "link_ok": null,
+    "official_domain": false,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://www.vanguardia.com/entretenimiento/cultura/magazin-cultural/2026/11/27/liz-de-jupiter-presenta-su-novela-grafica-en-bucaramanga-y-participara-en-la-fil-guadalajara-2026/",
+    "participate": "https://www.vanguardia.com/entretenimiento/cultura/magazin-cultural/2026/11/27/tiene-una-pelicula-para-presentar-el-ficci-66-recibira-postulaciones-hasta-este-domingo/",
+    "terms": null,
+    "official": null,
+    "image": "https://www.vanguardia.com/resizer/v2/JCE6RFFKS5DYJKOECBDRGF3FKQ.png?auth=ce40537a36fea13b246a844ec2b2ff5ad5765bbb2ab6cfff6e1f41c305cd2028&smart=true&width=1200&height=630&quality=70"
+   },
+   "sources": [
+    {
+     "url": "https://www.vanguardia.com/entretenimiento/cultura/magazin-cultural/2026/11/27/liz-de-jupiter-presenta-su-novela-grafica-en-bucaramanga-y-participara-en-la-fil-guadalajara-2026/",
+     "name": "Vanguardia (feed)",
+     "type": "news",
+     "seen_at": "2026-11-27T21:48:11-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 0.69,
+    "model": null
+   },
+   "discovered_at": "2026-11-27T21:48:11-05:00",
+   "updated_at": "2026-11-27T21:48:11-05:00",
+   "last_verified": "2026-11-27T21:48:11-05:00",
+   "last_seen": "2026-11-27T21:48:11-05:00",
+   "history": [],
+   "priority": {
+    "score": 61,
+    "level": "media",
+    "breakdown": {
+     "valor": {
+      "points": 9,
+      "max": 25,
+      "note": "valor no publicado"
+     },
+     "gratuidad": {
+      "points": 22,
+      "max": 25,
+      "note": "gratis_registro"
+     },
+     "facilidad": {
+      "points": 12,
+      "max": 15,
+      "note": "actividad"
+     },
+     "vigencia": {
+      "points": 6,
+      "max": 10,
+      "note": "abre próximamente"
+     },
+     "cobertura": {
+      "points": 5,
+      "max": 10,
+      "note": "regional"
+     },
+     "credibilidad": {
+      "points": 6,
+      "max": 10,
+      "note": "pendiente"
+     },
+     "claridad": {
+      "points": 1,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
    "id": "op_721268491b17",
    "title": "Premio Ambiental ‘DiQueSí’ abre convocatoria para reconocer iniciativas que transforman el territorio",
    "summary": "Desde empresas privadas hasta comunidades con iniciativas ambientales podrán postular sus proyectos en las tres ecorregiones de la jurisdicción.",
@@ -14275,7 +15555,7 @@
     "reasons": [
      "Organizador no identificado con certeza."
     ],
-    "checked_at": "2026-11-26T09:01:25-05:00",
+    "checked_at": "2026-11-27T21:48:28-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -14310,7 +15590,7 @@
    },
    "discovered_at": "2026-11-20T16:55:49-05:00",
    "updated_at": "2026-11-20T16:55:49-05:00",
-   "last_verified": "2026-11-26T09:01:25-05:00",
+   "last_verified": "2026-11-27T21:48:28-05:00",
    "last_seen": "2026-11-20T22:17:32-05:00",
    "history": [],
    "priority": {
@@ -14346,6 +15626,153 @@
       "points": 6,
       "max": 10,
       "note": "pendiente"
+     },
+     "claridad": {
+      "points": 1,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
+   "id": "op_ea6ab16c60db",
+   "title": "Abelardo de la Espriella propuso “salario solidario” en el que participarían Cajas de Compensación",
+   "summary": "La propuesta abre interrogantes sobre la discusión del salario mínimo.",
+   "section": "estado",
+   "category": "empleo",
+   "tags": [],
+   "mechanics": [],
+   "kind": "Programa público",
+   "organizer": {
+    "name": "Organizador no identificado",
+    "type": "desconocido",
+    "domain": null,
+    "known": false
+   },
+   "prize": {
+    "description": null,
+    "value_cop": null,
+    "value_text": null,
+    "value_source": null,
+    "winners": null,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "gratis_registro",
+    "label": "Gratis con registro",
+    "free": true,
+    "certainty": "inferido",
+    "requires_purchase": null,
+    "requires_registration": false,
+    "requires_social": false,
+    "requires_activity": false,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": null,
+    "notes": [
+     "No se encontró ninguna condición de compra en la fuente oficial (inferido, confírmalo en los términos)."
+    ]
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": null,
+    "age_text": null,
+    "coverage": "desconocida",
+    "cities": []
+   },
+   "requirements": [],
+   "documents": [],
+   "steps": [],
+   "steps_source": null,
+   "dates": {
+    "published": "2026-11-27T14:42:51-05:00",
+    "start": null,
+    "end": null,
+    "draw": null
+   },
+   "status": "sin_confirmar",
+   "gov": {
+    "program_status": "sin_confirmar",
+    "entity": "Organizador no identificado"
+   },
+   "offer": null,
+   "verification": {
+    "status": "no_verificable",
+    "reasons": [
+     "Información insuficiente: sin organizador identificado, fechas ni enlace oficial."
+    ],
+    "checked_at": "2026-11-27T21:48:11-05:00",
+    "link_ok": null,
+    "official_domain": false,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://caracol.com.co/2026/11/27/abelardo-de-la-espriella-propuso-salario-solidario-en-el-que-participarian-cajas-de-compensacion/",
+    "participate": null,
+    "terms": null,
+    "official": null,
+    "image": "https://caracol.com.co/resizer/v2/NIJZRFF36BFHVDDT4ZOB2X4ETU.jpeg?auth=949dc825119fec0703b44ece74709c2b2d77990db47d375c56894c84b4777f00&quality=70&width=1200&height=675&smart=true"
+   },
+   "sources": [
+    {
+     "url": "https://caracol.com.co/2026/11/27/abelardo-de-la-espriella-propuso-salario-solidario-en-el-que-participarian-cajas-de-compensacion/",
+     "name": "Caracol Radio (feed)",
+     "type": "news",
+     "seen_at": "2026-11-27T21:48:11-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 0.57,
+    "model": null
+   },
+   "discovered_at": "2026-11-27T21:48:11-05:00",
+   "updated_at": "2026-11-27T21:48:11-05:00",
+   "last_verified": "2026-11-27T21:48:11-05:00",
+   "last_seen": "2026-11-27T21:48:11-05:00",
+   "history": [],
+   "priority": {
+    "score": 60,
+    "level": "media",
+    "breakdown": {
+     "valor": {
+      "points": 9,
+      "max": 25,
+      "note": "valor no publicado"
+     },
+     "gratuidad": {
+      "points": 22,
+      "max": 25,
+      "note": "gratis_registro"
+     },
+     "facilidad": {
+      "points": 15,
+      "max": 15,
+      "note": "pocos requisitos"
+     },
+     "vigencia": {
+      "points": 5,
+      "max": 10,
+      "note": "sin fecha límite publicada"
+     },
+     "cobertura": {
+      "points": 6,
+      "max": 10,
+      "note": "desconocida"
+     },
+     "credibilidad": {
+      "points": 2,
+      "max": 10,
+      "note": "no_verificable"
      },
      "claridad": {
       "points": 1,
@@ -14444,7 +15871,7 @@
     "reasons": [
      "Organizador no identificado con certeza."
     ],
-    "checked_at": "2026-11-26T09:01:13-05:00",
+    "checked_at": "2026-11-27T21:48:19-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -14479,7 +15906,7 @@
    },
    "discovered_at": "2026-11-23T22:00:23-05:00",
    "updated_at": "2026-11-23T22:00:23-05:00",
-   "last_verified": "2026-11-26T09:01:13-05:00",
+   "last_verified": "2026-11-27T21:48:19-05:00",
    "last_seen": "2026-11-23T22:00:23-05:00",
    "history": [],
    "priority": {
@@ -14593,7 +16020,7 @@
     "reasons": [
      "Información insuficiente: sin organizador identificado, fechas ni enlace oficial."
     ],
-    "checked_at": "2026-11-26T09:01:26-05:00",
+    "checked_at": "2026-11-27T21:48:28-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -14628,8 +16055,155 @@
    },
    "discovered_at": "2026-11-20T16:55:52-05:00",
    "updated_at": "2026-11-20T16:55:52-05:00",
-   "last_verified": "2026-11-26T09:01:26-05:00",
+   "last_verified": "2026-11-27T21:48:28-05:00",
    "last_seen": "2026-11-20T16:55:52-05:00",
+   "history": [],
+   "priority": {
+    "score": 60,
+    "level": "media",
+    "breakdown": {
+     "valor": {
+      "points": 9,
+      "max": 25,
+      "note": "valor no publicado"
+     },
+     "gratuidad": {
+      "points": 22,
+      "max": 25,
+      "note": "gratis_registro"
+     },
+     "facilidad": {
+      "points": 15,
+      "max": 15,
+      "note": "pocos requisitos"
+     },
+     "vigencia": {
+      "points": 5,
+      "max": 10,
+      "note": "sin fecha límite publicada"
+     },
+     "cobertura": {
+      "points": 6,
+      "max": 10,
+      "note": "desconocida"
+     },
+     "credibilidad": {
+      "points": 2,
+      "max": 10,
+      "note": "no_verificable"
+     },
+     "claridad": {
+      "points": 1,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
+   "id": "op_bb303ee79094",
+   "title": "Alcaldía local de La Candelaria, en Bogotá, entregará licencias de conducción gratis para mujeres: estos son los requisitos",
+   "summary": "Las inscripciones serán presenciales este 27 y 28 de noviembre en la Plazoleta de los Talentos.",
+   "section": "estado",
+   "category": "convocatorias",
+   "tags": [],
+   "mechanics": [],
+   "kind": "Programa público",
+   "organizer": {
+    "name": "Organizador no identificado",
+    "type": "desconocido",
+    "domain": null,
+    "known": false
+   },
+   "prize": {
+    "description": null,
+    "value_cop": null,
+    "value_text": null,
+    "value_source": null,
+    "winners": null,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "gratis_registro",
+    "label": "Gratis con registro",
+    "free": true,
+    "certainty": "inferido",
+    "requires_purchase": null,
+    "requires_registration": false,
+    "requires_social": false,
+    "requires_activity": false,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": null,
+    "notes": [
+     "No se encontró ninguna condición de compra en la fuente oficial (inferido, confírmalo en los términos)."
+    ]
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": null,
+    "age_text": null,
+    "coverage": "desconocida",
+    "cities": []
+   },
+   "requirements": [],
+   "documents": [],
+   "steps": [],
+   "steps_source": null,
+   "dates": {
+    "published": "2026-11-26T04:57:01-05:00",
+    "start": null,
+    "end": null,
+    "draw": null
+   },
+   "status": "sin_confirmar",
+   "gov": {
+    "program_status": "sin_confirmar",
+    "entity": "Organizador no identificado"
+   },
+   "offer": null,
+   "verification": {
+    "status": "no_verificable",
+    "reasons": [
+     "Información insuficiente: sin organizador identificado, fechas ni enlace oficial."
+    ],
+    "checked_at": "2026-11-27T21:48:14-05:00",
+    "link_ok": null,
+    "official_domain": false,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://www.msn.com/es-co/noticias/otras/alcald%C3%ADa-local-de-la-candelaria-en-bogot%C3%A1-entregar%C3%A1-licencias-de-conducci%C3%B3n-gratis-para-mujeres-estos-son-los-requisitos/ar-AA2ij6PA",
+    "participate": null,
+    "terms": null,
+    "official": null,
+    "image": "http://www.bing.com/th?id=ONUT.-dixzw5JX7iigNGuytqakw&pid=News&w=640"
+   },
+   "sources": [
+    {
+     "url": "https://www.msn.com/es-co/noticias/otras/alcald%C3%ADa-local-de-la-candelaria-en-bogot%C3%A1-entregar%C3%A1-licencias-de-conducci%C3%B3n-gratis-para-mujeres-estos-son-los-requisitos/ar-AA2ij6PA",
+     "name": "Noticias · Alcaldía de Bogotá beneficios",
+     "type": "news",
+     "seen_at": "2026-11-27T21:48:14-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 0.49,
+    "model": null
+   },
+   "discovered_at": "2026-11-27T21:48:14-05:00",
+   "updated_at": "2026-11-27T21:48:14-05:00",
+   "last_verified": "2026-11-27T21:48:14-05:00",
+   "last_seen": "2026-11-27T21:48:14-05:00",
    "history": [],
    "priority": {
     "score": 60,
@@ -14951,7 +16525,7 @@
    "discovered_at": "2026-11-18T16:18:58-05:00",
    "updated_at": "2026-11-18T16:18:58-05:00",
    "last_verified": "2026-11-27T03:47:09-05:00",
-   "last_seen": "2026-11-27T14:35:38-05:00",
+   "last_seen": "2026-11-27T21:48:10-05:00",
    "history": [],
    "priority": {
     "score": 60,
@@ -15302,6 +16876,166 @@
    }
   },
   {
+   "id": "op_80c27997c775",
+   "title": "Pagos de hasta $230.000 antes de Navidad en Colombia: requisitos y fechas de cobro",
+   "summary": "Consulte los criterios de focalización, canales oficiales de verificación y cronograma estimado para los pagos de hasta $230.000 antes de Navidad en Colomb...",
+   "section": "estado",
+   "category": "ayudas",
+   "tags": [
+    "Ayudas económicas",
+    "Dinero en efectivo"
+   ],
+   "mechanics": [],
+   "kind": "Programa público",
+   "organizer": {
+    "name": "Organizador no identificado",
+    "type": "desconocido",
+    "domain": null,
+    "known": false
+   },
+   "prize": {
+    "description": null,
+    "value_cop": null,
+    "value_text": null,
+    "value_source": null,
+    "winners": null,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "gratis_registro",
+    "label": "Gratis con registro",
+    "free": true,
+    "certainty": "inferido",
+    "requires_purchase": null,
+    "requires_registration": true,
+    "requires_social": true,
+    "requires_activity": true,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": null,
+    "notes": [
+     "Pide interactuar en redes sociales (seguir, comentar o etiquetar).",
+     "No se encontró ninguna condición de compra en la fuente oficial (inferido, confírmalo en los términos)."
+    ]
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": null,
+    "age_text": null,
+    "coverage": "nacional",
+    "cities": [
+     "Bogotá"
+    ]
+   },
+   "requirements": [
+    "requisitos y fechas de cobro ¿Qué ha pasado con Colombia Mayor? Foto:",
+    "¿Quiénes son beneficiarios de Colombia Mayor? El subsidio económico de Colombia Mayor está dirigido a personas adultas mayores que no cuentan con una pensión ni con ingresos suficientes para garantizar su subsistencia.",
+    "Para hacer parte del programa, los aspirantes deben cumplir con los siguientes requisitos vigentes:"
+   ],
+   "documents": [
+    "Documento de identidad (cédula)",
+    "Certificado SISBÉN"
+   ],
+   "steps": [],
+   "steps_source": null,
+   "dates": {
+    "published": "2026-11-27T00:00:00-05:00",
+    "start": null,
+    "end": null,
+    "draw": null
+   },
+   "status": "activa",
+   "gov": {
+    "program_status": "abierta",
+    "entity": "Organizador no identificado"
+   },
+   "offer": null,
+   "verification": {
+    "status": "no_verificable",
+    "reasons": [
+     "Información insuficiente: sin organizador identificado, fechas ni enlace oficial."
+    ],
+    "checked_at": "2026-11-27T21:48:13-05:00",
+    "link_ok": null,
+    "official_domain": false,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://www.noticiasrcn.com/economia/pagos-hasta-230000-antes-de-navidad-colombia-requisitos-fechas-1086433",
+    "participate": null,
+    "terms": null,
+    "official": null,
+    "image": "https://imagenes.noticiasrcn.com/cms/2026/11/06112402/colombia-mayor-falta-pagos.webp?w=1280"
+   },
+   "sources": [
+    {
+     "url": "https://www.noticiasrcn.com/economia/pagos-hasta-230000-antes-de-navidad-colombia-requisitos-fechas-1086433",
+     "name": "Noticias · Prosperidad Social pagos",
+     "type": "news",
+     "seen_at": "2026-11-27T21:48:13-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 0.64,
+    "model": null
+   },
+   "discovered_at": "2026-11-27T21:48:13-05:00",
+   "updated_at": "2026-11-27T21:48:13-05:00",
+   "last_verified": "2026-11-27T21:48:13-05:00",
+   "last_seen": "2026-11-27T21:48:13-05:00",
+   "history": [],
+   "priority": {
+    "score": 60,
+    "level": "media",
+    "breakdown": {
+     "valor": {
+      "points": 14,
+      "max": 25,
+      "note": "valor no publicado (estimado por tipo de premio)"
+     },
+     "gratuidad": {
+      "points": 22,
+      "max": 25,
+      "note": "gratis_registro"
+     },
+     "facilidad": {
+      "points": 6,
+      "max": 15,
+      "note": "registro, actividad, redes sociales"
+     },
+     "vigencia": {
+      "points": 5,
+      "max": 10,
+      "note": "sin fecha límite publicada"
+     },
+     "cobertura": {
+      "points": 10,
+      "max": 10,
+      "note": "nacional"
+     },
+     "credibilidad": {
+      "points": 2,
+      "max": 10,
+      "note": "no_verificable"
+     },
+     "claridad": {
+      "points": 1,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
    "id": "op_089ec7286657",
    "title": "1.024 deportistas cartageneros participarán en Liga Callejera de Golito",
    "summary": "La iniciativa del IDER llegará a 64 calles de las tres localidades del Distrito",
@@ -15370,7 +17104,7 @@
     "reasons": [
      "Información insuficiente: sin organizador identificado, fechas ni enlace oficial."
     ],
-    "checked_at": "2026-11-26T09:01:11-05:00",
+    "checked_at": "2026-11-27T21:48:17-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -15405,7 +17139,7 @@
    },
    "discovered_at": "2026-11-19T08:25:50-05:00",
    "updated_at": "2026-11-19T08:25:50-05:00",
-   "last_verified": "2026-11-26T09:01:11-05:00",
+   "last_verified": "2026-11-27T21:48:17-05:00",
    "last_seen": "2026-11-19T08:25:50-05:00",
    "history": [],
    "priority": {
@@ -15541,8 +17275,8 @@
      "Tiene términos y condiciones consultables.",
      "Información insuficiente: sin organizador identificado, fechas ni enlace oficial."
     ],
-    "checked_at": "2026-11-26T18:06:32-05:00",
-    "link_ok": null,
+    "checked_at": "2026-11-27T21:48:30-05:00",
+    "link_ok": true,
     "official_domain": false,
     "terms_found": true,
     "link_failures": 0
@@ -15576,7 +17310,7 @@
    },
    "discovered_at": "2026-11-26T18:06:32-05:00",
    "updated_at": "2026-11-26T18:06:32-05:00",
-   "last_verified": "2026-11-26T18:06:32-05:00",
+   "last_verified": "2026-11-27T21:48:30-05:00",
    "last_seen": "2026-11-27T14:35:38-05:00",
    "history": [],
    "priority": {
@@ -15917,6 +17651,171 @@
      },
      "claridad": {
       "points": 1,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
+   "id": "op_dc649b152ba9",
+   "title": "Factura y Gana Criollo Festival",
+   "summary": "¡En Criollo Festival, vender con Nequi Negocios tiene premio! Recibe pagos por QR y tarjeta, vincula a tus colaboradores y participa por uno de los 10 incentivos de hasta $2 millones. ¡Haz que cada venta cuente!",
+   "section": "concursos",
+   "category": "entradas",
+   "tags": [
+    "Entradas a eventos"
+   ],
+   "mechanics": [
+    "trivia"
+   ],
+   "kind": "Concurso",
+   "organizer": {
+    "name": "Nequi",
+    "type": "billetera",
+    "domain": "nequi.com.co",
+    "known": true
+   },
+   "prize": {
+    "description": null,
+    "value_cop": 8000000,
+    "value_text": "$8.000.000",
+    "value_source": "pagina_oficial",
+    "winners": null,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "requiere_compra",
+    "label": "Requiere compra",
+    "free": false,
+    "certainty": "explicito",
+    "requires_purchase": true,
+    "requires_registration": false,
+    "requires_social": false,
+    "requires_activity": false,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": "$200.000",
+    "notes": [
+     "La fuente indica condición de compra: «por cada $».",
+     "Monto mínimo mencionado: $200.000."
+    ]
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": 18,
+    "age_text": "mayores de 18 años",
+    "coverage": "nacional",
+    "cities": [
+     "Medellín"
+    ]
+   },
+   "requirements": [
+    "¿Cómo participar? Si tu negocio está inscrito y aceptado oficialmente en Criollo Festival, debes cumplir estos tres requisitos durante la campaña:",
+    "Entre los negocios que cumplan los tres requisitos, los 10 que acumulen el mayor valor neto de transacciones válidas ocuparán los primeros lugares del ranking y recibirán los incentivos correspondientes.",
+    "Ten en cuenta Tu negocio debe estar oficialmente inscrito y aceptado en Criollo Festival, tener Nequi Negocios activo y contar con los productos de pago habilitados.",
+    "PARTICIPANTE Podrán participar en la Campaña las personas que cumplan con los siguientes requisitos, además de cualquier otro(s) establecido(s) en estos TyC (en adelante, los “Participantes”).",
+    "Ser mayores de 18 años y contar con capacidad legal para participar en la Campaña.",
+    "Tener una cuenta de ahorros o depósito de bajo monto en Nequi activo durante la Vigencia de la Campaña."
+   ],
+   "documents": [],
+   "steps": [
+    "Recibir al menos un pago exitoso por QR Negocios .",
+    "Recibir al menos un pago exitoso con tarjeta mediante Tap to Phone, datáfono o link de pagos .",
+    "Tener vinculada al menos una persona en el módulo de empleados de Nequi Negocios, con perfil de Administrador o Ventas que permita realizar cobros."
+   ],
+   "steps_source": "pagina_oficial",
+   "dates": {
+    "published": null,
+    "start": "2024-12-13",
+    "end": "2026-11-29",
+    "draw": null
+   },
+   "status": "activa",
+   "gov": null,
+   "offer": null,
+   "verification": {
+    "status": "pendiente",
+    "reasons": [
+     "El enlace pertenece a un dominio oficial del organizador.",
+     "Proviene de una fuente oficial configurada.",
+     "El enlace respondió correctamente en la última verificación.",
+     "Falta confirmar condiciones en la página oficial."
+    ],
+    "checked_at": "2026-11-27T21:48:11-05:00",
+    "link_ok": true,
+    "official_domain": true,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://www.nequi.com.co/promociones/factura-y-gana-criollo-festival",
+    "participate": "https://www.nequi.com.co/promociones/factura-y-gana-criollo-festival",
+    "terms": null,
+    "official": null,
+    "image": "https://cdn.prod.website-files.com/632b322905e108a14151cbdc/6afca2c8980bfabacd7fdf29_c%C3%B3mo%20aprovechar%20black%20friday.webp"
+   },
+   "sources": [
+    {
+     "url": "https://www.nequi.com.co/promociones/factura-y-gana-criollo-festival",
+     "name": "Nequi · promociones (oficial)",
+     "type": "official",
+     "seen_at": "2026-11-27T21:48:11-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 1.0,
+    "model": null
+   },
+   "discovered_at": "2026-11-27T21:48:11-05:00",
+   "updated_at": "2026-11-27T21:48:11-05:00",
+   "last_verified": "2026-11-27T21:48:11-05:00",
+   "last_seen": "2026-11-27T21:48:11-05:00",
+   "history": [],
+   "priority": {
+    "score": 58,
+    "level": "media",
+    "breakdown": {
+     "valor": {
+      "points": 14,
+      "max": 25,
+      "note": "valor publicado 8.000.000 COP"
+     },
+     "gratuidad": {
+      "points": 4,
+      "max": 25,
+      "note": "requiere_compra"
+     },
+     "facilidad": {
+      "points": 12,
+      "max": 15,
+      "note": "pocos requisitos"
+     },
+     "vigencia": {
+      "points": 9,
+      "max": 10,
+      "note": "vence en 2 día(s): revisar ya"
+     },
+     "cobertura": {
+      "points": 10,
+      "max": 10,
+      "note": "nacional"
+     },
+     "credibilidad": {
+      "points": 6,
+      "max": 10,
+      "note": "pendiente"
+     },
+     "claridad": {
+      "points": 3,
       "max": 5,
       "note": "sin términos enlazados"
      }
@@ -16924,7 +18823,7 @@
     "reasons": [
      "Información insuficiente: sin organizador identificado, fechas ni enlace oficial."
     ],
-    "checked_at": "2026-11-26T09:01:23-05:00",
+    "checked_at": "2026-11-27T21:48:25-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -16959,7 +18858,7 @@
    },
    "discovered_at": "2026-11-21T15:41:36-05:00",
    "updated_at": "2026-11-21T15:41:36-05:00",
-   "last_verified": "2026-11-26T09:01:23-05:00",
+   "last_verified": "2026-11-27T21:48:25-05:00",
    "last_seen": "2026-11-21T15:41:36-05:00",
    "history": [],
    "priority": {
@@ -17066,7 +18965,7 @@
     "reasons": [
      "Organizador no identificado con certeza."
     ],
-    "checked_at": "2026-11-26T09:01:13-05:00",
+    "checked_at": "2026-11-27T21:48:19-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -17101,7 +19000,7 @@
    },
    "discovered_at": "2026-11-23T22:00:24-05:00",
    "updated_at": "2026-11-23T22:00:24-05:00",
-   "last_verified": "2026-11-26T09:01:13-05:00",
+   "last_verified": "2026-11-27T21:48:19-05:00",
    "last_seen": "2026-11-23T22:00:24-05:00",
    "history": [],
    "priority": {
@@ -17455,7 +19354,7 @@
    "discovered_at": "2026-11-18T16:18:40-05:00",
    "updated_at": "2026-11-18T16:18:40-05:00",
    "last_verified": "2026-11-26T18:06:49-05:00",
-   "last_seen": "2026-11-27T14:35:38-05:00",
+   "last_seen": "2026-11-27T21:48:10-05:00",
    "history": [],
    "priority": {
     "score": 55,
@@ -17632,7 +19531,7 @@
    "discovered_at": "2026-11-18T16:18:36-05:00",
    "updated_at": "2026-11-18T16:18:36-05:00",
    "last_verified": "2026-11-26T18:06:44-05:00",
-   "last_seen": "2026-11-27T14:35:38-05:00",
+   "last_seen": "2026-11-27T21:48:10-05:00",
    "history": [],
    "priority": {
     "score": 55,
@@ -17746,8 +19645,8 @@
     "reasons": [
      "Falta confirmar condiciones en la página oficial."
     ],
-    "checked_at": "2026-11-26T18:06:32-05:00",
-    "link_ok": null,
+    "checked_at": "2026-11-27T21:48:30-05:00",
+    "link_ok": true,
     "official_domain": false,
     "terms_found": false,
     "link_failures": 0
@@ -17781,7 +19680,7 @@
    },
    "discovered_at": "2026-11-26T18:06:32-05:00",
    "updated_at": "2026-11-26T18:06:32-05:00",
-   "last_verified": "2026-11-26T18:06:32-05:00",
+   "last_verified": "2026-11-27T21:48:30-05:00",
    "last_seen": "2026-11-27T03:47:03-05:00",
    "history": [],
    "priority": {
@@ -18260,7 +20159,7 @@
    "discovered_at": "2026-11-18T16:18:39-05:00",
    "updated_at": "2026-11-18T16:18:39-05:00",
    "last_verified": "2026-11-26T18:06:47-05:00",
-   "last_seen": "2026-11-27T14:35:38-05:00",
+   "last_seen": "2026-11-27T21:48:10-05:00",
    "history": [],
    "priority": {
     "score": 55,
@@ -18706,8 +20605,8 @@
     "reasons": [
      "Falta confirmar condiciones en la página oficial."
     ],
-    "checked_at": "2026-11-26T18:06:34-05:00",
-    "link_ok": null,
+    "checked_at": "2026-11-27T21:48:32-05:00",
+    "link_ok": true,
     "official_domain": false,
     "terms_found": false,
     "link_failures": 0
@@ -18741,7 +20640,7 @@
    },
    "discovered_at": "2026-11-26T18:06:34-05:00",
    "updated_at": "2026-11-26T18:06:34-05:00",
-   "last_verified": "2026-11-26T18:06:34-05:00",
+   "last_verified": "2026-11-27T21:48:32-05:00",
    "last_seen": "2026-11-26T18:06:34-05:00",
    "history": [],
    "priority": {
@@ -18867,8 +20766,8 @@
     "reasons": [
      "Organizador no identificado con certeza."
     ],
-    "checked_at": "2026-11-26T18:06:32-05:00",
-    "link_ok": null,
+    "checked_at": "2026-11-27T21:48:30-05:00",
+    "link_ok": true,
     "official_domain": false,
     "terms_found": false,
     "link_failures": 0
@@ -18908,7 +20807,7 @@
    },
    "discovered_at": "2026-11-26T18:06:32-05:00",
    "updated_at": "2026-11-26T18:06:32-05:00",
-   "last_verified": "2026-11-26T18:06:32-05:00",
+   "last_verified": "2026-11-27T21:48:30-05:00",
    "last_seen": "2026-11-27T03:47:03-05:00",
    "history": [],
    "priority": {
@@ -19059,7 +20958,7 @@
    "discovered_at": "2026-11-24T19:52:51-05:00",
    "updated_at": "2026-11-24T19:52:51-05:00",
    "last_verified": "2026-11-27T03:47:32-05:00",
-   "last_seen": "2026-11-26T18:06:31-05:00",
+   "last_seen": "2026-11-27T21:48:10-05:00",
    "history": [],
    "priority": {
     "score": 53,
@@ -19224,7 +21123,7 @@
    "discovered_at": "2026-11-18T16:18:37-05:00",
    "updated_at": "2026-11-18T16:18:37-05:00",
    "last_verified": "2026-11-26T18:06:45-05:00",
-   "last_seen": "2026-11-27T14:35:38-05:00",
+   "last_seen": "2026-11-27T21:48:10-05:00",
    "history": [],
    "priority": {
     "score": 53,
@@ -19390,7 +21289,7 @@
    "discovered_at": "2026-11-18T16:18:38-05:00",
    "updated_at": "2026-11-18T16:18:38-05:00",
    "last_verified": "2026-11-26T18:06:46-05:00",
-   "last_seen": "2026-11-27T14:35:38-05:00",
+   "last_seen": "2026-11-27T21:48:10-05:00",
    "history": [],
    "priority": {
     "score": 53,
@@ -19664,8 +21563,8 @@
     "reasons": [
      "Falta confirmar condiciones en la página oficial."
     ],
-    "checked_at": "2026-11-26T18:06:33-05:00",
-    "link_ok": null,
+    "checked_at": "2026-11-27T21:48:31-05:00",
+    "link_ok": true,
     "official_domain": false,
     "terms_found": false,
     "link_failures": 0
@@ -19699,7 +21598,7 @@
    },
    "discovered_at": "2026-11-26T18:06:33-05:00",
    "updated_at": "2026-11-26T18:06:33-05:00",
-   "last_verified": "2026-11-26T18:06:33-05:00",
+   "last_verified": "2026-11-27T21:48:31-05:00",
    "last_seen": "2026-11-27T03:47:03-05:00",
    "history": [],
    "priority": {
@@ -19808,7 +21707,7 @@
     "reasons": [
      "Información insuficiente: sin organizador identificado, fechas ni enlace oficial."
     ],
-    "checked_at": "2026-11-26T09:01:26-05:00",
+    "checked_at": "2026-11-27T21:48:29-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -19843,7 +21742,7 @@
    },
    "discovered_at": "2026-11-20T16:55:49-05:00",
    "updated_at": "2026-11-20T16:55:49-05:00",
-   "last_verified": "2026-11-26T09:01:26-05:00",
+   "last_verified": "2026-11-27T21:48:29-05:00",
    "last_seen": "2026-11-20T22:17:32-05:00",
    "history": [],
    "priority": {
@@ -19884,6 +21783,165 @@
       "points": 1,
       "max": 5,
       "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
+   "id": "op_fb7170b0805d",
+   "title": "Black Friday 2026 en Colombia: ¿qué tiendas tienen descuentos y dónde encontrar las mejores ofertas?",
+   "summary": "El Black Friday llegará a Colombia este viernes 27 de noviembre con promociones en tecnología, electrodomésticos, moda, artículos para el hogar y más.",
+   "section": "ofertas",
+   "category": "of_tecnologia",
+   "tags": [
+    "Celulares",
+    "Hogar",
+    "Ropa y calzado",
+    "Supermercados",
+    "Tecnología",
+    "Temporadas (Black Friday, Día sin IVA…)"
+   ],
+   "mechanics": [],
+   "kind": "Oferta",
+   "organizer": {
+    "name": "Organizador no identificado",
+    "type": "desconocido",
+    "domain": null,
+    "known": false
+   },
+   "prize": {
+    "description": null,
+    "value_cop": null,
+    "value_text": null,
+    "value_source": null,
+    "winners": null,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "requiere_compra",
+    "label": "Requiere compra",
+    "free": false,
+    "certainty": "explicito",
+    "requires_purchase": true,
+    "requires_registration": false,
+    "requires_social": false,
+    "requires_activity": false,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": "$800.000",
+    "notes": [
+     "La fuente indica condición de compra: «descuentos de hasta 50 %».",
+     "Monto mínimo mencionado: $800.000."
+    ]
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": null,
+    "age_text": null,
+    "coverage": "desconocida",
+    "cities": []
+   },
+   "requirements": [],
+   "documents": [],
+   "steps": [],
+   "steps_source": null,
+   "dates": {
+    "published": "2026-11-26T13:42:39-05:00",
+    "start": "2026-11-13",
+    "end": "2026-12-04",
+    "draw": null
+   },
+   "status": "activa",
+   "gov": null,
+   "offer": {
+    "discount_pct": null,
+    "original_price": null,
+    "promo_price": null,
+    "code": null,
+    "pct_verified": false
+   },
+   "verification": {
+    "status": "pendiente",
+    "reasons": [
+     "Tiene términos y condiciones consultables.",
+     "Organizador no identificado con certeza."
+    ],
+    "checked_at": "2026-11-27T21:48:13-05:00",
+    "link_ok": null,
+    "official_domain": false,
+    "terms_found": true,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://www.minuto60.com/economia/los-mejores-descuentos-black-friday-colombia-tiendas-descuentos/19660",
+    "participate": null,
+    "terms": "https://www.minuto60.com/terminos-y-condiciones",
+    "official": null,
+    "image": "https://d33tk5b80rpokn.cloudfront.net/images/donde-comprar-en-black-friday-2026-tiendas-y-descuentos-20261126-134229_20261126_134229_twitter.jpg"
+   },
+   "sources": [
+    {
+     "url": "https://www.minuto60.com/economia/los-mejores-descuentos-black-friday-colombia-tiendas-descuentos/19660",
+     "name": "Noticias · Black Friday Colombia",
+     "type": "news",
+     "seen_at": "2026-11-27T21:48:13-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 1.0,
+    "model": null
+   },
+   "discovered_at": "2026-11-27T21:48:13-05:00",
+   "updated_at": "2026-11-27T21:48:13-05:00",
+   "last_verified": "2026-11-27T21:48:13-05:00",
+   "last_seen": "2026-11-27T21:48:13-05:00",
+   "history": [],
+   "priority": {
+    "score": 51,
+    "level": "media",
+    "breakdown": {
+     "valor": {
+      "points": 5,
+      "max": 25,
+      "note": "descuento sobre compra"
+     },
+     "gratuidad": {
+      "points": 4,
+      "max": 25,
+      "note": "requiere_compra"
+     },
+     "facilidad": {
+      "points": 15,
+      "max": 15,
+      "note": "pocos requisitos"
+     },
+     "vigencia": {
+      "points": 10,
+      "max": 10,
+      "note": "vigente (7 días restantes)"
+     },
+     "cobertura": {
+      "points": 6,
+      "max": 10,
+      "note": "desconocida"
+     },
+     "credibilidad": {
+      "points": 6,
+      "max": 10,
+      "note": "pendiente"
+     },
+     "claridad": {
+      "points": 5,
+      "max": 5,
+      "note": "términos publicados"
      }
     }
    }
@@ -20098,7 +22156,7 @@
      "Tiene términos y condiciones consultables.",
      "Información insuficiente: sin organizador identificado, fechas ni enlace oficial."
     ],
-    "checked_at": "2026-11-26T09:01:13-05:00",
+    "checked_at": "2026-11-27T21:48:19-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": true,
@@ -20133,7 +22191,7 @@
    },
    "discovered_at": "2026-11-25T06:29:00-05:00",
    "updated_at": "2026-11-25T06:29:00-05:00",
-   "last_verified": "2026-11-26T09:01:13-05:00",
+   "last_verified": "2026-11-27T21:48:19-05:00",
    "last_seen": "2026-11-26T18:06:31-05:00",
    "history": [],
    "priority": {
@@ -20301,7 +22359,7 @@
    "discovered_at": "2026-11-18T16:18:42-05:00",
    "updated_at": "2026-11-18T16:18:42-05:00",
    "last_verified": "2026-11-26T18:06:50-05:00",
-   "last_seen": "2026-11-27T14:35:38-05:00",
+   "last_seen": "2026-11-27T21:48:10-05:00",
    "history": [],
    "priority": {
     "score": 51,
@@ -20421,7 +22479,7 @@
     "reasons": [
      "Organizador no identificado con certeza."
     ],
-    "checked_at": "2026-11-26T09:01:17-05:00",
+    "checked_at": "2026-11-27T21:48:21-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -20462,7 +22520,7 @@
    },
    "discovered_at": "2026-11-19T17:17:09-05:00",
    "updated_at": "2026-11-21T15:41:33-05:00",
-   "last_verified": "2026-11-26T09:01:17-05:00",
+   "last_verified": "2026-11-27T21:48:21-05:00",
    "last_seen": "2026-11-22T07:43:01-05:00",
    "history": [
     {
@@ -20621,7 +22679,7 @@
      "El enlace respondió correctamente en la última verificación.",
      "Falta confirmar condiciones en la página oficial."
     ],
-    "checked_at": "2026-11-26T18:06:31-05:00",
+    "checked_at": "2026-11-27T21:48:29-05:00",
     "link_ok": true,
     "official_domain": true,
     "terms_found": false,
@@ -20656,8 +22714,8 @@
    },
    "discovered_at": "2026-11-26T18:06:31-05:00",
    "updated_at": "2026-11-26T18:06:31-05:00",
-   "last_verified": "2026-11-26T18:06:31-05:00",
-   "last_seen": "2026-11-27T14:35:38-05:00",
+   "last_verified": "2026-11-27T21:48:29-05:00",
+   "last_seen": "2026-11-27T21:48:10-05:00",
    "history": [],
    "priority": {
     "score": 50,
@@ -20927,7 +22985,7 @@
     "reasons": [
      "Organizador no identificado con certeza."
     ],
-    "checked_at": "2026-11-26T09:01:27-05:00",
+    "checked_at": "2026-11-27T21:48:29-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -20962,7 +23020,7 @@
    },
    "discovered_at": "2026-11-20T16:55:49-05:00",
    "updated_at": "2026-11-20T16:55:49-05:00",
-   "last_verified": "2026-11-26T09:01:27-05:00",
+   "last_verified": "2026-11-27T21:48:29-05:00",
    "last_seen": "2026-11-21T07:49:31-05:00",
    "history": [],
    "priority": {
@@ -21164,6 +23222,161 @@
    }
   },
   {
+   "id": "op_28e05b21aeaa",
+   "title": "Black Friday en Colombia: fechas clave y productos con descuentos este 2026",
+   "summary": "Las tiendas y comercios en línea alistan promociones para el fin de semana de descuentos. Los artículos con mayor demanda incluyen tecnología, electrodomésticos y moda",
+   "section": "ofertas",
+   "category": "of_eventos_comerciales",
+   "tags": [
+    "Hogar",
+    "Ropa y calzado",
+    "Tecnología",
+    "Temporadas (Black Friday, Día sin IVA…)"
+   ],
+   "mechanics": [],
+   "kind": "Oferta",
+   "organizer": {
+    "name": "Organizador no identificado",
+    "type": "desconocido",
+    "domain": null,
+    "known": false
+   },
+   "prize": {
+    "description": null,
+    "value_cop": null,
+    "value_text": null,
+    "value_source": null,
+    "winners": null,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "requiere_compra",
+    "label": "Requiere compra",
+    "free": false,
+    "certainty": "explicito",
+    "requires_purchase": true,
+    "requires_registration": false,
+    "requires_social": false,
+    "requires_activity": false,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": null,
+    "notes": [
+     "La fuente indica condición de compra: «realizar compras»."
+    ]
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": null,
+    "age_text": null,
+    "coverage": "desconocida",
+    "cities": []
+   },
+   "requirements": [],
+   "documents": [],
+   "steps": [],
+   "steps_source": null,
+   "dates": {
+    "published": "2026-11-27T12:10:58-05:00",
+    "start": "2026-11-27",
+    "end": "2026-12-04",
+    "draw": null
+   },
+   "status": "activa",
+   "gov": null,
+   "offer": {
+    "discount_pct": null,
+    "original_price": null,
+    "promo_price": null,
+    "code": null,
+    "pct_verified": false
+   },
+   "verification": {
+    "status": "pendiente",
+    "reasons": [
+     "Organizador no identificado con certeza."
+    ],
+    "checked_at": "2026-11-27T21:48:12-05:00",
+    "link_ok": null,
+    "official_domain": false,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://elpais.com/america-colombia/2026-11-27/black-friday-en-colombia-fechas-clave-y-productos-con-descuentos-este-2026.html",
+    "participate": "https://elpais.com/suscripciones/#/campaign?prod=SUSDIGCRART&o=COM&prm=suscrip_articulo_comentarios_el-pais&backURL=https%3A%2F%2Felpais.com%2Famerica-colombia%2F2026-11-27%2Fblack-friday-en-colombia-fechas-clave-y-productos-con-descuentos-este-2026.html",
+    "terms": null,
+    "official": null,
+    "image": "https://imagenes.elpais.com/resizer/v2/JWBNILOV6ZCRRD2I3PRG3CXXHM.jpg?auth=03cd0f7ab1080c63fc2833e99e80705361e0c5ad446a90e40f5d9e4e8a6239e3&width=1200"
+   },
+   "sources": [
+    {
+     "url": "https://elpais.com/america-colombia/2026-11-27/black-friday-en-colombia-fechas-clave-y-productos-con-descuentos-este-2026.html",
+     "name": "Noticias · Black Friday Colombia",
+     "type": "news",
+     "seen_at": "2026-11-27T21:48:12-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 0.97,
+    "model": null
+   },
+   "discovered_at": "2026-11-27T21:48:12-05:00",
+   "updated_at": "2026-11-27T21:48:12-05:00",
+   "last_verified": "2026-11-27T21:48:12-05:00",
+   "last_seen": "2026-11-27T21:48:12-05:00",
+   "history": [],
+   "priority": {
+    "score": 47,
+    "level": "media",
+    "breakdown": {
+     "valor": {
+      "points": 5,
+      "max": 25,
+      "note": "descuento sobre compra"
+     },
+     "gratuidad": {
+      "points": 4,
+      "max": 25,
+      "note": "requiere_compra"
+     },
+     "facilidad": {
+      "points": 15,
+      "max": 15,
+      "note": "pocos requisitos"
+     },
+     "vigencia": {
+      "points": 10,
+      "max": 10,
+      "note": "vigente (7 días restantes)"
+     },
+     "cobertura": {
+      "points": 6,
+      "max": 10,
+      "note": "desconocida"
+     },
+     "credibilidad": {
+      "points": 6,
+      "max": 10,
+      "note": "pendiente"
+     },
+     "claridad": {
+      "points": 1,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
    "id": "op_5d559b9e8d02",
    "title": "Cali participará en el Asian Bird Fair 2026 en China",
    "summary": "El aviturismo mueve más de 74 mil millones de dólares al año en todo el mundo.",
@@ -21227,7 +23440,7 @@
     "reasons": [
      "Organizador no identificado con certeza."
     ],
-    "checked_at": "2026-11-26T09:01:14-05:00",
+    "checked_at": "2026-11-27T21:48:20-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -21262,7 +23475,7 @@
    },
    "discovered_at": "2026-11-22T15:49:46-05:00",
    "updated_at": "2026-11-22T15:49:46-05:00",
-   "last_verified": "2026-11-26T09:01:14-05:00",
+   "last_verified": "2026-11-27T21:48:20-05:00",
    "last_seen": "2026-11-22T21:54:42-05:00",
    "history": [
     {
@@ -21460,6 +23673,150 @@
       "points": 6,
       "max": 10,
       "note": "pendiente"
+     },
+     "claridad": {
+      "points": 1,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
+   "id": "op_7942ea9e209d",
+   "title": "Vassar Navidad tendrá entrada gratuita el 26 y 27 de noviembre en Bogotá",
+   "summary": "Vassar Navidad 2026 tendrá entrada gratuita el 26 y 27 de noviembre en Bogotá por invitación de Visa Latam Pass con conciertos y más de 400 creadores.",
+   "section": "bonos",
+   "category": "eventos_gratis",
+   "tags": [
+    "Eventos y entradas gratis"
+   ],
+   "mechanics": [],
+   "kind": "Beneficio",
+   "organizer": {
+    "name": "Organizador no identificado",
+    "type": "desconocido",
+    "domain": null,
+    "known": false
+   },
+   "prize": {
+    "description": null,
+    "value_cop": null,
+    "value_text": null,
+    "value_source": null,
+    "winners": null,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "desconocido",
+    "label": "Costo sin confirmar",
+    "free": false,
+    "certainty": "desconocido",
+    "requires_purchase": null,
+    "requires_registration": false,
+    "requires_social": false,
+    "requires_activity": false,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": null,
+    "notes": []
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": null,
+    "age_text": null,
+    "coverage": "desconocida",
+    "cities": []
+   },
+   "requirements": [],
+   "documents": [],
+   "steps": [],
+   "steps_source": null,
+   "dates": {
+    "published": "2026-11-26T14:57:08-05:00",
+    "start": null,
+    "end": null,
+    "draw": null
+   },
+   "status": "sin_confirmar",
+   "gov": null,
+   "offer": null,
+   "verification": {
+    "status": "no_verificable",
+    "reasons": [
+     "Información insuficiente: sin organizador identificado, fechas ni enlace oficial."
+    ],
+    "checked_at": "2026-11-27T21:48:13-05:00",
+    "link_ok": null,
+    "official_domain": false,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://revistaclevel.com/vassar-navidad-tendra-entrada-gratuita-el-26-y-27-de-noviembre-en-bogota",
+    "participate": null,
+    "terms": null,
+    "official": null,
+    "image": "https://revistaclevel.com/sites/default/files/styles/image_sc_cx_1200x630/public/vassar%202.jpg?itok=tsHqbK0h"
+   },
+   "sources": [
+    {
+     "url": "https://revistaclevel.com/vassar-navidad-tendra-entrada-gratuita-el-26-y-27-de-noviembre-en-bogota",
+     "name": "Noticias · eventos gratis Bogotá",
+     "type": "news",
+     "seen_at": "2026-11-27T21:48:13-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 0.33,
+    "model": null
+   },
+   "discovered_at": "2026-11-27T21:48:13-05:00",
+   "updated_at": "2026-11-27T21:48:13-05:00",
+   "last_verified": "2026-11-27T21:48:13-05:00",
+   "last_seen": "2026-11-27T21:48:13-05:00",
+   "history": [],
+   "priority": {
+    "score": 47,
+    "level": "media",
+    "breakdown": {
+     "valor": {
+      "points": 9,
+      "max": 25,
+      "note": "valor no publicado"
+     },
+     "gratuidad": {
+      "points": 9,
+      "max": 25,
+      "note": "desconocido"
+     },
+     "facilidad": {
+      "points": 15,
+      "max": 15,
+      "note": "pocos requisitos"
+     },
+     "vigencia": {
+      "points": 5,
+      "max": 10,
+      "note": "sin fecha límite publicada"
+     },
+     "cobertura": {
+      "points": 6,
+      "max": 10,
+      "note": "desconocida"
+     },
+     "credibilidad": {
+      "points": 2,
+      "max": 10,
+      "note": "no_verificable"
      },
      "claridad": {
       "points": 1,
@@ -21686,7 +24043,7 @@
     "reasons": [
      "Organizador no identificado con certeza."
     ],
-    "checked_at": "2026-11-26T09:01:18-05:00",
+    "checked_at": "2026-11-27T21:48:22-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -21721,7 +24078,7 @@
    },
    "discovered_at": "2026-11-21T15:41:34-05:00",
    "updated_at": "2026-11-21T15:41:34-05:00",
-   "last_verified": "2026-11-26T09:01:18-05:00",
+   "last_verified": "2026-11-27T21:48:22-05:00",
    "last_seen": "2026-11-22T21:54:42-05:00",
    "history": [],
    "priority": {
@@ -21752,6 +24109,161 @@
       "points": 6,
       "max": 10,
       "note": "desconocida"
+     },
+     "credibilidad": {
+      "points": 6,
+      "max": 10,
+      "note": "pendiente"
+     },
+     "claridad": {
+      "points": 1,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
+   "id": "op_cee61cc8b3d5",
+   "title": "Esta es la hora exacta en la que acaban los descuentos del Black Friday en Colombia",
+   "summary": "Conoce a qué hora termina el Black Friday 2026 en Colombia. Revisa el cierre de centros comerciales, tiendas online y fechas extendidas.",
+   "section": "ofertas",
+   "category": "of_eventos_comerciales",
+   "tags": [
+    "Tecnología",
+    "Temporadas (Black Friday, Día sin IVA…)"
+   ],
+   "mechanics": [],
+   "kind": "Oferta",
+   "organizer": {
+    "name": "Organizador no identificado",
+    "type": "desconocido",
+    "domain": null,
+    "known": false
+   },
+   "prize": {
+    "description": null,
+    "value_cop": null,
+    "value_text": null,
+    "value_source": null,
+    "winners": null,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "requiere_compra",
+    "label": "Requiere compra",
+    "free": false,
+    "certainty": "inferido",
+    "requires_purchase": null,
+    "requires_registration": false,
+    "requires_social": true,
+    "requires_activity": true,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": "$1.500.000",
+    "notes": [
+     "Es una oferta comercial: el beneficio aplica sobre una compra."
+    ]
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": null,
+    "age_text": null,
+    "coverage": "bogota",
+    "cities": [
+     "Bogotá"
+    ]
+   },
+   "requirements": [],
+   "documents": [],
+   "steps": [],
+   "steps_source": null,
+   "dates": {
+    "published": "2026-11-27T14:03:22-05:00",
+    "start": "2026-11-27",
+    "end": "2026-12-06",
+    "draw": null
+   },
+   "status": "activa",
+   "gov": null,
+   "offer": {
+    "discount_pct": null,
+    "original_price": null,
+    "promo_price": null,
+    "code": null,
+    "pct_verified": false
+   },
+   "verification": {
+    "status": "pendiente",
+    "reasons": [
+     "Organizador no identificado con certeza."
+    ],
+    "checked_at": "2026-11-27T21:48:11-05:00",
+    "link_ok": null,
+    "official_domain": false,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://lakalle.bluradio.com/noticias/economia/esta-es-la-hora-exacta-en-la-que-acaban-los-descuentos-del-black-friday-en-colombia-so35",
+    "participate": null,
+    "terms": null,
+    "official": null,
+    "image": "https://caracoltv.brightspotcdn.com/dims4/default/5342572/2147483647/strip/true/crop/1365x768+11+0/resize/1280x720!/format/webp/quality/75/?url=https%3A%2F%2Fcaracol-brightspot.s3.us-west-2.amazonaws.com%2F8a%2Fc1%2F52aaa70e4079b06b0fb136d9648f%2Fhorario-cierre-black-friday-colombia-2026.jpg"
+   },
+   "sources": [
+    {
+     "url": "https://lakalle.bluradio.com/noticias/economia/esta-es-la-hora-exacta-en-la-que-acaban-los-descuentos-del-black-friday-en-colombia-so35",
+     "name": "Noticias · Black Friday Colombia",
+     "type": "news",
+     "seen_at": "2026-11-27T21:48:11-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 0.61,
+    "model": null
+   },
+   "discovered_at": "2026-11-27T21:48:11-05:00",
+   "updated_at": "2026-11-27T21:48:11-05:00",
+   "last_verified": "2026-11-27T21:48:11-05:00",
+   "last_seen": "2026-11-27T21:48:11-05:00",
+   "history": [],
+   "priority": {
+    "score": 46,
+    "level": "media",
+    "breakdown": {
+     "valor": {
+      "points": 5,
+      "max": 25,
+      "note": "descuento sobre compra"
+     },
+     "gratuidad": {
+      "points": 4,
+      "max": 25,
+      "note": "requiere_compra"
+     },
+     "facilidad": {
+      "points": 10,
+      "max": 15,
+      "note": "actividad, redes sociales"
+     },
+     "vigencia": {
+      "points": 10,
+      "max": 10,
+      "note": "vigente (9 días restantes)"
+     },
+     "cobertura": {
+      "points": 10,
+      "max": 10,
+      "note": "bogota"
      },
      "credibilidad": {
       "points": 6,
@@ -21835,7 +24347,7 @@
     "reasons": [
      "Información insuficiente: sin organizador identificado, fechas ni enlace oficial."
     ],
-    "checked_at": "2026-11-26T09:01:24-05:00",
+    "checked_at": "2026-11-27T21:48:27-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -21870,7 +24382,7 @@
    },
    "discovered_at": "2026-11-20T16:55:48-05:00",
    "updated_at": "2026-11-20T16:55:48-05:00",
-   "last_verified": "2026-11-26T09:01:24-05:00",
+   "last_verified": "2026-11-27T21:48:27-05:00",
    "last_seen": "2026-11-21T07:49:31-05:00",
    "history": [],
    "priority": {
@@ -21993,7 +24505,7 @@
     "reasons": [
      "Organizador no identificado con certeza."
     ],
-    "checked_at": "2026-11-26T09:01:22-05:00",
+    "checked_at": "2026-11-27T21:48:24-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -22028,7 +24540,7 @@
    },
    "discovered_at": "2026-11-21T15:41:35-05:00",
    "updated_at": "2026-11-21T15:41:35-05:00",
-   "last_verified": "2026-11-26T09:01:22-05:00",
+   "last_verified": "2026-11-27T21:48:24-05:00",
    "last_seen": "2026-11-21T15:41:35-05:00",
    "history": [],
    "priority": {
@@ -22137,8 +24649,8 @@
     "reasons": [
      "Información insuficiente: sin organizador identificado, fechas ni enlace oficial."
     ],
-    "checked_at": "2026-11-26T18:06:32-05:00",
-    "link_ok": null,
+    "checked_at": "2026-11-27T21:48:30-05:00",
+    "link_ok": true,
     "official_domain": false,
     "terms_found": false,
     "link_failures": 0
@@ -22172,7 +24684,7 @@
    },
    "discovered_at": "2026-11-26T18:06:32-05:00",
    "updated_at": "2026-11-26T18:06:32-05:00",
-   "last_verified": "2026-11-26T18:06:32-05:00",
+   "last_verified": "2026-11-27T21:48:30-05:00",
    "last_seen": "2026-11-26T18:06:32-05:00",
    "history": [],
    "priority": {
@@ -22606,8 +25118,8 @@
     "reasons": [
      "Organizador no identificado con certeza."
     ],
-    "checked_at": "2026-11-26T18:06:34-05:00",
-    "link_ok": null,
+    "checked_at": "2026-11-27T21:48:32-05:00",
+    "link_ok": true,
     "official_domain": false,
     "terms_found": false,
     "link_failures": 0
@@ -22641,7 +25153,7 @@
    },
    "discovered_at": "2026-11-26T18:06:34-05:00",
    "updated_at": "2026-11-26T18:06:34-05:00",
-   "last_verified": "2026-11-26T18:06:34-05:00",
+   "last_verified": "2026-11-27T21:48:32-05:00",
    "last_seen": "2026-11-26T18:06:34-05:00",
    "history": [],
    "priority": {
@@ -22680,161 +25192,6 @@
      },
      "claridad": {
       "points": 3,
-      "max": 5,
-      "note": "sin términos enlazados"
-     }
-    }
-   }
-  },
-  {
-   "id": "op_4b73b3ae0609",
-   "title": "Black Friday en Bogotá: los centros comerciales se preparan con descuentos",
-   "summary": "Bogotá tendrá jornadas de descuentos para adelantar las compras de Navidad en Black Friday.",
-   "section": "ofertas",
-   "category": "of_eventos_comerciales",
-   "tags": [
-    "Temporadas (Black Friday, Día sin IVA…)"
-   ],
-   "mechanics": [],
-   "kind": "Oferta",
-   "organizer": {
-    "name": "Organizador no identificado",
-    "type": "desconocido",
-    "domain": null,
-    "known": false
-   },
-   "prize": {
-    "description": null,
-    "value_cop": null,
-    "value_text": null,
-    "value_source": null,
-    "winners": null,
-    "odds_text": null
-   },
-   "cost": {
-    "type": "requiere_compra",
-    "label": "Requiere compra",
-    "free": false,
-    "certainty": "explicito",
-    "requires_purchase": true,
-    "requires_registration": false,
-    "requires_social": true,
-    "requires_activity": true,
-    "requires_subscription": false,
-    "requires_deposit": false,
-    "purchase_threshold_text": null,
-    "notes": [
-     "La fuente indica condición de compra: «descuentos de hasta el 50 %»."
-    ]
-   },
-   "eligibility": {
-    "who": null,
-    "min_age": null,
-    "age_text": null,
-    "coverage": "bogota",
-    "cities": [
-     "Bogotá",
-     "Chía"
-    ]
-   },
-   "requirements": [],
-   "documents": [],
-   "steps": [],
-   "steps_source": null,
-   "dates": {
-    "published": "2026-11-24T00:00:00-05:00",
-    "start": "2026-11-15",
-    "end": "2027-03-19",
-    "draw": null
-   },
-   "status": "activa",
-   "gov": null,
-   "offer": {
-    "discount_pct": null,
-    "original_price": null,
-    "promo_price": null,
-    "code": null,
-    "pct_verified": false
-   },
-   "verification": {
-    "status": "pendiente",
-    "reasons": [
-     "Organizador no identificado con certeza."
-    ],
-    "checked_at": "2026-11-27T03:47:33-05:00",
-    "link_ok": true,
-    "official_domain": false,
-    "terms_found": false,
-    "link_failures": 0
-   },
-   "risk": {
-    "level": "bajo",
-    "flags": [],
-    "sensitive_data_warning": false
-   },
-   "urls": {
-    "source": "https://www.noticiasrcn.com/economia/black-friday-bogota-descuentos-centros-comerciales-2026-1084940",
-    "participate": null,
-    "terms": null,
-    "official": null,
-    "image": "https://imagenes.noticiasrcn.com/cms/2026/11/24125944/black-friday.webp?w=1280"
-   },
-   "sources": [
-    {
-     "url": "https://www.noticiasrcn.com/economia/black-friday-bogota-descuentos-centros-comerciales-2026-1084940",
-     "name": "Noticias · Black Friday Colombia",
-     "type": "news",
-     "seen_at": "2026-11-24T19:52:52-05:00"
-    }
-   ],
-   "language": "es",
-   "translated": false,
-   "extraction": {
-    "method": "heuristica",
-    "relevance": 1.0,
-    "model": null
-   },
-   "discovered_at": "2026-11-24T19:52:52-05:00",
-   "updated_at": "2026-11-24T19:52:52-05:00",
-   "last_verified": "2026-11-27T03:47:33-05:00",
-   "last_seen": "2026-11-24T19:52:52-05:00",
-   "history": [],
-   "priority": {
-    "score": 44,
-    "level": "baja",
-    "breakdown": {
-     "valor": {
-      "points": 5,
-      "max": 25,
-      "note": "descuento sobre compra"
-     },
-     "gratuidad": {
-      "points": 4,
-      "max": 25,
-      "note": "requiere_compra"
-     },
-     "facilidad": {
-      "points": 10,
-      "max": 15,
-      "note": "actividad, redes sociales"
-     },
-     "vigencia": {
-      "points": 8,
-      "max": 10,
-      "note": "vigente (112 días restantes)"
-     },
-     "cobertura": {
-      "points": 10,
-      "max": 10,
-      "note": "bogota"
-     },
-     "credibilidad": {
-      "points": 6,
-      "max": 10,
-      "note": "pendiente"
-     },
-     "claridad": {
-      "points": 1,
       "max": 5,
       "note": "sin términos enlazados"
      }
@@ -24250,6 +26607,334 @@
    }
   },
   {
+   "id": "op_fffe23db4429",
+   "title": "San Victorino se suma al Black Friday con descuentos y una apuesta por lo hecho en Colombia",
+   "summary": "Fabricantes y pequeños buscan aprovechar la temporada de compras navideñas para atraer clientes, impulsar sus negocios y demostrar que la industria nacional puede competir con marcas internacionales.",
+   "section": "ofertas",
+   "category": "of_eventos_comerciales",
+   "tags": [
+    "Ropa y calzado",
+    "Temporadas (Black Friday, Día sin IVA…)"
+   ],
+   "mechanics": [],
+   "kind": "Oferta",
+   "organizer": {
+    "name": "Organizador no identificado",
+    "type": "desconocido",
+    "domain": null,
+    "known": false
+   },
+   "prize": {
+    "description": null,
+    "value_cop": null,
+    "value_text": null,
+    "value_source": null,
+    "winners": null,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "requiere_compra",
+    "label": "Requiere compra",
+    "free": false,
+    "certainty": "inferido",
+    "requires_purchase": null,
+    "requires_registration": false,
+    "requires_social": false,
+    "requires_activity": false,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": null,
+    "notes": [
+     "Es una oferta comercial: el beneficio aplica sobre una compra."
+    ]
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": null,
+    "age_text": null,
+    "coverage": "bogota",
+    "cities": [
+     "Bogotá"
+    ]
+   },
+   "requirements": [],
+   "documents": [],
+   "steps": [],
+   "steps_source": null,
+   "dates": {
+    "published": "2026-11-27T16:27:32-05:00",
+    "start": null,
+    "end": null,
+    "draw": null
+   },
+   "status": "sin_confirmar",
+   "gov": null,
+   "offer": {
+    "discount_pct": null,
+    "original_price": null,
+    "promo_price": null,
+    "code": null,
+    "pct_verified": false
+   },
+   "verification": {
+    "status": "no_verificable",
+    "reasons": [
+     "Información insuficiente: sin organizador identificado, fechas ni enlace oficial."
+    ],
+    "checked_at": "2026-11-27T21:48:11-05:00",
+    "link_ok": null,
+    "official_domain": false,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://www.bluradio.com/regiones/bogota/san-victorino-se-suma-al-black-friday-con-descuentos-y-una-apuesta-por-lo-hecho-en-colombia-rg10",
+    "participate": null,
+    "terms": null,
+    "official": null,
+    "image": "https://caracoltv.brightspotcdn.com/dims4/default/3be8552/2147483647/strip/true/crop/1280x720+0+0/resize/1280x720!/format/webp/quality/75/?url=https%3A%2F%2Fcaracol-brightspot.s3.us-west-2.amazonaws.com%2F32%2F33%2Fea26a8454ff0bd40ed0dcb7e3ac2%2Flocal-comercial-en-la-zona-de-san-victorino-en-bogota.jpg"
+   },
+   "sources": [
+    {
+     "url": "https://www.bluradio.com/regiones/bogota/san-victorino-se-suma-al-black-friday-con-descuentos-y-una-apuesta-por-lo-hecho-en-colombia-rg10",
+     "name": "Noticias · Black Friday Colombia",
+     "type": "news",
+     "seen_at": "2026-11-27T21:48:11-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 0.57,
+    "model": null
+   },
+   "discovered_at": "2026-11-27T21:48:11-05:00",
+   "updated_at": "2026-11-27T21:48:11-05:00",
+   "last_verified": "2026-11-27T21:48:11-05:00",
+   "last_seen": "2026-11-27T21:48:11-05:00",
+   "history": [],
+   "priority": {
+    "score": 42,
+    "level": "baja",
+    "breakdown": {
+     "valor": {
+      "points": 5,
+      "max": 25,
+      "note": "descuento sobre compra"
+     },
+     "gratuidad": {
+      "points": 4,
+      "max": 25,
+      "note": "requiere_compra"
+     },
+     "facilidad": {
+      "points": 15,
+      "max": 15,
+      "note": "pocos requisitos"
+     },
+     "vigencia": {
+      "points": 5,
+      "max": 10,
+      "note": "sin fecha límite publicada"
+     },
+     "cobertura": {
+      "points": 10,
+      "max": 10,
+      "note": "bogota"
+     },
+     "credibilidad": {
+      "points": 2,
+      "max": 10,
+      "note": "no_verificable"
+     },
+     "claridad": {
+      "points": 1,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
+   "id": "op_4b73b3ae0609",
+   "title": "Black Friday en Colombia: descuentos y centros comerciales",
+   "summary": "Black Friday en Colombia: seis centros comerciales de Parque Arauco anuncian descuentos y horarios extendidos del 27 al 30 de noviembre de 2026.",
+   "section": "ofertas",
+   "category": "of_eventos_comerciales",
+   "tags": [
+    "Temporadas (Black Friday, Día sin IVA…)"
+   ],
+   "mechanics": [],
+   "kind": "Oferta",
+   "organizer": {
+    "name": "Organizador no identificado",
+    "type": "desconocido",
+    "domain": null,
+    "known": false
+   },
+   "prize": {
+    "description": null,
+    "value_cop": null,
+    "value_text": null,
+    "value_source": null,
+    "winners": null,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "requiere_compra",
+    "label": "Requiere compra",
+    "free": false,
+    "certainty": "inferido",
+    "requires_purchase": null,
+    "requires_registration": false,
+    "requires_social": false,
+    "requires_activity": false,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": null,
+    "notes": [
+     "Es una oferta comercial: el beneficio aplica sobre una compra."
+    ]
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": null,
+    "age_text": null,
+    "coverage": "desconocida",
+    "cities": []
+   },
+   "requirements": [],
+   "documents": [],
+   "steps": [],
+   "steps_source": null,
+   "dates": {
+    "published": "2026-11-27T17:28:25-05:00",
+    "start": "2026-11-15",
+    "end": "2027-03-19",
+    "draw": null
+   },
+   "status": "sin_confirmar",
+   "gov": null,
+   "offer": {
+    "discount_pct": null,
+    "original_price": null,
+    "promo_price": null,
+    "code": null,
+    "pct_verified": false
+   },
+   "verification": {
+    "status": "no_verificable",
+    "reasons": [
+     "Información insuficiente: sin organizador identificado, fechas ni enlace oficial."
+    ],
+    "checked_at": "2026-11-27T21:48:11-05:00",
+    "link_ok": null,
+    "official_domain": false,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://canaltrece.com.co/noticias/black-friday-en-colombia-centros/",
+    "participate": null,
+    "terms": null,
+    "official": null,
+    "image": "https://canaltrece.com.co/wp-content/uploads/2026/11/B829B07A-CBE6-4DD1-9D5A-22F317EC11E7.png"
+   },
+   "sources": [
+    {
+     "url": "https://www.noticiasrcn.com/economia/black-friday-bogota-descuentos-centros-comerciales-2026-1084940",
+     "name": "Noticias · Black Friday Colombia",
+     "type": "news",
+     "seen_at": "2026-11-24T19:52:52-05:00"
+    },
+    {
+     "url": "https://canaltrece.com.co/noticias/black-friday-en-colombia-centros/",
+     "name": "Noticias · Black Friday Colombia",
+     "type": "news",
+     "seen_at": "2026-11-27T21:48:11-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 0.33,
+    "model": null
+   },
+   "discovered_at": "2026-11-24T19:52:52-05:00",
+   "updated_at": "2026-11-27T21:48:11-05:00",
+   "last_verified": "2026-11-27T21:48:11-05:00",
+   "last_seen": "2026-11-27T21:48:11-05:00",
+   "history": [
+    {
+     "at": "2026-11-27T21:48:11-05:00",
+     "field": "status",
+     "label": "Estado",
+     "from": "activa",
+     "to": "sin_confirmar"
+    },
+    {
+     "at": "2026-11-27T21:48:11-05:00",
+     "field": "verification.status",
+     "label": "Verificación",
+     "from": "pendiente",
+     "to": "no_verificable"
+    }
+   ],
+   "priority": {
+    "score": 41,
+    "level": "baja",
+    "breakdown": {
+     "valor": {
+      "points": 5,
+      "max": 25,
+      "note": "descuento sobre compra"
+     },
+     "gratuidad": {
+      "points": 4,
+      "max": 25,
+      "note": "requiere_compra"
+     },
+     "facilidad": {
+      "points": 15,
+      "max": 15,
+      "note": "pocos requisitos"
+     },
+     "vigencia": {
+      "points": 8,
+      "max": 10,
+      "note": "vigente (112 días restantes)"
+     },
+     "cobertura": {
+      "points": 6,
+      "max": 10,
+      "note": "desconocida"
+     },
+     "credibilidad": {
+      "points": 2,
+      "max": 10,
+      "note": "no_verificable"
+     },
+     "claridad": {
+      "points": 1,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
    "id": "op_7e5f3417f65a",
    "title": "Estos son los subsidios disponibles en Expovivienda 2026 en Bogotá; así puede inscribirse",
    "summary": "Este fin de semana en Bogotá se lleva a cabo el ‘Black Friday’ de la vivienda y allí podrá encontrar los subsidios que otorga el Distrito.",
@@ -24323,7 +27008,7 @@
     "reasons": [
      "Información insuficiente: sin organizador identificado, fechas ni enlace oficial."
     ],
-    "checked_at": "2026-11-26T09:01:20-05:00",
+    "checked_at": "2026-11-27T21:48:23-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -24358,7 +27043,7 @@
    },
    "discovered_at": "2026-11-21T15:41:34-05:00",
    "updated_at": "2026-11-21T15:41:34-05:00",
-   "last_verified": "2026-11-26T09:01:20-05:00",
+   "last_verified": "2026-11-27T21:48:23-05:00",
    "last_seen": "2026-11-23T09:51:36-05:00",
    "history": [],
    "priority": {
@@ -24505,7 +27190,7 @@
    "discovered_at": "2026-11-20T08:04:54-05:00",
    "updated_at": "2026-11-20T08:04:54-05:00",
    "last_verified": "2026-11-27T14:36:11-05:00",
-   "last_seen": "2026-11-27T14:35:38-05:00",
+   "last_seen": "2026-11-27T21:48:10-05:00",
    "history": [],
    "priority": {
     "score": 39,
@@ -24535,6 +27220,158 @@
       "points": 5,
       "max": 10,
       "note": "regional"
+     },
+     "credibilidad": {
+      "points": 2,
+      "max": 10,
+      "note": "no_verificable"
+     },
+     "claridad": {
+      "points": 1,
+      "max": 5,
+      "note": "sin términos enlazados"
+     }
+    }
+   }
+  },
+  {
+   "id": "op_db8000c2ef3c",
+   "title": "Black Friday 2026 en Colombia: siga el minuto a minuto de las mejores ofertas y descuentos en tiendas de este viernes 27 de noviembre",
+   "summary": "Conozca las categorías de productos y los comercios que tendrán precios especiales durante esta jornada comercial.",
+   "section": "ofertas",
+   "category": "of_eventos_comerciales",
+   "tags": [
+    "Temporadas (Black Friday, Día sin IVA…)"
+   ],
+   "mechanics": [],
+   "kind": "Oferta",
+   "organizer": {
+    "name": "Organizador no identificado",
+    "type": "desconocido",
+    "domain": null,
+    "known": false
+   },
+   "prize": {
+    "description": null,
+    "value_cop": null,
+    "value_text": null,
+    "value_source": null,
+    "winners": null,
+    "odds_text": null
+   },
+   "cost": {
+    "type": "requiere_compra",
+    "label": "Requiere compra",
+    "free": false,
+    "certainty": "inferido",
+    "requires_purchase": null,
+    "requires_registration": false,
+    "requires_social": false,
+    "requires_activity": false,
+    "requires_subscription": false,
+    "requires_deposit": false,
+    "purchase_threshold_text": null,
+    "notes": [
+     "Es una oferta comercial: el beneficio aplica sobre una compra."
+    ]
+   },
+   "eligibility": {
+    "who": null,
+    "min_age": null,
+    "age_text": null,
+    "coverage": "desconocida",
+    "cities": []
+   },
+   "requirements": [],
+   "documents": [],
+   "steps": [],
+   "steps_source": null,
+   "dates": {
+    "published": "2026-11-26T23:49:28-05:00",
+    "start": null,
+    "end": null,
+    "draw": null
+   },
+   "status": "sin_confirmar",
+   "gov": null,
+   "offer": {
+    "discount_pct": null,
+    "original_price": null,
+    "promo_price": null,
+    "code": null,
+    "pct_verified": false
+   },
+   "verification": {
+    "status": "no_verificable",
+    "reasons": [
+     "Información insuficiente: sin organizador identificado, fechas ni enlace oficial."
+    ],
+    "checked_at": "2026-11-27T21:48:13-05:00",
+    "link_ok": null,
+    "official_domain": false,
+    "terms_found": false,
+    "link_failures": 0
+   },
+   "risk": {
+    "level": "bajo",
+    "flags": [],
+    "sensitive_data_warning": false
+   },
+   "urls": {
+    "source": "https://www.msn.com/es-co/noticias/otras/black-friday-2026-en-colombia-siga-el-minuto-a-minuto-de-las-mejores-ofertas-y-descuentos-en-tiendas-de-este-viernes-27-de-noviembre/ar-AA2imesj",
+    "participate": null,
+    "terms": null,
+    "official": null,
+    "image": "http://www.bing.com/th?id=ONUT.sHJM2uc-dsx-XxK78503pQ&pid=News&w=640"
+   },
+   "sources": [
+    {
+     "url": "https://www.msn.com/es-co/noticias/otras/black-friday-2026-en-colombia-siga-el-minuto-a-minuto-de-las-mejores-ofertas-y-descuentos-en-tiendas-de-este-viernes-27-de-noviembre/ar-AA2imesj",
+     "name": "Noticias · Black Friday Colombia",
+     "type": "news",
+     "seen_at": "2026-11-27T21:48:13-05:00"
+    }
+   ],
+   "language": "es",
+   "translated": false,
+   "extraction": {
+    "method": "heuristica",
+    "relevance": 0.58,
+    "model": null
+   },
+   "discovered_at": "2026-11-27T21:48:13-05:00",
+   "updated_at": "2026-11-27T21:48:13-05:00",
+   "last_verified": "2026-11-27T21:48:13-05:00",
+   "last_seen": "2026-11-27T21:48:13-05:00",
+   "history": [],
+   "priority": {
+    "score": 38,
+    "level": "baja",
+    "breakdown": {
+     "valor": {
+      "points": 5,
+      "max": 25,
+      "note": "descuento sobre compra"
+     },
+     "gratuidad": {
+      "points": 4,
+      "max": 25,
+      "note": "requiere_compra"
+     },
+     "facilidad": {
+      "points": 15,
+      "max": 15,
+      "note": "pocos requisitos"
+     },
+     "vigencia": {
+      "points": 5,
+      "max": 10,
+      "note": "sin fecha límite publicada"
+     },
+     "cobertura": {
+      "points": 6,
+      "max": 10,
+      "note": "desconocida"
      },
      "credibilidad": {
       "points": 2,
@@ -24927,7 +27764,7 @@
     "reasons": [
      "Información insuficiente: sin organizador identificado, fechas ni enlace oficial."
     ],
-    "checked_at": "2026-11-26T09:01:21-05:00",
+    "checked_at": "2026-11-27T21:48:23-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -24962,7 +27799,7 @@
    },
    "discovered_at": "2026-11-21T15:41:34-05:00",
    "updated_at": "2026-11-21T15:41:34-05:00",
-   "last_verified": "2026-11-26T09:01:21-05:00",
+   "last_verified": "2026-11-27T21:48:23-05:00",
    "last_seen": "2026-11-22T21:54:42-05:00",
    "history": [],
    "priority": {
@@ -25079,7 +27916,7 @@
     "reasons": [
      "Información insuficiente: sin organizador identificado, fechas ni enlace oficial."
     ],
-    "checked_at": "2026-11-26T09:01:18-05:00",
+    "checked_at": "2026-11-27T21:48:22-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -25120,7 +27957,7 @@
    },
    "discovered_at": "2026-11-21T07:49:31-05:00",
    "updated_at": "2026-11-21T07:49:31-05:00",
-   "last_verified": "2026-11-26T09:01:18-05:00",
+   "last_verified": "2026-11-27T21:48:22-05:00",
    "last_seen": "2026-11-22T07:43:01-05:00",
    "history": [],
    "priority": {
@@ -25246,7 +28083,7 @@
     "reasons": [
      "Información insuficiente: sin organizador identificado, fechas ni enlace oficial."
     ],
-    "checked_at": "2026-11-26T09:01:15-05:00",
+    "checked_at": "2026-11-27T21:48:20-05:00",
     "link_ok": true,
     "official_domain": false,
     "terms_found": false,
@@ -25281,7 +28118,7 @@
    },
    "discovered_at": "2026-11-22T15:49:46-05:00",
    "updated_at": "2026-11-22T15:49:46-05:00",
-   "last_verified": "2026-11-26T09:01:15-05:00",
+   "last_verified": "2026-11-27T21:48:20-05:00",
    "last_seen": "2026-11-23T09:51:36-05:00",
    "history": [],
    "priority": {
@@ -25938,7 +28775,7 @@
    "discovered_at": "2026-11-22T21:54:42-05:00",
    "updated_at": "2026-11-22T21:54:42-05:00",
    "last_verified": "2026-11-24T10:01:02-05:00",
-   "last_seen": "2026-11-26T09:00:43-05:00",
+   "last_seen": "2026-11-27T21:48:10-05:00",
    "history": [
     {
      "at": "2026-11-24T10:01:32-05:00",
@@ -27632,7 +30469,7 @@
    "discovered_at": "2026-11-18T16:18:43-05:00",
    "updated_at": "2026-11-18T16:18:43-05:00",
    "last_verified": "2026-11-25T06:29:41-05:00",
-   "last_seen": "2026-11-27T14:35:38-05:00",
+   "last_seen": "2026-11-27T21:48:10-05:00",
    "history": [
     {
      "at": "2026-11-26T09:01:27-05:00",
@@ -27978,7 +30815,7 @@
    "discovered_at": "2026-11-18T16:18:55-05:00",
    "updated_at": "2026-11-18T16:18:55-05:00",
    "last_verified": "2026-11-19T17:17:31-05:00",
-   "last_seen": "2026-11-27T14:35:38-05:00",
+   "last_seen": "2026-11-27T21:48:10-05:00",
    "history": [
     {
      "at": "2026-11-20T08:04:57-05:00",
@@ -28961,7 +31798,7 @@
    "discovered_at": "2026-11-18T17:21:34-05:00",
    "updated_at": "2026-11-18T17:21:34-05:00",
    "last_verified": "2026-11-25T23:15:42-05:00",
-   "last_seen": "2026-11-27T14:35:38-05:00",
+   "last_seen": "2026-11-27T21:48:10-05:00",
    "history": [
     {
      "at": "2026-11-26T09:01:27-05:00",

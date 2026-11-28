@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T14:36:12-05:00",
+ "generated_at": "2026-11-27T21:48:33-05:00",
  "changes": [
   {
    "at": "2026-11-18T17:21:56-05:00",
@@ -441,6 +441,33 @@
    "to": "gratis_registro",
    "id": "op_720f3ed21ecd",
    "title": "Claro empresas abre convocatoria gratuita para promocionar emprendimientos colombianos en Navidad"
+  },
+  {
+   "at": "2026-11-27T21:48:11-05:00",
+   "field": "status",
+   "label": "Estado",
+   "from": "activa",
+   "to": "sin_confirmar",
+   "id": "op_4b73b3ae0609",
+   "title": "Black Friday en Colombia: descuentos y centros comerciales"
+  },
+  {
+   "at": "2026-11-27T21:48:11-05:00",
+   "field": "verification.status",
+   "label": "Verificación",
+   "from": "pendiente",
+   "to": "no_verificable",
+   "id": "op_4b73b3ae0609",
+   "title": "Black Friday en Colombia: descuentos y centros comerciales"
+  },
+  {
+   "at": "2026-11-27T21:48:11-05:00",
+   "field": "status",
+   "label": "Estado",
+   "from": "proxima",
+   "to": "activa",
+   "id": "op_3209a45b01c8",
+   "title": "SENA abre más de 60.000 cupos gratuitos para 2027: conozca cómo inscribirse y qué carreras estudiar"
   }
  ]
 }
